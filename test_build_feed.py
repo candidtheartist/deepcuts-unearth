@@ -37,6 +37,25 @@ class ParserTests(unittest.TestCase):
         self.assertIsNone(b.stereogum_aotw({"title": "Something else"}))
 
 
+class SongParserTests(unittest.TestCase):
+    def test_pitchfork_track_strips_quotes(self):
+        item = {"title": "“Free Byrd”", "link": "https://pitchfork.com/reviews/tracks/lily-konigsberg-free-byrd/"}
+        self.assertEqual(b.pitchfork_track(item), ("Lily Konigsberg", "Free Byrd"))
+
+    def test_gorilla_vs_bear(self):
+        self.assertEqual(b.gorilla_vs_bear({"title": "Helena Deland – How Do You Like Me Now"}), ("Helena Deland", "How Do You Like Me Now"))
+        self.assertIsNone(b.gorilla_vs_bear({"title": "Boyhood – Sparkle Dub / I’ll Dream Instead"}))
+
+    def test_stereogum_song_needs_one_quoted_title(self):
+        self.assertEqual(b.stereogum_song({"title": "Marissa Nadler – “Sky Burial”"}), ("Marissa Nadler", "Sky Burial"))
+        self.assertIsNone(b.stereogum_song({"title": "Marissa Nadler & Stephen Brodsky – “Sky Burial” & “Drive It In”"}))
+        self.assertIsNone(b.stereogum_song({"title": "Shane Parish Surprise Releases New Album"}))
+
+    def test_pitchfork_feeds_are_one_family(self):
+        self.assertEqual(b.family("pitchfork-bnt"), b.family("pitchfork-tracks"))
+        self.assertNotEqual(b.family("stereogum-songs"), b.family("stereogum"))
+
+
 class HelperTests(unittest.TestCase):
     def test_key_ignores_case_editions_and_the(self):
         self.assertEqual(b.key("The Strokes", "Is This It (Deluxe)"), b.key("strokes", "IS THIS IT"))

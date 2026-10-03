@@ -99,6 +99,23 @@ def stereogum_aotw(item):
     return ("", text) if text != item["title"] else None
 
 
+def pitchfork_track(item):
+    """Track titles come wrapped in quotes; the artist is the start of the link's slug, as for albums."""
+    return pitchfork({"title": item["title"].strip("“”\"' "), "link": item["link"]})
+
+
+def gorilla_vs_bear(item):
+    parsed = split_on([" – ", " - "])(item)
+    # "A / B" posts are two songs at once: skip them rather than guess.
+    return None if not parsed or " / " in parsed[1] else parsed
+
+
+def stereogum_song(item):
+    """Single-song posts look like: Artist – “Title”. News posts and two-song posts don't."""
+    m = re.match(r"^(.+?)\s+[–-]\s+[“\"]([^”\"]+)[”\"]\s*$", item["title"])
+    return (m.group(1).strip(), m.group(2).strip()) if m else None
+
+
 SOURCES = [
     {"id": "pitchfork-bnm", "name": "Pitchfork Best New Music", "kind": "blog", "weight": 3.0,
      "site": "https://pitchfork.com/reviews/best/albums/",
@@ -121,6 +138,21 @@ SOURCES = [
     {"id": "beats-per-minute", "name": "Beats Per Minute", "kind": "blog", "weight": 1.5,
      "site": "https://beatsperminute.com/category/reviews/album-reviews/",
      "feed": "https://beatsperminute.com/category/reviews/album-reviews/feed/", "parse": beats_per_minute},
+]
+
+SONG_SOURCES = [
+    {"id": "pitchfork-bnt", "name": "Pitchfork Best New Track", "kind": "blog", "weight": 3.0,
+     "site": "https://pitchfork.com/reviews/best/tracks/",
+     "feed": "https://pitchfork.com/feed/reviews/best/tracks/rss", "parse": pitchfork_track},
+    {"id": "pitchfork-tracks", "name": "Pitchfork Tracks", "kind": "blog", "weight": 1.5,
+     "site": "https://pitchfork.com/reviews/tracks/",
+     "feed": "https://pitchfork.com/feed/feed-track-reviews/rss", "parse": pitchfork_track},
+    {"id": "gorilla-vs-bear", "name": "Gorilla vs. Bear", "kind": "curator", "weight": 2.5,
+     "site": "https://www.gorillavsbear.net",
+     "feed": "https://www.gorillavsbear.net/feed/", "parse": gorilla_vs_bear},
+    {"id": "stereogum-songs", "name": "Stereogum", "kind": "blog", "weight": 1.5,
+     "site": "https://www.stereogum.com/category/music/",
+     "feed": "https://www.stereogum.com/category/music/feed/", "parse": stereogum_song},
 ]
 
 LISTENERS = {"id": "listenbrainz", "name": "ListenBrainz listeners", "kind": "listeners",
@@ -221,9 +253,9 @@ def feed_items(xml_bytes):
 # ---------------------------------------------------------------------------------------------
 
 
-def blog_mentions(now):
+def blog_mentions(now, sources):
     mentions, status = [], {}
-    for source in SOURCES:
+    for source in sources:
         try:
             data = fetch(source["feed"])
             if data.lstrip()[:15].lower().startswith((b"<!doctype html", b"<html")):
@@ -244,35 +276,39 @@ def blog_mentions(now):
             mentions.append({"source": source["id"], "artist": artist, "album": album, "url": item["link"],
                              "date": item["date"], "image": item["image"], "weight": source["weight"]})
             found += 1
-        status[source["id"]] = f"{found} albums"
-        log(f"  {source['id']}: {found} albums from {len(items)} items")
+        status[source["id"]] = f"{found} found"
+        log(f"  {source['id']}: {found} found in {len(items)} items")
     return mentions, status
 
 
-def listener_trends():
-    """Albums whose listening last week is well above their monthly average.
+def listener_trends(kind):
+    """Albums (or songs) whose listening last week is well above their monthly average.
     Skips the very top (already on every chart), small audiences, and anything that isn't
     in the monthly list (without a baseline there's no way to tell it's rising)."""
+    entity, name_field = ("release-groups", "release_group_name") if kind == "album" else ("recordings", "track_name")
+
     def top(range_name, count):
-        url = f"https://api.listenbrainz.org/1/stats/sitewide/release-groups?range={range_name}&count={count}"
-        groups = json.loads(fetch(url, timeout=60))["payload"]["release_groups"]
+        url = f"https://api.listenbrainz.org/1/stats/sitewide/{entity}?range={range_name}&count={count}"
+        rows = json.loads(fetch(url, timeout=60))["payload"][entity.replace("-", "_")]
         merged = {}
-        for group in groups:  # the same album can appear more than once, under different editions
-            k = key(group["artist_name"], group["release_group_name"])
-            merged.setdefault(k, {"artist": group["artist_name"], "album": group["release_group_name"], "listens": 0})
-            merged[k]["listens"] += group["listen_count"]
+        for row in rows:  # the same album can appear more than once, under different editions
+            if not row.get("artist_name") or not row.get(name_field):
+                continue
+            k = key(row["artist_name"], row[name_field])
+            merged.setdefault(k, {"artist": row["artist_name"], "album": row[name_field], "listens": 0})
+            merged[k]["listens"] += row["listen_count"]
         return merged
 
     week, month = top("week", 1000), top("month", 1000)
     ranked = sorted(week.items(), key=lambda kv: -kv[1]["listens"])
     trends = []
-    for rank, (k, album) in enumerate(ranked):
+    for rank, (k, item) in enumerate(ranked):
         monthly = month.get(k, {}).get("listens", 0)
-        if rank < 40 or album["listens"] < 300 or not monthly:
+        if rank < 40 or item["listens"] < 300 or not monthly:
             continue
-        momentum = album["listens"] / max(monthly / 4.3, 1)
+        momentum = item["listens"] / max(monthly / 4.3, 1)
         if momentum >= 1.4:
-            trends.append({**album, "momentum": round(min(momentum, 4.3), 2)})
+            trends.append({**item, "momentum": round(min(momentum, 4.3), 2)})
     trends.sort(key=lambda a: -(a["momentum"] * math.log10(a["listens"])))
     return trends[:60]
 
@@ -282,34 +318,37 @@ def listener_trends():
 # ---------------------------------------------------------------------------------------------
 
 
-def apple_lookup(artist, album, cache):
-    k = key(artist, album)
-    if k in cache:
-        hit = cache[k]
+def apple_lookup(artist, title, cache, kind="album"):
+    """Finds the album or song in Apple's public search. Returns None when there's no confident match."""
+    k = key(artist, title)
+    cache_key = k if kind == "album" else "song:" + k
+    if cache_key in cache:
+        hit = cache[cache_key]
         if "missAt" not in hit:
             return hit
-        # A miss is trusted for two days, then tried again (new albums show up late).
+        # A miss is trusted for two days, then tried again (new releases show up late).
         if (dt.datetime.now(dt.timezone.utc) - parse_date(hit["missAt"])).days < 2:
             return None
-    term = urllib.parse.quote_plus(f"{artist} {album}".strip())
-    url = f"https://itunes.apple.com/search?media=music&entity=album&limit=5&term={term}"
+    name_field, id_field = ("collectionName", "collectionId") if kind == "album" else ("trackName", "trackId")
+    term = urllib.parse.quote_plus(f"{artist} {title}".strip())
+    url = f"https://itunes.apple.com/search?media=music&entity={kind}&limit=5&term={term}"
     result = None
     try:
         for hit in json.loads(fetch(url)).get("results", []):
             if artist:
-                matches = key(hit["artistName"], hit["collectionName"]) == k
+                matches = key(hit["artistName"], hit[name_field]) == k
             else:  # Stereogum: "Artist Album" with no separator
-                squashed = re.sub(r"[^a-z0-9]", "", slugify(album))
-                matches = squashed == re.sub(r"[^a-z0-9]", "", slugify(hit["artistName"] + " " + hit["collectionName"]))
+                squashed = re.sub(r"[^a-z0-9]", "", slugify(title))
+                matches = squashed == re.sub(r"[^a-z0-9]", "", slugify(hit["artistName"] + " " + hit[name_field]))
             if matches:
-                result = {"id": str(hit["collectionId"]), "artist": hit["artistName"], "album": hit["collectionName"],
+                result = {"id": str(hit[id_field]), "artist": hit["artistName"], "album": hit[name_field],
                           "artwork": hit.get("artworkUrl100", "").replace("100x100", "600x600"),
                           "year": (hit.get("releaseDate") or "")[:4]}
                 break
     except Exception as error:
-        log(f"  apple lookup failed for {artist} / {album}: {error}")
+        log(f"  apple lookup failed for {artist} / {title}: {error}")
         return None  # don't cache failures
-    cache[k] = result or {"missAt": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+    cache[cache_key] = result or {"missAt": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
     time.sleep(3.2)  # Apple's search allows roughly 20 requests a minute
     return result
 
@@ -317,6 +356,110 @@ def apple_lookup(artist, album, cache):
 # ---------------------------------------------------------------------------------------------
 # Putting it together
 # ---------------------------------------------------------------------------------------------
+
+
+def family(source_id):
+    """Pitchfork's 'best' feeds repeat reviews from its plain feeds: they count, and show, once."""
+    return "pitchfork" if source_id.startswith("pitchfork") else source_id
+
+
+def build_list(kind, sources, now, apple_cache, status):
+    """Collects, scores, ranks and matches one list: 'album' or 'song'."""
+    log(f"Reading {kind} feeds…")
+    mentions, feed_status = blog_mentions(now, sources)
+    status.update(feed_status)
+
+    log(f"Reading ListenBrainz {kind}s…")
+    listener_key = "listenbrainz" if kind == "album" else "listenbrainz-songs"
+    try:
+        trends = listener_trends(kind)
+        status[listener_key] = f"{len(trends)} found"
+    except Exception as error:
+        trends = []
+        status[listener_key] = f"failed: {error}"
+    log(f"  {listener_key}: {status[listener_key]}")
+
+    # Group mentions by album/song. Entries with no artist (Stereogum's Album of the Week) join one from
+    # another source when "artist + title" reads the same, e.g. "Gilla Band Pugnello".
+    entries = {}
+    for m in (m for m in mentions if m["artist"]):
+        entry = entries.setdefault(key(m["artist"], m["album"]),
+                                   {"artist": m["artist"], "album": m["album"], "mentions": [], "listeners": None})
+        entry["mentions"].append(m)
+    squashed = {re.sub(r"[^a-z0-9]", "", slugify(e["artist"] + " " + e["album"])): k for k, e in entries.items()}
+    orphans = []
+    for m in (m for m in mentions if not m["artist"]):
+        k = squashed.get(re.sub(r"[^a-z0-9]", "", slugify(m["album"])))
+        if k:
+            entries[k]["mentions"].append(m)
+        else:
+            orphans.append(m)
+    for trend in trends:
+        entry = entries.setdefault(key(trend["artist"], trend["album"]),
+                                   {"artist": trend["artist"], "album": trend["album"], "mentions": [], "listeners": None})
+        entry["listeners"] = {"listens": trend["listens"], "momentum": trend["momentum"]}
+
+    # Score: each mention fades with age; one mention per source family; agreement between sources is rewarded.
+    for entry in entries.values():
+        best = {}
+        for m in entry["mentions"]:
+            age = max(0.0, (now - m["date"]).total_seconds() / 86400)
+            value = m["weight"] * 0.5 ** (age / HALF_LIFE_DAYS)
+            best[family(m["source"])] = max(best.get(family(m["source"]), 0), value)
+        score = sum(best.values())
+        if entry["listeners"]:
+            best["listenbrainz"] = min(entry["listeners"]["momentum"], 3.0) * 0.5
+            score += best["listenbrainz"]
+        entry["score"] = round(score * (1 + 0.25 * (len(best) - 1)), 3)
+
+    ranked, listener_only = [], 0
+    for entry in sorted(entries.values(), key=lambda e: -e["score"]):
+        if not entry["mentions"]:
+            listener_only += 1
+            if listener_only > MAX_LISTENER_ONLY:
+                continue
+        ranked.append(entry)
+    ranked = ranked[:MAX_ALBUMS]
+
+    def stamp(date):
+        return date.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    log(f"Matching {len(ranked)} {kind}s (+{len(orphans)} without an artist) to Apple Music…")
+    output = []
+    for entry in ranked:
+        apple = apple_lookup(entry["artist"], entry["album"], apple_cache, kind)
+        image = next((m["image"] for m in entry["mentions"] if m["image"]), None)
+        seen, out_mentions = set(), []
+        for m in sorted(entry["mentions"], key=lambda m: -m["weight"]):  # the heaviest feed in a family is the one shown
+            if family(m["source"]) in seen:
+                continue
+            seen.add(family(m["source"]))
+            out_mentions.append({"source": m["source"], "url": m["url"], "date": stamp(m["date"])})
+        output.append({
+            "id": ("" if kind == "album" else "song:") + key(entry["artist"], entry["album"]),
+            "type": kind,
+            "title": apple["album"] if apple else entry["album"],
+            "artist": apple["artist"] if apple else entry["artist"],
+            "year": apple["year"] if apple else None,
+            "appleMusicID": apple["id"] if apple else None,
+            "artworkURL": (apple["artwork"] if apple else None) or image,
+            "score": entry["score"],
+            "mentions": out_mentions,
+            "listeners": entry["listeners"],
+        })
+    for m in orphans:  # only usable if Apple's catalog can split "Artist Album"
+        apple = apple_lookup("", m["album"], apple_cache, kind)
+        if apple:
+            output.append({
+                "id": ("" if kind == "album" else "song:") + key(apple["artist"], apple["album"]), "type": kind,
+                "title": apple["album"], "artist": apple["artist"],
+                "year": apple["year"], "appleMusicID": apple["id"], "artworkURL": apple["artwork"] or m["image"],
+                "score": round(m["weight"] * 0.5 ** (max(0, (now - m["date"]).days) / HALF_LIFE_DAYS), 3),
+                "mentions": [{"source": m["source"], "url": m["url"], "date": stamp(m["date"])}],
+                "listeners": None,
+            })
+    output.sort(key=lambda e: -e["score"])
+    return output
 
 
 def main():
@@ -328,116 +471,30 @@ def main():
         except ValueError:
             pass
     apple_cache = dict(previous.get("appleCache", {}))
+    status = {}
 
-    log("Reading blog feeds…")
-    mentions, status = blog_mentions(now)
-
-    log("Reading ListenBrainz…")
-    try:
-        trends = listener_trends()
-        status["listenbrainz"] = f"{len(trends)} albums"
-    except Exception as error:
-        trends = []
-        status["listenbrainz"] = f"failed: {error}"
-    log(f"  listenbrainz: {status['listenbrainz']}")
-
-    # Group mentions by album. Entries with no artist (Stereogum) join an album from another source when
-    # "artist + album" reads the same, e.g. "Gilla Band Pugnello".
-    albums = {}
-    for m in (m for m in mentions if m["artist"]):
-        entry = albums.setdefault(key(m["artist"], m["album"]),
-                                  {"artist": m["artist"], "album": m["album"], "mentions": [], "listeners": None})
-        entry["mentions"].append(m)
-    squashed = {re.sub(r"[^a-z0-9]", "", slugify(a["artist"] + " " + a["album"])): k for k, a in albums.items()}
-    orphans = []
-    for m in (m for m in mentions if not m["artist"]):
-        k = squashed.get(re.sub(r"[^a-z0-9]", "", slugify(m["album"])))
-        if k:
-            albums[k]["mentions"].append(m)
-        else:
-            orphans.append(m)
-    for trend in trends:
-        entry = albums.setdefault(key(trend["artist"], trend["album"]),
-                                  {"artist": trend["artist"], "album": trend["album"], "mentions": [], "listeners": None})
-        entry["listeners"] = {"listens": trend["listens"], "momentum": trend["momentum"]}
-
-    # Score: each mention fades with age; one mention per source; agreement between sources is rewarded.
-    for entry in albums.values():
-        best = {}
-        for m in entry["mentions"]:
-            age = max(0.0, (now - m["date"]).total_seconds() / 86400)
-            value = m["weight"] * 0.5 ** (age / HALF_LIFE_DAYS)
-            # Best New Music and the plain Pitchfork feed carry the same review: count it once.
-            source = "pitchfork" if m["source"].startswith("pitchfork") else m["source"]
-            best[source] = max(best.get(source, 0), value)
-        score = sum(best.values())
-        if entry["listeners"]:
-            best["listenbrainz"] = min(entry["listeners"]["momentum"], 3.0) * 0.5
-            score += best["listenbrainz"]
-        entry["score"] = round(score * (1 + 0.25 * (len(best) - 1)), 3)
-
-    ranked, listener_only = [], 0
-    for entry in sorted(albums.values(), key=lambda a: -a["score"]):
-        if not entry["mentions"]:
-            listener_only += 1
-            if listener_only > MAX_LISTENER_ONLY:
-                continue
-        ranked.append(entry)
-    ranked = ranked[:MAX_ALBUMS]
-
-    log(f"Matching {len(ranked)} albums (+{len(orphans)} without an artist) to Apple Music…")
-    output_albums = []
-    for entry in ranked:
-        apple = apple_lookup(entry["artist"], entry["album"], apple_cache)
-        image = next((m["image"] for m in entry["mentions"] if m["image"]), None)
-        # Best New Music and the plain Pitchfork feed carry the same review: show it once, as Best New Music.
-        present = {m["source"] for m in entry["mentions"]}
-        seen, out_mentions = set(), []
-        for m in sorted(entry["mentions"], key=lambda m: -m["weight"]):
-            if m["source"] in seen or (m["source"] == "pitchfork" and "pitchfork-bnm" in present):
-                continue
-            seen.add(m["source"])
-            out_mentions.append({"source": m["source"], "url": m["url"], "date": m["date"].strftime("%Y-%m-%dT%H:%M:%SZ")})
-        output_albums.append({
-            "id": key(entry["artist"], entry["album"]),
-            "title": apple["album"] if apple else entry["album"],
-            "artist": apple["artist"] if apple else entry["artist"],
-            "year": apple["year"] if apple else None,
-            "appleMusicID": apple["id"] if apple else None,
-            "artworkURL": (apple["artwork"] if apple else None) or image,
-            "score": entry["score"],
-            "mentions": out_mentions,
-            "listeners": entry["listeners"],
-        })
-    for m in orphans:  # only usable if Apple's catalog can split "Artist Album"
-        apple = apple_lookup("", m["album"], apple_cache)
-        if apple:
-            output_albums.append({
-                "id": key(apple["artist"], apple["album"]), "title": apple["album"], "artist": apple["artist"],
-                "year": apple["year"], "appleMusicID": apple["id"], "artworkURL": apple["artwork"] or m["image"],
-                "score": round(m["weight"] * 0.5 ** (max(0, (now - m["date"]).days) / HALF_LIFE_DAYS), 3),
-                "mentions": [{"source": m["source"], "url": m["url"], "date": m["date"].strftime("%Y-%m-%dT%H:%M:%SZ")}],
-                "listeners": None,
-            })
-    output_albums.sort(key=lambda a: -a["score"])
+    albums = build_list("album", SOURCES, now, apple_cache, status)
+    songs = build_list("song", SONG_SOURCES, now, apple_cache, status)
 
     feed = {
-        "version": 1,
+        "version": 2,
         "generatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "sources": [{k: s[k] for k in ("id", "name", "kind", "site")} for s in SOURCES] + [LISTENERS],
+        "sources": [{k: s[k] for k in ("id", "name", "kind", "site")} for s in SOURCES + SONG_SOURCES] + [LISTENERS],
         "status": status,
-        "albums": output_albums,
-        # Remembered between runs so the same album isn't looked up every day.
+        "albums": albums,
+        "songs": songs,
+        # Remembered between runs so the same album or song isn't looked up every day.
         "appleCache": apple_cache,
     }
     with open(OUTPUT, "w") as f:
         json.dump(feed, f, indent=1, ensure_ascii=False)
-    matched = sum(1 for a in output_albums if a["appleMusicID"])
-    print(f"Wrote {len(output_albums)} albums ({matched} matched to Apple Music) to {OUTPUT}")
+    for name, items in (("albums", albums), ("songs", songs)):
+        matched = sum(1 for item in items if item["appleMusicID"])
+        print(f"Wrote {len(items)} {name} ({matched} matched to Apple Music)")
     for source, result in status.items():
         print(f"  {source}: {result}")
-    if not output_albums:
-        sys.exit("No albums found: every source failed.")
+    if not albums and not songs:
+        sys.exit("Nothing found: every source failed.")
 
 
 if __name__ == "__main__":

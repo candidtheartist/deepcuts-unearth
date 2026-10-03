@@ -1,6 +1,6 @@
 # Deep Cuts — Unearth feed
 
-A once-a-day job that works out which albums are getting attention from music blogs,
+A once-a-day job that works out which albums and songs are getting attention from music blogs,
 curators and listeners, and writes one ranked list (`feed.json`) for the Deep Cuts app.
 There are no accounts and no server: GitHub runs the job and hosts the file.
 
@@ -15,7 +15,10 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 | Beats Per Minute | blog | album reviews |
 | Aquarium Drunkard | curator | album posts |
 | The Needle Drop | curator | album reviews |
-| ListenBrainz | listeners | albums played well above their monthly average this week |
+| ListenBrainz | listeners | albums and songs played well above their monthly average this week |
+| Pitchfork Best New Track, Pitchfork Tracks | blog | track reviews (songs) |
+| Gorilla vs. Bear | curator | single-song posts |
+| Stereogum | blog | single-song posts |
 
 Blog feeds are RSS, which sites publish for other apps to read. ListenBrainz data is open.
 Nothing here scrapes a web page.
