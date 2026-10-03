@@ -16,6 +16,8 @@ import json
 import math
 import os
 import re
+import shutil
+import subprocess
 import sys
 import time
 import unicodedata
@@ -134,7 +136,25 @@ def log(*args):
         print(*args, file=sys.stderr)
 
 
-def fetch(url, timeout=30, redirects=5):
+def fetch(url, timeout=30):
+    """Downloads a URL with curl, falling back to Python's own client if curl isn't installed.
+
+    curl is used on purpose: Bandcamp's bot filter serves an HTML check page (not the feed) to
+    Python's built-in client from cloud servers, but serves the feed normally to curl.
+    Either way the job says who it is in the User-Agent and never pretends to be a browser.
+    """
+    if shutil.which("curl"):
+        result = subprocess.run(
+            ["curl", "--silent", "--show-error", "--fail", "--location", "--max-time", str(timeout),
+             "--user-agent", USER_AGENT, "--header", "Accept: */*", url],
+            capture_output=True)
+        if result.returncode != 0:
+            raise RuntimeError(result.stderr.decode(errors="replace").strip() or f"curl exit {result.returncode}")
+        return result.stdout
+    return fetch_with_urllib(url, timeout)
+
+
+def fetch_with_urllib(url, timeout=30, redirects=5):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"})
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -143,7 +163,7 @@ def fetch(url, timeout=30, redirects=5):
         # Older Pythons don't follow 307/308 redirects on their own.
         target = error.headers.get("Location")
         if error.code in (307, 308) and target and redirects > 0:
-            return fetch(urllib.parse.urljoin(url, target), timeout, redirects - 1)
+            return fetch_with_urllib(urllib.parse.urljoin(url, target), timeout, redirects - 1)
         raise
 
 
@@ -205,7 +225,10 @@ def blog_mentions(now):
     mentions, status = [], {}
     for source in SOURCES:
         try:
-            items = list(feed_items(fetch(source["feed"])))
+            data = fetch(source["feed"])
+            if data.lstrip()[:15].lower().startswith((b"<!doctype html", b"<html")):
+                raise RuntimeError("got a web page instead of a feed (the site may be turning this client away)")
+            items = list(feed_items(data))
         except Exception as error:  # one broken feed shouldn't stop the others
             status[source["id"]] = f"failed: {error}"
             log(f"  {source['id']}: FAILED {error}")
