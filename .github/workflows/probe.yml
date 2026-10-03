@@ -1,0 +1,13 @@
+name: Probe a feed
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch Bandcamp Daily's feed with the job's own user agent
+        run: |
+          curl -sS -L -m 30 -A "DeepCutsUnearth/1.0 (album feed reader; +https://github.com/)" -H "Accept: */*" \
+            -D headers.txt -o body.txt -w "status=%{http_code} bytes=%{size_download} url=%{url_effective}\n" https://daily.bandcamp.com/feed || true
+          echo "--- headers"; cat headers.txt
+          echo "--- first 1500 bytes"; head -c 1500 body.txt
+          echo; echo "--- line 14"; sed -n '10,16p' body.txt | cut -c1-300
