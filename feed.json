@@ -1,0 +1,2031 @@
+{
+ "version": 1,
+ "generatedAt": "2026-10-03T15:12:34Z",
+ "sources": [
+  {
+   "id": "pitchfork-bnm",
+   "name": "Pitchfork Best New Music",
+   "kind": "blog",
+   "site": "https://pitchfork.com/reviews/best/albums/"
+  },
+  {
+   "id": "pitchfork",
+   "name": "Pitchfork",
+   "kind": "blog",
+   "site": "https://pitchfork.com/reviews/albums/"
+  },
+  {
+   "id": "bandcamp-daily",
+   "name": "Bandcamp Daily",
+   "kind": "blog",
+   "site": "https://daily.bandcamp.com/album-of-the-day"
+  },
+  {
+   "id": "stereogum",
+   "name": "Stereogum Album of the Week",
+   "kind": "blog",
+   "site": "https://www.stereogum.com/category/reviews/album-of-the-week/"
+  },
+  {
+   "id": "aquarium-drunkard",
+   "name": "Aquarium Drunkard",
+   "kind": "curator",
+   "site": "https://aquariumdrunkard.com"
+  },
+  {
+   "id": "needle-drop",
+   "name": "The Needle Drop",
+   "kind": "curator",
+   "site": "https://www.youtube.com/@theneedledrop"
+  },
+  {
+   "id": "beats-per-minute",
+   "name": "Beats Per Minute",
+   "kind": "blog",
+   "site": "https://beatsperminute.com/category/reviews/album-reviews/"
+  },
+  {
+   "id": "listenbrainz",
+   "name": "ListenBrainz listeners",
+   "kind": "listeners",
+   "site": "https://listenbrainz.org/statistics/"
+  }
+ ],
+ "status": {
+  "pitchfork-bnm": "4 albums",
+  "pitchfork": "30 albums",
+  "bandcamp-daily": "13 albums",
+  "stereogum": "4 albums",
+  "aquarium-drunkard": "10 albums",
+  "needle-drop": "10 albums",
+  "beats-per-minute": "18 albums",
+  "listenbrainz": "60 albums"
+ },
+ "albums": [
+  {
+   "id": "hotelusona|protomartyr",
+   "title": "Hotel Usona",
+   "artist": "Protomartyr",
+   "year": "2026",
+   "appleMusicID": "6783429344",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/dd/cc/8cddcc79-f688-f2c3-8bae-0f4d839a4b0a/887828057160.png/600x600bb.jpg",
+   "score": 9.339,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/29/protomartyr-hotel-usona/",
+     "date": "2026-09-29T12:00:00Z"
+    },
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=uIolbXfsg6Q",
+     "date": "2026-09-29T03:42:26Z"
+    },
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-protomartyr-hotel-usona/",
+     "date": "2026-09-30T04:01:37Z"
+    }
+   ],
+   "listeners": {
+    "listens": 1685,
+    "momentum": 2.36
+   }
+  },
+  {
+   "id": "pugnello|gillaband",
+   "title": "Pugnello",
+   "artist": "Gilla Band",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6ab1778795d5696b67afdb32/master/pass/191402061673.png",
+   "score": 5.847,
+   "mentions": [
+    {
+     "source": "pitchfork-bnm",
+     "url": "https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
+     "date": "2026-09-25T04:03:00Z"
+    },
+    {
+     "source": "stereogum",
+     "url": "https://stereogum.com/2511953/album-of-the-week-gilla-band-pugnello/reviews/album-of-the-week/",
+     "date": "2026-09-22T14:08:27Z"
+    },
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-gilla-band-pugnello/",
+     "date": "2026-09-25T04:01:46Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "dancingaloneontheconcrete|stefchura",
+   "title": "Dancing Alone on the Concrete",
+   "artist": "Stef Chura",
+   "year": "2026",
+   "appleMusicID": "6783815083",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/50/b7/e550b751-9168-2534-07ca-b593780f4097/460.jpg/600x600bb.jpg",
+   "score": 4.672,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/stef-chura-dancing-alone-on-the-concrete-review",
+     "date": "2026-10-02T19:31:47Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/stef-chura-dancing-alone-on-the-concrete/",
+     "date": "2026-10-02T04:01:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "popstar|tinashe",
+   "title": "Popstar",
+   "artist": "Tinashe",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6ab4131ef7ef2378a6776d41/master/pass/Tinashe-%20Popstar%20.jpg",
+   "score": 4.418,
+   "mentions": [
+    {
+     "source": "pitchfork-bnm",
+     "url": "https://pitchfork.com/reviews/albums/tinashe-popstar/",
+     "date": "2026-09-30T04:03:00Z"
+    },
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=ZYxjZiNfZQc",
+     "date": "2026-09-30T02:43:24Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "estrus|tovelo",
+   "title": "ESTRUS",
+   "artist": "Tove Lo",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6abd2c90f479e560d71f0149/master/pass/Tove%20Lo-ESTRUS.jpg",
+   "score": 3.466,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-tove-lo-estrus/",
+     "date": "2026-09-22T04:01:17Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/tove-lo-estrus/",
+     "date": "2026-10-01T04:01:00Z"
+    }
+   ],
+   "listeners": {
+    "listens": 2605,
+    "momentum": 1.58
+   }
+  },
+  {
+   "id": "intentions|megiapa",
+   "title": "Intentions",
+   "artist": "megiapa",
+   "year": "2026",
+   "appleMusicID": "6782470588",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/0f/41/b80f4159-519d-bc99-aa6a-1bd0d3372623/127922.jpg/600x600bb.jpg",
+   "score": 3.019,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/megiapa-intentions-review",
+     "date": "2026-09-24T19:41:21Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/megiapa-intentions/",
+     "date": "2026-09-30T04:01:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "lifeofashowgirltheencore|taylorswift",
+   "title": "The Life of a Showgirl: The Encore",
+   "artist": "Taylor Swift",
+   "year": "2026",
+   "appleMusicID": "6814995859",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+   "score": 2.792,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/taylor-swift-the-life-of-a-showgirl-the-encore/",
+     "date": "2026-09-29T04:03:00Z"
+    }
+   ],
+   "listeners": {
+    "listens": 3908,
+    "momentum": 3.12
+   }
+  },
+  {
+   "id": "ruinitsnotjustmusic|kaitlynaureliasmith",
+   "title": "RUIN: It's Not Just Music",
+   "artist": "Kaitlyn Aurelia Smith",
+   "year": "2026",
+   "appleMusicID": "1890182100",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/d7/85/5ed78531-b57c-8fbc-8f41-dcfb12e16849/3663729437259_cover.jpg/600x600bb.jpg",
+   "score": 2.664,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/kaitlyn-aurelia-smith-ruin-its-not-just-music-review",
+     "date": "2026-10-01T22:07:08Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "thisisspatown|300skullsandcountingjennysparks",
+   "title": "THIS IS SPA TOWN!",
+   "artist": "300Skullsandcounting Jenny Sparks",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6abd510c90e6bf2bda5674d9/master/pass/300SkullsAndCounting%20Jenny%20Sparks%20This%20Is%20Spa%20Town.png",
+   "score": 2.529,
+   "mentions": [
+    {
+     "source": "pitchfork-bnm",
+     "url": "https://pitchfork.com/reviews/albums/300skullsandcounting-jenny-sparks-this-is-spa-town/",
+     "date": "2026-10-01T04:03:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "hallelujahanyway|tvbuddha",
+   "title": "Hallelujah Anyway",
+   "artist": "TV Buddha",
+   "year": "2026",
+   "appleMusicID": "6788535480",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/dd/fc/84ddfcbc-d3a0-b385-a309-0160f5cb8804/881626015162_cover.jpg/600x600bb.jpg",
+   "score": 2.471,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/tv-buddha-hallelujah-anyway-review",
+     "date": "2026-09-30T20:01:36Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "iwroteyoualetter|m83",
+   "title": "I Wrote You A Letter",
+   "artist": "M83",
+   "year": "2026",
+   "appleMusicID": "6796319106",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/df/b4/b6dfb40f-8643-ec29-a4d8-10d5a515be34/cover.jpg/600x600bb.jpg",
+   "score": 2.35,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/m83-i-wrote-you-a-letter/",
+     "date": "2026-09-28T04:03:00Z"
+    }
+   ],
+   "listeners": {
+    "listens": 1800,
+    "momentum": 2.39
+   }
+  },
+  {
+   "id": "travelagencyisonfire|annewaldmanthurstonmoorejamesilgenfritzanagramensemble",
+   "title": "The Travel Agency Is On Fire",
+   "artist": "Anne Waldman, Thurston Moore, James Ilgenfritz & Anagram Ensemble",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 2.307,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/anne-waldman-thurston-moore-james-ilgenfritz-anagram-ensemble-the-travel-agency-is-on-fire-review",
+     "date": "2026-09-29T20:13:44Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "meaningofflowers|agnesobel",
+   "title": "The Meaning of Flowers",
+   "artist": "Agnes Obel",
+   "year": "2026",
+   "appleMusicID": "6796336710",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/50/40/dd5040b1-4950-d4f9-66e0-5d677fcf68a8/26UMGIM80257.rgb.jpg/600x600bb.jpg",
+   "score": 2.233,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-agnes-obel-the-meaning-of-flowers/",
+     "date": "2026-09-23T04:01:54Z"
+    }
+   ],
+   "listeners": {
+    "listens": 2189,
+    "momentum": 2.12
+   }
+  },
+  {
+   "id": "pylon|beabadoobee",
+   "title": "Pylon",
+   "artist": "beabadoobee",
+   "year": "2026",
+   "appleMusicID": "6812904778",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/08/a5/a108a5b7-7753-69eb-e140-a785a0e185a8/198704876622_Cover.jpg/600x600bb.jpg",
+   "score": 2.227,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=-8ud5kRmS9g",
+     "date": "2026-09-26T03:05:51Z"
+    }
+   ],
+   "listeners": {
+    "listens": 5539,
+    "momentum": 1.78
+   }
+  },
+  {
+   "id": "c|lucybedroque",
+   "title": "C",
+   "artist": "Lucy Bedroque",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 2.203,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=qzruhhjn9g8",
+     "date": "2026-09-25T03:24:33Z"
+    }
+   ],
+   "listeners": {
+    "listens": 3170,
+    "momentum": 1.86
+   }
+  },
+  {
+   "id": "gem|juliajacklin",
+   "title": "The Gem",
+   "artist": "Julia Jacklin",
+   "year": "2026",
+   "appleMusicID": "6771009439",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/93/40/a39340a9-676b-4099-c126-fcdd6b2f0bfe/191400094277.png/600x600bb.jpg",
+   "score": 2.201,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-julia-jacklin-the-gem/",
+     "date": "2026-09-28T04:01:46Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/julia-jacklin-the-gem/",
+     "date": "2026-09-29T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "doomed|andyboay",
+   "title": "Doomed",
+   "artist": "Andy Boay",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 2.194,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/10/01/andy-boay-doomed/",
+     "date": "2026-10-01T18:00:39Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "passingfires|jeremycunningham",
+   "title": "Passing Fires",
+   "artist": "Jeremy Cunningham",
+   "year": "2026",
+   "appleMusicID": "6791235997",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/ef/13/7fef1307-5974-1cc1-1931-14e9268c45e1/128736.jpg/600x600bb.jpg",
+   "score": 2.163,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/10/01/jeremy-cunningham-passing-fires/",
+     "date": "2026-10-01T13:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "ilovenature|bigflowersshemar",
+   "title": "i love nature!",
+   "artist": "Big Flowers & shemar",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 2.148,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/big-flowers-shemar-i-love-nature-review",
+     "date": "2026-09-28T19:31:01Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "thesekillingtimes|emmaruthrundle",
+   "title": "These Killing Times",
+   "artist": "Emma Ruth Rundle",
+   "year": "2026",
+   "appleMusicID": "6776134341",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/29/f1/3e29f1dc-f22d-9368-b4bc-6de6fe179814/21610.jpg/600x600bb.jpg",
+   "score": 2.073,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-emma-ruth-rundle-these-killing-times/",
+     "date": "2026-09-24T04:01:05Z"
+    }
+   ],
+   "listeners": {
+    "listens": 1373,
+    "momentum": 1.76
+   }
+  },
+  {
+   "id": "volume3|durdurband",
+   "title": "Volume 3 (1988) & Volume 4 (1989)",
+   "artist": "Dur-Dur Band",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 2.018,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/30/dur-dur-band-volume-3-1988-volume-4-1989/",
+     "date": "2026-09-30T13:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "johnnymarr|transmissions",
+   "title": "Johnny Marr",
+   "artist": "Transmissions",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 2.012,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/30/transmissions-johnny-marr/",
+     "date": "2026-09-30T12:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "ridelonesome|beck",
+   "title": "Ride Lonesome",
+   "artist": "Beck",
+   "year": "2026",
+   "appleMusicID": "6788956584",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/e4/45/06e445e7-9c2d-2a52-99b5-b6aa6a35a307/26UMGIM84718.rgb.jpg/600x600bb.jpg",
+   "score": 1.965,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-beck-ride-lonesome/",
+     "date": "2026-09-21T04:01:29Z"
+    }
+   ],
+   "listeners": {
+    "listens": 2591,
+    "momentum": 1.88
+   }
+  },
+  {
+   "id": "guitarcentricfilmsoundtracks|leeranaldo",
+   "title": "Guitar-Centric Film Soundtracks",
+   "artist": "Lee Ranaldo",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.765,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/28/lee-ranaldo-guitar-centric-film-soundtracks/",
+     "date": "2026-09-28T14:40:57Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "appliedcommunicationsbitesthebigone|appliedcommunications",
+   "title": "applied communications bites the big one",
+   "artist": "Applied Communications",
+   "year": "2026",
+   "appleMusicID": "1886803143",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/5a/82/325a8295-a4aa-3ff1-a2df-18208a067ce8/64280.jpg/600x600bb.jpg",
+   "score": 1.744,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/applied-communications-applied-communications-bites-the-big-one-review",
+     "date": "2026-09-25T19:25:33Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "melodie|slowpulp",
+   "title": "Melodie",
+   "artist": "Slow Pulp",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6a29c7544360aada47098162/master/pass/unnamed%20(84).jpg",
+   "score": 1.726,
+   "mentions": [
+    {
+     "source": "stereogum",
+     "url": "https://stereogum.com/2511446/album-of-the-week-slow-pulp-melodie/reviews/album-of-the-week/",
+     "date": "2026-09-15T15:27:35Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/slow-pulp-melodie/",
+     "date": "2026-09-24T04:01:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "norestforthewicked|azchike",
+   "title": "No Rest for The Wicked",
+   "artist": "AZ Chike",
+   "year": "2026",
+   "appleMusicID": "6813621669",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/ae/83/e1ae835c-fdc0-2e67-c149-40abcc1d0cce/093624825685.jpg/600x600bb.jpg",
+   "score": 1.606,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=hfHrQxH6YWE",
+     "date": "2026-09-23T22:19:24Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/az-chike-no-rest-for-the-wicked/",
+     "date": "2026-09-24T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "basspersuades|mileycyrus",
+   "title": "Bass Persuades",
+   "artist": "Miley Cyrus",
+   "year": "2026",
+   "appleMusicID": "6807197456",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/600x600bb.jpg",
+   "score": 1.539,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=Zt2esoyoTgs",
+     "date": "2026-09-22T21:20:52Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/miley-cyrus-bass-persuades/",
+     "date": "2026-09-24T04:03:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "sm|semiratruth",
+   "title": "S!M",
+   "artist": "Semiratruth",
+   "year": "2026",
+   "appleMusicID": "6777201678",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/11/3c/30113c89-4461-d0c4-9c46-5d24ed81f466/66542.jpg/600x600bb.jpg",
+   "score": 1.52,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/semiratruth-sm-review",
+     "date": "2026-09-23T19:43:20Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "synkcomplaexity2026specialdigitalsingle|aespa",
+   "title": "SYNK : COMPLaeXITY - 2026 Special Digital Single",
+   "artist": "aespa",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.5,
+   "mentions": [],
+   "listeners": {
+    "listens": 2734,
+    "momentum": 3.7
+   }
+  },
+  {
+   "id": "greengreen|cortis",
+   "title": "GREENGREEN",
+   "artist": "CORTIS",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.49,
+   "mentions": [],
+   "listeners": {
+    "listens": 5194,
+    "momentum": 2.98
+   }
+  },
+  {
+   "id": "ilostmywayforcenturies|drin",
+   "title": "I Lost My Way For Centuries",
+   "artist": "The Drin",
+   "year": "2026",
+   "appleMusicID": "6795130804",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/c3/39/61c3397c-1147-04aa-67ec-212e298602a2/769152440163.jpg/600x600bb.jpg",
+   "score": 1.418,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/the-drin-i-lost-my-way-for-centuries-review",
+     "date": "2026-09-22T19:46:20Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "redred|cortis",
+   "title": "REDRED",
+   "artist": "CORTIS",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.41,
+   "mentions": [],
+   "listeners": {
+    "listens": 3765,
+    "momentum": 2.82
+   }
+  },
+  {
+   "id": "dayandnight|carlyraejepsen",
+   "title": "Day and Night",
+   "artist": "Carly Rae Jepsen",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.357,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=QmTEuVJVO9M",
+     "date": "2026-10-02T04:36:27Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "confirmation|logic1000",
+   "title": "Confirmation!",
+   "artist": "Logic1000",
+   "year": "2026",
+   "appleMusicID": "6779295723",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/75/18/dd751881-72dc-8fcc-9a3a-45e834bb620f/5056556183150_cover.jpg/600x600bb.jpg",
+   "score": 1.355,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-logic1000-confirmation/",
+     "date": "2026-10-02T04:01:29Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "vidrigvar|dungen",
+   "title": "Vidrig Vår",
+   "artist": "Dungen",
+   "year": "2026",
+   "appleMusicID": "6785929583",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/db/94/68db9456-2b3a-aff0-922a-dc8ee14c62c8/8721555143814.png/600x600bb.jpg",
+   "score": 1.333,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/24/dungen-vidrig-var/",
+     "date": "2026-09-24T13:30:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "loveaggregates|asherwhite",
+   "title": "Love Aggregates",
+   "artist": "Asher White",
+   "year": "2026",
+   "appleMusicID": "1895777386",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/72/4c/71724cb6-b882-fe44-e99b-581abd79c508/65683.jpg/600x600bb.jpg",
+   "score": 1.331,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/24/asher-white-love-aggregates/",
+     "date": "2026-09-24T13:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "painoftruth|painoftruth",
+   "title": "Pain of Truth",
+   "artist": "Pain of Truth",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.328,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=pspQzibTedE",
+     "date": "2026-10-01T21:01:52Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "paulsimonsgracelandat40|thosewerethedaysofmiracleandwonder",
+   "title": "Paul Simon’s Graceland at 40",
+   "artist": "Those Were the Days of Miracle and Wonder",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.327,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/24/those-were-the-days-of-miracle-and-wonder-paul-simons-graceland-at-40/",
+     "date": "2026-09-24T12:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "distorteverythingforever|suahn",
+   "title": "Distort Everything Forever",
+   "artist": "SUAHN",
+   "year": "2026",
+   "appleMusicID": "6808311543",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/c0/c3/f0c0c38a-a2c7-78fb-2a93-f3c44704950b/1341771.jpg/600x600bb.jpg",
+   "score": 1.322,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/suahn-distort-everything-forever-review",
+     "date": "2026-09-21T19:30:48Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "coloroutsidethelines|cortis",
+   "title": "COLOR OUTSIDE THE LINES",
+   "artist": "CORTIS",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.27,
+   "mentions": [],
+   "listeners": {
+    "listens": 3422,
+    "momentum": 2.54
+   }
+  },
+  {
+   "id": "dontbefunnywithoutme|leren",
+   "title": "Don’t Be Funny Without Me",
+   "artist": "Le Ren",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.264,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-le-ren-dont-be-funny-without-me/",
+     "date": "2026-10-01T04:01:27Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "detour|kimpetras",
+   "title": "Detour",
+   "artist": "Kim Petras",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.26,
+   "mentions": [],
+   "listeners": {
+    "listens": 3465,
+    "momentum": 2.52
+   }
+  },
+  {
+   "id": "motion|cortisjuicyj",
+   "title": "MOTION (feat. Juicy J)",
+   "artist": "CORTIS, Juicy J",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.245,
+   "mentions": [],
+   "listeners": {
+    "listens": 1651,
+    "momentum": 2.49
+   }
+  },
+  {
+   "id": "foursail|love",
+   "title": "Four Sail (Bonus Track Version)",
+   "artist": "Love",
+   "year": "1969",
+   "appleMusicID": "268006365",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music/6b/1b/1f/mzi.ziqtdyzs.jpg/600x600bb.jpg",
+   "score": 1.242,
+   "mentions": [
+    {
+     "source": "aquarium-drunkard",
+     "url": "https://aquariumdrunkard.com/2026/09/23/love-four-sail/",
+     "date": "2026-09-23T13:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "solaris|ocean",
+   "title": "Solaris",
+   "artist": "The Ocean",
+   "year": "2026",
+   "appleMusicID": "6769156881",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/63/27/1d6327ee-443c-745b-256c-1368cf290ac7/820233267496.jpg/600x600bb.jpg",
+   "score": 1.205,
+   "mentions": [],
+   "listeners": {
+    "listens": 1399,
+    "momentum": 2.41
+   }
+  },
+  {
+   "id": "locket|madisonbeer",
+   "title": "locket",
+   "artist": "Madison Beer",
+   "year": "2026",
+   "appleMusicID": "1846949115",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/7f/ea/407feabc-a261-4dc3-dc57-50c7a0e72c0d/196873675152.jpg/600x600bb.jpg",
+   "score": 1.135,
+   "mentions": [],
+   "listeners": {
+    "listens": 1567,
+    "momentum": 2.27
+   }
+  },
+  {
+   "id": "metalgalaxy|babymetal",
+   "title": "METAL GALAXY",
+   "artist": "BABYMETAL",
+   "year": "2019",
+   "appleMusicID": "1830275477",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d8/f0/cd/d8f0cd7e-bab4-a05f-ceab-159e1da2bb40/116509.jpg/600x600bb.jpg",
+   "score": 1.135,
+   "mentions": [],
+   "listeners": {
+    "listens": 1458,
+    "momentum": 2.27
+   }
+  },
+  {
+   "id": "modernlifeislonely|holdingabsence",
+   "title": "Modern Life Is Lonely",
+   "artist": "Holding Absence",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.12,
+   "mentions": [],
+   "listeners": {
+    "listens": 2040,
+    "momentum": 2.24
+   }
+  },
+  {
+   "id": "violins|blondshell",
+   "title": "Violins",
+   "artist": "Blondshell",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.101,
+   "mentions": [
+    {
+     "source": "beats-per-minute",
+     "url": "https://beatsperminute.com/album-review-blondshell-violins/",
+     "date": "2026-09-29T04:01:43Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "babymetal|babymetal",
+   "title": "BABYMETAL",
+   "artist": "BABYMETAL",
+   "year": "2015",
+   "appleMusicID": "1830273487",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/b1/84/25b18443-a659-5425-470f-b2e72a33318d/116513.jpg/600x600bb.jpg",
+   "score": 1.1,
+   "mentions": [],
+   "listeners": {
+    "listens": 1774,
+    "momentum": 2.2
+   }
+  },
+  {
+   "id": "slimshadylp|eminem",
+   "title": "The Slim Shady LP",
+   "artist": "Eminem",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.095,
+   "mentions": [],
+   "listeners": {
+    "listens": 1808,
+    "momentum": 2.19
+   }
+  },
+  {
+   "id": "yaphet|curlycastro",
+   "title": "Yaphet",
+   "artist": "Curly Castro",
+   "year": "2026",
+   "appleMusicID": "6794054749",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/8b/4a/b58b4a21-f0f0-d1a1-850a-5db8e38f888a/5064021600408_cover.jpg/600x600bb.jpg",
+   "score": 1.075,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/curly-castro-yaphet-review",
+     "date": "2026-09-18T19:45:08Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "hypochondriac|brakence",
+   "title": "hypochondriac",
+   "artist": "brakence",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.03,
+   "mentions": [],
+   "listeners": {
+    "listens": 1796,
+    "momentum": 2.06
+   }
+  },
+  {
+   "id": "cursumperficio|anthrax",
+   "title": "Cursum Perficio",
+   "artist": "Anthrax",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.02,
+   "mentions": [],
+   "listeners": {
+    "listens": 1526,
+    "momentum": 2.04
+   }
+  },
+  {
+   "id": "nowthenforever|earthwindfire",
+   "title": "Now, Then & Forever",
+   "artist": "Earth, Wind & Fire",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.02,
+   "mentions": [],
+   "listeners": {
+    "listens": 1336,
+    "momentum": 2.04
+   }
+  },
+  {
+   "id": "cocoon|yeat",
+   "title": "Cocoon",
+   "artist": "Yeat",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.015,
+   "mentions": [],
+   "listeners": {
+    "listens": 1557,
+    "momentum": 2.03
+   }
+  },
+  {
+   "id": "19|adele",
+   "title": "19",
+   "artist": "Adele",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.015,
+   "mentions": [],
+   "listeners": {
+    "listens": 1321,
+    "momentum": 2.03
+   }
+  },
+  {
+   "id": "radicalframe|actress",
+   "title": "Radical Frame",
+   "artist": "Actress",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.003,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/actress-radical-frame-review",
+     "date": "2026-09-17T19:45:19Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "herebecauseofhope|ezracollective",
+   "title": "Here Because of Hope",
+   "artist": "Ezra Collective",
+   "year": "2026",
+   "appleMusicID": "6767014278",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/84/ba/af84ba41-bcb5-0002-26b6-0647fee2272e/0720841306900_Cover.jpg/600x600bb.jpg",
+   "score": 1.0,
+   "mentions": [],
+   "listeners": {
+    "listens": 1441,
+    "momentum": 2.0
+   }
+  },
+  {
+   "id": "angel|lizzymcalpine",
+   "title": "Angel",
+   "artist": "Lizzy McAlpine",
+   "year": "2026",
+   "appleMusicID": "6791793736",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/76/cb/6b76cbb0-8e53-d69a-0fa0-706360ab96e3/196874588840.jpg/600x600bb.jpg",
+   "score": 1.0,
+   "mentions": [],
+   "listeners": {
+    "listens": 1297,
+    "momentum": 2.0
+   }
+  },
+  {
+   "id": "myaimistrue|elviscostello",
+   "title": "My Aim Is True",
+   "artist": "Elvis Costello",
+   "year": "1977",
+   "appleMusicID": "1440840988",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/db/76/78/db76781b-76d9-6bba-fb7e-70a280c7d5ae/00602547382160.rgb.jpg/600x600bb.jpg",
+   "score": 0.968,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/elvis-costello-my-aim-is-true-49th-anniversary-edition/",
+     "date": "2026-10-03T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "fellasleepinthesun|after",
+   "title": "Fell Asleep in the Sun",
+   "artist": "After",
+   "year": "2026",
+   "appleMusicID": "6788297482",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/c7/a4/d5c7a485-2ebc-5cbe-665f-77dfbb0d1cb7/823375232124_Cover.jpg/600x600bb.jpg",
+   "score": 0.945,
+   "mentions": [],
+   "listeners": {
+    "listens": 1338,
+    "momentum": 1.89
+   }
+  },
+  {
+   "id": "necropolitan|greenlung",
+   "title": "Necropolitan",
+   "artist": "Green Lung",
+   "year": "2026",
+   "appleMusicID": "1892398281",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b8/08/c5b808a6-23d1-9714-c9f5-d0d8f4ed8c70/cover.jpg/600x600bb.jpg",
+   "score": 0.936,
+   "mentions": [
+    {
+     "source": "bandcamp-daily",
+     "url": "https://daily.bandcamp.com/album-of-the-day/green-lung-necropolitan-review",
+     "date": "2026-09-16T19:55:54Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "rubbersoul|beatles",
+   "title": "Rubber Soul (Super Deluxe)",
+   "artist": "The Beatles",
+   "year": "2026",
+   "appleMusicID": "6792047716",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/80/6d/71806dd8-6dd1-d59b-bf94-a229fe1840e6/26UMGIM15219.rgb.jpg/600x600bb.jpg",
+   "score": 0.903,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/the-beatles-rubber-soul-super-deluxe/",
+     "date": "2026-10-02T04:03:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "crisco|mirandalambert",
+   "title": "Crisco",
+   "artist": "Miranda Lambert",
+   "year": "2026",
+   "appleMusicID": "6775919538",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/8b/80/708b803d-370d-2ad3-fdbd-0c0cdfe92526/26UMGIM63533.rgb.jpg/600x600bb.jpg",
+   "score": 0.903,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/miranda-lambert-crisco/",
+     "date": "2026-10-02T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "methuselah|meernaa",
+   "title": "Methuselah",
+   "artist": "Meernaa",
+   "year": "2026",
+   "appleMusicID": "6806965195",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/35/6f/e0356f1e-2ed6-728d-51bc-8aef857571db/859745260947_cover.jpg/600x600bb.jpg",
+   "score": 0.903,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/meernaa-methuselah/",
+     "date": "2026-10-02T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "landlocked|hallucinator",
+   "title": "Landlocked",
+   "artist": "Hallucinator",
+   "year": "2026",
+   "appleMusicID": "6793576115",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/9c/68/5a9c686b-0bad-b785-2387-b7dd271f67df/cover.jpg/600x600bb.jpg",
+   "score": 0.843,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/hallucinator-landlocked/",
+     "date": "2026-10-01T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "bubbletreasure|toxe",
+   "title": "Bubble Treasure",
+   "artist": "Toxe",
+   "year": "2026",
+   "appleMusicID": "6804928459",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/34/ea/7b34ea5f-633e-69fb-3140-d1eb210b949d/823375399803_Cover.jpg/600x600bb.jpg",
+   "score": 0.843,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/toxe-bubble-treasure/",
+     "date": "2026-10-01T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "westsidewhimsy|jheneaiko",
+   "title": "Westside Whimsy",
+   "artist": "Jhené Aiko",
+   "year": "2026",
+   "appleMusicID": "6810781932",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/600x600bb.jpg",
+   "score": 0.786,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/jhene-aiko-westside-whimsy/",
+     "date": "2026-09-30T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "dreamhouse|empressof",
+   "title": "Dream House",
+   "artist": "Empress Of",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6abbe7635d1654f4a04fadb6/master/pass/Empress%20Of-Dream%20House.jpg",
+   "score": 0.786,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/empress-of-dream-house/",
+     "date": "2026-09-30T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "chrome|tysegall",
+   "title": "Chrome",
+   "artist": "Ty Segall",
+   "year": "2026",
+   "appleMusicID": "1895415425",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/66/49/ce66499d-b120-92e4-f015-5776a7fa4d7a/781484098027.png/600x600bb.jpg",
+   "score": 0.734,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/ty-segall-chrome/",
+     "date": "2026-09-29T04:01:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "clerestory|julesreidy",
+   "title": "Clerestory",
+   "artist": "Jules Reidy",
+   "year": "2026",
+   "appleMusicID": "6780980379",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/f1/59/65f159f3-55c2-e666-fc83-89aa551cedb3/790377066364.png/600x600bb.jpg",
+   "score": 0.734,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/jules-reidy-clerestory/",
+     "date": "2026-09-29T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "nearly|bullion",
+   "title": "Nearly",
+   "artist": "Bullion",
+   "year": "2026",
+   "appleMusicID": "6780627854",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/d2/e6/63d2e676-5c29-a051-50a7-c3836e406e3d/66736.jpg/600x600bb.jpg",
+   "score": 0.685,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/bullion-nearly/",
+     "date": "2026-09-28T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "mule|orvillepeck",
+   "title": "Mule",
+   "artist": "Orville Peck",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6a62a500ee03086d8ecea647/master/pass/Orville%20Peck%20-%20Mule.jpeg",
+   "score": 0.685,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/orville-peck-mule/",
+     "date": "2026-09-28T04:01:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "paddywhackery|marywallopers",
+   "title": "Paddywhackery",
+   "artist": "The Mary Wallopers",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6ab6951521399d4c3b417121/master/pass/The%20Mary%20Wallopers-Paddywhackery.png",
+   "score": 0.685,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/the-mary-wallopers-paddywhackery/",
+     "date": "2026-09-28T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "czarfacemeetsfrankiepulitzer|czarface",
+   "title": "Czarface Meets Frankie Pulitzer",
+   "artist": "Czarface",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 0.671,
+   "mentions": [
+    {
+     "source": "needle-drop",
+     "url": "https://www.youtube.com/watch?v=7Iy6GD5Vq9w",
+     "date": "2026-09-22T00:38:22Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "northernexposure|sashajohndigweed",
+   "title": "Northern Exposure",
+   "artist": "Sasha John Digweed",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6ab6f1223e0766e51cb65f45/master/pass/Sasha%20and%20Digweed%20-%20Northern%20Exposure%20album%20art.png",
+   "score": 0.639,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/sasha-john-digweed-northern-exposure/",
+     "date": "2026-09-27T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "eternal|joydivision",
+   "title": "Eternal (Live)",
+   "artist": "Joy Division",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": "https://media.pitchfork.com/photos/6ab6422f43b1170d7975a5f6/master/pass/Joy%20Division%20-%20Eternal%20(Live).jpeg",
+   "score": 0.596,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/joy-division-eternal-live/",
+     "date": "2026-09-26T04:00:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "audacity|jaestephens",
+   "title": "AUDACITY",
+   "artist": "Jae Stephens",
+   "year": "2026",
+   "appleMusicID": "6813244907",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/c4/ff/8dc4ffce-c201-e8ff-9459-e0dbd3c0edd2/26UMGIM97412.rgb.jpg/600x600bb.jpg",
+   "score": 0.556,
+   "mentions": [
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/jae-stephens-audacity/",
+     "date": "2026-09-25T04:02:00Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
+   "id": "singerinmyband|thisislorelei",
+   "title": "The Singer in My Band",
+   "artist": "This Is Lorelei",
+   "year": "2026",
+   "appleMusicID": "6774172428",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/86/37/438637b7-d063-02d4-e1bd-5b3c6be6f9aa/191401221771.png/600x600bb.jpg",
+   "score": 0.53,
+   "mentions": [
+    {
+     "source": "stereogum",
+     "url": "https://stereogum.com/2510281/album-of-the-week-this-is-lorelei-the-singer-in-my-band/reviews/album-of-the-week/",
+     "date": "2026-09-08T14:05:45Z"
+    }
+   ],
+   "listeners": null
+  }
+ ],
+ "appleCache": {
+  "gem|juliajacklin": {
+   "id": "6771009439",
+   "artist": "Julia Jacklin",
+   "album": "The Gem",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/93/40/a39340a9-676b-4099-c126-fcdd6b2f0bfe/191400094277.png/600x600bb.jpg",
+   "year": "2026"
+  },
+  "hotelusona|protomartyr": {
+   "id": "6783429344",
+   "artist": "Protomartyr",
+   "album": "Hotel Usona",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/dd/cc/8cddcc79-f688-f2c3-8bae-0f4d839a4b0a/887828057160.png/600x600bb.jpg",
+   "year": "2026"
+  },
+  "dancingaloneontheconcrete|stefchura": {
+   "id": "6783815083",
+   "artist": "Stef Chura",
+   "album": "Dancing Alone on the Concrete",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/50/b7/e550b751-9168-2534-07ca-b593780f4097/460.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "lifeofashowgirltheencore|taylorswift": {
+   "id": "6814995859",
+   "artist": "Taylor Swift",
+   "album": "The Life of a Showgirl: The Encore",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "happinessanytime|leonbridges": {
+   "id": "6789289866",
+   "artist": "Leon Bridges",
+   "album": "Happiness Anytime",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/ac/34/17ac34a9-7e57-faec-2fe9-eeaa14827ce0/196874421079.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "intentions|megiapa": {
+   "id": "6782470588",
+   "artist": "megiapa",
+   "album": "Intentions",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/0f/41/b80f4159-519d-bc99-aa6a-1bd0d3372623/127922.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "ruinitsnotjustmusic|kaitlynaureliasmith": {
+   "id": "1890182100",
+   "artist": "Kaitlyn Aurelia Smith",
+   "album": "RUIN: It's Not Just Music",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/d7/85/5ed78531-b57c-8fbc-8f41-dcfb12e16849/3663729437259_cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "hallelujahanyway|tvbuddha": {
+   "id": "6788535480",
+   "artist": "TV Buddha",
+   "album": "Hallelujah Anyway",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/dd/fc/84ddfcbc-d3a0-b385-a309-0160f5cb8804/881626015162_cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "akumajodraculagalleryoflabyrinthoriginalsoundtrackselection|castlevaniasoundteam": {
+   "id": "1459230989",
+   "artist": "Castlevania Sound Team",
+   "album": "Akumajo Dracula Gallery of Labyrinth Original Soundtrack Selection",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0d/bb/a0/0dbba09e-5687-d1ed-de2c-79d5b5960361/4580204265239.jpg/600x600bb.jpg",
+   "year": "2006"
+  },
+  "losojosdelcondor|hermanosgutierrez": {
+   "id": "6768765527",
+   "artist": "Hermanos Gutiérrez",
+   "album": "Los Ojos Del Cóndor",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/44/d2/7344d214-ff32-73fd-06af-eddf991ed7d8/26CRGIM54925.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "breakorbreakthrough|zahna": {
+   "id": "1887205816",
+   "artist": "Zahna",
+   "album": "BREAK OR BREAKTHROUGH",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/a5/00/89a50030-2ea9-c711-3a37-543312ec0d0b/823375074182_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "metalresistance|babymetal": {
+   "id": "1830273195",
+   "artist": "BABYMETAL",
+   "album": "METAL RESISTANCE",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/68/66/f36866f3-dad3-9c75-b26b-61e1c04fa443/116514.jpg/600x600bb.jpg",
+   "year": "2016"
+  },
+  "talosprinciple2|damjanmravunac": {
+   "id": "1720642247",
+   "artist": "Damjan Mravunac",
+   "album": "The Talos Principle 2 (Video Game Soundtrack)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9e/e2/fc/9ee2fc5b-4f2f-786a-104a-082186e62b9d/artwork.jpg/600x600bb.jpg",
+   "year": "2023"
+  },
+  "dontmindifido|rileygreen": {
+   "id": "1832730457",
+   "artist": "Riley Green",
+   "album": "Don't Mind If I Do (Deluxe)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/0e/37/190e3722-515d-51de-33bd-b29c019e79fb/25BMR0007030.rgb.jpg/600x600bb.jpg",
+   "year": "2025"
+  },
+  "genshinimpactoutsideitisgrowingdark|hoyomix": {
+   "id": "1845989053",
+   "artist": "HOYO-MiX",
+   "album": "Genshin Impact - Outside It Is Growing Dark (Original Game Soundtrack)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/f7/31/aef73104-d957-34ce-9fb0-ced3eebd6abe/cover.jpg/600x600bb.jpg",
+   "year": "2025"
+  },
+  "megan|megantheestallion": {
+   "id": "1752025676",
+   "artist": "Megan Thee Stallion",
+   "album": "MEGAN",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/98/bc/7498bce2-125d-a550-401e-71a2a4c354a6/075679642578.jpg/600x600bb.jpg",
+   "year": "2024"
+  },
+  "twilight|nehapaul": {
+   "id": "1868830683",
+   "artist": "Neha paul",
+   "album": "TWILIGHT",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/85/42/0e8542ba-9d0f-f9c3-474e-121e827b15f7/artwork.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "regenregengerausche|torstenabrolatregenmacher": {
+   "id": "1214811782",
+   "artist": "Torsten Abrolat & Regen Macher",
+   "album": "Regen - Regengeräusche",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/af/ef/a6/afefa65c-84fc-f316-6400-469aaa453cf1/4251234325193_1448.jpg/600x600bb.jpg",
+   "year": "2017"
+  },
+  "multicolorednoisesforsleeporfocus|dreamsupplier": {
+   "id": "1893134168",
+   "artist": "Dream Supplier",
+   "album": "Multicolored Noises For Sleep Or Focus (Loopable no fade) - EP",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/94/88/fd9488dd-b302-bbd3-50cd-358fe4870f5f/8720996399279.jpg/600x600bb.jpg",
+   "year": "2023"
+  },
+  "digirel|artifyber": {
+   "id": "6789972202",
+   "artist": "Artifyber",
+   "album": "Digirel",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/a4/e5/30a4e543-467d-4b3b-1e27-aaaf1a30c529/5064041690939_cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "analoguepinkwhitenoise|noisefoundation": {
+   "id": "1570168795",
+   "artist": "Noise Foundation",
+   "album": "Analogue Pink & White Noise",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/c7/f1/ccc7f15a-dbe3-5d47-e1cf-ea04cad50105/cover.jpg/600x600bb.jpg",
+   "year": "2021"
+  },
+  "mademynight|lesserafim": {
+   "id": "6810483884",
+   "artist": "LE SSERAFIM",
+   "album": "Made My Night (HUH YUNJIN's Hero ver.) - Single",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/67/e4/7d67e450-5822-2a2d-f878-b734e1ff56bf/823375407195_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "motto|itzy": {
+   "id": "1893520810",
+   "artist": "ITZY",
+   "album": "Motto",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/83/ec/1183ec8b-4ae4-fa54-8c9b-a3e48b15d8d3/8809928957715_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "scarlet|dojacat": {
+   "id": "1707937663",
+   "artist": "Doja Cat",
+   "album": "Scarlet",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/61/09/216109c7-74f9-a99a-f2e9-0405d7ed2fea/196871470148.jpg/600x600bb.jpg",
+   "year": "2023"
+  },
+  "preludetoecstasy|lastdinnerparty": {
+   "id": "1712721350",
+   "artist": "The Last Dinner Party",
+   "album": "Prelude to Ecstasy",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9f/78/64/9f786499-53b3-8b7d-6889-1bfc686accd8/23UM1IM22205.rgb.jpg/600x600bb.jpg",
+   "year": "2024"
+  },
+  "doingssingle|shaiboychella": {
+   "id": "6796140972",
+   "artist": "Shaiboy & Chella",
+   "album": "Doings - Single",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/8c/06/838c0670-8ed4-6755-dcc9-616e709bf6ab/0.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "instrumentalchristianmusic|willmorrisoncalmworshipcollective": {
+   "id": "1802308114",
+   "artist": "Will Morrison & Calm Worship Collective",
+   "album": "Instrumental Christian Music (Instrumental Worship)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/c7/e1/43c7e1f5-a18e-b145-9b1e-f7954ffb06ac/artwork.jpg/600x600bb.jpg",
+   "year": "2025"
+  },
+  "passingfires|jeremycunningham": {
+   "id": "6791235997",
+   "artist": "Jeremy Cunningham",
+   "album": "Passing Fires",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/ef/13/7fef1307-5974-1cc1-1931-14e9268c45e1/128736.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "appliedcommunicationsbitesthebigone|appliedcommunications": {
+   "id": "1886803143",
+   "artist": "Applied Communications",
+   "album": "applied communications bites the big one",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/5a/82/325a8295-a4aa-3ff1-a2df-18208a067ce8/64280.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "norestforthewicked|azchike": {
+   "id": "6813621669",
+   "artist": "AZ Chike",
+   "album": "No Rest for The Wicked",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/ae/83/e1ae835c-fdc0-2e67-c149-40abcc1d0cce/093624825685.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "basspersuades|mileycyrus": {
+   "id": "6807197456",
+   "artist": "Miley Cyrus",
+   "album": "Bass Persuades",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "sm|semiratruth": {
+   "id": "6777201678",
+   "artist": "Semiratruth",
+   "album": "S!M",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/11/3c/30113c89-4461-d0c4-9c46-5d24ed81f466/66542.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "ilostmywayforcenturies|drin": {
+   "id": "6795130804",
+   "artist": "The Drin",
+   "album": "I Lost My Way For Centuries",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/c3/39/61c3397c-1147-04aa-67ec-212e298602a2/769152440163.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "pugnello|gillaband": {
+   "missAt": "2026-10-03T15:13:04Z"
+  },
+  "popstar|tinashe": {
+   "missAt": "2026-10-03T15:13:08Z"
+  },
+  "estrus|tovelo": {
+   "missAt": "2026-10-03T15:13:12Z"
+  },
+  "thisisspatown|300skullsandcountingjennysparks": {
+   "missAt": "2026-10-03T15:13:15Z"
+  },
+  "iwroteyoualetter|m83": {
+   "id": "6796319106",
+   "artist": "M83",
+   "album": "I Wrote You A Letter",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/df/b4/b6dfb40f-8643-ec29-a4d8-10d5a515be34/cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "travelagencyisonfire|annewaldmanthurstonmoorejamesilgenfritzanagramensemble": {
+   "missAt": "2026-10-03T15:13:22Z"
+  },
+  "meaningofflowers|agnesobel": {
+   "id": "6796336710",
+   "artist": "Agnes Obel",
+   "album": "The Meaning of Flowers",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/50/40/dd5040b1-4950-d4f9-66e0-5d677fcf68a8/26UMGIM80257.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "pylon|beabadoobee": {
+   "id": "6812904778",
+   "artist": "beabadoobee",
+   "album": "Pylon",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/08/a5/a108a5b7-7753-69eb-e140-a785a0e185a8/198704876622_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "c|lucybedroque": {
+   "missAt": "2026-10-03T15:13:33Z"
+  },
+  "doomed|andyboay": {
+   "missAt": "2026-10-03T15:13:36Z"
+  },
+  "ilovenature|bigflowersshemar": {
+   "missAt": "2026-10-03T15:13:40Z"
+  },
+  "thesekillingtimes|emmaruthrundle": {
+   "id": "6776134341",
+   "artist": "Emma Ruth Rundle",
+   "album": "These Killing Times",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/29/f1/3e29f1dc-f22d-9368-b4bc-6de6fe179814/21610.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "volume3|durdurband": {
+   "missAt": "2026-10-03T15:13:47Z"
+  },
+  "johnnymarr|transmissions": {
+   "missAt": "2026-10-03T15:13:51Z"
+  },
+  "ridelonesome|beck": {
+   "id": "6788956584",
+   "artist": "Beck",
+   "album": "Ride Lonesome",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/e4/45/06e445e7-9c2d-2a52-99b5-b6aa6a35a307/26UMGIM84718.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "guitarcentricfilmsoundtracks|leeranaldo": {
+   "missAt": "2026-10-03T15:13:58Z"
+  },
+  "melodie|slowpulp": {
+   "missAt": "2026-10-03T15:14:01Z"
+  },
+  "synkcomplaexity2026specialdigitalsingle|aespa": {
+   "missAt": "2026-10-03T15:14:05Z"
+  },
+  "greengreen|cortis": {
+   "missAt": "2026-10-03T15:14:09Z"
+  },
+  "redred|cortis": {
+   "missAt": "2026-10-03T15:14:12Z"
+  },
+  "dayandnight|carlyraejepsen": {
+   "missAt": "2026-10-03T15:14:16Z"
+  },
+  "confirmation|logic1000": {
+   "id": "6779295723",
+   "artist": "Logic1000",
+   "album": "Confirmation!",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/75/18/dd751881-72dc-8fcc-9a3a-45e834bb620f/5056556183150_cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "vidrigvar|dungen": {
+   "id": "6785929583",
+   "artist": "Dungen",
+   "album": "Vidrig Vår",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/db/94/68db9456-2b3a-aff0-922a-dc8ee14c62c8/8721555143814.png/600x600bb.jpg",
+   "year": "2026"
+  },
+  "loveaggregates|asherwhite": {
+   "id": "1895777386",
+   "artist": "Asher White",
+   "album": "Love Aggregates",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/72/4c/71724cb6-b882-fe44-e99b-581abd79c508/65683.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "painoftruth|painoftruth": {
+   "missAt": "2026-10-03T15:14:31Z"
+  },
+  "paulsimonsgracelandat40|thosewerethedaysofmiracleandwonder": {
+   "missAt": "2026-10-03T15:14:35Z"
+  },
+  "distorteverythingforever|suahn": {
+   "id": "6808311543",
+   "artist": "SUAHN",
+   "album": "Distort Everything Forever",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/c0/c3/f0c0c38a-a2c7-78fb-2a93-f3c44704950b/1341771.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "coloroutsidethelines|cortis": {
+   "missAt": "2026-10-03T15:14:43Z"
+  },
+  "dontbefunnywithoutme|leren": {
+   "missAt": "2026-10-03T15:14:47Z"
+  },
+  "detour|kimpetras": {
+   "missAt": "2026-10-03T15:14:50Z"
+  },
+  "motion|cortisjuicyj": {
+   "missAt": "2026-10-03T15:14:54Z"
+  },
+  "foursail|love": {
+   "id": "268006365",
+   "artist": "Love",
+   "album": "Four Sail (Bonus Track Version)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/6b/1b/1f/mzi.ziqtdyzs.jpg/600x600bb.jpg",
+   "year": "1969"
+  },
+  "solaris|ocean": {
+   "id": "6769156881",
+   "artist": "The Ocean",
+   "album": "Solaris",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/63/27/1d6327ee-443c-745b-256c-1368cf290ac7/820233267496.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "locket|madisonbeer": {
+   "id": "1846949115",
+   "artist": "Madison Beer",
+   "album": "locket",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/7f/ea/407feabc-a261-4dc3-dc57-50c7a0e72c0d/196873675152.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "metalgalaxy|babymetal": {
+   "id": "1830275477",
+   "artist": "BABYMETAL",
+   "album": "METAL GALAXY",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d8/f0/cd/d8f0cd7e-bab4-a05f-ceab-159e1da2bb40/116509.jpg/600x600bb.jpg",
+   "year": "2019"
+  },
+  "modernlifeislonely|holdingabsence": {
+   "missAt": "2026-10-03T15:15:12Z"
+  },
+  "violins|blondshell": {
+   "missAt": "2026-10-03T15:15:16Z"
+  },
+  "babymetal|babymetal": {
+   "id": "1830273487",
+   "artist": "BABYMETAL",
+   "album": "BABYMETAL",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/b1/84/25b18443-a659-5425-470f-b2e72a33318d/116513.jpg/600x600bb.jpg",
+   "year": "2015"
+  },
+  "slimshadylp|eminem": {
+   "missAt": "2026-10-03T15:15:24Z"
+  },
+  "yaphet|curlycastro": {
+   "id": "6794054749",
+   "artist": "Curly Castro",
+   "album": "Yaphet",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/8b/4a/b58b4a21-f0f0-d1a1-850a-5db8e38f888a/5064021600408_cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "hypochondriac|brakence": {
+   "missAt": "2026-10-03T15:15:31Z"
+  },
+  "cursumperficio|anthrax": {
+   "missAt": "2026-10-03T15:15:35Z"
+  },
+  "nowthenforever|earthwindfire": {
+   "missAt": "2026-10-03T15:15:39Z"
+  },
+  "cocoon|yeat": {
+   "missAt": "2026-10-03T15:15:42Z"
+  },
+  "19|adele": {
+   "missAt": "2026-10-03T15:15:46Z"
+  },
+  "radicalframe|actress": {
+   "missAt": "2026-10-03T15:15:49Z"
+  },
+  "herebecauseofhope|ezracollective": {
+   "id": "6767014278",
+   "artist": "Ezra Collective",
+   "album": "Here Because of Hope",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/84/ba/af84ba41-bcb5-0002-26b6-0647fee2272e/0720841306900_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "angel|lizzymcalpine": {
+   "id": "6791793736",
+   "artist": "Lizzy McAlpine",
+   "album": "Angel",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/76/cb/6b76cbb0-8e53-d69a-0fa0-706360ab96e3/196874588840.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "myaimistrue|elviscostello": {
+   "id": "1440840988",
+   "artist": "Elvis Costello",
+   "album": "My Aim Is True",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/db/76/78/db76781b-76d9-6bba-fb7e-70a280c7d5ae/00602547382160.rgb.jpg/600x600bb.jpg",
+   "year": "1977"
+  },
+  "fellasleepinthesun|after": {
+   "id": "6788297482",
+   "artist": "After",
+   "album": "Fell Asleep in the Sun",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/c7/a4/d5c7a485-2ebc-5cbe-665f-77dfbb0d1cb7/823375232124_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "necropolitan|greenlung": {
+   "id": "1892398281",
+   "artist": "Green Lung",
+   "album": "Necropolitan",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b8/08/c5b808a6-23d1-9714-c9f5-d0d8f4ed8c70/cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "rubbersoul|beatles": {
+   "id": "6792047716",
+   "artist": "The Beatles",
+   "album": "Rubber Soul (Super Deluxe)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/80/6d/71806dd8-6dd1-d59b-bf94-a229fe1840e6/26UMGIM15219.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "crisco|mirandalambert": {
+   "id": "6775919538",
+   "artist": "Miranda Lambert",
+   "album": "Crisco",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/8b/80/708b803d-370d-2ad3-fdbd-0c0cdfe92526/26UMGIM63533.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "methuselah|meernaa": {
+   "id": "6806965195",
+   "artist": "Meernaa",
+   "album": "Methuselah",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/35/6f/e0356f1e-2ed6-728d-51bc-8aef857571db/859745260947_cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "landlocked|hallucinator": {
+   "id": "6793576115",
+   "artist": "Hallucinator",
+   "album": "Landlocked",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/9c/68/5a9c686b-0bad-b785-2387-b7dd271f67df/cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "bubbletreasure|toxe": {
+   "id": "6804928459",
+   "artist": "Toxe",
+   "album": "Bubble Treasure",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7b/34/ea/7b34ea5f-633e-69fb-3140-d1eb210b949d/823375399803_Cover.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "westsidewhimsy|jheneaiko": {
+   "id": "6810781932",
+   "artist": "Jhené Aiko",
+   "album": "Westside Whimsy",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/5a/90/715a9057-5ed3-26e0-a706-0fc39b1a1a64/26UM1IM17018.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "dreamhouse|empressof": {
+   "missAt": "2026-10-03T15:16:33Z"
+  },
+  "chrome|tysegall": {
+   "id": "1895415425",
+   "artist": "Ty Segall",
+   "album": "Chrome",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/66/49/ce66499d-b120-92e4-f015-5776a7fa4d7a/781484098027.png/600x600bb.jpg",
+   "year": "2026"
+  },
+  "clerestory|julesreidy": {
+   "id": "6780980379",
+   "artist": "Jules Reidy",
+   "album": "Clerestory",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/f1/59/65f159f3-55c2-e666-fc83-89aa551cedb3/790377066364.png/600x600bb.jpg",
+   "year": "2026"
+  },
+  "nearly|bullion": {
+   "id": "6780627854",
+   "artist": "Bullion",
+   "album": "Nearly",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/d2/e6/63d2e676-5c29-a051-50a7-c3836e406e3d/66736.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "mule|orvillepeck": {
+   "missAt": "2026-10-03T15:16:53Z"
+  },
+  "paddywhackery|marywallopers": {
+   "missAt": "2026-10-03T15:16:56Z"
+  },
+  "czarfacemeetsfrankiepulitzer|czarface": {
+   "missAt": "2026-10-03T15:17:00Z"
+  },
+  "northernexposure|sashajohndigweed": {
+   "missAt": "2026-10-03T15:17:04Z"
+  },
+  "audacity|jaestephens": {
+   "id": "6813244907",
+   "artist": "Jae Stephens",
+   "album": "AUDACITY",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/c4/ff/8dc4ffce-c201-e8ff-9459-e0dbd3c0edd2/26UMGIM97412.rgb.jpg/600x600bb.jpg",
+   "year": "2026"
+  },
+  "gregfreemanallsetthebone|": {
+   "missAt": "2026-10-03T15:17:12Z"
+  },
+  "thisisloreleithesingerinmyband|": {
+   "id": "6774172428",
+   "artist": "This Is Lorelei",
+   "album": "The Singer in My Band",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/86/37/438637b7-d063-02d4-e1bd-5b3c6be6f9aa/191401221771.png/600x600bb.jpg",
+   "year": "2026"
+  }
+ }
+}

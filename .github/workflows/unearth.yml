@@ -1,0 +1,29 @@
+name: Build Unearth feed
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # once a day, 09:17 UTC
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the parsers
+        run: python3 -m unittest test_build_feed
+      - name: Build feed.json
+        run: python3 build_feed.py
+      - name: Commit if it changed
+        run: |
+          git config user.name "unearth-bot"
+          git config user.email "unearth-bot@users.noreply.github.com"
+          git add feed.json
+          git diff --cached --quiet || git commit -m "Update Unearth feed"
+          git push
