@@ -4,10 +4,22 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch Bandcamp Daily's feed with the job's own user agent
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch and parse with the job's own code
         run: |
-          curl -sS -L -m 30 -A "DeepCutsUnearth/1.0 (album feed reader; +https://github.com/)" -H "Accept: */*" \
-            -D headers.txt -o body.txt -w "status=%{http_code} bytes=%{size_download} url=%{url_effective}\n" https://daily.bandcamp.com/feed || true
-          echo "--- headers"; cat headers.txt
-          echo "--- first 1500 bytes"; head -c 1500 body.txt
-          echo; echo "--- line 14"; sed -n '10,16p' body.txt | cut -c1-300
+          python3 - <<'PY'
+          import sys, pyexpat, build_feed as b
+          print("python", sys.version.split()[0], "expat", pyexpat.EXPAT_VERSION)
+          data = b.fetch("https://daily.bandcamp.com/feed")
+          print(len(data), "bytes")
+          lines = data.split(b"\n")
+          for i in range(9, 16):
+              print(i + 1, repr(lines[i][:160]))
+          try:
+              print("parsed", len(list(b.feed_items(data))), "items")
+          except Exception as e:
+              print("PARSE ERROR", e)
+          PY
