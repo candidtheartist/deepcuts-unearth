@@ -1,7 +1,7 @@
 # Deep Cuts — Unearth feed
 
-A once-a-day job that works out which albums and songs are getting attention from music blogs,
-curators and listeners, and writes one ranked list (`feed.json`) for the Deep Cuts app.
+A job that works out which albums and songs are getting attention from music blogs,
+curators, radio DJs and listeners, and writes one ranked list (`feed.json`) for the Deep Cuts app.
 Every entry is tagged with its genres, so the app can put music close to someone's taste first.
 There are no accounts and no server: GitHub runs the job and hosts the file.
 
@@ -25,19 +25,32 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 | Rock | The Fire Note, At The Barrier, Louder Than War, Echoes and Dust, Raven Sings the Blues (songs) |
 | Pop | The Singles Jukebox, The Bias List (K-pop), Scandipop (all songs) |
 | Latin | none yet: the good outlets block feed readers or write headlines that don't name the record. Latin entries come from the general sources and Apple's genre. |
+| Radio | KEXP, KCRW (Eclectic 24 and the DJs' shows), triple j, NTS (picked and latest shows): what was played over the last week |
 | Listeners | ListenBrainz: albums and songs played well above their monthly average this week |
 
 Only posts whose title names one album or one song are used (a review, an "album of the day"): news,
 interviews, lists and round-ups are skipped.
 
-Blog feeds are RSS, which sites publish for other apps to read. ListenBrainz data is open.
-Nothing here scrapes a web page.
+Blog feeds are RSS, which sites publish for other apps to read. ListenBrainz data is open, and the
+stations' playlists come from the JSON their own sites and apps read. Nothing here scrapes a web page.
+
+## Radio
+
+A song counts as "getting played" with 3 or more spins across at least 2 broadcasts, or a play on more
+than one station. An album counts when DJs are playing more than one track from it. Anything a station
+says came out before last year is left out, and a pick that only radio is behind has to be known to be new
+(from the station or from Apple). Each station's mention carries its spins (`plays`), which the app shows
+as "Played 14 times this week". The stations are asked every 6 hours, not on every run; the answer is kept
+in `memory.json`. To add a station, write a reader that returns one row per play and add it to `RADIO`.
 
 ## How albums are ranked
 
 - Each mention counts by source (hand-picked "best" feeds count most) and loses half its weight every 10 days.
 - A listener trend adds to the score in proportion to how fast the album is rising.
-- Albums picked up by more than one source get a 25% boost per extra source.
+- A radio station counts by how often it played the record: about half its weight for a few spins, all of it for ten or more.
+- Agreement is what lifts an album: 20% per extra outlet, and 40% for each different kind of source that agrees
+  (blogs, curators, radio, listeners). An album one blog reviewed sits below one that a blog reviewed and DJs are playing.
+- At most 30 albums and 20 songs that only radio is behind.
 - The very top of ListenBrainz's chart is skipped: those albums are already everywhere.
 - The list is the top 120 albums and 60 songs, plus up to 25 more albums and 10 more songs for each genre
   a specialist outlet covers, so a metal or jazz fan has more than a handful to look through.

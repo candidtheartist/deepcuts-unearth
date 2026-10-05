@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Builds feed.json for Deep Cuts' Unearth page.
 
-Reads music blogs' RSS feeds and ListenBrainz's open listening stats, works out which
+Reads music blogs' RSS feeds, radio stations' playlists and ListenBrainz's open listening stats, works out which
 albums and songs are getting attention right now, and writes one ranked list, each entry tagged
 with its genres so the app can lean towards what someone plays most. Runs once an hour
 (see .github/workflows/unearth.yml). Standard library only, so there is nothing to install.
@@ -46,6 +46,15 @@ MAX_SONGS = 60
 EXTRA_PER_GENRE = {"album": 25, "song": 10}
 # Albums that only listeners (no blog or curator) are behind: keep the list from filling up with them.
 MAX_LISTENER_ONLY = 20
+# Radio: how many days of playlists count, how often the stations are asked (the job runs hourly, and
+# a week of plays barely moves in an hour), and what it takes to count as "getting played":
+# a few spins across more than one broadcast, or more than one station.
+RADIO_DAYS = 7
+RADIO_REFRESH_HOURS = 6
+RADIO_MIN_SPINS = 3
+RADIO_MIN_BROADCASTS = 2
+# Albums and songs only radio is behind: enough to notice, not enough to take the list over.
+MAX_RADIO_ONLY = {"album": 30, "song": 20}
 
 # ---------------------------------------------------------------------------------------------
 # Parsers. Each turns a feed item into (artist, album), or None to skip it.
@@ -713,6 +722,240 @@ def listener_trends(kind):
 
 
 # ---------------------------------------------------------------------------------------------
+# Radio: what DJs at listener-supported stations are playing
+# ---------------------------------------------------------------------------------------------
+#
+# Each reader returns one row per song played: {artist, song, album, year, broadcast, at}.
+# `broadcast` names one show on one day, so "played on four different shows" can be told
+# from "one DJ played it four times". `year` is the release year when the station gives it.
+
+
+def bare(title):
+    """triple j adds notes in square brackets: "Green Honda [triple j live recording, …]"."""
+    return re.sub(r"\s*\[[^\]]*\]\s*$", "", title or "").strip()
+
+
+def kexp_plays(now):
+    cutoff, plays = now - dt.timedelta(days=RADIO_DAYS), []
+    url = "https://api.kexp.org/v2/plays/?limit=200"
+    for _ in range(16):  # about a week at 200 a page
+        page = json.loads(fetch(url, timeout=60))
+        for row in page.get("results", []):
+            at = parse_date(row.get("airdate"))
+            if row.get("play_type") != "trackplay" or not at or not row.get("artist") or not row.get("song"):
+                continue
+            if at < cutoff:
+                return plays
+            plays.append({"artist": row["artist"], "song": row["song"], "album": row.get("album") or "",
+                          "year": (row.get("release_date") or "")[:4] or None,
+                          "broadcast": str(row.get("show")), "at": at})
+        url = page.get("next")
+        if not url:
+            break
+    return plays
+
+
+def kcrw_plays(now):
+    """Eclectic 24 (the music channel) and the DJs' live shows, a day at a time."""
+    plays, failures = [], []
+    today = now - dt.timedelta(hours=8)  # the station's day is Los Angeles's, and asking for tomorrow is an error
+    for back in range(RADIO_DAYS + 1):
+        day = today - dt.timedelta(days=back)
+        for channel in ("Music", "Simulcast"):
+            try:
+                rows = json.loads(fetch(f"https://tracklist-api.kcrw.com/{channel}/date/{day:%Y/%m/%d}?page_size=500", timeout=60))
+            except Exception as error:  # one missing day shouldn't lose the week
+                failures.append(error)
+                continue
+            for row in rows:
+                at = parse_date(row.get("datetime"))
+                if not at or not row.get("title") or not row.get("artist") or row["artist"].startswith("["):  # "[BREAK]"
+                    continue
+                plays.append({"artist": row["artist"], "song": row["title"], "album": row.get("album") or "",
+                              "year": row.get("year") or None,
+                              "broadcast": f"{row.get('program_title')} {row.get('date')}", "at": at})
+    if not plays and failures:
+        raise failures[0]
+    return plays
+
+
+def triple_j_plays(now):
+    start, plays = now - dt.timedelta(days=RADIO_DAYS), []
+    for offset in range(0, 3000, 100):  # 100 is the most it gives at once
+        url = ("https://music.abcradio.net.au/api/v1/plays/search.json?station=triplej&limit=100"
+               f"&offset={offset}&from={start:%Y-%m-%dT%H:%M:%SZ}&to={now:%Y-%m-%dT%H:%M:%SZ}")
+        page = json.loads(fetch(url, timeout=60))
+        for row in page.get("items", []):
+            recording, at = row.get("recording") or {}, parse_date(row.get("played_time"))
+            artists = [a["name"] for a in recording.get("artists") or [] if a.get("name")]
+            if not at or not artists or not recording.get("title"):
+                continue
+            release = row.get("release") or {}
+            if re.search(r"like a version", release.get("title") or "", re.I):  # the station's own covers series
+                release = {}
+            # There's no show in the data, so a morning play and an evening play count as two broadcasts.
+            plays.append({"artist": " & ".join(artists) if len(artists) < 3 else artists[0],
+                          "song": bare(recording["title"]), "album": bare(release.get("title") or ""),
+                          "year": release.get("release_year") or None,
+                          "broadcast": f"{at:%Y-%m-%d} {at.hour // 6}", "at": at})
+        if offset + 100 >= page.get("total", 0):
+            break
+    return plays
+
+
+def nts_plays(now):
+    """The tracklists of NTS's picked shows and its latest ones. Much of what NTS plays is old;
+    the release year is checked later, against Apple's catalog."""
+    base = "https://www.nts.live/api/v2"
+    episodes = {}
+    for row in json.loads(fetch(f"{base}/collections/nts-picks")).get("results", []):
+        if row.get("show_alias") and row.get("episode_alias"):
+            episodes[f"/shows/{row['show_alias']}/episodes/{row['episode_alias']}"] = parse_date(row.get("broadcast"))
+    for offset in (0, 12):
+        for row in json.loads(fetch(f"{base}/search/episodes?offset={offset}&limit=12")).get("results", []):
+            path = (row.get("article") or {}).get("path")
+            if path:
+                try:
+                    day = dt.datetime.strptime(row.get("local_date") or "", "%d %b %Y").replace(tzinfo=dt.timezone.utc)
+                except ValueError:
+                    day = None
+                episodes.setdefault(path, day)
+
+    def tracklist(path):
+        try:
+            return json.loads(fetch(f"{base}{path}/tracklist")).get("results", [])
+        except Exception:  # some shows have no tracklist
+            return []
+
+    plays = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        for (path, day), rows in zip(episodes.items(), pool.map(tracklist, episodes)):
+            at = day or now
+            if (now - at).days > RADIO_DAYS:
+                continue
+            for row in rows:
+                if row.get("artist") and row.get("title"):
+                    plays.append({"artist": row["artist"], "song": row["title"], "album": "", "year": None,
+                                  "broadcast": path, "at": at})
+    return plays
+
+
+RADIO = [
+    {"id": "kexp", "name": "KEXP", "kind": "radio", "weight": 2.0,
+     "site": "https://www.kexp.org/playlist/", "read": kexp_plays},
+    {"id": "kcrw", "name": "KCRW", "kind": "radio", "weight": 2.0,
+     "site": "https://www.kcrw.com/playlist", "read": kcrw_plays},
+    # triple j plays its favourites far more often than the others, and they're closer to the charts.
+    {"id": "triple-j", "name": "triple j", "kind": "radio", "weight": 1.5,
+     "site": "https://www.abc.net.au/triplej/featured-music/recently-played", "read": triple_j_plays},
+    {"id": "nts", "name": "NTS Radio", "kind": "radio", "weight": 2.0,
+     "site": "https://www.nts.live/latest", "read": nts_plays},
+]
+RADIO_IDS = {s["id"] for s in RADIO}
+SOURCE_KINDS = {s["id"]: s["kind"] for s in SOURCES + SONG_SOURCES + RADIO}
+
+
+def radio_trends(plays_by_station, kind, now):
+    """What's getting played: albums (or songs) with a few spins across more than one broadcast,
+    or on more than one station. Each comes back with its spins per station.
+
+    An album counts when DJs are playing more than one track from it: one song on repeat is a
+    single doing well, and that belongs in the songs list.
+    Anything a station says came out before last year is left out: this is about new music."""
+    found = {}
+    for station, plays in plays_by_station.items():
+        for play in plays:
+            title = play["song"] if kind == "song" else play["album"]
+            if not title or (kind == "album" and key("", title) == key("", play["song"])):
+                continue
+            item = found.setdefault(key(play["artist"], title), {"artist": play["artist"], "album": title,
+                                                                 "year": None, "stations": {}, "songs": set()})
+            item["songs"].add(key("", play["song"]))
+            if play.get("year"):
+                item["year"] = max(item["year"] or "", str(play["year"]))
+            spins = item["stations"].setdefault(station, {"plays": 0, "broadcasts": set(), "last": play["at"]})
+            spins["plays"] += 1
+            spins["broadcasts"].add(play["broadcast"])
+            spins["last"] = max(spins["last"], play["at"])
+    trends = []
+    for item in found.values():
+        plays = sum(s["plays"] for s in item["stations"].values())
+        broadcasts = sum(len(s["broadcasts"]) for s in item["stations"].values())
+        if kind == "album" and len(item["songs"]) < 2:
+            continue
+        if item["year"] and item["year"] < str(now.year - 1):
+            continue
+        if len(item["stations"]) < 2 and (plays < RADIO_MIN_SPINS or broadcasts < RADIO_MIN_BROADCASTS):
+            continue
+        trends.append({"artist": item["artist"], "album": item["album"], "year": item["year"],
+                       "stations": {station: {"plays": s["plays"], "last": s["last"].strftime("%Y-%m-%dT%H:%M:%SZ")}
+                                    for station, s in item["stations"].items()}})
+    trends.sort(key=lambda t: -sum(s["plays"] for s in t["stations"].values()))
+    return trends
+
+
+def read_radio(now, memory, status):
+    """This week's radio trends, {"album": […], "song": […]}. The stations are asked every few hours;
+    in between, the last answer (kept in memory.json) is used again."""
+    saved = memory.get("radio") or {}
+    asked = parse_date(saved.get("at"))
+    if asked and (now - asked).total_seconds() < RADIO_REFRESH_HOURS * 3600:
+        status.update(saved.get("status", {}))
+        return saved
+
+    def read(station):
+        try:
+            return station["read"](now)
+        except Exception as error:  # one station being down shouldn't stop the others
+            return error
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(RADIO)) as pool:
+        answers = list(pool.map(read, RADIO))
+    plays, radio_status = {}, {}
+    for station, answer in zip(RADIO, answers):
+        if isinstance(answer, Exception):
+            radio_status[station["id"]] = f"failed: {answer}"
+        else:
+            plays[station["id"]] = answer
+            radio_status[station["id"]] = f"{len(answer)} found"
+        log(f"  {station['id']}: {radio_status[station['id']]}")
+    fresh = {"at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "status": radio_status,
+             "album": radio_trends(plays, "album", now), "song": radio_trends(plays, "song", now)}
+    # A station that failed keeps what it had last time, so one bad afternoon doesn't empty its picks.
+    failed = {station for station, result in radio_status.items() if result.startswith("failed")}
+    for kind in ("album", "song"):
+        known = {key(t["artist"], t["album"]): t for t in fresh[kind]}
+        for old in saved.get(kind, []):
+            kept = {station: spins for station, spins in old["stations"].items() if station in failed}
+            if kept:
+                known.setdefault(key(old["artist"], old["album"]), {**old, "stations": {}})["stations"].update(kept)
+        fresh[kind] = list(known.values())
+    memory["radio"] = fresh
+    status.update(radio_status)
+    return fresh
+
+
+def radio_mentions(trends):
+    """One mention per station that's playing it. A handful of spins counts for about half
+    a station's weight, ten or more for all of it."""
+    weights = {s["id"]: s for s in RADIO}
+    mentions = []
+    for trend in trends:
+        for station, spins in trend["stations"].items():
+            if station not in weights:
+                continue
+            mentions.append({"source": station, "artist": trend["artist"], "album": trend["album"],
+                             "url": weights[station]["site"], "date": parse_date(spins["last"]), "image": None,
+                             "weight": round(weights[station]["weight"] * min(1.0, math.sqrt(spins["plays"] / 10)), 3),
+                             "plays": spins["plays"], "year": trend.get("year")})
+    return mentions
+
+
+def only_radio(entry):
+    return bool(entry["mentions"]) and all(m["source"] in RADIO_IDS for m in entry["mentions"]) and not entry.get("listeners")
+
+
+# ---------------------------------------------------------------------------------------------
 # Matching to Apple Music (best effort: the app retries anything left unmatched)
 # ---------------------------------------------------------------------------------------------
 
@@ -778,14 +1021,18 @@ def entry_genres(apple, mentions):
     return list(dict.fromkeys(genres))
 
 
-def shortlist(entries, limit, extra_per_genre):
+def shortlist(entries, limit, extra_per_genre, radio_only_limit=MAX_RADIO_ONLY["album"]):
     """The top `limit` by score, plus up to `extra_per_genre` more for each genre a specialist outlet covers.
-    Listener-only entries are capped so they don't crowd out what people chose to write about."""
-    chosen, listener_only, extras = [], 0, {}
+    Listener-only and radio-only entries are capped so they don't crowd out what people chose to write about."""
+    chosen, listener_only, radio_only, extras = [], 0, 0, {}
     for entry in sorted(entries, key=lambda e: -e["score"]):
         if not entry["mentions"]:
             listener_only += 1
             if listener_only > MAX_LISTENER_ONLY:
+                continue
+        elif only_radio(entry):
+            radio_only += 1
+            if radio_only > radio_only_limit:
                 continue
         if len(chosen) - sum(extras.values()) < limit:
             chosen.append(entry)
@@ -797,13 +1044,35 @@ def shortlist(entries, limit, extra_per_genre):
     return chosen
 
 
-def build_list(kind, sources, now, apple_cache, status, memory):
+def kind_of(source_id):
+    """What sort of source this is: a blog, a radio station, listeners…"""
+    return SOURCE_KINDS.get(source_id, "blog")
+
+
+def score(mentions, listeners, now):
+    """Each mention fades with age and an outlet counts once, however many of its feeds picked it up.
+    Agreement is rewarded: a little for each extra outlet, and a lot when a different kind of source
+    agrees (a blog reviewed it and DJs are playing it and listeners are rising)."""
+    best = {}
+    for m in mentions:
+        age = max(0.0, (now - m["date"]).total_seconds() / 86400)
+        value = m["weight"] * 0.5 ** (age / HALF_LIFE_DAYS)
+        best[family(m["source"])] = max(best.get(family(m["source"]), 0), value)
+    kinds = {kind_of(m["source"]) for m in mentions}
+    if listeners:
+        best["listenbrainz"] = min(listeners["momentum"], 3.0) * 0.5
+        kinds.add("listeners")
+    return round(sum(best.values()) * (1 + 0.2 * (len(best) - 1)) * (1 + 0.4 * (len(kinds) - 1)), 3)
+
+
+def build_list(kind, sources, now, apple_cache, status, memory, radio=()):
     """Collects, scores, ranks and matches one list: 'album' or 'song'."""
     log(f"Reading {kind} feeds…")
     mentions, feed_status = blog_mentions(now, sources)
     status.update(feed_status)
     mentions = remember(mentions, memory.get(kind, []), sources, now)
     memory[kind] = [{**m, "date": m["date"].strftime("%Y-%m-%dT%H:%M:%SZ"), "weight": None} for m in mentions]
+    mentions += radio_mentions(radio)  # not remembered with the blogs' posts: radio is read fresh, a week at a time
 
     log(f"Reading ListenBrainz {kind}s…")
     listener_key = "listenbrainz" if kind == "album" else "listenbrainz-songs"
@@ -835,20 +1104,10 @@ def build_list(kind, sources, now, apple_cache, status, memory):
                                    {"artist": trend["artist"], "album": trend["album"], "mentions": [], "listeners": None})
         entry["listeners"] = {"listens": trend["listens"], "momentum": trend["momentum"]}
 
-    # Score: each mention fades with age; one mention per source family; agreement between sources is rewarded.
     for entry in entries.values():
-        best = {}
-        for m in entry["mentions"]:
-            age = max(0.0, (now - m["date"]).total_seconds() / 86400)
-            value = m["weight"] * 0.5 ** (age / HALF_LIFE_DAYS)
-            best[family(m["source"])] = max(best.get(family(m["source"]), 0), value)
-        score = sum(best.values())
-        if entry["listeners"]:
-            best["listenbrainz"] = min(entry["listeners"]["momentum"], 3.0) * 0.5
-            score += best["listenbrainz"]
-        entry["score"] = round(score * (1 + 0.25 * (len(best) - 1)), 3)
+        entry["score"] = score(entry["mentions"], entry["listeners"], now)
 
-    ranked = shortlist(entries.values(), MAX_ALBUMS if kind == "album" else MAX_SONGS, EXTRA_PER_GENRE[kind])
+    ranked = shortlist(entries.values(), MAX_ALBUMS if kind == "album" else MAX_SONGS, EXTRA_PER_GENRE[kind], MAX_RADIO_ONLY[kind])
 
     def stamp(date):
         return date.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -857,13 +1116,19 @@ def build_list(kind, sources, now, apple_cache, status, memory):
     output = []
     for entry in ranked:
         apple = apple_lookup(entry["artist"], entry["album"], apple_cache, kind)
+        if only_radio(entry):
+            # Stations play old favourites too. With nobody writing about it, it has to be known to be new.
+            year = max([m.get("year") or "" for m in entry["mentions"]] + [apple["year"] if apple else ""])
+            if year < str(now.year - 1):
+                continue
         image = next((m["image"] for m in entry["mentions"] if m["image"]), None)
         seen, out_mentions = set(), []
         for m in sorted(entry["mentions"], key=lambda m: -m["weight"]):  # the heaviest feed in a family is the one shown
             if family(m["source"]) in seen:
                 continue
             seen.add(family(m["source"]))
-            out_mentions.append({"source": m["source"], "url": m["url"], "date": stamp(m["date"])})
+            out_mentions.append({"source": m["source"], "url": m["url"], "date": stamp(m["date"]),
+                                 **({"plays": m["plays"]} if m.get("plays") else {})})
         output.append({
             "id": ("" if kind == "album" else "song:") + key(entry["artist"], entry["album"]),
             "type": kind,
@@ -910,14 +1175,16 @@ def main():
             pass
     status = {}
 
-    albums = build_list("album", SOURCES, now, apple_cache, status, memory)
-    songs = build_list("song", SONG_SOURCES, now, apple_cache, status, memory)
+    log("Reading radio playlists…")
+    radio = read_radio(now, memory, status)
+    albums = build_list("album", SOURCES, now, apple_cache, status, memory, radio.get("album", []))
+    songs = build_list("song", SONG_SOURCES, now, apple_cache, status, memory, radio.get("song", []))
 
     feed = {
         "version": 3,
         "generatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "sources": [{**{k: s[k] for k in ("id", "name", "kind", "site")}, "genres": s.get("genres", [])}
-                    for s in SOURCES + SONG_SOURCES] + [LISTENERS],
+                    for s in SOURCES + SONG_SOURCES + RADIO] + [LISTENERS],
         "genres": [{"id": g, "name": name} for g, name in dict((g, name) for g, name, _ in GENRES).items()],
         "status": status,
         "albums": albums,
@@ -928,8 +1195,8 @@ def main():
     with open(OUTPUT, "w") as f:
         json.dump(feed, f, indent=1, ensure_ascii=False)
     with open(MEMORY, "w") as f:
-        json.dump({kind: [{k: v for k, v in m.items() if k != "weight"} for m in items] for kind, items in memory.items()},
-                  f, indent=1, ensure_ascii=False)
+        json.dump({kind: [{k: v for k, v in m.items() if k != "weight"} for m in items] if kind != "radio" else items
+                   for kind, items in memory.items()}, f, indent=1, ensure_ascii=False)
     for name, items in (("albums", albums), ("songs", songs)):
         matched = sum(1 for item in items if item["appleMusicID"])
         print(f"Wrote {len(items)} {name} ({matched} matched to Apple Music)")

@@ -204,6 +204,76 @@ class ListTests(unittest.TestCase):
         self.assertEqual(b.family("clash"), "clash")
 
 
+class RadioTests(unittest.TestCase):
+    NOW = dt.datetime(2026, 10, 4, tzinfo=dt.timezone.utc)
+
+    def play(self, artist, song, album="", year="2026", broadcast="a"):
+        return {"artist": artist, "song": song, "album": album, "year": year, "broadcast": broadcast, "at": self.NOW}
+
+    def test_a_song_needs_a_few_spins_on_more_than_one_show(self):
+        plays = {"kexp": [self.play("A", "Hit", broadcast=b) for b in "xyz"]          # three shows: counts
+                 + [self.play("B", "Pet", broadcast="x") for _ in range(5)]          # one DJ's favourite: doesn't
+                 + [self.play("C", "Once")]}
+        trends = b.radio_trends(plays, "song", self.NOW)
+        self.assertEqual([(t["artist"], t["stations"]["kexp"]["plays"]) for t in trends], [("A", 3)])
+
+    def test_two_stations_are_enough_on_their_own(self):
+        plays = {"kexp": [self.play("A", "Hit")], "kcrw": [self.play("a", "HIT (Radio Edit)", year=None)]}
+        trends = b.radio_trends(plays, "song", self.NOW)
+        self.assertEqual(sorted(trends[0]["stations"]), ["kcrw", "kexp"])
+        self.assertEqual(trends[0]["year"], "2026")
+
+    def test_old_music_is_left_out(self):
+        plays = {"kexp": [self.play("Sepultura", "Dead Embryonic Cells", year="1991", broadcast=b) for b in "xyz"]}
+        self.assertEqual(b.radio_trends(plays, "song", self.NOW), [])
+
+    def test_an_album_needs_more_than_one_of_its_tracks_played(self):
+        plays = {"kexp": [self.play("A", "One", "LP", broadcast=b) for b in "xy"] + [self.play("A", "Two", "LP", broadcast="z")]
+                 + [self.play("B", "Single", "Single", broadcast=b) for b in "xyz"]          # a single, not an album
+                 + [self.play("C", "Only", "Other LP", broadcast=b) for b in "xyz"]}        # one track on repeat
+        self.assertEqual([t["album"] for t in b.radio_trends(plays, "album", self.NOW)], ["LP"])
+
+    def test_more_spins_weigh_more_up_to_the_stations_weight(self):
+        def trend(n):
+            return {"artist": "A", "album": "B", "year": "2026", "stations": {"kexp": {"plays": n, "last": "2026-10-03T00:00:00Z"}}}
+        few, many, lots = (b.radio_mentions([trend(n)])[0] for n in (3, 10, 40))
+        self.assertLess(few["weight"], many["weight"])
+        self.assertEqual(many["weight"], lots["weight"])
+        self.assertEqual(few["plays"], 3)
+
+    def test_square_bracket_notes_are_dropped(self):
+        self.assertEqual(b.bare("Green Honda [triple j live recording, Laneway Festival]"), "Green Honda")
+        self.assertEqual(b.bare("Song (Remix)"), "Song (Remix)")
+
+    def test_stations_are_asked_only_every_few_hours(self):
+        saved = {"at": "2026-10-03T22:00:00Z", "status": {"kexp": "5 found"}, "album": [], "song": [{"artist": "A"}]}
+        status = {}
+        self.assertIs(b.read_radio(self.NOW, {"radio": saved}, status), saved)
+        self.assertEqual(status, {"kexp": "5 found"})
+
+
+class ScoreTests(unittest.TestCase):
+    NOW = dt.datetime(2026, 10, 4, tzinfo=dt.timezone.utc)
+
+    def mention(self, source, weight=1.5):
+        return {"source": source, "weight": weight, "date": self.NOW}
+
+    def test_a_different_kind_of_source_agreeing_counts_for_more_than_another_blog(self):
+        two_blogs = b.score([self.mention("clash"), self.mention("treble")], None, self.NOW)
+        blog_and_radio = b.score([self.mention("clash"), self.mention("kexp")], None, self.NOW)
+        all_three = b.score([self.mention("clash"), self.mention("kexp")], {"momentum": 3.0, "listens": 500}, self.NOW)
+        self.assertEqual(two_blogs, 3.6)
+        self.assertGreater(blog_and_radio, two_blogs)
+        self.assertGreater(all_three, blog_and_radio)
+
+    def test_one_outlets_feeds_count_once(self):
+        self.assertEqual(b.score([self.mention("pitchfork", 1.0), self.mention("pitchfork-bnm", 3.0)], None, self.NOW), 3.0)
+
+    def test_radio_only_entries_are_capped(self):
+        entries = [{"score": i, "mentions": [{"source": "kexp"}], "listeners": None} for i in range(30)]
+        self.assertEqual(len(b.shortlist(entries, limit=500, extra_per_genre=0, radio_only_limit=20)), 20)
+
+
 class HelperTests(unittest.TestCase):
     def test_key_ignores_case_editions_and_the(self):
         self.assertEqual(b.key("The Strokes", "Is This It (Deluxe)"), b.key("strokes", "IS THIS IT"))
