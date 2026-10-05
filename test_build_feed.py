@@ -255,7 +255,7 @@ class RadioTests(unittest.TestCase):
     def test_apple_gives_nts_plays_their_album_and_year(self):
         asked = []
 
-        def lookup(artist, title, cache, kind):
+        def lookup(artist, title, cache, kind, loose=False):
             asked.append(title)
             return {"One": {"collection": "LP", "year": "2026"}, "Two": {"collection": "Two - Single", "year": "2026"},
                     "Old": {"collection": "Classic - EP", "year": "1999"}}.get(title)
@@ -265,12 +265,13 @@ class RadioTests(unittest.TestCase):
             plays = {"kexp": [self.play("A", "Three", "LP")],
                      "nts": [self.play("A", "One", year=None), self.play("A", "Two", year=None),          # A is on KEXP too
                              self.play("B", "Old", year=None, broadcast="x"), self.play("B", "Old", year=None, broadcast="y"),
-                             self.play("C", "Stranger", year=None),                                        # one show, nobody else: not asked
+                             self.play("C", "Stranger", year=None),                                        # one show, nobody else: asked last
                              self.play("D", "Known", year=None, broadcast="x"), self.play("D", "Gone", year=None, broadcast="y")]}
             resolved = b.fill_in_from_apple(plays, {b.key("D", "Known"): {"album": "Saved", "year": "2025"}}, {})
         finally:
             b.apple_lookup = real
-        self.assertEqual(sorted(asked), ["Gone", "Old", "One", "Two"])
+        self.assertEqual(sorted(asked), ["Gone", "Old", "One", "Stranger", "Two"])
+        self.assertEqual(asked[-1], "Stranger")
         self.assertEqual([(p["album"], p["year"]) for p in plays["nts"]],
                          [("LP", "2026"), ("", "2026"), ("Classic", "1999"), ("Classic", "1999"), ("", None), ("Saved", "2025"), ("", None)])
         self.assertIsNone(resolved[b.key("D", "Gone")])
@@ -278,8 +279,81 @@ class RadioTests(unittest.TestCase):
         self.assertEqual([(t["album"], sorted(t["stations"])) for t in b.radio_trends(plays, "album", self.NOW)], [("LP", ["kexp", "nts"])])
         self.assertNotIn("B", [t["artist"] for t in b.radio_trends(plays, "song", self.NOW)])
 
+    def test_one_nts_play_of_something_new_counts_a_little(self):
+        plays = {"nts": [self.play("A", "New"), self.play("B", "Who Knows", year=None), self.play("C", "Old", year="1999")],
+                 "kexp": [self.play("D", "Once")]}                                    # one play elsewhere still isn't enough
+        trends = b.radio_trends(plays, "song", self.NOW)
+        self.assertEqual([t["artist"] for t in trends], ["A"])
+        one = b.radio_mentions(trends)[0]["weight"]
+        two = b.radio_mentions(b.radio_trends({"nts": [self.play("A", "New", broadcast=x) for x in "xy"]}, "song", self.NOW))[0]["weight"]
+        self.assertEqual(one, 0.6)
+        self.assertGreater(two, one)
+
+    def test_one_nts_play_joins_what_a_blog_is_behind(self):
+        plays = {"nts": [self.play("A", "Track", "Reviewed", year=None), self.play("B", "Track", "Ignored")],
+                 "kexp": [self.play("C", "Track", "Reviewed Too")]}
+        backed = {b.key("A", "Reviewed"), b.key("C", "Reviewed Too")}
+        self.assertEqual([t["album"] for t in b.radio_trends(plays, "album", self.NOW, backed)], ["Reviewed"])
+        self.assertEqual(b.radio_trends(plays, "album", self.NOW), [])
+
+    def test_artists_blogs_write_about_are_looked_up_first(self):
+        asked = []
+
+        def lookup(artist, title, cache, kind, loose=False):
+            asked.append(artist)
+
+        real, real_budget, b.apple_lookup, b.RADIO_LOOKUPS = b.apple_lookup, b.RADIO_LOOKUPS, lookup, 3
+        try:
+            plays = {"kexp": [self.play("Elsewhere", "Other", "LP")],
+                     "nts": [self.play("Nobody", "One", year=None), self.play("Twice", "Two", year=None, broadcast="x"),
+                             self.play("Twice", "Three", year=None, broadcast="y"), self.play("Elsewhere", "Four", year=None),
+                             self.play("Reviewed", "Five", year=None), self.play("Saved", "Six", year=None)]}
+            cache = {"song:" + b.key("Saved", "Six"): {}}                              # already answered: costs nothing
+            b.fill_in_from_apple(plays, {}, cache, wanted={b.key("Reviewed", "")})
+        finally:
+            b.apple_lookup, b.RADIO_LOOKUPS = real, real_budget
+        self.assertEqual(asked[:3], ["Reviewed", "Elsewhere", "Twice"])
+        self.assertEqual(sorted(asked[3:]), ["Saved"])
+
+    def test_tracklist_rows_without_a_name_are_skipped(self):
+        self.assertTrue(b.nameless("Unknown Artist", "Castles in the Sky"))
+        self.assertTrue(b.nameless("(?)", "Bonus Track"))
+        self.assertTrue(b.nameless("Someone", "ID"))
+        self.assertFalse(b.nameless("حميد الشاعرى", "تعرف ليه"))
+
+    def test_a_tracklists_credit_matches_apples(self):
+        hits = [{"artistName": "Someone Else", "trackName": "Mimoun Marhaba", "trackId": 1},
+                {"artistName": "Floating Points & Maalem Mahmoud Ghania", "trackName": "Mimoun Marhaba", "trackId": 2,
+                 "collectionName": "Promises", "releaseDate": "2026-03-01", "primaryGenreName": "Electronic"}]
+        asked = []
+
+        def fetch(url, **_):
+            asked.append(url)
+            return b.json.dumps({"results": hits if "Ghania" not in url else []})     # only the first name alone finds it
+
+        real, real_sleep, b.fetch, b.time.sleep = b.fetch, b.time.sleep, fetch, lambda _: None
+        try:
+            credit = "Floating Points, Maalem Mahmoud Ghania"
+            self.assertIsNone(b.apple_lookup(credit, "Mimoun Marhaba", {}, "song"))
+            cache = {}
+            hit = b.apple_lookup(credit, "Mimoun Marhaba", cache, "song", loose=True)
+            self.assertEqual((hit["id"], hit["collection"], hit["year"]), ("2", "Promises", "2026"))
+            self.assertEqual(len(asked), 3)
+            self.assertIsNone(b.apple_lookup("Floating Points", "Another Song", cache, "song", loose=True))
+            self.assertTrue(cache["song:" + b.key("Floating Points", "Another Song")]["loose"])
+        finally:
+            b.fetch, b.time.sleep = real, real_sleep
+
+    def test_nts_only_picks_have_their_own_limit_and_need_a_year(self):
+        def entry(source, score, year="2026"):
+            return {"score": score, "mentions": [{"source": source, "year": year}]}
+        entries = [entry("kexp", 5)] * 3 + [entry("nts", 1)] * 4 + [entry("nts", 2, year=None)]
+        chosen = b.shortlist(entries, limit=2, extra_per_genre=0, radio_only_limit=2, picks_only_limit=3)   # they come on top of the list
+        self.assertEqual([e["mentions"][0]["source"] for e in chosen], ["kexp"] * 2 + ["nts"] * 3)
+        self.assertTrue(all(e["mentions"][0]["year"] for e in chosen))
+
     def test_stations_are_asked_only_every_few_hours(self):
-        saved = {"at": "2026-10-03T22:00:00Z", "status": {"kexp": "5 found"}, "album": [], "song": [{"artist": "A"}]}
+        saved = {"at": "2026-10-03T22:00:00Z", "rules": b.RADIO_RULES, "status": {"kexp": "5 found"}, "album": [], "song": [{"artist": "A"}]}
         status = {}
         self.assertIs(b.read_radio(self.NOW, {"radio": saved}, status, {}), saved)
         self.assertEqual(status, {"kexp": "5 found"})
@@ -311,6 +385,10 @@ class HelperTests(unittest.TestCase):
     def test_key_ignores_case_editions_and_the(self):
         self.assertEqual(b.key("The Strokes", "Is This It (Deluxe)"), b.key("strokes", "IS THIS IT"))
         self.assertNotEqual(b.key("Cleo Sol", "Gold"), b.key("Alabaster DePlume", "Gold"))
+        self.assertEqual(b.key("Blue Öyster Cult", "(Don't Fear) The Reaper"), "dontfearthereaper|blueoystercult")
+        self.assertEqual(b.key("A", "(Intro) Song (Remix)"), b.key("A", "(Intro) Song"))
+        self.assertNotEqual(b.key("حميد الشاعرى", "تعرف ليه"), b.key("Lu Hu", "看 (Look)"))
+        self.assertNotIn("|", (b.key("Πύργος Αθηνών", "Αλφα Κενταυρου")[0], b.key("Πύργος Αθηνών", "Αλφα Κενταυρου")[-1]))
 
     def test_dates(self):
         self.assertEqual(b.parse_date("Thu, 01 Oct 2026 04:03:00 +0000"), dt.datetime(2026, 10, 1, 4, 3, tzinfo=dt.timezone.utc))

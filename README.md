@@ -41,10 +41,23 @@ than one station. An album counts when DJs are playing more than one track from 
 says came out before last year is left out, and a pick that only radio is behind has to be known to be new
 (from the station or from Apple). Each station's mention carries its spins (`plays`), which the app shows
 as "Played 14 times this week". The stations are asked every 6 hours, not on every run; the answer is kept
-in `memory.json`. NTS is read differently: about 150 of its latest shows plus the picked ones, and two shows playing the same
-song is enough, because its DJs rarely repeat each other. NTS names the artist and song only, so the album and
-year come from Apple, for artists another station is playing too or that more than one show played (up to 80
-new songs each time the stations are asked; answers are kept in `memory.json`).
+in `memory.json`.
+
+NTS is read differently: about 150 of its latest shows plus the picked ones. Its DJs rarely repeat each other
+(in a week of 2,600 songs, about a dozen are played by two shows), so it's treated more like a curator than a
+station on rotation:
+
+- Two shows playing the same song is enough.
+- One play counts too, a little (0.6, where a blog post is 1 to 2), when the record is known to be new, or when
+  a blog or curator is behind it as well. That's also how a single NTS play can back an album a blog reviewed.
+- NTS names the artist and song only, so the album and year come from Apple: up to 400 songs each time the
+  stations are asked, starting with artists the blogs are writing about, then artists another station is playing,
+  then artists more than one show played, then the rest. Answers are kept in `memory.json`, so after the first
+  day or two only new songs are asked about. Tracklists credit artists their own way ("A, B" for Apple's
+  "B & A"), so the title has to match but one shared artist name is enough.
+- Rows with no real name ("Unknown Artist", "ID") are skipped.
+
+Bump `RADIO_RULES` when these rules change, so the next run reads the stations again instead of reusing saved trends.
 
 To add a station, write a reader that returns one row per play and add it to `RADIO`.
 
@@ -55,7 +68,7 @@ To add a station, write a reader that returns one row per play and add it to `RA
 - A radio station counts by how often it played the record: about half its weight for a few spins, all of it for ten or more.
 - Agreement is what lifts an album: 20% per extra outlet, and 40% for each different kind of source that agrees
   (blogs, curators, radio, listeners). An album one blog reviewed sits below one that a blog reviewed and DJs are playing.
-- At most 30 albums and 20 songs that only radio is behind.
+- At most 30 albums and 20 songs that only radio is behind, and 15 more of each that only NTS is behind.
 - The very top of ListenBrainz's chart is skipped: those albums are already everywhere.
 - The list is the top 120 albums and 60 songs, plus up to 25 more albums and 10 more songs for each genre
   a specialist outlet covers, so a metal or jazz fan has more than a handful to look through.
