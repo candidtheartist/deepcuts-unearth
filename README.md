@@ -68,7 +68,7 @@ results are remembered in `feed.json` so later runs are quick.
 ## Hosting
 
 Put this folder in a **public** GitHub repository. The workflow in `.github/workflows/unearth.yml`
-runs daily and commits `feed.json` and `memory.json`. The app reads it from:
+runs every hour and commits `feed.json` and `memory.json`. The app reads it from:
 
 ```
 https://raw.githubusercontent.com/candidtheartist/deepcuts-unearth/main/feed.json

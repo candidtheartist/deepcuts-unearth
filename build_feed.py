@@ -3,7 +3,7 @@
 
 Reads music blogs' RSS feeds and ListenBrainz's open listening stats, works out which
 albums and songs are getting attention right now, and writes one ranked list, each entry tagged
-with its genres so the app can lean towards what someone plays most. Runs once a day
+with its genres so the app can lean towards what someone plays most. Runs once an hour
 (see .github/workflows/unearth.yml). Standard library only, so there is nothing to install.
 
     python3 build_feed.py            # writes feed.json next to this file
@@ -922,7 +922,7 @@ def main():
         "status": status,
         "albums": albums,
         "songs": songs,
-        # Remembered between runs so the same album or song isn't looked up every day.
+        # Remembered between runs so the same album or song isn't looked up every run.
         "appleCache": {k: v for k, v in apple_cache.items() if k in USED_LOOKUPS},
     }
     with open(OUTPUT, "w") as f:
