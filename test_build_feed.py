@@ -245,10 +245,43 @@ class RadioTests(unittest.TestCase):
         self.assertEqual(b.bare("Green Honda [triple j live recording, Laneway Festival]"), "Green Honda")
         self.assertEqual(b.bare("Song (Remix)"), "Song (Remix)")
 
+    def test_two_nts_shows_are_enough(self):
+        plays = {"nts": [self.play("A", "Rare", year=None, broadcast=b) for b in "xy"],
+                 "kexp": [self.play("B", "Twice", broadcast=b) for b in "xy"]}
+        self.assertEqual([t["artist"] for t in b.radio_trends(plays, "song", self.NOW)], ["A"])
+        mention = b.radio_mentions(b.radio_trends(plays, "song", self.NOW))[0]
+        self.assertGreater(mention["weight"], 2.0 * 0.5)
+
+    def test_apple_gives_nts_plays_their_album_and_year(self):
+        asked = []
+
+        def lookup(artist, title, cache, kind):
+            asked.append(title)
+            return {"One": {"collection": "LP", "year": "2026"}, "Two": {"collection": "Two - Single", "year": "2026"},
+                    "Old": {"collection": "Classic - EP", "year": "1999"}}.get(title)
+
+        real, b.apple_lookup = b.apple_lookup, lookup
+        try:
+            plays = {"kexp": [self.play("A", "Three", "LP")],
+                     "nts": [self.play("A", "One", year=None), self.play("A", "Two", year=None),          # A is on KEXP too
+                             self.play("B", "Old", year=None, broadcast="x"), self.play("B", "Old", year=None, broadcast="y"),
+                             self.play("C", "Stranger", year=None),                                        # one show, nobody else: not asked
+                             self.play("D", "Known", year=None, broadcast="x"), self.play("D", "Gone", year=None, broadcast="y")]}
+            resolved = b.fill_in_from_apple(plays, {b.key("D", "Known"): {"album": "Saved", "year": "2025"}}, {})
+        finally:
+            b.apple_lookup = real
+        self.assertEqual(sorted(asked), ["Gone", "Old", "One", "Two"])
+        self.assertEqual([(p["album"], p["year"]) for p in plays["nts"]],
+                         [("LP", "2026"), ("", "2026"), ("Classic", "1999"), ("Classic", "1999"), ("", None), ("Saved", "2025"), ("", None)])
+        self.assertIsNone(resolved[b.key("D", "Gone")])
+        # With the album known, NTS backs the album KEXP is playing, and the 1999 record is left out.
+        self.assertEqual([(t["album"], sorted(t["stations"])) for t in b.radio_trends(plays, "album", self.NOW)], [("LP", ["kexp", "nts"])])
+        self.assertNotIn("B", [t["artist"] for t in b.radio_trends(plays, "song", self.NOW)])
+
     def test_stations_are_asked_only_every_few_hours(self):
         saved = {"at": "2026-10-03T22:00:00Z", "status": {"kexp": "5 found"}, "album": [], "song": [{"artist": "A"}]}
         status = {}
-        self.assertIs(b.read_radio(self.NOW, {"radio": saved}, status), saved)
+        self.assertIs(b.read_radio(self.NOW, {"radio": saved}, status, {}), saved)
         self.assertEqual(status, {"kexp": "5 found"})
 
 

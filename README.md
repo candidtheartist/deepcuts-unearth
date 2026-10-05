@@ -41,7 +41,12 @@ than one station. An album counts when DJs are playing more than one track from 
 says came out before last year is left out, and a pick that only radio is behind has to be known to be new
 (from the station or from Apple). Each station's mention carries its spins (`plays`), which the app shows
 as "Played 14 times this week". The stations are asked every 6 hours, not on every run; the answer is kept
-in `memory.json`. To add a station, write a reader that returns one row per play and add it to `RADIO`.
+in `memory.json`. NTS is read differently: about 150 of its latest shows plus the picked ones, and two shows playing the same
+song is enough, because its DJs rarely repeat each other. NTS names the artist and song only, so the album and
+year come from Apple, for artists another station is playing too or that more than one show played (up to 80
+new songs each time the stations are asked; answers are kept in `memory.json`).
+
+To add a station, write a reader that returns one row per play and add it to `RADIO`.
 
 ## How albums are ranked
 

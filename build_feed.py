@@ -53,6 +53,10 @@ RADIO_DAYS = 7
 RADIO_REFRESH_HOURS = 6
 RADIO_MIN_SPINS = 3
 RADIO_MIN_BROADCASTS = 2
+# How many of NTS's latest shows are read (it has dozens a day), and how many songs a refresh may look up
+# on Apple to find the album and year NTS doesn't give.
+NTS_SHOWS = 150
+RADIO_LOOKUPS = 80
 # Albums and songs only radio is behind: enough to notice, not enough to take the list over.
 MAX_RADIO_ONLY = {"album": 30, "song": 20}
 
@@ -804,14 +808,15 @@ def triple_j_plays(now):
 
 
 def nts_plays(now):
-    """The tracklists of NTS's picked shows and its latest ones. Much of what NTS plays is old;
-    the release year is checked later, against Apple's catalog."""
+    """The tracklists of NTS's picked shows and its latest ones. NTS names the artist and song only:
+    the album and the year come from Apple afterwards (`fill_in_from_apple`), which matters here
+    because much of what NTS plays is old."""
     base = "https://www.nts.live/api/v2"
     episodes = {}
     for row in json.loads(fetch(f"{base}/collections/nts-picks")).get("results", []):
         if row.get("show_alias") and row.get("episode_alias"):
             episodes[f"/shows/{row['show_alias']}/episodes/{row['episode_alias']}"] = parse_date(row.get("broadcast"))
-    for offset in (0, 12):
+    for offset in range(0, NTS_SHOWS, 12):  # 12 is the most it gives at once
         for row in json.loads(fetch(f"{base}/search/episodes?offset={offset}&limit=12")).get("results", []):
             path = (row.get("article") or {}).get("path")
             if path:
@@ -848,10 +853,12 @@ RADIO = [
     # triple j plays its favourites far more often than the others, and they're closer to the charts.
     {"id": "triple-j", "name": "triple j", "kind": "radio", "weight": 1.5,
      "site": "https://www.abc.net.au/triplej/featured-music/recently-played", "read": triple_j_plays},
-    {"id": "nts", "name": "NTS Radio", "kind": "radio", "weight": 2.0,
+    # NTS's DJs almost never repeat each other, so two shows playing the same song already says something.
+    {"id": "nts", "name": "NTS Radio", "kind": "radio", "weight": 2.0, "min_spins": 2, "full_at": 4,
      "site": "https://www.nts.live/latest", "read": nts_plays},
 ]
 RADIO_IDS = {s["id"] for s in RADIO}
+STATIONS = {s["id"]: s for s in RADIO}
 SOURCE_KINDS = {s["id"]: s["kind"] for s in SOURCES + SONG_SOURCES + RADIO}
 
 
@@ -885,7 +892,8 @@ def radio_trends(plays_by_station, kind, now):
             continue
         if item["year"] and item["year"] < str(now.year - 1):
             continue
-        if len(item["stations"]) < 2 and (plays < RADIO_MIN_SPINS or broadcasts < RADIO_MIN_BROADCASTS):
+        enough = min(STATIONS.get(station, {}).get("min_spins", RADIO_MIN_SPINS) for station in item["stations"])
+        if len(item["stations"]) < 2 and (plays < enough or broadcasts < RADIO_MIN_BROADCASTS):
             continue
         trends.append({"artist": item["artist"], "album": item["album"], "year": item["year"],
                        "stations": {station: {"plays": s["plays"], "last": s["last"].strftime("%Y-%m-%dT%H:%M:%SZ")}
@@ -894,7 +902,44 @@ def radio_trends(plays_by_station, kind, now):
     return trends
 
 
-def read_radio(now, memory, status):
+def fill_in_from_apple(plays_by_station, known, apple_cache):
+    """Gives plays that came without an album (NTS's) the album and year Apple files the song under,
+    so they can back an album and old music can be told from new.
+
+    Looking up every song would take hours, so only the promising ones are asked about: artists that
+    another station is playing too, or that more than one show played. Answers are returned (and kept
+    in memory.json) by song, so each is asked once for as long as the song stays on the air."""
+    elsewhere, shows = set(), {}
+    for plays in plays_by_station.values():
+        for play in plays:
+            artist = key(play["artist"], "")
+            if play["album"]:
+                elsewhere.add(artist)
+            else:
+                shows.setdefault(artist, set()).add(play["broadcast"])
+    resolved, budget = {}, RADIO_LOOKUPS
+    bare_plays = [p for plays in plays_by_station.values() for p in plays if not p["album"]]
+    for play in sorted(bare_plays, key=lambda p: -len(shows[key(p["artist"], "")])):
+        artist, song = key(play["artist"], ""), key(play["artist"], play["song"])
+        if artist not in elsewhere and len(shows[artist]) < 2:
+            continue
+        if song not in resolved:
+            if song in known:
+                resolved[song] = known[song]
+            elif budget > 0:
+                budget -= 1
+                hit = apple_lookup(play["artist"], play["song"], apple_cache, "song")
+                # "Song - Single" isn't an album; "Name - EP" is, without the label.
+                album = re.sub(r" - EP$", "", hit.get("collection") or "") if hit else ""
+                resolved[song] = {"album": "" if album.endswith(" - Single") else album, "year": hit["year"]} if hit else None
+            else:
+                continue
+        if resolved[song]:
+            play["album"], play["year"] = resolved[song]["album"], resolved[song]["year"] or None
+    return resolved
+
+
+def read_radio(now, memory, status, apple_cache):
     """This week's radio trends, {"album": […], "song": […]}. The stations are asked every few hours;
     in between, the last answer (kept in memory.json) is used again."""
     saved = memory.get("radio") or {}
@@ -919,7 +964,9 @@ def read_radio(now, memory, status):
             plays[station["id"]] = answer
             radio_status[station["id"]] = f"{len(answer)} found"
         log(f"  {station['id']}: {radio_status[station['id']]}")
-    fresh = {"at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "status": radio_status,
+    resolved = fill_in_from_apple(plays, saved.get("resolved", {}), apple_cache)
+    log(f"  {sum(1 for r in resolved.values() if r)} of {len(resolved)} songs without an album found on Apple")
+    fresh = {"at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "status": radio_status, "resolved": resolved,
              "album": radio_trends(plays, "album", now), "song": radio_trends(plays, "song", now)}
     # A station that failed keeps what it had last time, so one bad afternoon doesn't empty its picks.
     failed = {station for station, result in radio_status.items() if result.startswith("failed")}
@@ -937,8 +984,8 @@ def read_radio(now, memory, status):
 
 def radio_mentions(trends):
     """One mention per station that's playing it. A handful of spins counts for about half
-    a station's weight, ten or more for all of it."""
-    weights = {s["id"]: s for s in RADIO}
+    a station's weight, ten or more for all of it (fewer at a station that rarely repeats itself)."""
+    weights = STATIONS
     mentions = []
     for trend in trends:
         for station, spins in trend["stations"].items():
@@ -946,7 +993,8 @@ def radio_mentions(trends):
                 continue
             mentions.append({"source": station, "artist": trend["artist"], "album": trend["album"],
                              "url": weights[station]["site"], "date": parse_date(spins["last"]), "image": None,
-                             "weight": round(weights[station]["weight"] * min(1.0, math.sqrt(spins["plays"] / 10)), 3),
+                             "weight": round(weights[station]["weight"]
+                                               * min(1.0, math.sqrt(spins["plays"] / weights[station].get("full_at", 10))), 3),
                              "plays": spins["plays"], "year": trend.get("year")})
     return mentions
 
@@ -990,7 +1038,8 @@ def apple_lookup(artist, title, cache, kind="album"):
             if matches:
                 result = {"id": str(hit[id_field]), "artist": hit["artistName"], "album": hit[name_field],
                           "artwork": hit.get("artworkUrl100", "").replace("100x100", "600x600"),
-                          "year": (hit.get("releaseDate") or "")[:4], "genre": hit.get("primaryGenreName", "")}
+                          "year": (hit.get("releaseDate") or "")[:4], "genre": hit.get("primaryGenreName", ""),
+                          **({"collection": hit.get("collectionName", "")} if kind == "song" else {})}
                 break
     except Exception as error:
         log(f"  apple lookup failed for {artist} / {title}: {error}")
@@ -1176,7 +1225,7 @@ def main():
     status = {}
 
     log("Reading radio playlists…")
-    radio = read_radio(now, memory, status)
+    radio = read_radio(now, memory, status, apple_cache)
     albums = build_list("album", SOURCES, now, apple_cache, status, memory, radio.get("album", []))
     songs = build_list("song", SONG_SOURCES, now, apple_cache, status, memory, radio.get("song", []))
 
