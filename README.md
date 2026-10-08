@@ -96,6 +96,29 @@ python3 build_feed.py --verbose
 Standard library only. The first run takes about a quarter of an hour because Apple's search allows about 20 lookups a minute;
 results are remembered in `feed.json` so later runs are quick.
 
+## Label releases
+
+`build_labels.py` writes a second file, `labels.json`: what each record label in `labels_list.json` has put out
+in the last year, according to [MusicBrainz](https://musicbrainz.org). Apple Music's own list for a label is
+often years behind, and it can't be asked for everything on a label, so the app uses these records as a way in:
+it finds them on Apple Music by barcode (or title and artist) and follows their artists from there.
+The list is the same for everybody, so nothing about which labels anyone follows leaves their phone.
+
+```bash
+python3 build_labels.py --verbose     # writes labels.json (one request a second: a few minutes)
+python3 build_labels.py --resolve     # finds the MusicBrainz id of any label on the list without one
+```
+
+To add a label, put `{"name": "…"}` in `labels_list.json` (with `"appleMusicID"` if it has a page on Apple Music)
+and run `--resolve`. A label with no `"appleMusicID"` is one Apple Music has no page for (Warp, Columbia, Interscope):
+the app makes a page for each of those itself, from the records listed here, once it has at least three.
+`"aka"` lists other spellings of its name that albums carry (`"Universal-Island Records Ltd."` for Island Records).
+For a label with no page on Apple Music the build also looks for a logo: MusicBrainz's link to Wikidata, then
+Wikidata's logo image, written to `labels.json` as the address of a picture on Wikimedia Commons (`"logo"`).
+About half have one. To give a label one by hand, add `"logo": "https://…"` to its entry in `labels_list.json`.
+Labels it calls "unsure" share their name with others: look the right one up on
+musicbrainz.org and add its id as `"mbid"` by hand. `.github/workflows/labels.yml` runs the build once a day.
+
 ## Hosting
 
 Put this folder in a **public** GitHub repository. The workflow in `.github/workflows/unearth.yml`
