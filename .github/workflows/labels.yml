@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "41 5 * * *"   # once a day
   workflow_dispatch:        # lets you run it by hand from the Actions tab
+  push:                     # and when the list of labels or the build itself changes
+    branches: [main]
+    paths:
+      - labels_list.json
+      - build_labels.py
+      - .github/workflows/labels.yml
 
 permissions:
   contents: write
