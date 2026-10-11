@@ -1,6 +1,6 @@
 {
  "version": 3,
- "generatedAt": "2026-10-10T22:33:54Z",
+ "generatedAt": "2026-10-11T01:55:18Z",
  "sources": [
   {
    "id": "pitchfork-bnm",
@@ -813,7 +813,7 @@
   "bandcamp-daily": "12 found",
   "stereogum": "4 found",
   "aquarium-drunkard": "8 found",
-  "needle-drop": "failed: curl: (22) The requested URL returned error: 500",
+  "needle-drop": "failed: curl: (22) The requested URL returned error: 404",
   "beats-per-minute": "18 found",
   "guardian": "18 found",
   "treble-aotw": "failed: curl: (22) The requested URL returned error: 403",
@@ -856,12 +856,12 @@
   "first-floor": "failed: curl: (22) The requested URL returned error: 403",
   "igloo": "7 found",
   "dj-mag": "5 found",
-  "a-closer-listen": "8 found",
+  "a-closer-listen": "7 found",
   "headphone-commute": "1 found",
   "hard-wax": "36 found",
   "ban-ban-ton-ton": "6 found",
   "acid-stag": "5 found",
-  "ambientblog": "failed: curl: (28) Connection timed out after 30001 milliseconds",
+  "ambientblog": "4 found",
   "twisted-soul": "2 found",
   "guardian-classical": "8 found",
   "i-care-if-you-listen": "2 found",
@@ -878,7 +878,7 @@
   "singles-jukebox": "10 found",
   "bias-list": "5 found",
   "chorus-fm": "10 found",
-  "inverted-audio": "failed: curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received",
+  "inverted-audio": "failed: curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received",
   "scandipop": "12 found",
   "grown-up-rap-songs": "5 found",
   "beehype-songs": "1 found",
@@ -902,7 +902,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ab1778795d5696b67afdb32/master/pass/191402061673.png",
-   "score": 39.284,
+   "score": 38.905,
    "genres": [
     "indie"
    ],
@@ -973,7 +973,7 @@
    "year": "2026",
    "appleMusicID": "6783429344",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/dd/cc/8cddcc79-f688-f2c3-8bae-0f4d839a4b0a/887828057160.png/600x600bb.jpg",
-   "score": 27.618,
+   "score": 27.412,
    "genres": [
     "indie"
    ],
@@ -1027,7 +1027,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ab4131ef7ef2378a6776d41/master/pass/Tinashe-%20Popstar%20.jpg",
-   "score": 26.589,
+   "score": 26.332,
    "genres": [],
    "mentions": [
     {
@@ -1078,7 +1078,7 @@
    "year": "2026",
    "appleMusicID": "6795265774",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/4f/61/cf4f61db-ac1f-d0e7-7303-98d6b3f3852d/796441825424.jpg/600x600bb.jpg",
-   "score": 23.183,
+   "score": 22.959,
    "genres": [
     "rock"
    ],
@@ -1126,7 +1126,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6a5f8c0b3c4dfb9fde52303b/master/pass/Greg%20Freeman%20-%20All%20Set%20The%20Bone%20_%20Album%20Art.jpg",
-   "score": 21.638,
+   "score": 21.43,
    "genres": [
     "rock",
     "indie",
@@ -1187,7 +1187,7 @@
    "year": "2026",
    "appleMusicID": "6789289866",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/ac/34/17ac34a9-7e57-faec-2fe9-eeaa14827ce0/196874421079.jpg/600x600bb.jpg",
-   "score": 20.676,
+   "score": 20.477,
    "genres": [
     "rnb"
    ],
@@ -1235,7 +1235,7 @@
    "year": "2026",
    "appleMusicID": "6771009439",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/93/40/a39340a9-676b-4099-c126-fcdd6b2f0bfe/191400094277.png/600x600bb.jpg",
-   "score": 16.219,
+   "score": 16.063,
    "genres": [
     "indie"
    ],
@@ -1289,7 +1289,7 @@
    "year": "2026",
    "appleMusicID": "6796744732",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/d1/ad/99d1ad0c-2f68-2e4c-3528-1000db4fc651/712132108737_cover.jpg/600x600bb.jpg",
-   "score": 15.894,
+   "score": 15.74,
    "genres": [
     "country"
    ],
@@ -1325,7 +1325,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 14.122,
+   "score": 13.986,
    "genres": [
     "indie"
    ],
@@ -1369,7 +1369,7 @@
    "year": "2026",
    "appleMusicID": "6781418455",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/38/e2/8c38e2b3-41f2-d79b-cd7d-60d2fa7564df/66807.jpg/600x600bb.jpg",
-   "score": 12.894,
+   "score": 12.769,
    "genres": [
     "indie"
    ],
@@ -1405,7 +1405,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6a846e7bf8d0edf80c0400c1/master/pass/MUD-cover.jpg",
-   "score": 11.83,
+   "score": 11.716,
    "genres": [
     "hiphop",
     "rnb"
@@ -1444,7 +1444,7 @@
    "year": "2026",
    "appleMusicID": "6791675210",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/8e/82/0e8e8211-42bd-40d6-05b8-2b87f98ddd6c/075679568533.jpg/600x600bb.jpg",
-   "score": 11.197,
+   "score": 11.089,
    "genres": [
     "indie"
    ],
@@ -1482,7 +1482,7 @@
    "year": "2026",
    "appleMusicID": "6789433556",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/36/8b/0f368bfc-ad02-bbd5-9e0e-de3e3d9ffbe4/26UMGIM72096.rgb.jpg/600x600bb.jpg",
-   "score": 10.455,
+   "score": 10.354,
    "genres": [
     "rnb"
    ],
@@ -1514,7 +1514,7 @@
    "year": "2026",
    "appleMusicID": "6779295723",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/75/18/dd751881-72dc-8fcc-9a3a-45e834bb620f/5056556183150_cover.jpg/600x600bb.jpg",
-   "score": 9.963,
+   "score": 9.867,
    "genres": [
     "electronic"
    ],
@@ -1551,7 +1551,7 @@
    "year": "2026",
    "appleMusicID": "6774172428",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/86/37/438637b7-d063-02d4-e1bd-5b3c6be6f9aa/191401221771.png/600x600bb.jpg",
-   "score": 9.619,
+   "score": 9.526,
    "genres": [
     "indie"
    ],
@@ -1595,7 +1595,7 @@
    "year": "2026",
    "appleMusicID": "6791235997",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/ef/13/7fef1307-5974-1cc1-1931-14e9268c45e1/128736.jpg/600x600bb.jpg",
-   "score": 8.585,
+   "score": 8.502,
    "genres": [
     "jazz"
    ],
@@ -1631,7 +1631,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6a8374d55eeaf65ef2de9c77/master/pass/Live%20at%20Carnegie%20Hall_1500X.jpg",
-   "score": 8.089,
+   "score": 8.011,
    "genres": [],
    "mentions": [
     {
@@ -1660,7 +1660,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ac7f4da26778676bec2e141/master/pass/Stevie%20Wonder%20Songs%20in%20the%20Key%20of%20Life%20The%20EP.jpg",
-   "score": 7.938,
+   "score": 7.862,
    "genres": [],
    "mentions": [
     {
@@ -1697,7 +1697,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 7.164,
+   "score": 7.095,
    "genres": [],
    "mentions": [
     {
@@ -1727,7 +1727,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ab41594272200043ff4eb82/master/pass/Godflesh-%20Decay.jpg",
-   "score": 6.932,
+   "score": 6.865,
    "genres": [
     "metal"
    ],
@@ -1768,7 +1768,7 @@
    "year": "2026",
    "appleMusicID": "6769156881",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/63/27/1d6327ee-443c-745b-256c-1368cf290ac7/820233267496.jpg/600x600bb.jpg",
-   "score": 6.421,
+   "score": 6.386,
    "genres": [
     "metal"
    ],
@@ -1797,7 +1797,7 @@
    "year": "2026",
    "appleMusicID": "6817200688",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/5c/d0/ef5cd0b9-4668-daa0-781f-007c8613eb60/26UM1IM02290.rgb.jpg/600x600bb.jpg",
-   "score": 6.323,
+   "score": 6.262,
    "genres": [
     "hiphop"
    ],
@@ -1828,7 +1828,7 @@
    "year": "2026",
    "appleMusicID": "6785650035",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/1b/f6/7c1bf689-9ada-09e3-8d68-d86376fa2016/820233894203.jpg/600x600bb.jpg",
-   "score": 5.814,
+   "score": 5.758,
    "genres": [
     "country"
    ],
@@ -1859,7 +1859,7 @@
    "year": "2026",
    "appleMusicID": "6800214970",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/e7/73/0ee77382-cdc6-0d4b-d0e9-d265b243fbb5/8718723327558.jpg/600x600bb.jpg",
-   "score": 5.534,
+   "score": 5.48,
    "genres": [
     "electronic"
    ],
@@ -1886,7 +1886,7 @@
    "year": "2026",
    "appleMusicID": "6802592984",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/14/86/8b1486a9-dfe2-0c08-a9a6-ddcd33be8a07/17133.jpg/600x600bb.jpg",
-   "score": 5.531,
+   "score": 5.477,
    "genres": [
     "electronic"
    ],
@@ -1923,7 +1923,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/02075821/Sycco-Look-Up-LP-acid-stag.webp?w=150&h=150&crop=1&ssl=1",
-   "score": 5.522,
+   "score": 5.469,
    "genres": [
     "electronic"
    ],
@@ -1956,7 +1956,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 5.339,
+   "score": 5.287,
    "genres": [],
    "mentions": [
     {
@@ -1980,7 +1980,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6a60ef3d26f57e7b7f1973bd/master/pass/VictoriaMonet_FOL_Cover_Digital_060326_01%20(1).jpg",
-   "score": 5.301,
+   "score": 5.25,
    "genres": [
     "hiphop",
     "rnb"
@@ -2012,7 +2012,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 5.232,
+   "score": 5.182,
    "genres": [
     "indie"
    ],
@@ -2050,7 +2050,7 @@
    "year": "2026",
    "appleMusicID": "6788956584",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/e4/45/06e445e7-9c2d-2a52-99b5-b6aa6a35a307/26UMGIM84718.rgb.jpg/600x600bb.jpg",
-   "score": 5.131,
+   "score": 5.082,
    "genres": [
     "indie"
    ],
@@ -2082,7 +2082,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.941,
+   "score": 4.893,
    "genres": [
     "jazz"
    ],
@@ -2108,7 +2108,7 @@
    "year": "2026",
    "appleMusicID": "6781090649",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/c6/a2/06c6a20f-a553-57ec-c832-79ec76a1a105/5400863212117.jpg/600x600bb.jpg",
-   "score": 4.846,
+   "score": 4.799,
    "genres": [
     "electronic"
    ],
@@ -2139,7 +2139,7 @@
    "year": "2026",
    "appleMusicID": "6767014278",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/84/ba/af84ba41-bcb5-0002-26b6-0647fee2272e/0720841306900_Cover.jpg/600x600bb.jpg",
-   "score": 4.846,
+   "score": 4.799,
    "genres": [
     "jazz"
    ],
@@ -2178,7 +2178,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.584,
+   "score": 4.54,
    "genres": [
     "hiphop",
     "rnb"
@@ -2198,6 +2198,35 @@
    "listeners": null
   },
   {
+   "id": "lifeofashowgirltheencore|taylorswift",
+   "type": "album",
+   "title": "The Life of a Showgirl: The Encore",
+   "artist": "Taylor Swift",
+   "year": "2026",
+   "appleMusicID": "6814995859",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
+   "score": 4.379,
+   "genres": [
+    "pop"
+   ],
+   "mentions": [
+    {
+     "source": "guardian",
+     "url": "https://www.theguardian.com/music/2026/sep/25/taylor-swift-the-life-of-a-showgirl-the-encore-review",
+     "date": "2026-09-25T13:13:33Z"
+    },
+    {
+     "source": "pitchfork",
+     "url": "https://pitchfork.com/reviews/albums/taylor-swift-the-life-of-a-showgirl-the-encore/",
+     "date": "2026-09-29T04:03:00Z"
+    }
+   ],
+   "listeners": {
+    "listens": 3223,
+    "momentum": 2.57
+   }
+  },
+  {
    "id": "radicalframe|actress",
    "type": "album",
    "title": "Radical Frame",
@@ -2205,7 +2234,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.416,
+   "score": 4.374,
    "genres": [],
    "mentions": [
     {
@@ -2229,35 +2258,6 @@
    "listeners": null
   },
   {
-   "id": "lifeofashowgirltheencore|taylorswift",
-   "type": "album",
-   "title": "The Life of a Showgirl: The Encore",
-   "artist": "Taylor Swift",
-   "year": "2026",
-   "appleMusicID": "6814995859",
-   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/600x600bb.jpg",
-   "score": 4.397,
-   "genres": [
-    "pop"
-   ],
-   "mentions": [
-    {
-     "source": "guardian",
-     "url": "https://www.theguardian.com/music/2026/sep/25/taylor-swift-the-life-of-a-showgirl-the-encore-review",
-     "date": "2026-09-25T13:13:33Z"
-    },
-    {
-     "source": "pitchfork",
-     "url": "https://pitchfork.com/reviews/albums/taylor-swift-the-life-of-a-showgirl-the-encore/",
-     "date": "2026-09-29T04:03:00Z"
-    }
-   ],
-   "listeners": {
-    "listens": 3223,
-    "momentum": 2.57
-   }
-  },
-  {
    "id": "revelationsofdivinelove|susannesundfør",
    "type": "album",
    "title": "Revelations Of Divine Love",
@@ -2265,7 +2265,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.346,
+   "score": 4.304,
    "genres": [],
    "mentions": [
     {
@@ -2294,7 +2294,7 @@
    "year": "2026",
    "appleMusicID": "6781051268",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/600x600bb.jpg",
-   "score": 4.13,
+   "score": 4.09,
    "genres": [
     "indie"
    ],
@@ -2322,7 +2322,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.096,
+   "score": 4.056,
    "genres": [
     "indie",
     "metal"
@@ -2354,7 +2354,7 @@
    "year": "2026",
    "appleMusicID": "6769806897",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/fa/5e/ccfa5e0b-aa40-c4b3-0bb1-157049fd59ed/4099964245622.jpg/600x600bb.jpg",
-   "score": 4.088,
+   "score": 4.048,
    "genres": [
     "rock"
    ],
@@ -2390,7 +2390,7 @@
    "year": "2026",
    "appleMusicID": "6796319106",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/df/b4/b6dfb40f-8643-ec29-a4d8-10d5a515be34/cover.jpg/600x600bb.jpg",
-   "score": 3.995,
+   "score": 3.977,
    "genres": [
     "indie"
    ],
@@ -2419,7 +2419,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6a733ddef9a2e451bfdf19fe/master/pass/Dawn-Richard-Creole-Culture.jpeg",
-   "score": 3.899,
+   "score": 3.862,
    "genres": [
     "hiphop",
     "rnb"
@@ -2446,7 +2446,7 @@
    "year": "2026",
    "appleMusicID": "6782470588",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b8/0f/41/b80f4159-519d-bc99-aa6a-1bd0d3372623/127922.jpg/600x600bb.jpg",
-   "score": 3.896,
+   "score": 3.858,
    "genres": [
     "rnb"
    ],
@@ -2477,7 +2477,7 @@
    "year": "2026",
    "appleMusicID": "6795130804",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/c3/39/61c3397c-1147-04aa-67ec-212e298602a2/769152440163.jpg/600x600bb.jpg",
-   "score": 3.796,
+   "score": 3.759,
    "genres": [
     "indie"
    ],
@@ -2508,7 +2508,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 3.586,
+   "score": 3.551,
    "genres": [],
    "mentions": [
     {
@@ -2532,7 +2532,7 @@
    "year": "2026",
    "appleMusicID": "6785519849",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/bf/38/1bbf380e-49ef-0980-ca81-ccd84855ceeb/612789666720.jpg/600x600bb.jpg",
-   "score": 3.339,
+   "score": 3.307,
    "genres": [
     "metal"
    ],
@@ -2563,7 +2563,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 3.266,
+   "score": 3.235,
    "genres": [
     "jazz"
    ],
@@ -2589,7 +2589,7 @@
    "year": "2026",
    "appleMusicID": "6775919538",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/8b/80/708b803d-370d-2ad3-fdbd-0c0cdfe92526/26UMGIM63533.rgb.jpg/600x600bb.jpg",
-   "score": 3.234,
+   "score": 3.203,
    "genres": [
     "country"
    ],
@@ -2615,7 +2615,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 3.156,
+   "score": 3.126,
    "genres": [],
    "mentions": [
     {
@@ -2647,7 +2647,7 @@
    "year": "2026",
    "appleMusicID": "6795883227",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/61/b7/f7/61b7f78f-49d9-430f-b667-6ca0ab8e0ccd/artwork.jpg/600x600bb.jpg",
-   "score": 3.143,
+   "score": 3.112,
    "genres": [
     "jazz"
    ],
@@ -2673,7 +2673,7 @@
    "year": "2026",
    "appleMusicID": "6783470771",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/93/a7/3f93a72b-0715-48cf-0f28-44428640beb9/66927.jpg/600x600bb.jpg",
-   "score": 3.025,
+   "score": 2.996,
    "genres": [
     "electronic"
    ],
@@ -2700,7 +2700,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 3.022,
+   "score": 2.993,
    "genres": [],
    "mentions": [
     {
@@ -2726,7 +2726,7 @@
    "year": "2026",
    "appleMusicID": "6796336710",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/50/40/dd5040b1-4950-d4f9-66e0-5d677fcf68a8/26UMGIM80257.rgb.jpg/600x600bb.jpg",
-   "score": 2.868,
+   "score": 2.841,
    "genres": [
     "indie"
    ],
@@ -2759,7 +2759,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.864,
+   "score": 2.836,
    "genres": [],
    "mentions": [
     {
@@ -2788,7 +2788,7 @@
    "year": "2026",
    "appleMusicID": "6788765372",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/90/0b/8a900bd5-c2fc-2094-b6f1-db185ce2e08f/203127.jpg/600x600bb.jpg",
-   "score": 2.854,
+   "score": 2.827,
    "genres": [
     "folk"
    ],
@@ -2814,7 +2814,7 @@
    "year": "2026",
    "appleMusicID": "6796501403",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/c0/90/39c090a5-9735-0675-237c-d56008fcd4d3/1549.jpg/600x600bb.jpg",
-   "score": 2.845,
+   "score": 2.818,
    "genres": [
     "folk"
    ],
@@ -2840,7 +2840,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.714,
+   "score": 2.688,
    "genres": [
     "hiphop",
     "rnb"
@@ -2867,7 +2867,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.688,
+   "score": 2.662,
    "genres": [
     "jazz"
    ],
@@ -2888,7 +2888,7 @@
    "year": "2026",
    "appleMusicID": "6769082566",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/95/68/599568ed-1b54-3254-43c1-660bf30fa4f2/66036.jpg/600x600bb.jpg",
-   "score": 2.683,
+   "score": 2.657,
    "genres": [
     "indie"
    ],
@@ -2916,7 +2916,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.672,
+   "score": 2.646,
    "genres": [
     "electronic"
    ],
@@ -2942,7 +2942,7 @@
    "year": "2026",
    "appleMusicID": "6783815083",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/50/b7/e550b751-9168-2534-07ca-b593780f4097/460.jpg/600x600bb.jpg",
-   "score": 2.668,
+   "score": 2.642,
    "genres": [
     "indie"
    ],
@@ -2968,7 +2968,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.571,
+   "score": 2.546,
    "genres": [],
    "mentions": [
     {
@@ -3000,7 +3000,7 @@
    "year": "2026",
    "appleMusicID": "6787930283",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/2a/58/002a58ff-fbc9-714c-01d4-3e5c9e1b50ca/859741959180_cover.jpg/600x600bb.jpg",
-   "score": 2.559,
+   "score": 2.535,
    "genres": [
     "folk"
    ],
@@ -3026,7 +3026,7 @@
    "year": "2026",
    "appleMusicID": "6796548692",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/2e/9e/ad2e9e62-b3c0-54c2-51bd-d454cd93a52c/129014.jpg/600x600bb.jpg",
-   "score": 2.55,
+   "score": 2.525,
    "genres": [
     "rnb"
    ],
@@ -3047,7 +3047,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.488,
+   "score": 2.464,
    "genres": [
     "punk",
     "rock"
@@ -3074,7 +3074,7 @@
    "year": "2026",
    "appleMusicID": "6776134341",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/29/f1/3e29f1dc-f22d-9368-b4bc-6de6fe179814/21610.jpg/600x600bb.jpg",
-   "score": 2.479,
+   "score": 2.455,
    "genres": [
     "indie"
    ],
@@ -3105,7 +3105,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.478,
+   "score": 2.454,
    "genres": [],
    "mentions": [
     {
@@ -3130,7 +3130,7 @@
    "year": "2026",
    "appleMusicID": "6812904778",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/08/a5/a108a5b7-7753-69eb-e140-a785a0e185a8/198704876622_Cover.jpg/600x600bb.jpg",
-   "score": 2.451,
+   "score": 2.428,
    "genres": [
     "rock"
    ],
@@ -3161,7 +3161,7 @@
    "year": "2026",
    "appleMusicID": "1892437345",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/04/ea/cd04ea55-727d-782a-5ca6-265e0ecc1040/26UMGIM39397.rgb.jpg/600x600bb.jpg",
-   "score": 2.445,
+   "score": 2.422,
    "genres": [
     "electronic"
    ],
@@ -3195,7 +3195,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.413,
+   "score": 2.39,
    "genres": [],
    "mentions": [
     {
@@ -3221,7 +3221,7 @@
    "year": "2026",
    "appleMusicID": "6800037021",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/ee/3c/97ee3c83-ed6a-ba93-7528-9e6aa8102620/26CRGIM55873.rgb.jpg/600x600bb.jpg",
-   "score": 2.39,
+   "score": 2.367,
    "genres": [
     "hiphop"
    ],
@@ -3249,7 +3249,7 @@
    "year": "2026",
    "appleMusicID": "6777082941",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/4a/6b/e74a6b6a-e964-e887-8650-efd3d23bd8bd/66530.jpg/600x600bb.jpg",
-   "score": 2.344,
+   "score": 2.321,
    "genres": [
     "indie"
    ],
@@ -3275,7 +3275,7 @@
    "year": "2026",
    "appleMusicID": "6776418573",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/47/11/9f471166-00f3-9e78-3973-c52fe3016438/781484099420.png/600x600bb.jpg",
-   "score": 2.341,
+   "score": 2.319,
    "genres": [],
    "mentions": [
     {
@@ -3299,7 +3299,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.34,
+   "score": 2.318,
    "genres": [
     "country",
     "folk",
@@ -3328,7 +3328,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.282,
+   "score": 2.26,
    "genres": [],
    "mentions": [
     {
@@ -3347,7 +3347,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ac541a55f04feffaad28ecc/master/pass/Lucy%20Bedroque%20-%20c.jpg",
-   "score": 2.229,
+   "score": 2.208,
    "genres": [],
    "mentions": [
     {
@@ -3371,7 +3371,7 @@
    "year": "2026",
    "appleMusicID": "1894230689",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/10/6d/50106dfa-dc3d-ea71-24d1-d25ba419ad6d/714822686143.png/600x600bb.jpg",
-   "score": 2.22,
+   "score": 2.198,
    "genres": [
     "country"
    ],
@@ -3397,7 +3397,7 @@
    "year": "2026",
    "appleMusicID": "6793525652",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/45/d3/f345d310-5af3-e1c6-da0c-782c3c96572c/191400680654.png/600x600bb.jpg",
-   "score": 2.171,
+   "score": 2.15,
    "genres": [
     "indie"
    ],
@@ -3424,7 +3424,7 @@
    "year": "2026",
    "appleMusicID": "6797869792",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/70/9f/d7709f16-009b-eb57-1799-945b6755375b/769152440293.jpg/600x600bb.jpg",
-   "score": 2.067,
+   "score": 2.047,
    "genres": [
     "electronic"
    ],
@@ -3445,7 +3445,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.037,
+   "score": 2.018,
    "genres": [],
    "mentions": [
     {
@@ -3471,7 +3471,7 @@
    "year": "2026",
    "appleMusicID": "1862570378",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/10/2a/86102a67-2d84-24f7-dd60-4c7a6846ed05/5400863205140_cover.jpg/600x600bb.jpg",
-   "score": 2.033,
+   "score": 2.013,
    "genres": [
     "indie"
    ],
@@ -3505,7 +3505,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6abaa7b3c7133574666efdd3/master/pass/klein%20my%20own%20fairy%20tale.jpg",
-   "score": 2.009,
+   "score": 1.99,
    "genres": [],
    "mentions": [
     {
@@ -3530,7 +3530,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ac5144f9c284e2dc1737eb7/master/pass/Fat%20Dog%20-%20Cancel%20Me%20(I%E2%80%99m%20Tired)%20album%20art.png",
-   "score": 2.006,
+   "score": 1.987,
    "genres": [],
    "mentions": [
     {
@@ -3554,7 +3554,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.992,
+   "score": 1.972,
    "genres": [],
    "mentions": [
     {
@@ -3574,7 +3574,7 @@
    "year": "2026",
    "appleMusicID": "1886730527",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/8e/bb/9a8ebb8b-2363-4e2a-b52e-9786decb80a1/820200658401.jpg/600x600bb.jpg",
-   "score": 1.991,
+   "score": 1.972,
    "genres": [
     "pop"
    ],
@@ -3596,7 +3596,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.99,
+   "score": 1.971,
    "genres": [],
    "mentions": [
     {
@@ -3616,7 +3616,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.971,
+   "score": 1.952,
    "genres": [],
    "mentions": [
     {
@@ -3635,7 +3635,7 @@
    "year": "2026",
    "appleMusicID": "1889281824",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/44/33/cb443337-11d8-11d2-6063-c4c3731ca7a2/00823375078302_Cover.jpg/600x600bb.jpg",
-   "score": 1.946,
+   "score": 1.927,
    "genres": [
     "pop"
    ],
@@ -3657,7 +3657,7 @@
    "year": "2026",
    "appleMusicID": "6818547712",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6a/9e/6c/6a9e6cc4-e3e3-8463-13db-a4d118da3dd5/6153114823875_cover.jpg/600x600bb.jpg",
-   "score": 1.943,
+   "score": 1.924,
    "genres": [
     "global"
    ],
@@ -3678,7 +3678,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.923,
+   "score": 1.904,
    "genres": [
     "hiphop"
    ],
@@ -3699,7 +3699,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.922,
+   "score": 1.904,
    "genres": [
     "hiphop"
    ],
@@ -3720,7 +3720,7 @@
    "year": "2026",
    "appleMusicID": "6787960001",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/42/33/fb42334e-f1ac-aa1e-c6fe-38a18077626b/608917363029.jpg/600x600bb.jpg",
-   "score": 1.914,
+   "score": 1.896,
    "genres": [
     "jazz"
    ],
@@ -3741,7 +3741,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.896,
+   "score": 1.877,
    "genres": [
     "hiphop",
     "rnb"
@@ -3763,7 +3763,7 @@
    "year": "2026",
    "appleMusicID": "6818930250",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/0c/cc/370ccc0b-834f-bbb7-3577-147f36d3cf72/885288729627.jpg/600x600bb.jpg",
-   "score": 1.896,
+   "score": 1.877,
    "genres": [
     "hiphop"
    ],
@@ -3784,7 +3784,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFBovmUmT570t_CGgXiZLydKdKV8V_IdfhnsRx-qd5LNTTPIpDe4cTNLujg27R9kucGlNfJdFJNW6-7OFoSAxhBqfuhrePc6FDTKmFegHVB2jO_resuGwwHfwenPcH9ijD5OrDRw20hKLvoscdwqIjQrITDyx2tPQupapzYzWGj2od-E8ZTqsZcE3NZ4YV/s72-c/energycenter.jpg",
-   "score": 1.896,
+   "score": 1.877,
    "genres": [
     "jazz"
    ],
@@ -3805,7 +3805,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://media.pitchfork.com/photos/6ab584579bf6b62aec676cd6/master/pass/b0yg1rl%20rough%20trade.jpg",
-   "score": 1.893,
+   "score": 1.875,
    "genres": [],
    "mentions": [
     {
@@ -3830,7 +3830,7 @@
    "year": "2026",
    "appleMusicID": "6819369585",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/52/b8/bb52b853-97f7-5656-7440-483bb7b0d284/885288452433.jpg/600x600bb.jpg",
-   "score": 1.874,
+   "score": 1.856,
    "genres": [
     "ambient"
    ],
@@ -3851,7 +3851,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.868,
+   "score": 1.85,
    "genres": [],
    "mentions": [
     {
@@ -3871,7 +3871,7 @@
    "year": "2026",
    "appleMusicID": "1895651968",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/e6/90/86e69018-8a89-5057-4d84-fb0ec90ebafc/5200138620865_cover.jpg/600x600bb.jpg",
-   "score": 1.859,
+   "score": 1.841,
    "genres": [
     "jazz"
    ],
@@ -3892,7 +3892,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.859,
+   "score": 1.841,
    "genres": [
     "jazz"
    ],
@@ -3913,7 +3913,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.854,
+   "score": 1.836,
    "genres": [
     "folk",
     "indie"
@@ -3935,7 +3935,7 @@
    "year": "2026",
    "appleMusicID": "6783510472",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/40/b6/da40b67f-44eb-7ffd-e7d6-9388d8034895/820233333580.jpg/600x600bb.jpg",
-   "score": 1.847,
+   "score": 1.829,
    "genres": [
     "folk"
    ],
@@ -3961,7 +3961,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.843,
+   "score": 1.825,
    "genres": [],
    "mentions": [
     {
@@ -3980,7 +3980,7 @@
    "year": "2026",
    "appleMusicID": "1884707306",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/3b/4c/023b4c7d-cb6a-4202-7ecf-56b1c6092efb/63967.jpg/600x600bb.jpg",
-   "score": 1.842,
+   "score": 1.824,
    "genres": [
     "ambient"
    ],
@@ -4007,7 +4007,7 @@
    "year": "2025",
    "appleMusicID": "1819100783",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/68/40/506840da-3e2a-1fde-cbdf-1d7874186b7a/2076.jpg/600x600bb.jpg",
-   "score": 1.838,
+   "score": 1.82,
    "genres": [
     "indie"
    ],
@@ -4035,7 +4035,7 @@
    "year": "2026",
    "appleMusicID": "6796087831",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/03/e6/da03e683-b61d-dced-50fe-5ef08fd6c5d8/790377066869.png/600x600bb.jpg",
-   "score": 1.836,
+   "score": 1.818,
    "genres": [
     "electronic"
    ],
@@ -4062,7 +4062,7 @@
    "year": "2026",
    "appleMusicID": "6800411386",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/0d/c0/fd0dc089-4a78-d3f9-208c-a465bedc71ec/885288263763.jpg/600x600bb.jpg",
-   "score": 1.836,
+   "score": 1.818,
    "genres": [
     "electronic"
    ],
@@ -4090,7 +4090,7 @@
    "year": "2026",
    "appleMusicID": "6803142238",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/62/b1/8c62b16e-afe9-f9c3-3b8a-f7fce3ec87e8/8717931358835.jpg/600x600bb.jpg",
-   "score": 1.831,
+   "score": 1.814,
    "genres": [
     "rnb"
    ],
@@ -4111,7 +4111,7 @@
    "year": "2026",
    "appleMusicID": "6798105634",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/79/8a/56798a23-0bc8-5e0d-e284-2049009f7913/466228.jpg/600x600bb.jpg",
-   "score": 1.831,
+   "score": 1.814,
    "genres": [
     "rnb"
    ],
@@ -4132,7 +4132,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.814,
+   "score": 1.796,
    "genres": [
     "hiphop"
    ],
@@ -4153,7 +4153,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.814,
+   "score": 1.796,
    "genres": [
     "hiphop"
    ],
@@ -4174,7 +4174,7 @@
    "year": "2026",
    "appleMusicID": "6804077076",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/18/f6/4b18f698-16a0-8756-8d3f-3e72052fdef5/810167874754.jpg/600x600bb.jpg",
-   "score": 1.814,
+   "score": 1.796,
    "genres": [
     "hiphop"
    ],
@@ -4195,7 +4195,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.81,
+   "score": 1.793,
    "genres": [
     "hiphop",
     "rnb"
@@ -4217,7 +4217,7 @@
    "year": "2026",
    "appleMusicID": "6815426247",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/09/15/d709155d-1e2b-c5f0-5bf9-50dde35c52f8/1437266.jpg/600x600bb.jpg",
-   "score": 1.81,
+   "score": 1.793,
    "genres": [
     "hiphop"
    ],
@@ -4238,7 +4238,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.81,
+   "score": 1.793,
    "genres": [
     "hiphop",
     "rnb"
@@ -4260,7 +4260,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.792,
+   "score": 1.775,
    "genres": [
     "ambient"
    ],
@@ -4281,7 +4281,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.782,
+   "score": 1.765,
    "genres": [
     "jazz"
    ],
@@ -4302,7 +4302,7 @@
    "year": "2025",
    "appleMusicID": "1813848690",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/40/40/53/404053dc-586e-f51c-8de9-446eef5af471/191400085077.png/600x600bb.jpg",
-   "score": 1.769,
+   "score": 1.752,
    "genres": [
     "indie"
    ],
@@ -4323,7 +4323,7 @@
    "year": "2026",
    "appleMusicID": "6819354145",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/b9/c7/8cb9c74e-d77d-b9dd-9d2a-ec169853d6d3/196874846117.jpg/600x600bb.jpg",
-   "score": 1.769,
+   "score": 1.752,
    "genres": [
     "rnb"
    ],
@@ -4344,7 +4344,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.769,
+   "score": 1.752,
    "genres": [
     "hiphop",
     "rnb"
@@ -4366,7 +4366,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.769,
+   "score": 1.752,
    "genres": [
     "hiphop",
     "rnb"
@@ -4388,7 +4388,7 @@
    "year": "2026",
    "appleMusicID": "1857746491",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ac/b5/fc/acb5fc4a-2206-814e-a4d9-f5a4fb70fd35/199806614648.jpg/600x600bb.jpg",
-   "score": 1.769,
+   "score": 1.752,
    "genres": [
     "jazz"
    ],
@@ -4409,7 +4409,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/cover-6.jpg",
-   "score": 1.748,
+   "score": 1.732,
    "genres": [
     "ambient"
    ],
@@ -4430,7 +4430,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://banbantonton.com/wp-content/uploads/2026/10/mach-jamm-dedication.jpg",
-   "score": 1.748,
+   "score": 1.732,
    "genres": [
     "electronic"
    ],
@@ -4451,7 +4451,7 @@
    "year": "2026",
    "appleMusicID": "6801285678",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/7d/14/237d1495-aaba-cd53-d501-20e27d769d71/68283.jpg/600x600bb.jpg",
-   "score": 1.719,
+   "score": 1.703,
    "genres": [
     "indie"
    ],
@@ -4472,7 +4472,7 @@
    "year": "1970",
    "appleMusicID": "1551263769",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c2/73/d3/c273d3ed-ab82-d285-ccb2-590671821782/20UM1IM09488.rgb.jpg/600x600bb.jpg",
-   "score": 1.719,
+   "score": 1.702,
    "genres": [
     "jazz"
    ],
@@ -4493,7 +4493,7 @@
    "year": "2026",
    "appleMusicID": "6785937868",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/4f/95/ed4f9562-b5f8-683e-b74e-9088f7b96d29/769152439686.jpg/600x600bb.jpg",
-   "score": 1.7,
+   "score": 1.683,
    "genres": [
     "indie"
    ],
@@ -4519,7 +4519,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.695,
+   "score": 1.678,
    "genres": [
     "folk"
    ],
@@ -4540,7 +4540,7 @@
    "year": "2026",
    "appleMusicID": "6780261562",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/2c/a7/e32ca7c4-846c-fa7b-f7ed-17066c02c009/820233709729.jpg/600x600bb.jpg",
-   "score": 1.693,
+   "score": 1.677,
    "genres": [
     "ambient"
    ],
@@ -4561,7 +4561,7 @@
    "year": "2026",
    "appleMusicID": "1878199929",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0c/fe/7c/0cfe7c24-65d8-8927-df3c-7ed8a67bc456/820200128126.jpg/600x600bb.jpg",
-   "score": 1.663,
+   "score": 1.647,
    "genres": [
     "jazz"
    ],
@@ -4582,7 +4582,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.652,
+   "score": 1.636,
    "genres": [
     "folk"
    ],
@@ -4603,7 +4603,7 @@
    "year": "2026",
    "appleMusicID": "6768224475",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/05/f1/d805f16b-7b05-e45d-1dca-d0272303f1aa/191400093775.png/600x600bb.jpg",
-   "score": 1.65,
+   "score": 1.634,
    "genres": [
     "metal"
    ],
@@ -4624,7 +4624,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/09/a2657201313_10-1.jpg",
-   "score": 1.631,
+   "score": 1.616,
    "genres": [
     "ambient"
    ],
@@ -4645,7 +4645,7 @@
    "year": "2026",
    "appleMusicID": "6795778802",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/a0/13/4aa013a0-96e9-17d0-30c5-d40d327b397b/823375341284_Cover.jpg/600x600bb.jpg",
-   "score": 1.631,
+   "score": 1.616,
    "genres": [
     "ambient"
    ],
@@ -4666,7 +4666,7 @@
    "year": "2026",
    "appleMusicID": "6808311543",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/c0/c3/f0c0c38a-a2c7-78fb-2a93-f3c44704950b/1341771.jpg/600x600bb.jpg",
-   "score": 1.62,
+   "score": 1.605,
    "genres": [
     "electronic"
    ],
@@ -4692,7 +4692,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.61,
+   "score": 1.595,
    "genres": [
     "folk",
     "indie"
@@ -4714,7 +4714,7 @@
    "year": "2026",
    "appleMusicID": "1892398281",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b8/08/c5b808a6-23d1-9714-c9f5-d0d8f4ed8c70/cover.jpg/600x600bb.jpg",
-   "score": 1.598,
+   "score": 1.583,
    "genres": [
     "rock"
    ],
@@ -4740,7 +4740,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.571,
+   "score": 1.556,
    "genres": [
     "rnb",
     "jazz"
@@ -4762,7 +4762,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.559,
+   "score": 1.544,
    "genres": [
     "jazz"
    ],
@@ -4783,7 +4783,7 @@
    "year": "1990",
    "appleMusicID": "1025319099",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/9b/c3/689bc3f6-b6b9-f926-ccf9-4ff34cb942c8/652637001037.png/600x600bb.jpg",
-   "score": 1.54,
+   "score": 1.525,
    "genres": [
     "indie"
    ],
@@ -4804,7 +4804,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/drm4251-art.jpg",
-   "score": 1.522,
+   "score": 1.507,
    "genres": [
     "ambient"
    ],
@@ -4825,7 +4825,7 @@
    "year": "2026",
    "appleMusicID": "6815890535",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/fa/4c/79fa4cb1-beec-8f9a-cec3-7ba8df62b22f/885288671681.jpg/600x600bb.jpg",
-   "score": 1.522,
+   "score": 1.507,
    "genres": [
     "global"
    ],
@@ -4846,7 +4846,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.462,
+   "score": 1.448,
    "genres": [
     "folk"
    ],
@@ -4867,7 +4867,7 @@
    "year": "2026",
    "appleMusicID": "6774238039",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/16/e2/6a16e213-a5fb-4f11-2365-a17fb7f19fc5/5414166695249.png/600x600bb.jpg",
-   "score": 1.459,
+   "score": 1.445,
    "genres": [
     "electronic"
    ],
@@ -4888,7 +4888,7 @@
    "year": "2026",
    "appleMusicID": "6793580084",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/99/e3/4499e3c0-70f8-fd75-6bce-411cc89db6ba/17044.jpg/600x600bb.jpg",
-   "score": 1.451,
+   "score": 1.437,
    "genres": [
     "indie"
    ],
@@ -4909,7 +4909,7 @@
    "year": "2026",
    "appleMusicID": "6796780022",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/49/05/10/490510c3-5ffa-9572-de92-58634541b4d1/885288211788.jpg/600x600bb.jpg",
-   "score": 1.441,
+   "score": 1.427,
    "genres": [
     "jazz"
    ],
@@ -4930,7 +4930,7 @@
    "year": "2026",
    "appleMusicID": "1884674144",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/51/f8/f951f8ee-f4d5-4899-490b-de7b5ad0f93f/191401223478.png/600x600bb.jpg",
-   "score": 1.437,
+   "score": 1.423,
    "genres": [
     "indie"
    ],
@@ -4951,7 +4951,7 @@
    "year": "2026",
    "appleMusicID": "6791242611",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/2a/58/d72a58ea-3d7a-45ea-cda5-52347558315b/17010.jpg/600x600bb.jpg",
-   "score": 1.432,
+   "score": 1.419,
    "genres": [
     "electronic"
    ],
@@ -4977,7 +4977,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/te-oro.jpg",
-   "score": 1.42,
+   "score": 1.406,
    "genres": [
     "ambient"
    ],
@@ -4998,7 +4998,7 @@
    "year": "2026",
    "appleMusicID": "6803200362",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/99/4c/bc994ce2-f0e2-11d9-4a6d-e951832aff4a/8032622211733.jpg/600x600bb.jpg",
-   "score": 1.389,
+   "score": 1.376,
    "genres": [
     "metal"
    ],
@@ -5019,7 +5019,7 @@
    "year": "2026",
    "appleMusicID": "6784186999",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/5f/5a/985f5ae0-1250-78e9-312c-bb4b9057ee0e/859741177782_cover.jpg/600x600bb.jpg",
-   "score": 1.376,
+   "score": 1.362,
    "genres": [
     "electronic"
    ],
@@ -5040,7 +5040,7 @@
    "year": "2026",
    "appleMusicID": "6780608124",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/65/5b/be655bc7-a5b5-9ac7-cda7-1b42e87d14e4/RAM_-_Against.jpg/600x600bb.jpg",
-   "score": 1.373,
+   "score": 1.36,
    "genres": [
     "metal"
    ],
@@ -5061,7 +5061,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.372,
+   "score": 1.359,
    "genres": [
     "hiphop",
     "rnb"
@@ -5083,7 +5083,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.372,
+   "score": 1.359,
    "genres": [
     "hiphop",
     "rnb"
@@ -5105,7 +5105,7 @@
    "year": "2026",
    "appleMusicID": "6788044245",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/c7/00/e7c700bd-17cc-15ab-db77-f80dbbe7d84a/820233457729.jpg/600x600bb.jpg",
-   "score": 1.36,
+   "score": 1.347,
    "genres": [
     "folk"
    ],
@@ -5119,27 +5119,6 @@
    "listeners": null
   },
   {
-   "id": "ashes|tungsten",
-   "type": "album",
-   "title": "Ashes",
-   "artist": "Tungsten",
-   "year": null,
-   "appleMusicID": null,
-   "artworkURL": null,
-   "score": 1.358,
-   "genres": [
-    "metal"
-   ],
-   "mentions": [
-    {
-     "source": "angry-metal-guy",
-     "url": "https://www.angrymetalguy.com/tungsten-ashes-review/",
-     "date": "2026-10-09T12:01:22Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "accessallareas|karateboogaloo",
    "type": "album",
    "title": "Access All Areas",
@@ -5147,7 +5126,7 @@
    "year": "2026",
    "appleMusicID": "6776373156",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/de/c9/1cdec941-f7ce-ffa5-31d4-61d8c1b95762/66516.jpg/600x600bb.jpg",
-   "score": 1.357,
+   "score": 1.344,
    "genres": [
     "jazz"
    ],
@@ -5161,6 +5140,27 @@
    "listeners": null
   },
   {
+   "id": "ashes|tungsten",
+   "type": "album",
+   "title": "Ashes",
+   "artist": "Tungsten",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.344,
+   "genres": [
+    "metal"
+   ],
+   "mentions": [
+    {
+     "source": "angry-metal-guy",
+     "url": "https://www.angrymetalguy.com/tungsten-ashes-review/",
+     "date": "2026-10-09T12:01:22Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "hijss|hijss",
    "type": "album",
    "title": "hijss",
@@ -5168,7 +5168,7 @@
    "year": "2026",
    "appleMusicID": "6778290056",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/48/bb/8b48bb90-e7ec-97ed-33bf-8d610fdf9006/cover.jpg/600x600bb.jpg",
-   "score": 1.357,
+   "score": 1.344,
    "genres": [
     "rock"
    ],
@@ -5189,7 +5189,7 @@
    "year": "2026",
    "appleMusicID": "6777563697",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/22/1f/56221f2a-cdbf-2d62-f451-7e147a55506a/artwork.jpg/600x600bb.jpg",
-   "score": 1.354,
+   "score": 1.341,
    "genres": [
     "rock"
    ],
@@ -5210,7 +5210,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.353,
+   "score": 1.34,
    "genres": [
     "rock",
     "folk"
@@ -5232,7 +5232,7 @@
    "year": "1969",
    "appleMusicID": "1605852413",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/10/53/65/105365b4-dc2c-8577-549b-eaa58ec6904c/193483085593.jpg/600x600bb.jpg",
-   "score": 1.352,
+   "score": 1.339,
    "genres": [
     "rock"
    ],
@@ -5253,7 +5253,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.35,
+   "score": 1.337,
    "genres": [
     "metal"
    ],
@@ -5274,7 +5274,7 @@
    "year": "2026",
    "appleMusicID": "6795462000",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/f2/67/7cf267c3-510f-08bf-c5a6-ef1d16f71bc0/8721628689911.png/600x600bb.jpg",
-   "score": 1.347,
+   "score": 1.334,
    "genres": [
     "folk"
    ],
@@ -5295,7 +5295,7 @@
    "year": "2026",
    "appleMusicID": "6777189951",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/d2/49/fdd24946-305e-ade3-0209-cdfc2868cd68/5063961889331_cover.jpg/600x600bb.jpg",
-   "score": 1.341,
+   "score": 1.328,
    "genres": [
     "hiphop"
    ],
@@ -5316,7 +5316,7 @@
    "year": "2026",
    "appleMusicID": "1887971563",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/55/09/1655093e-2cb0-e585-3463-7fadcfa4008b/64441.jpg/600x600bb.jpg",
-   "score": 1.325,
+   "score": 1.312,
    "genres": [
     "indie"
    ],
@@ -5337,7 +5337,7 @@
    "year": "2026",
    "appleMusicID": "6805902631",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/03/93/f3039318-e4a2-e45a-9a19-59a7c64476d4/4062548152067.png/600x600bb.jpg",
-   "score": 1.311,
+   "score": 1.299,
    "genres": [
     "electronic"
    ],
@@ -5358,7 +5358,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.311,
+   "score": 1.299,
    "genres": [
     "electronic"
    ],
@@ -5379,7 +5379,7 @@
    "year": "2026",
    "appleMusicID": "6807111766",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/a2/b4/d4a2b498-2ee1-cb35-bfde-b4c022959aba/4070209009049_3000.jpg/600x600bb.jpg",
-   "score": 1.311,
+   "score": 1.299,
    "genres": [
     "electronic"
    ],
@@ -5400,7 +5400,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.311,
+   "score": 1.299,
    "genres": [
     "electronic"
    ],
@@ -5421,7 +5421,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.3,
+   "score": 1.288,
    "genres": [
     "jazz"
    ],
@@ -5442,7 +5442,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.296,
+   "score": 1.284,
    "genres": [
     "classical"
    ],
@@ -5463,7 +5463,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.296,
+   "score": 1.284,
    "genres": [
     "classical"
    ],
@@ -5484,7 +5484,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.296,
+   "score": 1.284,
    "genres": [
     "classical"
    ],
@@ -5505,7 +5505,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.296,
+   "score": 1.284,
    "genres": [
     "classical"
    ],
@@ -5526,7 +5526,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.285,
+   "score": 1.273,
    "genres": [
     "jazz"
    ],
@@ -5540,27 +5540,6 @@
    "listeners": null
   },
   {
-   "id": "venceremos|villagersofioanninacity",
-   "type": "album",
-   "title": "Venceremos",
-   "artist": "Villagers of Ioannina City",
-   "year": "2026",
-   "appleMusicID": "6772177729",
-   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/0e/1f/420e1fd9-c6cb-eea9-1701-80a44a537cc8/810210534109.jpg/600x600bb.jpg",
-   "score": 1.284,
-   "genres": [
-    "rock"
-   ],
-   "mentions": [
-    {
-     "source": "angry-metal-guy",
-     "url": "https://www.angrymetalguy.com/villagers-of-ioannina-city-venceremos-review/",
-     "date": "2026-10-08T16:40:11Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "outward|wefloat",
    "type": "album",
    "title": "Outward",
@@ -5568,7 +5547,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.284,
+   "score": 1.272,
    "genres": [
     "jazz"
    ],
@@ -5582,6 +5561,27 @@
    "listeners": null
   },
   {
+   "id": "venceremos|villagersofioanninacity",
+   "type": "album",
+   "title": "Venceremos",
+   "artist": "Villagers of Ioannina City",
+   "year": "2026",
+   "appleMusicID": "6772177729",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/0e/1f/420e1fd9-c6cb-eea9-1701-80a44a537cc8/810210534109.jpg/600x600bb.jpg",
+   "score": 1.271,
+   "genres": [
+    "rock"
+   ],
+   "mentions": [
+    {
+     "source": "angry-metal-guy",
+     "url": "https://www.angrymetalguy.com/villagers-of-ioannina-city-venceremos-review/",
+     "date": "2026-10-08T16:40:11Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "5t4rp0w3r|ryl0",
    "type": "album",
    "title": "5T4RP0W3R",
@@ -5589,7 +5589,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.28,
+   "score": 1.268,
    "genres": [
     "hiphop",
     "rnb"
@@ -5611,7 +5611,7 @@
    "year": "2026",
    "appleMusicID": "6781054740",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/04/ca/6e04ca89-c7e7-1fe2-3761-0a7610ce49bc/881392050992-copy-6ce7a4eb.png/600x600bb.jpg",
-   "score": 1.28,
+   "score": 1.268,
    "genres": [
     "rnb"
    ],
@@ -5632,7 +5632,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.28,
+   "score": 1.268,
    "genres": [
     "hiphop",
     "rnb"
@@ -5654,7 +5654,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.28,
+   "score": 1.267,
    "genres": [
     "jazz"
    ],
@@ -5675,7 +5675,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.279,
+   "score": 1.266,
    "genres": [
     "country",
     "folk"
@@ -5697,7 +5697,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.277,
+   "score": 1.265,
    "genres": [
     "jazz"
    ],
@@ -5718,7 +5718,7 @@
    "year": "2025",
    "appleMusicID": "1817224166",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/7c/d3/b77cd3ce-504f-b4c0-b022-5d24b5947ef0/199199846596.jpg/600x600bb.jpg",
-   "score": 1.268,
+   "score": 1.256,
    "genres": [
     "country"
    ],
@@ -5739,7 +5739,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.267,
+   "score": 1.254,
    "genres": [
     "punk"
    ],
@@ -5760,7 +5760,7 @@
    "year": "2026",
    "appleMusicID": "6779120121",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/34/3b/63343b1c-b44b-8e53-0fb7-e3d29c099727/2928.jpg/600x600bb.jpg",
-   "score": 1.267,
+   "score": 1.254,
    "genres": [
     "metal"
    ],
@@ -5781,7 +5781,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.264,
+   "score": 1.252,
    "genres": [
     "metal"
    ],
@@ -5802,7 +5802,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.263,
+   "score": 1.251,
    "genres": [
     "rock",
     "folk"
@@ -5824,7 +5824,7 @@
    "year": "2026",
    "appleMusicID": "6786316076",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/89/2d/66892d87-7b72-3f7b-233f-026efe316c5b/760137216162.png/600x600bb.jpg",
-   "score": 1.263,
+   "score": 1.251,
    "genres": [
     "metal"
    ],
@@ -5845,7 +5845,7 @@
    "year": "2026",
    "appleMusicID": "6808601028",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/1d/5c/d51d5c4b-b1d6-bbf3-8e19-4a4177031459/cover.jpg/600x600bb.jpg",
-   "score": 1.262,
+   "score": 1.25,
    "genres": [
     "folk"
    ],
@@ -5866,7 +5866,7 @@
    "year": "2026",
    "appleMusicID": "6776006954",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/10/db/ec10dbb2-084a-ea12-e6d9-7c2dff26f110/127733.jpg/600x600bb.jpg",
-   "score": 1.236,
+   "score": 1.224,
    "genres": [
     "ambient"
    ],
@@ -5887,7 +5887,7 @@
    "year": "2026",
    "appleMusicID": "6780870579",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/a8/3c/02a83c64-13ee-6b7f-ac56-cfc041416f18/5064020239715_cover.jpg/600x600bb.jpg",
-   "score": 1.236,
+   "score": 1.224,
    "genres": [
     "hiphop"
    ],
@@ -5909,7 +5909,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.236,
+   "score": 1.224,
    "genres": [],
    "mentions": [
     {
@@ -5929,7 +5929,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.219,
+   "score": 1.207,
    "genres": [
     "electronic"
    ],
@@ -5950,7 +5950,7 @@
    "year": "2026",
    "appleMusicID": "6804201980",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/6b/03/216b03ec-c901-0135-9b23-427a04368d24/199999728399.png/600x600bb.jpg",
-   "score": 1.217,
+   "score": 1.206,
    "genres": [
     "electronic"
    ],
@@ -5971,7 +5971,7 @@
    "year": "2026",
    "appleMusicID": "6815205329",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/26/3f/0a263f31-48e2-66a9-183c-e3996f9b0e5d/198391372155.jpg/600x600bb.jpg",
-   "score": 1.216,
+   "score": 1.204,
    "genres": [
     "electronic"
    ],
@@ -5992,7 +5992,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.21,
+   "score": 1.199,
    "genres": [
     "electronic"
    ],
@@ -6013,7 +6013,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/02134243/SUNDERLUXE_artwork-scaled.jpg?w=150&h=150&crop=1&ssl=1",
-   "score": 1.21,
+   "score": 1.198,
    "genres": [
     "electronic"
    ],
@@ -6034,7 +6034,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.209,
+   "score": 1.198,
    "genres": [
     "classical"
    ],
@@ -6055,7 +6055,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.209,
+   "score": 1.198,
    "genres": [
     "classical"
    ],
@@ -6076,7 +6076,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.209,
+   "score": 1.198,
    "genres": [
     "classical"
    ],
@@ -6097,7 +6097,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.209,
+   "score": 1.198,
    "genres": [
     "classical"
    ],
@@ -6118,7 +6118,7 @@
    "year": "2026",
    "appleMusicID": "6789554313",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/89/66/358966e1-855a-c0e2-2d99-07906fc5ee50/840526514717.jpg/600x600bb.jpg",
-   "score": 1.199,
+   "score": 1.187,
    "genres": [
     "metal"
    ],
@@ -6139,7 +6139,7 @@
    "year": "2026",
    "appleMusicID": "6774369286",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/f0/c3/f7f0c398-21f9-3e21-e95c-8df4fb6a3d35/820233491884.jpg/600x600bb.jpg",
-   "score": 1.192,
+   "score": 1.181,
    "genres": [
     "country",
     "folk"
@@ -6161,7 +6161,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.191,
+   "score": 1.179,
    "genres": [
     "jazz"
    ],
@@ -6182,7 +6182,7 @@
    "year": "2026",
    "appleMusicID": "6796222676",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/08/96/70089631-f9e6-35f7-315c-a40ae28b75e6/820233792738.jpg/600x600bb.jpg",
-   "score": 1.187,
+   "score": 1.175,
    "genres": [
     "metal"
    ],
@@ -6203,7 +6203,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.183,
+   "score": 1.171,
    "genres": [
     "country",
     "folk"
@@ -6225,7 +6225,7 @@
    "year": "2026",
    "appleMusicID": "1895408368",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/0d/b8/0a0db826-0f7a-b80c-6e1a-5119342c860f/823375136125_Cover.jpg/600x600bb.jpg",
-   "score": 1.182,
+   "score": 1.17,
    "genres": [
     "indie"
    ],
@@ -6246,7 +6246,7 @@
    "year": "2026",
    "appleMusicID": "6805230184",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/48/a6/8f48a6f9-4434-621c-741c-031ebd86b513/5037300013718.jpg/600x600bb.jpg",
-   "score": 1.182,
+   "score": 1.17,
    "genres": [
     "rock"
    ],
@@ -6267,7 +6267,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.178,
+   "score": 1.167,
    "genres": [
     "metal"
    ],
@@ -6288,7 +6288,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.174,
+   "score": 1.162,
    "genres": [
     "country",
     "folk"
@@ -6310,7 +6310,7 @@
    "year": "2026",
    "appleMusicID": "6794086832",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/a0/28/72a0285d-6c87-b890-bd19-b9c89dc0421b/1548.jpg/600x600bb.jpg",
-   "score": 1.172,
+   "score": 1.16,
    "genres": [
     "folk"
    ],
@@ -6331,7 +6331,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.167,
+   "score": 1.156,
    "genres": [
     "hiphop",
     "rnb"
@@ -6353,7 +6353,7 @@
    "year": "2026",
    "appleMusicID": "6813197683",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/3d/84/643d84be-0a16-4330-78ac-6734924a94d0/4099964290400.jpg/600x600bb.jpg",
-   "score": 1.167,
+   "score": 1.156,
    "genres": [
     "rnb"
    ],
@@ -6374,7 +6374,7 @@
    "year": "2026",
    "appleMusicID": "6791073961",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/e6/cc/55e6ccc8-94fc-c026-585c-838b739db905/4001617102275.jpg/600x600bb.jpg",
-   "score": 1.165,
+   "score": 1.153,
    "genres": [
     "metal"
    ],
@@ -6395,7 +6395,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/09/ep-cover-with-title-square.png",
-   "score": 1.154,
+   "score": 1.142,
    "genres": [
     "ambient"
    ],
@@ -6416,7 +6416,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.148,
+   "score": 1.137,
    "genres": [
     "hiphop"
    ],
@@ -6437,7 +6437,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.14,
+   "score": 1.129,
    "genres": [
     "folk",
     "indie"
@@ -6459,7 +6459,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.139,
+   "score": 1.128,
    "genres": [
     "jazz"
    ],
@@ -6480,7 +6480,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.136,
+   "score": 1.125,
    "genres": [
     "folk",
     "indie"
@@ -6502,7 +6502,7 @@
    "year": "2026",
    "appleMusicID": "6780178145",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bc/12/24/bc122492-1c89-3d85-ac12-511cccc7ecd7/artwork.jpg/600x600bb.jpg",
-   "score": 1.129,
+   "score": 1.119,
    "genres": [
     "country"
    ],
@@ -6523,7 +6523,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.128,
+   "score": 1.118,
    "genres": [
     "classical"
    ],
@@ -6544,7 +6544,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.128,
+   "score": 1.118,
    "genres": [
     "classical"
    ],
@@ -6565,7 +6565,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.128,
+   "score": 1.118,
    "genres": [
     "classical"
    ],
@@ -6586,7 +6586,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.128,
+   "score": 1.118,
    "genres": [
     "classical"
    ],
@@ -6607,7 +6607,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.128,
+   "score": 1.118,
    "genres": [
     "classical"
    ],
@@ -6628,7 +6628,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.128,
+   "score": 1.118,
    "genres": [
     "classical"
    ],
@@ -6649,7 +6649,7 @@
    "year": "2026",
    "appleMusicID": "6818597697",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/80/a2/a280a20b-af24-a74f-9536-4f3ebbd9d352/7333596065096.jpg/600x600bb.jpg",
-   "score": 1.121,
+   "score": 1.111,
    "genres": [
     "rock"
    ],
@@ -6670,7 +6670,7 @@
    "year": "2026",
    "appleMusicID": "6789548629",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/c4/54/7dc45443-537b-e358-4ce4-748fa28024c4/601937222024_Cover.jpg/600x600bb.jpg",
-   "score": 1.113,
+   "score": 1.102,
    "genres": [
     "folk"
    ],
@@ -6691,7 +6691,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.113,
+   "score": 1.102,
    "genres": [
     "country",
     "folk"
@@ -6713,7 +6713,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.113,
+   "score": 1.102,
    "genres": [
     "country",
     "folk"
@@ -6735,7 +6735,7 @@
    "year": "2026",
    "appleMusicID": "6818395233",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/34/c7/5234c7e3-4ef3-121d-fb99-81047c334c8e/097037138622.jpg/600x600bb.jpg",
-   "score": 1.112,
+   "score": 1.102,
    "genres": [
     "folk"
    ],
@@ -6756,7 +6756,7 @@
    "year": "2026",
    "appleMusicID": "1878715168",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/2d/ae/eb2dae62-c5ef-08a8-5a71-1e3121a86b2b/cover.jpg/600x600bb.jpg",
-   "score": 1.109,
+   "score": 1.098,
    "genres": [
     "rock"
    ],
@@ -6777,7 +6777,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.106,
+   "score": 1.095,
    "genres": [
     "metal"
    ],
@@ -6791,6 +6791,27 @@
    "listeners": null
   },
   {
+   "id": "crookedserpent|verdinbrothers",
+   "type": "album",
+   "title": "Crooked Serpent",
+   "artist": "Verdin Brothers",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.093,
+   "genres": [
+    "folk"
+   ],
+   "mentions": [
+    {
+     "source": "klof",
+     "url": "https://klofmag.com/2026/10/verdin-brothers-crooked-serpent/",
+     "date": "2026-10-02T08:39:42Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "disobedience|pegzilla",
    "type": "album",
    "title": "Disobedience",
@@ -6798,7 +6819,7 @@
    "year": "2026",
    "appleMusicID": "6799136101",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/ae/37/2eae37b4-2c37-0411-3062-8bf3abfbeb0c/850074887768.png/600x600bb.jpg",
-   "score": 1.104,
+   "score": 1.093,
    "genres": [
     "metal"
    ],
@@ -6812,6 +6833,27 @@
    "listeners": null
   },
   {
+   "id": "abovealllove|bapkennedy",
+   "type": "album",
+   "title": "Above All, Love",
+   "artist": "Bap Kennedy",
+   "year": "2026",
+   "appleMusicID": "6788762775",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/e1/82/1de18206-4912-798e-36f0-e51ce96670d0/820233904605.jpg/600x600bb.jpg",
+   "score": 1.093,
+   "genres": [
+    "country"
+   ],
+   "mentions": [
+    {
+     "source": "americana-uk",
+     "url": "https://americana-uk.com/bap-kennedy-above-all-love",
+     "date": "2026-10-06T12:13:48Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "lovestories|theesinseers",
    "type": "album",
    "title": "Love Stories",
@@ -6819,7 +6861,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.103,
+   "score": 1.092,
    "genres": [
     "rock",
     "indie"
@@ -6834,27 +6876,6 @@
    "listeners": null
   },
   {
-   "id": "crookedserpent|verdinbrothers",
-   "type": "album",
-   "title": "Crooked Serpent",
-   "artist": "Verdin Brothers",
-   "year": null,
-   "appleMusicID": null,
-   "artworkURL": null,
-   "score": 1.103,
-   "genres": [
-    "folk"
-   ],
-   "mentions": [
-    {
-     "source": "klof",
-     "url": "https://klofmag.com/2026/10/verdin-brothers-crooked-serpent/",
-     "date": "2026-10-02T08:39:42Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "lesslouder|beans",
    "type": "album",
    "title": "Less Louder",
@@ -6862,7 +6883,7 @@
    "year": "2026",
    "appleMusicID": "6773349872",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/59/1d/3f591d45-4b73-8a2a-9962-d245889d74c8/5060978395763.jpg/600x600bb.jpg",
-   "score": 1.103,
+   "score": 1.092,
    "genres": [
     "rock"
    ],
@@ -6876,27 +6897,6 @@
    "listeners": null
   },
   {
-   "id": "abovealllove|bapkennedy",
-   "type": "album",
-   "title": "Above All, Love",
-   "artist": "Bap Kennedy",
-   "year": "2026",
-   "appleMusicID": "6788762775",
-   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/e1/82/1de18206-4912-798e-36f0-e51ce96670d0/820233904605.jpg/600x600bb.jpg",
-   "score": 1.103,
-   "genres": [
-    "country"
-   ],
-   "mentions": [
-    {
-     "source": "americana-uk",
-     "url": "https://americana-uk.com/bap-kennedy-above-all-love",
-     "date": "2026-10-06T12:13:48Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "melodie|slowpulp",
    "type": "album",
    "title": "Melodie",
@@ -6904,7 +6904,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.101,
+   "score": 1.09,
    "genres": [
     "punk",
     "indie"
@@ -6931,7 +6931,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.098,
+   "score": 1.087,
    "genres": [
     "country",
     "folk"
@@ -6953,7 +6953,7 @@
    "year": "2026",
    "appleMusicID": "6773368860",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/77/c0/1377c067-f6f2-ac79-1441-661ad8f42640/5050580871786.png/600x600bb.jpg",
-   "score": 1.097,
+   "score": 1.087,
    "genres": [
     "folk"
    ],
@@ -6974,7 +6974,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.095,
+   "score": 1.084,
    "genres": [
     "classical"
    ],
@@ -6995,7 +6995,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.095,
+   "score": 1.084,
    "genres": [
     "hiphop"
    ],
@@ -7016,7 +7016,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.089,
+   "score": 1.078,
    "genres": [
     "hiphop",
     "rnb"
@@ -7038,7 +7038,7 @@
    "year": "2026",
    "appleMusicID": "6795972356",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/bc/fe/b4bcfeb8-c1cc-712e-c1e7-8c85feff20cb/885288129717.jpg/600x600bb.jpg",
-   "score": 1.089,
+   "score": 1.078,
    "genres": [
     "rnb"
    ],
@@ -7059,7 +7059,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://banbantonton.com/wp-content/uploads/2026/10/love-from-the-archipelago-2.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "electronic"
    ],
@@ -7080,7 +7080,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/cover-2.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "ambient"
    ],
@@ -7101,7 +7101,7 @@
    "year": "2025",
    "appleMusicID": "1832373313",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/2a/53/5e2a53bd-0d9e-3471-8c2e-68dded8e3d6b/artwork.jpg/600x600bb.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "folk"
    ],
@@ -7123,7 +7123,7 @@
    "year": "2026",
    "appleMusicID": "6785493733",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/dc/de/91dcded8-2f9c-3851-d1eb-be458b026868/820233296212.jpg/600x600bb.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "ambient"
    ],
@@ -7145,7 +7145,7 @@
    "year": "2026",
    "appleMusicID": "6792468467",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e6/6c/aae66c53-3d6e-c7d5-5414-64edcc85b8fc/artwork.jpg/600x600bb.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "electronic"
    ],
@@ -7167,7 +7167,7 @@
    "year": "2026",
    "appleMusicID": "6802611783",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/76/b8/fa76b88c-e6fc-a3f3-d243-494c80f7f658/880918279374.jpg/600x600bb.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "ambient"
    ],
@@ -7189,7 +7189,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.076,
+   "score": 1.066,
    "genres": [],
    "mentions": [
     {
@@ -7209,7 +7209,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.07,
+   "score": 1.06,
    "genres": [
     "hiphop"
    ],
@@ -7230,7 +7230,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.065,
+   "score": 1.055,
    "genres": [
     "hiphop"
    ],
@@ -7251,7 +7251,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.065,
+   "score": 1.055,
    "genres": [
     "hiphop"
    ],
@@ -7272,7 +7272,7 @@
    "year": "2024",
    "appleMusicID": "1770201154",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/b1/3b/fab13bf8-dad3-64d2-4b3c-9511f0dd60ea/723277853789.jpg/600x600bb.jpg",
-   "score": 1.065,
+   "score": 1.055,
    "genres": [
     "country"
    ],
@@ -7293,7 +7293,7 @@
    "year": "2026",
    "appleMusicID": "1882484531",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/64/16/6f6416ec-f918-85d4-6021-1ef5ed619f0e/25UM1IM66732.rgb.jpg/600x600bb.jpg",
-   "score": 1.065,
+   "score": 1.055,
    "genres": [
     "hiphop"
    ],
@@ -7314,7 +7314,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.065,
+   "score": 1.055,
    "genres": [
     "hiphop"
    ],
@@ -7335,7 +7335,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.058,
+   "score": 1.048,
    "genres": [
     "folk",
     "indie"
@@ -7357,7 +7357,7 @@
    "year": "2026",
    "appleMusicID": "6792110556",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/0b/f3/900bf398-1f69-5ae6-0ca9-ba0dd93d3aa5/4764.jpg/600x600bb.jpg",
-   "score": 1.057,
+   "score": 1.047,
    "genres": [
     "electronic"
    ],
@@ -7371,28 +7371,6 @@
    "listeners": null
   },
   {
-   "id": "dontlookbehindalwaysforward|haniaderejtrio",
-   "type": "album",
-   "title": "Don’t Look Behind, Always Forward!",
-   "artist": "Hania Derej Trio",
-   "year": null,
-   "appleMusicID": null,
-   "artworkURL": null,
-   "score": 1.053,
-   "genres": [
-    "rnb",
-    "jazz"
-   ],
-   "mentions": [
-    {
-     "source": "twisted-soul",
-     "url": "https://twistedsoulmusic.org/2026/10/01/album-hania-derej-trio-dont-look-behind-always-forward/",
-     "date": "2026-10-01T16:18:27Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "completesymphoniesworksforchamberorchestra|wellesz",
    "type": "album",
    "title": "Complete Symphonies & Works for Chamber Orchestra",
@@ -7400,7 +7378,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.053,
+   "score": 1.043,
    "genres": [
     "classical"
    ],
@@ -7421,7 +7399,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.053,
+   "score": 1.043,
    "genres": [
     "classical"
    ],
@@ -7442,7 +7420,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.053,
+   "score": 1.043,
    "genres": [
     "classical"
    ],
@@ -7463,7 +7441,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.053,
+   "score": 1.043,
    "genres": [
     "classical"
    ],
@@ -7477,6 +7455,28 @@
    "listeners": null
   },
   {
+   "id": "dontlookbehindalwaysforward|haniaderejtrio",
+   "type": "album",
+   "title": "Don’t Look Behind, Always Forward!",
+   "artist": "Hania Derej Trio",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.042,
+   "genres": [
+    "rnb",
+    "jazz"
+   ],
+   "mentions": [
+    {
+     "source": "twisted-soul",
+     "url": "https://twistedsoulmusic.org/2026/10/01/album-hania-derej-trio-dont-look-behind-always-forward/",
+     "date": "2026-10-01T16:18:27Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "deepshavemusic|bethtaylor",
    "type": "album",
    "title": "The Deeps Have Music",
@@ -7484,7 +7484,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.046,
+   "score": 1.036,
    "genres": [
     "classical"
    ],
@@ -7505,7 +7505,7 @@
    "year": "2026",
    "appleMusicID": "6786551930",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/35/30/a2353056-ff2a-2b6d-8565-9d82c83ca7d8/artwork.jpg/600x600bb.jpg",
-   "score": 1.042,
+   "score": 1.032,
    "genres": [
     "metal"
    ],
@@ -7526,7 +7526,7 @@
    "year": "2026",
    "appleMusicID": "6812578109",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/30/96/ff3096a5-4561-f1b4-8cec-6b509b2909eb/199874178233.png/600x600bb.jpg",
-   "score": 1.039,
+   "score": 1.029,
    "genres": [
     "folk"
    ],
@@ -7547,7 +7547,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.039,
+   "score": 1.029,
    "genres": [
     "country",
     "folk"
@@ -7569,7 +7569,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.039,
+   "score": 1.029,
    "genres": [
     "country",
     "folk"
@@ -7591,7 +7591,7 @@
    "year": "2026",
    "appleMusicID": "6797639441",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/ed/8b/c6ed8b5b-46d1-9e14-aafb-1f11a828c097/885000213359.png/600x600bb.jpg",
-   "score": 1.039,
+   "score": 1.029,
    "genres": [
     "folk"
    ],
@@ -7612,7 +7612,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.038,
+   "score": 1.028,
    "genres": [
     "country",
     "folk"
@@ -7634,7 +7634,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.038,
+   "score": 1.028,
    "genres": [
     "country",
     "folk"
@@ -7656,7 +7656,7 @@
    "year": "2026",
    "appleMusicID": "6811124008",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/76/ee/9f76ee0c-51ea-9a51-ef49-4c39ccd40b97/5070004942915.jpg/600x600bb.jpg",
-   "score": 1.038,
+   "score": 1.028,
    "genres": [
     "folk"
    ],
@@ -7677,7 +7677,7 @@
    "year": "2026",
    "appleMusicID": "6793379527",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/72/e2/1372e2d7-ac49-4399-f132-7dc1a16db898/9419569107692.jpg/600x600bb.jpg",
-   "score": 1.038,
+   "score": 1.028,
    "genres": [
     "folk"
    ],
@@ -7698,7 +7698,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.038,
+   "score": 1.028,
    "genres": [
     "country",
     "folk"
@@ -7720,7 +7720,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.032,
+   "score": 1.022,
    "genres": [
     "metal"
    ],
@@ -7741,7 +7741,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.029,
+   "score": 1.019,
    "genres": [
     "metal"
    ],
@@ -7762,7 +7762,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.023,
+   "score": 1.013,
    "genres": [
     "classical"
    ],
@@ -7783,7 +7783,7 @@
    "year": "2026",
    "appleMusicID": "1887919665",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/22/e3/4e22e33d-8b54-1b9a-31dc-d0a7423235cc/820200826893.jpg/600x600bb.jpg",
-   "score": 1.017,
+   "score": 1.008,
    "genres": [
     "jazz"
    ],
@@ -7804,7 +7804,7 @@
    "year": "2026",
    "appleMusicID": "1867416499",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/67/ae/3e67ae12-c0b3-f770-6c05-0592ebd6d9f6/artwork.jpg/600x600bb.jpg",
-   "score": 1.016,
+   "score": 1.006,
    "genres": [
     "indie"
    ],
@@ -7825,7 +7825,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.016,
+   "score": 1.006,
    "genres": [
     "hiphop",
     "rnb"
@@ -7847,7 +7847,7 @@
    "year": "2026",
    "appleMusicID": "6798815429",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/11/b2/1d11b228-4518-e395-9dce-10576b633f86/039911139974_Cover.jpg/600x600bb.jpg",
-   "score": 1.016,
+   "score": 1.006,
    "genres": [
     "rnb"
    ],
@@ -7868,7 +7868,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.015,
+   "score": 1.005,
    "genres": [
     "rock",
     "folk"
@@ -7890,7 +7890,7 @@
    "year": "2026",
    "appleMusicID": "6782477316",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/ac/22/eeac2265-c897-8f14-0b1f-0e8ddf92f7ae/127917.jpg/600x600bb.jpg",
-   "score": 1.014,
+   "score": 1.004,
    "genres": [
     "electronic"
    ],
@@ -7911,7 +7911,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://banbantonton.com/wp-content/uploads/2026/09/black-bones-miles-j.-paralysis-black-cross-crying-outcast-2.jpg",
-   "score": 1.004,
+   "score": 0.995,
    "genres": [
     "electronic"
    ],
@@ -7932,7 +7932,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/felice-sciorilli-distant-places-cover.png",
-   "score": 1.004,
+   "score": 0.995,
    "genres": [
     "ambient"
    ],
@@ -7953,7 +7953,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.004,
+   "score": 0.994,
    "genres": [],
    "mentions": [
     {
@@ -7973,7 +7973,7 @@
    "year": "2026",
    "appleMusicID": "6790487991",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/a1/24/79a1245d-b4f8-0395-0500-e46668801d88/196874590546.jpg/600x600bb.jpg",
-   "score": 1.004,
+   "score": 0.994,
    "genres": [
     "hiphop"
    ],
@@ -7995,7 +7995,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.992,
+   "score": 0.983,
    "genres": [
     "folk",
     "indie"
@@ -8017,7 +8017,7 @@
    "year": "2026",
    "appleMusicID": "6813016163",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/dd/c4/9bddc415-3aa0-e762-b3f1-83c34409c11e/885975204000_cover.jpg/600x600bb.jpg",
-   "score": 0.989,
+   "score": 0.98,
    "genres": [
     "electronic"
    ],
@@ -8038,7 +8038,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.988,
+   "score": 0.979,
    "genres": [
     "electronic"
    ],
@@ -8059,7 +8059,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.987,
+   "score": 0.977,
    "genres": [
     "electronic"
    ],
@@ -8080,7 +8080,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.986,
+   "score": 0.976,
    "genres": [
     "electronic"
    ],
@@ -8101,7 +8101,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.985,
+   "score": 0.975,
    "genres": [
     "electronic"
    ],
@@ -8122,7 +8122,7 @@
    "year": "2026",
    "appleMusicID": "6810742990",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/c1/63/66c16358-9034-616f-4f56-766c9eba45b3/cover.jpg/600x600bb.jpg",
-   "score": 0.985,
+   "score": 0.975,
    "genres": [
     "electronic"
    ],
@@ -8143,7 +8143,7 @@
    "year": "2026",
    "appleMusicID": "6783486863",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/e0/e9/4de0e971-29a7-1e02-a218-6fd751bfb95f/5050580873629.png/600x600bb.jpg",
-   "score": 0.984,
+   "score": 0.974,
    "genres": [
     "ambient"
    ],
@@ -8164,7 +8164,7 @@
    "year": "2026",
    "appleMusicID": "6766898523",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/69/fe/2569fe4d-4a33-cff9-f359-54f2f321eb17/7350142983796.png/600x600bb.jpg",
-   "score": 0.969,
+   "score": 0.96,
    "genres": [
     "rock"
    ],
@@ -8185,7 +8185,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.967,
+   "score": 0.958,
    "genres": [
     "punk",
     "rock"
@@ -8207,7 +8207,7 @@
    "year": "2026",
    "appleMusicID": "6795223766",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/d0/55/f9d0559b-2934-8284-a311-c18f6558c4d7/885288151169.jpg/600x600bb.jpg",
-   "score": 0.966,
+   "score": 0.957,
    "genres": [
     "jazz"
    ],
@@ -8228,7 +8228,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.966,
+   "score": 0.957,
    "genres": [
     "global"
    ],
@@ -8249,7 +8249,7 @@
    "year": "2026",
    "appleMusicID": "1888506804",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/da/26/c6da26f8-d7ea-996c-e513-68035b8645b3/artwork.jpg/600x600bb.jpg",
-   "score": 0.962,
+   "score": 0.952,
    "genres": [
     "rock"
    ],
@@ -8270,7 +8270,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.957,
+   "score": 0.947,
    "genres": [
     "folk"
    ],
@@ -8291,7 +8291,7 @@
    "year": "2026",
    "appleMusicID": "6786830363",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/ee/65/76ee6519-20db-07f9-df0e-48fa3dfe9ffb/128179.jpg/600x600bb.jpg",
-   "score": 0.948,
+   "score": 0.939,
    "genres": [
     "indie"
    ],
@@ -8312,7 +8312,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/07/tegh-bayal-artwork.jpg",
-   "score": 0.937,
+   "score": 0.928,
    "genres": [
     "ambient"
    ],
@@ -8333,7 +8333,7 @@
    "year": "2026",
    "appleMusicID": "6785962943",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/67/52/6d675293-690c-2473-7347-1d579d1324e7/3663729442260_cover.jpg/600x600bb.jpg",
-   "score": 0.937,
+   "score": 0.928,
    "genres": [
     "electronic"
    ],
@@ -8355,7 +8355,7 @@
    "year": "2026",
    "appleMusicID": "1873989051",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/9c/a7/839ca7ae-3aa8-8d15-7659-68b1ea7d7a59/5026854641096.jpg/600x600bb.jpg",
-   "score": 0.937,
+   "score": 0.928,
    "genres": [
     "indie"
    ],
@@ -8377,7 +8377,7 @@
    "year": "2026",
    "appleMusicID": "6802681108",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/e9/3f/1fe93f45-95a4-dc8b-77e6-2e1d7c98615a/885288234855.jpg/600x600bb.jpg",
-   "score": 0.91,
+   "score": 0.901,
    "genres": [
     "rock"
    ],
@@ -8398,7 +8398,7 @@
    "year": "2026",
    "appleMusicID": "6779251921",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/42/d0/e442d0ec-d172-828c-37ff-5012e52343df/4026424013873_3000.jpg/600x600bb.jpg",
-   "score": 0.909,
+   "score": 0.9,
    "genres": [
     "rnb"
    ],
@@ -8419,7 +8419,7 @@
    "year": "2026",
    "appleMusicID": "6803236926",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/6d/6f/716d6ff8-e2b0-e6f1-e3fb-96fad1bf37a2/artwork.jpg/600x600bb.jpg",
-   "score": 0.897,
+   "score": 0.888,
    "genres": [
     "indie"
    ],
@@ -8440,7 +8440,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.885,
+   "score": 0.877,
    "genres": [
     "indie"
    ],
@@ -8461,7 +8461,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.884,
+   "score": 0.876,
    "genres": [
     "hiphop",
     "rnb"
@@ -8483,7 +8483,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.884,
+   "score": 0.876,
    "genres": [
     "hiphop",
     "rnb"
@@ -8505,7 +8505,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/cover.png",
-   "score": 0.874,
+   "score": 0.866,
    "genres": [
     "ambient"
    ],
@@ -8526,7 +8526,7 @@
    "year": "2026",
    "appleMusicID": "1855547446",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/a0/82/f6a08299-f606-760b-1920-611995775ca3/3770010548591_cover.jpg/600x600bb.jpg",
-   "score": 0.864,
+   "score": 0.855,
    "genres": [
     "jazz"
    ],
@@ -8547,7 +8547,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.863,
+   "score": 0.855,
    "genres": [
     "jazz"
    ],
@@ -8568,7 +8568,7 @@
    "year": "2026",
    "appleMusicID": "6769066264",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/dd/15/8fdd1536-dab0-da51-3370-5fd0cac583f5/820233378925.jpg/600x600bb.jpg",
-   "score": 0.854,
+   "score": 0.846,
    "genres": [
     "metal"
    ],
@@ -8582,6 +8582,28 @@
    "listeners": null
   },
   {
+   "id": "triumphoftimeandthedisillusioned|laborofthenegative",
+   "type": "album",
+   "title": "The Triumph of Time and the Disillusioned",
+   "artist": "Labor of the Negative",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 0.841,
+   "genres": [
+    "metal",
+    "rock"
+   ],
+   "mentions": [
+    {
+     "source": "echoes-and-dust",
+     "url": "https://echoesanddust.com/2026/10/labor-of-the-negative-the-triumph-of-time-and-the-disillusioned/",
+     "date": "2026-10-08T13:50:25Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "tiabenuatitiitatitete|kevinhaynesgrupoelegua",
    "type": "album",
    "title": "Ti abenu ati ti ita titete",
@@ -8589,7 +8611,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.85,
+   "score": 0.841,
    "genres": [
     "jazz"
    ],
@@ -8610,7 +8632,7 @@
    "year": "2026",
    "appleMusicID": "6776697800",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/0c/6f/100c6f64-a7c3-bcfa-1350-8f7590ccdb09/5060978397989.jpg/600x600bb.jpg",
-   "score": 0.849,
+   "score": 0.84,
    "genres": [
     "rock"
    ],
@@ -8624,28 +8646,6 @@
    "listeners": null
   },
   {
-   "id": "triumphoftimeandthedisillusioned|laborofthenegative",
-   "type": "album",
-   "title": "The Triumph of Time and the Disillusioned",
-   "artist": "Labor of the Negative",
-   "year": null,
-   "appleMusicID": null,
-   "artworkURL": null,
-   "score": 0.849,
-   "genres": [
-    "metal",
-    "rock"
-   ],
-   "mentions": [
-    {
-     "source": "echoes-and-dust",
-     "url": "https://echoesanddust.com/2026/10/labor-of-the-negative-the-triumph-of-time-and-the-disillusioned/",
-     "date": "2026-10-08T13:50:25Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "hoggar|tinariwen",
    "type": "album",
    "title": "Hoggar",
@@ -8653,7 +8653,7 @@
    "year": "2026",
    "appleMusicID": "1846943817",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/be/75/c3be758a-3e20-07d7-7c32-cf8bab4e2f4b/5056818805967.png/600x600bb.jpg",
-   "score": 0.844,
+   "score": 0.836,
    "genres": [
     "global"
    ],
@@ -8674,7 +8674,7 @@
    "year": "2026",
    "appleMusicID": "6796783862",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/49/be/6349be15-e512-001a-80f4-33cc2e05a094/196874645574.jpg/600x600bb.jpg",
-   "score": 0.844,
+   "score": 0.835,
    "genres": [
     "country"
    ],
@@ -8695,7 +8695,7 @@
    "year": "2026",
    "appleMusicID": "6794503374",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/a3/5e/d5a35ee0-e191-9cb9-9353-ebe1790ee18a/5064021639668_cover.jpg/600x600bb.jpg",
-   "score": 0.836,
+   "score": 0.828,
    "genres": [
     "folk"
    ],
@@ -8716,7 +8716,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.833,
+   "score": 0.825,
    "genres": [
     "folk"
    ],
@@ -8737,7 +8737,7 @@
    "year": "2026",
    "appleMusicID": "6793610011",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/d6/60/79d6601a-3ad8-14b5-19f6-8faeed0edcac/artwork.jpg/600x600bb.jpg",
-   "score": 0.832,
+   "score": 0.824,
    "genres": [
     "folk"
    ],
@@ -8758,7 +8758,7 @@
    "year": "2026",
    "appleMusicID": "6764641556",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/91/1a/10911a55-465a-b984-edd1-697d6048be0f/769152438078.jpg/600x600bb.jpg",
-   "score": 0.825,
+   "score": 0.817,
    "genres": [
     "indie"
    ],
@@ -8779,7 +8779,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.822,
+   "score": 0.814,
    "genres": [
     "rock",
     "folk"
@@ -8801,7 +8801,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/cover-5.jpg",
-   "score": 0.816,
+   "score": 0.808,
    "genres": [
     "ambient"
    ],
@@ -8822,7 +8822,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.798,
+   "score": 0.79,
    "genres": [
     "classical"
    ],
@@ -8843,7 +8843,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.798,
+   "score": 0.79,
    "genres": [
     "classical"
    ],
@@ -8864,7 +8864,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.798,
+   "score": 0.79,
    "genres": [
     "classical"
    ],
@@ -8885,7 +8885,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.798,
+   "score": 0.79,
    "genres": [
     "classical"
    ],
@@ -8906,7 +8906,7 @@
    "year": "2026",
    "appleMusicID": "6778388417",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/ff/55/2bff55d0-d68b-677b-7fc7-e4a52f7a64c4/21706.jpg/600x600bb.jpg",
-   "score": 0.792,
+   "score": 0.784,
    "genres": [
     "rock"
    ],
@@ -8927,7 +8927,7 @@
    "year": "2026",
    "appleMusicID": "6797920258",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/94/7d/81947d0e-5da1-428a-e7a6-dd4b474e34dd/5056818811012.png/600x600bb.jpg",
-   "score": 0.787,
+   "score": 0.78,
    "genres": [
     "indie"
    ],
@@ -8948,7 +8948,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.786,
+   "score": 0.779,
    "genres": [
     "punk",
     "rock"
@@ -8970,7 +8970,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.785,
+   "score": 0.778,
    "genres": [
     "metal",
     "rock"
@@ -8992,7 +8992,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.781,
+   "score": 0.773,
    "genres": [
     "country",
     "folk"
@@ -9014,7 +9014,7 @@
    "year": "2026",
    "appleMusicID": "6795607804",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/97/91/e897917c-2cf6-4be8-781c-4bfcc57f14d4/artwork.jpg/600x600bb.jpg",
-   "score": 0.78,
+   "score": 0.772,
    "genres": [
     "punk"
    ],
@@ -9035,7 +9035,7 @@
    "year": "2026",
    "appleMusicID": "6782672875",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/0b/71/d20b71bf-e5c4-8ffe-51fd-3c79444b7c2c/artwork.jpg/600x600bb.jpg",
-   "score": 0.776,
+   "score": 0.769,
    "genres": [
     "folk"
    ],
@@ -9056,7 +9056,7 @@
    "year": "2026",
    "appleMusicID": "6808856136",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/2b/6f/9c2b6fcc-6339-6702-8c2b-7ad0a606eebd/artwork.jpg/600x600bb.jpg",
-   "score": 0.774,
+   "score": 0.766,
    "genres": [
     "folk"
    ],
@@ -9077,7 +9077,7 @@
    "year": "2026",
    "appleMusicID": "1882488686",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/0e/6c/160e6cfc-40c8-89de-84a2-d9e3cb3d355f/2204.jpg/600x600bb.jpg",
-   "score": 0.773,
+   "score": 0.766,
    "genres": [
     "indie"
    ],
@@ -9098,7 +9098,7 @@
    "year": "2026",
    "appleMusicID": "6774548162",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/ab/17/f4ab17e6-eef9-ed88-91cc-68d5862d99c6/0045778761166.png/600x600bb.jpg",
-   "score": 0.772,
+   "score": 0.764,
    "genres": [
     "country"
    ],
@@ -9119,7 +9119,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://acloserlisten.com/wp-content/uploads/2026/08/takaat-is-noise-vol-3-cover.png",
-   "score": 0.761,
+   "score": 0.754,
    "genres": [
     "ambient"
    ],
@@ -9140,7 +9140,7 @@
    "year": "1972",
    "appleMusicID": "1643807143",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/46/0a/5d/460a5d61-0907-c3c9-bf3f-3eb2aa862b1c/19UMGIM40801.rgb.jpg/600x600bb.jpg",
-   "score": 0.748,
+   "score": 0.741,
    "genres": [
     "latin"
    ],
@@ -9161,7 +9161,7 @@
    "year": "2026",
    "appleMusicID": "6788876173",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/01/0b/e1010b72-c0ae-ad52-f5df-0edb47934374/128548.jpg/600x600bb.jpg",
-   "score": 0.735,
+   "score": 0.728,
    "genres": [
     "indie"
    ],
@@ -9182,7 +9182,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.73,
+   "score": 0.723,
    "genres": [
     "country",
     "folk"
@@ -9204,7 +9204,7 @@
    "year": "2026",
    "appleMusicID": "6809771796",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/e6/09/efe609ac-1a8a-6894-0292-2d7ce557b7e8/5065002010391.jpg/600x600bb.jpg",
-   "score": 0.729,
+   "score": 0.722,
    "genres": [
     "country"
    ],
@@ -9225,7 +9225,7 @@
    "year": "2026",
    "appleMusicID": "6802717852",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/4b/7b/524b7bfc-6447-16b2-0c4b-1b31b13be1b0/7333595122929.jpg/600x600bb.jpg",
-   "score": 0.727,
+   "score": 0.72,
    "genres": [
     "rock"
    ],
@@ -9246,7 +9246,7 @@
    "year": "2026",
    "appleMusicID": "6779796494",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/90/72/c7907281-78b3-bf33-c8a2-5b7281ebc4d5/823000809059.png/600x600bb.jpg",
-   "score": 0.727,
+   "score": 0.72,
    "genres": [
     "folk"
    ],
@@ -9267,7 +9267,7 @@
    "year": "2026",
    "appleMusicID": "6789537617",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/9f/cd/429fcd88-4504-b388-53e8-adf1cd99b8d3/26UMGIM19684.rgb.jpg/600x600bb.jpg",
-   "score": 0.725,
+   "score": 0.718,
    "genres": [
     "classical"
    ],
@@ -9288,7 +9288,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.696,
+   "score": 0.689,
    "genres": [
     "folk",
     "indie"
@@ -9310,7 +9310,7 @@
    "year": "2026",
    "appleMusicID": "6792795530",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/04/58/68045823-e88e-2c8b-67d9-022da274a6a2/820233826235.jpg/600x600bb.jpg",
-   "score": 0.69,
+   "score": 0.683,
    "genres": [
     "rock"
    ],
@@ -9331,7 +9331,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.686,
+   "score": 0.679,
    "genres": [
     "metal",
     "rock"
@@ -9353,7 +9353,7 @@
    "year": "2026",
    "appleMusicID": "6796506405",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/26/97/672697d0-2bab-7489-5710-3c2cdb9bda5a/881453436512_cover.jpg/600x600bb.jpg",
-   "score": 0.685,
+   "score": 0.679,
    "genres": [
     "rock"
    ],
@@ -9374,7 +9374,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.656,
+   "score": 0.649,
    "genres": [
     "hiphop"
    ],
@@ -9395,7 +9395,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.656,
+   "score": 0.649,
    "genres": [
     "hiphop"
    ],
@@ -9416,7 +9416,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.656,
+   "score": 0.649,
    "genres": [
     "hiphop"
    ],
@@ -9437,7 +9437,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.651,
+   "score": 0.645,
    "genres": [
     "folk",
     "indie"
@@ -9459,7 +9459,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.631,
+   "score": 0.625,
    "genres": [
     "punk",
     "indie"
@@ -9481,7 +9481,7 @@
    "year": "2026",
    "appleMusicID": "6783019895",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/93/3c/7d933cfd-30a7-4d99-6690-e01f86ee1579/820233773355.jpg/600x600bb.jpg",
-   "score": 0.626,
+   "score": 0.62,
    "genres": [
     "jazz"
    ],
@@ -9502,7 +9502,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqDy9QD9QtaSsS6omF4QuQgRQiSIcbyiUHRZsQJhfoGON5ELzF2FoEcqaeRcy2R2VJOdi7U8uNEQE_gS44gZ5IjPBinMz3JdnSWDrTaCtgpKvmfNt4iZameBz0GkOX-bWO-evx_n_5xMMxJbu9HyRZv-HgQin52tQ8v_YiRY-Ilua0yuOeNEZCLHWwFqto/s72-c/Arc%20No.%201.jpg",
-   "score": 0.583,
+   "score": 0.578,
    "genres": [
     "jazz"
    ],
@@ -9523,7 +9523,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.568,
+   "score": 0.562,
    "genres": [
     "folk",
     "indie"
@@ -9545,7 +9545,7 @@
    "year": "2026",
    "appleMusicID": "6796732649",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/69/9b/c3699b57-14e2-fd05-70cf-25f7cc64c692/196874522646.jpg/600x600bb.jpg",
-   "score": 0.56,
+   "score": 0.555,
    "genres": [
     "rock"
    ],
@@ -9566,7 +9566,7 @@
    "year": "2026",
    "appleMusicID": "6812881034",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/14/cc/5614cccf-a139-5c4e-908c-0499d5d90ed7/859746390711_cover.jpg/600x600bb.jpg",
-   "score": 0.557,
+   "score": 0.551,
    "genres": [
     "metal"
    ],
@@ -9587,7 +9587,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.555,
+   "score": 0.549,
    "genres": [
     "punk",
     "rock"
@@ -9609,7 +9609,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.546,
+   "score": 0.541,
    "genres": [
     "jazz"
    ],
@@ -9630,7 +9630,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs5cWD9cpj8_4C0iYjfI6juvV9doPLOMyCmd0M2ECL6bwmE2uVgrwE_on5lSccbBdkV_39PoyMqclTTo1tEUKMQ2Mz8ghoFy8nREUs09nEHIfgVw2S1rF-QC53pUvIzp1HqnIuVG5FW6HqCRA7Z3NgJr72-LF8z0ov2-PS54HXEIK-WWCmHPKGG8nUmLGG/s72-c/1-the-lounge-lizards-live-79-81.webp",
-   "score": 0.544,
+   "score": 0.539,
    "genres": [
     "jazz"
    ],
@@ -9651,7 +9651,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.528,
+   "score": 0.523,
    "genres": [
     "jazz"
    ],
@@ -9672,7 +9672,7 @@
    "year": "2025",
    "appleMusicID": "1816331280",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/73/ce/ab73ce68-40cd-1307-1d0a-a151a4d599d4/199199697983.jpg/600x600bb.jpg",
-   "score": 0.521,
+   "score": 0.516,
    "genres": [
     "metal"
    ],
@@ -9693,7 +9693,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.52,
+   "score": 0.515,
    "genres": [
     "ambient"
    ],
@@ -9714,7 +9714,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.517,
+   "score": 0.512,
    "genres": [
     "punk",
     "rock"
@@ -9736,7 +9736,7 @@
    "year": "2026",
    "appleMusicID": "6791635780",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/76/be/fc76be90-71e9-362e-6567-08c0dc9769dc/885288088977.jpg/600x600bb.jpg",
-   "score": 0.516,
+   "score": 0.511,
    "genres": [
     "rock"
    ],
@@ -9757,7 +9757,7 @@
    "year": "2026",
    "appleMusicID": "6769086825",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/96/4f/08964f4a-2367-aacf-fc22-09394b830e04/824296619698_cover.jpg/600x600bb.jpg",
-   "score": 0.514,
+   "score": 0.509,
    "genres": [
     "indie"
    ],
@@ -9778,7 +9778,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.508,
+   "score": 0.503,
    "genres": [
     "indie"
    ],
@@ -9799,7 +9799,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.508,
+   "score": 0.503,
    "genres": [
     "indie"
    ],
@@ -9820,7 +9820,7 @@
    "year": "2026",
    "appleMusicID": "1895602775",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/d7/bb/55d7bb23-97cd-550b-c419-abe633e6a276/5070000118857_cover.jpg/600x600bb.jpg",
-   "score": 0.491,
+   "score": 0.486,
    "genres": [
     "folk"
    ],
@@ -9841,7 +9841,7 @@
    "year": "2026",
    "appleMusicID": "1873764362",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/93/0f/e9930f9a-2e1c-42af-2dc5-9b30a34c0f65/199900676726.jpg/600x600bb.jpg",
-   "score": 0.442,
+   "score": 0.438,
    "genres": [
     "jazz"
    ],
@@ -9862,7 +9862,7 @@
    "year": "2026",
    "appleMusicID": "6768651964",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/38/5d/08385d46-5a7d-20c6-fb6d-eddd0fa1168a/26UMGIM54625.rgb.jpg/600x600bb.jpg",
-   "score": 0.32,
+   "score": 0.317,
    "genres": [
     "indie"
    ],
@@ -9883,7 +9883,7 @@
    "year": "2026",
    "appleMusicID": "6785930628",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/94/b6/d494b648-c4ed-0d22-5b40-3edefd97ca54/4062548141009.png/600x600bb.jpg",
-   "score": 0.277,
+   "score": 0.274,
    "genres": [
     "ambient"
    ],
@@ -9904,7 +9904,7 @@
    "year": "2025",
    "appleMusicID": "1809011296",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/a6/32/eca63288-9694-fd24-481f-88e84c8f47de/880918274096.jpg/600x600bb.jpg",
-   "score": 0.237,
+   "score": 0.235,
    "genres": [
     "ambient"
    ],
@@ -9927,7 +9927,7 @@
    "year": "",
    "appleMusicID": "6812869314",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/18/03/52/1803527d-769c-a4ec-1db3-14aeb9bc9fc6/199316778021_cover.jpg/600x600bb.jpg",
-   "score": 8.16,
+   "score": 8.082,
    "genres": [
     "hiphop"
    ],
@@ -9960,7 +9960,7 @@
    "year": "2026",
    "appleMusicID": "6792085056",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/600x600bb.jpg",
-   "score": 7.684,
+   "score": 7.609,
    "genres": [
     "indie"
    ],
@@ -9993,7 +9993,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 7.642,
+   "score": 7.569,
    "genres": [],
    "mentions": [
     {
@@ -10030,7 +10030,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 5.913,
+   "score": 5.88,
    "genres": [],
    "mentions": [
     {
@@ -10059,7 +10059,7 @@
    "year": "2026",
    "appleMusicID": "6803193025",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/f0/cd/58f0cdd5-0606-af7d-81c3-ffef2394ceb1/cover_4068992998473.jpg/600x600bb.jpg",
-   "score": 5.37,
+   "score": 5.318,
    "genres": [
     "indie"
    ],
@@ -10092,7 +10092,7 @@
    "year": "2026",
    "appleMusicID": "6814997425",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/600x600bb.jpg",
-   "score": 4.889,
+   "score": 4.866,
    "genres": [
     "pop"
    ],
@@ -10116,7 +10116,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.53,
+   "score": 4.486,
    "genres": [],
    "mentions": [
     {
@@ -10148,7 +10148,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 4.148,
+   "score": 4.108,
    "genres": [],
    "mentions": [
     {
@@ -10180,7 +10180,7 @@
    "year": "",
    "appleMusicID": "6800037032",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/ee/3c/97ee3c83-ed6a-ba93-7528-9e6aa8102620/26CRGIM55873.rgb.jpg/600x600bb.jpg",
-   "score": 4.105,
+   "score": 4.065,
    "genres": [
     "hiphop"
    ],
@@ -10214,7 +10214,7 @@
    "year": "2026",
    "appleMusicID": "6789703023",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/a5/a7/71a5a7ac-8f2f-c261-7441-4420640108e9/67328.jpg/600x600bb.jpg",
-   "score": 3.425,
+   "score": 3.392,
    "genres": [
     "indie"
    ],
@@ -10242,7 +10242,7 @@
    "year": "2026",
    "appleMusicID": "1886730532",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/8e/bb/9a8ebb8b-2363-4e2a-b52e-9786decb80a1/820200658401.jpg/600x600bb.jpg",
-   "score": 3.289,
+   "score": 3.258,
    "genres": [
     "pop"
    ],
@@ -10270,7 +10270,7 @@
    "year": "2026",
    "appleMusicID": "6792093786",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/46/ac/8646acbc-3bd7-a407-8ade-ec4d52e8f4c6/881453309090_cover.jpg/600x600bb.jpg",
-   "score": 3.199,
+   "score": 3.168,
    "genres": [
     "pop"
    ],
@@ -10298,7 +10298,7 @@
    "year": "2026",
    "appleMusicID": "6794962325",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/fc/2c/93fc2c2e-b093-e1b6-6a62-97bbe313d55d/196874633106.jpg/600x600bb.jpg",
-   "score": 3.153,
+   "score": 3.123,
    "genres": [
     "rock"
    ],
@@ -10326,7 +10326,7 @@
    "year": "2026",
    "appleMusicID": "6789289872",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/ac/34/17ac34a9-7e57-faec-2fe9-eeaa14827ce0/196874421079.jpg/600x600bb.jpg",
-   "score": 3.063,
+   "score": 3.033,
    "genres": [
     "rnb"
    ],
@@ -10354,7 +10354,7 @@
    "year": "2026",
    "appleMusicID": "6789289873",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/ac/34/17ac34a9-7e57-faec-2fe9-eeaa14827ce0/196874421079.jpg/600x600bb.jpg",
-   "score": 2.997,
+   "score": 2.968,
    "genres": [
     "rnb"
    ],
@@ -10382,7 +10382,7 @@
    "year": "2025",
    "appleMusicID": "1819100784",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/68/40/506840da-3e2a-1fde-cbdf-1d7874186b7a/2076.jpg/600x600bb.jpg",
-   "score": 2.973,
+   "score": 2.944,
    "genres": [
     "indie"
    ],
@@ -10410,7 +10410,7 @@
    "year": "2026",
    "appleMusicID": "6789739161",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/600x600bb.jpg",
-   "score": 2.952,
+   "score": 2.924,
    "genres": [
     "pop"
    ],
@@ -10437,7 +10437,7 @@
    "year": "2026",
    "appleMusicID": "6789289871",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/ac/34/17ac34a9-7e57-faec-2fe9-eeaa14827ce0/196874421079.jpg/600x600bb.jpg",
-   "score": 2.813,
+   "score": 2.785,
    "genres": [
     "rnb"
    ],
@@ -10465,7 +10465,7 @@
    "year": "2026",
    "appleMusicID": "6781051275",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/9e/a6/aa9ea64a-bbf2-470e-b447-fa407b4645fa/66852.jpg/600x600bb.jpg",
-   "score": 2.779,
+   "score": 2.753,
    "genres": [
     "indie"
    ],
@@ -10493,7 +10493,7 @@
    "year": "2026",
    "appleMusicID": "6766278751",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/a4/18/92a41855-1f9c-88c4-e646-438bf88af382/65809.jpg/600x600bb.jpg",
-   "score": 2.535,
+   "score": 2.511,
    "genres": [
     "indie"
    ],
@@ -10527,7 +10527,7 @@
    "year": "2026",
    "appleMusicID": "6788717946",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/18/1d/16181da7-fb5d-fc43-db52-79c20ea9578f/459524.jpg/600x600bb.jpg",
-   "score": 2.519,
+   "score": 2.495,
    "genres": [
     "rnb"
    ],
@@ -10555,7 +10555,7 @@
    "year": "2026",
    "appleMusicID": "6812869036",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/14/9f/3f149f30-872c-d176-7f0d-9ce100a22047/68945.jpg/600x600bb.jpg",
-   "score": 2.426,
+   "score": 2.403,
    "genres": [
     "indie"
    ],
@@ -10576,7 +10576,7 @@
    "year": "2026",
    "appleMusicID": "6802200579",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/55/24/39552442-0a98-e0e4-bd68-f59218cb8817/9341004152632_Cover.jpg/600x600bb.jpg",
-   "score": 2.272,
+   "score": 2.25,
    "genres": [
     "electronic"
    ],
@@ -10603,7 +10603,7 @@
    "year": "2026",
    "appleMusicID": "6796336714",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/50/40/dd5040b1-4950-d4f9-66e0-5d677fcf68a8/26UMGIM80257.rgb.jpg/600x600bb.jpg",
-   "score": 2.263,
+   "score": 2.241,
    "genres": [
     "indie"
    ],
@@ -10631,7 +10631,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 2.225,
+   "score": 2.204,
    "genres": [],
    "mentions": [
     {
@@ -10657,7 +10657,7 @@
    "year": "2026",
    "appleMusicID": "6783852757",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/47/69/89476972-92f0-cd24-1a18-8d1c6fb3ee22/823375259626_Cover.jpg/600x600bb.jpg",
-   "score": 2.147,
+   "score": 2.127,
    "genres": [
     "pop"
    ],
@@ -10685,7 +10685,7 @@
    "year": "2026",
    "appleMusicID": "6795697099",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/a1/05/7ea1050e-5c80-68df-0bbb-2acaea98ce53/075679567369.jpg/600x600bb.jpg",
-   "score": 2.139,
+   "score": 2.119,
    "genres": [
     "indie"
    ],
@@ -10713,7 +10713,7 @@
    "year": "2026",
    "appleMusicID": "6816198231",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/7d/a9/077da942-121e-a649-2f28-59b7eadd7b31/26UM1IM23631.rgb.jpg/600x600bb.jpg",
-   "score": 2.125,
+   "score": 2.105,
    "genres": [
     "rnb"
    ],
@@ -10741,7 +10741,7 @@
    "year": "2026",
    "appleMusicID": "1894319862",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/e6/3a/e6e63afb-2317-8641-5c9e-48e4fa2b5326/5060180328177.jpg/600x600bb.jpg",
-   "score": 2.0,
+   "score": 1.981,
    "genres": [
     "electronic"
    ],
@@ -10763,7 +10763,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.864,
+   "score": 1.846,
    "genres": [
     "pop"
    ],
@@ -10784,7 +10784,7 @@
    "year": "2026",
    "appleMusicID": "6809951681",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/b3/1c/deb31ca3-1670-7bf1-7d02-5cc60d11c882/196874742235.jpg/600x600bb.jpg",
-   "score": 1.862,
+   "score": 1.844,
    "genres": [
     "pop"
    ],
@@ -10805,7 +10805,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.822,
+   "score": 1.804,
    "genres": [
     "rock"
    ],
@@ -10826,7 +10826,7 @@
    "year": "2025",
    "appleMusicID": "6764794375",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/9b/d9/c59bd986-4569-6ddd-85f7-a8f1a705a3bf/827568017949.jpg/600x600bb.jpg",
-   "score": 1.781,
+   "score": 1.764,
    "genres": [
     "hiphop"
    ],
@@ -10847,7 +10847,7 @@
    "year": "",
    "appleMusicID": "6817371633",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/ce/d8/5aced8c3-7a7d-a53b-5a6e-b55f8179adf7/769152441504.jpg/600x600bb.jpg",
-   "score": 1.765,
+   "score": 1.748,
    "genres": [
     "indie"
    ],
@@ -10868,7 +10868,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.751,
+   "score": 1.734,
    "genres": [
     "pop"
    ],
@@ -10889,7 +10889,7 @@
    "year": "2026",
    "appleMusicID": "6798042825",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/09/7e/c1097e38-0d2e-d389-2be7-0762979bb43a/ticket.easjqfbg.jpg/600x600bb.jpg",
-   "score": 1.741,
+   "score": 1.724,
    "genres": [
     "country"
    ],
@@ -10903,33 +10903,6 @@
    "listeners": null
   },
   {
-   "id": "song:wannacry|ninajirachiporterrobinson",
-   "type": "song",
-   "title": "WannaCry",
-   "artist": "Ninajirachi & Porter Robinson",
-   "year": "2026",
-   "appleMusicID": "6789021487",
-   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/79/01/94790156-60e5-ff9b-f844-171f15910d66/820233879705.jpg/600x600bb.jpg",
-   "score": 1.695,
-   "genres": [
-    "electronic"
-   ],
-   "mentions": [
-    {
-     "source": "singles-jukebox",
-     "url": "https://thesinglesjukebox.com/ninajirachi-porter-robinson-wannacry/",
-     "date": "2026-09-10T01:54:00Z"
-    },
-    {
-     "source": "triple-j",
-     "url": "https://www.abc.net.au/triplej/featured-music/recently-played",
-     "date": "2026-10-10T01:24:05Z",
-     "plays": 3
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "song:takecare|bigtop",
    "type": "song",
    "title": "Take Care",
@@ -10937,7 +10910,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.694,
+   "score": 1.678,
    "genres": [
     "rock"
    ],
@@ -10958,7 +10931,7 @@
    "year": "",
    "appleMusicID": "6791639456",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/fc/32/d4fc323b-e47f-1c02-39e9-0e4a4efe8f39/67560.jpg/600x600bb.jpg",
-   "score": 1.641,
+   "score": 1.625,
    "genres": [
     "indie"
    ],
@@ -10979,7 +10952,7 @@
    "year": "2026",
    "appleMusicID": "6817393507",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/54/97/e0549789-29f8-5dfe-53c5-ee95ac388086/9a370613-92a4-491b-b648-88b03cf9c700.jpg/600x600bb.jpg",
-   "score": 1.64,
+   "score": 1.624,
    "genres": [
     "indie"
    ],
@@ -11000,7 +10973,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.637,
+   "score": 1.621,
    "genres": [
     "pop"
    ],
@@ -11021,7 +10994,7 @@
    "year": "2026",
    "appleMusicID": "6810395469",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/db/ad/3bdbadb7-0029-8443-f92e-df1469022723/823375407126_Cover.jpg/600x600bb.jpg",
-   "score": 1.634,
+   "score": 1.618,
    "genres": [
     "pop"
    ],
@@ -11042,7 +11015,7 @@
    "year": "2026",
    "appleMusicID": "6812477269",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/600x600bb.jpg",
-   "score": 1.632,
+   "score": 1.616,
    "genres": [
     "pop"
    ],
@@ -11063,7 +11036,7 @@
    "year": "2026",
    "appleMusicID": "6816039192",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/27/c5/f427c550-c091-1b0e-c374-2ac23d9b4d49/859747280738_cover.jpg/600x600bb.jpg",
-   "score": 1.571,
+   "score": 1.556,
    "genres": [
     "rock"
    ],
@@ -11084,7 +11057,7 @@
    "year": "",
    "appleMusicID": "6810826341",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/4f/15/bb4f1554-373d-9173-1bab-1ac276cb7892/769152435725.jpg/600x600bb.jpg",
-   "score": 1.536,
+   "score": 1.521,
    "genres": [
     "rock"
    ],
@@ -11105,7 +11078,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.518,
+   "score": 1.503,
    "genres": [
     "pop"
    ],
@@ -11126,7 +11099,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.516,
+   "score": 1.501,
    "genres": [
     "pop"
    ],
@@ -11233,7 +11206,7 @@
    "year": "2026",
    "appleMusicID": "6796864754",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/600x600bb.jpg",
-   "score": 1.492,
+   "score": 1.478,
    "genres": [
     "latin"
    ],
@@ -11254,7 +11227,7 @@
    "year": "2026",
    "appleMusicID": "6807228731",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/99/85/c099859f-70f5-2dbc-9db0-6ea7e7028c27/5064089098063_cover.jpg/600x600bb.jpg",
-   "score": 1.453,
+   "score": 1.439,
    "genres": [
     "global"
    ],
@@ -11275,7 +11248,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.449,
+   "score": 1.435,
    "genres": [
     "pop"
    ],
@@ -11302,7 +11275,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.447,
+   "score": 1.433,
    "genres": [
     "electronic"
    ],
@@ -11323,7 +11296,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.442,
+   "score": 1.428,
    "genres": [
     "hiphop"
    ],
@@ -11344,7 +11317,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.442,
+   "score": 1.428,
    "genres": [
     "hiphop"
    ],
@@ -11365,7 +11338,7 @@
    "year": "2026",
    "appleMusicID": "6769552411",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/600x600bb.jpg",
-   "score": 1.412,
+   "score": 1.399,
    "genres": [
     "pop"
    ],
@@ -11386,7 +11359,7 @@
    "year": "",
    "appleMusicID": "6798016172",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/9c/79/1a9c795f-b180-b89f-e23d-3f409f1eb8a5/067003034494.png/600x600bb.jpg",
-   "score": 1.392,
+   "score": 1.378,
    "genres": [
     "indie"
    ],
@@ -11400,6 +11373,27 @@
    "listeners": null
   },
   {
+   "id": "song:wishuponyou|florenceroad",
+   "type": "song",
+   "title": "Wish Upon You",
+   "artist": "Florence Road",
+   "year": "2026",
+   "appleMusicID": "6813629982",
+   "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/0c/5a/4e0c5a67-e66b-47a7-0aa1-1f97d1e1c12d/1200220128754.jpg/600x600bb.jpg",
+   "score": 1.375,
+   "genres": [
+    "indie"
+   ],
+   "mentions": [
+    {
+     "source": "stereogum-songs",
+     "url": "https://stereogum.com/2514181/florence-road-wish-upon-you/music/",
+     "date": "2026-10-09T19:52:39Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "song:answer|willrees",
    "type": "song",
    "title": "The Answer",
@@ -11407,7 +11401,7 @@
    "year": "2026",
    "appleMusicID": "6806276058",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/19/a1/fc19a165-5e19-6a44-fb6b-2b81103f6f9f/8718525409346.png/600x600bb.jpg",
-   "score": 1.384,
+   "score": 1.37,
    "genres": [
     "electronic"
    ],
@@ -11428,7 +11422,7 @@
    "year": "",
    "appleMusicID": "6817525556",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/be/27/c6be2701-c559-2b04-746a-760785a26303/769152441603.jpg/600x600bb.jpg",
-   "score": 1.373,
+   "score": 1.36,
    "genres": [
     "indie"
    ],
@@ -11449,7 +11443,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.371,
+   "score": 1.358,
    "genres": [
     "global"
    ],
@@ -11470,7 +11464,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.366,
+   "score": 1.353,
    "genres": [
     "hiphop"
    ],
@@ -11484,27 +11478,6 @@
    "listeners": null
   },
   {
-   "id": "song:voidcaller|kvrk",
-   "type": "song",
-   "title": "Void Caller (Blu:sh Remix)",
-   "artist": "Kvrk",
-   "year": null,
-   "appleMusicID": null,
-   "artworkURL": null,
-   "score": 1.365,
-   "genres": [
-    "electronic"
-   ],
-   "mentions": [
-    {
-     "source": "bolting-bits",
-     "url": "https://boltingbits.com/kvrk-void-caller-blush-remix-distant-gaze/?utm_source=rss&utm_medium=rss&utm_campaign=kvrk-void-caller-blush-remix-distant-gaze",
-     "date": "2026-10-09T13:48:04Z"
-    }
-   ],
-   "listeners": null
-  },
-  {
    "id": "song:rockin|kickflip",
    "type": "song",
    "title": "Rockin'",
@@ -11512,7 +11485,7 @@
    "year": "2026",
    "appleMusicID": "6815829100",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/30/9e/b2309eed-9bfe-4047-7240-4d74e6e3b1e8/8809928956572_Cover.jpg/600x600bb.jpg",
-   "score": 1.364,
+   "score": 1.351,
    "genres": [
     "pop"
    ],
@@ -11526,6 +11499,27 @@
    "listeners": null
   },
   {
+   "id": "song:voidcaller|kvrk",
+   "type": "song",
+   "title": "Void Caller (Blu:sh Remix)",
+   "artist": "Kvrk",
+   "year": null,
+   "appleMusicID": null,
+   "artworkURL": null,
+   "score": 1.351,
+   "genres": [
+    "electronic"
+   ],
+   "mentions": [
+    {
+     "source": "bolting-bits",
+     "url": "https://boltingbits.com/kvrk-void-caller-blush-remix-distant-gaze/?utm_source=rss&utm_medium=rss&utm_campaign=kvrk-void-caller-blush-remix-distant-gaze",
+     "date": "2026-10-09T13:48:04Z"
+    }
+   ],
+   "listeners": null
+  },
+  {
    "id": "song:summoned|spectaculardiagnostics",
    "type": "song",
    "title": "Summoned",
@@ -11533,7 +11527,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.36,
+   "score": 1.347,
    "genres": [
     "hiphop"
    ],
@@ -11554,7 +11548,7 @@
    "year": "",
    "appleMusicID": "6809904435",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/a7/d0/b7a7d087-80de-79d2-0fff-eec9e1fc0bca/5064089405847_cover.jpg/600x600bb.jpg",
-   "score": 1.36,
+   "score": 1.347,
    "genres": [
     "hiphop"
    ],
@@ -11575,7 +11569,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.36,
+   "score": 1.347,
    "genres": [
     "hiphop"
    ],
@@ -11596,7 +11590,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.36,
+   "score": 1.347,
    "genres": [
     "hiphop"
    ],
@@ -11617,7 +11611,7 @@
    "year": "2026",
    "appleMusicID": "6815121608",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0c/cb/92/0ccb9246-e6f1-6957-4da0-ae3c9f06b093/artwork.jpg/600x600bb.jpg",
-   "score": 1.359,
+   "score": 1.346,
    "genres": [
     "electronic"
    ],
@@ -11638,7 +11632,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.358,
+   "score": 1.345,
    "genres": [
     "electronic"
    ],
@@ -11659,7 +11653,7 @@
    "year": "2026",
    "appleMusicID": "6796360084",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/7b/1d/d77b1d30-e2d4-ce46-9922-3d1a1ca4915a/5059449413785.png/600x600bb.jpg",
-   "score": 1.357,
+   "score": 1.344,
    "genres": [
     "electronic"
    ],
@@ -11680,7 +11674,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.356,
+   "score": 1.343,
    "genres": [
     "electronic"
    ],
@@ -11701,7 +11695,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.354,
+   "score": 1.341,
    "genres": [
     "global"
    ],
@@ -11722,7 +11716,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.344,
+   "score": 1.331,
    "genres": [
     "electronic"
    ],
@@ -11743,7 +11737,7 @@
    "year": "",
    "appleMusicID": "6812340771",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/0c/ad/9a0cad19-905f-cd9b-82f9-428efa77ff50/1200220133017.jpg/600x600bb.jpg",
-   "score": 1.344,
+   "score": 1.331,
    "genres": [
     "rnb"
    ],
@@ -11764,7 +11758,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.342,
+   "score": 1.329,
    "genres": [
     "electronic"
    ],
@@ -11785,7 +11779,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.342,
+   "score": 1.329,
    "genres": [
     "electronic"
    ],
@@ -11806,7 +11800,7 @@
    "year": "2026",
    "appleMusicID": "6814323073",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/e8/28/19e8284b-957f-e247-0687-72fd11faff9b/8800388635656_cover.jpg/600x600bb.jpg",
-   "score": 1.273,
+   "score": 1.261,
    "genres": [
     "global"
    ],
@@ -11827,7 +11821,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.263,
+   "score": 1.251,
    "genres": [
     "global"
    ],
@@ -11848,7 +11842,7 @@
    "year": "2026",
    "appleMusicID": "6814600949",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/43/e0/c443e0aa-600e-6ea6-4a2a-e9d923ad1e8c/885288629101.jpg/600x600bb.jpg",
-   "score": 1.236,
+   "score": 1.224,
    "genres": [
     "electronic"
    ],
@@ -11870,7 +11864,7 @@
    "year": "2025",
    "appleMusicID": "6807949179",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/da/57/19da5778-f195-b093-b83d-e4a3ea0b22e7/68659.jpg/600x600bb.jpg",
-   "score": 1.236,
+   "score": 1.224,
    "genres": [
     "indie"
    ],
@@ -11892,7 +11886,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": "https://thebiaslist.com/wp-content/uploads/2026/10/hwang-min-hyun-our.jpg",
-   "score": 1.188,
+   "score": 1.176,
    "genres": [
     "pop"
    ],
@@ -11913,7 +11907,7 @@
    "year": "2026",
    "appleMusicID": "6816859963",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/6e/29/d06e298a-9833-e665-fff1-d02cfdb7f88b/FrontCoverImage_1.jpg/600x600bb.jpg",
-   "score": 1.188,
+   "score": 1.176,
    "genres": [
     "pop"
    ],
@@ -11934,7 +11928,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.178,
+   "score": 1.167,
    "genres": [
     "global"
    ],
@@ -11955,7 +11949,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.129,
+   "score": 1.118,
    "genres": [
     "rock"
    ],
@@ -11976,7 +11970,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 1.12,
+   "score": 1.11,
    "genres": [
     "rock"
    ],
@@ -11997,7 +11991,7 @@
    "year": "2026",
    "appleMusicID": "6815077039",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/d6/1f/70d61f41-8a15-e4d5-7f0b-366435786bbd/Where_We_Are_COVER.jpg/600x600bb.jpg",
-   "score": 1.11,
+   "score": 1.099,
    "genres": [
     "pop"
    ],
@@ -12018,7 +12012,7 @@
    "year": "2026",
    "appleMusicID": "6817246163",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/2d/9c/342d9c50-e710-1320-cc61-d7057dd311fd/888272189636.jpg/600x600bb.jpg",
-   "score": 1.11,
+   "score": 1.099,
    "genres": [
     "pop"
    ],
@@ -12039,7 +12033,7 @@
    "year": "2026",
    "appleMusicID": "6815829453",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/30/9e/b2309eed-9bfe-4047-7240-4d74e6e3b1e8/8809928956572_Cover.jpg/600x600bb.jpg",
-   "score": 1.11,
+   "score": 1.099,
    "genres": [
     "pop"
    ],
@@ -12060,7 +12054,7 @@
    "year": "2026",
    "appleMusicID": "6808571403",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/6c/6c/236c6c76-4c3e-ddd1-d466-3b05ae59c999/cover.jpg/600x600bb.jpg",
-   "score": 1.099,
+   "score": 1.089,
    "genres": [
     "rock"
    ],
@@ -12081,7 +12075,7 @@
    "year": "2025",
    "appleMusicID": "1825888474",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7d/51/0f/7d510f23-ce57-f412-c4ae-649dbbd4b825/5050580855908.png/600x600bb.jpg",
-   "score": 1.076,
+   "score": 1.066,
    "genres": [
     "electronic"
    ],
@@ -12103,7 +12097,7 @@
    "year": "",
    "appleMusicID": "6791199639",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/d0/07/4ad00799-1501-c6f5-df7e-8375d5d02f05/67487.jpg/600x600bb.jpg",
-   "score": 1.037,
+   "score": 1.027,
    "genres": [
     "indie"
    ],
@@ -12124,7 +12118,7 @@
    "year": "2026",
    "appleMusicID": "6809524730",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/2c/e1/dd2ce1e1-3251-d05f-dcde-92d19363cc7e/3666946048543_cover.jpg/600x600bb.jpg",
-   "score": 1.026,
+   "score": 1.016,
    "genres": [
     "global"
    ],
@@ -12145,7 +12139,7 @@
    "year": "2026",
    "appleMusicID": "6805935549",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d6/3f/ae/d63faed3-0b03-d7bb-bc10-0bb8049c3916/885288396621.jpg/600x600bb.jpg",
-   "score": 1.004,
+   "score": 0.994,
    "genres": [
     "global"
    ],
@@ -12167,7 +12161,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.945,
+   "score": 0.936,
    "genres": [
     "rock"
    ],
@@ -12188,7 +12182,7 @@
    "year": "2026",
    "appleMusicID": "6794745676",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/33/61/6f336176-3e60-d9e3-8231-9a01796c1ef7/artwork.jpg/600x600bb.jpg",
-   "score": 0.944,
+   "score": 0.935,
    "genres": [
     "folk"
    ],
@@ -12209,7 +12203,7 @@
    "year": "",
    "appleMusicID": "6803254661",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/71/3d/a9713d68-aa8b-284f-e929-646011b7c83c/8721554330086.png/600x600bb.jpg",
-   "score": 0.917,
+   "score": 0.908,
    "genres": [
     "jazz"
    ],
@@ -12230,7 +12224,7 @@
    "year": "2026",
    "appleMusicID": "6818459300",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/9d/dc/319ddcca-7473-a1fd-db5d-507c7522a273/885288730128.jpg/600x600bb.jpg",
-   "score": 0.914,
+   "score": 0.905,
    "genres": [
     "punk"
    ],
@@ -12251,7 +12245,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.914,
+   "score": 0.905,
    "genres": [
     "punk"
    ],
@@ -12272,7 +12266,7 @@
    "year": "2026",
    "appleMusicID": "6813154124",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/e9/b0/20e9b025-1f1e-670b-b522-50f51deb2ea0/859746490886_cover.jpg/600x600bb.jpg",
-   "score": 0.914,
+   "score": 0.905,
    "genres": [
     "rock"
    ],
@@ -12293,7 +12287,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.913,
+   "score": 0.904,
    "genres": [
     "punk"
    ],
@@ -12314,7 +12308,7 @@
    "year": "2026",
    "appleMusicID": "6811885261",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/81/8b/9c818b96-2bfd-899f-83f4-c68657024d3b/885288509694.jpg/600x600bb.jpg",
-   "score": 0.9,
+   "score": 0.891,
    "genres": [
     "pop"
    ],
@@ -12335,7 +12329,7 @@
    "year": "",
    "appleMusicID": "6775798351",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/ae/44/bcae442e-5541-a75f-af2c-d709b110c525/4030433618677_cover.jpg/600x600bb.jpg",
-   "score": 0.893,
+   "score": 0.884,
    "genres": [
     "global"
    ],
@@ -12356,7 +12350,7 @@
    "year": "2025",
    "appleMusicID": "1831598195",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/2c/55/2c2c557a-cec2-c3f1-c48c-b9223442f1fd/196873397825.jpg/600x600bb.jpg",
-   "score": 0.861,
+   "score": 0.852,
    "genres": [
     "pop"
    ],
@@ -12377,7 +12371,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.861,
+   "score": 0.852,
    "genres": [
     "hiphop"
    ],
@@ -12398,7 +12392,7 @@
    "year": "2026",
    "appleMusicID": "6813214014",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/98/25/819825bc-6f3d-7e67-55a2-c76458a252d9/0045778055807.png/600x600bb.jpg",
-   "score": 0.855,
+   "score": 0.847,
    "genres": [
     "indie"
    ],
@@ -12419,7 +12413,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.851,
+   "score": 0.843,
    "genres": [
     "punk"
    ],
@@ -12440,7 +12434,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.845,
+   "score": 0.837,
    "genres": [
     "rock"
    ],
@@ -12461,7 +12455,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.843,
+   "score": 0.834,
    "genres": [
     "hiphop"
    ],
@@ -12482,7 +12476,7 @@
    "year": "2026",
    "appleMusicID": "6806965447",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/e9/7c/18e97c93-27e9-59f0-7ed5-b2834fc435f4/823375401643_Cover.jpg/600x600bb.jpg",
-   "score": 0.84,
+   "score": 0.832,
    "genres": [
     "pop"
    ],
@@ -12503,7 +12497,7 @@
    "year": "2026",
    "appleMusicID": "6815024391",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/47/ba/0547ba9d-bf2d-1621-073b-ff0d8b547eab/823375449171_Cover.jpg/600x600bb.jpg",
-   "score": 0.84,
+   "score": 0.832,
    "genres": [
     "pop"
    ],
@@ -12524,7 +12518,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.835,
+   "score": 0.827,
    "genres": [
     "global"
    ],
@@ -12545,7 +12539,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.835,
+   "score": 0.827,
    "genres": [
     "global"
    ],
@@ -12566,7 +12560,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.835,
+   "score": 0.827,
    "genres": [
     "hiphop"
    ],
@@ -12587,7 +12581,7 @@
    "year": "2025",
    "appleMusicID": "1821066912",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/0c/4b/a90c4b14-bada-3019-b629-01de1d72494f/artwork.jpg/600x600bb.jpg",
-   "score": 0.833,
+   "score": 0.825,
    "genres": [
     "global"
    ],
@@ -12608,7 +12602,7 @@
    "year": null,
    "appleMusicID": null,
    "artworkURL": null,
-   "score": 0.821,
+   "score": 0.813,
    "genres": [
     "hiphop"
    ],
@@ -12629,7 +12623,7 @@
    "year": "2016",
    "appleMusicID": "1724341366",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/7d/5d/ce7d5d71-36d0-8415-ead7-cfa4f46237a5/9887.jpg/600x600bb.jpg",
-   "score": 0.802,
+   "score": 0.794,
    "genres": [
     "hiphop"
    ],
@@ -12650,7 +12644,7 @@
    "year": "2026",
    "appleMusicID": "1871298401",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/dc/14/95dc1469-0908-610b-6268-5ee87196cc7f/794558055161.jpg/600x600bb.jpg",
-   "score": 0.796,
+   "score": 0.788,
    "genres": [
     "punk"
    ],
@@ -12671,7 +12665,7 @@
    "year": "2026",
    "appleMusicID": "6794338743",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/17/23/2417239d-cf89-c957-18f5-0dd7ee372658/881453361210_cover.jpg/600x600bb.jpg",
-   "score": 0.796,
+   "score": 0.788,
    "genres": [
     "indie"
    ],
@@ -12692,7 +12686,7 @@
    "year": "2026",
    "appleMusicID": "6814571080",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/0a/ae/710aae2f-95a0-bc7a-4e49-0471124f5b0b/822166004971_cover.jpg/600x600bb.jpg",
-   "score": 0.795,
+   "score": 0.788,
    "genres": [
     "indie"
    ],
@@ -12713,7 +12707,7 @@
    "year": "2025",
    "appleMusicID": "1785704847",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/0d/3c/c70d3c4d-9a88-ec6e-a56e-a42dc585227d/3663729355867_cover.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "electronic"
    ],
@@ -12735,7 +12729,7 @@
    "year": "2026",
    "appleMusicID": "6799941540",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/f6/8a/a0f68ad4-792b-e823-6143-5e280080c4e4/196874659830.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "classical"
    ],
@@ -12757,7 +12751,7 @@
    "year": "2026",
    "appleMusicID": "1863660533",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/59/fe/a159fe21-d983-9298-2bd7-166538a0ccb0/5053760146377_cover.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "indie"
    ],
@@ -12779,7 +12773,7 @@
    "year": "2026",
    "appleMusicID": "6798627027",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/2f/e5/522fe5e7-4554-f0f7-903f-55a65d8f12a9/8721554102744.png/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "indie"
    ],
@@ -12801,7 +12795,7 @@
    "year": "2026",
    "appleMusicID": "6783326401",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/40/14/cf4014be-47d3-3363-da5c-16e4b7e7c56a/820233849777.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "electronic"
    ],
@@ -12823,7 +12817,7 @@
    "year": "2026",
    "appleMusicID": "6783326561",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/40/14/cf4014be-47d3-3363-da5c-16e4b7e7c56a/820233849777.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "electronic"
    ],
@@ -12845,7 +12839,7 @@
    "year": "2026",
    "appleMusicID": "1877515405",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/1a/bf/2a1abfb9-2e1e-ae47-dcee-0502f697a693/859731496541_cover.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "pop"
    ],
@@ -12867,7 +12861,7 @@
    "year": "2026",
    "appleMusicID": "6783470784",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/93/a7/3f93a72b-0715-48cf-0f28-44428640beb9/66927.jpg/600x600bb.jpg",
-   "score": 0.562,
+   "score": 0.557,
    "genres": [
     "electronic"
    ],
@@ -12889,7 +12883,7 @@
    "year": "2026",
    "appleMusicID": "1894442849",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/87/d6/7187d61d-eb20-1776-bc07-796c24d16b78/5061017258988.jpg/600x600bb.jpg",
-   "score": 0.524,
+   "score": 0.519,
    "genres": [
     "indie"
    ],
@@ -12911,7 +12905,7 @@
    "year": "2025",
    "appleMusicID": "1840011291",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/5c/6b/ff5c6b63-aef8-8691-2feb-e2fceb084952/3839.jpg/600x600bb.jpg",
-   "score": 0.524,
+   "score": 0.519,
    "genres": [
     "electronic"
    ],
@@ -12933,7 +12927,7 @@
    "year": "2026",
    "appleMusicID": "6767298133",
    "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/fd/6f/54fd6f95-e5dc-b09d-094d-2af0c1903a4f/8718723319560.jpg/600x600bb.jpg",
-   "score": 0.524,
+   "score": 0.519,
    "genres": [
     "rock"
    ],
@@ -15691,15 +15685,6 @@
   "energycenterahistoryofstudiorivbea|edhazell": {
    "missAt": "2026-10-10T07:36:51Z"
   },
-  "song:wannacry|ninajirachiporterrobinson": {
-   "id": "6789021487",
-   "artist": "Ninajirachi & Porter Robinson",
-   "album": "WannaCry",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/79/01/94790156-60e5-ff9b-f844-171f15910d66/820233879705.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Dance",
-   "collection": "WannaCry - Single"
-  },
   "song:entrenosotros|carmenvillain": {
    "id": "6783470784",
    "artist": "Carmen Villain",
@@ -15885,1856 +15870,6 @@
    "year": "2026",
    "genre": "Jazz"
   },
-  "song:melatoninvip|tinashe": {
-   "missAt": "2026-10-10T22:34:13Z",
-   "loose": true
-  },
-  "song:brainrot|tinashe": {
-   "missAt": "2026-10-10T22:34:16Z",
-   "loose": true
-  },
-  "song:cheklows|ivmtrio": {
-   "missAt": "2026-10-10T22:34:19Z",
-   "loose": true
-  },
-  "song:marriedtomyjeweler|lucybedroque": {
-   "missAt": "2026-10-10T22:34:23Z",
-   "loose": true
-  },
-  "song:elpradofreestyle|untitled": {
-   "missAt": "2026-10-10T22:34:26Z",
-   "loose": true
-  },
-  "song:maninthemirror|klein": {
-   "missAt": "2026-10-10T22:34:29Z",
-   "loose": true
-  },
-  "song:sirenreloadedftsashascott|klein": {
-   "missAt": "2026-10-10T22:34:33Z",
-   "loose": true
-  },
-  "song:ssj2|lucybedroque": {
-   "missAt": "2026-10-10T22:34:36Z",
-   "loose": true
-  },
-  "song:shoottheridiculant|yummyfur": {
-   "missAt": "2026-10-10T22:34:40Z",
-   "loose": true
-  },
-  "song:poweroff|b0yg1rl": {
-   "missAt": "2026-10-10T22:34:43Z",
-   "loose": true
-  },
-  "song:lovecomesthrough|teal": {
-   "missAt": "2026-10-10T22:34:46Z",
-   "loose": true
-  },
-  "song:youhaveayearningforperfection|pabloseye": {
-   "missAt": "2026-10-10T22:34:49Z",
-   "loose": true
-  },
-  "song:topmanftizayatiji|kllhhr": {
-   "missAt": "2026-10-10T22:34:53Z",
-   "loose": true
-  },
-  "song:skeptix|rockitneedspacesurfgang": {
-   "missAt": "2026-10-10T22:34:59Z",
-   "loose": true
-  },
-  "song:reprise|cavalier": {
-   "missAt": "2026-10-10T22:35:03Z",
-   "loose": true
-  },
-  "song:classicfeattalibkweli|med": {
-   "missAt": "2026-10-10T22:35:06Z",
-   "loose": true
-  },
-  "song:dancingintheclub|thisislorelei": {
-   "missAt": "2026-10-10T22:35:10Z",
-   "loose": true
-  },
-  "song:godonlyknowsleidinhawaiiversionwithbriansinging|beachboys": {
-   "missAt": "2026-10-10T22:35:13Z",
-   "loose": true
-  },
-  "song:rhythmfromambient|sapa": {
-   "missAt": "2026-10-10T22:35:16Z",
-   "loose": true
-  },
-  "song:whatyouwaitingfor|ashnikko": {
-   "missAt": "2026-10-10T22:35:20Z",
-   "loose": true
-  },
-  "song:stickyfingers|ashnikko": {
-   "missAt": "2026-10-10T22:35:23Z",
-   "loose": true
-  },
-  "song:dtmf|badbunny": {
-   "missAt": "2026-10-10T22:35:26Z",
-   "loose": true
-  },
-  "song:icouldburst|hystericalloveproject": {
-   "missAt": "2026-10-10T22:35:30Z",
-   "loose": true
-  },
-  "song:thinkingwomanslament|hystericalloveproject": {
-   "missAt": "2026-10-10T22:35:33Z",
-   "loose": true
-  },
-  "song:smilebyaloeblacc|aloeblacc": {
-   "missAt": "2026-10-10T22:35:37Z",
-   "loose": true
-  },
-  "song:marchofthepigs|nineinchnails": {
-   "missAt": "2026-10-10T22:35:40Z",
-   "loose": true
-  },
-  "song:howtoteleport|janeremover": {
-   "missAt": "2026-10-10T22:35:44Z",
-   "loose": true
-  },
-  "song:puppettalk|flyinglotus": {
-   "missAt": "2026-10-10T22:35:47Z",
-   "loose": true
-  },
-  "song:earlymountain|flyinglotus": {
-   "missAt": "2026-10-10T22:35:50Z",
-   "loose": true
-  },
-  "song:fallinlove|flyinglotus": {
-   "missAt": "2026-10-10T22:35:54Z",
-   "loose": true
-  },
-  "song:rarebeats|flyinglotus": {
-   "missAt": "2026-10-10T22:35:57Z",
-   "loose": true
-  },
-  "song:flotus|flyinglotus": {
-   "missAt": "2026-10-10T22:36:00Z",
-   "loose": true
-  },
-  "song:beat1|flyinglotus": {
-   "missAt": "2026-10-10T22:36:03Z",
-   "loose": true
-  },
-  "song:tongues|flyinglotus": {
-   "missAt": "2026-10-10T22:36:07Z",
-   "loose": true
-  },
-  "song:unknowntrack|flyinglotus": {
-   "missAt": "2026-10-10T22:36:10Z",
-   "loose": true
-  },
-  "song:litermeter|flyinglotus": {
-   "missAt": "2026-10-10T22:36:13Z",
-   "loose": true
-  },
-  "song:itsasecret|flyinglotus": {
-   "missAt": "2026-10-10T22:36:17Z",
-   "loose": true
-  },
-  "song:ltwxrmx|flyinglotus": {
-   "missAt": "2026-10-10T22:36:20Z",
-   "loose": true
-  },
-  "song:betweenfriendsftearlsweatshirtcaptainmurphy|flyinglotus": {
-   "missAt": "2026-10-10T22:36:23Z",
-   "loose": true
-  },
-  "song:slowitdown|flyinglotus": {
-   "missAt": "2026-10-10T22:36:26Z",
-   "loose": true
-  },
-  "song:anxboxkilledmydog|flyinglotus": {
-   "missAt": "2026-10-10T22:36:30Z",
-   "loose": true
-  },
-  "song:tigertiger|ikeda": {
-   "missAt": "2026-10-10T22:36:33Z",
-   "loose": true
-  },
-  "song:killyourproducer|janeremover": {
-   "missAt": "2026-10-10T22:36:36Z",
-   "loose": true
-  },
-  "song:luckiestcharmremixthelonglost2008|flyinglotus": {
-   "missAt": "2026-10-10T22:36:40Z",
-   "loose": true
-  },
-  "song:iwantyou|sineadoconnor": {
-   "missAt": "2026-10-10T22:36:43Z",
-   "loose": true
-  },
-  "song:windowdown|hystericalloveproject": {
-   "missAt": "2026-10-10T22:36:46Z",
-   "loose": true
-  },
-  "song:beforetoday|everythingbutthegirl": {
-   "missAt": "2026-10-10T22:36:50Z",
-   "loose": true
-  },
-  "song:requiemagain|durutticolumn": {
-   "missAt": "2026-10-10T22:36:53Z",
-   "loose": true
-  },
-  "song:baileinolvidable|badbunny": {
-   "missAt": "2026-10-10T22:36:56Z",
-   "loose": true
-  },
-  "song:queeninmyempire|jenniferlara": {
-   "missAt": "2026-10-10T22:37:00Z",
-   "loose": true
-  },
-  "song:dangerinmyeyes|joeyorke": {
-   "id": "6796751383",
-   "artist": "Joe Yorke",
-   "album": "Danger in My Eyes (feat. O.B.F)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/31/72/de317253-f8a5-0582-ddb2-1cc6e42abc28/3663729462053_cover.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Reggae",
-   "collection": "Danger in My Eyes (feat. O.B.F) - Single"
-  },
-  "song:daddi|cherryglazerr": {
-   "missAt": "2026-10-10T22:37:07Z",
-   "loose": true
-  },
-  "song:shejustliketofight|fourtet": {
-   "missAt": "2026-10-10T22:37:10Z",
-   "loose": true
-  },
-  "song:sinceifeelforyou|altonellis": {
-   "missAt": "2026-10-10T22:37:14Z",
-   "loose": true
-  },
-  "song:mexico|kelela": {
-   "missAt": "2026-10-10T22:37:17Z",
-   "loose": true
-  },
-  "song:girliloveyou|massiveattack": {
-   "missAt": "2026-10-10T22:37:21Z",
-   "loose": true
-  },
-  "song:sds|macmiller": {
-   "missAt": "2026-10-10T22:37:24Z",
-   "loose": true
-  },
-  "song:mihomiezinjail|imij": {
-   "missAt": "2026-10-10T22:37:27Z",
-   "loose": true
-  },
-  "song:smoko|wetleg": {
-   "missAt": "2026-10-10T22:37:30Z",
-   "loose": true
-  },
-  "song:bofousafou|amadoumariam": {
-   "id": "1248240617",
-   "artist": "Amadou & Mariam",
-   "album": "Bofou Safou",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/7c/63/8b/7c638b02-8a20-0fcc-4640-49c21aeb5adc/5060525430817_cover.jpg/600x600bb.jpg",
-   "year": "2017",
-   "genre": "Worldwide",
-   "collection": "Bofou Safou"
-  },
-  "song:thesedays요즘|yaeji": {
-   "missAt": "2026-10-10T22:37:37Z",
-   "loose": true
-  },
-  "song:moonisthenumber18|silverjews": {
-   "missAt": "2026-10-10T22:37:40Z",
-   "loose": true
-  },
-  "song:bendergirlfriend|yunglean": {
-   "missAt": "2026-10-10T22:37:44Z",
-   "loose": true
-  },
-  "song:lunch|girlinred": {
-   "missAt": "2026-10-10T22:37:47Z",
-   "loose": true
-  },
-  "song:degidegiartist|doncherry": {
-   "missAt": "2026-10-10T22:37:51Z",
-   "loose": true
-  },
-  "song:omshantiom|doncherry": {
-   "missAt": "2026-10-10T22:37:54Z",
-   "loose": true
-  },
-  "song:themeforthiago|azymuth": {
-   "missAt": "2026-10-10T22:37:57Z",
-   "loose": true
-  },
-  "song:zoom|machinedrum": {
-   "missAt": "2026-10-10T22:38:01Z",
-   "loose": true
-  },
-  "song:gasoline|djo": {
-   "missAt": "2026-10-10T22:38:04Z",
-   "loose": true
-  },
-  "song:andonandon|janet": {
-   "missAt": "2026-10-10T22:38:07Z",
-   "loose": true
-  },
-  "song:youbringmejoy|maryjblige": {
-   "missAt": "2026-10-10T22:38:11Z",
-   "loose": true
-  },
-  "song:technopop|kraftwerk": {
-   "missAt": "2026-10-10T22:38:14Z",
-   "loose": true
-  },
-  "song:weekendspecial|brendafassie": {
-   "missAt": "2026-10-10T22:38:17Z",
-   "loose": true
-  },
-  "song:tylerrichard|chanelbeads": {
-   "missAt": "2026-10-10T22:38:20Z",
-   "loose": true
-  },
-  "song:happierthanever|teenjesusandthejeanteasers": {
-   "missAt": "2026-10-10T22:38:27Z",
-   "loose": true
-  },
-  "song:quintetforpianoandwindsineflatmajor|wolfgangamadeusmozart": {
-   "missAt": "2026-10-10T22:38:31Z",
-   "loose": true
-  },
-  "song:sittinonthedockofthebay|aaprocky": {
-   "missAt": "2026-10-10T22:38:35Z",
-   "loose": true
-  },
-  "song:strongerthanpride|sade": {
-   "missAt": "2026-10-10T22:38:38Z",
-   "loose": true
-  },
-  "song:anarchyintheuk|genesisowusu": {
-   "missAt": "2026-10-10T22:38:41Z",
-   "loose": true
-  },
-  "song:likeaboy|ciara": {
-   "missAt": "2026-10-10T22:38:45Z",
-   "loose": true
-  },
-  "song:daduhdah|kokoroko": {
-   "missAt": "2026-10-10T22:38:48Z",
-   "loose": true
-  },
-  "song:babylovechild|pizzicatofive": {
-   "missAt": "2026-10-10T22:38:51Z",
-   "loose": true
-  },
-  "song:dogdaysareover|florenceandthemachine": {
-   "missAt": "2026-10-10T22:38:58Z",
-   "loose": true
-  },
-  "song:figureitout|zep": {
-   "missAt": "2026-10-10T22:39:02Z",
-   "loose": true
-  },
-  "song:rattlemass|pelicandaughters": {
-   "missAt": "2026-10-10T22:39:05Z",
-   "loose": true
-  },
-  "song:cuisine|severedheads": {
-   "missAt": "2026-10-10T22:39:09Z",
-   "loose": true
-  },
-  "song:petrichor|pelicandaughters": {
-   "missAt": "2026-10-10T22:39:12Z",
-   "loose": true
-  },
-  "song:imlostwithoutyou|marlonwilliams": {
-   "id": "1051875860",
-   "artist": "Marlon Williams",
-   "album": "I'm Lost Without You",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/84/b8/86/84b886b8-34e0-f362-0316-3e552f9e7848/656605141268.jpg/600x600bb.jpg",
-   "year": "2015",
-   "genre": "Alternative",
-   "collection": "Marlon Williams"
-  },
-  "song:kinginmyempire|cornelcampbell": {
-   "missAt": "2026-10-10T22:39:19Z",
-   "loose": true
-  },
-  "song:blackwoman|judymowatt": {
-   "id": "1564953612",
-   "artist": "Judy Mowatt",
-   "album": "Black Woman",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/65/ed/25/65ed2544-b826-9298-296c-abe98e93acbc/00016351431127_Cover.jpg/600x600bb.jpg",
-   "year": "1980",
-   "genre": "Reggae",
-   "collection": "Black Woman"
-  },
-  "song:tanrinniw|basmatemiralcy": {
-   "missAt": "2026-10-10T22:39:29Z",
-   "loose": true
-  },
-  "song:renderthevoice|markvanhoen": {
-   "missAt": "2026-10-10T22:39:33Z",
-   "loose": true
-  },
-  "song:prettylooksisntall|cornelcampbell": {
-   "missAt": "2026-10-10T22:39:36Z",
-   "loose": true
-  },
-  "song:cenote|lindalo": {
-   "missAt": "2026-10-10T22:39:40Z",
-   "loose": true
-  },
-  "song:kickback|cabaretvoltaire": {
-   "missAt": "2026-10-10T22:39:43Z",
-   "loose": true
-  },
-  "song:mutation|introspekt": {
-   "missAt": "2026-10-10T22:39:47Z",
-   "loose": true
-  },
-  "song:a1|djsprinter": {
-   "missAt": "2026-10-10T22:39:50Z",
-   "loose": true
-  },
-  "song:turbulence|introspekt": {
-   "missAt": "2026-10-10T22:39:54Z",
-   "loose": true
-  },
-  "song:habbaitakwelshawq|fairuz": {
-   "missAt": "2026-10-10T22:39:57Z",
-   "loose": true
-  },
-  "song:mifounapommarola|alexanderrobotnick": {
-   "missAt": "2026-10-10T22:40:01Z",
-   "loose": true
-  },
-  "song:fairground|evia": {
-   "missAt": "2026-10-10T22:40:04Z",
-   "loose": true
-  },
-  "song:sequiamoimargini|radiohito": {
-   "missAt": "2026-10-10T22:40:08Z",
-   "loose": true
-  },
-  "song:machine|adamedj": {
-   "missAt": "2026-10-10T22:40:11Z",
-   "loose": true
-  },
-  "song:janeptiii|richard": {
-   "missAt": "2026-10-10T22:40:14Z",
-   "loose": true
-  },
-  "song:soukoukou|meryl": {
-   "missAt": "2026-10-10T22:40:18Z",
-   "loose": true
-  },
-  "song:igor|radiohito": {
-   "missAt": "2026-10-10T22:40:21Z",
-   "loose": true
-  },
-  "song:claytapefragment2|milkweed": {
-   "missAt": "2026-10-10T22:40:25Z",
-   "loose": true
-  },
-  "song:untitled40|milkweed": {
-   "missAt": "2026-10-10T22:40:28Z",
-   "loose": true
-  },
-  "song:untitled4142|milkweed": {
-   "missAt": "2026-10-10T22:40:31Z",
-   "loose": true
-  },
-  "song:untitled43|milkweed": {
-   "missAt": "2026-10-10T22:40:35Z",
-   "loose": true
-  },
-  "song:improvatseminariallotjaments|milkweed": {
-   "missAt": "2026-10-10T22:40:38Z",
-   "loose": true
-  },
-  "song:untitled44|milkweed": {
-   "missAt": "2026-10-10T22:40:42Z",
-   "loose": true
-  },
-  "song:untitled45|milkweed": {
-   "missAt": "2026-10-10T22:40:45Z",
-   "loose": true
-  },
-  "song:untitled46|milkweed": {
-   "missAt": "2026-10-10T22:40:48Z",
-   "loose": true
-  },
-  "song:untitled4748ftyhwhnailgun|milkweed": {
-   "missAt": "2026-10-10T22:40:52Z",
-   "loose": true
-  },
-  "song:untitled49|milkweed": {
-   "missAt": "2026-10-10T22:40:55Z",
-   "loose": true
-  },
-  "song:untilted50|milkweed": {
-   "missAt": "2026-10-10T22:40:58Z",
-   "loose": true
-  },
-  "song:untitled51|milkweed": {
-   "missAt": "2026-10-10T22:41:02Z",
-   "loose": true
-  },
-  "song:untitled52|milkweed": {
-   "missAt": "2026-10-10T22:41:05Z",
-   "loose": true
-  },
-  "song:untilted53|milkweed": {
-   "missAt": "2026-10-10T22:41:08Z",
-   "loose": true
-  },
-  "song:untitled54|milkweed": {
-   "missAt": "2026-10-10T22:41:12Z",
-   "loose": true
-  },
-  "song:untitled55|milkweed": {
-   "missAt": "2026-10-10T22:41:15Z",
-   "loose": true
-  },
-  "song:untitled56|milkweed": {
-   "missAt": "2026-10-10T22:41:18Z",
-   "loose": true
-  },
-  "song:untitled57|milkweed": {
-   "missAt": "2026-10-10T22:41:21Z",
-   "loose": true
-  },
-  "song:untitled58|milkweed": {
-   "missAt": "2026-10-10T22:41:25Z",
-   "loose": true
-  },
-  "song:untitled5960|milkweed": {
-   "missAt": "2026-10-10T22:41:28Z",
-   "loose": true
-  },
-  "song:untitled61|milkweed": {
-   "missAt": "2026-10-10T22:41:31Z",
-   "loose": true
-  },
-  "song:untitled62|milkweed": {
-   "missAt": "2026-10-10T22:41:35Z",
-   "loose": true
-  },
-  "song:improvmilkstudio|milkweed": {
-   "missAt": "2026-10-10T22:41:38Z",
-   "loose": true
-  },
-  "song:untitled63|milkweed": {
-   "missAt": "2026-10-10T22:41:41Z",
-   "loose": true
-  },
-  "song:untitled64|milkweed": {
-   "missAt": "2026-10-10T22:41:45Z",
-   "loose": true
-  },
-  "song:highonthemountainstandingallalone|milkweed": {
-   "missAt": "2026-10-10T22:41:48Z",
-   "loose": true
-  },
-  "song:improvmilkstudio2|milkweed": {
-   "missAt": "2026-10-10T22:41:52Z",
-   "loose": true
-  },
-  "song:untitled65|milkweed": {
-   "missAt": "2026-10-10T22:41:55Z",
-   "loose": true
-  },
-  "song:untitled66|milkweed": {
-   "missAt": "2026-10-10T22:41:58Z",
-   "loose": true
-  },
-  "song:blink2|kuru": {
-   "missAt": "2026-10-10T22:42:02Z",
-   "loose": true
-  },
-  "song:okk|bladee": {
-   "missAt": "2026-10-10T22:42:05Z",
-   "loose": true
-  },
-  "song:nocomeback|meryl": {
-   "missAt": "2026-10-10T22:42:09Z",
-   "loose": true
-  },
-  "song:dreamsymbol|htrk": {
-   "missAt": "2026-10-10T22:42:12Z",
-   "loose": true
-  },
-  "song:diffusionshimmer|evia": {
-   "missAt": "2026-10-10T22:42:15Z",
-   "loose": true
-  },
-  "song:expensivefeatcontacto|angelito": {
-   "missAt": "2026-10-10T22:42:19Z",
-   "loose": true
-  },
-  "song:enchantment|dennisyoung": {
-   "missAt": "2026-10-10T22:42:22Z",
-   "loose": true
-  },
-  "song:海の上から|yasuakishimizu": {
-   "missAt": "2026-10-10T22:42:25Z",
-   "loose": true
-  },
-  "song:imgoingbacktolebanon|thoom": {
-   "missAt": "2026-10-10T22:42:28Z",
-   "loose": true
-  },
-  "song:miconsolerannoicani|lafestadellerane": {
-   "missAt": "2026-10-10T22:42:32Z",
-   "loose": true
-  },
-  "song:pussycat|miharukoshi": {
-   "missAt": "2026-10-10T22:42:35Z",
-   "loose": true
-  },
-  "song:skin|bladee": {
-   "missAt": "2026-10-10T22:42:38Z",
-   "loose": true
-  },
-  "song:走れウサキhashireusagi|miharukoshi": {
-   "missAt": "2026-10-10T22:42:41Z",
-   "loose": true
-  },
-  "song:onlythesun|maxinefunke": {
-   "missAt": "2026-10-10T22:42:45Z",
-   "loose": true
-  },
-  "song:sobhieljiz|fairuz": {
-   "missAt": "2026-10-10T22:42:48Z",
-   "loose": true
-  },
-  "song:mindizadancer|belcobain": {
-   "missAt": "2026-10-10T22:42:51Z",
-   "loose": true
-  },
-  "song:steelbanddisco|silvertones": {
-   "missAt": "2026-10-10T22:42:55Z",
-   "loose": true
-  },
-  "song:resident|angelito": {
-   "missAt": "2026-10-10T22:42:58Z",
-   "loose": true
-  },
-  "song:zeroset|liquidliquid": {
-   "missAt": "2026-10-10T22:43:01Z",
-   "loose": true
-  },
-  "song:fragole|lafestadellerane": {
-   "missAt": "2026-10-10T22:43:05Z",
-   "loose": true
-  },
-  "song:mindisadancer|belcobain": {
-   "missAt": "2026-10-10T22:43:08Z",
-   "loose": true
-  },
-  "song:teenagecrime|adrianlux": {
-   "id": "627421748",
-   "artist": "Adrian Lux",
-   "album": "Teenage Crime",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c9/c1/b0/c9c1b08b-f5c2-5da8-dcdd-c040cbe5ccf7/dj.qhmjaaoo.png/600x600bb.jpg",
-   "year": "2010",
-   "genre": "House",
-   "collection": "Teenage Crime - EP"
-  },
-  "song:alittlesomething|olympians": {
-   "id": "1844745525",
-   "artist": "The Olympians",
-   "album": "A Little Something",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/b8/d8/61b8d86c-61bc-4e19-c521-706cfc215a39/117920.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "R&B/Soul",
-   "collection": "In Search of a Revival"
-  },
-  "song:cureandthecause|fishgodeeptraceyk": {
-   "missAt": "2026-10-10T22:43:22Z",
-   "loose": true
-  },
-  "song:penseemonumentale|marinapstandhighpatrol": {
-   "id": "1722467961",
-   "artist": "Stand High Patrol & Marina P",
-   "album": "Pensée Monumentale",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/5f/e5/ab5fe5bb-5fc8-5b1a-9c25-155e13373ad8/197190686302.jpg/600x600bb.jpg",
-   "year": "2024",
-   "genre": "Reggae",
-   "collection": "Pensée Monumentale - Single"
-  },
-  "song:warmmysoul|blundettofeatcourtneyjohn": {
-   "id": "1600267421",
-   "artist": "Blundetto",
-   "album": "Warm My Soul (feat. Courtney John)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/91/38/e9/9138e9bf-1a95-6dbf-8f18-9aa4e20bcd2f/196292998337.jpg/600x600bb.jpg",
-   "year": "2012",
-   "genre": "Reggae",
-   "collection": "Warm My Soul"
-  },
-  "song:dubinflight|tuffscout": {
-   "missAt": "2026-10-10T22:43:33Z",
-   "loose": true
-  },
-  "song:birdinflight|carleenanderson": {
-   "id": "742627427",
-   "artist": "Carleen Anderson",
-   "album": "Bird In Flight",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/51/2b/bb/512bbb70-e8fe-bd49-a624-a5000767b564/5050580605220.jpg/600x600bb.jpg",
-   "year": "2013",
-   "genre": "Reggae",
-   "collection": "Bird In Flight - Single"
-  },
-  "song:augusttown|etana": {
-   "id": "417217344",
-   "artist": "Etana",
-   "album": "August Town",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/1e/77/a91e77da-20b2-5e32-3c8a-472af14e2c0d/054645190060.jpg/600x600bb.jpg",
-   "year": "2010",
-   "genre": "Reggae",
-   "collection": "Free Expressions"
-  },
-  "song:umoja|princejammy": {
-   "missAt": "2026-10-10T22:43:43Z",
-   "loose": true
-  },
-  "song:shakazulupickney|tarrusriley": {
-   "id": "478676643",
-   "artist": "Tarrus Riley",
-   "album": "Shaka Zulu Pickney",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/2f/21/b52f21cc-6f24-ac42-36ac-29e5a0641d90/054645193863.jpg/600x600bb.jpg",
-   "year": "2011",
-   "genre": "Reggae",
-   "collection": "Strictly the Best, Vol. 44"
-  },
-  "song:judgement|hempresssativa": {
-   "missAt": "2026-10-10T22:43:50Z",
-   "loose": true
-  },
-  "song:openheart|jah9": {
-   "id": "1686472338",
-   "artist": "Jah9",
-   "album": "Open Heart",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e0/e3/70/e0e37028-0b24-d132-a0b1-e5a99f82624e/054645674768.jpg/600x600bb.jpg",
-   "year": "2023",
-   "genre": "Reggae",
-   "collection": "Open Heart - Single"
-  },
-  "song:lonelylove|naomicowantoddlatrunkus": {
-   "id": "1839487802",
-   "artist": "Naomi Cowan & Toddla T",
-   "album": "Lonely Love (with Runkus) [feat. Runkus]",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/80/08/7c800803-200f-ca52-eeac-e7f9135cc244/657481112281.jpg/600x600bb.jpg",
-   "year": "2025",
-   "genre": "Reggae",
-   "collection": "Welcome To Paradise"
-  },
-  "song:vanity|sugarminott": {
-   "id": "309129070",
-   "artist": "Sugar Minott",
-   "album": "Vanity",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/b6/a2/74/mzi.yubatdvz.jpg/600x600bb.jpg",
-   "year": "1998",
-   "genre": "Reggae",
-   "collection": "Nice It Up - The Best of Sugar Minott"
-  },
-  "song:fever|horaceandy": {
-   "id": "1052960014",
-   "artist": "Horace Andy",
-   "album": "Fever",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/5b/48/fe/5b48fe54-533d-2379-824a-5ca3d2d19e8c/mzm.vpymubkb.jpg/600x600bb.jpg",
-   "year": "1998",
-   "genre": "Reggae",
-   "collection": "Mr. Bassie"
-  },
-  "song:longlostlover|lovejoys": {
-   "id": "81998936",
-   "artist": "Love Joys",
-   "album": "Long Lost Lover",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/7d/c4/e57dc480-707f-8c3d-4ea0-8c383452b687/mzi.neaseaxj.jpg/600x600bb.jpg",
-   "year": "1982",
-   "genre": "Reggae",
-   "collection": "Lovers Rock Raggae Style"
-  },
-  "song:musichityou|jahbatta": {
-   "missAt": "2026-10-10T22:44:11Z",
-   "loose": true
-  },
-  "song:blacksingle|fardaprockershifi": {
-   "missAt": "2026-10-10T22:44:17Z",
-   "loose": true
-  },
-  "song:dangerdub|obf": {
-   "missAt": "2026-10-10T22:44:21Z",
-   "loose": true
-  },
-  "song:twofromalpha|deadlyheadleyrico": {
-   "id": "1005012408",
-   "artist": "Deadly Headley",
-   "album": "Two From Alpha",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/dc/32/40dc3295-c617-75c5-8e57-ab490a03dba6/5060263721154.png/600x600bb.jpg",
-   "year": "1993",
-   "genre": "Reggae",
-   "collection": "On-U Sound Present Reggae Archive, Vol. 2"
-  },
-  "song:comingfromtheback|clintonfearon": {
-   "id": "1815274871",
-   "artist": "Clinton Fearon",
-   "album": "Coming From The Back",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/fb/57/52fb5736-ffb7-c620-4ff4-94b8284941f4/3663729381774_cover.jpg/600x600bb.jpg",
-   "year": "2025",
-   "genre": "Reggae",
-   "collection": "Jah Is Love"
-  },
-  "song:freerhodesia|jackrubytheblackdisciples": {
-   "id": "1198384278",
-   "artist": "Jack Ruby & Black Disciples",
-   "album": "Free Rhodesia",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/af/06/86/af068682-52ba-9a56-066b-57ecd9531bd3/191515099488_Cover.jpg/600x600bb.jpg",
-   "year": "2000",
-   "genre": "Reggae",
-   "collection": "The Black Foundation (Jack Ruby Presents)"
-  },
-  "song:slowdown|mavericksabrefeatjorjasmith": {
-   "id": "1445949030",
-   "artist": "Maverick Sabre",
-   "album": "Slow Down (feat. Jorja Smith)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/5b/79/5e5b791a-ff0c-82d5-131c-72d2a18e0d4c/193483226743.jpg/600x600bb.jpg",
-   "year": "2019",
-   "genre": "Alternative",
-   "collection": "When I Wake Up"
-  },
-  "song:frontlinedub|holliecook": {
-   "id": "1867252801",
-   "artist": "Hollie Cook",
-   "album": "Frontline Dub",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/46/28/9946285e-e655-1206-1679-7dc8d41a3fd1/cover.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Dub",
-   "collection": "Shy Girl In Dub!"
-  },
-  "song:frontline|holliecook": {
-   "id": "1823954099",
-   "artist": "Hollie Cook",
-   "album": "Frontline",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/7d/f6/a57df6d7-7f1a-7047-470b-24acc0321bda/cover.jpg/600x600bb.jpg",
-   "year": "2025",
-   "genre": "Reggae",
-   "collection": "Shy Girl"
-  },
-  "song:actofaffection|wailingsouls": {
-   "id": "383417864",
-   "artist": "Wailing Souls",
-   "album": "Act of Affection",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/15/f7/91/15f791ad-8c25-d4f6-2fa5-e8155791bc9e/601811002162.jpg/600x600bb.jpg",
-   "year": "1980",
-   "genre": "Reggae",
-   "collection": "Fire House Rock"
-  },
-  "song:24hoursaday|hughmundell": {
-   "id": "383378775",
-   "artist": "Hugh Mundell",
-   "album": "24 Hours a Day",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cd/f2/bf/cdf2bf6b-5cc0-7a7e-dbe4-ec14b1a29a2e/601811006566.jpg/600x600bb.jpg",
-   "year": "1982",
-   "genre": "Reggae",
-   "collection": "Mundell"
-  },
-  "song:wanted|sugarminott": {
-   "id": "1341954774",
-   "artist": "Sugar Minott",
-   "album": "Wanted (Original Bravo Mix)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/36/7a/99/367a9972-4335-1d38-07d9-2c201407e297/843655016046.jpg/600x600bb.jpg",
-   "year": "2018",
-   "genre": "Reggae",
-   "collection": "We Sing Gregory (Deluxe Remix Edition)"
-  },
-  "song:whatyouwontdoforlove|otisgayle": {
-   "id": "1659904193",
-   "artist": "Otis Gayle",
-   "album": "What You Won't Do For Love",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5d/a0/41/5da041b7-7d79-54e7-8d6d-c27ca1793d3a/198015204749.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Reggae",
-   "collection": "The Best of Otis Gayle"
-  },
-  "song:sisterbigstuff|johnholt": {
-   "id": "1201995563",
-   "artist": "John Holt",
-   "album": "Sister Big Stuff",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f7/79/16/f779164f-c247-1109-d8ce-a64d8138ed39/191515144393_Cover.jpg/600x600bb.jpg",
-   "year": "1998",
-   "genre": "Reggae",
-   "collection": "Tonight at Treasure Isle"
-  },
-  "song:babylonfalling|tonytuff": {
-   "missAt": "2026-10-10T22:45:03Z",
-   "loose": true
-  },
-  "song:jahvengeneance|yabbyyoutrinity": {
-   "missAt": "2026-10-10T22:45:10Z",
-   "loose": true
-  },
-  "song:surfin|ernestranglin": {
-   "id": "1444023735",
-   "artist": "Ernest Ranglin",
-   "album": "Surfin'",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3d/ec/98/3dec98f8-d1e9-1264-bb35-71e3597bdf2e/00731452429926.rgb.jpg/600x600bb.jpg",
-   "year": "1996",
-   "genre": "Reggae",
-   "collection": "Below the Bassline"
-  },
-  "song:guidingstar|horaceandy": {
-   "id": "1799350904",
-   "artist": "Horace Andy",
-   "album": "Guiding Star",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/01/e5/8001e5f5-8151-64d4-683c-caa0b5b17260/2710.jpg/600x600bb.jpg",
-   "year": "1981",
-   "genre": "Reggae",
-   "collection": "The Best of Horace Andy, Ken Boothe & Dennis Brown (Platinum Edition)"
-  },
-  "song:marvelousrocker|winstonwright": {
-   "id": "1450448242",
-   "artist": "Winston Wright",
-   "album": "Marvelous Rocker",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/78/13/5e/78135e4c-052b-615d-f486-3b9790f0e18c/5026328504353.jpg/600x600bb.jpg",
-   "year": "2019",
-   "genre": "Reggae",
-   "collection": "Soul Jazz Records Presents Bunny Lee: Dreads Enter the Gates With Praise (The Mighty Striker Shoots the Hits!)"
-  },
-  "song:pressure|skints": {
-   "id": "6808000975",
-   "artist": "The Skints",
-   "album": "Pressure",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/92/6f/4b926f09-33d3-5052-1bba-77d885f828ff/657481328682.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Reggae",
-   "collection": "Pressure - Single"
-  },
-  "song:peacepipedub|joewhite": {
-   "missAt": "2026-10-10T22:45:27Z",
-   "loose": true
-  },
-  "song:lovelife|jonnygofigurethe18thparallel": {
-   "id": "6788330291",
-   "artist": "JonnyGO Figure & The 18th Parallel",
-   "album": "Love Life",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/ba/da/cfbada10-1c3c-4dee-d0d6-875b74a0131b/cover.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Roots Reggae",
-   "collection": "Love Life - Single"
-  },
-  "song:yousaythatyoudubme|ikadubdubshepherds": {
-   "missAt": "2026-10-10T22:45:37Z",
-   "loose": true
-  },
-  "song:yousaythatyouloveme|jahnnyminottdubshepherds": {
-   "id": "1875368404",
-   "artist": "Jahnny Minott & Dub Shepherds",
-   "album": "You Say That You Love Me",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/7b/5b/a37b5b56-f58a-1912-a135-5504db1716d9/3663729426826_cover.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Reggae",
-   "collection": "You Say That You Love Me - Single"
-  },
-  "song:flyaway|lopezwalker": {
-   "id": "353814021",
-   "artist": "Lopez Walker",
-   "album": "Fly Away",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/50/b0/ae/mzi.pxexiqha.jpg/600x600bb.jpg",
-   "year": "1999",
-   "genre": "Reggae",
-   "collection": "Children of Jah 1977-1979"
-  },
-  "song:revelationtime|maxromeo": {
-   "id": "1520405266",
-   "artist": "Max Romeo",
-   "album": "Revelation Time",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b7/1f/eb/b71feb9f-98e2-ab64-43d2-57f86908a901/054645422260.jpg/600x600bb.jpg",
-   "year": "1975",
-   "genre": "Reggae",
-   "collection": "Revelation Time"
-  },
-  "song:tinokino|reiunclesplasticpounamu": {
-   "id": "6785405009",
-   "artist": "Rei, UNCLES & PLASTiC POUNAMU",
-   "album": "TINO KINO (feat. Hohua Sta & Swizl Jager)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/a1/e4/f5a1e41e-9b6b-380e-5903-0958fc748def/18032.jpg/600x600bb.jpg",
-   "year": "2026",
-   "genre": "Electronic",
-   "collection": "TINO KINO (feat. Hohua Sta & Swizl Jager) - Single"
-  },
-  "song:correriademage|wescritor": {
-   "id": "1756575874",
-   "artist": "wescritor",
-   "album": "Correria de Magé",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/50/18/c25018c2-cf30-c63b-9837-04321aaeec39/0.jpg/600x600bb.jpg",
-   "year": "2024",
-   "genre": "Hip-Hop",
-   "collection": "Correria de Magé - Single"
-  },
-  "song:ithoughtthaticouldgetawaywithit|josephshabason": {
-   "id": "1427808966",
-   "artist": "Joseph Shabason",
-   "album": "I Thought That I Could Get Away with It",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d9/a4/d2/d9a4d2f3-f488-73b5-1640-39af3bc4cdc1/656605382968.jpg/600x600bb.jpg",
-   "year": "2018",
-   "genre": "Jazz",
-   "collection": "Anne"
-  },
-  "song:hizuki|venna": {
-   "id": "1716327203",
-   "artist": "Venna",
-   "album": "Hizuki",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/02/6e/4a026ec1-532b-8f6d-50fe-f185f69f9b82/cover.jpg/600x600bb.jpg",
-   "year": "2023",
-   "genre": "Crossover Jazz",
-   "collection": "HIZUKI // PERFECT DIVIDE - Single"
-  },
-  "song:journeyinsatchidananda|alicecoltranepharoahsanders": {
-   "id": "1440719297",
-   "artist": "Alice Coltrane",
-   "album": "Journey in Satchidananda (feat. Pharoah Sanders)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/5c/40/af5c40a1-54b1-855d-3da2-f875efbd8372/06UMGIM04169.rgb.jpg/600x600bb.jpg",
-   "year": "1971",
-   "genre": "Jazz",
-   "collection": "Journey in Satchidananda"
-  },
-  "song:pieces|yazminlacey": {
-   "id": "1651197432",
-   "artist": "Yazmin Lacey",
-   "album": "Pieces",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/89/8c/e2/898ce24b-7191-d7ba-72e2-908730e41024/cover.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Contemporary R&B",
-   "collection": "Voice Notes"
-  },
-  "song:naqi|mansurbrown": {
-   "id": "1639080937",
-   "artist": "Mansur Brown",
-   "album": "Naqi",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/66/7d/ae667dfe-5727-7697-c32f-7451d61e5ddf/5056614700480.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Electronic",
-   "collection": "NAQI, Vol.2 - EP"
-  },
-  "song:mutate|duvaltimothy": {
-   "id": "1648497545",
-   "artist": "Duval Timothy",
-   "album": "Mutate",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b2/c2/8a/b2c28a2a-d199-4ea0-db59-9243138e572d/artwork.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Classical Crossover",
-   "collection": "Meeting with a Judas Tree"
-  },
-  "song:jennifer|carlosfireaguasvivas": {
-   "id": "1775806350",
-   "artist": "Carlos Fire Aguasvivas",
-   "album": "Jennifer",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/7e/b4/9e7eb428-23e4-0718-6c02-c9ea629b1801/184923608960_cover.jpg/600x600bb.jpg",
-   "year": "1980",
-   "genre": "Rock",
-   "collection": "Eclipse of the City"
-  },
-  "song:soverylong|billwelsh": {
-   "id": "1639694861",
-   "artist": "Bill Welsh",
-   "album": "So Very Long",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/be/70/3f/be703fa5-9c32-cc05-0c7d-4f33d0337030/8718723206204.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Electronic",
-   "collection": "America Dream Reserve (Compiled by Charles Bals and Smiling C)"
-  },
-  "song:odetobilljoetucker|edpatgibson": {
-   "id": "1639695029",
-   "artist": "Ed & Pat Gibson",
-   "album": "Ode to Bill-Joe Tucker",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/be/70/3f/be703fa5-9c32-cc05-0c7d-4f33d0337030/8718723206204.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Pop",
-   "collection": "America Dream Reserve (Compiled by Charles Bals and Smiling C)"
-  },
-  "song:davidmarr|thistime": {
-   "missAt": "2026-10-10T22:46:29Z",
-   "loose": true
-  },
-  "song:shrinkstheday|ryleywalkerandkikagakumoyo": {
-   "id": "1548558343",
-   "artist": "Ryley Walker & Kikagaku Moyo",
-   "album": "Shrinks the Day",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/93/32/90/933290db-5c91-3cdf-fec0-64a3e03ebb9c/artwork.jpg/600x600bb.jpg",
-   "year": "2021",
-   "genre": "Alternative",
-   "collection": "Deep Fried Grandeur"
-  },
-  "song:planetcaravan|psychictemple": {
-   "id": "1646325800",
-   "artist": "Psychic Temple",
-   "album": "Planet Caravan (feat. Jeff Parker)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d3/8c/82/d38c823b-84ad-3be0-8fd8-b0566c5a0a40/35916.jpg/600x600bb.jpg",
-   "year": "2022",
-   "genre": "Rock",
-   "collection": "Plays Planet Caravan (feat. Jeff Parker)"
-  },
-  "song:today|tornadowallacesuizhen": {
-   "id": "1183895661",
-   "artist": "Tornado Wallace",
-   "album": "Today (feat. Sui Zhen)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/e2/70/ee/e270eefc-75cb-f41d-770c-87d5db968162/4260470375541_1448.jpg/600x600bb.jpg",
-   "year": "2017",
-   "genre": "Electronic",
-   "collection": "Lonely Planet"
-  },
-  "song:ahoras|furiousfrankftivybarkakati": {
-   "missAt": "2026-10-10T22:46:46Z",
-   "loose": true
-  },
-  "song:canyoufeelit|larryheard": {
-   "id": "1782405437",
-   "artist": "Larry Heard",
-   "album": "Can You Feel It (Instrumental)",
-   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/b7/ad/1cb7ad6a-d0a0-f894-b484-bb6d43ef22ba/8718723274630.jpg/600x600bb.jpg",
-   "year": "1986",
-   "genre": "Dance",
-   "collection": "Can You Feel It - Single"
-  },
-  "song:rikikida|jeanmariebolagnassa": {
-   "missAt": "2026-10-10T22:46:53Z",
-   "loose": true
-  },
-  "song:muzikakathi|ff": {
-   "missAt": "2026-10-10T22:46:56Z",
-   "loose": true
-  },
-  "song:sugarcane|afrocube": {
-   "missAt": "2026-10-10T22:47:00Z",
-   "loose": true
-  },
-  "song:terrell|medlarbicep": {
-   "missAt": "2026-10-10T22:47:06Z",
-   "loose": true
-  },
-  "song:amor|heroisdomar": {
-   "missAt": "2026-10-10T22:47:10Z",
-   "loose": true
-  },
-  "song:whenyoulovesomeone|daphne": {
-   "missAt": "2026-10-10T22:47:13Z",
-   "loose": true
-  },
-  "song:ilovetheway|kidsublime": {
-   "missAt": "2026-10-10T22:47:17Z",
-   "loose": true
-  },
-  "song:ragachayyanatteental|kalaramnathakramkhankadaksingh": {
-   "missAt": "2026-10-10T22:47:23Z",
-   "loose": true
-  },
-  "song:waltzincsharpminoropus64no2|yujawangplayschopin": {
-   "missAt": "2026-10-10T22:47:26Z",
-   "loose": true
-  },
-  "song:deutschekammerphilbremen|hilaryhahnplaysjsbachviolinconcertono1inaminorbwv1041": {
-   "missAt": "2026-10-10T22:47:30Z",
-   "loose": true
-  },
-  "song:entanerchina|lalgudijayaraman": {
-   "missAt": "2026-10-10T22:47:33Z",
-   "loose": true
-  },
-  "song:livesession|balladeste": {
-   "missAt": "2026-10-10T22:47:37Z",
-   "loose": true
-  },
-  "song:trinity|hakanlidbosolomonicsound": {
-   "missAt": "2026-10-10T22:47:43Z",
-   "loose": true
-  },
-  "song:revelationdub|armyofone": {
-   "missAt": "2026-10-10T22:47:46Z",
-   "loose": true
-  },
-  "song:kutchiedub|wisecaucasian": {
-   "missAt": "2026-10-10T22:47:50Z",
-   "loose": true
-  },
-  "song:girlfromcuba|zeb": {
-   "missAt": "2026-10-10T22:47:53Z",
-   "loose": true
-  },
-  "song:lovetotherhythm|noiseshapergrizo": {
-   "missAt": "2026-10-10T22:47:56Z",
-   "loose": true
-  },
-  "song:sounbwoyvol1|djbuckmeetdubtheory": {
-   "missAt": "2026-10-10T22:48:00Z",
-   "loose": true
-  },
-  "song:badsound|alwootton": {
-   "missAt": "2026-10-10T22:48:03Z",
-   "loose": true
-  },
-  "song:bodyhealthy|alwootton": {
-   "missAt": "2026-10-10T22:48:06Z",
-   "loose": true
-  },
-  "song:hitthat|veralyndemo": {
-   "missAt": "2026-10-10T22:48:10Z",
-   "loose": true
-  },
-  "song:tootthatbeatitlike|djdollademo": {
-   "missAt": "2026-10-10T22:48:13Z",
-   "loose": true
-  },
-  "song:gaspedel|djkingtigerz": {
-   "missAt": "2026-10-10T22:48:16Z",
-   "loose": true
-  },
-  "song:bangbanggoing|djtimdollademo": {
-   "missAt": "2026-10-10T22:48:20Z",
-   "loose": true
-  },
-  "song:hititfromtheback|djtimdollademo": {
-   "missAt": "2026-10-10T22:48:23Z",
-   "loose": true
-  },
-  "song:canihaveitlikethat|jakkzfthydef": {
-   "missAt": "2026-10-10T22:48:30Z",
-   "loose": true
-  },
-  "song:freakydeaky|veralyn": {
-   "missAt": "2026-10-10T22:48:33Z",
-   "loose": true
-  },
-  "song:cleanontheinside|djtimdollademo": {
-   "missAt": "2026-10-10T22:48:36Z",
-   "loose": true
-  },
-  "song:thinkingofyou|djtimdolla": {
-   "missAt": "2026-10-10T22:48:39Z",
-   "loose": true
-  },
-  "song:entrapit|cartelmusic": {
-   "missAt": "2026-10-10T22:48:43Z",
-   "loose": true
-  },
-  "song:workdatback|djkingtigerz": {
-   "missAt": "2026-10-10T22:48:46Z",
-   "loose": true
-  },
-  "song:getloose|djkingtigerz": {
-   "missAt": "2026-10-10T22:48:49Z",
-   "loose": true
-  },
-  "song:getit|dwizz": {
-   "missAt": "2026-10-10T22:48:52Z",
-   "loose": true
-  },
-  "song:sharpbouncegoing|djsharphandzfeatflycec": {
-   "missAt": "2026-10-10T22:48:59Z",
-   "loose": true
-  },
-  "song:rockthissohard|brickbandits": {
-   "missAt": "2026-10-10T22:49:03Z",
-   "loose": true
-  },
-  "song:tshirtpanties|brickbandits": {
-   "missAt": "2026-10-10T22:49:06Z",
-   "loose": true
-  },
-  "song:iwasjustbs|brickbandits": {
-   "missAt": "2026-10-10T22:49:09Z",
-   "loose": true
-  },
-  "song:boatbytrimedit|veralyn": {
-   "missAt": "2026-10-10T22:49:13Z",
-   "loose": true
-  },
-  "song:17niggamode|tromacremix": {
-   "missAt": "2026-10-10T22:49:16Z",
-   "loose": true
-  },
-  "song:iwannadancefawkkk|veralyn": {
-   "missAt": "2026-10-10T22:49:20Z",
-   "loose": true
-  },
-  "song:haloflip|cartelmusic": {
-   "missAt": "2026-10-10T22:49:23Z",
-   "loose": true
-  },
-  "song:doubleup2|rodonnabeat": {
-   "missAt": "2026-10-10T22:49:27Z",
-   "loose": true
-  },
-  "song:dundundun|veralyndemo": {
-   "missAt": "2026-10-10T22:49:30Z",
-   "loose": true
-  },
-  "song:wannabestartingsomething|abjxmj": {
-   "missAt": "2026-10-10T22:49:36Z",
-   "loose": true
-  },
-  "song:callme|veralyndemo": {
-   "missAt": "2026-10-10T22:49:40Z",
-   "loose": true
-  },
-  "song:dollarboyzbabyqahanthem|wavvywoody": {
-   "missAt": "2026-10-10T22:49:43Z",
-   "loose": true
-  },
-  "song:downonme|yesterdayneverhappeneddemo": {
-   "missAt": "2026-10-10T22:49:46Z",
-   "loose": true
-  },
-  "song:exploration|karminskyexperience": {
-   "missAt": "2026-10-10T22:49:50Z",
-   "loose": true
-  },
-  "song:aveplague|kingplague": {
-   "missAt": "2026-10-10T22:49:53Z",
-   "loose": true
-  },
-  "song:rpsʊpʃrsr|summerofhaze": {
-   "missAt": "2026-10-10T22:49:56Z",
-   "loose": true
-  },
-  "song:trapdoor|salem": {
-   "missAt": "2026-10-10T22:49:59Z",
-   "loose": true
-  },
-  "song:maybetomorrow|jessicabailifftheditheringeffect": {
-   "missAt": "2026-10-10T22:50:06Z",
-   "loose": true
-  },
-  "song:circles|holdathedevilssootybrother": {
-   "missAt": "2026-10-10T22:50:13Z",
-   "loose": true
-  },
-  "song:movingmelody|llips": {
-   "missAt": "2026-10-10T22:50:17Z",
-   "loose": true
-  },
-  "song:appleofmyeye|rockysandoval": {
-   "missAt": "2026-10-10T22:50:20Z",
-   "loose": true
-  },
-  "song:war|yasiinbey": {
-   "missAt": "2026-10-10T22:50:24Z",
-   "loose": true
-  },
-  "song:daisuki|notmilky": {
-   "missAt": "2026-10-10T22:50:27Z",
-   "loose": true
-  },
-  "song:ハハトントフリーチ|長山洋子": {
-   "missAt": "2026-10-10T22:50:30Z",
-   "loose": true
-  },
-  "song:내친구|박양숙": {
-   "missAt": "2026-10-10T22:50:34Z",
-   "loose": true
-  },
-  "song:tomsdinerfeatmizukikamata|nautilus": {
-   "missAt": "2026-10-10T22:50:37Z",
-   "loose": true
-  },
-  "song:paul|girlband": {
-   "missAt": "2026-10-10T22:50:40Z",
-   "loose": true
-  },
-  "song:passingcomplexion|bigblack": {
-   "missAt": "2026-10-10T22:50:43Z",
-   "loose": true
-  },
-  "song:italktothewind|kingcrimson": {
-   "missAt": "2026-10-10T22:50:47Z",
-   "loose": true
-  },
-  "song:youcanloveagain|veda": {
-   "missAt": "2026-10-10T22:50:50Z",
-   "loose": true
-  },
-  "song:miraclemile|noyou": {
-   "missAt": "2026-10-10T22:50:53Z",
-   "loose": true
-  },
-  "song:playwithme|djsotofett": {
-   "missAt": "2026-10-10T22:50:57Z",
-   "loose": true
-  },
-  "song:clubruler|deeprh": {
-   "missAt": "2026-10-10T22:51:00Z",
-   "loose": true
-  },
-  "song:aseriousdiscussion|nikkinairdjadhd": {
-   "missAt": "2026-10-10T22:51:07Z",
-   "loose": true
-  },
-  "song:barefootwanderer|suki": {
-   "missAt": "2026-10-10T22:51:11Z",
-   "loose": true
-  },
-  "song:beatthebeat|adr": {
-   "missAt": "2026-10-10T22:51:14Z",
-   "loose": true
-  },
-  "song:foolme|guycelium": {
-   "missAt": "2026-10-10T22:51:17Z",
-   "loose": true
-  },
-  "song:geomantik|pranamerv": {
-   "missAt": "2026-10-10T22:51:24Z",
-   "loose": true
-  },
-  "song:slapit|fluke": {
-   "missAt": "2026-10-10T22:51:28Z",
-   "loose": true
-  },
-  "song:nolongtalking|mesotron": {
-   "missAt": "2026-10-10T22:51:31Z",
-   "loose": true
-  },
-  "song:totalpackage|djmarsta": {
-   "missAt": "2026-10-10T22:51:34Z",
-   "loose": true
-  },
-  "song:desertstorm|dark0": {
-   "missAt": "2026-10-10T22:51:38Z",
-   "loose": true
-  },
-  "song:meridianwalk|skepta": {
-   "missAt": "2026-10-10T22:51:41Z",
-   "loose": true
-  },
-  "song:hoe|dizzeerascal": {
-   "missAt": "2026-10-10T22:51:45Z",
-   "loose": true
-  },
-  "song:streetsofrage|blackbeat": {
-   "missAt": "2026-10-10T22:51:48Z",
-   "loose": true
-  },
-  "song:bignbad|kutz": {
-   "missAt": "2026-10-10T22:51:52Z",
-   "loose": true
-  },
-  "song:legacy|djnarrows": {
-   "missAt": "2026-10-10T22:51:55Z",
-   "loose": true
-  },
-  "song:slsainstrumental|grandmixxer": {
-   "missAt": "2026-10-10T22:51:58Z",
-   "loose": true
-  },
-  "song:devilfrontline|ddoublee": {
-   "missAt": "2026-10-10T22:52:02Z",
-   "loose": true
-  },
-  "song:go2|mjk": {
-   "missAt": "2026-10-10T22:52:05Z",
-   "loose": true
-  },
-  "song:noinst|dexplicit": {
-   "missAt": "2026-10-10T22:52:09Z",
-   "loose": true
-  },
-  "song:scarredforlife|footsie": {
-   "missAt": "2026-10-10T22:52:12Z",
-   "loose": true
-  },
-  "song:cowboy|virgo": {
-   "missAt": "2026-10-10T22:52:16Z",
-   "loose": true
-  },
-  "song:haha223|dok": {
-   "missAt": "2026-10-10T22:52:19Z",
-   "loose": true
-  },
-  "song:dancehalldun|illwill": {
-   "missAt": "2026-10-10T22:52:22Z",
-   "loose": true
-  },
-  "song:hellcat|killjoy": {
-   "missAt": "2026-10-10T22:52:26Z",
-   "loose": true
-  },
-  "song:invade2|djdreadd": {
-   "missAt": "2026-10-10T22:52:29Z",
-   "loose": true
-  },
-  "song:karni|jlsxnd7rs": {
-   "missAt": "2026-10-10T22:52:32Z",
-   "loose": true
-  },
-  "song:9x9|jlsxnd7rs": {
-   "missAt": "2026-10-10T22:52:36Z",
-   "loose": true
-  },
-  "song:attention25|jtsbz": {
-   "missAt": "2026-10-10T22:52:39Z",
-   "loose": true
-  },
-  "song:warmupremix|mayhemnodbxfelixdubs": {
-   "missAt": "2026-10-10T22:52:46Z",
-   "loose": true
-  },
-  "song:flatbeat|mroizodubzta": {
-   "missAt": "2026-10-10T22:52:53Z",
-   "loose": true
-  },
-  "song:hungrytigerrebuild|mx": {
-   "missAt": "2026-10-10T22:52:56Z",
-   "loose": true
-  },
-  "song:toozerorip|jlsxnd7rs": {
-   "missAt": "2026-10-10T22:53:00Z",
-   "loose": true
-  },
-  "song:fireball|dexplicit": {
-   "missAt": "2026-10-10T22:53:03Z",
-   "loose": true
-  },
-  "song:necropolis|mystry": {
-   "missAt": "2026-10-10T22:53:07Z",
-   "loose": true
-  },
-  "song:untitledfunkygrime|silas": {
-   "missAt": "2026-10-10T22:53:10Z",
-   "loose": true
-  },
-  "song:bumpdis|djoddz": {
-   "missAt": "2026-10-10T22:53:13Z",
-   "loose": true
-  },
-  "song:fwdriddim|spraggabenz": {
-   "missAt": "2026-10-10T22:53:17Z",
-   "loose": true
-  },
-  "song:bazooka|dotrotten": {
-   "missAt": "2026-10-10T22:53:20Z",
-   "loose": true
-  },
-  "song:stageshowriddim|skepta": {
-   "missAt": "2026-10-10T22:53:24Z",
-   "loose": true
-  },
-  "song:lentilcrisp|rapid": {
-   "missAt": "2026-10-10T22:53:27Z",
-   "loose": true
-  },
-  "song:charge|statik": {
-   "missAt": "2026-10-10T22:53:30Z",
-   "loose": true
-  },
-  "song:rudestsong|mesotron": {
-   "missAt": "2026-10-10T22:53:34Z",
-   "loose": true
-  },
-  "song:rudeststing|mesotron": {
-   "missAt": "2026-10-10T22:53:37Z",
-   "loose": true
-  },
-  "song:roadrage|dok": {
-   "missAt": "2026-10-10T22:53:41Z",
-   "loose": true
-  },
-  "song:hauntedtool|toura": {
-   "missAt": "2026-10-10T22:53:44Z",
-   "loose": true
-  },
-  "song:whitehouse|preditah": {
-   "missAt": "2026-10-10T22:53:48Z",
-   "loose": true
-  },
-  "song:unknowntrack|conflict": {
-   "missAt": "2026-10-10T22:53:51Z",
-   "loose": true
-  },
-  "song:temperaturedub2|blackbeat": {
-   "missAt": "2026-10-10T22:53:54Z",
-   "loose": true
-  },
-  "song:chromeriddem|swaiftabeater": {
-   "missAt": "2026-10-10T22:53:58Z",
-   "loose": true
-  },
-  "song:7wives|darx": {
-   "missAt": "2026-10-10T22:54:01Z",
-   "loose": true
-  },
-  "song:paradise|processp": {
-   "missAt": "2026-10-10T22:54:05Z",
-   "loose": true
-  },
-  "song:grimeinstrumental|slewdem": {
-   "missAt": "2026-10-10T22:54:08Z",
-   "loose": true
-  },
-  "song:bsr|adio": {
-   "missAt": "2026-10-10T22:54:11Z",
-   "loose": true
-  },
-  "song:koninkwitdaroc|chamberxduppy": {
-   "missAt": "2026-10-10T22:54:18Z",
-   "loose": true
-  },
-  "song:tomtom|silencer": {
-   "missAt": "2026-10-10T22:54:22Z",
-   "loose": true
-  },
-  "song:hadenough|oh91": {
-   "missAt": "2026-10-10T22:54:25Z",
-   "loose": true
-  },
-  "song:intimidating|duppy": {
-   "missAt": "2026-10-10T22:54:29Z",
-   "loose": true
-  },
-  "song:untitled145|sbuers": {
-   "missAt": "2026-10-10T22:54:32Z",
-   "loose": true
-  },
-  "song:dementia|filthygears": {
-   "missAt": "2026-10-10T22:54:35Z",
-   "loose": true
-  },
-  "song:stringlike|morenight": {
-   "missAt": "2026-10-10T22:54:39Z",
-   "loose": true
-  },
-  "song:madafineq|dok": {
-   "missAt": "2026-10-10T22:54:42Z",
-   "loose": true
-  },
-  "song:pulser|mystrydjgarna": {
-   "missAt": "2026-10-10T22:54:49Z",
-   "loose": true
-  },
-  "song:8barkrystalkarrington|mesotron": {
-   "missAt": "2026-10-10T22:54:53Z",
-   "loose": true
-  },
-  "song:bongodub|djgeneralcourts": {
-   "missAt": "2026-10-10T22:54:56Z",
-   "loose": true
-  },
-  "song:victorious|dexplicit": {
-   "missAt": "2026-10-10T22:55:00Z",
-   "loose": true
-  },
-  "song:blackestnight|mesotron": {
-   "missAt": "2026-10-10T22:55:03Z",
-   "loose": true
-  },
-  "song:postmortem|blackbeat": {
-   "missAt": "2026-10-10T22:55:07Z",
-   "loose": true
-  },
-  "song:sense|macabreunit": {
-   "missAt": "2026-10-10T22:55:10Z",
-   "loose": true
-  },
-  "song:nekron|mesotron": {
-   "missAt": "2026-10-10T22:55:13Z",
-   "loose": true
-  },
-  "song:meltdown|chamber45": {
-   "missAt": "2026-10-10T22:55:17Z",
-   "loose": true
-  },
-  "song:liveo|dizzeerascal": {
-   "missAt": "2026-10-10T22:55:20Z",
-   "loose": true
-  },
-  "song:startrepeating|imsomesongs": {
-   "missAt": "2026-10-10T22:55:24Z",
-   "loose": true
-  },
-  "song:traitor|elevation": {
-   "missAt": "2026-10-10T22:55:27Z",
-   "loose": true
-  },
-  "song:driveithome|hibias": {
-   "missAt": "2026-10-10T22:55:30Z",
-   "loose": true
-  },
-  "song:rerb|shock": {
-   "missAt": "2026-10-10T22:55:34Z",
-   "loose": true
-  },
-  "song:formistyblue|alfoulcerroyalflush": {
-   "missAt": "2026-10-10T22:55:41Z",
-   "loose": true
-  },
-  "song:ensemble|elegy": {
-   "missAt": "2026-10-10T22:55:44Z",
-   "loose": true
-  },
-  "song:audioq5a|statesofmind": {
-   "missAt": "2026-10-10T22:55:48Z",
-   "loose": true
-  },
-  "song:goingtutu|dinatestbild": {
-   "missAt": "2026-10-10T22:55:51Z",
-   "loose": true
-  },
-  "song:shoppa|dekkapaxnannz": {
-   "missAt": "2026-10-10T22:55:58Z",
-   "loose": true
-  },
-  "song:freshsoil|sonnymakepeace": {
-   "missAt": "2026-10-10T22:56:01Z",
-   "loose": true
-  },
-  "song:dontstop|djsliinknez": {
-   "missAt": "2026-10-10T22:56:08Z",
-   "loose": true
-  },
-  "song:iceebeckzindeflor|ddhxstanga": {
-   "missAt": "2026-10-10T22:56:15Z",
-   "loose": true
-  },
-  "song:12step|otdelta": {
-   "missAt": "2026-10-10T22:56:18Z",
-   "loose": true
-  },
-  "song:3steptypeinstrumental|cxli": {
-   "missAt": "2026-10-10T22:56:22Z",
-   "loose": true
-  },
-  "song:you3|whoisgeno": {
-   "missAt": "2026-10-10T22:56:25Z",
-   "loose": true
-  },
-  "song:drrhdum|ri": {
-   "missAt": "2026-10-10T22:56:28Z",
-   "loose": true
-  },
-  "song:pantiycolale|djchulonyc": {
-   "missAt": "2026-10-10T22:56:32Z",
-   "loose": true
-  },
-  "song:safarfunkyinstrumental|yungsinghxcxli": {
-   "missAt": "2026-10-10T22:56:38Z",
-   "loose": true
-  },
-  "song:drop|cdsiac": {
-   "missAt": "2026-10-10T22:56:42Z",
-   "loose": true
-  },
-  "song:eladasacode|djguina": {
-   "missAt": "2026-10-10T22:56:45Z",
-   "loose": true
-  },
-  "song:br3athe|otdelta": {
-   "missAt": "2026-10-10T22:56:49Z",
-   "loose": true
-  },
-  "song:jangriddim|yungsinghxlamsi": {
-   "missAt": "2026-10-10T22:56:55Z",
-   "loose": true
-  },
-  "song:aja|yungsinghxlamsi": {
-   "missAt": "2026-10-10T22:57:02Z",
-   "loose": true
-  },
-  "song:blacknotred|nikulreekzfreezachin": {
-   "missAt": "2026-10-10T22:57:09Z",
-   "loose": true
-  },
-  "song:painossodosmartires|cirineukuhnsergioturcaoreginaantonelli": {
-   "missAt": "2026-10-10T22:57:16Z",
-   "loose": true
-  },
-  "song:lasdulcespromesas|leongieco": {
-   "missAt": "2026-10-10T22:57:19Z",
-   "loose": true
-  },
-  "song:panisetcircenses|mutantes": {
-   "missAt": "2026-10-10T22:57:23Z",
-   "loose": true
-  },
-  "song:mariofilhadaputa|djramemes": {
-   "missAt": "2026-10-10T22:57:26Z",
-   "loose": true
-  },
-  "song:polciacovarde|fbcvhoor": {
-   "missAt": "2026-10-10T22:57:30Z",
-   "loose": true
-  },
-  "song:quentepegou|abailer": {
-   "missAt": "2026-10-10T22:57:33Z",
-   "loose": true
-  },
-  "song:hopefulvillage|tenors": {
-   "missAt": "2026-10-10T22:57:37Z",
-   "loose": true
-  },
-  "song:tentoone|madlads": {
-   "missAt": "2026-10-10T22:57:40Z",
-   "loose": true
-  },
-  "song:isittrue|lincolnsugarminott": {
-   "missAt": "2026-10-10T22:57:43Z",
-   "loose": true
-  },
-  "song:lonelylover|slimsmith": {
-   "missAt": "2026-10-10T22:57:47Z",
-   "loose": true
-  },
-  "song:idontcare|bobtie": {
-   "missAt": "2026-10-10T22:57:53Z",
-   "loose": true
-  },
-  "song:cometome|jaytees": {
-   "missAt": "2026-10-10T22:57:56Z",
-   "loose": true
-  },
-  "song:mosquitoone|dalcapone": {
-   "missAt": "2026-10-10T22:58:00Z",
-   "loose": true
-  },
-  "song:playplayplay|ritamarleybobmarleythewailers": {
-   "missAt": "2026-10-10T22:58:06Z",
-   "loose": true
-  },
-  "song:ladylady|hortenseellis": {
-   "missAt": "2026-10-10T22:58:10Z",
-   "loose": true
-  },
-  "song:whatwilltheydo|leroysmart": {
-   "missAt": "2026-10-10T22:58:13Z",
-   "loose": true
-  },
-  "song:servicetunnelovertime|thomasjeffreyxsomebodyyyy": {
-   "missAt": "2026-10-10T22:58:19Z",
-   "loose": true
-  },
-  "song:prologue|thenticy": {
-   "missAt": "2026-10-10T22:58:23Z",
-   "loose": true
-  },
-  "song:comfy|mulholland": {
-   "missAt": "2026-10-10T22:58:26Z",
-   "loose": true
-  },
-  "song:divinetrick|siumata": {
-   "missAt": "2026-10-10T22:58:29Z",
-   "loose": true
-  },
-  "song:gridlock|jaycarder": {
-   "missAt": "2026-10-10T22:58:33Z",
-   "loose": true
-  },
-  "song:lastorders|axle": {
-   "missAt": "2026-10-10T22:58:36Z",
-   "loose": true
-  },
-  "song:ohm|slimyape": {
-   "missAt": "2026-10-10T22:58:39Z",
-   "loose": true
-  },
-  "song:untitled|josidevil": {
-   "missAt": "2026-10-10T22:58:42Z",
-   "loose": true
-  },
   "meaningofflowers|agnesobel": {
    "id": "6796336710",
    "artist": "Agnes Obel",
@@ -17777,6 +15912,15 @@
    "year": "2026",
    "genre": "Dance",
    "collection": "Brownswood Remix Editions 009 - Kokoroko Remixes - Single"
+  },
+  "song:wishuponyou|florenceroad": {
+   "id": "6813629982",
+   "artist": "Florence Road",
+   "album": "Wish Upon You",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/0c/5a/4e0c5a67-e66b-47a7-0aa1-1f97d1e1c12d/1200220128754.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Indie Pop",
+   "collection": "Wish Upon You - Single"
   }
  }
 }
