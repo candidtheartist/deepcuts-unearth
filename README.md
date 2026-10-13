@@ -9,13 +9,13 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 
 | Kind of music | Sources |
 |---|---|
-| Everything | Pitchfork (reviews, Best New Music, tracks, Best New Track), Bandcamp Daily, Stereogum (Album of the Week, single-song posts), The Guardian, Treble (reviews, Album of the Week), The Quietus, Beats Per Minute, Clash, God Is in the TV, Dusted, Sun 13, Everything Is Noise, musicOMH, Jenesaispop and Muzikalia (Spanish-language), Aquarium Drunkard, The Needle Drop, Gorilla vs. Bear, NME, DIY, Uncut, Our Culture, Spectrum Culture, Spill Magazine, mxdwn, Boomkat (the shop's new arrivals, less its reissues) |
+| Everything | Pitchfork (reviews, Best New Music, tracks, Best New Track), Bandcamp Daily, Stereogum (Album of the Week, single-song posts), The Guardian, Treble (reviews, Album of the Week), The Quietus, Beats Per Minute, Clash, God Is in the TV, Dusted, Sun 13, Everything Is Noise, musicOMH, Jenesaispop and Muzikalia (Spanish-language), Aquarium Drunkard, The Needle Drop, Gorilla vs. Bear, NME, DIY, Uncut, Our Culture, Spectrum Culture, Spill Magazine, mxdwn, Rolling Stone, Variety, Albumism, PopMatters (reviews, PopMatters Picks), NPR New Music Friday (the show's five albums and its critics' five picks, each week), The Line of Best Fit, Boomkat (the shop's new arrivals, less its reissues) |
 | Alternative & indie | Post-Trash, Various Small Flames, The Alternative, r/indieheads |
 | Folk | KLOF Mag, The Guardian Folk Album of the Month, Various Small Flames |
 | Country & Americana | Saving Country Music, Americana Highways, Americana UK |
 | Punk & emo | The Alternative, Dying Scene, Louder Than War, Chorus.fm (songs) |
 | Metal & heavy | Angry Metal Guy, Last Rites, Heavy Blog Is Heavy, The Sleeping Shaman, Echoes and Dust |
-| Hip-hop | RapReviews, Shatter the Standards, Grown Up Rap, Monkeyboxing, The Word Is Bond, r/hiphopheads |
+| Hip-hop | RapReviews, Shatter the Standards, Grown Up Rap, Monkeyboxing, The Word Is Bond, Underground Hip Hop Blog, r/hiphopheads |
 | R&B, soul and funk | Shatter the Standards, Twisted Soul, Monkeyboxing |
 | Jazz | The Guardian Jazz Album of the Month, Jazz Trail, The Free Jazz Collective, UK Vibe (4/5 and up), UK Jazz News |
 | Electronic | First Floor, Igloo Magazine, DJ Mag, Electronic Sound, Inverted Audio (reviews), Hard Wax (the shop's new arrivals: techno, jungle, footwork, dubstep), Ban Ban Ton Ton (Balearic, downtempo), Acid Stag; songs: Inverted Audio, The Ransom Note, Bolting Bits (house), Trommel (minimal), Trance Attack (trance), Stereofox (beats, downtempo) |
@@ -28,11 +28,34 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 | Radio | KEXP, KCRW (Eclectic 24 and the DJs' shows), triple j, NTS (picked and latest shows): what was played over the last week |
 | Listeners | ListenBrainz: albums and songs played well above their monthly average this week. Reddit: the week's 15 most upvoted "[FRESH ALBUM]" threads on r/hiphopheads and r/indieheads |
 
-Only posts whose title names one album or one song are used (a review, an "album of the day"): news,
-interviews, lists and round-ups are skipped.
+Only posts about one album or one song are used (a review, an "album of the day"): news,
+interviews, lists and round-ups are skipped. Most name the record in the headline ("Artist – Album"). Where the
+headline is a sentence ("Leon Bridges Shakes Up His Sound Once Again": Rolling Stone, Variety, PopMatters, Albumism),
+the record is read from the rest of the feed item with `tagged()`: the post is tagged with the artist, its link reads
+artist-album-review, and the album is whatever the headline quotes or else the link's words after the artist.
+
+A post can also list several records, one to a line (NPR's New Music Friday episode notes): give the source a
+`list` made with `listed(...)` in place of `parse`, and `title` to say which of the feed's posts are lists.
 
 Blog feeds are RSS, which sites publish for other apps to read. ListenBrainz data is open, and the
-stations' playlists come from the JSON their own sites and apps read. Nothing here scrapes a web page.
+stations' playlists come from the JSON their own sites and apps read.
+
+## Review pages
+
+One outlet so far (The Line of Best Fit) has sentence headlines and a feed with no tags, so the job opens each
+of its review pages, once, and reads which album it's about and what it scored from the schema.org data the
+page carries for search engines (`review_data`). A source asks for this with `page` in place of `parse`. The rules:
+
+- Only where the site's robots.txt allows it; a site whose robots.txt can't be read is left alone.
+- Each page is read once, at most 15 new pages a run, a second apart. What it said is kept in `memory.json` (`pages`) for 90 days.
+- Only the artist, album and score are kept: never any of the review's words. The app links to the review.
+- The job says who it is, as it does for feeds, and never pretends to be a browser. A site that turns it away stays out.
+
+A score changes what the review weighs: under 6.5 out of 10 it isn't a recommendation and is left out,
+8 and up counts half as much again, 9 and up twice.
+
+Most outlets don't carry this data (Rolling Stone, NPR, Albumism and PopMatters mark reviews as plain articles),
+and Pitchfork shows its scores to subscribers only, which is why the others are read from their feeds.
 
 ## Radio
 

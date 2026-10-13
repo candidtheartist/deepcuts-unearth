@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "17 * * * *"   # every hour, at 17 minutes past
   workflow_dispatch:        # lets you run it by hand from the Actions tab
+  push:                     # a change to the job shows in the feed at once, not at the next scheduled run
+    branches: [main]
+    paths: [build_feed.py]
 
 permissions:
   contents: write

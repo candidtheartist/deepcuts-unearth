@@ -27,6 +27,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+import urllib.robotparser
 import xml.etree.ElementTree as ET
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -49,6 +50,13 @@ PICK_WEIGHT = 3.0  # a feed that weighs this much is an outlet's hand-picked bes
 # How many records may make the list with only one outlet behind them, per outlet. A blog that reviews
 # everything would otherwise outnumber the ones that pick; its other reviews still count as agreement.
 MAX_SOLO = {"album": 8, "song": 6}
+# Review pages (for the few outlets whose feed doesn't name the record): how many new ones a run may read,
+# how long what a page said is kept, and what a score does to a review's weight. A page is read once.
+MAX_PAGES = 15
+PAGE_DAYS = 90
+LOW_SCORE = 0.65       # below this share of full marks, the review isn't a recommendation
+GOOD_SCORE = (0.8, 1.5)
+GREAT_SCORE = (0.9, 2.0)
 # How many albums and songs make the list, and how many more each genre may add on top of that
 # (so there's enough metal, jazz or country for the people who mostly play that).
 MAX_ALBUMS = 120
@@ -129,10 +137,79 @@ def beats_per_minute(item):
 
 
 def stereogum_aotw(item):
-    """'Album Of The Week: Artist Album' has no separator, so it can only be used
-    when another source (or Apple's catalog) tells us where the artist ends."""
+    """'Album Of The Week: Artist Album' has no separator. The post is tagged with the artist, which says
+    where the name ends; without that, another source (or Apple's catalog) has to."""
     text = re.sub(r"^Album Of The Week:\s*", "", item["title"])
-    return ("", text) if text != item["title"] else None
+    if text == item["title"]:
+        return None
+    for tag in sorted(item.get("categories", []), key=len, reverse=True):
+        if tag and text.lower().startswith(tag.lower() + " "):
+            return tag, text[len(tag):].strip(QUOTES)
+    return "", text
+
+
+# ‘…’ and '…' may hold an apostrophe (‘She’s the Best’): the quote ends where no letter follows.
+IN_QUOTES = (r"‘((?:[^‘’]|’(?=\w))+?)[,.]?’(?!\w)|[“\"]([^“”\"]+?)[,.]?[”\"]"
+             r"|(?<![\w’'])'((?:[^']|'(?=\w))+?)[,.]?'(?!\w)")
+FILING_TAGS = r"(?:(?:album|music|ep) )?reviews?|albums?|music|news|features?|long reads|album review"  # tags that say what a post is, not who it's about
+REVIEW_ENDING = r"-(?:(?:album|ep|mixtape|lp)-)?review(?:-.*)?$|-new-music(?:-.*)?$"
+
+
+def link_words(item):
+    """The words of a link's last part: '…/reviews/leon-bridges-happiness-anytime-album-review-1235629868/' →
+    'leon-bridges-happiness-anytime'."""
+    words = slugify(urllib.parse.urlsplit(item["link"]).path.rstrip("/").rsplit("/", 1)[-1].removesuffix(".html"))
+    return re.sub(REVIEW_ENDING, "", re.sub(r"-\d{5,}$", "", words))
+
+
+def quoted(title):
+    """What a headline puts in quotes, in order."""
+    return [(a or b or c).strip() for a, b, c in re.findall(IN_QUOTES, title)]
+
+
+def spelled(words, title, or_capitals=True):
+    """Link words as the headline writes them ('fontaines-d-c' → 'Fontaines D.C.'), or in plain capitals when it doesn't."""
+    tokens = title.split()
+    for start in range(len(tokens)):
+        for end in range(start + 1, min(len(tokens), start + 8) + 1):
+            span = re.sub(r"[’']s?$|[,:]$", "", " ".join(tokens[start:end]))
+            if slugify(span) == words:
+                return span.strip(QUOTES)
+    return string.capwords(words.replace("-", " ")) if or_capitals else None
+
+
+def tagged(skip=None):
+    """A parser for outlets whose headline is a sentence ("Leon Bridges Shakes Up His Sound Once Again").
+    The record is still named, just not there: the post is tagged with the artist, and its link reads
+    artist-album-review. The album is whatever the headline quotes, or else the link's words after the artist.
+    With no tags (Albumism), the album quoted in the headline says where the link's artist ends; and when the
+    link is only the headline again (Underground Hip Hop Blog), the artist is the tag the headline mentions."""
+    skip_regex = re.compile(skip, re.I) if skip else None
+
+    def parse(item):
+        title, tags = item["title"], [t for t in item.get("categories", []) if t and not re.fullmatch(FILING_TAGS, t, re.I)]
+        if skip_regex and skip_regex.search(title):
+            return None
+        words, quotes = link_words(item), quoted(title)
+        for tag in sorted(tags, key=len, reverse=True):
+            if words.startswith(slugify(tag) + "-"):
+                rest = words[len(slugify(tag)) + 1:]
+                album = next((q for q in quotes if slugify(q) and slugify(q) in rest), None)
+                artist = tag if tag != tag.lower() else spelled(slugify(tag), title)  # some tags are all in small letters
+                return (artist, album or spelled(rest, title)) if rest else None
+        named = [t for t in tags if re.search(r"(?<!\w)" + re.escape(t) + r"(?!\w)", title, re.I)]
+        if named and quotes:
+            named.sort(key=lambda t: title.lower().index(t.lower()))
+            return " & ".join(named), quotes[0]
+        for album in quotes:
+            ending = "-" + slugify(album)
+            if not tags and words.endswith(ending) and len(words) > len(ending):
+                artist = words[:-len(ending)]
+                # A long run of words that the headline doesn't spell out isn't a name.
+                name = spelled(artist, title, or_capitals=artist.count("-") < 4)
+                return (name, album) if name else None
+        return None
+    return parse
 
 
 def pitchfork_track(item):
@@ -171,6 +248,29 @@ def reddit_fresh(item):
         return None
     artist = re.sub(r"\s*\([^)]*\)?\s*$", "", m.group(1)).strip()
     return (artist, m.group(2).strip()) if artist and len(artist) <= 80 else None
+
+
+def listed(pattern, after, before=None):
+    """A parser for a post that lists several records, one to a line: every (artist, album) on a line matching
+    `pattern`, in the part of the post that follows the heading `after` (and stops at the heading `before`)."""
+    regex = re.compile(pattern, re.I)
+
+    def parse(item):
+        found, inside = [], False
+        for line in (line.strip() for line in item.get("text", "").splitlines()):
+            heading = re.sub(r"^\(\d+:\d+\)?\s*", "", line)  # podcast notes put a time before each heading
+            if re.fullmatch(after, heading):
+                inside = True
+            elif before and re.fullmatch(before, heading):
+                inside = False
+            elif inside and regex.match(line):
+                m = regex.match(line)
+                found.append((m.group("artist").strip(), m.group("album").strip()))
+        return found
+    return parse
+
+
+NPR_LINE = r"^-\s*(?P<artist>.+?), [‘'](?P<album>.+)[’']$"
 
 
 QUOTES = "“”‘’\"' "
@@ -337,6 +437,41 @@ SOURCES = [
      "site": "https://music.mxdwn.com/category/reviews/",
      "feed": "https://music.mxdwn.com/category/reviews/feed/",
      "parse": titled(r"^Album Review: (?P<artist>.+?) [–-] (?P<album>.+)$")},
+    # Headlines that are sentences: the record is read from the post's tags and link (see `tagged`).
+    {"id": "rolling-stone", "name": "Rolling Stone", "kind": "blog", "weight": 1.5,
+     "site": "https://www.rollingstone.com/music/music-album-reviews/",
+     "feed": "https://www.rollingstone.com/music/music-album-reviews/feed/", "category": "Album Reviews",
+     "parse": tagged(skip=r"box(?:ed)? set|reissue|anniversary|deluxe")},
+    {"id": "variety", "name": "Variety", "kind": "blog", "weight": 1.5,
+     "site": "https://variety.com/v/music/album-reviews/",
+     "feed": "https://variety.com/v/music/album-reviews/feed/", "category": "Album Reviews",
+     "parse": tagged(skip=r"box(?:ed)? set|reissue|anniversary|deluxe")},
+    {"id": "albumism", "name": "Albumism", "kind": "blog", "weight": 1.5,
+     "site": "https://albumism.com/reviews",
+     "feed": "https://albumism.com/reviews?format=rss", "parse": tagged(skip=r"anniversary|turns \d+|tribute|retrospective")},
+    {"id": "popmatters-picks", "name": "PopMatters Picks", "kind": "blog", "weight": 2.0, "family": "popmatters",
+     "site": "https://www.popmatters.com/category/music/music-reviews",
+     "feed": "https://www.popmatters.com/category/music/music-reviews/feed", "category": "PopMatters Picks",
+     "parse": tagged(skip=r"festival|\blive\b|interview|best .* of|reissue|anniversary")},
+    {"id": "popmatters", "name": "PopMatters", "kind": "blog", "weight": 1.0, "family": "popmatters",
+     "site": "https://www.popmatters.com/category/music/music-reviews",
+     "feed": "https://www.popmatters.com/category/music/music-reviews/feed", "category": "Music Reviews",
+     "parse": tagged(skip=r"festival|\blive\b|interview|best .* of|reissue|anniversary")},
+    # NPR's New Music Friday: each week's episode notes list the five albums the show is about ("The Starting 5")
+    # and five more its critics picked ("The Lightning Round"), one to a line: "- Cameron Winter, 'Live at Carnegie Hall'".
+    {"id": "npr-new-music-friday", "name": "NPR New Music Friday", "kind": "blog", "weight": 3.0, "family": "npr",
+     "site": "https://www.npr.org/sections/allsongs/", "feed": "https://feeds.npr.org/510019/podcast.xml",
+     "title": r"^New Music Friday", "list": listed(NPR_LINE, after=r"The Starting 5", before=r"The Lightning Round")},
+    {"id": "npr-critics-picks", "name": "NPR New Music Friday (critics’ picks)", "kind": "blog", "weight": 2.0, "family": "npr",
+     "site": "https://www.npr.org/sections/allsongs/", "feed": "https://feeds.npr.org/510019/podcast.xml",
+     "title": r"^New Music Friday", "list": listed(NPR_LINE, after=r"The Lightning Round")},
+    # The Line of Best Fit's headlines are sentences and its feed has no tags, but each review's page says
+    # which album it is and what it scored, in the data it carries for search engines (see `read_review`).
+    # That data leaves the artist out, so `artist` is where the page links to them.
+    {"id": "line-of-best-fit", "name": "The Line of Best Fit", "kind": "blog", "weight": 1.5,
+     "site": "https://www.thelineofbestfit.com/albums",
+     "feed": "https://www.thelineofbestfit.com/feed", "category": "Albums",
+     "page": {"artist": r'href="[^"]*/artists/[^"]+">\s*([^<]+?)\s*</a>'}},
     # A shop's new arrivals, as Hard Wax is: dozens a day, so it weighs little by itself and mostly
     # adds its voice to what others picked. Its many reissues are left out by what the blurb says.
     {"id": "boomkat", "name": "Boomkat", "kind": "curator", "weight": 0.8,
@@ -437,6 +572,10 @@ SOURCES = [
     {"id": "monkeyboxing", "name": "Monkeyboxing", "kind": "curator", "weight": 1.5, "genres": ["rnb", "hiphop"],
      "site": "https://www.monkeyboxing.com",  # funk, soul, breaks and hip-hop
      "feed": "https://www.monkeyboxing.com/feed/", "parse": titled(r"^(?P<artist>[^:]+): +(?P<album>.+?) (?:LP|EP)$")},
+    {"id": "underground-hip-hop-blog", "name": "Underground Hip Hop Blog", "kind": "blog", "weight": 1.5, "genres": ["hiphop"],
+     "site": "https://undergroundhiphopblog.com/albums/",
+     "feed": "https://undergroundhiphopblog.com/feed/", "category": "Albums",
+     "parse": tagged(skip=r"^(?!.*\((?:album|ep|mixtape) review\))")},
     {"id": "word-is-bond", "name": "The Word Is Bond", "kind": "blog", "weight": 1.5, "genres": ["hiphop"],
      "site": "https://www.thewordisbond.com",
      "feed": "https://www.thewordisbond.com/feed/",
@@ -622,6 +761,7 @@ SONG_SOURCES = [
 
 FAMILIES = {s["id"]: s.get("family", s["id"]) for s in SOURCES + SONG_SOURCES}
 PICKS = {s["id"] for s in SOURCES + SONG_SOURCES if s["weight"] >= PICK_WEIGHT}
+LISTS = {s["id"] for s in SOURCES + SONG_SOURCES if "list" in s}
 SOURCE_GENRES = {s["id"]: s.get("genres", []) for s in SOURCES + SONG_SOURCES}
 
 LISTENERS = {"id": "listenbrainz", "name": "ListenBrainz listeners", "kind": "listeners",
@@ -740,7 +880,7 @@ def feed_items(xml_bytes):
         tag = element.tag.rsplit("}", 1)[-1]
         if tag not in ("item", "entry"):
             continue
-        item = {"title": "", "link": "", "date": None, "image": None, "description": "", "categories": []}
+        item = {"title": "", "link": "", "date": None, "image": None, "description": "", "text": "", "categories": []}
         for child in element:
             name = child.tag.rsplit("}", 1)[-1]
             if name == "category":
@@ -753,6 +893,8 @@ def feed_items(xml_bytes):
                 item["date"] = parse_date((child.text or "").strip())
             elif name in ("description", "summary") and not item["description"]:
                 item["description"] = re.sub(r"<[^>]+>", " ", html.unescape(child.text or ""))[:400]
+                # The same with its line breaks kept, for posts that list records one to a line.
+                item["text"] = re.sub(r"<[^>]+>", " ", re.sub(r"(?i)<br\s*/?>|</p>|</li>|</div>", "\n", html.unescape(child.text or "")))[:8000]
             elif name == "thumbnail" and child.attrib.get("url"):
                 item["image"] = child.attrib["url"]
         yield item
@@ -774,7 +916,97 @@ def read_feed(address):
         return error
 
 
-def blog_mentions(now, sources):
+ROBOTS = {}
+
+
+def allowed(url):
+    """Whether the site's robots.txt lets this job read the page. A site whose robots.txt can't be read is left alone."""
+    parts = urllib.parse.urlsplit(url)
+    site = f"{parts.scheme}://{parts.netloc}"
+    if site not in ROBOTS:
+        try:
+            rules = urllib.robotparser.RobotFileParser()
+            rules.parse(fetch(site + "/robots.txt").decode(errors="replace").splitlines())
+            ROBOTS[site] = rules
+        except Exception:
+            ROBOTS[site] = None
+    return bool(ROBOTS[site]) and ROBOTS[site].can_fetch(USER_AGENT, url)
+
+
+def review_data(page, artist_pattern=None):
+    """The album a review page says it's about and its score as a share of full marks, from the schema.org
+    data pages carry for search engines: a MusicAlbum with a review, or a Review of one. When that leaves the
+    artist out, `artist_pattern` finds the name elsewhere on the page. None of the review's own words are kept."""
+    def things(node):
+        if isinstance(node, dict):
+            yield node
+            for value in node.values():
+                yield from things(value)
+        elif isinstance(node, list):
+            for value in node:
+                yield from things(value)
+
+    for block in re.findall(r"<script[^>]*application/ld\+json[^>]*>(.*?)</script>", page, re.S | re.I):
+        try:
+            data = json.loads(block)
+        except ValueError:
+            continue
+        for thing in things(data):
+            album, review = None, None
+            if thing.get("@type") == "MusicAlbum" and isinstance(thing.get("review"), dict):
+                album, review = thing, thing["review"]
+            elif thing.get("@type") == "Review" and isinstance(thing.get("itemReviewed"), dict) \
+                    and thing["itemReviewed"].get("@type") == "MusicAlbum":
+                album, review = thing["itemReviewed"], thing
+            if not album or not album.get("name"):
+                continue
+            by, rating, score = album.get("byArtist"), review.get("reviewRating") or {}, None
+            try:
+                low = float(rating.get("worstRating", 0))
+                score = (float(rating["ratingValue"]) - low) / (float(rating.get("bestRating", 5)) - low)
+            except (KeyError, TypeError, ValueError, ZeroDivisionError):
+                pass
+            elsewhere = re.search(artist_pattern, page) if artist_pattern else None
+            return {"album": html.unescape(album["name"]).strip(),
+                    "artist": html.unescape(by["name"] if isinstance(by, dict) and by.get("name")
+                                            else elsewhere.group(1) if elsewhere else "").strip(),
+                    "score": round(score, 3) if score is not None else None}
+    return None
+
+
+def read_review(item, pages, now, budget, how):
+    """What a review's page says: {artist, album, score}, or None. Each page is read once and the answer kept
+    in memory.json; a run reads only a few new ones (`budget`), a second apart, and only where robots.txt allows."""
+    url, stamp = item["link"], now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    known = pages.get(url)
+    if known is None:
+        if budget[0] <= 0 or not allowed(url):
+            return None
+        budget[0] -= 1
+        try:
+            known = review_data(fetch(url).decode(errors="replace"), how.get("artist")) or {}
+            time.sleep(1)
+        except Exception as error:
+            log(f"  couldn't read {url}: {error}")
+            return None  # not kept: tried again next run
+        pages[url] = {**known, "at": stamp}
+        known = pages[url]
+    return known if known.get("album") and known.get("artist") else None
+
+
+def score_factor(score):
+    """What a review's score does to its weight: a low one isn't a recommendation, a high one counts for more."""
+    if score is None:
+        return 1.0
+    if score < LOW_SCORE:
+        return 0
+    return GREAT_SCORE[1] if score >= GREAT_SCORE[0] else GOOD_SCORE[1] if score >= GOOD_SCORE[0] else 1.0
+
+
+def blog_mentions(now, sources, pages=None):
+    """Every record the sources' feeds name. `pages` is what review pages said on earlier runs (see `read_review`)."""
+    pages = {} if pages is None else pages
+    budget = [MAX_PAGES]
     mentions, status = [], {}
     addresses = list(dict.fromkeys(s["feed"] for s in sources))  # sources that share a feed ask for it once
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
@@ -793,13 +1025,24 @@ def blog_mentions(now, sources):
                 continue
             if "category" in source and source["category"] not in item["categories"]:
                 continue
-            parsed = source["parse"](item)
-            if not parsed or ("skip_description" in source and re.search(source["skip_description"], item["description"], re.I)):
+            if "title" in source and not re.search(source["title"], item["title"], re.I):
                 continue
-            artist, album = parsed
-            mentions.append({"source": source["id"], "artist": artist, "album": album, "url": item["link"],
-                             "date": item["date"], "image": item["image"], "weight": source["weight"]})
-            found += 1
+            if "skip_description" in source and re.search(source["skip_description"], item["description"], re.I):
+                continue
+            factor = 1.0
+            if "list" in source:
+                records = source["list"](item)
+            elif "page" in source:
+                review = read_review(item, pages, now, budget, source["page"])
+                factor = score_factor(review.get("score")) if review else 0
+                records = [(review["artist"], review["album"])] if factor else []
+            else:
+                records = [source["parse"](item)]
+            for artist, album in filter(None, records):
+                mentions.append({"source": source["id"], "artist": artist, "album": album, "url": item["link"],
+                                 "date": item["date"], "image": item["image"], "weight": source["weight"] * factor,
+                                 **({"factor": factor} if factor != 1 else {})})
+                found += 1
         status[source["id"]] = f"{found} found"
         log(f"  {source['id']}: {found} found in {len(items)} items")
     return mentions, status
@@ -809,17 +1052,20 @@ def remember(fresh, remembered, sources, now):
     """Adds mentions from earlier runs that have scrolled out of their feed but are still inside the window.
     A source that has been removed takes its old mentions with it; weights are today's."""
     weights = {s["id"]: s["weight"] for s in sources}
-    seen = {(m["source"], m["url"]) for m in fresh}
+    def post(m):  # one post is one mention, except for a source that lists several records in a post
+        return (m["source"], m.get("url")) + ((key(m["artist"], m["album"]),) if m["source"] in LISTS else ())
+    seen = {post(m) for m in fresh}
     merged = list(fresh)
     for old in remembered:
         date = parse_date(old.get("date"))
-        if old.get("source") not in weights or (old["source"], old.get("url")) in seen:
+        if old.get("source") not in weights or post(old) in seen:
             continue
         if not date or (now - date).days > LONG_WINDOW_DAYS:
             continue
-        seen.add((old["source"], old.get("url")))
+        seen.add(post(old))
         merged.append({"source": old["source"], "artist": old["artist"], "album": old["album"], "url": old.get("url"),
-                       "date": date, "image": old.get("image"), "weight": weights[old["source"]]})
+                       "date": date, "image": old.get("image"), "weight": weights[old["source"]] * old.get("factor", 1),
+                       **({"factor": old["factor"]} if "factor" in old else {})})
     return merged
 
 
@@ -1329,7 +1575,10 @@ def score(mentions, listeners, now):
 def build_list(kind, sources, now, apple_cache, status, memory, radio=()):
     """Collects, scores, ranks and matches one list: 'album' or 'song'."""
     log(f"Reading {kind} feeds…")
-    mentions, feed_status = blog_mentions(now, sources)
+    pages = memory.setdefault("pages", {})
+    mentions, feed_status = blog_mentions(now, sources, pages)
+    for url in [url for url, page in pages.items() if (now - (parse_date(page.get("at")) or now)).days > PAGE_DAYS]:
+        del pages[url]
     status.update(feed_status)
     mentions = remember(mentions, memory.get(kind, []), sources, now)
     memory[kind] = [{**m, "date": m["date"].strftime("%Y-%m-%dT%H:%M:%SZ"), "weight": None} for m in mentions]
@@ -1462,7 +1711,7 @@ def main():
     with open(OUTPUT, "w") as f:
         json.dump(feed, f, indent=1, ensure_ascii=False)
     with open(MEMORY, "w") as f:
-        json.dump({kind: [{k: v for k, v in m.items() if k != "weight"} for m in items] if kind != "radio" else items
+        json.dump({kind: [{k: v for k, v in m.items() if k != "weight"} for m in items] if kind in ("album", "song") else items
                    for kind, items in memory.items()}, f, indent=1, ensure_ascii=False)
     for name, items in (("albums", albums), ("songs", songs)):
         matched = sum(1 for item in items if item["appleMusicID"])

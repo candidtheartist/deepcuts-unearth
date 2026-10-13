@@ -183,6 +183,139 @@ class NewSourceTests(unittest.TestCase):
         self.assertEqual(status, {"r-hiphopheads": "15 found", "r-indieheads": "15 found"})  # `top`: the 15 most upvoted
         self.assertTrue(all(m["artist"].startswith(m["source"][2:]) for m in mentions))
 
+    def read(self, source_id, title, link, *tags):
+        source = next(s for s in b.SOURCES if s["id"] == source_id)
+        return source["parse"]({"title": title, "link": link, "categories": list(tags)})
+
+    def test_a_sentence_headline_is_read_from_the_posts_tags_and_link(self):
+        # The tag names the artist, and the link reads artist-album-review.
+        self.assertEqual(self.read("rolling-stone", "Leon Bridges Shakes Up His Sound Once Again",
+                                   "https://www.rollingstone.com/music/music-album-reviews/leon-bridges-happiness-anytime-album-review-1235629868/",
+                                   "Album Reviews", "Music", "Jungle", "Leon Bridges"), ("Leon Bridges", "Happiness Anytime"))
+        self.assertEqual(self.read("rolling-stone", "Fontaines D.C. Make Dystopian Rock That Hits Just Right for Dark Times",
+                                   "https://www.rollingstone.com/music/music-album-reviews/fontaines-d-c-dopamine-chamber-album-review-1235637810/",
+                                   "Album Reviews", "Music", "Fontaines D.C."), ("Fontaines D.C.", "Dopamine Chamber"))
+        # What the headline quotes is the album as it's written, apostrophe and all.
+        self.assertEqual(self.read("variety", "Troye Sivan Is at His Best on ‘She’s the Best,’ a Weird, Wild Exploration",
+                                   "https://variety.com/2026/music/album-reviews/troye-sivan-shes-the-best-album-review-1236905931/",
+                                   "Album Reviews", "News", "Reviews", "Troye Sivan"), ("Troye Sivan", "She’s the Best"))
+        self.assertEqual(self.read("rolling-stone", "On ‘Cocoon’, Yeat Returns to Familiar Territory With Mostly Dull Results",
+                                   "https://www.rollingstone.com/music/music-album-reviews/yeat-cocoon-new-music-drake-feature-1235630031/",
+                                   "Album Reviews", "Music", "Hip-Hop", "Rap", "Yeat"), ("Yeat", "Cocoon"))
+        # A tag in small letters is spelled as the headline has it.
+        self.assertEqual(self.read("popmatters", "Ibibio Sound Machine Nuance the Dancefloor Superbly",
+                                   "https://www.popmatters.com/ibibio-sound-machine-chopping-mountain",
+                                   "Music", "Music Reviews", "Reviews", "afro-funk", "ibibio sound machine"), ("Ibibio Sound Machine", "Chopping Mountain"))
+
+    def test_with_no_tags_the_quoted_album_says_where_the_links_artist_ends(self):
+        self.assertEqual(self.read("albumism", "Cleo Sol’s ‘Gentlewoman’ Embraces Stasis Amidst Moments of Musical Revelation | Album Review",
+                                   "https://albumism.com/reviews/cleo-sol-gentlewoman", "REVIEW"), ("Cleo Sol", "Gentlewoman"))
+        self.assertEqual(self.read("albumism", "With Confidence and Charisma, Ego Ella May Transforms Her ‘Good Intentions’ into Great Songs | Album Review",
+                                   "https://albumism.com/reviews/ego-ella-may-good-intentions", "REVIEW"), ("Ego Ella May", "Good Intentions"))
+        # A long run of link words the headline doesn't spell out isn't a name.
+        self.assertIsNone(self.read("albumism", "Rakim, Kurupt & Masta Killa Join Forces for Collaborative ‘The Godbody LP’ | Album Review",
+                                    "https://albumism.com/reviews/rakim-kurupt-masta-killa-dpg-wu-tang-wu-tang-dpg-the-godbody-lp", "REVIEW"))
+
+    def test_when_the_link_is_the_headline_again_the_artist_is_the_tag_it_mentions(self):
+        self.assertEqual(self.read("underground-hip-hop-blog", "Souls of Mischief’s New EP “Clean Getaway” Isn’t as Great as “All Said & Done” (EP Review)",
+                                   "https://undergroundhiphopblog.com/albums/souls-of-mischiefs-new-ep-clean-getaway-isnt-as-great/",
+                                   "Albums", "Reviews", "A-Plus", "Hieroglyphics", "Souls of Mischief"), ("Souls of Mischief", "Clean Getaway"))
+        self.assertIsNone(self.read("underground-hip-hop-blog", "GZA Delivers a Night of Liquid Swords in Orange County",
+                                    "https://undergroundhiphopblog.com/news/gza-delivers-a-night-of-liquid-swords/", "GZA"))
+
+    def test_tagged_leaves_out_what_it_cannot_place(self):
+        self.assertIsNone(self.read("popmatters", "Ohana Festival 2026: Grooving in the Sun with Pearl Jam",
+                                    "https://www.popmatters.com/ohana-festival-2026", "Events", "Music Reviews", "abe laboriel jr."))
+        self.assertIsNone(self.read("variety", "Joy Division’s Massive ‘Eternal’ Boxed Set Documents the Band’s Brilliance",
+                                    "https://variety.com/2026/music/album-reviews/joy-division-eternal-live-boxed-set-album-review-1236/",
+                                    "Album Reviews", "Joy Division"))
+        self.assertIsNone(self.read("rolling-stone", "Leon Bridges Shakes Up His Sound Once Again",
+                                    "https://www.rollingstone.com/music/music-album-reviews/leon-bridges-album-review-1235629868/", "Leon Bridges"))
+
+    def test_stereogums_tag_says_where_the_artist_ends(self):
+        item = {"title": "Album Of The Week: Sophia Stel the greatest album of all time", "link": "", "categories": ["Album Of The Week", "Reviews", "Sophia Stel"]}
+        self.assertEqual(b.stereogum_aotw(item), ("Sophia Stel", "the greatest album of all time"))
+        self.assertEqual(b.stereogum_aotw({**item, "categories": []}), ("", "Sophia Stel the greatest album of all time"))
+
+    NPR_NOTES = """Host Stephen Thompson breaks down the best albums, and critics offer their picks in the lightning round.<br><br>
+The Starting 5<br><br>(00:39) Album No. 1<br>- Cameron Winter, 'Live at Carnegie Hall'<br><br>(07:30) Album No. 2<br>- Troye Sivan, 'She's the Best'<br><br>
+(34:27 The Lightning Round<br><br>- Dawn Richard, 'creole culture'<br>- Allison de Groot &amp; Rich Ruth, 'Allison de Groot &amp; Rich Ruth'<br><br>
+Sample the albums via our <a href="https://x">New Music Friday playlist</a>.<br>Credits:<br>- Host: Stephen Thompson"""
+
+    def npr(self, title="New Music Friday: The best albums out Oct. 9"):
+        import xml.sax.saxutils as x
+        rss = f"<rss><channel><item><title>{title}</title><link>https://npr.org/e/1</link><pubDate>Fri, 09 Oct 2026 10:00:00 +0000</pubDate>" \
+              f"<description>{x.escape(self.NPR_NOTES)}</description></item></channel></rss>"
+        items = list(b.feed_items(rss.encode()))
+        real, b.read_feed = b.read_feed, lambda address: items
+        try:
+            sources = [s for s in b.SOURCES if s.get("family") == "npr"]
+            return b.blog_mentions(dt.datetime(2026, 10, 13, tzinfo=dt.timezone.utc), sources)[0]
+        finally:
+            b.read_feed = real
+
+    def test_a_post_that_lists_records_gives_one_mention_each(self):
+        found = [(m["source"], m["artist"], m["album"], m["weight"]) for m in self.npr()]
+        self.assertEqual(found, [
+            ("npr-new-music-friday", "Cameron Winter", "Live at Carnegie Hall", 3.0),
+            ("npr-new-music-friday", "Troye Sivan", "She's the Best", 3.0),
+            ("npr-critics-picks", "Dawn Richard", "creole culture", 2.0),
+            ("npr-critics-picks", "Allison de Groot & Rich Ruth", "Allison de Groot & Rich Ruth", 2.0),
+        ])
+        self.assertEqual(self.npr("Alt.Latino: Tim, The Beatles and all of Brazil"), [])  # the feed's other shows list songs the same way
+
+    def test_every_record_of_a_list_is_remembered(self):
+        now = dt.datetime(2026, 10, 13, tzinfo=dt.timezone.utc)
+        old = [{**m, "date": "2026-10-09T10:00:00Z"} for m in self.npr()]
+        merged = b.remember([], old, b.SOURCES, now)
+        self.assertEqual(len(merged), 4)   # four records from one post: its address alone doesn't tell them apart
+
+    LOBF_PAGE = """<html><script type="application/ld+json">{"@context": "http://schema.org", "@type": "MusicAlbum",
+        "name": "do you love the color of the sky?", "review": {"@type": "Review", "reviewBody": "Basking in the afterglow",
+        "reviewRating": {"@type": "Rating", "ratingValue": "%s", "bestRating": "10", "worstRating": "0"}}}</script>
+        <a href="https://www.thelineofbestfit.com/news">News</a>
+        <div class="uppercase"> <a href="https://www.thelineofbestfit.com/artists/dummy">Dummy</a> </div></html>"""
+
+    def lobf(self, score, pages, robots="User-agent: *\nDisallow: /cache/", budget=None):
+        now = dt.datetime(2026, 10, 13, tzinfo=dt.timezone.utc)
+        item = {"title": "Dummy offer up a pastel-hued escape fantasy", "link": "https://www.thelineofbestfit.com/albums/dummy-offer-up",
+                "date": now, "image": None, "description": "", "text": "", "categories": ["Albums"]}
+        asked = []
+
+        def fetch(url, timeout=30):
+            asked.append(url)
+            return (robots if url.endswith("/robots.txt") else self.LOBF_PAGE % score).encode()
+        source = [s for s in b.SOURCES if s["id"] == "line-of-best-fit"]
+        real = b.read_feed, b.fetch, b.time.sleep, b.MAX_PAGES
+        b.read_feed, b.fetch, b.time.sleep = (lambda address: [item]), fetch, (lambda seconds: None)
+        b.MAX_PAGES = real[3] if budget is None else budget
+        b.ROBOTS.clear()
+        try:
+            return b.blog_mentions(now, source, pages)[0], [url for url in asked if not url.endswith("/robots.txt")]
+        finally:
+            b.read_feed, b.fetch, b.time.sleep, b.MAX_PAGES = real
+
+    def test_a_review_page_says_which_album_and_its_score(self):
+        pages = {}
+        mentions, read = self.lobf(7, pages)
+        self.assertEqual([(m["artist"], m["album"], m["weight"]) for m in mentions], [("Dummy", "do you love the color of the sky?", 1.5)])
+        self.assertEqual(len(read), 1)
+        self.assertNotIn("Basking", str(pages))                      # none of the review's words are kept
+        mentions, read = self.lobf(7, pages)
+        self.assertEqual((len(mentions), read), (1, []))             # the page is read once
+
+    def test_a_score_changes_what_a_review_weighs(self):
+        self.assertEqual(self.lobf(9, {})[0][0]["weight"], 3.0)      # 9/10: twice the weight
+        self.assertEqual(self.lobf(8, {})[0][0]["weight"], 2.25)
+        self.assertEqual(self.lobf(5, {})[0], [])                    # 5/10 isn't a recommendation
+        now = dt.datetime(2026, 10, 13, tzinfo=dt.timezone.utc)
+        great = [{**m, "date": "2026-10-13T00:00:00Z", "weight": None} for m in self.lobf(9, {})[0]]
+        self.assertEqual(b.remember([], great, b.SOURCES, now)[0]["weight"], 3.0)   # and still does once it's only remembered
+
+    def test_pages_are_left_alone_where_robots_txt_says_so_or_the_run_has_read_enough(self):
+        self.assertEqual(self.lobf(7, {}, robots="User-agent: *\nDisallow: /albums/"), ([], []))
+        self.assertEqual(self.lobf(7, {}, budget=0), ([], []))
+
     def test_every_source_has_what_the_job_needs(self):
         genres = {g for g, _, _ in b.GENRES}
         ids = [s["id"] for s in b.SOURCES + b.SONG_SOURCES]
