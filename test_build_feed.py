@@ -114,6 +114,19 @@ class NewSourceTests(unittest.TestCase):
             ("trommel", "Premiere: A2 – DJ Bowlcut – Dig This [PBAVINYL002]", ("DJ Bowlcut", "Dig This")),
             ("trance-attack", "Factor B feat. Cat Martin – Crashing Over (Lost Minds Remix)", ("Factor B feat. Cat Martin", "Crashing Over")),
             ("stereofox", "edbl – A Moment (ft. JONES)", ("edbl", "A Moment")),
+            ("nme", "Troye Sivan – ‘She’s the Best’ review: late-night revelations set to a ’90s alt-dance groove", ("Troye Sivan", "She’s the Best")),
+            ("diy", "Gilla Band — Pugnello", ("Gilla Band", "Pugnello")),
+            ("uncut", "Julia Jacklin’s The Gem reviewed: Australian road warrior discovers there’s no place like home", ("Julia Jacklin", "The Gem")),
+            ("uncut", "Neil Young & The Chrome Hearts’ Second Song reviewed: an epic meditation on memory", ("Neil Young & The Chrome Hearts", "Second Song")),
+            ("our-culture", "Album Review: Troye Sivan, ‘She’s the Best’", ("Troye Sivan", "She’s the Best")),
+            ("spectrum-culture", "Jeremiah Chiu: Edge Conditions", ("Jeremiah Chiu", "Edge Conditions")),
+            ("spill", "SPILL ALBUM REVIEW: TEENAGE FANCLUB – DON’T DARE TO DREAM", ("Teenage Fanclub", "Don’t Dare To Dream")),
+            ("mxdwn", "Album Review: Meshell Ndegeocello – Synonym", ("Meshell Ndegeocello", "Synonym")),
+            ("boomkat", "Olavi Louhivuori, Eivind Lønning & Kim Myhr - Nubes", ("Olavi Louhivuori, Eivind Lønning & Kim Myhr", "Nubes")),
+            ("word-is-bond", "Jimmy B Fearless – ‘The Love is Real 2: Fortuna’ [Album Review]", ("Jimmy B Fearless", "The Love is Real 2: Fortuna")),
+            ("inverted-audio-reviews", "Miles: Vault", ("Miles", "Vault")),
+            ("r-hiphopheads", "[FRESH ALBUM] Johnny Venus (of EARTHGANG) - The 11th Hour", ("Johnny Venus", "The 11th Hour")),
+            ("r-indieheads", "[FRESH ALBUM] Cameron Winter - Live at Carnegie Hall", ("Cameron Winter", "Live at Carnegie Hall")),
         ]
         for source, title, expected in cases:
             self.assertEqual(self.parse(source, title), expected, source)
@@ -138,8 +151,37 @@ class NewSourceTests(unittest.TestCase):
             ("grown-up-rap", "Cavalier – ‘Bring It Back’ (video)"),
             ("beehype", "Argentina: Juana Sallies – “Ancora”"),
             ("ban-ban-ton-ton", "Looking for The Balearic Beat / September 2026"),
+            ("uncut", "Elvis Costello’s My Aim Is True reissued: the making of a new-wave masterpiece"),
+            ("uncut", "Oasis: Don’t Look Back In Anger reviewed – the Gallaghers’ reunion as rock’n’roll psychodrama"),
+            ("spectrum-culture", "Concert Review: Linda May Han Oh"),
+            ("mxdwn", "Live Review: The Linda Lindas at Brooklyn Steel"),
+            ("our-culture", "8 New Songs Out Today to Listen To: @, Dummy, and More"),
+            ("word-is-bond", "Top submissions  EP2 Oct 2026"),
+            ("r-indieheads", "[ALBUM DISCUSSION] Julia Jacklin - The Gem"),
         ]:
             self.assertIsNone(self.parse(source, title), title)
+
+    def test_electronic_sound_only_takes_its_reviews(self):
+        review = {"title": "Marina Herlop ‘Dja Dja’ (Bandcamp)", "link": "https://www.electronicsound.co.uk/reviews/marina-herlop-dja-dja/"}
+        column = {"title": "Ron Hardy ‘Sensation’", "link": "https://www.electronicsound.co.uk/columns/needs-must/ron-hardy/"}
+        self.assertEqual(b.electronic_sound(review), ("Marina Herlop", "Dja Dja"))
+        self.assertIsNone(b.electronic_sound(column))
+
+    def test_sources_that_share_a_feed_ask_once_and_take_their_own_threads(self):
+        now = dt.datetime(2026, 10, 13, tzinfo=dt.timezone.utc)
+        threads = [{"title": f"[FRESH ALBUM] {sub} Artist {i} - Album {i}", "link": f"https://x/{sub}/{i}", "date": now,
+                    "image": None, "description": "", "categories": [sub]}
+                   for i in range(20) for sub in ("hiphopheads", "indieheads")]
+        asked = []
+        real, b.read_feed = b.read_feed, lambda address: asked.append(address) or threads
+        try:
+            reddit = [s for s in b.SOURCES if s["feed"] == b.REDDIT_FRESH]
+            mentions, status = b.blog_mentions(now, reddit)
+        finally:
+            b.read_feed = real
+        self.assertEqual(asked, [b.REDDIT_FRESH])
+        self.assertEqual(status, {"r-hiphopheads": "15 found", "r-indieheads": "15 found"})  # `top`: the 15 most upvoted
+        self.assertTrue(all(m["artist"].startswith(m["source"][2:]) for m in mentions))
 
     def test_every_source_has_what_the_job_needs(self):
         genres = {g for g, _, _ in b.GENRES}
@@ -381,6 +423,32 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(len(b.shortlist(entries, limit=500, extra_per_genre=0, radio_only_limit=20)), 20)
 
 
+    def test_one_outlet_has_only_so_many_to_itself(self):
+        def entry(i, *sources):
+            return {"score": 100 - i, "mentions": [{"source": source} for source in sources], "listeners": None}
+        alone = [entry(i, "musicweb") for i in range(20)]
+        shared = [entry(30 + i, "musicweb", "guardian-classical") for i in range(5)]
+        picks = [entry(40 + i, "bandcamp-daily") for i in range(12)]   # an outlet's hand-picked best isn't capped
+        chosen = b.shortlist(alone + shared + picks, limit=500, extra_per_genre=0, solo_limit=8)
+        self.assertEqual(len(chosen), 8 + 5 + 12)
+        self.assertEqual([e["score"] for e in chosen[:8]], [100 - i for i in range(8)])
+        self.assertEqual(b.lone_outlet(entry(0, "pitchfork", "pitchfork-bnm")), None)
+        self.assertEqual(b.lone_outlet(entry(0, "treble", "treble")), "treble")
+
+    def test_an_acclaimed_record_fades_more_slowly_and_stays_longer(self):
+        def mention(source, days):
+            return {"source": source, "weight": 1.0, "date": self.NOW - dt.timedelta(days=days)}
+        self.assertEqual(b.score([mention("clash", 20)], None, self.NOW), 0.25)           # two half-lives of ten days
+        self.assertEqual(b.score([mention("pitchfork-bnm", 20)], None, self.NOW), 0.5)    # one of twenty
+        three = [mention("clash", 40), mention("treble", 40), mention("nme", 40)]
+        self.assertTrue(b.acclaimed(three))
+        self.assertEqual(len(b.still_counting(three, self.NOW)), 3)
+        self.assertEqual(b.still_counting(three[:2], self.NOW), [])                       # two outlets: a month, as before
+        self.assertEqual(len(b.still_counting([mention("stereogum", 55)], self.NOW)), 1)
+        self.assertEqual(b.still_counting([mention("stereogum", 61)], self.NOW), [])
+        self.assertFalse(b.acclaimed([mention("clash", 1), mention("kexp", 1), mention("kcrw", 1)]))  # stations aren't outlets
+
+
 class HelperTests(unittest.TestCase):
     def test_key_ignores_case_editions_and_the(self):
         self.assertEqual(b.key("The Strokes", "Is This It (Deluxe)"), b.key("strokes", "IS THIS IT"))
@@ -393,7 +461,18 @@ class HelperTests(unittest.TestCase):
     def test_dates(self):
         self.assertEqual(b.parse_date("Thu, 01 Oct 2026 04:03:00 +0000"), dt.datetime(2026, 10, 1, 4, 3, tzinfo=dt.timezone.utc))
         self.assertEqual(b.parse_date("2026-10-01T04:03:00Z"), dt.datetime(2026, 10, 1, 4, 3, tzinfo=dt.timezone.utc))
+        self.assertEqual(b.parse_date("Wed, 23 Sept 2026 08:01:00 +0100"), dt.datetime(2026, 9, 23, 7, 1, tzinfo=dt.timezone.utc))
         self.assertIsNone(b.parse_date("not a date"))
+
+    def test_feed_items_carry_their_categories(self):
+        rss = b"<rss><channel><item><title>A</title><category>Album Reviews</category><category>Reviews</category></item></channel></rss>"
+        atom = b'<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>B</title><category term="indieheads" label="r/indieheads"/></entry></feed>'
+        self.assertEqual(next(b.feed_items(rss))["categories"], ["Album Reviews", "Reviews"])
+        self.assertEqual(next(b.feed_items(atom))["categories"], ["indieheads"])
+
+    def test_feed_items_reads_web_page_entities(self):
+        rss = b"<rss><channel><item><title>Orville Peck &mdash; Cowboy Heart&nbsp;</title></item></channel></rss>"
+        self.assertEqual(next(b.feed_items(rss))["title"], "Orville Peck — Cowboy Heart")
 
     def test_feed_items_reads_rss_and_atom(self):
         rss = b"<rss><channel><item><title>A &amp; B</title><link>https://x/y</link><pubDate>Thu, 01 Oct 2026 04:03:00 +0000</pubDate></item></channel></rss>"

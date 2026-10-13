@@ -19,6 +19,7 @@ import math
 import os
 import re
 import shutil
+import string
 import subprocess
 import sys
 import time
@@ -39,6 +40,15 @@ VERBOSE = "--verbose" in sys.argv
 # How far back a blog post still counts, and how fast it fades (a post loses half its weight in HALF_LIFE days).
 WINDOW_DAYS = 30
 HALF_LIFE_DAYS = 10
+# A record that an outlet's hand-picked "best of" feed chose, or that several outlets wrote about, stays
+# twice as long and fades half as fast: the month's best shouldn't be gone three weeks after it came out.
+LONG_WINDOW_DAYS = 60
+LONG_HALF_LIFE_DAYS = 20
+ACCLAIM_OUTLETS = 3
+PICK_WEIGHT = 3.0  # a feed that weighs this much is an outlet's hand-picked best
+# How many records may make the list with only one outlet behind them, per outlet. A blog that reviews
+# everything would otherwise outnumber the ones that pick; its other reviews still count as agreement.
+MAX_SOLO = {"album": 8, "song": 6}
 # How many albums and songs make the list, and how many more each genre may add on top of that
 # (so there's enough metal, jazz or country for the people who mostly play that).
 MAX_ALBUMS = 120
@@ -142,6 +152,27 @@ def stereogum_song(item):
     return (m.group(1).strip(), m.group(2).strip()) if m else None
 
 
+def spill(item):
+    """Spill's titles are in capitals: 'SPILL ALBUM REVIEW: ARTIST – ALBUM'."""
+    m = re.match(r"^SPILL ALBUM REVIEW: (.+?) [–-] (.+)$", item["title"])
+    return (string.capwords(m.group(1)), string.capwords(m.group(2))) if m else None
+
+
+def electronic_sound(item):
+    """Reviews, features and columns all read 'Artist ‘Album’' (often about an old record): the link says which is a review."""
+    m = re.match(r"^([^‘']+?) [‘'](.+)[’'](?: \([^)]*\))?$", item["title"])
+    return (m.group(1).strip(), m.group(2).strip()) if m and "/reviews/" in item["link"] else None
+
+
+def reddit_fresh(item):
+    """'[FRESH ALBUM] Artist - Album'. Posters add who the artist is in brackets: 'Johnny Venus (of EARTHGANG)'."""
+    m = re.match(r"^\[FRESH ALBUM\] (.+?) [–—-] (.+)$", item["title"], re.I)
+    if not m:
+        return None
+    artist = re.sub(r"\s*\([^)]*\)?\s*$", "", m.group(1)).strip()
+    return (artist, m.group(2).strip()) if artist and len(artist) <= 80 else None
+
+
 QUOTES = "“”‘’\"' "
 
 
@@ -170,6 +201,8 @@ def titled(pattern, skip=None):
 
 DASH = r"^(?P<artist>[^:]+?) [–—-] (?P<album>.+)$"
 QUOTED = r"[“”‘’\"']"
+REDDIT_FRESH = ("https://www.reddit.com/r/hiphopheads+indieheads/search.rss"
+                "?q=title%3A%22FRESH+ALBUM%22&restrict_sr=1&sort=top&t=week&limit=100")
 
 # ---------------------------------------------------------------------------------------------
 # Genres. The app keeps the same table (UnearthGenre.swift) to read the genres in your library,
@@ -277,6 +310,41 @@ SOURCES = [
     {"id": "muzikalia", "name": "Muzikalia", "kind": "blog", "weight": 1.0,
      "site": "https://muzikalia.com",  # Spanish-language reviews
      "feed": "https://muzikalia.com/feed/", "parse": titled(r"^(?P<artist>[^:(]+?) – (?P<album>.+ \([^)]+\))$", skip=r"\d\d/\d\d/\d\d")},
+    {"id": "nme", "name": "NME", "kind": "blog", "weight": 1.5,
+     "site": "https://www.nme.com/reviews/album",
+     "feed": "https://www.nme.com/reviews/album/feed",
+     "parse": titled(r"^(?P<artist>.+?) – [‘'](?P<album>.+)[’'] (?:EP )?review\b")},
+    {"id": "diy", "name": "DIY", "kind": "blog", "weight": 1.5,
+     "site": "https://diymag.com/reviews/album-reviews",
+     "feed": "https://diymag.com/reviews/feed", "category": "Album Reviews", "parse": titled(DASH)},
+    {"id": "uncut", "name": "Uncut", "kind": "blog", "weight": 1.5,
+     "site": "https://www.uncut.co.uk/reviews/",
+     "feed": "https://www.uncut.co.uk/reviews/feed/",
+     "parse": titled(r"^(?P<artist>[^:]+?)[’']s? (?P<album>.+?) reviewed\b")},
+    {"id": "our-culture", "name": "Our Culture", "kind": "blog", "weight": 1.5,
+     "site": "https://ourculturemag.com/category/music/",
+     "feed": "https://ourculturemag.com/category/music/feed/",
+     "parse": titled(r"^Album Review: (?P<artist>.+?), [‘'](?P<album>.+)[’']$")},
+    {"id": "spectrum-culture", "name": "Spectrum Culture", "kind": "blog", "weight": 1.0,
+     "site": "https://spectrumculture.com/category/music/",
+     "feed": "https://spectrumculture.com/category/music/feed/",
+     "parse": titled(r"^(?P<artist>[^:]+): (?P<album>[^:]+)$",
+                     skip=r"^concert review|^interview|^revisit|^rediscover|^holy hell|^discography|^bargain bin|^from the vaults|^oeuvre|^playlist")},
+    {"id": "spill", "name": "Spill Magazine", "kind": "blog", "weight": 1.0,
+     "site": "https://spillmagazine.com/category/reviews/album-reviews/",
+     "feed": "https://spillmagazine.com/category/reviews/album-reviews/feed/", "parse": spill},
+    {"id": "mxdwn", "name": "mxdwn", "kind": "blog", "weight": 1.0,
+     "site": "https://music.mxdwn.com/category/reviews/",
+     "feed": "https://music.mxdwn.com/category/reviews/feed/",
+     "parse": titled(r"^Album Review: (?P<artist>.+?) [–-] (?P<album>.+)$")},
+    # A shop's new arrivals, as Hard Wax is: dozens a day, so it weighs little by itself and mostly
+    # adds its voice to what others picked. Its many reissues are left out by what the blurb says.
+    {"id": "boomkat", "name": "Boomkat", "kind": "curator", "weight": 0.8,
+     "site": "https://boomkat.com/new-releases",
+     "feed": "https://boomkat.com/new-releases.rss",
+     "parse": titled(r"^(?P<artist>[^:]+?) - (?P<album>.+)$", skip=r"^various|^V/A"),
+     "skip_description": r"reissue|repress|remaster|back in (?:print|stock|circulation)|anniversary|originally (?:released|issued)|"
+                         r"first time on vinyl|first ever vinyl|archiv|\b(?:19[5-9]\d|20[01]\d)\b"},
 
     # Rock
     {"id": "fire-note", "name": "The Fire Note", "kind": "blog", "weight": 1.5, "genres": ["rock", "indie"],
@@ -369,6 +437,20 @@ SOURCES = [
     {"id": "monkeyboxing", "name": "Monkeyboxing", "kind": "curator", "weight": 1.5, "genres": ["rnb", "hiphop"],
      "site": "https://www.monkeyboxing.com",  # funk, soul, breaks and hip-hop
      "feed": "https://www.monkeyboxing.com/feed/", "parse": titled(r"^(?P<artist>[^:]+): +(?P<album>.+?) (?:LP|EP)$")},
+    {"id": "word-is-bond", "name": "The Word Is Bond", "kind": "blog", "weight": 1.5, "genres": ["hiphop"],
+     "site": "https://www.thewordisbond.com",
+     "feed": "https://www.thewordisbond.com/feed/",
+     "parse": titled(r"^(?P<artist>.+?) – [‘'](?P<album>.+)[’'] \[Album Review\]$")},
+
+    # Reddit: the week's most upvoted "[FRESH ALBUM]" threads. People posting about a record rather than
+    # an outlet reviewing it, so it counts as listeners. One request covers both (Reddit allows very few),
+    # and `category` says which subreddit a thread is from.
+    {"id": "r-hiphopheads", "name": "r/hiphopheads", "kind": "listeners", "weight": 1.0, "genres": ["hiphop"],
+     "site": "https://www.reddit.com/r/hiphopheads/", "feed": REDDIT_FRESH, "category": "hiphopheads", "top": 15,
+     "parse": reddit_fresh},
+    {"id": "r-indieheads", "name": "r/indieheads", "kind": "listeners", "weight": 1.0, "genres": ["indie"],
+     "site": "https://www.reddit.com/r/indieheads/", "feed": REDDIT_FRESH, "category": "indieheads", "top": 15,
+     "parse": reddit_fresh},
 
     # Jazz
     {"id": "guardian-jazz", "name": "The Guardian Jazz Album of the Month", "kind": "blog", "weight": 3.0, "family": "guardian",
@@ -401,6 +483,13 @@ SOURCES = [
      "site": "https://djmag.com/reviews",
      "feed": "https://djmag.com/rss.xml",
      "parse": titled(r"^(?P<artist>[^-:]+?) - (?P<album>[^:]+)$", skip=r"^V/A|^various|announce|shares?\b|listen|watch|tour")},
+    {"id": "electronic-sound", "name": "Electronic Sound", "kind": "blog", "weight": 1.5, "genres": ["electronic"],
+     "site": "https://www.electronicsound.co.uk/reviews/",
+     "feed": "https://electronicsound.co.uk/feed/", "parse": electronic_sound},
+    {"id": "inverted-audio-reviews", "name": "Inverted Audio", "kind": "curator", "weight": 2.0, "genres": ["electronic"],
+     "family": "inverted-audio", "site": "https://inverted-audio.com/review/",
+     "feed": "https://inverted-audio.com/review/feed/",
+     "parse": titled(r"^(?P<artist>[^:]+): (?P<album>[^:]+)$", skip=r"^various|^V/A")},
     {"id": "a-closer-listen", "name": "A Closer Listen", "kind": "curator", "weight": 2.0, "genres": ["ambient"],
      "site": "https://acloserlisten.com",
      "feed": "https://acloserlisten.com/feed/", "parse": titled(r"^(?P<artist>.+?) ~ (?P<album>.+)$", skip=r"^V/A|^various")},
@@ -486,7 +575,7 @@ SONG_SOURCES = [
      "site": "https://chorus.fm",
      "feed": "https://chorus.fm/feed/", "parse": titled(r"^(?P<artist>[^:]+?) – [“\"](?P<album>.+?)[”\"]")},
     {"id": "inverted-audio", "name": "Inverted Audio", "kind": "curator", "weight": 1.5, "genres": ["electronic"],
-     "site": "https://inverted-audio.com",
+     "family": "inverted-audio", "site": "https://inverted-audio.com",
      "feed": "https://inverted-audio.com/feed/", "parse": titled(r"^Premiere: (?P<artist>.+?) – (?P<album>.+)$")},
     {"id": "scandipop", "name": "Scandipop", "kind": "curator", "weight": 1.5, "genres": ["pop"],
      "site": "https://www.scandipop.co.uk",
@@ -532,6 +621,7 @@ SONG_SOURCES = [
 ]
 
 FAMILIES = {s["id"]: s.get("family", s["id"]) for s in SOURCES + SONG_SOURCES}
+PICKS = {s["id"] for s in SOURCES + SONG_SOURCES if s["weight"] >= PICK_WEIGHT}
 SOURCE_GENRES = {s["id"]: s.get("genres", []) for s in SOURCES + SONG_SOURCES}
 
 LISTENERS = {"id": "listenbrainz", "name": "ListenBrainz listeners", "kind": "listeners",
@@ -625,6 +715,7 @@ def nameless(artist, song):
 def parse_date(text):
     if not text:
         return None
+    text = text.replace(" Sept ", " Sep ")  # DIY writes September its own way
     try:
         return email.utils.parsedate_to_datetime(text).astimezone(dt.timezone.utc)
     except (TypeError, ValueError):
@@ -637,15 +728,24 @@ def parse_date(text):
 
 def feed_items(xml_bytes):
     """Yields {title, link, date, image} for RSS and Atom feeds."""
-    root = ET.fromstring(xml_bytes)
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        # A feed that uses web-page entities XML doesn't know (DIY's "&nbsp;"): spell them as numbers and try again.
+        def numbered(m):
+            character = html.unescape(m.group(0).decode())
+            return f"&#{ord(character)};".encode() if len(character) == 1 else b""
+        root = ET.fromstring(re.sub(rb"&(?!(?:amp|lt|gt|quot|apos);)[A-Za-z][A-Za-z0-9]*;", numbered, xml_bytes))
     for element in root.iter():
         tag = element.tag.rsplit("}", 1)[-1]
         if tag not in ("item", "entry"):
             continue
-        item = {"title": "", "link": "", "date": None, "image": None, "description": ""}
+        item = {"title": "", "link": "", "date": None, "image": None, "description": "", "categories": []}
         for child in element:
             name = child.tag.rsplit("}", 1)[-1]
-            if name == "title":
+            if name == "category":
+                item["categories"].append((child.attrib.get("term") or child.text or "").strip())
+            elif name == "title":
                 item["title"] = html.unescape((child.text or "").strip())
             elif name == "link":
                 item["link"] = child.attrib.get("href") or (child.text or "").strip() or item["link"]
@@ -663,10 +763,10 @@ def feed_items(xml_bytes):
 # ---------------------------------------------------------------------------------------------
 
 
-def read_feed(source):
-    """The items in one source's feed, or the error that stopped it."""
+def read_feed(address):
+    """The items in one feed, or the error that stopped it."""
     try:
-        data = fetch(source["feed"])
+        data = fetch(address)
         if data.lstrip()[:15].lower().startswith((b"<!doctype html", b"<html")):
             raise RuntimeError("got a web page instead of a feed (the site may be turning this client away)")
         return list(feed_items(data.lstrip()))  # a few sites put a blank line before the XML
@@ -676,16 +776,22 @@ def read_feed(source):
 
 def blog_mentions(now, sources):
     mentions, status = [], {}
+    addresses = list(dict.fromkeys(s["feed"] for s in sources))  # sources that share a feed ask for it once
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-        feeds = list(pool.map(read_feed, sources))
-    for source, items in zip(sources, feeds):
+        feeds = dict(zip(addresses, pool.map(read_feed, addresses)))
+    for source in sources:
+        items = feeds[source["feed"]]
         if isinstance(items, Exception):
             status[source["id"]] = f"failed: {items}"
             log(f"  {source['id']}: FAILED {items}")
             continue
         found = 0
         for item in items:
-            if not item["date"] or (now - item["date"]).days > WINDOW_DAYS:
+            if found >= source.get("top", len(items)):  # `top`: only the first few of a feed that's in order of merit
+                break
+            if not item["date"] or (now - item["date"]).days > LONG_WINDOW_DAYS:
+                continue
+            if "category" in source and source["category"] not in item["categories"]:
                 continue
             parsed = source["parse"](item)
             if not parsed or ("skip_description" in source and re.search(source["skip_description"], item["description"], re.I)):
@@ -709,7 +815,7 @@ def remember(fresh, remembered, sources, now):
         date = parse_date(old.get("date"))
         if old.get("source") not in weights or (old["source"], old.get("url")) in seen:
             continue
-        if not date or (now - date).days > WINDOW_DAYS:
+        if not date or (now - date).days > LONG_WINDOW_DAYS:
             continue
         seen.add((old["source"], old.get("url")))
         merged.append({"source": old["source"], "artist": old["artist"], "album": old["album"], "url": old.get("url"),
@@ -1139,10 +1245,12 @@ def entry_genres(apple, mentions):
     return list(dict.fromkeys(genres))
 
 
-def shortlist(entries, limit, extra_per_genre, radio_only_limit=MAX_RADIO_ONLY["album"], picks_only_limit=MAX_PICKS_ONLY["album"]):
+def shortlist(entries, limit, extra_per_genre, radio_only_limit=MAX_RADIO_ONLY["album"], picks_only_limit=MAX_PICKS_ONLY["album"],
+              solo_limit=MAX_SOLO["album"]):
     """The top `limit` by score, plus up to `extra_per_genre` more for each genre a specialist outlet covers.
-    Listener-only and radio-only entries are capped so they don't crowd out what people chose to write about."""
-    chosen, listener_only, radio_only, picks_only, extras = [], 0, 0, 0, {}
+    Listener-only and radio-only entries are capped so they don't crowd out what people chose to write about,
+    and so is what any one outlet has to itself, so no blog fills the list by reviewing a lot."""
+    chosen, listener_only, radio_only, picks_only, extras, solo = [], 0, 0, 0, {}, {}
     for entry in sorted(entries, key=lambda e: -e["score"]):
         if not entry["mentions"]:
             listener_only += 1
@@ -1160,6 +1268,11 @@ def shortlist(entries, limit, extra_per_genre, radio_only_limit=MAX_RADIO_ONLY["
             radio_only += 1
             if radio_only > radio_only_limit:
                 continue
+        elif lone_outlet(entry):
+            outlet = lone_outlet(entry)
+            solo[outlet] = solo.get(outlet, 0) + 1
+            if solo[outlet] > solo_limit:
+                continue
         if len(chosen) - sum(extras.values()) - picks_only < limit:
             chosen.append(entry)
             continue
@@ -1175,14 +1288,36 @@ def kind_of(source_id):
     return SOURCE_KINDS.get(source_id, "blog")
 
 
+def acclaimed(mentions):
+    """An outlet's hand-picked "best of" feed chose it, or several outlets wrote about it."""
+    outlets = {family(m["source"]) for m in mentions if m["source"] not in RADIO_IDS}
+    return len(outlets) >= ACCLAIM_OUTLETS or any(m["source"] in PICKS for m in mentions)
+
+
+def still_counting(mentions, now):
+    """The mentions that are inside the window: a month, or two for a record that's acclaimed."""
+    days = LONG_WINDOW_DAYS if acclaimed(mentions) else WINDOW_DAYS
+    return [m for m in mentions if (now - m["date"]).days <= days]
+
+
+def lone_outlet(entry):
+    """The outlet behind an entry nobody else has picked up, or None when it has more behind it
+    (another outlet, listeners) or is one of an outlet's hand-picked best, which are few already."""
+    outlets = {family(m["source"]) for m in entry["mentions"]}
+    if len(outlets) != 1 or entry.get("listeners") or any(m["source"] in PICKS for m in entry["mentions"]):
+        return None
+    return outlets.pop()
+
+
 def score(mentions, listeners, now):
     """Each mention fades with age and an outlet counts once, however many of its feeds picked it up.
     Agreement is rewarded: a little for each extra outlet, and a lot when a different kind of source
     agrees (a blog reviewed it and DJs are playing it and listeners are rising)."""
     best = {}
+    half_life = LONG_HALF_LIFE_DAYS if acclaimed(mentions) else HALF_LIFE_DAYS
     for m in mentions:
         age = max(0.0, (now - m["date"]).total_seconds() / 86400)
-        value = m["weight"] * 0.5 ** (age / HALF_LIFE_DAYS)
+        value = m["weight"] * 0.5 ** (age / half_life)
         best[family(m["source"])] = max(best.get(family(m["source"]), 0), value)
     kinds = {kind_of(m["source"]) for m in mentions}
     if listeners:
@@ -1225,6 +1360,11 @@ def build_list(kind, sources, now, apple_cache, status, memory, radio=()):
             entries[k]["mentions"].append(m)
         else:
             orphans.append(m)
+    # Posts are kept for two months, but only an acclaimed record's count for that long.
+    for entry in entries.values():
+        entry["mentions"] = still_counting(entry["mentions"], now)
+    entries = {k: entry for k, entry in entries.items() if entry["mentions"]}
+    orphans = [m for m in orphans if still_counting([m], now)]
     for trend in trends:
         entry = entries.setdefault(key(trend["artist"], trend["album"]),
                                    {"artist": trend["artist"], "album": trend["album"], "mentions": [], "listeners": None})
@@ -1233,7 +1373,8 @@ def build_list(kind, sources, now, apple_cache, status, memory, radio=()):
     for entry in entries.values():
         entry["score"] = score(entry["mentions"], entry["listeners"], now)
 
-    ranked = shortlist(entries.values(), MAX_ALBUMS if kind == "album" else MAX_SONGS, EXTRA_PER_GENRE[kind], MAX_RADIO_ONLY[kind], MAX_PICKS_ONLY[kind])
+    ranked = shortlist(entries.values(), MAX_ALBUMS if kind == "album" else MAX_SONGS, EXTRA_PER_GENRE[kind], MAX_RADIO_ONLY[kind],
+                       MAX_PICKS_ONLY[kind], MAX_SOLO[kind])
 
     def stamp(date):
         return date.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -1275,7 +1416,7 @@ def build_list(kind, sources, now, apple_cache, status, memory, radio=()):
                 "id": ("" if kind == "album" else "song:") + key(apple["artist"], apple["album"]), "type": kind,
                 "title": apple["album"], "artist": apple["artist"],
                 "year": apple["year"], "appleMusicID": apple["id"], "artworkURL": apple["artwork"] or m["image"],
-                "score": round(m["weight"] * 0.5 ** (max(0, (now - m["date"]).days) / HALF_LIFE_DAYS), 3),
+                "score": score([m], None, now),
                 "genres": entry_genres(apple, [m]),
                 "mentions": [{"source": m["source"], "url": m["url"], "date": stamp(m["date"])}],
                 "listeners": None,

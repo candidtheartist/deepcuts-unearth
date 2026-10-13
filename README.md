@@ -9,16 +9,16 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 
 | Kind of music | Sources |
 |---|---|
-| Everything | Pitchfork (reviews, Best New Music, tracks, Best New Track), Bandcamp Daily, Stereogum (Album of the Week, single-song posts), The Guardian, Treble (reviews, Album of the Week), The Quietus, Beats Per Minute, Clash, God Is in the TV, Dusted, Sun 13, Everything Is Noise, musicOMH, Jenesaispop and Muzikalia (Spanish-language), Aquarium Drunkard, The Needle Drop, Gorilla vs. Bear |
-| Alternative & indie | Post-Trash, Various Small Flames, The Alternative |
+| Everything | Pitchfork (reviews, Best New Music, tracks, Best New Track), Bandcamp Daily, Stereogum (Album of the Week, single-song posts), The Guardian, Treble (reviews, Album of the Week), The Quietus, Beats Per Minute, Clash, God Is in the TV, Dusted, Sun 13, Everything Is Noise, musicOMH, Jenesaispop and Muzikalia (Spanish-language), Aquarium Drunkard, The Needle Drop, Gorilla vs. Bear, NME, DIY, Uncut, Our Culture, Spectrum Culture, Spill Magazine, mxdwn, Boomkat (the shop's new arrivals, less its reissues) |
+| Alternative & indie | Post-Trash, Various Small Flames, The Alternative, r/indieheads |
 | Folk | KLOF Mag, The Guardian Folk Album of the Month, Various Small Flames |
 | Country & Americana | Saving Country Music, Americana Highways, Americana UK |
 | Punk & emo | The Alternative, Dying Scene, Louder Than War, Chorus.fm (songs) |
 | Metal & heavy | Angry Metal Guy, Last Rites, Heavy Blog Is Heavy, The Sleeping Shaman, Echoes and Dust |
-| Hip-hop | RapReviews, Shatter the Standards, Grown Up Rap, Monkeyboxing |
+| Hip-hop | RapReviews, Shatter the Standards, Grown Up Rap, Monkeyboxing, The Word Is Bond, r/hiphopheads |
 | R&B, soul and funk | Shatter the Standards, Twisted Soul, Monkeyboxing |
 | Jazz | The Guardian Jazz Album of the Month, Jazz Trail, The Free Jazz Collective, UK Vibe (4/5 and up), UK Jazz News |
-| Electronic | First Floor, Igloo Magazine, DJ Mag, Hard Wax (the shop's new arrivals: techno, jungle, footwork, dubstep), Ban Ban Ton Ton (Balearic, downtempo), Acid Stag; songs: Inverted Audio, The Ransom Note, Bolting Bits (house), Trommel (minimal), Trance Attack (trance), Stereofox (beats, downtempo) |
+| Electronic | First Floor, Igloo Magazine, DJ Mag, Electronic Sound, Inverted Audio (reviews), Hard Wax (the shop's new arrivals: techno, jungle, footwork, dubstep), Ban Ban Ton Ton (Balearic, downtempo), Acid Stag; songs: Inverted Audio, The Ransom Note, Bolting Bits (house), Trommel (minimal), Trance Attack (trance), Stereofox (beats, downtempo) |
 | Ambient & experimental | A Closer Listen, Headphone Commute, Ambientblog |
 | Classical | The Guardian Classical, I Care If You Listen, MusicWeb International, The Classic Review |
 | Global | The NATIVE, beehype, Rhythm Passport (songs), World A Reggae (songs) |
@@ -26,7 +26,7 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 | Pop | The Singles Jukebox, The Bias List (K-pop), Scandipop (all songs) |
 | Latin | none yet: the good outlets block feed readers or write headlines that don't name the record. Latin entries come from the general sources and Apple's genre. |
 | Radio | KEXP, KCRW (Eclectic 24 and the DJs' shows), triple j, NTS (picked and latest shows): what was played over the last week |
-| Listeners | ListenBrainz: albums and songs played well above their monthly average this week |
+| Listeners | ListenBrainz: albums and songs played well above their monthly average this week. Reddit: the week's 15 most upvoted "[FRESH ALBUM]" threads on r/hiphopheads and r/indieheads |
 
 Only posts whose title names one album or one song are used (a review, an "album of the day"): news,
 interviews, lists and round-ups are skipped.
@@ -64,6 +64,11 @@ To add a station, write a reader that returns one row per play and add it to `RA
 ## How albums are ranked
 
 - Each mention counts by source (hand-picked "best" feeds count most) and loses half its weight every 10 days.
+- An acclaimed record lasts longer: one that a hand-picked "best" feed chose, or that three or more outlets wrote about,
+  loses half its weight every 20 days and stays for two months, not one.
+- One outlet can have at most 8 albums and 6 songs on the list that nobody else is behind (`MAX_SOLO`), so a blog that
+  reviews a lot doesn't outnumber the ones that pick. Its other reviews still count when someone else agrees.
+  Hand-picked "best" feeds aren't capped: they're few already.
 - A listener trend adds to the score in proportion to how fast the album is rising.
 - A radio station counts by how often it played the record: about half its weight for a few spins, all of it for ten or more.
 - Agreement is what lifts an album: 20% per extra outlet, and 40% for each different kind of source that agrees
@@ -81,11 +86,13 @@ same one in `UnearthGenre.swift` to read the genres in someone's library, so cha
 
 ## Memory
 
-Many blogs keep only their last ten posts in the feed. `memory.json` remembers every mention for 30 days,
-so a review still counts after it has scrolled away. The workflow commits it next to `feed.json`.
+Many blogs keep only their last ten posts in the feed. `memory.json` remembers every mention for 60 days,
+so a review still counts after it has scrolled away (past 30 days, only an acclaimed record's do). The workflow commits it next to `feed.json`.
 
 Change the numbers at the top of `build_feed.py`, or add a source to `SOURCES`: give it a `parse`
 (usually `titled(...)` with a pattern for its titles), and `genres` if it sticks to one kind of music.
+Two more things a source can say: `category` keeps only the items the feed files under that name (DIY's "Album Reviews",
+a subreddit), and `top` takes only the first few of a feed that's in order of merit. Sources with the same `feed` ask for it once.
 
 ## Running it
 
