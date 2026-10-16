@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-16T22:27:27Z",
+ "generatedAt": "2026-10-16T22:56:19Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -4598,9 +4598,11 @@
      "title": "Overspace & Supertime",
      "artist": "Cryptic Shift",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1853911321",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/0a/a4/2b0aa414-9613-b331-0f7f-c2962e74a5a3/Cryptic_Shift_-_Overspace_Supertime.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4631,12 +4633,14 @@
     },
     {
      "id": "2026:lakemarynotmysterious|daughngibson",
-     "title": "Lake Mary not mysterious",
+     "title": "Lake Mary Not Mysterious",
      "artist": "Daughn Gibson",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1895447637",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/f1/44/35f14446-83c9-1b05-980f-5c7661721c9a/859736764966_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "country"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4667,12 +4671,14 @@
     },
     {
      "id": "2026:existenceisbliss|deadletter",
-     "title": "Existence Is Bliss",
-     "artist": "Deadletter",
+     "title": "Existence is Bliss",
+     "artist": "DEADLETTER",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1847402688",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/40/41/bd/4041bd89-0fbf-f1aa-0af3-702944c59121/822166003622_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4688,9 +4694,11 @@
      "title": "Somersaults",
      "artist": "deathcrash",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1847159406",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/ff/da/57ffdadf-2271-2b8e-a209-66174df7b5c6/123513.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4703,12 +4711,14 @@
     },
     {
      "id": "2026:tohellandback|desrocs",
-     "title": "To Hell And Back",
+     "title": "To Hell and Back",
      "artist": "Des Rocs",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1892111281",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/cc/99/33cc9947-529e-ba4e-88f8-23b5fd4a8ad2/823375112334_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4721,12 +4731,14 @@
     },
     {
      "id": "2026:moth|devintownsend",
-     "title": "The Moth",
+     "title": "The Moth (Deluxe Edition)",
      "artist": "Devin Townsend",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1879554321",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/53/34/90/533490a7-7643-2a81-7ab0-54f825a365e3/196874071854.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4742,9 +4754,11 @@
      "title": "Grand Serpent Rising",
      "artist": "Dimmu Borgir",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1883121436",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/8b/f8/8f8bf8b4-b0d4-d74b-96a3-3935946a6ed1/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4757,12 +4771,14 @@
     },
     {
      "id": "2026:bernarr|durandbernarr",
-     "title": "Bernarr",
+     "title": "BERNARR.",
      "artist": "Durand Bernarr",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1893156957",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/a3/ad/a9a3adca-9f0d-8b58-b997-4b835c71cd86/663918967751.jpg/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4778,9 +4794,11 @@
      "title": "Vyraj",
      "artist": "Dymna Lotva",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1895624940",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/f1/80/23f180e6-6293-bc57-8674-561b29764e31/2884.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4796,9 +4814,11 @@
      "title": "Rumspringa",
      "artist": "ear",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6766858352",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/87/d5/2d87d5a5-dc66-bce1-19b4-05e12a524095/823375164661_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4814,9 +4834,11 @@
      "title": "Little Miss Sunshine",
      "artist": "Eaves Wilder",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1862203528",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/0c/e1/7e0ce19b-1c3a-32dc-fa8c-711ba0f31ca7/61118.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4832,9 +4854,11 @@
      "title": "Through Zero",
      "artist": "Elder",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1883162521",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/31/1b/84311b34-73c0-7a8e-3386-2a0a10a6c25a/760137208594.png/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4847,12 +4871,14 @@
     },
     {
      "id": "2026:iguessuhadtobethere|elucidsebbbash",
-     "title": "I Guess U Had to Be There",
-     "artist": "ELUCID & Sebb Bash",
+     "title": "I Guess U Had To Be There",
+     "artist": "E L U C I D & Sebb Bash",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1858148294",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/73/03/5d7303d5-0d56-5184-5582-755078a95885/5063858588972_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4868,9 +4894,11 @@
      "title": "Bad Bones",
      "artist": "Erik Grönwall",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1878231251",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/06/e6/e406e662-14d6-4041-5491-9c4155f08602/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4884,11 +4912,13 @@
     {
      "id": "2026:deepblue|ernest",
      "title": "Deep Blue",
-     "artist": "Ernest",
+     "artist": "ERNEST",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1885061168",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/ad/24/afad249b-0b71-a72e-964b-4fde0dddd4f4/26UMGIM31433.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "country"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4904,9 +4934,11 @@
      "title": "Sanctuary",
      "artist": "Evanescence",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1891104460",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4922,9 +4954,11 @@
      "title": "Goliath",
      "artist": "Exodus",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1862225385",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/37/14/4437147c-02c6-ddc8-5418-00099dfcd5b3/810185198238.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4955,12 +4989,14 @@
     },
     {
      "id": "2026:terrified|fakemink",
-     "title": "Terrified",
+     "title": "Terrified .",
      "artist": "fakemink",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6804863642",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/9a/c8/379ac86d-2cf1-958c-e96e-e556d50b80c1/840471814559.png/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4974,11 +5010,13 @@
     {
      "id": "2026:bitknot|feeblelittlehorse",
      "title": "bitknot",
-     "artist": "Feeble Little Horse",
+     "artist": "feeble little horse",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1892136714",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/c2/73/86c27309-6d66-2f09-06a7-5126fddddd56/463.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -4994,9 +5032,11 @@
      "title": "New Day Symptoms",
      "artist": "Final Gasp",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1840685303",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/e1/14/2ce11464-a87f-8141-7852-f768511fdea8/781676544219.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5009,12 +5049,14 @@
     },
     {
      "id": "2026:frogforsale|frog",
-     "title": "Frog For Sale",
+     "title": "Frog For Sale (Radio Edit)",
      "artist": "Frog",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1893363488",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/67/e0/d167e0da-f535-5dfa-fe4c-6584a4fe30dd/artwork.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5027,12 +5069,14 @@
     },
     {
      "id": "2026:redstarwutheworldwidescourge|genesisowusu",
-     "title": "Redstar Wu & The Worldwide Scourge",
+     "title": "REDSTAR WU & THE WORLDWIDE SCOURGE",
      "artist": "Genesis Owusu",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1887196431",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/6e/cf/316ecf81-83aa-2da6-f65d-a2a1bdab4274/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5084,9 +5128,11 @@
      "title": "Same Drug New High",
      "artist": "Gluecifer",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1835686253",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/53/ab/9353ab11-a1d4-37ac-d8a6-7848ff0d01c3/4001617108260.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5102,9 +5148,11 @@
      "title": "Bright Spirit",
      "artist": "Gong",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1859947619",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/57/d2/5957d2ef-2534-d813-1805-1d6e50fd8c56/802644452760.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5120,9 +5168,11 @@
      "title": "Under The Under",
      "artist": "Growth",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1861353765",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/60/94/246094a7-882d-9134-c48f-f267eb5596be/199806761038.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5138,9 +5188,11 @@
      "title": "Armour Of Angels",
      "artist": "Guilt Trip",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1886203739",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/25/1a/1d251a20-f0b7-6fb9-1c8c-50d83f1a58d0/075679586322.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5156,9 +5208,11 @@
      "title": "When Does This Place Become Our Scene",
      "artist": "Hammok",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1877031633",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/8d/41ea8d6b-cd9f-a3c1-aeca-9076ed2d83c9/124053.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5189,12 +5243,14 @@
     },
     {
      "id": "2026:secrettogoodliving|hidingplaces",
-     "title": "The Secret to Good Living",
+     "title": "The Secret To Good Living",
      "artist": "Hiding Places",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1866044081",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/50/8e/3c508e47-9937-aa56-3bac-e6fd0f1d559d/65071.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5210,9 +5266,11 @@
      "title": "Cruel World",
      "artist": "Holly Humberstone",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1873991816",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/b7/0b/e5b70b81-f475-4972-1658-61083b93251c/25UM2IM01991.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5228,9 +5286,11 @@
      "title": "Verbolgen",
      "artist": "Hulder",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6775884490",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/5c/d3/5f5cd303-4ccb-fb94-8cbe-55ec453631fe/810079502400.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5246,9 +5306,11 @@
      "title": "Panorama",
      "artist": "Hällas",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1850608228",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/dc/8a/d3dc8a77-bde1-ada0-9965-8d0876282e2a/199806345535.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5261,12 +5323,14 @@
     },
     {
      "id": "2026:forloveofgracethehereafter|iceage",
-     "title": "For Love of Grace & The Hereafter",
+     "title": "For Love of Grace & the Hereafter",
      "artist": "Iceage",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1880484160",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/57/5c/ff575ca3-6107-544a-872b-2f76c6a305f3/184923136166_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5282,9 +5346,11 @@
      "title": "Descent",
      "artist": "Immolation",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1861901597",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/b5/77/32b5779b-e30e-4bd2-3738-f2e83000cff4/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5300,9 +5366,11 @@
      "title": "POWERSCROFT",
      "artist": "IZCO",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1867282023",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/83/df/bb83dfa8-c952-1d49-52d5-c2099fad4013/5060180327903.jpg/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5334,11 +5402,13 @@
     {
      "id": "2026:serialromantic|jailenjosey",
      "title": "Serial Romantic",
-     "artist": "Jai’len Josey",
+     "artist": "Jai'Len Josey",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1892294339",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/80/54/b98054fb-4b77-6cad-604d-501bd9d3f036/26UMGIM42401.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5354,9 +5424,11 @@
      "title": "Jana Horn",
      "artist": "Jana Horn",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1847461147",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/74/9d/85749ddd-d533-4dc4-e8ce-0c54ace3dd7f/59454.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5369,12 +5441,14 @@
     },
     {
      "id": "2026:weaponsofbeauty|jaybuchanan",
-     "title": "Weapons Of Beauty",
+     "title": "Weapons of Beauty",
      "artist": "Jay Buchanan",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1846894230",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/77/76/287776dc-fde7-0972-0f80-333f5468dec8/199350895890.jpg/600x600bb.jpg",
+     "genres": [
+      "country"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5390,9 +5464,11 @@
      "title": "Quicksand Heart",
      "artist": "Jenny on Holiday",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1834924750",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/5e/5e/095e5ef5-c4c9-68d6-0620-9eacc993b078/8721416081309.png/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5405,12 +5481,14 @@
     },
     {
      "id": "2026:catfight|jimjonesallstars",
-     "title": "Cat Fight",
+     "title": "CAT FIGHT",
      "artist": "Jim Jones All Stars",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1861871981",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/46/61/42466195-7f1f-246e-de3f-6e80d02711dd/199806661031.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5426,9 +5504,11 @@
      "title": "The Ends, Never Ends",
      "artist": "Joe James",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6770642298",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/10/9a/92109abd-0221-331e-b09e-f408b887a31f/26UMGIM52735.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5444,9 +5524,11 @@
      "title": "New Day",
      "artist": "John Corabi",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1858617624",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/43/5f/e6435f8c-9c88-349e-2c88-c75887600285/199806634356.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5462,9 +5544,11 @@
      "title": "plum",
      "artist": "josh conway",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6769859065",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/8c/2d/f18c2d07-eaf3-dc59-9d8c-c47a4b82a1ce/075679575715.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5477,12 +5561,14 @@
     },
     {
      "id": "2026:iusedtogotothisbar|joycemanor",
-     "title": "I Used To Go To This Bar",
+     "title": "I Used to Go to This Bar",
      "artist": "Joyce Manor",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1839918836",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/f2/be/30f2be95-3c41-e308-d189-40e12166f8ce/0045778805761.png/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5498,9 +5584,11 @@
      "title": "Tragic Magic",
      "artist": "Julianna Barwick & Mary Lattimore",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1843854211",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/32/e9/0f32e9c7-6d78-e1c1-f89c-f9a46fe157d7/3663729405982_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "ambient"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5534,9 +5622,11 @@
      "title": "Give U Space",
      "artist": "K Wata",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1895910310",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/98/5d/a5985dcd-2659-33aa-9a03-067736199c28/8718723318952.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5549,12 +5639,14 @@
     },
     {
      "id": "2026:inverses|karnivool",
-     "title": "In Verses",
+     "title": "IN VERSES",
      "artist": "Karnivool",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1839822692",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/65/30/27/6530277d-27e6-362f-cb07-f7caa19994fd/199538678284.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5588,9 +5680,11 @@
      "title": "Khemmis",
      "artist": "Khemmis",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1885856096",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/30/6f/b5306f3d-6504-41bb-80db-7186a52a1287/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5606,9 +5700,11 @@
      "title": "Kwengletaria: Ragamyff",
      "artist": "Kibo",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6783907740",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/b2/a5/5fb2a5d8-b8e3-6ec8-8b15-6883bbc80230/820233834698.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5624,9 +5720,11 @@
      "title": "Krushers Of The World",
      "artist": "Kreator",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1837718517",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/0b/de/3e0bde5e-a749-78bf-8fa9-acd396ef85be/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5639,12 +5737,14 @@
     },
     {
      "id": "2026:physicsuniversallovelanguage|karyyn",
-     "title": "Physics Universal Love Language",
+     "title": "PHYSICS UNIVERSAL LOVE LANGUAGE (PULL)",
      "artist": "KÁRYYN",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1860985982",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/85/71/5d857169-b49f-b099-9bb5-7bbd78dfb488/5400863078102.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5660,9 +5760,11 @@
      "title": "Heaven 2",
      "artist": "Lala Lala",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1855684694",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/75/4b/4c754bbe-68e7-ae24-64d0-b9adede72157/098787169669.png/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5676,11 +5778,13 @@
     {
      "id": "2026:intooblivion|lambofgod",
      "title": "Into Oblivion",
-     "artist": "Lamb Of God",
+     "artist": "Lamb of God",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1868804163",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/ca/3b/70ca3bef-28de-2cd6-f45b-4fff8bbd3bf9/196873585321.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5714,9 +5818,11 @@
      "title": "Ruin Everything",
      "artist": "Les Big Byrd",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1878702101",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/d9/55/2ed955b5-8d2c-a29e-9509-45b9249393ce/63216.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5732,9 +5838,11 @@
      "title": "Maybe Not Tonight",
      "artist": "Lime Garden",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1856558449",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/d3/56/c3d35647-80b8-d59a-bb51-8dee3cc8a8a6/199806064092.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5750,9 +5858,11 @@
      "title": "A Stranger To You",
      "artist": "Loathe",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1895184628",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/72/76/6a72767b-3119-d895-e8dd-649b45ab25ba/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5768,9 +5878,11 @@
      "title": "Released",
      "artist": "Lou Gramm",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1885966764",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/37/a7/9137a760-3948-15cb-0c56-49ba3c287639/603497804061.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5786,9 +5898,11 @@
      "title": "Ugly Duckling Union",
      "artist": "Lowertown",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1872171971",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/75/80/327580aa-1295-7504-cb4c-b153115b5ee7/61911.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5804,9 +5918,11 @@
      "title": "What If Better Never Comes?",
      "artist": "Mallavora",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1850497136",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/05/0a/f3050a7c-c19c-7af6-981f-8543d552f11d/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5819,12 +5935,14 @@
     },
     {
      "id": "2026:liveatthegreathall|massivewagons",
-     "title": "Live At The Great Hall",
+     "title": "Live at The Great Hall",
      "artist": "Massive Wagons",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1856050072",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/c0/50/aac0509b-b8af-12ef-b923-03364835039c/5055006572810.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5840,9 +5958,11 @@
      "title": "Megadeth",
      "artist": "Megadeth",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1840222160",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/cb/e5/0dcbe58e-d061-bcd2-0e2d-19b8a4dcde78/199538837193.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5855,12 +5975,14 @@
     },
     {
      "id": "2026:hades|melaniemartinez",
-     "title": "Hades",
+     "title": "HADES",
      "artist": "Melanie Martinez",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1874455968",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/01/82/0a018255-d739-00b5-b6c7-93de2a307e6e/075679587862.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5876,9 +5998,11 @@
      "title": "Outerstellar",
      "artist": "Michael Monroe",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1844318364",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/b7/26/59b72653-01f8-20bd-c4c3-78370b7f7d9e/5021732658937.jpg/600x600bb.jpg",
+     "genres": [
+      "punk"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5912,9 +6036,11 @@
      "title": "Under My Umbrella",
      "artist": "Miss Grit",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1870707890",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/1e/7d/621e7db9-3cc4-6094-4511-35ee7dbbebcc/5400863196806.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5930,9 +6056,11 @@
      "title": "Momoko",
      "artist": "Momoko Gill",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1840730497",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/e2/fc/96e2fc2b-9657-9ffe-3cdb-73aef05dd192/4062548113204.png/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5948,9 +6076,11 @@
      "title": "Cartoon Violence",
      "artist": "Mother Vulture",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1865835761",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/8a/df/6f8adfac-5956-7dea-04cf-c754800d14f1/artwork.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -5966,9 +6096,11 @@
      "title": "The Gaia II Space Corps",
      "artist": "Motorpsycho",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1867156585",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/b3/f6/f5b3f6fd-9508-ab3e-27ea-69f58e3c9f76/199350976681.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6002,9 +6134,11 @@
      "title": "Sir Render",
      "artist": "Navy Blue",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1895825845",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/43/95/194395a0-d27e-2658-481e-d97b3a61bafc/5056818809378.png/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6038,9 +6172,11 @@
      "title": "I Can See",
      "artist": "Nick Hakim",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6769136946",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/a5/26/84a52619-adef-eca3-2813-15f9868c1ebf/193436466783_NickHakimICanSeeFINALCover.jpg/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6054,11 +6190,13 @@
     {
      "id": "2026:nineinchnoize|nineinchnails",
      "title": "Nine Inch Noize",
-     "artist": "Nine Inch Nails",
+     "artist": "Nine Inch Nails & Boys Noize",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1893171321",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/66/1a/90661ad8-b2e7-45c5-99cd-0f43f49bf179/26UMGIM42560.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6110,9 +6248,11 @@
      "title": "Hard Hearted Woman",
      "artist": "Ora Cogan",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1854556528",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/45/e3/dd45e330-074f-5303-4e2e-be9790162bee/60715.jpg/600x600bb.jpg",
+     "genres": [
+      "folk"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6128,9 +6268,11 @@
      "title": "Celestial",
      "artist": "Papangu",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6790491890",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/d5/a1/91d5a1e5-e531-435e-ee2c-fa307d99b827/7898324331268.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6146,9 +6288,11 @@
      "title": "Carry The Light",
      "artist": "Peter Frampton",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1882102039",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/5c/7b/7d5c7b8e-078d-5407-9382-9b4c7f8bfdfd/26UMGIM07594.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6179,12 +6323,14 @@
     },
     {
      "id": "2026:hymnsfromthehills|poisonruin",
-     "title": "Hymns from the Hills",
+     "title": "Hymns From The Hills",
      "artist": "Poison Ruïn",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1867560247",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/ac/c8/bfacc82c-a822-ee2e-267b-caa5a1d4c935/781676546015.jpg/600x600bb.jpg",
+     "genres": [
+      "punk"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6198,11 +6344,13 @@
     {
      "id": "2026:peaceinplace|poisonthewell",
      "title": "Peace In Place",
-     "artist": "Poison The Well",
+     "artist": "Poison the Well",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1863532634",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/6a/21/bb6a2145-c75a-65dd-8fd5-965d793ab76a/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6215,12 +6363,14 @@
     },
     {
      "id": "2026:beginningoftheend|portrayalofguilt",
-     "title": "…Beginning of the End",
+     "title": "...Beginning of the End",
      "artist": "Portrayal of Guilt",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1874721863",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/d9/9e/f2d99e1d-a123-c119-939f-399373e7a537/62247.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6234,11 +6384,13 @@
     {
      "id": "2026:within|protestthehero",
      "title": "Within",
-     "artist": "Protest The Hero",
+     "artist": "Protest the Hero",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6771811141",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/b4/42/9fb44216-a8ed-095c-3f6b-a59dca0b4ef1/824296709696_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6254,9 +6406,11 @@
      "title": "Life On License",
      "artist": "PS Hitsquad",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6770496863",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/54/c4/ff54c4c6-ed49-6721-2195-42dde8580687/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6272,9 +6426,11 @@
      "title": "Normal Isn't",
      "artist": "Puscifer",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1845918475",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/81/d6/9881d6e7-eb47-7ba9-e3b1-0ee040092d5e/4099964214734.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6287,12 +6443,14 @@
     },
     {
      "id": "2026:elbaifo|quevedo",
-     "title": "El Baifo",
+     "title": "EL BAIFO",
      "artist": "Quevedo",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1894271358",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/e5/bf/56e5bfea-2071-1224-1c62-f6119195a949/8718521173821.jpg/600x600bb.jpg",
+     "genres": [
+      "latin"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6308,9 +6466,11 @@
      "title": "Blue Angel Sparkling Silver 2",
      "artist": "Quiet Light",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1868660166",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/26/92/8a/26928a3a-030e-3f28-ed77-c67bb9c08105/198704947742_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6344,9 +6504,11 @@
      "title": "¿Dónde Es El After?",
      "artist": "Rawayana",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1860998746",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/47/66/cf476673-8e9c-567a-0ac5-f59b4e507a60/199806751558.jpg/600x600bb.jpg",
+     "genres": [
+      "latin"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6362,9 +6524,11 @@
      "title": "Ascent Effort",
      "artist": "Rhododendron",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1878147343",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/e0/db/a4e0dbdf-e9c5-7a93-e978-8105b6fb2c8d/769152436807.jpg/600x600bb.jpg",
+     "genres": [
+      "punk"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6380,9 +6544,11 @@
      "title": "The Great Satan",
      "artist": "Rob Zombie",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1839887790",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/aa/45/e9aa45bf-e4fc-b1eb-4fd7-94c86fb4c166/cover.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6398,9 +6564,11 @@
      "title": "656",
      "artist": "Roc Marciano",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1878201216",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/01/df/a001df46-2502-d44c-f00d-f65f1f492d9a/8721465912562.png/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6413,12 +6581,14 @@
     },
     {
      "id": "2026:supernova|runkus",
-     "title": "Supernova",
+     "title": "SUPERNOVA",
      "artist": "Runkus",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1871239669",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/99/36/1499361e-1f62-a8a8-f54b-58c642fe6826/657481112786.jpg/600x600bb.jpg",
+     "genres": [
+      "global"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -6434,9 +6604,11 @@
      "title": "Better Angels",
      "artist": "sadie",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1878261225",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/73/84/4b73843e-2eaa-8a25-fd03-0645d16b7407/840200576734_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
