@@ -1415,6 +1415,27 @@ def only_picks(entry):
 USED_LOOKUPS = set()
 
 
+def album_by_artist(artist, title):
+    """An album found through its artist's page on Apple rather than by search: up to two artists of that name,
+    and an album of theirs with the same title ("- EP" and "- Single" aside, a single only when nothing else fits)."""
+    term = urllib.parse.quote_plus(artist)
+    artists = json.loads(fetch(f"https://itunes.apple.com/search?media=music&entity=musicArtist&limit=5&term={term}")).get("results", [])
+    time.sleep(3.2)
+    wanted = key("", title)
+    for found in [a for a in artists if key(a["artistName"], "") == key(artist, "")][:2]:
+        albums = json.loads(fetch(f"https://itunes.apple.com/lookup?id={found['artistId']}&entity=album&limit=200")).get("results", [])
+        time.sleep(3.2)
+        same = [a for a in albums if a.get("wrapperType") == "collection"
+                and key("", re.sub(r" - (?:EP|Single)$", "", a.get("collectionName", ""))) == wanted]
+        same.sort(key=lambda a: a["collectionName"].endswith(" - Single"))
+        if same:
+            hit = same[0]
+            return {"id": str(hit["collectionId"]), "artist": hit["artistName"], "album": hit["collectionName"],
+                    "artwork": hit.get("artworkUrl100", "").replace("100x100", "600x600"),
+                    "year": (hit.get("releaseDate") or "")[:4], "genre": hit.get("primaryGenreName", "")}
+    return None
+
+
 def apple_lookup(artist, title, cache, kind="album", loose=False):
     """Finds the album or song in Apple's public search. Returns None when there's no confident match.
 
@@ -1444,6 +1465,8 @@ def apple_lookup(artist, title, cache, kind="album", loose=False):
             time.sleep(3.2)  # Apple's search allows roughly 20 requests a minute
             found = None
             for hit in hits:
+                if kind == "album" and re.search(r" - Single$", hit[name_field]):
+                    continue  # "Eusexua (Anyma Remix) - Single" isn't the album Eusexua
                 if artist:
                     if key(hit["artistName"], hit[name_field]) == k:
                         found = hit
@@ -1462,6 +1485,10 @@ def apple_lookup(artist, title, cache, kind="album", loose=False):
                           "year": (found.get("releaseDate") or "")[:4], "genre": found.get("primaryGenreName", ""),
                           **({"collection": found.get("collectionName", "")} if kind == "song" else {})}
                 break
+        if not result and kind == "album" and artist:
+            # Apple's search leaves out many recent albums ("Geese Getting Killed" finds nothing), but the artist's
+            # own list of albums has them: find the artist, then the album among theirs.
+            result = album_by_artist(artist, title)
     except Exception as error:
         log(f"  apple lookup failed for {artist} / {title}: {error}")
         return None  # don't cache failures

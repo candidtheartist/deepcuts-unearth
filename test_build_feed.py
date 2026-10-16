@@ -1,3 +1,4 @@
+import json
 """Checks for the title parsers and helpers. Run with: python3 -m unittest test_build_feed"""
 import datetime as dt
 import unittest
@@ -580,6 +581,31 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(len(b.still_counting([mention("stereogum", 55)], self.NOW)), 1)
         self.assertEqual(b.still_counting([mention("stereogum", 61)], self.NOW), [])
         self.assertFalse(b.acclaimed([mention("clash", 1), mention("kexp", 1), mention("kcrw", 1)]))  # stations aren't outlets
+
+
+class AppleTests(unittest.TestCase):
+    def test_an_album_search_misses_is_found_on_its_artists_page(self):
+        answers = {
+            "entity=album&limit=5&term=Geese+Getting+Killed": {"results": []},
+            "entity=musicArtist": {"results": [{"artistName": "Geese", "artistId": 1}, {"artistName": "The Geese", "artistId": 2}]},
+            "lookup?id=1": {"results": [{"wrapperType": "artist"},
+                                        {"wrapperType": "collection", "collectionName": "Getting Killed - Single", "collectionId": 9, "artistName": "Geese"},
+                                        {"wrapperType": "collection", "collectionName": "Getting Killed", "collectionId": 7, "artistName": "Geese",
+                                         "releaseDate": "2025-09-26T07:00:00Z", "primaryGenreName": "Alternative", "artworkUrl100": "https://x/100x100bb.jpg"}]},
+        }
+        asked = []
+
+        def fetch(url, timeout=30):
+            asked.append(url)
+            return json.dumps(next(v for k, v in answers.items() if k in url)).encode()
+        real = b.fetch, b.time.sleep
+        b.fetch, b.time.sleep = fetch, (lambda s: None)
+        try:
+            found = b.apple_lookup("Geese", "Getting Killed", {})
+        finally:
+            b.fetch, b.time.sleep = real
+        self.assertEqual((found["id"], found["album"], found["year"], found["artwork"]), ("7", "Getting Killed", "2025", "https://x/600x600bb.jpg"))
+        self.assertFalse(any("lookup?id=2" in url for url in asked))   # "The Geese" isn't Geese
 
 
 class HelperTests(unittest.TestCase):

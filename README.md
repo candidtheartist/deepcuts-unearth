@@ -149,6 +149,34 @@ About half have one. To give a label one by hand, add `"logo": "https://…"` to
 Labels it calls "unsure" share their name with others: look the right one up on
 musicbrainz.org and add its id as `"mbid"` by hand. `.github/workflows/labels.yml` runs the build once a day.
 
+## Year-end lists
+
+`build_lists.py` writes a third file, `lists.json`, for the app's Best of the Year page: the music press's year-end
+album lists, added up the way [Album of the Year's aggregate](https://www.albumoftheyear.org/list/summary/) does it.
+On a numbered list an album gets 10 points for #1, 8 for #2, 6 for #3, 5 for the rest of the top 10, 3 for the top 25
+and 1 below that; on a list in no particular order, 5 when the list has 10 albums or fewer, 3 when it has 25 or fewer,
+and 1 when it's longer. Albums are ranked by points, then by how many lists they're on, then by their best place.
+
+Where the lists come from:
+
+- [yearendlists.com](https://www.yearendlists.com) keeps an index of each year's notable lists with links to the
+  publications' own pages. It says which lists exist. Each list is then read from the publication's page
+  (`read_original`: whichever kind of heading most often reads "Artist – Album", with its place when the page numbers
+  them), checked against the index's copy, and filled in from it where the page left albums out or its numbers
+  weren't places. The index's copy is used on its own only when a publication's page can't be read (robots.txt,
+  a site that turns the job away, or a layout it can't make out).
+- The feeds the Unearth job reads are searched for "best albums of the year" posts, so a list counts the day it's
+  published, before the index has it.
+- One list per publication: its staff list, or when it has none the longest one of its writers made.
+
+Last year's lists are kept up to the end of February; this year's are added from November. Pages are read once and
+kept in `lists_memory.json`; a run reads at most 150 new pages and makes 200 new Apple look-ups. `.github/workflows/lists.yml`
+runs it twice a day. Bump `VERSION` when the reading changes, so saved pages are read again.
+
+```bash
+python3 build_lists.py --verbose
+```
+
 ## Hosting
 
 Put this folder in a **public** GitHub repository. The workflow in `.github/workflows/unearth.yml`
