@@ -18,6 +18,8 @@ class EntryTests(unittest.TestCase):
         self.assertEqual(b.entry("Bon Iver, ‘Sable, Fable’"), (None, "Bon Iver", "Sable, Fable"))
         self.assertEqual(b.entry("#3 Rosalía — Lux (Columbia)"), (3, "Rosalía", "Lux"))
         self.assertEqual(b.entry("Dawn Richard: Creole Culture [Merge]"), (None, "Dawn Richard", "Creole Culture"))
+        self.assertEqual(b.entry("Bruno Mars, The Romantic"), (None, "Bruno Mars", "The Romantic"))
+        self.assertEqual(b.entry("‘Westside Trapped’ – heavensouls"), (None, "heavensouls", "Westside Trapped"))
 
     def test_labels_and_prose_are_not_entries(self):
         for text in ("Produced By: DJ Toomp", "Listen/Buy: Bandcamp", "Featuring: Quavo", "A year of great records"):
@@ -71,6 +73,18 @@ class FindingListsTests(unittest.TestCase):
                             ("The Best Albums of 2026 So Far", None), ("The 25 Best Songs of 2025", None),
                             ("The Best Albums of September 2026", None), ("The 100 Best Albums of All Time", None)]:
             self.assertEqual(b.year_of_list(title), year, title)
+
+    def test_which_headlines_are_mid_year_album_lists(self):
+        for title, year in [("The 50 Best Albums of 2026 So Far", 2026), ("Our 50 Favorite Albums of 2026 (So Far)", 2026),
+                            ("Mid-Year Report: The Best Albums of 2026", 2026), ("The Best Songs of 2026 So Far", None),
+                            ("The 50 Best Albums of 2025", None), ("The Best Albums of June 2026 So Far", None)]:
+            self.assertEqual(b.year_of_midyear_list(title), year, title)
+
+    def test_the_hand_kept_mid_year_lists(self):
+        lists = b.midyear_lists(2026)
+        self.assertGreaterEqual(len(lists), b.SO_FAR_FROM)
+        self.assertTrue(all(l["outlet"] and l["url"].startswith("https://") for l in lists))
+        self.assertEqual(b.midyear_lists(1999), [])
 
     def test_a_feed_source_is_named_by_its_publication(self):
         self.assertEqual([b.publication(n) for n in ("NPR New Music Friday (critics’ picks)", "The Guardian Jazz Album of the Month",

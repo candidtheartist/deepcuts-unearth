@@ -161,13 +161,18 @@ Where the lists come from:
 
 - [yearendlists.com](https://www.yearendlists.com) keeps an index of each year's notable lists with links to the
   publications' own pages. It says which lists exist. Each list is then read from the publication's page
-  (`read_original`: whichever kind of heading most often reads "Artist – Album", with its place when the page numbers
-  them), checked against the index's copy, and filled in from it where the page left albums out or its numbers
+  (`read_original`: whichever kind of heading most often reads "Artist – Album", "Artist: Album", "Artist, Album" or
+  "‘Album’ – Artist", with its place when the page numbers them), checked against the index's copy, and filled in from it where the page left albums out or its numbers
   weren't places. The index's copy is used on its own only when a publication's page can't be read (robots.txt,
   a site that turns the job away, or a layout it can't make out).
 - The feeds the Unearth job reads are searched for "best albums of the year" posts, so a list counts the day it's
   published, before the index has it.
 - One list per publication: its staff list, or when it has none the longest one of its writers made.
+
+Until this year's year-end lists are out, its mid-year lists ("The 50 Best Albums of 2026 So Far") make a "so far"
+page, marked `"soFar": true` in `lists.json`. The index doesn't keep mid-year lists, so they're listed by hand in
+`midyear_lists.json` (outlet and address; add one there), and the feeds add any "so far" posts they carry. Once ten
+of the year's year-end lists can be read, the full year takes the "so far" page's place.
 
 Last year's lists are kept up to the end of February; this year's are added from November. Pages are read once and
 kept in `lists_memory.json`; a run reads at most 150 new pages and makes 200 new Apple look-ups. `.github/workflows/lists.yml`

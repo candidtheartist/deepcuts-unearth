@@ -33,6 +33,7 @@ import build_feed as feed
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUTPUT = os.path.join(HERE, "lists.json")
 MEMORY = os.path.join(HERE, "lists_memory.json")
+MIDYEAR = os.path.join(HERE, "midyear_lists.json")
 INDEX = "https://www.yearendlists.com"
 
 # Album of the Year's points.
@@ -47,7 +48,9 @@ MAX_PAGES = 150            # new pages one run may read (index and publications 
 MAX_LOOKUPS = 200          # new Apple look-ups one run may make (about 20 a minute)
 RETRY_DAYS = 3             # a page that couldn't be read is tried again after this long
 AGREEMENT = 0.6            # a publication's page has to find this share of the index's albums to be believed
-VERSION = 1                # bump when reading changes, so saved pages are read again
+VERSION = 2                # bump when reading changes, so saved pages are read again
+YEAR_END_FROM = 10         # this year's year-end lists replace its mid-year ones once there are this many
+SO_FAR_FROM = 3            # fewer mid-year lists than this isn't worth a page
 
 YEAR_END = re.compile(r"\b(?:best|top|favou?rite|essential)\b[^:|]*\balbums?\b[^:|]*\b(20\d\d)\b"
                       r"|\balbums? of (?:the year )?(20\d\d)\b|\b(20\d\d)\b[^:|]*\balbums? of the year\b", re.I)
@@ -55,12 +58,19 @@ NOT_YEAR_END = re.compile(r"so far|mid-?year|first half|half-?way|\bsongs?\b|\bt
                           r"decade|ranked|most anticipated|upcoming|\bmonth\b|\bweek\b|january|february|march|april|may\b|"
                           r"june|july|august|september|october", re.I)
 
+# "The 50 Best Albums of 2026 (So Far)", "Mid-Year Report: Best Albums of 2026".
+SO_FAR = re.compile(r"so far|mid-?year|first half|half-?way", re.I)
+NOT_SO_FAR = re.compile(r"\bsongs?\b|\btracks?\b|singles|reissues?|most anticipated|upcoming|\bmonth\b|\bweek\b|"
+                        r"january|february|march|april|\bmay\b|june|july|august|september|october", re.I)
+
 # A list entry as publications write it. A rank may lead ("12. ", "#12 ", "No. 12: ").
 RANK = r"^(?:#|No\.?\s*)?(?P<rank>\d{1,3})(?:\.|\)|:|\s*[-–—])?\s+"
 ENTRY_FORMS = [
+    r"[‘“\"'](?P<album>[^’”\"]+?)[’”\"']\s+[–—-]\s+(?P<artist>[^–—:]+?)",            # ‘Album’ – Artist (Time Out)
     r"(?P<artist>[^–—:‘“\"]+?)\s+[–—-]\s+[‘“\"']?(?P<album>[^’”\"]+?)[’”\"']?",  # Artist – Album
     r"(?P<artist>[^:‘“\"]+?):\s+[‘“\"']?(?P<album>[^’”\"]+?)[’”\"']?",          # Artist: Album
     r"(?P<artist>[^,‘“\"]+?),\s+[‘“\"'](?P<album>.+?)[’”\"']",                   # Artist, ‘Album’
+    r"(?P<artist>[^,:‘“\"]+?),\s+(?P<album>[^,:‘“\"][^:]*?)",                       # Artist, Album (Billboard, Complex)
 ]
 TAIL = r"\s*(?:[\(\[][^\)\]]*[\)\]])?\s*$"  # "(Label)" or "[Label, 2025]"
 ENTRY_TAGS = ("h2", "h3", "h4", "strong", "b", "li", "p")
@@ -108,7 +118,7 @@ def entry(text):
         m = re.match("^" + form + TAIL, text)
         if m:
             artist, album = m.group("artist").strip(feed.QUOTES), m.group("album").strip(feed.QUOTES + ".,")
-            if artist and album and len(artist) <= 80 and len(album) <= 120 and not re.match(LABELS, artist):
+            if artist and album and len(artist) <= 80 and len(artist.split()) <= 7 and len(album) <= 120 and not re.match(LABELS, artist):
                 return rank, artist, album
     return None
 
@@ -234,6 +244,14 @@ def agrees(page_entries, index_entries):
 # ---------------------------------------------------------------------------------------------
 
 
+def year_of_midyear_list(title):
+    """The year a mid-year list ("… of 2026 so far") is for, from its headline, or None when it isn't one."""
+    if not SO_FAR.search(title) or NOT_SO_FAR.search(title) or not re.search(r"(?i)\balbums?\b", title):
+        return None
+    m = re.search(r"\b(20\d\d)\b", title)
+    return int(m.group(1)) if m else None
+
+
 def year_of_list(title):
     """The year a year-end list is for, from its headline, or None when it isn't one."""
     if NOT_YEAR_END.search(title):
@@ -253,7 +271,7 @@ def publication(source_name):
 
 
 def lists_in_feeds(years):
-    """Year-end lists posted in the feeds the Unearth job reads: [{url, outlet, title, year}]."""
+    """Year-end and mid-year lists posted in the feeds the Unearth job reads: [{url, outlet, title, year, soFar}]."""
     found = []
     sources = [s for s in feed.SOURCES + feed.SONG_SOURCES if s.get("kind") != "listeners"]
     addresses = {}
@@ -266,10 +284,12 @@ def lists_in_feeds(years):
         if isinstance(items, Exception):
             continue
         for item in items:
-            year = year_of_list(item["title"])
+            year, so_far = year_of_list(item["title"]), False
+            if year is None:
+                year, so_far = year_of_midyear_list(item["title"]), True
             if year in years and item["link"]:
                 outlet = publication(source["name"])
-                found.append({"url": item["link"], "outlet": outlet, "title": item["title"], "year": year})
+                found.append({"url": item["link"], "outlet": outlet, "title": item["title"], "year": year, "soFar": so_far})
     return found
 
 
@@ -328,8 +348,17 @@ def aggregate(lists):
 # ---------------------------------------------------------------------------------------------
 
 
-def gather(year, now, memory, budget, discovered):
-    """Every list for one year, each read once and kept in memory: [{id, outlet, title, url, ranked, entries, from}]."""
+def midyear_lists(year):
+    """The mid-year lists kept by hand in midyear_lists.json for one year: [{outlet, url}]."""
+    try:
+        return json.load(open(MIDYEAR)).get(str(year), [])
+    except (OSError, ValueError):
+        return []
+
+
+def gather(year, now, memory, budget, discovered, so_far=False):
+    """Every list for one year, each read once and kept in memory: [{id, outlet, title, url, ranked, entries, from}].
+    `so_far`: the year's mid-year lists instead, from midyear_lists.json and the feeds (the index doesn't keep them)."""
     pages = memory.setdefault("pages", {})
     index = memory.setdefault("index", {})
 
@@ -340,7 +369,7 @@ def gather(year, now, memory, budget, discovered):
         return True
 
     lists = []
-    for found in index_years_lists(year):
+    for found in ([] if so_far else index_years_lists(year)):
         path = found["index"]
         if path not in index and can_read():
             try:
@@ -352,9 +381,12 @@ def gather(year, now, memory, budget, discovered):
         if not item or item.get("skip") or not item.get("url"):
             continue
         lists.append({**item, "index": path})
+    if so_far:
+        lists += [{"outlet": m["outlet"], "title": m.get("title", f"Best albums of {year} so far"), "url": m["url"],
+                   "ranked": None, "entries": [], "writer": None} for m in midyear_lists(year)]
     known = {l["url"] for l in lists}
     lists += [{"outlet": d["outlet"], "title": d["title"], "url": d["url"], "ranked": None, "entries": [], "writer": None}
-              for d in discovered if d["year"] == year and d["url"] not in known]
+              for d in discovered if d["year"] == year and d.get("soFar", False) == so_far and d["url"] not in known]
 
     result = []
     for item in lists:
@@ -396,16 +428,16 @@ def main():
         except ValueError:
             pass
     apple_cache = memory.setdefault("appleCache", {})
-    # Last year's lists until the end of February (a few come late), and this year's from November.
+    # Last year's lists until the end of February (a few come late), and this year's from November. Until this
+    # year's year-end lists are out, its mid-year ones make a "so far" page.
     years = sorted({now.year - 1} | ({now.year} if now.month >= 11 else set()))
     budget, lookups = [MAX_PAGES], [MAX_LOOKUPS]
-    log("Looking for year-end lists in the feeds…")
-    discovered = lists_in_feeds(set(years))
+    log("Looking for year-end and mid-year lists in the feeds…")
+    discovered = lists_in_feeds(set(years) | {now.year})
 
-    built = {y["year"]: y for y in previous.get("years", [])}
-    for year in years:
-        log(f"Reading the lists of {year}…")
-        lists = gather(year, now, memory, budget, discovered)
+    def build(year, so_far):
+        log(f"Reading the {'mid-year ' if so_far else ''}lists of {year}…")
+        lists = gather(year, now, memory, budget, discovered, so_far)
         ranked = aggregate(lists)[:MAX_ALBUMS]
         albums = []
         for e in ranked:
@@ -427,17 +459,27 @@ def main():
                 "points": e["points"], "lists": e["lists"], "top10": e["top10"], "firsts": e["firsts"],
                 "placements": e["placements"],
             })
-        built[year] = {
-            "year": year,
+        print(f"{year}{' so far' if so_far else ''}: {len(lists)} lists, {len(albums)} albums "
+              f"({sum(1 for a in albums if a['appleMusicID'])} found on Apple Music)")
+        for a in albums[:10]:
+            print(f"  {a['points']:4} pts  {a['lists']:3} lists  {a['artist']} – {a['title']}")
+        return {
+            "year": year, **({"soFar": True} if so_far else {}),
             "lists": [{"id": l["id"], "outlet": l["outlet"], **({"writer": l["writer"]} if l.get("writer") else {}),
                        "title": l["title"], "url": l["url"], "ranked": l["ranked"], "size": len(l["entries"])}
                       for l in sorted(lists, key=lambda l: l["outlet"].lower())],
             "albums": albums,
         }
-        print(f"{year}: {len(lists)} lists, {len(albums)} albums "
-              f"({sum(1 for a in albums if a['appleMusicID'])} found on Apple Music)")
-        for a in albums[:10]:
-            print(f"  {a['points']:4} pts  {a['lists']:3} lists  {a['artist']} – {a['title']}")
+
+    built = {y["year"]: y for y in previous.get("years", [])}
+    for year in years:
+        made = build(year, so_far=False)
+        if year < now.year or len(made["lists"]) >= YEAR_END_FROM:
+            built[year] = made
+    if now.year not in built or built[now.year].get("soFar"):
+        made = build(now.year, so_far=True)
+        if len(made["lists"]) >= SO_FAR_FROM:
+            built[now.year] = made
 
     out = {
         "version": 1,
