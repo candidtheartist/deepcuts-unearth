@@ -625,14 +625,6 @@
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "Carly Rae Jepsen",
-   "album": "Day and Night",
-   "url": "https://www.youtube.com/watch?v=QmTEuVJVO9M",
-   "date": "2026-10-02T04:36:27Z",
-   "image": null
-  },
-  {
    "source": "beats-per-minute",
    "artist": "Fontaines D.C.",
    "album": "Dopamine Chamber",
@@ -5507,14 +5499,6 @@
    "image": null
   },
   {
-   "source": "word-is-bond",
-   "artist": "Oscar",
-   "album": "antidepresivos",
-   "url": "https://www.thewordisbond.com/oscar-antidepresivos-album-review/",
-   "date": "2026-10-16T13:05:20Z",
-   "image": null
-  },
-  {
    "source": "r-hiphopheads",
    "artist": "The Avalanches",
    "album": "No Bad Memories",
@@ -5620,18 +5604,18 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Emilio Cabra",
-   "album": "CABRA PERO NO UN CABRÓN",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1x77oj3/fresh_album_emilio_cabra_cabra_pero_no_un_cabrón/",
-   "date": "2026-10-16T05:19:49Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
    "artist": "sixbill",
    "album": "Pure Lust (featuring diamond*, Pz', and Chuckyy)",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1x95cjc/fresh_album_sixbill_pure_lust_featuring_diamond/",
    "date": "2026-10-18T15:01:30Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Emilio Cabra",
+   "album": "CABRA PERO NO UN CABRÓN",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1x77oj3/fresh_album_emilio_cabra_cabra_pero_no_un_cabrón/",
+   "date": "2026-10-16T05:19:49Z",
    "image": null
   },
   {
@@ -5660,19 +5644,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Andy Shauf",
-   "album": "the afterparty",
-   "url": "https://www.reddit.com/r/indieheads/comments/1x71j8a/fresh_album_andy_shauf_the_afterparty/",
-   "date": "2026-10-16T00:00:13Z",
-   "image": "https://external-preview.redd.it/jOhvB9NO5RRO0q8d2ajLToFxtbQiqfe38g_Am0y6imo.jpeg?width=640&crop=smart&auto=webp&s=6865171464b63bbfc4359dd30039863af37231a4"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Dummy",
    "album": "do you love the color of the sky?",
    "url": "https://www.reddit.com/r/indieheads/comments/1x71k0t/fresh_album_dummy_do_you_love_the_color_of_the_sky/",
    "date": "2026-10-16T00:00:42Z",
    "image": "https://external-preview.redd.it/iQv-ia_PWvHiprR1ARfle-_lGE2AUaktz32AjRE9Mok.jpeg?width=640&crop=smart&auto=webp&s=0f90b07df77e5925358e3b86aa5cd71d258ecfae"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Andy Shauf",
+   "album": "the afterparty",
+   "url": "https://www.reddit.com/r/indieheads/comments/1x71j8a/fresh_album_andy_shauf_the_afterparty/",
+   "date": "2026-10-16T00:00:13Z",
+   "image": "https://external-preview.redd.it/jOhvB9NO5RRO0q8d2ajLToFxtbQiqfe38g_Am0y6imo.jpeg?width=640&crop=smart&auto=webp&s=6865171464b63bbfc4359dd30039863af37231a4"
   },
   {
    "source": "r-indieheads",
@@ -6084,6 +6068,14 @@
   },
   {
    "source": "igloo",
+   "artist": "Bluhm",
+   "album": "Signals in the Static",
+   "url": "https://igloomag.com/reviews/bluhm-signals-in-the-static-handstitched",
+   "date": "2026-10-18T21:32:55Z",
+   "image": null
+  },
+  {
+   "source": "igloo",
    "artist": "Interdimensional Warlock",
    "album": "Castlevania Vibes EP",
    "url": "https://igloomag.com/reviews/interdimensional-warlock-castlevania-vibes-pretension",
@@ -6144,14 +6136,6 @@
    "album": "Bound To Substance",
    "url": "https://igloomag.com/reviews/dodenskald-wilted-perch-bound-to-substance-noctivagant",
    "date": "2026-10-17T20:30:47Z",
-   "image": null
-  },
-  {
-   "source": "igloo",
-   "artist": "Andreas Tilliander",
-   "album": "Ljud [2026 Remaster]",
-   "url": "https://igloomag.com/newswire/andreas-tilliander-ljud-2026-remaster-keplar",
-   "date": "2026-10-17T20:13:06Z",
    "image": null
   },
   {
@@ -6620,6 +6604,30 @@
   },
   {
    "source": "acid-stag",
+   "artist": "TSHA",
+   "album": "Mi Casa",
+   "url": "https://acidstag.com/2026/10/tsha-mi-casa-ep/",
+   "date": "2026-10-18T21:27:04Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/19082207/TSHA-Mi-Casa-EP-acid-stag.jpeg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "acid-stag",
+   "artist": "Jacques Greene",
+   "album": "jg",
+   "url": "https://acidstag.com/2026/10/jacques-greene-jg-lp/",
+   "date": "2026-10-18T21:10:06Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/19075917/Jacques-Greene-jg-LP-acid-stag.jpg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "acid-stag",
+   "artist": "Rhye",
+   "album": "JOY II",
+   "url": "https://acidstag.com/2026/10/rhye-joy-ii-lp/",
+   "date": "2026-10-18T20:32:56Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/19072704/Rhye-JOY-II-acid-tsag.jpeg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "acid-stag",
    "artist": "The Avalanches",
    "album": "No Bad Memories",
    "url": "https://acidstag.com/2026/10/the-avalanches-no-bad-memories-lp/",
@@ -6920,6 +6928,30 @@
    "album": "Synthetic 海岸",
    "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
    "date": "2026-09-09T05:33:19Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "Carly Rae Jepsen",
+   "album": "Day and Night",
+   "url": "https://www.youtube.com/watch?v=QmTEuVJVO9M",
+   "date": "2026-10-02T04:36:27Z",
+   "image": null
+  },
+  {
+   "source": "word-is-bond",
+   "artist": "Oscar",
+   "album": "antidepresivos",
+   "url": "https://www.thewordisbond.com/oscar-antidepresivos-album-review/",
+   "date": "2026-10-16T13:05:20Z",
+   "image": null
+  },
+  {
+   "source": "igloo",
+   "artist": "Andreas Tilliander",
+   "album": "Ljud [2026 Remaster]",
+   "url": "https://igloomag.com/newswire/andreas-tilliander-ljud-2026-remaster-keplar",
+   "date": "2026-10-17T20:13:06Z",
    "image": null
   },
   {
@@ -14861,6 +14893,14 @@
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/12072131/Moods-Two-Another-Rise-Shine-acid-stag.jpg?w=150&h=150&crop=1&ssl=1"
   },
   {
+   "source": "twisted-soul-songs",
+   "artist": "ONMO",
+   "album": "Inner Games",
+   "url": "https://twistedsoulmusic.org/2026/10/14/onmo-inner-games-ts-premiere/",
+   "date": "2026-10-14T11:08:44Z",
+   "image": null
+  },
+  {
    "source": "acid-stag-songs",
    "artist": "Bag Raiders & Abby Bella May",
    "album": "Ur Type",
@@ -14875,14 +14915,6 @@
    "url": "https://acidstag.com/2026/10/pnau-change/",
    "date": "2026-10-08T20:30:31Z",
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/09072725/PNAU-Change-acid-stag.jpg?w=150&h=150&crop=1&ssl=1"
-  },
-  {
-   "source": "twisted-soul-songs",
-   "artist": "ONMO",
-   "album": "Inner Games",
-   "url": "https://twistedsoulmusic.org/2026/10/14/onmo-inner-games-ts-premiere/",
-   "date": "2026-10-14T11:08:44Z",
-   "image": null
   },
   {
    "source": "raven-sings-the-blues",
