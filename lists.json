@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-10-18T21:15:18Z",
+ "generatedAt": "2026-10-19T13:31:03Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -3146,9 +3146,11 @@
      "title": "Something Worth Waiting For",
      "artist": "Friko",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1866639054",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/03/54/bc0354be-3b7e-69ff-2d35-b98e4926909a/00880882686550_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 2,
      "lists": 2,
      "top10": 0,
@@ -3189,12 +3191,14 @@
     },
     {
      "id": "2026:detachedfromtherestofyou|lorainejames",
-     "title": "Detached From The Rest of You",
+     "title": "Detached From The Rest Of You",
      "artist": "Loraine James",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1879377342",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/a5/8f/cba58f3a-9c56-af5f-0574-f3bcf2d1468a/124199.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
      "points": 2,
      "lists": 2,
      "top10": 0,
@@ -4656,9 +4660,11 @@
      "title": "Wagon Burner",
      "artist": "Dead Pioneers",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1886779734",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/4c/01/284c0138-f311-bd9c-a11b-f819966285b9/5060626469822_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
@@ -18182,12 +18188,14 @@
     },
     {
      "id": "2025:potamerican|deadpioneers",
-     "title": "Po$t American",
+     "title": "PO$T AMERICAN",
      "artist": "Dead Pioneers",
      "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1784509384",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/52/3c/82523c41-a152-b806-a7d8-6c88d67a3645/5060626468443_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 10,
      "lists": 1,
      "top10": 1,
@@ -18287,10 +18295,12 @@
      "id": "2025:switcheroo|gellihaha",
      "title": "Switcheroo",
      "artist": "Gelli Haha",
-     "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "year": "2026",
+     "appleMusicID": "6786398005",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/c1/ca/9dc1cac7-71d2-2cef-0847-22fe41d01152/810874028082_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
      "points": 9,
      "lists": 5,
      "top10": 1,
@@ -18357,9 +18367,11 @@
      "title": "Neighborhood Gods Unlimited",
      "artist": "Open Mike Eagle",
      "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1817665332",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/aa/06/a8aa06c6-fb89-98f2-05e6-c0468f6e69bb/199350702037.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 9,
      "lists": 5,
      "top10": 0,
