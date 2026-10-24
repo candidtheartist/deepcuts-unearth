@@ -1426,6 +1426,14 @@
   },
   {
    "source": "jenesaispop",
+   "artist": "Pet Shop Boys",
+   "album": "A Man From the Future",
+   "url": "https://jenesaispop.com/2026/10/24/532404/pet-shop-man-future-critica/",
+   "date": "2026-10-24T11:54:01Z",
+   "image": null
+  },
+  {
+   "source": "jenesaispop",
    "artist": "Michael Kiwanuka",
    "album": "Fudge",
    "url": "https://jenesaispop.com/2026/10/23/532808/michael-kiwanuka-fudge-critica/",
@@ -3601,14 +3609,6 @@
    "image": null
   },
   {
-   "source": "popmatters",
-   "artist": "snag.",
-   "album": "All The Cages Holding",
-   "url": "https://www.popmatters.com/snag-all-the-cages-holding",
-   "date": "2026-08-24T12:30:49Z",
-   "image": null
-  },
-  {
    "source": "npr-new-music-friday",
    "artist": "Anderson .Paak & Cordae",
    "album": "Heavy Is The Crown",
@@ -4451,17 +4451,17 @@
   },
   {
    "source": "boomkat",
-   "artist": "Michael J. Blood",
-   "album": "Cause & Effect Vol.1",
-   "url": "https://boomkat.com/artists/michael-j-blood/releases/pyqr2a9a/cause-effect-vol-1",
+   "artist": "Fine",
+   "album": "Jazz Dreams",
+   "url": "https://boomkat.com/artists/fine/releases/aujtjt8b/jazz-dreams",
    "date": "2026-10-23T00:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Fine",
-   "album": "Jazz Dreams",
-   "url": "https://boomkat.com/artists/fine/releases/aujtjt8b/jazz-dreams",
+   "artist": "Michael J. Blood",
+   "album": "Cause & Effect Vol.1",
+   "url": "https://boomkat.com/artists/michael-j-blood/releases/pyqr2a9a/cause-effect-vol-1",
    "date": "2026-10-23T00:00:00Z",
    "image": null
   },
@@ -4683,26 +4683,26 @@
   },
   {
    "source": "at-the-barrier",
+   "artist": "Talisk",
+   "album": "Stems From This",
+   "url": "https://atthebarrier.com/2026/10/23/talisk-stems-from-this-album-review/",
+   "date": "2026-10-23T07:47:00Z",
+   "image": null
+  },
+  {
+   "source": "at-the-barrier",
+   "artist": "Neil Ardley",
+   "album": "Kaleidoscope Of Rainbows",
+   "url": "https://atthebarrier.com/2026/10/23/neil-ardley-kaleidoscope-of-rainbows-album-review/",
+   "date": "2026-10-23T07:33:00Z",
+   "image": null
+  },
+  {
+   "source": "at-the-barrier",
    "artist": "Richard Thompson",
    "album": "Hippies, Thugs and Heroes",
    "url": "https://atthebarrier.com/2026/10/21/richard-thompson-hippies-thugs-and-heroes-album-review/",
    "date": "2026-10-21T07:01:46Z",
-   "image": null
-  },
-  {
-   "source": "at-the-barrier",
-   "artist": "Dan Whitehouse",
-   "album": "Only Love",
-   "url": "https://atthebarrier.com/2026/10/20/dan-whitehouse-only-love-album-review/",
-   "date": "2026-10-20T11:45:00Z",
-   "image": null
-  },
-  {
-   "source": "at-the-barrier",
-   "artist": "Wolves In The Throne Room",
-   "album": "Estuary",
-   "url": "https://atthebarrier.com/2026/10/20/wolves-in-the-throne-room-estuary-album-review/",
-   "date": "2026-10-20T07:15:07Z",
    "image": null
   },
   {
@@ -5835,14 +5835,6 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Bally Baby",
-   "album": "The Last Sipper",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xb4f6a/fresh_album_bally_baby_the_last_sipper/",
-   "date": "2026-10-20T21:14:58Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
    "artist": "Yung Miami",
    "album": "Watch Dis",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1xd3sqr/fresh_album_yung_miami_watch_dis/",
@@ -5851,10 +5843,10 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Easykid",
-   "album": "soy un fatalista",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xdhdec/fresh_album_easykid_soy_un_fatalista/",
-   "date": "2026-10-23T15:35:27Z",
+   "artist": "Bally Baby",
+   "album": "The Last Sipper",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xb4f6a/fresh_album_bally_baby_the_last_sipper/",
+   "date": "2026-10-20T21:14:58Z",
    "image": null
   },
   {
@@ -5863,6 +5855,14 @@
    "album": "Catch A Vibe",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1xbsghm/fresh_album_young_chris_catch_a_vibe/",
    "date": "2026-10-21T16:48:42Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Easykid",
+   "album": "soy un fatalista",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xdhdec/fresh_album_easykid_soy_un_fatalista/",
+   "date": "2026-10-23T15:35:27Z",
    "image": null
   },
   {
@@ -5939,19 +5939,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Yeah Yeah Yeahs",
-   "album": "Hidden in Pieces: Live",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xd0d9x/fresh_album_yeah_yeah_yeahs_hidden_in_pieces_live/",
-   "date": "2026-10-23T01:09:53Z",
-   "image": null
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Gus Dapperton",
    "album": "4 Dear Life",
    "url": "https://www.reddit.com/r/indieheads/comments/1xdkj8e/fresh_album_gus_dapperton_4_dear_life/",
    "date": "2026-10-23T17:33:21Z",
    "image": "https://external-preview.redd.it/yVl-bmj8yf2ZH53IMsExEho9DtGVRhaQXpug6yQ1aMw.jpeg?width=640&crop=smart&auto=webp&s=8cbf809f5c466abfc12406ee1d8869342dfd2f15"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Yeah Yeah Yeahs",
+   "album": "Hidden in Pieces: Live",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xd0d9x/fresh_album_yeah_yeah_yeahs_hidden_in_pieces_live/",
+   "date": "2026-10-23T01:09:53Z",
+   "image": null
   },
   {
    "source": "r-indieheads",
@@ -5963,19 +5963,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Sour Widows",
-   "album": "Sigil",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xcyvfq/fresh_album_sour_widows_sigil/",
-   "date": "2026-10-23T00:00:20Z",
-   "image": "https://external-preview.redd.it/kKHm8nK7NR9pe4iAYJ1VxDhgB-JPJ1HOXvY27c6RnXg.jpeg?width=640&crop=smart&auto=webp&s=84dad98f81f6f9094d0ff9e815422b1d33c7ac5b"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Art d’Ecco",
    "album": "Scheele’s Green",
    "url": "https://www.reddit.com/r/indieheads/comments/1xcywb5/fresh_album_art_decco_scheeles_green/",
    "date": "2026-10-23T00:00:54Z",
    "image": "https://external-preview.redd.it/tVhJey3WW7vhLqNA9_o4zNTTLpNVdrJgNRf03jIRMZA.jpeg?width=640&crop=smart&auto=webp&s=ef2e0ef9d4272dea79b5b0e3df8b47b934294fb0"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Sour Widows",
+   "album": "Sigil",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xcyvfq/fresh_album_sour_widows_sigil/",
+   "date": "2026-10-23T00:00:20Z",
+   "image": "https://external-preview.redd.it/kKHm8nK7NR9pe4iAYJ1VxDhgB-JPJ1HOXvY27c6RnXg.jpeg?width=640&crop=smart&auto=webp&s=84dad98f81f6f9094d0ff9e815422b1d33c7ac5b"
   },
   {
    "source": "r-indieheads",
@@ -6243,6 +6243,22 @@
   },
   {
    "source": "uk-vibe",
+   "artist": "Tingo",
+   "album": "Medvind Modvind",
+   "url": "https://ukvibe.org/album_reviews/tingo/",
+   "date": "2026-10-24T10:47:19Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Floex & Jan Šikl",
+   "album": "Directors",
+   "url": "https://ukvibe.org/album_reviews/floex-jan-sikl/",
+   "date": "2026-10-24T08:32:20Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
    "artist": "Jordan Corda",
    "album": "Awakenings",
    "url": "https://ukvibe.org/album_reviews/jordan-corda/",
@@ -6298,22 +6314,6 @@
    "image": null
   },
   {
-   "source": "uk-vibe",
-   "artist": "Jochen Baldes",
-   "album": "Bashō",
-   "url": "https://ukvibe.org/album_reviews/jochen-baldes/",
-   "date": "2026-10-20T18:56:46Z",
-   "image": null
-  },
-  {
-   "source": "uk-vibe",
-   "artist": "Stephen Byth",
-   "album": "Growth In Stasis",
-   "url": "https://ukvibe.org/album_reviews/stephen-byth/",
-   "date": "2026-10-19T15:27:58Z",
-   "image": null
-  },
-  {
    "source": "uk-jazz-news",
    "artist": "Justin Hicks",
    "album": "Man of Style",
@@ -6335,14 +6335,6 @@
    "album": "So Delighted",
    "url": "https://ukjazznews.com/jocelyn-gould-so-delighted/",
    "date": "2026-10-21T13:00:00Z",
-   "image": null
-  },
-  {
-   "source": "uk-jazz-news",
-   "artist": "Caleb Wheeler Curtis and Jason Moran",
-   "album": "Incantation",
-   "url": "https://ukjazznews.com/caleb-wheeler-curtis-and-jason-moran-incantation/",
-   "date": "2026-10-19T22:14:07Z",
    "image": null
   },
   {
@@ -6787,58 +6779,50 @@
   },
   {
    "source": "hard-wax",
-   "artist": "Millsart",
-   "album": "Drifter",
-   "url": "https://hardwax.com/89502/millsart/drifter/",
-   "date": "2026-10-15T08:00:00Z",
+   "artist": "Augustus Pablo",
+   "album": "Vibrate Onn",
+   "url": "https://hardwax.com/89604/augustus-pablo/vibrate-onn/",
+   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
    "source": "hard-wax",
-   "artist": "Blue Hour",
-   "album": "Selva Remixes",
-   "url": "https://hardwax.com/07969/blue-hour/selva-remixes-part-1/",
-   "date": "2026-10-15T08:00:00Z",
+   "artist": "Alton Ellis",
+   "album": "Showcase",
+   "url": "https://hardwax.com/89615/alton-ellis/showcase/",
+   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
    "source": "hard-wax",
-   "artist": "Isaac Kniveton",
-   "album": "Daydreaming",
-   "url": "https://hardwax.com/89515/isaac-kniveton/daydreaming/",
-   "date": "2026-10-15T08:00:00Z",
+   "artist": "Musical Youth",
+   "album": "Mash Down Birmingham",
+   "url": "https://hardwax.com/89613/musical-youth/mash-down-birmingham/",
+   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
    "source": "hard-wax",
-   "artist": "Genex",
-   "album": "Weeks & Weeks",
-   "url": "https://hardwax.com/89619/genex/weeks-and-weeks/",
-   "date": "2026-10-15T08:00:00Z",
+   "artist": "Bunny & Ricky",
+   "album": "Bushweed Corntrash",
+   "url": "https://hardwax.com/89607/bunny-and-ricky/bushweed-corntrash/",
+   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
    "source": "hard-wax",
-   "artist": "Xqte",
-   "album": "Orbital South EP",
-   "url": "https://hardwax.com/39765/xqte/orbital-south-ep/",
-   "date": "2026-10-15T08:00:00Z",
+   "artist": "Junior Byles",
+   "album": "Long Way",
+   "url": "https://hardwax.com/89606/junior-byles/long-way/",
+   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
    "source": "hard-wax",
-   "artist": "Uncertain",
-   "album": "Defeat",
-   "url": "https://hardwax.com/08114/uncertain/defeat/",
-   "date": "2026-10-15T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Beste Hira",
-   "album": "MP10",
-   "url": "https://hardwax.com/89404/beste-hira/mp10/",
-   "date": "2026-10-15T08:00:00Z",
+   "artist": "The Jolly Brothers",
+   "album": "Concious Man",
+   "url": "https://hardwax.com/89612/the-jolly-brothers/concious-man/",
+   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
@@ -6967,14 +6951,6 @@
    "album": "Coalescence",
    "url": "https://www.ambientblog.net/coalescence/",
    "date": "2026-08-29T08:53:27Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Azaleh",
-   "album": "Sound Journal",
-   "url": "https://www.ambientblog.net/soundjournals/",
-   "date": "2026-08-24T08:27:23Z",
    "image": null
   },
   {
@@ -7191,6 +7167,102 @@
    "album": "Synthetic 海岸",
    "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
    "date": "2026-09-09T05:33:19Z",
+   "image": null
+  },
+  {
+   "source": "at-the-barrier",
+   "artist": "Dan Whitehouse",
+   "album": "Only Love",
+   "url": "https://atthebarrier.com/2026/10/20/dan-whitehouse-only-love-album-review/",
+   "date": "2026-10-20T11:45:00Z",
+   "image": null
+  },
+  {
+   "source": "at-the-barrier",
+   "artist": "Wolves In The Throne Room",
+   "album": "Estuary",
+   "url": "https://atthebarrier.com/2026/10/20/wolves-in-the-throne-room-estuary-album-review/",
+   "date": "2026-10-20T07:15:07Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Jochen Baldes",
+   "album": "Bashō",
+   "url": "https://ukvibe.org/album_reviews/jochen-baldes/",
+   "date": "2026-10-20T18:56:46Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Stephen Byth",
+   "album": "Growth In Stasis",
+   "url": "https://ukvibe.org/album_reviews/stephen-byth/",
+   "date": "2026-10-19T15:27:58Z",
+   "image": null
+  },
+  {
+   "source": "uk-jazz-news",
+   "artist": "Caleb Wheeler Curtis and Jason Moran",
+   "album": "Incantation",
+   "url": "https://ukjazznews.com/caleb-wheeler-curtis-and-jason-moran-incantation/",
+   "date": "2026-10-19T22:14:07Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Millsart",
+   "album": "Drifter",
+   "url": "https://hardwax.com/89502/millsart/drifter/",
+   "date": "2026-10-15T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Blue Hour",
+   "album": "Selva Remixes",
+   "url": "https://hardwax.com/07969/blue-hour/selva-remixes-part-1/",
+   "date": "2026-10-15T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Isaac Kniveton",
+   "album": "Daydreaming",
+   "url": "https://hardwax.com/89515/isaac-kniveton/daydreaming/",
+   "date": "2026-10-15T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Genex",
+   "album": "Weeks & Weeks",
+   "url": "https://hardwax.com/89619/genex/weeks-and-weeks/",
+   "date": "2026-10-15T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Xqte",
+   "album": "Orbital South EP",
+   "url": "https://hardwax.com/39765/xqte/orbital-south-ep/",
+   "date": "2026-10-15T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Uncertain",
+   "album": "Defeat",
+   "url": "https://hardwax.com/08114/uncertain/defeat/",
+   "date": "2026-10-15T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Beste Hira",
+   "album": "MP10",
+   "url": "https://hardwax.com/89404/beste-hira/mp10/",
+   "date": "2026-10-15T08:00:00Z",
    "image": null
   },
   {
@@ -7730,38 +7802,6 @@
    "image": null
   },
   {
-   "source": "hard-wax",
-   "artist": "Augustus Pablo",
-   "album": "Vibrate Onn",
-   "url": "https://hardwax.com/89604/augustus-pablo/vibrate-onn/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Alton Ellis",
-   "album": "Showcase",
-   "url": "https://hardwax.com/89615/alton-ellis/showcase/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Musical Youth",
-   "album": "Mash Down Birmingham",
-   "url": "https://hardwax.com/89613/musical-youth/mash-down-birmingham/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Bunny & Ricky",
-   "album": "Bushweed Corntrash",
-   "url": "https://hardwax.com/89607/bunny-and-ricky/bushweed-corntrash/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
    "source": "guardian",
    "artist": "Beth Taylor",
    "album": "The Deeps Have Music",
@@ -7991,14 +8031,6 @@
    "album": "Chapter 9",
    "url": "https://hardwax.com/07539/carlotta-jacobi/chapter-9/",
    "date": "2026-10-22T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Junior Byles",
-   "album": "Long Way",
-   "url": "https://hardwax.com/89606/junior-byles/long-way/",
-   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
@@ -8399,14 +8431,6 @@
    "album": "Answers",
    "url": "https://acloserlisten.com/2026/10/15/bibio-dorian-concept-answers/",
    "date": "2026-10-15T00:01:34Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "The Jolly Brothers",
-   "album": "Concious Man",
-   "url": "https://hardwax.com/89612/the-jolly-brothers/concious-man/",
-   "date": "2026-10-12T08:00:00Z",
    "image": null
   },
   {
@@ -18607,11 +18631,91 @@
    "image": null
   },
   {
+   "source": "grown-up-rap-songs",
+   "artist": "Kut One",
+   "album": "Illest In This Craft",
+   "url": "https://grownuprap.com/2026/10/16/kut-one-illest-in-this-craft-feat-qnc/",
+   "date": "2026-10-16T20:59:08Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Meyhem Lauren",
+   "album": "Radikon",
+   "url": "https://grownuprap.com/2026/10/16/meyhem-lauren-radikon-video/",
+   "date": "2026-10-16T17:17:16Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Truth",
+   "album": "The Get Up",
+   "url": "https://grownuprap.com/2026/10/16/truth-the-get-up-feat-kurious/",
+   "date": "2026-10-16T17:10:46Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Busta Rhymes & J Dilla",
+   "album": "Back Pain, Chest Pain, Head Pain",
+   "url": "https://grownuprap.com/2026/10/16/busta-rhymes-j-dilla-back-pain-chest-pain-head-pain-video/",
+   "date": "2026-10-16T16:56:28Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Crimeapple",
+   "album": "Can’t Let You Go",
+   "url": "https://grownuprap.com/2026/10/16/crimeapple-cant-let-you-go-video/",
+   "date": "2026-10-16T06:36:08Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Che Noir",
+   "album": "Fame & Fiction",
+   "url": "https://grownuprap.com/2026/10/16/che-noir-fame-fiction-feat-black-thought/",
+   "date": "2026-10-16T06:35:47Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Statik Selektah",
+   "album": "Champagne Wishes",
+   "url": "https://grownuprap.com/2026/10/16/statik-selektah-champagne-wishes-feat-ab-soul-raekwon-freddie-gibbs/",
+   "date": "2026-10-16T06:35:33Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Gabe Nandez & Preservation",
+   "album": "Galleon",
+   "url": "https://grownuprap.com/2026/10/16/gabe-nandez-preservation-galleon-video/",
+   "date": "2026-10-16T06:35:05Z",
+   "image": null
+  },
+  {
+   "source": "grown-up-rap-songs",
+   "artist": "Daniel Son, Asun Eastwood & Futurewave",
+   "album": "Catch A Limit",
+   "url": "https://grownuprap.com/2026/10/16/daniel-son-asun-eastwood-futurewave-catch-a-limit-video/",
+   "date": "2026-10-16T06:34:44Z",
+   "image": null
+  },
+  {
    "source": "beehype-songs",
    "artist": "Hilal Kaya",
    "album": "Sümbül",
    "url": "https://beehy.pe/hilal-kaya-sumbul-turkiye-denmark/",
    "date": "2026-09-23T22:30:26Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Nyonjo",
+   "album": "Dembe Dembe",
+   "url": "https://rhythmpassport.com/daily-discovery-nyonjo-dembe-dembe/",
+   "date": "2026-10-24T11:00:05Z",
    "image": null
   },
   {
@@ -18840,6 +18944,14 @@
   },
   {
    "source": "trance-attack",
+   "artist": "Andrew Rayel pres. EXTASIA feat. Diandra Faye",
+   "album": "My Ocean",
+   "url": "https://tranceattack.net/andrew-rayel-extasia-diandra-faye-my-ocean-richard-durand-remix/",
+   "date": "2026-10-24T11:45:36Z",
+   "image": null
+  },
+  {
+   "source": "trance-attack",
    "artist": "Activa",
    "album": "Velorum",
    "url": "https://tranceattack.net/activa-velorum/",
@@ -18868,14 +18980,6 @@
    "album": "Moonfire",
    "url": "https://tranceattack.net/dim3nsion-frankyeffe-moonfire/",
    "date": "2026-10-19T10:00:00Z",
-   "image": null
-  },
-  {
-   "source": "trance-attack",
-   "artist": "Kyau & Albert x Stoneface & Terminal",
-   "album": "When You Go",
-   "url": "https://tranceattack.net/kyau-albert-stoneface-terminal-when-you-go/",
-   "date": "2026-10-18T10:00:00Z",
    "image": null
   },
   {
@@ -19031,75 +19135,11 @@
    "image": null
   },
   {
-   "source": "grown-up-rap-songs",
-   "artist": "Kut One",
-   "album": "Illest In This Craft",
-   "url": "https://grownuprap.com/2026/10/16/kut-one-illest-in-this-craft-feat-qnc/",
-   "date": "2026-10-16T20:59:08Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Meyhem Lauren",
-   "album": "Radikon",
-   "url": "https://grownuprap.com/2026/10/16/meyhem-lauren-radikon-video/",
-   "date": "2026-10-16T17:17:16Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Truth",
-   "album": "The Get Up",
-   "url": "https://grownuprap.com/2026/10/16/truth-the-get-up-feat-kurious/",
-   "date": "2026-10-16T17:10:46Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Busta Rhymes & J Dilla",
-   "album": "Back Pain, Chest Pain, Head Pain",
-   "url": "https://grownuprap.com/2026/10/16/busta-rhymes-j-dilla-back-pain-chest-pain-head-pain-video/",
-   "date": "2026-10-16T16:56:28Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Crimeapple",
-   "album": "Can’t Let You Go",
-   "url": "https://grownuprap.com/2026/10/16/crimeapple-cant-let-you-go-video/",
-   "date": "2026-10-16T06:36:08Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Che Noir",
-   "album": "Fame & Fiction",
-   "url": "https://grownuprap.com/2026/10/16/che-noir-fame-fiction-feat-black-thought/",
-   "date": "2026-10-16T06:35:47Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Statik Selektah",
-   "album": "Champagne Wishes",
-   "url": "https://grownuprap.com/2026/10/16/statik-selektah-champagne-wishes-feat-ab-soul-raekwon-freddie-gibbs/",
-   "date": "2026-10-16T06:35:33Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Gabe Nandez & Preservation",
-   "album": "Galleon",
-   "url": "https://grownuprap.com/2026/10/16/gabe-nandez-preservation-galleon-video/",
-   "date": "2026-10-16T06:35:05Z",
-   "image": null
-  },
-  {
-   "source": "grown-up-rap-songs",
-   "artist": "Daniel Son, Asun Eastwood & Futurewave",
-   "album": "Catch A Limit",
-   "url": "https://grownuprap.com/2026/10/16/daniel-son-asun-eastwood-futurewave-catch-a-limit-video/",
-   "date": "2026-10-16T06:34:44Z",
+   "source": "trance-attack",
+   "artist": "Kyau & Albert x Stoneface & Terminal",
+   "album": "When You Go",
+   "url": "https://tranceattack.net/kyau-albert-stoneface-terminal-when-you-go/",
+   "date": "2026-10-18T10:00:00Z",
    "image": null
   },
   {
