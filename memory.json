@@ -4323,14 +4323,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Civilistjävel!",
-   "album": "Älvgång",
-   "url": "https://boomkat.com/artists/civilistjavel/releases/or92qd4e/alvgang",
-   "date": "2026-10-23T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Isaac Kniveton",
    "album": "Daydreaming",
    "url": "https://boomkat.com/artists/isaac-kniveton/releases/vr25ypwb/daydreaming",
@@ -4350,6 +4342,14 @@
    "artist": "Fine",
    "album": "Jazz Dreams",
    "url": "https://boomkat.com/artists/fine/releases/aujtjt8b/jazz-dreams",
+   "date": "2026-10-23T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Civilistjävel!",
+   "album": "Älvgång",
+   "url": "https://boomkat.com/artists/civilistjavel/releases/or92qd4e/alvgang",
    "date": "2026-10-23T00:00:00Z",
    "image": null
   },
@@ -5723,19 +5723,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "The Olivia Tremor Control",
-   "album": "The Same Place",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xcyuyb/fresh_album_the_olivia_tremor_control_the_same/",
-   "date": "2026-10-23T00:00:02Z",
-   "image": "https://external-preview.redd.it/Mrg_xqmXCaYecEHcF8-WY_nPOF_o-75Ew0Z0lhE_eeE.jpeg?width=640&crop=smart&auto=webp&s=8935a3eac2e3908ced5058c8eef87e4b86d4b464"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Fine",
    "album": "Jazz Dreams",
    "url": "https://www.reddit.com/r/indieheads/comments/1xd43hq/fresh_album_fine_jazz_dreams/",
    "date": "2026-10-23T04:17:09Z",
    "image": "https://external-preview.redd.it/qMC6nfMqB02QXCbx6kks4mXuwjhSLutMmdrMLJMeJ3k.jpeg?width=640&crop=smart&auto=webp&s=dbef571f7d01c2ace8ff7a03e233a331418621b2"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "The Olivia Tremor Control",
+   "album": "The Same Place",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xcyuyb/fresh_album_the_olivia_tremor_control_the_same/",
+   "date": "2026-10-23T00:00:02Z",
+   "image": "https://external-preview.redd.it/Mrg_xqmXCaYecEHcF8-WY_nPOF_o-75Ew0Z0lhE_eeE.jpeg?width=640&crop=smart&auto=webp&s=8935a3eac2e3908ced5058c8eef87e4b86d4b464"
   },
   {
    "source": "r-indieheads",
