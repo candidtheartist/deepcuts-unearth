@@ -505,14 +505,6 @@
    "image": null
   },
   {
-   "source": "stereogum",
-   "artist": "Maripool",
-   "album": "Rotten Luck",
-   "url": "https://stereogum.com/2509250/album-of-the-week-maripool-rotten-luck/reviews/album-of-the-week/",
-   "date": "2026-08-25T15:15:54Z",
-   "image": null
-  },
-  {
    "source": "aquarium-drunkard",
    "artist": "Videodrome",
    "album": "Psycho II (1983)",
@@ -1426,6 +1418,14 @@
   },
   {
    "source": "jenesaispop",
+   "artist": "Anni B Sweet",
+   "album": "Alegría",
+   "url": "https://jenesaispop.com/2026/10/25/532824/anni-b-sweet-alegria/",
+   "date": "2026-10-25T13:37:03Z",
+   "image": null
+  },
+  {
+   "source": "jenesaispop",
    "artist": "Pet Shop Boys",
    "album": "A Man From the Future",
    "url": "https://jenesaispop.com/2026/10/24/532404/pet-shop-man-future-critica/",
@@ -2182,6 +2182,22 @@
    "album": "If You Know Me, You Know My Brother",
    "url": "https://spillmagazine.com/spill-album-review-reuben-and-the-dark-if-you-know-me-you-know-my-brother/",
    "date": "2026-10-09T04:08:56Z",
+   "image": null
+  },
+  {
+   "source": "mxdwn",
+   "artist": "Lowly",
+   "album": "Softly",
+   "url": "https://music.mxdwn.com/2026/10/25/reviews/album-review-lowly-softly/",
+   "date": "2026-10-25T16:00:51Z",
+   "image": null
+  },
+  {
+   "source": "mxdwn",
+   "artist": "Caspian",
+   "album": "Caspian",
+   "url": "https://music.mxdwn.com/2026/10/25/reviews/album-review-caspian-caspian/",
+   "date": "2026-10-25T14:23:00Z",
    "image": null
   },
   {
@@ -3537,30 +3553,6 @@
    "image": null
   },
   {
-   "source": "popmatters",
-   "artist": "Brandon Flowers",
-   "album": "Thrasher",
-   "url": "https://www.popmatters.com/brandon-flowers-thrasher",
-   "date": "2026-08-25T13:39:19Z",
-   "image": null
-  },
-  {
-   "source": "popmatters",
-   "artist": "The Durutti Column",
-   "album": "Renascent",
-   "url": "https://www.popmatters.com/the-durutti-column-renascent",
-   "date": "2026-08-25T13:36:00Z",
-   "image": null
-  },
-  {
-   "source": "popmatters",
-   "artist": "Ghost Hounds",
-   "album": "Justified",
-   "url": "https://www.popmatters.com/ghost-hounds-justified",
-   "date": "2026-08-25T12:45:01Z",
-   "image": null
-  },
-  {
    "source": "npr-new-music-friday",
    "artist": "Anderson .Paak & Cordae",
    "album": "Heavy Is The Crown",
@@ -4291,6 +4283,14 @@
   },
   {
    "source": "boomkat",
+   "artist": "Jan van den Broeke",
+   "album": "84 More Dreams",
+   "url": "https://boomkat.com/artists/jan-van-den-broeke/releases/ijm56fgu/84-more-dreams",
+   "date": "2026-10-25T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
    "artist": "Koeosaeme",
    "album": "Makuhari",
    "url": "https://boomkat.com/artists/koeosaeme/releases/brvyfapd/makuhari",
@@ -4403,14 +4403,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Michael J. Blood",
-   "album": "Cause & Effect Vol.1",
-   "url": "https://boomkat.com/artists/michael-j-blood/releases/pyqr2a9a/cause-effect-vol-1",
-   "date": "2026-10-23T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "William Basinski",
    "album": "Passing the Cup of Sorrows",
    "url": "https://boomkat.com/artists/william-basinski/releases/eesdvszv/passing-the-cup-of-sorrows",
@@ -4419,9 +4411,17 @@
   },
   {
    "source": "boomkat",
-   "artist": "Isaac Kniveton",
-   "album": "Daydreaming",
-   "url": "https://boomkat.com/artists/isaac-kniveton/releases/vr25ypwb/daydreaming",
+   "artist": "Michael J. Blood",
+   "album": "Cause & Effect Vol.1",
+   "url": "https://boomkat.com/artists/michael-j-blood/releases/pyqr2a9a/cause-effect-vol-1",
+   "date": "2026-10-23T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Shabazz Palaces",
+   "album": "It's A Style Sport",
+   "url": "https://boomkat.com/artists/shabazz-palaces/releases/rezkb2tk/it-s-a-style-sport",
    "date": "2026-10-23T00:00:00Z",
    "image": null
   },
@@ -4443,9 +4443,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Shabazz Palaces",
-   "album": "It's A Style Sport",
-   "url": "https://boomkat.com/artists/shabazz-palaces/releases/rezkb2tk/it-s-a-style-sport",
+   "artist": "Isaac Kniveton",
+   "album": "Daydreaming",
+   "url": "https://boomkat.com/artists/isaac-kniveton/releases/vr25ypwb/daydreaming",
    "date": "2026-10-23T00:00:00Z",
    "image": null
   },
@@ -4578,22 +4578,6 @@
    "image": null
   },
   {
-   "source": "boomkat",
-   "artist": "Mike Reed's Separatist Party",
-   "album": "Sing the Color Blue",
-   "url": "https://boomkat.com/artists/mike-reed-s-separatist-party/releases/yg9j9gky/sing-the-color-blue",
-   "date": "2026-10-23T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "ROLANDO",
-   "album": "Junie: A Tale of Detroit",
-   "url": "https://boomkat.com/artists/rolando/releases/2dyxhw7j/junie-a-tale-of-detroit-the-remixes",
-   "date": "2026-10-23T00:00:00Z",
-   "image": null
-  },
-  {
    "source": "fire-note",
    "artist": "The Olivia Tremor Control",
    "album": "The Same Place",
@@ -4647,14 +4631,6 @@
    "album": "Kaleidoscope Of Rainbows",
    "url": "https://atthebarrier.com/2026/10/23/neil-ardley-kaleidoscope-of-rainbows-album-review/",
    "date": "2026-10-23T07:33:00Z",
-   "image": null
-  },
-  {
-   "source": "at-the-barrier",
-   "artist": "Richard Thompson",
-   "album": "Hippies, Thugs and Heroes",
-   "url": "https://atthebarrier.com/2026/10/21/richard-thompson-hippies-thugs-and-heroes-album-review/",
-   "date": "2026-10-21T07:01:46Z",
    "image": null
   },
   {
@@ -5091,6 +5067,14 @@
   },
   {
    "source": "angry-metal-guy",
+   "artist": "Neolith",
+   "album": "Inbir",
+   "url": "https://www.angrymetalguy.com/neolith-inbir-review/",
+   "date": "2026-10-25T13:38:08Z",
+   "image": null
+  },
+  {
+   "source": "angry-metal-guy",
    "artist": "Cursebinder",
    "album": "Psychohazard",
    "url": "https://www.angrymetalguy.com/cursebinder-psychohazard-review/",
@@ -5159,14 +5143,6 @@
    "album": "When the Lions Leave Their Den",
    "url": "https://www.angrymetalguy.com/amaseffer-when-the-lions-leave-their-den-review/",
    "date": "2026-10-21T11:20:29Z",
-   "image": null
-  },
-  {
-   "source": "angry-metal-guy",
-   "artist": "Fvneral Fvkk",
-   "album": "Indecent Idols",
-   "url": "https://www.angrymetalguy.com/fvneral-fvkk-indecent-idols-review/",
-   "date": "2026-10-20T14:53:07Z",
    "image": null
   },
   {
@@ -5915,19 +5891,19 @@
   },
   {
    "source": "r-indieheads",
+   "artist": "Victor Jones",
+   "album": "Mad Flowers",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xddda1/fresh_album_victor_jones_mad_flowers/",
+   "date": "2026-10-23T13:00:23Z",
+   "image": "https://external-preview.redd.it/0HJkfnI6UwAKAwBmeqvifrIY_WsA_G7An5-wiykFV30.jpeg?width=640&crop=smart&auto=webp&s=e0acac5aedb37d92ff657b4a593399c0c7f867ed"
+  },
+  {
+   "source": "r-indieheads",
    "artist": "Paper Jam",
    "album": "This and That",
    "url": "https://www.reddit.com/r/indieheads/comments/1xdbh8w/fresh_album_paper_jam_this_and_that/",
    "date": "2026-10-23T11:31:10Z",
    "image": "https://external-preview.redd.it/Uh6t1SKTBScbTZPQrcLS85Ub1HPuwZyC3CB1H-2LyvA.jpeg?width=640&crop=smart&auto=webp&s=f6dbe319171df3ee954f194c6940a6a104613cd6"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Art d’Ecco",
-   "album": "Scheele’s Green",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xcywb5/fresh_album_art_decco_scheeles_green/",
-   "date": "2026-10-23T00:00:54Z",
-   "image": "https://external-preview.redd.it/tVhJey3WW7vhLqNA9_o4zNTTLpNVdrJgNRf03jIRMZA.jpeg?width=640&crop=smart&auto=webp&s=ef2e0ef9d4272dea79b5b0e3df8b47b934294fb0"
   },
   {
    "source": "guardian-jazz",
@@ -6187,6 +6163,14 @@
   },
   {
    "source": "uk-vibe",
+   "artist": "Twin Talk",
+   "album": "Delights",
+   "url": "https://ukvibe.org/album_reviews/twin-talk-2/",
+   "date": "2026-10-25T16:17:48Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
    "artist": "Córas Trio",
    "album": "Birth Is Upon Me, Death Is Upon Me",
    "url": "https://ukvibe.org/album_reviews/coras-trio/",
@@ -6247,22 +6231,6 @@
    "album": "Awakenings",
    "url": "https://ukvibe.org/album_reviews/jordan-corda/",
    "date": "2026-10-23T13:14:53Z",
-   "image": null
-  },
-  {
-   "source": "uk-vibe",
-   "artist": "Mandrill",
-   "album": "Mandrill Is",
-   "url": "https://ukvibe.org/album_reviews/mandrill/",
-   "date": "2026-10-23T10:47:34Z",
-   "image": null
-  },
-  {
-   "source": "uk-vibe",
-   "artist": "Blåly",
-   "album": "Resonans",
-   "url": "https://ukvibe.org/album_reviews/blaly/",
-   "date": "2026-10-23T08:05:18Z",
    "image": null
   },
   {
@@ -6842,70 +6810,6 @@
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/19082207/TSHA-Mi-Casa-EP-acid-stag.jpeg?w=150&h=150&crop=1&ssl=1"
   },
   {
-   "source": "ambientblog",
-   "artist": "The Larsen Pipes",
-   "album": "The Larsen Pipes 01",
-   "url": "https://www.ambientblog.net/larsenpipes/",
-   "date": "2026-10-24T07:43:42Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Ava Rasti",
-   "album": "No One Knows How Wild The Wind Blows",
-   "url": "https://www.ambientblog.net/avarasti-wind/",
-   "date": "2026-10-19T10:48:12Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Mathias Villard",
-   "album": "Past Radiance",
-   "url": "https://www.ambientblog.net/past-radiance/",
-   "date": "2026-10-14T18:54:41Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Deaf Center",
-   "album": "Trinitatis",
-   "url": "https://www.ambientblog.net/trinitatis/",
-   "date": "2026-10-09T08:32:27Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Adam Wiltzie & Johann Johannsson",
-   "album": "Friendship Survival Guide",
-   "url": "https://www.ambientblog.net/wiltzie-johannsson/",
-   "date": "2026-09-26T07:03:40Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Looper",
-   "album": "Interior-Day",
-   "url": "https://www.ambientblog.net/looper-interiorday/",
-   "date": "2026-09-21T11:55:48Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Halftribe",
-   "album": "Disappear In Silent Ways",
-   "url": "https://www.ambientblog.net/halftribe-disappear/",
-   "date": "2026-09-12T10:06:21Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Remst8",
-   "album": "Coalescence",
-   "url": "https://www.ambientblog.net/coalescence/",
-   "date": "2026-08-29T08:53:27Z",
-   "image": null
-  },
-  {
    "source": "twisted-soul",
    "artist": "João Pimenta Gomes",
    "album": "Dois Desertos",
@@ -7051,6 +6955,198 @@
   },
   {
    "source": "musicweb",
+   "artist": "Schubert",
+   "album": "Die schöne Müllerin",
+   "url": "https://musicwebinternational.com/2026/10/schubert-die-schone-mullerin-wigmore-hall-live/",
+   "date": "2026-10-25T12:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Saint-Saëns",
+   "album": "Organ Music Volume 2",
+   "url": "https://musicwebinternational.com/2026/10/saint-saens-organ-music-volume-2-hyperion/",
+   "date": "2026-10-25T12:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Picton-Turbervill",
+   "album": "Eden",
+   "url": "https://musicwebinternational.com/2026/10/picton-turbervill-eden-orchid-music/",
+   "date": "2026-10-25T12:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Ravel",
+   "album": "Transcriptions",
+   "url": "https://musicwebinternational.com/2026/10/ravel-transcriptions-aparte/",
+   "date": "2026-10-25T12:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Mahler",
+   "album": "Symphony No. 8",
+   "url": "https://musicwebinternational.com/2026/10/mahler-symphony-no-8-decca/",
+   "date": "2026-10-25T12:00:00Z",
+   "image": null
+  },
+  {
+   "source": "classic-review",
+   "artist": "Simon Rattle (2026)",
+   "album": "Symphony No. 2",
+   "url": "https://theclassicreview.com/album-reviews/review-mahler-symphony-no-2-simon-rattle-2026/",
+   "date": "2026-10-19T03:00:00Z",
+   "image": null
+  },
+  {
+   "source": "classic-review",
+   "artist": "Yulianna Avdeeva",
+   "album": "Metanoia",
+   "url": "https://theclassicreview.com/album-reviews/review-liszt-metanoia-yulianna-avdeeva-piano/",
+   "date": "2026-09-29T17:31:00Z",
+   "image": null
+  },
+  {
+   "source": "beehype",
+   "artist": "Jennifur",
+   "album": "MAZDA",
+   "url": "https://beehy.pe/jennifur-mazda-belgium/",
+   "date": "2026-10-06T09:24:51Z",
+   "image": null
+  },
+  {
+   "source": "beehype",
+   "artist": "CHO CO PA CO CHO CO QUIN QUIN",
+   "album": "Synthetic 海岸",
+   "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
+   "date": "2026-09-09T05:33:19Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Mike Reed's Separatist Party",
+   "album": "Sing the Color Blue",
+   "url": "https://boomkat.com/artists/mike-reed-s-separatist-party/releases/yg9j9gky/sing-the-color-blue",
+   "date": "2026-10-23T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "ROLANDO",
+   "album": "Junie: A Tale of Detroit",
+   "url": "https://boomkat.com/artists/rolando/releases/2dyxhw7j/junie-a-tale-of-detroit-the-remixes",
+   "date": "2026-10-23T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "at-the-barrier",
+   "artist": "Richard Thompson",
+   "album": "Hippies, Thugs and Heroes",
+   "url": "https://atthebarrier.com/2026/10/21/richard-thompson-hippies-thugs-and-heroes-album-review/",
+   "date": "2026-10-21T07:01:46Z",
+   "image": null
+  },
+  {
+   "source": "angry-metal-guy",
+   "artist": "Fvneral Fvkk",
+   "album": "Indecent Idols",
+   "url": "https://www.angrymetalguy.com/fvneral-fvkk-indecent-idols-review/",
+   "date": "2026-10-20T14:53:07Z",
+   "image": null
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Art d’Ecco",
+   "album": "Scheele’s Green",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xcywb5/fresh_album_art_decco_scheeles_green/",
+   "date": "2026-10-23T00:00:54Z",
+   "image": "https://external-preview.redd.it/tVhJey3WW7vhLqNA9_o4zNTTLpNVdrJgNRf03jIRMZA.jpeg?width=640&crop=smart&auto=webp&s=ef2e0ef9d4272dea79b5b0e3df8b47b934294fb0"
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Mandrill",
+   "album": "Mandrill Is",
+   "url": "https://ukvibe.org/album_reviews/mandrill/",
+   "date": "2026-10-23T10:47:34Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Blåly",
+   "album": "Resonans",
+   "url": "https://ukvibe.org/album_reviews/blaly/",
+   "date": "2026-10-23T08:05:18Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "The Larsen Pipes",
+   "album": "The Larsen Pipes 01",
+   "url": "https://www.ambientblog.net/larsenpipes/",
+   "date": "2026-10-24T07:43:42Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Ava Rasti",
+   "album": "No One Knows How Wild The Wind Blows",
+   "url": "https://www.ambientblog.net/avarasti-wind/",
+   "date": "2026-10-19T10:48:12Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Mathias Villard",
+   "album": "Past Radiance",
+   "url": "https://www.ambientblog.net/past-radiance/",
+   "date": "2026-10-14T18:54:41Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Deaf Center",
+   "album": "Trinitatis",
+   "url": "https://www.ambientblog.net/trinitatis/",
+   "date": "2026-10-09T08:32:27Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Adam Wiltzie & Johann Johannsson",
+   "album": "Friendship Survival Guide",
+   "url": "https://www.ambientblog.net/wiltzie-johannsson/",
+   "date": "2026-09-26T07:03:40Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Looper",
+   "album": "Interior-Day",
+   "url": "https://www.ambientblog.net/looper-interiorday/",
+   "date": "2026-09-21T11:55:48Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Halftribe",
+   "album": "Disappear In Silent Ways",
+   "url": "https://www.ambientblog.net/halftribe-disappear/",
+   "date": "2026-09-12T10:06:21Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Remst8",
+   "album": "Coalescence",
+   "url": "https://www.ambientblog.net/coalescence/",
+   "date": "2026-08-29T08:53:27Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
    "artist": "Vivaldi",
    "album": "Bajazet",
    "url": "https://musicwebinternational.com/2026/10/vivaldi-bajazet-erato/",
@@ -7090,38 +7186,6 @@
    "image": null
   },
   {
-   "source": "classic-review",
-   "artist": "Simon Rattle (2026)",
-   "album": "Symphony No. 2",
-   "url": "https://theclassicreview.com/album-reviews/review-mahler-symphony-no-2-simon-rattle-2026/",
-   "date": "2026-10-19T03:00:00Z",
-   "image": null
-  },
-  {
-   "source": "classic-review",
-   "artist": "Yulianna Avdeeva",
-   "album": "Metanoia",
-   "url": "https://theclassicreview.com/album-reviews/review-liszt-metanoia-yulianna-avdeeva-piano/",
-   "date": "2026-09-29T17:31:00Z",
-   "image": null
-  },
-  {
-   "source": "beehype",
-   "artist": "Jennifur",
-   "album": "MAZDA",
-   "url": "https://beehy.pe/jennifur-mazda-belgium/",
-   "date": "2026-10-06T09:24:51Z",
-   "image": null
-  },
-  {
-   "source": "beehype",
-   "artist": "CHO CO PA CO CHO CO QUIN QUIN",
-   "album": "Synthetic 海岸",
-   "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
-   "date": "2026-09-09T05:33:19Z",
-   "image": null
-  },
-  {
    "source": "jenesaispop",
    "artist": "Rachel Chinouriri",
    "album": "I think I spoke too soon",
@@ -7136,14 +7200,6 @@
    "url": "https://muzikalia.com/fontaines-d-c-dopamine-chamber-xl-recordings/",
    "date": "2026-10-16T09:12:46Z",
    "image": null
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Victor Jones",
-   "album": "Mad Flowers",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xddda1/fresh_album_victor_jones_mad_flowers/",
-   "date": "2026-10-23T13:00:23Z",
-   "image": "https://external-preview.redd.it/0HJkfnI6UwAKAwBmeqvifrIY_WsA_G7An5-wiykFV30.jpeg?width=640&crop=smart&auto=webp&s=e0acac5aedb37d92ff657b4a593399c0c7f867ed"
   },
   {
    "source": "uk-vibe",
@@ -8470,14 +8526,6 @@
    "artist": "Anna von Hausswolff",
    "album": "All Thoughts Fly",
    "url": "https://boomkat.com/artists/anna-von-hausswolff/releases/dm9in2ys/all-thoughts-fly",
-   "date": "2026-10-22T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Jan van den Broeke",
-   "album": "84 More Dreams",
-   "url": "https://boomkat.com/artists/jan-van-den-broeke/releases/ijm56fgu/84-more-dreams",
    "date": "2026-10-22T00:00:00Z",
    "image": null
   },
@@ -18432,6 +18480,14 @@
   },
   {
    "source": "bias-list",
+   "artist": "RIIZE",
+   "album": "Insomnia",
+   "url": "https://thebiaslist.com/2026/10/25/song-review-riize-insomnia/",
+   "date": "2026-10-25T15:20:40Z",
+   "image": "https://thebiaslist.com/wp-content/uploads/2026/10/riize-insomnia-1.jpg"
+  },
+  {
+   "source": "bias-list",
    "artist": "Xdinary Heroes",
    "album": "u and me in arguments",
    "url": "https://thebiaslist.com/2026/10/23/buried-treasure-xdinary-heroes-u-and-me-in-arguments/",
@@ -18461,22 +18517,6 @@
    "url": "https://thebiaslist.com/2026/10/22/song-review-babymonster-deserve/",
    "date": "2026-10-23T04:24:28Z",
    "image": "https://thebiaslist.com/wp-content/uploads/2026/10/babymonster-deserve.jpg"
-  },
-  {
-   "source": "bias-list",
-   "artist": "Teen Top",
-   "album": "Everglow",
-   "url": "https://thebiaslist.com/2026/10/22/buried-treasure-teen-top-everglow/",
-   "date": "2026-10-22T13:44:01Z",
-   "image": "https://thebiaslist.com/wp-content/uploads/2026/10/teen-top-everglow.jpg"
-  },
-  {
-   "source": "bias-list",
-   "artist": "Sung Hanbin (ZEROBASEONE)",
-   "album": "3AM",
-   "url": "https://thebiaslist.com/2026/10/22/buried-treasure-sung-hanbin-zerobaseone-3am/",
-   "date": "2026-10-22T13:42:46Z",
-   "image": "https://thebiaslist.com/wp-content/uploads/2026/10/sung-hanbin-3am.jpg"
   },
   {
    "source": "chorus-fm",
@@ -18991,14 +19031,6 @@
    "image": null
   },
   {
-   "source": "trommel",
-   "artist": "YAMADAtheGIANT",
-   "album": "Surf Boyz (Mixstacy Mix)",
-   "url": "https://trommelmusic.com/music/premiere-a1-yamadathegiant-surf-boyz-mixstacy-mix-cir000/",
-   "date": "2026-10-15T09:47:02Z",
-   "image": null
-  },
-  {
    "source": "trance-attack",
    "artist": "Ciaran McAuley & Liel Kolet",
    "album": "Something To Hold",
@@ -19188,6 +19220,30 @@
    "album": "The Butterfly Effect",
    "url": "https://twistedsoulmusic.org/2026/10/21/coras-trio-butterfly-effect-ts-premiere/",
    "date": "2026-10-21T13:18:11Z",
+   "image": null
+  },
+  {
+   "source": "bias-list",
+   "artist": "Teen Top",
+   "album": "Everglow",
+   "url": "https://thebiaslist.com/2026/10/22/buried-treasure-teen-top-everglow/",
+   "date": "2026-10-22T13:44:01Z",
+   "image": "https://thebiaslist.com/wp-content/uploads/2026/10/teen-top-everglow.jpg"
+  },
+  {
+   "source": "bias-list",
+   "artist": "Sung Hanbin (ZEROBASEONE)",
+   "album": "3AM",
+   "url": "https://thebiaslist.com/2026/10/22/buried-treasure-sung-hanbin-zerobaseone-3am/",
+   "date": "2026-10-22T13:42:46Z",
+   "image": "https://thebiaslist.com/wp-content/uploads/2026/10/sung-hanbin-3am.jpg"
+  },
+  {
+   "source": "trommel",
+   "artist": "YAMADAtheGIANT",
+   "album": "Surf Boyz (Mixstacy Mix)",
+   "url": "https://trommelmusic.com/music/premiere-a1-yamadathegiant-surf-boyz-mixstacy-mix-cir000/",
+   "date": "2026-10-15T09:47:02Z",
    "image": null
   },
   {
