@@ -442,6 +442,14 @@
   },
   {
    "source": "stereogum",
+   "artist": "DIIV",
+   "album": "ZIRP!",
+   "url": "https://stereogum.com/2515261/album-of-the-week-diiv-zirp/reviews/album-of-the-week/",
+   "date": "2026-10-27T20:25:11Z",
+   "image": null
+  },
+  {
+   "source": "stereogum",
    "artist": "Josh Johnson",
    "album": "Animative",
    "url": "https://stereogum.com/2515021/album-of-the-week-josh-johnson-animative/reviews/album-of-the-week/",
@@ -4217,27 +4225,18 @@
    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F93%2Fd8193346459790608efe08de66bf%2F7dca52b0-4bac-483e-bf0c-126fda3d4df4.jpeg"
   },
   {
-   "source": "line-of-best-fit",
-   "artist": "Kali Malone",
-   "album": "Burning Song",
-   "url": "https://www.thelineofbestfit.com/albums/on-burning-song-kali-malone-lays-the-labour-behind-transcendence-bare",
-   "date": "2026-10-27T11:00:00Z",
-   "image": null,
-   "factor": 1.5
-  },
-  {
    "source": "boomkat",
-   "artist": "Isaac Kniveton",
-   "album": "Daydreaming",
-   "url": "https://boomkat.com/artists/isaac-kniveton/releases/vr25ypwb/daydreaming",
+   "artist": "Miles",
+   "album": "Vault",
+   "url": "https://boomkat.com/artists/miles/releases/kweyz8er/vault",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Miles",
-   "album": "Vault",
-   "url": "https://boomkat.com/artists/miles/releases/kweyz8er/vault",
+   "artist": "Fatima Al Qadiri",
+   "album": "3TWI",
+   "url": "https://boomkat.com/artists/fatima-al-qadiri/releases/vbfqjah5/3twi",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
@@ -4251,9 +4250,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Fatima Al Qadiri",
-   "album": "3TWI",
-   "url": "https://boomkat.com/artists/fatima-al-qadiri/releases/vbfqjah5/3twi",
+   "artist": "Pelican Daughters",
+   "album": "The Low Bar",
+   "url": "https://boomkat.com/artists/pelican-daughters/releases/rgbnfwnc/the-low-bar",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
@@ -4283,14 +4282,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Tor5y (1127)",
-   "album": "Shawaf / Smut",
-   "url": "https://boomkat.com/artists/tor5y-1127/releases/tkj4h6sc/shawaf-smut",
-   "date": "2026-10-27T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Pearson Sound, Marie Davidson & Autumns",
    "album": "Heat",
    "url": "https://boomkat.com/artists/pearson-sound-marie-davidson-autumns/releases/nbmcmwjd/heat",
@@ -4307,9 +4298,17 @@
   },
   {
    "source": "boomkat",
-   "artist": "Pelican Daughters",
-   "album": "The Low Bar",
-   "url": "https://boomkat.com/artists/pelican-daughters/releases/rgbnfwnc/the-low-bar",
+   "artist": "Tor5y (1127)",
+   "album": "Shawaf / Smut",
+   "url": "https://boomkat.com/artists/tor5y-1127/releases/tkj4h6sc/shawaf-smut",
+   "date": "2026-10-27T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "jb glazer",
+   "album": "heal or go heel (ZULI refix) / silence (Tor5y edit) dubplate",
+   "url": "https://boomkat.com/artists/jb-glazer/releases/o4kwkqqq/heal-or-go-heel-zuli-refix-silence-tor5y-edit-dubplate",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
@@ -4326,22 +4325,6 @@
    "artist": "Millsart",
    "album": "DRIFTER",
    "url": "https://boomkat.com/artists/millsart/releases/zskvfkcv/drifter",
-   "date": "2026-10-27T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Gibrana Cervantes",
-   "album": "Verdad y Error",
-   "url": "https://boomkat.com/artists/gibrana-cervantes/releases/wujskhls/verdad-y-error",
-   "date": "2026-10-27T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Space Ghost",
-   "album": "Back From Reality",
-   "url": "https://boomkat.com/artists/space-ghost/releases/kowkx2mg/back-from-reality",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
@@ -4371,17 +4354,25 @@
   },
   {
    "source": "boomkat",
-   "artist": "jb glazer",
-   "album": "heal or go heel (ZULI refix) / silence (Tor5y edit) dubplate",
-   "url": "https://boomkat.com/artists/jb-glazer/releases/o4kwkqqq/heal-or-go-heel-zuli-refix-silence-tor5y-edit-dubplate",
+   "artist": "Settima Tacca",
+   "album": "A Cup, a Horse and Signs That Point at Wells",
+   "url": "https://boomkat.com/artists/settima-tacca/releases/7unvsu6w/a-cup-a-horse-and-signs-that-point-at-wells",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Settima Tacca",
-   "album": "A Cup, a Horse and Signs That Point at Wells",
-   "url": "https://boomkat.com/artists/settima-tacca/releases/7unvsu6w/a-cup-a-horse-and-signs-that-point-at-wells",
+   "artist": "Gibrana Cervantes",
+   "album": "Verdad y Error",
+   "url": "https://boomkat.com/artists/gibrana-cervantes/releases/wujskhls/verdad-y-error",
+   "date": "2026-10-27T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Space Ghost",
+   "album": "Back From Reality",
+   "url": "https://boomkat.com/artists/space-ghost/releases/kowkx2mg/back-from-reality",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
@@ -4494,6 +4485,14 @@
    "artist": "Billy Madden, Mr. Magic",
    "album": "A Tribute To Sam Cooke Chain Gang / A Song for Somebody",
    "url": "https://boomkat.com/artists/billy-madden-mr-magic/releases/pbbrlgji/a-tribute-to-sam-cooke-chain-gang-a-song-for-somebody",
+   "date": "2026-10-27T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "A Thousand Details",
+   "album": "A Baixa em 2010's",
+   "url": "https://boomkat.com/artists/a-thousand-details/releases/pbcxyyqf/a-baixa-em-2010-s",
    "date": "2026-10-27T00:00:00Z",
    "image": null
   },
@@ -4762,14 +4761,6 @@
    "image": null
   },
   {
-   "source": "various-small-flames",
-   "artist": "Amiture Music",
-   "album": "Idela",
-   "url": "https://varioussmallflames.co.uk/2026/10/02/amiture-music-idela/",
-   "date": "2026-10-02T19:54:08Z",
-   "image": null
-  },
-  {
    "source": "klof",
    "artist": "Chuck Roth",
    "album": "Texture Songs",
@@ -4879,14 +4870,6 @@
    "album": "Shooter of Truth",
    "url": "https://americanahighways.org/2026/10/22/review-lyal-strickland-shooter-of-truth/",
    "date": "2026-10-22T15:24:22Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "JP Harris",
-   "album": "Dreadful Wind & Rain – Shaving a Dead Man",
-   "url": "https://americanahighways.org/2026/10/21/review-jp-harris-dreadful-wind-rain-shaving-a-dead-man/",
-   "date": "2026-10-21T15:15:27Z",
    "image": null
   },
   {
@@ -5346,14 +5329,6 @@
    "image": null
   },
   {
-   "source": "everything-is-noise",
-   "artist": "White Ring",
-   "album": "FATE",
-   "url": "https://everythingisnoise.net/reviews/white-ring-fate/",
-   "date": "2026-10-19T07:43:45Z",
-   "image": null
-  },
-  {
    "source": "rapreviews",
    "artist": "Hieroglyphics",
    "album": "All Said And Done",
@@ -5375,14 +5350,6 @@
    "album": "The Smile Gets Wild",
    "url": "https://www.rapreviews.com/2026/10/smiley-the-smile-gets-wild/",
    "date": "2026-10-27T00:03:00Z",
-   "image": null
-  },
-  {
-   "source": "rapreviews",
-   "artist": "Dave Blunts",
-   "album": "Change or Get Changed",
-   "url": "https://www.rapreviews.com/2026/10/dave-blunts-change-or-get-changed/",
-   "date": "2026-10-27T00:02:00Z",
    "image": null
   },
   {
@@ -5495,14 +5462,6 @@
    "album": "Muse",
    "url": "https://www.shatterthestandards.com/p/album-review-muse-by-john-legend",
    "date": "2026-10-22T17:02:00Z",
-   "image": null
-  },
-  {
-   "source": "shatter-the-standards",
-   "artist": "Che Noir",
-   "album": "It Takes a Village",
-   "url": "https://www.shatterthestandards.com/p/album-review-it-takes-a-village-by",
-   "date": "2026-10-22T17:01:56Z",
    "image": null
   },
   {
@@ -5707,10 +5666,10 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Easykid",
-   "album": "soy un fatalista",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xdhdec/fresh_album_easykid_soy_un_fatalista/",
-   "date": "2026-10-23T15:35:27Z",
+   "artist": "GDP",
+   "album": "Cross Off Matthew",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xfkse2/fresh_album_gdp_cross_off_matthew/",
+   "date": "2026-10-26T02:19:33Z",
    "image": null
   },
   {
@@ -5819,19 +5778,19 @@
   },
   {
    "source": "r-indieheads",
+   "artist": "Sour Widows",
+   "album": "Sigil",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xcyvfq/fresh_album_sour_widows_sigil/",
+   "date": "2026-10-23T00:00:20Z",
+   "image": "https://external-preview.redd.it/kKHm8nK7NR9pe4iAYJ1VxDhgB-JPJ1HOXvY27c6RnXg.jpeg?width=640&crop=smart&auto=webp&s=84dad98f81f6f9094d0ff9e815422b1d33c7ac5b"
+  },
+  {
+   "source": "r-indieheads",
    "artist": "Paper Jam",
    "album": "This and That",
    "url": "https://www.reddit.com/r/indieheads/comments/1xdbh8w/fresh_album_paper_jam_this_and_that/",
    "date": "2026-10-23T11:31:10Z",
    "image": "https://external-preview.redd.it/Uh6t1SKTBScbTZPQrcLS85Ub1HPuwZyC3CB1H-2LyvA.jpeg?width=640&crop=smart&auto=webp&s=f6dbe319171df3ee954f194c6940a6a104613cd6"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Art d’Ecco",
-   "album": "Scheele’s Green",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xcywb5/fresh_album_art_decco_scheeles_green/",
-   "date": "2026-10-23T00:00:54Z",
-   "image": "https://external-preview.redd.it/tVhJey3WW7vhLqNA9_o4zNTTLpNVdrJgNRf03jIRMZA.jpeg?width=640&crop=smart&auto=webp&s=ef2e0ef9d4272dea79b5b0e3df8b47b934294fb0"
   },
   {
    "source": "guardian-jazz",
@@ -5847,6 +5806,14 @@
    "album": "The Wise Ones",
    "url": "https://www.theguardian.com/music/2026/sep/11/gretchen-parlato-the-wise-ones-review",
    "date": "2026-09-11T08:00:04Z",
+   "image": null
+  },
+  {
+   "source": "jazz-trail",
+   "artist": "BFA Trio",
+   "album": "Hurtling Between",
+   "url": "https://jazztrail.net/blog/bfa-trio-hurtling-between-album-review",
+   "date": "2026-10-27T17:31:31Z",
    "image": null
   },
   {
@@ -5999,14 +5966,6 @@
    "album": "Rush",
    "url": "https://jazztrail.net/blog/lucian-ban-elevation-rush-album-review",
    "date": "2026-09-09T01:56:32Z",
-   "image": null
-  },
-  {
-   "source": "jazz-trail",
-   "artist": "Geof Bradfield / Myra Melford / Ben Goldberg / Dana Hall",
-   "album": "Open Or Close",
-   "url": "https://jazztrail.net/blog/bradfield-melford-goldberg-hall-open-or-close-album-review",
-   "date": "2026-09-03T04:47:37Z",
    "image": null
   },
   {
@@ -7019,6 +6978,54 @@
   },
   {
    "source": "musicweb",
+   "artist": "Wagner",
+   "album": "Parsifal",
+   "url": "https://musicwebinternational.com/2026/10/wagner-parsifal-challenge-classics/",
+   "date": "2026-10-27T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Vaughan Williams",
+   "album": "Symphony, No 1 & Maconchy: Nocturne for Orchestra",
+   "url": "https://musicwebinternational.com/2026/10/vaughan-williams-symphony-no-1-maconchy-nocturne-for-orchestra-lso-live/",
+   "date": "2026-10-27T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Amelita Galli-Curci (soprano)",
+   "album": "Volume 2",
+   "url": "https://musicwebinternational.com/2026/10/amelita-galli-curci-soprano-vol-2-nimbus-records/",
+   "date": "2026-10-27T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Wood",
+   "album": "Music for String Quartet",
+   "url": "https://musicwebinternational.com/2026/10/wood-music-for-string-quartet-heritage/",
+   "date": "2026-10-27T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Mozart",
+   "album": "Piano Trios, Vol 1",
+   "url": "https://musicwebinternational.com/2026/10/mozart-piano-trios-vol-1-evil-penguin-classic/",
+   "date": "2026-10-27T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Schwertsik",
+   "album": "Baumgesänge, Nachtmusiken",
+   "url": "https://musicwebinternational.com/2026/10/schwertsik-baumgesange-nachtmusiken-chandos/",
+   "date": "2026-10-27T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
    "artist": "Johnson",
    "album": "Orchestral Music Vol 4",
    "url": "https://musicwebinternational.com/2026/10/johnson-orchestral-music-vol-4-toccata-classics/",
@@ -7031,38 +7038,6 @@
    "album": "Giulio Cesare in Egitto",
    "url": "https://musicwebinternational.com/2026/10/handel-giulio-cesare-in-egitto-linn-records/",
    "date": "2026-10-26T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Beethoven & Brahms",
-   "album": "Clarinet Trios",
-   "url": "https://musicwebinternational.com/2026/10/beethoven-brahms-clarinet-trios-centaur/",
-   "date": "2026-10-26T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Telemann",
-   "album": "Tafelmusik I-III",
-   "url": "https://musicwebinternational.com/2026/10/telemann-tafelmusik-i-iii-archiv/",
-   "date": "2026-10-26T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Schubert",
-   "album": "Die schöne Müllerin",
-   "url": "https://musicwebinternational.com/2026/10/schubert-die-schone-mullerin-wigmore-hall-live/",
-   "date": "2026-10-25T12:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Saint-Saëns",
-   "album": "Organ Music Volume 2",
-   "url": "https://musicwebinternational.com/2026/10/saint-saens-organ-music-volume-2-hyperion/",
-   "date": "2026-10-25T12:00:00Z",
    "image": null
   },
   {
@@ -7095,6 +7070,119 @@
    "album": "Synthetic 海岸",
    "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
    "date": "2026-09-09T05:33:19Z",
+   "image": null
+  },
+  {
+   "source": "line-of-best-fit",
+   "artist": "Kali Malone",
+   "album": "Burning Song",
+   "url": "https://www.thelineofbestfit.com/albums/on-burning-song-kali-malone-lays-the-labour-behind-transcendence-bare",
+   "date": "2026-10-27T11:00:00Z",
+   "image": null,
+   "factor": 1.5
+  },
+  {
+   "source": "boomkat",
+   "artist": "Isaac Kniveton",
+   "album": "Daydreaming",
+   "url": "https://boomkat.com/artists/isaac-kniveton/releases/vr25ypwb/daydreaming",
+   "date": "2026-10-27T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "Amiture Music",
+   "album": "Idela",
+   "url": "https://varioussmallflames.co.uk/2026/10/02/amiture-music-idela/",
+   "date": "2026-10-02T19:54:08Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "JP Harris",
+   "album": "Dreadful Wind & Rain – Shaving a Dead Man",
+   "url": "https://americanahighways.org/2026/10/21/review-jp-harris-dreadful-wind-rain-shaving-a-dead-man/",
+   "date": "2026-10-21T15:15:27Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "White Ring",
+   "album": "FATE",
+   "url": "https://everythingisnoise.net/reviews/white-ring-fate/",
+   "date": "2026-10-19T07:43:45Z",
+   "image": null
+  },
+  {
+   "source": "rapreviews",
+   "artist": "Dave Blunts",
+   "album": "Change or Get Changed",
+   "url": "https://www.rapreviews.com/2026/10/dave-blunts-change-or-get-changed/",
+   "date": "2026-10-27T00:02:00Z",
+   "image": null
+  },
+  {
+   "source": "shatter-the-standards",
+   "artist": "Che Noir",
+   "album": "It Takes a Village",
+   "url": "https://www.shatterthestandards.com/p/album-review-it-takes-a-village-by",
+   "date": "2026-10-22T17:01:56Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Easykid",
+   "album": "soy un fatalista",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xdhdec/fresh_album_easykid_soy_un_fatalista/",
+   "date": "2026-10-23T15:35:27Z",
+   "image": null
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Art d’Ecco",
+   "album": "Scheele’s Green",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xcywb5/fresh_album_art_decco_scheeles_green/",
+   "date": "2026-10-23T00:00:54Z",
+   "image": "https://external-preview.redd.it/tVhJey3WW7vhLqNA9_o4zNTTLpNVdrJgNRf03jIRMZA.jpeg?width=640&crop=smart&auto=webp&s=ef2e0ef9d4272dea79b5b0e3df8b47b934294fb0"
+  },
+  {
+   "source": "jazz-trail",
+   "artist": "Geof Bradfield / Myra Melford / Ben Goldberg / Dana Hall",
+   "album": "Open Or Close",
+   "url": "https://jazztrail.net/blog/bradfield-melford-goldberg-hall-open-or-close-album-review",
+   "date": "2026-09-03T04:47:37Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Beethoven & Brahms",
+   "album": "Clarinet Trios",
+   "url": "https://musicwebinternational.com/2026/10/beethoven-brahms-clarinet-trios-centaur/",
+   "date": "2026-10-26T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Telemann",
+   "album": "Tafelmusik I-III",
+   "url": "https://musicwebinternational.com/2026/10/telemann-tafelmusik-i-iii-archiv/",
+   "date": "2026-10-26T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Schubert",
+   "album": "Die schöne Müllerin",
+   "url": "https://musicwebinternational.com/2026/10/schubert-die-schone-mullerin-wigmore-hall-live/",
+   "date": "2026-10-25T12:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Saint-Saëns",
+   "album": "Organ Music Volume 2",
+   "url": "https://musicwebinternational.com/2026/10/saint-saens-organ-music-volume-2-hyperion/",
+   "date": "2026-10-25T12:00:00Z",
    "image": null
   },
   {
@@ -7448,14 +7536,6 @@
    "url": "https://www.shatterthestandards.com/p/album-review-rsvp-by-luna-elle",
    "date": "2026-10-22T12:00:44Z",
    "image": null
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Sour Widows",
-   "album": "Sigil",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xcyvfq/fresh_album_sour_widows_sigil/",
-   "date": "2026-10-23T00:00:20Z",
-   "image": "https://external-preview.redd.it/kKHm8nK7NR9pe4iAYJ1VxDhgB-JPJ1HOXvY27c6RnXg.jpeg?width=640&crop=smart&auto=webp&s=84dad98f81f6f9094d0ff9e815422b1d33c7ac5b"
   },
   {
    "source": "uk-vibe",
@@ -19538,6 +19618,22 @@
   },
   {
    "source": "stereogum-songs",
+   "artist": "Stephen Steinbrink",
+   "album": "I’m A Swimming Pool",
+   "url": "https://stereogum.com/2515752/stephen-steinbrink-im-a-swimming-pool-in-a-split-mirror/music/",
+   "date": "2026-10-27T21:04:35Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Chvrches",
+   "album": "Overthinker",
+   "url": "https://stereogum.com/2515747/chvrches-overthinker/music/",
+   "date": "2026-10-27T19:11:24Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
    "artist": "Trinket",
    "album": "If Not Soon Then Now",
    "url": "https://stereogum.com/2515648/trinket-if-not-soon-then-now/music/",
@@ -19598,22 +19694,6 @@
    "album": "Chip City",
    "url": "https://stereogum.com/2515227/my-wonderful-boyfriend-chip-city/music/",
    "date": "2026-10-21T15:33:19Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Caroline Rose",
-   "album": "Valery (please don’t be mad at me)",
-   "url": "https://stereogum.com/2515205/caroline-rose-valery-please-dont-be-mad-at-me/music/",
-   "date": "2026-10-21T14:20:02Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Threshold",
-   "album": "Stillwater",
-   "url": "https://stereogum.com/2515201/threshold-stillwater/music/",
-   "date": "2026-10-21T14:02:48Z",
    "image": null
   },
   {
@@ -19786,6 +19866,14 @@
   },
   {
    "source": "chorus-fm",
+   "artist": "CHVRCHES",
+   "album": "Overthinker",
+   "url": "https://chorus.fm/news/chvrches-overthinker/",
+   "date": "2026-10-27T18:38:32Z",
+   "image": null
+  },
+  {
+   "source": "chorus-fm",
    "artist": "Dead Man’s Bones",
    "album": "Lost in the Night",
    "url": "https://chorus.fm/news/dead-mans-bones-lost-in-the-night/",
@@ -19830,14 +19918,6 @@
    "album": "So Cool",
    "url": "https://chorus.fm/news/stand-atlantic-so-cool-video/",
    "date": "2026-10-23T15:28:26Z",
-   "image": null
-  },
-  {
-   "source": "chorus-fm",
-   "artist": "The Decemberists",
-   "album": "Better Part of Bravery",
-   "url": "https://chorus.fm/news/the-decemberists-better-part-of-bravery-video/",
-   "date": "2026-10-23T15:26:28Z",
    "image": null
   },
   {
@@ -20298,6 +20378,14 @@
   },
   {
    "source": "trance-attack",
+   "artist": "Amos & Riot Night x Bryce Keuris x Aylin Aloski",
+   "album": "Loved in Silence",
+   "url": "https://tranceattack.net/amos-riot-night-bryce-keuris-aylin-aloski-loved-in-silence/",
+   "date": "2026-10-27T21:02:49Z",
+   "image": null
+  },
+  {
+   "source": "trance-attack",
    "artist": "Jean-Michel Jarre Announces OXYGENE & BEYOND Tour 2027",
    "album": "50 Years After Oxygène",
    "url": "https://tranceattack.net/jean-michel-jarre-oxygene-beyond-tour-2027/",
@@ -20337,11 +20425,19 @@
    "image": null
   },
   {
-   "source": "trance-attack",
-   "artist": "Alex M.O.R.P.H. & Fernweh",
-   "album": "Euphoria Rising",
-   "url": "https://tranceattack.net/alex-morph-fernweh-euphoria-rising/",
-   "date": "2026-10-21T19:57:55Z",
+   "source": "stereofox",
+   "artist": "Panama",
+   "album": "Silhouette",
+   "url": "https://www.stereofox.com/panama-silhouette-ft-vandelux/",
+   "date": "2026-10-27T20:29:52Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "Nuncc",
+   "album": "Woodlands",
+   "url": "https://www.stereofox.com/nuncc-woodlands-ft-c4c/",
+   "date": "2026-10-27T20:08:22Z",
    "image": null
   },
   {
@@ -20409,22 +20505,6 @@
    "image": null
   },
   {
-   "source": "stereofox",
-   "artist": "Burgundy",
-   "album": "Melbourne",
-   "url": "https://www.stereofox.com/burgundy-melbourne/",
-   "date": "2026-10-26T10:47:01Z",
-   "image": null
-  },
-  {
-   "source": "stereofox",
-   "artist": "Alois",
-   "album": "9 Hours",
-   "url": "https://www.stereofox.com/alois-9-hours/",
-   "date": "2026-10-23T14:42:49Z",
-   "image": null
-  },
-  {
    "source": "acid-stag-songs",
    "artist": "Blu DeTiger",
    "album": "Makeup",
@@ -20486,6 +20566,54 @@
    "album": "The Butterfly Effect",
    "url": "https://twistedsoulmusic.org/2026/10/21/coras-trio-butterfly-effect-ts-premiere/",
    "date": "2026-10-21T13:18:11Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Caroline Rose",
+   "album": "Valery (please don’t be mad at me)",
+   "url": "https://stereogum.com/2515205/caroline-rose-valery-please-dont-be-mad-at-me/music/",
+   "date": "2026-10-21T14:20:02Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Threshold",
+   "album": "Stillwater",
+   "url": "https://stereogum.com/2515201/threshold-stillwater/music/",
+   "date": "2026-10-21T14:02:48Z",
+   "image": null
+  },
+  {
+   "source": "chorus-fm",
+   "artist": "The Decemberists",
+   "album": "Better Part of Bravery",
+   "url": "https://chorus.fm/news/the-decemberists-better-part-of-bravery-video/",
+   "date": "2026-10-23T15:26:28Z",
+   "image": null
+  },
+  {
+   "source": "trance-attack",
+   "artist": "Alex M.O.R.P.H. & Fernweh",
+   "album": "Euphoria Rising",
+   "url": "https://tranceattack.net/alex-morph-fernweh-euphoria-rising/",
+   "date": "2026-10-21T19:57:55Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "Burgundy",
+   "album": "Melbourne",
+   "url": "https://www.stereofox.com/burgundy-melbourne/",
+   "date": "2026-10-26T10:47:01Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "Alois",
+   "album": "9 Hours",
+   "url": "https://www.stereofox.com/alois-9-hours/",
+   "date": "2026-10-23T14:42:49Z",
    "image": null
   },
   {
