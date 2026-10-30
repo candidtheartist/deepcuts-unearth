@@ -37,7 +37,13 @@ artist-album-review, and the album is whatever the headline quotes or else the l
 A post can also list several records, one to a line (NPR's New Music Friday episode notes): give the source a
 `list` made with `listed(...)` in place of `parse`, and `title` to say which of the feed's posts are lists.
 
-Blog feeds are RSS, which sites publish for other apps to read. ListenBrainz data is open, and the
+Blog feeds are RSS, which sites publish for other apps to read. The job says who it is in its User-Agent
+(`DeepCutsUnearth/1.1` with this repository's address), asks for feeds as a feed reader does, waits as long as a
+busy site's `Retry-After` asks, and reads robots.txt as RFC 9309 says (no robots.txt means nothing is off limits;
+one the site won't show means keep out).
+
+`python3 probe_sources.py` (or the "Probe sources" workflow, which runs it from GitHub's own servers) asks every
+source how it answers: the status, which firewall answered, what robots.txt says, and which official alternatives work. ListenBrainz data is open, and the
 stations' playlists come from the JSON their own sites and apps read.
 
 ## Review pages
@@ -168,6 +174,12 @@ Where the lists come from:
 - The feeds the Unearth job reads are searched for "best albums of the year" posts, so a list counts the day it's
   published, before the index has it.
 - One list per publication: its staff list, or when it has none the longest one of its writers made.
+- Many publications sit behind Cloudflare, which shows GitHub's servers a "checking your browser" page instead
+  of the list. Where that happens the job asks the site's WordPress API for the same post (an official, public
+  part of WordPress sites), and then the Internet Archive's copy of the page. Never for a page robots.txt keeps
+  the job out of, a site that won't show its robots.txt, a paywalled outlet (`PAYWALLED`) or a site that asks
+  to be paid (402). A page read well once keeps what it said if the site later turns the job away.
+  `lists_memory.json` says how each page was read (`how`: page, wordpress, archive, robots.txt, firewall, paywall…).
 
 Until this year's year-end lists are out, its mid-year lists ("The 50 Best Albums of 2026 So Far") make a "so far"
 page, marked `"soFar": true` in `lists.json`. The index doesn't keep mid-year lists, so they're listed by hand in
