@@ -27,6 +27,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 
 import build_feed as feed
 
@@ -48,7 +49,7 @@ MAX_PAGES = 150            # new pages one run may read (index and publications 
 MAX_LOOKUPS = 200          # new Apple look-ups one run may make (about 20 a minute)
 RETRY_DAYS = 3             # a page that couldn't be read is tried again after this long
 AGREEMENT = 0.6            # a publication's page has to find this share of the index's albums to be believed
-VERSION = 2                # bump when reading changes, so saved pages are read again
+VERSION = 3                # bump when reading changes, so saved pages are read again
 YEAR_END_FROM = 10         # this year's year-end lists replace its mid-year ones once there are this many
 SO_FAR_FROM = 3            # fewer mid-year lists than this isn't worth a page
 
@@ -71,10 +72,25 @@ ENTRY_FORMS = [
     r"(?P<artist>[^:‘“\"]+?):\s+[‘“\"']?(?P<album>[^’”\"]+?)[’”\"']?",          # Artist: Album
     r"(?P<artist>[^,‘“\"]+?),\s+[‘“\"'](?P<album>.+?)[’”\"']",                   # Artist, ‘Album’
     r"(?P<artist>[^,:‘“\"]+?),\s+(?P<album>[^,:‘“\"][^:]*?)",                       # Artist, Album (Billboard, Complex)
+    r"(?P<artist>[^|‘“\"]+?)\s+\|\s+[‘“\"']?(?P<album>[^’”\"|]+?)[’”\"']?",       # Artist | Album (Gorilla vs. Bear)
+    r"[‘“\"']?(?P<album>[^’”\"]+?)[’”\"']?\s+by\s+(?P<artist>.+?)",                    # Album by Artist (Atwood, The Line of Best Fit)
 ]
+# The artist in bold and the album in italics, with or without anything between (Magnet's "<strong>7) Midlake</strong>
+# <em>A Bridge To Far</em>", FLOOD's "<strong>Bill Callahan, <em>My Days of 58</em></strong>"): the markup says which is which.
+MARKED = re.compile(r"^\s*(?:(?:#|No\.?\s*)?(?P<rank>\d{1,3})[.):]?\s*)?<(?P<b>b|strong)\b[^>]*>"
+                    r"(?:(?P<artist>(?:(?!<(?:i|em)\b).)*?)</(?P=b)>\s*(?:[,|:–—-]\s*)?|(?P<inside>(?:(?!</?(?:i|em|b|strong)\b).)*?))"
+                    r"<(?P<i>i|em)\b[^>]*>(?P<album>.*?)</(?P=i)>", re.S | re.I)
+# Where one line of a page ends.
+LINE_BREAKS = r"(?i)<br\s*/?>|</(?:p|li|div|h[1-6]|figcaption|td)>"
+LOOSE_FORMS = (ENTRY_FORMS[2], ENTRY_FORMS[4], ENTRY_FORMS[6])
+# An artist's name as one heading and the album as the next, smaller one (The Vinyl Factory).
+HEADING_PAIR = re.compile(r"<h([2-4])\b[^>]*>(.*?)</h\1>\s*<h([3-5])\b[^>]*>(.*?)</h\3>", re.S | re.I)
 TAIL = r"\s*(?:[\(\[][^\)\]]*[\)\]])?\s*$"  # "(Label)" or "[Label, 2025]"
 ENTRY_TAGS = ("h2", "h3", "h4", "strong", "b", "li", "p")
 # Headings that label something else ("Produced By: …", "Listen: …").
+# Page furniture that reads like an entry: "Chris Published – June 26, 2026", "Words: FLOOD Staff", "Photo: Ran Liwen".
+BYLINE = r"(?i)\b(?:published|updated|posted|words|photos?|images?|illustrations?|credit|staff|editor|contributors?)\b|^(?:by|join|sign|subscribe|follow|share|read|more)\b"
+DATE = r"(?i)^(?:\d{1,2}\s+)?(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}\b|^\d{4}$"
 LABELS = r"(?i)(?:listen|read|buy|stream|produced by|featuring|feat|label|genre|release(?:d| date)?|written by|for fans of|watch|order|pre-?order|out now|tracklist)\b"
 
 
@@ -107,20 +123,55 @@ def points(rank, size):
 # ---------------------------------------------------------------------------------------------
 
 
-def entry(text):
-    """(rank, artist, album) from one heading of a list ("12. Geese – Getting Killed"), or None."""
+def plausible(artist, album):
+    """Whether a pair read off a page could be an artist and an album, not a byline, a date or a heading."""
+    return (bool(artist and album) and len(artist) <= 80 and len(artist.split()) <= 7 and len(album) <= 120
+            and not re.match(LABELS, artist) and not re.search(BYLINE, artist) and not re.match(DATE, album))
+
+
+def entry(text, strict=False):
+    """(rank, artist, album) from one heading of a list ("12. Geese – Getting Killed"), or None.
+    `strict`, for lines of running text rather than headings: "Artist: Album" and "Artist, Album" count only with a place
+    in front, since any sentence with a colon or a comma would read as one."""
     text = text.strip().strip("*")
     rank = None
     m = re.match(RANK, text)
     if m:
         rank, text = int(m.group("rank")), text[m.end():]
     for form in ENTRY_FORMS:
+        if strict and rank is None and form in LOOSE_FORMS:
+            continue
         m = re.match("^" + form + TAIL, text)
         if m:
             artist, album = m.group("artist").strip(feed.QUOTES), m.group("album").strip(feed.QUOTES + ".,")
-            if artist and album and len(artist) <= 80 and len(artist.split()) <= 7 and len(album) <= 120 and not re.match(LABELS, artist):
+            album = re.sub(r"(?i)^(?:stream|listen to)\s+", "", album)  # NPR's "Stream Lux" button, read with the title
+            if plausible(artist, album):
                 return rank, artist, album
     return None
+
+
+def marked_entry(fragment):
+    """(rank, artist, album) from one line of a page that sets the artist in bold and the album in italics, or None."""
+    m = MARKED.match(fragment)
+    if not m:
+        return None
+    artist, rank = text_of(m.group("artist") or m.group("inside") or ""), int(m.group("rank")) if m.group("rank") else None
+    ranked = re.match(RANK, artist)
+    if ranked:
+        rank, artist = int(ranked.group("rank")), artist[ranked.end():]
+    artist, album = artist.strip(feed.QUOTES + " ,|:–—-"), text_of(m.group("album")).strip(feed.QUOTES + ".,")
+    return (rank, artist, album) if plausible(artist, album) else None
+
+
+def line_entries(body):
+    """Entries written one to a line rather than one to an element ("06 <b>Artist</b> | <i>Album</i><br>")."""
+    found = []
+    for line in re.split(LINE_BREAKS, body):
+        line = re.sub(r"^(?:\s*<(?!/?(?:b|strong|i|em)\b)[^>]*>)*", "", line)  # the paragraph or link it starts with
+        parsed = marked_entry(line) or entry(text_of(line), strict=True)
+        if parsed:
+            found.append(parsed)
+    return found
 
 
 def list_entries(page):
@@ -142,6 +193,13 @@ def list_entries(page):
             found.append((rank, artist, album))
         if len(found) > len(best):
             best = found
+    by_line = line_entries(body)
+    if len(by_line) > len(best):
+        best = by_line
+    pairs = [(None, text_of(m.group(2)), text_of(m.group(4))) for m in HEADING_PAIR.finditer(body)
+             if int(m.group(3)) > int(m.group(1)) and plausible(text_of(m.group(2)), text_of(m.group(4)))]
+    if len(pairs) > len(best):
+        best = pairs
     seen, unique = set(), []
     for rank, artist, album in best:
         if feed.key(artist, album) not in seen:
@@ -154,17 +212,88 @@ def list_entries(page):
     return unique
 
 
-def read_original(url, now):
-    """A publication's list from its own page, or None when the site doesn't allow it or it can't be read."""
-    if not feed.allowed(url):
+# Firewalls that turn the job away with a page asking for a browser, by what that page says.
+CHALLENGE = re.compile(r"challenge-platform|Just a moment\.\.\.|Attention Required! \| Cloudflare|cf-error-details|"
+                       r"Sucuri WebSite Firewall|captcha-delivery\.com|_Incapsula_Resource|px-captcha", re.I)
+# Sites whose lists are for subscribers: never read from an archived copy, which would get round the paywall.
+PAYWALLED = {"economist.com", "thetimes.com", "ft.com", "nytimes.com", "wsj.com", "newyorker.com", "theatlantic.com",
+             "telegraph.co.uk", "washingtonpost.com", "ew.com"}
+ARCHIVE = "https://archive.org/wayback/available?url="
+
+
+def site_of(url):
+    return re.sub(r"^www\.", "", urllib.parse.urlsplit(url).netloc.lower())
+
+
+def wordpress_copy(url):
+    """The same post from the site's WordPress API (`/wp-json/wp/v2/posts?slug=…`), which many publications answer
+    when their firewall won't show the job the page itself: the post's own HTML, or None."""
+    parts = urllib.parse.urlsplit(url)
+    slug = ([p for p in parts.path.split("/") if p] or [""])[-1]
+    if not slug or "." in slug:
+        return None
+    api = f"{parts.scheme}://{parts.netloc}/wp-json/wp/v2/posts?slug={urllib.parse.quote(slug)}&_fields=content"
+    if not feed.allowed(api):
         return None
     try:
-        page = feed.fetch(url).decode(errors="replace")
+        posts = json.loads(feed.fetch(api, accept="application/json"))
         time.sleep(1)
-    except Exception as error:
-        log(f"  couldn't read {url}: {error}")
+    except Exception:
         return None
-    return list_entries(page)
+    if isinstance(posts, list) and posts and isinstance(posts[0].get("content"), dict):
+        return posts[0]["content"].get("rendered") or None
+    return None
+
+
+def archived_copy(url):
+    """The Internet Archive's latest copy of a page, as the site served it (`id_`: without the archive's own bar)."""
+    try:
+        closest = json.loads(feed.fetch(ARCHIVE + urllib.parse.quote(url, safe=""), accept="application/json"))
+        snapshot = closest.get("archived_snapshots", {}).get("closest") or {}
+        if not snapshot.get("available") or not snapshot.get("timestamp"):
+            return None
+        page = feed.fetch(f"https://web.archive.org/web/{snapshot['timestamp']}id_/{url}", accept=feed.PAGE_ACCEPT, timeout=60)
+        time.sleep(1)
+        return page.decode(errors="replace")
+    except Exception:
+        return None
+
+
+def read_original(url, now):
+    """A publication's list from its own page: (entries, how), entries None when it couldn't be read and `how` saying why.
+
+    The page is read where robots.txt allows. When the site's firewall turns the job away (a Cloudflare check,
+    which asks for a browser) or the page has its list somewhere the job can't see, two official copies are tried:
+    the site's WordPress API, then the Internet Archive's copy, which is only used where robots.txt allows the
+    page and the publication isn't behind a paywall."""
+    if not feed.allowed(url):
+        return None, "robots.txt"
+    page, why = None, None
+    try:
+        page = feed.fetch(url, accept=feed.PAGE_ACCEPT).decode(errors="replace")
+        time.sleep(1)
+        if CHALLENGE.search(page[:20000]):
+            page, why = None, "firewall"
+    except feed.FetchError as error:
+        why = "paywall" if error.status == 402 else "firewall" if error.status in (403, 429, 503) else f"http {error.status or 'error'}"
+        log(f"  couldn't read {url}: {error}")
+    except Exception as error:
+        why = "error"
+        log(f"  couldn't read {url}: {error}")
+    entries = list_entries(page) if page else None
+    if entries is not None and len(entries) >= MIN_ENTRIES:
+        return entries, "page"
+    if why in (None, "firewall"):
+        copy = wordpress_copy(url)
+        found = list_entries(copy) if copy else None
+        if found and len(found) >= MIN_ENTRIES:
+            return found, "wordpress"
+    if why == "firewall" and site_of(url) not in PAYWALLED and not any(site_of(url).endswith("." + p) for p in PAYWALLED):
+        copy = archived_copy(url)
+        found = list_entries(copy) if copy and not CHALLENGE.search(copy[:20000]) else None
+        if found and len(found) >= MIN_ENTRIES:
+            return found, "archive"
+    return entries, why or "no list found"
 
 
 def index_years_lists(year):
@@ -395,8 +524,11 @@ def gather(year, now, memory, budget, discovered, so_far=False):
         if (saved is None or saved.get("version") != VERSION
                 or (not saved.get("entries") and tried and (now - tried).days >= RETRY_DAYS)):
             if can_read():
-                entries = read_original(item["url"], now)
-                saved = pages[item["url"]] = {"entries": entries or [], "at": stamp(now), "version": VERSION}
+                entries, how = read_original(item["url"], now)
+                if saved and len(saved.get("entries") or []) > len(entries or []):
+                    # A page read well before, now behind a firewall: what it said then still stands.
+                    entries, how = saved["entries"], saved.get("how") or "page"
+                saved = pages[item["url"]] = {"entries": entries or [], "how": how, "at": stamp(now), "version": VERSION}
         page_entries = [tuple(e) for e in (saved or {}).get("entries", [])]
         index_entries = [tuple(e) for e in item.get("entries", [])]
         if len(page_entries) >= MIN_ENTRIES and agrees(page_entries, index_entries):
@@ -404,7 +536,7 @@ def gather(year, now, memory, budget, discovered, so_far=False):
         elif len(index_entries) >= MIN_ENTRIES:
             entries, source = index_entries, "index"
         else:
-            log(f"  {year} {item['outlet']}: nothing readable")
+            log(f"  {year} {item['outlet']}: nothing readable ({(saved or {}).get('how') or 'not read yet'})")
             continue
         result.append({"id": feed.slugify(f"{item['outlet']} {item.get('writer') or ''} {year}"), "outlet": item["outlet"],
                        "writer": item.get("writer"), "title": item["title"], "url": item["url"],

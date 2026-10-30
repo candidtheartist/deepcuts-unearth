@@ -283,7 +283,7 @@ Sample the albums via our <a href="https://x">New Music Friday playlist</a>.<br>
                 "date": now, "image": None, "description": "", "text": "", "categories": ["Albums"]}
         asked = []
 
-        def fetch(url, timeout=30):
+        def fetch(url, timeout=30, accept=None):
             asked.append(url)
             return (robots if url.endswith("/robots.txt") else self.LOBF_PAGE % score).encode()
         source = [s for s in b.SOURCES if s["id"] == "line-of-best-fit"]
@@ -595,7 +595,7 @@ class AppleTests(unittest.TestCase):
         }
         asked = []
 
-        def fetch(url, timeout=30):
+        def fetch(url, timeout=30, accept=None):
             asked.append(url)
             return json.dumps(next(v for k, v in answers.items() if k in url)).encode()
         real = b.fetch, b.time.sleep

@@ -106,13 +106,101 @@ class FindingListsTests(unittest.TestCase):
             <ol><li value="1"><div class="album-artist"><a href="/artists/geese">Geese</a></div><div class="album-title"><a href="/albums/x">Getting Killed</a></div></li>
             <li value="2"><div class="album-artist"><a>Rosalía</a></div><div class="album-title"><a>Lux</a></div></li></ol>"""
         real = feed.fetch, b.time.sleep
-        feed.fetch, b.time.sleep = (lambda url, timeout=30: page.encode()), (lambda s: None)
+        feed.fetch, b.time.sleep = (lambda url, timeout=30, accept=None: page.encode()), (lambda s: None)
         try:
             got = b.read_index_list("/2025/ann-powers")
         finally:
             feed.fetch, b.time.sleep = real
         self.assertEqual(got, {"outlet": "NPR", "writer": "Ann Powers", "title": "Top 10 Albums of 2025", "url": "https://www.npr.org/best",
                                "ranked": True, "entries": [(1, "Geese", "Getting Killed"), (2, "Rosalía", "Lux")]})
+
+
+class LayoutTests(unittest.TestCase):
+    """Layouts found on real list pages that the headings alone didn't read."""
+
+    def entries(self, page):
+        return [(r, a, b_) for r, a, b_ in b.list_entries(page)]
+
+    def test_artist_in_bold_album_in_italics(self):
+        magnet = "".join(f"<strong>{n}) {a}</strong> <em>{t}</em> (Label)<br>" for n, a, t in
+                         [(1, "Geese", "Getting Killed"), (2, "Horsegirl", "Phonetics On And On"), (3, "Snocaps", "Snocaps"),
+                          (4, "Midlake", "A Bridge To Far"), (5, "Panda Bear", "Sinister Grift")])
+        self.assertEqual(self.entries("<p>" + magnet + "</p>")[:2], [(1, "Geese", "Getting Killed"), (2, "Horsegirl", "Phonetics On And On")])
+        flood = "".join(f'<p class="x"><strong><a href="/t/x">{a}</a>, <em>{t}</em></strong><br>Words about it.</p>' for a, t in
+                        [("Bill Callahan", "My Days of 58"), ("Boards of Canada", "Inferno"), ("Gorillaz", "The Mountain"),
+                         ("Jessie Ware", "Superbloom"), ("Neurosis", "An Undying Love")])
+        self.assertEqual(self.entries(flood)[1], (None, "Boards of Canada", "Inferno"))
+
+    def test_one_to_a_line_with_a_bar(self):
+        gvb = "<p>" + "".join(f"0{n} <b>{a}</b> | <i><a href='x'>{t}</a></i><br>" for n, a, t in
+                              [(1, "STAR MOLES", "Highway to Hell"), (2, "JUMP SOURCE", "Fold"), (3, "JANA HORN", "Jana Horn"),
+                               (4, "GUN OUTFIT", "Morning Star"), (5, "helllhound", "here in the valley")]) + "</p>"
+        self.assertEqual(self.entries(gvb)[0], (1, "STAR MOLES", "Highway to Hell"))
+
+    def test_album_by_artist_and_heading_pairs(self):
+        lobf = "".join(f"<h2>{n} {t} by {a}</h2><p>Listen on Bandcamp</p>" for n, t, a in
+                       [(5, "Getting Killed", "Geese"), (4, "LUX", "Rosalia"), (3, "Bleeds", "Wednesday"), (2, "Baby", "Dijon"), (1, "ICONOCLASTS", "Anna von Hausswolff")])
+        self.assertEqual(self.entries(lobf)[-1], (1, "Anna von Hausswolff", "ICONOCLASTS"))
+        vinyl = "".join(f"<h2><strong>{a}</strong></h2><h3><strong>{t}</strong></h3><p>(Label)</p>" for a, t in
+                        [("Big Thief", "Double Infinity"), ("billy woods", "GOLLIWOG"), ("Blood Orange", "Essex Honey"), ("CMAT", "Euro Country"), ("Tortoise", "Touch")])
+        self.assertEqual(self.entries(vinyl)[0], (None, "Big Thief", "Double Infinity"))
+
+    def test_bylines_and_dates_are_not_entries(self):
+        for text in ("Chris Published – June 26, 2026", "Words: FLOOD Staff", "Photo: Ran Liwen", "Join our community – Join our community"):
+            self.assertIsNone(b.entry(text), text)
+        self.assertEqual(b.entry("Rosalía – Stream Lux"), (None, "Rosalía", "Lux"))
+
+
+class ReadingTests(unittest.TestCase):
+    CHALLENGE = "<html><title>Just a moment...</title><script src='/cdn-cgi/challenge-platform/x'></script></html>"
+    LIST = "".join(f"<h2>{n}. {a} – {t}</h2>" for n, a, t in
+                   [(1, "Geese", "Getting Killed"), (2, "Rosalía", "Lux"), (3, "Dijon", "Baby"), (4, "Wednesday", "Bleeds"), (5, "Clipse", "Let God Sort Em Out")])
+
+    def read(self, answers, url="https://www.example.com/music/best-albums-2026/"):
+        asked = []
+
+        def fetch(address, timeout=30, accept=None):
+            asked.append(address)
+            for part, answer in answers.items():
+                if part in address:
+                    if isinstance(answer, Exception):
+                        raise answer
+                    return answer.encode()
+            raise feed.FetchError("404", 404)
+        real = feed.fetch, b.time.sleep, feed.time.sleep
+        feed.fetch, b.time.sleep, feed.time.sleep = fetch, (lambda s: None), (lambda s: None)
+        feed.ROBOTS.clear()
+        try:
+            entries, how = b.read_original(url, None)
+            return len(entries or []), how, asked
+        finally:
+            feed.fetch, b.time.sleep, feed.time.sleep = real
+
+    def test_a_site_with_no_robots_txt_can_be_read(self):
+        self.assertEqual(self.read({"/music/": self.LIST})[:2], (5, "page"))     # robots.txt answers 404
+
+    def test_a_site_that_hides_its_robots_txt_is_left_alone(self):
+        n, how, asked = self.read({"robots.txt": feed.FetchError("403", 403), "/music/": self.LIST})
+        self.assertEqual((n, how), (0, "robots.txt"))
+        self.assertEqual(len(asked), 1)
+
+    def test_behind_a_firewall_the_wordpress_api_then_the_archive(self):
+        api = b.json.dumps([{"content": {"rendered": self.LIST}}])
+        self.assertEqual(self.read({"robots.txt": "", "wp-json": api, "/music/": self.CHALLENGE})[:2], (5, "wordpress"))
+        archive = b.json.dumps({"archived_snapshots": {"closest": {"available": True, "timestamp": "20260701000000"}}})
+        got = self.read({"robots.txt": "", "archive.org/wayback": archive, "web.archive.org": self.LIST,
+                         "/music/": feed.FetchError("403", 403)})
+        self.assertEqual(got[:2], (5, "archive"))
+
+    def test_never_round_a_paywall_or_a_disallow(self):
+        archive = b.json.dumps({"archived_snapshots": {"closest": {"available": True, "timestamp": "20260701000000"}}})
+        answers = {"robots.txt": "", "archive.org/wayback": archive, "web.archive.org": self.LIST, "/culture/": feed.FetchError("403", 403)}
+        n, how, asked = self.read(answers, "https://www.economist.com/culture/best-albums")
+        self.assertEqual(n, 0)
+        self.assertFalse(any("archive.org" in a for a in asked))
+        n, how, asked = self.read({**answers, "robots.txt": "User-agent: *\nDisallow: /culture/"}, "https://www.example.com/culture/best")
+        self.assertEqual((n, how), (0, "robots.txt"))
+        self.assertEqual(self.read({"robots.txt": "", "/music/": feed.FetchError("402", 402)})[:2], (0, "paywall"))
 
 
 class AggregateTests(unittest.TestCase):

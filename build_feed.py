@@ -35,7 +35,12 @@ OUTPUT = os.path.join(HERE, "feed.json")
 # Mentions seen on earlier runs. Many blogs only keep their last ten posts in the feed, so without this
 # a review would drop out of Unearth a few days after it was written.
 MEMORY = os.path.join(HERE, "memory.json")
-USER_AGENT = "DeepCutsUnearth/1.0 (album feed reader; +https://github.com/)"
+# Who the job is and where to find out more, as sites ask of anything that reads them automatically. Firewalls are
+# quick to turn away a nameless reader coming from a cloud server, so the address has to lead somewhere real.
+USER_AGENT = "DeepCutsUnearth/1.1 (+https://github.com/candidtheartist/deepcuts-unearth)"
+# What the job asks for: a feed reader that says it wants feeds is less likely to be taken for a scraper.
+FEED_ACCEPT = "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8"
+PAGE_ACCEPT = "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8"
 VERBOSE = "--verbose" in sys.argv
 
 # How far back a blog post still counts, and how fast it fades (a post loses half its weight in HALF_LIFE days).
@@ -777,36 +782,52 @@ def log(*args):
         print(*args, file=sys.stderr)
 
 
-def fetch(url, timeout=30):
+class FetchError(RuntimeError):
+    """A request that failed, with the HTTP status when there was one (0 when the site didn't answer)."""
+    def __init__(self, message, status=0):
+        super().__init__(message)
+        self.status = status
+
+
+def fetch(url, timeout=30, accept="*/*"):
     """Downloads a URL, trying once more after a pause if it fails: with this many feeds,
-    one of them hiccups on most days."""
+    one of them hiccups on most days. A site that says it's busy (429, 503) is given the time it asks for."""
     try:
-        return fetch_once(url, timeout)
+        return fetch_once(url, timeout, accept)
+    except FetchError as error:
+        if error.status in (401, 403, 404, 410):
+            raise  # asking again won't change the answer
+        time.sleep(3)
+        return fetch_once(url, timeout, accept)
     except Exception:
         time.sleep(3)
-        return fetch_once(url, timeout)
+        return fetch_once(url, timeout, accept)
 
 
-def fetch_once(url, timeout=30):
+def fetch_once(url, timeout=30, accept="*/*"):
     """Downloads a URL with curl, falling back to Python's own client if curl isn't installed.
 
     curl is used on purpose: Bandcamp's bot filter serves an HTML check page (not the feed) to
     Python's built-in client from cloud servers, but serves the feed normally to curl.
     Either way the job says who it is in the User-Agent and never pretends to be a browser.
+    curl's own retry waits as long as a 429 or 503 answer's Retry-After asks, up to a minute.
     """
     if shutil.which("curl"):
         result = subprocess.run(
-            ["curl", "--silent", "--show-error", "--fail", "--location", "--max-time", str(timeout),
-             "--user-agent", USER_AGENT, "--header", "Accept: */*", url],
+            ["curl", "--silent", "--show-error", "--fail", "--location", "--compressed", "--max-time", str(timeout),
+             "--retry", "2", "--retry-max-time", "60",
+             "--user-agent", USER_AGENT, "--header", f"Accept: {accept}", url],
             capture_output=True)
         if result.returncode != 0:
-            raise RuntimeError(result.stderr.decode(errors="replace").strip() or f"curl exit {result.returncode}")
+            message = result.stderr.decode(errors="replace").strip() or f"curl exit {result.returncode}"
+            status = re.search(r"returned error: (\d{3})", message)
+            raise FetchError(message, int(status.group(1)) if status else 0)
         return result.stdout
-    return fetch_with_urllib(url, timeout)
+    return fetch_with_urllib(url, timeout, accept=accept)
 
 
-def fetch_with_urllib(url, timeout=30, redirects=5):
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"})
+def fetch_with_urllib(url, timeout=30, redirects=5, accept="*/*"):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": accept})
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
             return response.read()
@@ -814,8 +835,8 @@ def fetch_with_urllib(url, timeout=30, redirects=5):
         # Older Pythons don't follow 307/308 redirects on their own.
         target = error.headers.get("Location")
         if error.code in (307, 308) and target and redirects > 0:
-            return fetch_with_urllib(urllib.parse.urljoin(url, target), timeout, redirects - 1)
-        raise
+            return fetch_with_urllib(urllib.parse.urljoin(url, target), timeout, redirects - 1, accept)
+        raise FetchError(f"HTTP {error.code}", error.code) from error
 
 
 def slugify(text):
@@ -908,7 +929,7 @@ def feed_items(xml_bytes):
 def read_feed(address):
     """The items in one feed, or the error that stopped it."""
     try:
-        data = fetch(address)
+        data = fetch(address, accept=FEED_ACCEPT)
         if data.lstrip()[:15].lower().startswith((b"<!doctype html", b"<html")):
             raise RuntimeError("got a web page instead of a feed (the site may be turning this client away)")
         return list(feed_items(data.lstrip()))  # a few sites put a blank line before the XML
@@ -920,14 +941,22 @@ ROBOTS = {}
 
 
 def allowed(url):
-    """Whether the site's robots.txt lets this job read the page. A site whose robots.txt can't be read is left alone."""
+    """Whether the site's robots.txt lets this job read the page, read the way RFC 9309 says: a site with no
+    robots.txt (404, 410 or another 4xx) allows everything, one that refuses to show it (401, 403) or can't be
+    reached allows nothing. Asked once per site per run."""
     parts = urllib.parse.urlsplit(url)
     site = f"{parts.scheme}://{parts.netloc}"
     if site not in ROBOTS:
+        rules = urllib.robotparser.RobotFileParser()
         try:
-            rules = urllib.robotparser.RobotFileParser()
-            rules.parse(fetch(site + "/robots.txt").decode(errors="replace").splitlines())
+            rules.parse(fetch(site + "/robots.txt", accept="text/plain,*/*").decode(errors="replace").splitlines())
             ROBOTS[site] = rules
+        except FetchError as error:
+            if 400 <= error.status < 500 and error.status not in (401, 403):
+                rules.parse([])  # no robots.txt: nothing is off limits
+                ROBOTS[site] = rules
+            else:
+                ROBOTS[site] = None
         except Exception:
             ROBOTS[site] = None
     return bool(ROBOTS[site]) and ROBOTS[site].can_fetch(USER_AGENT, url)
@@ -984,7 +1013,7 @@ def read_review(item, pages, now, budget, how):
             return None
         budget[0] -= 1
         try:
-            known = review_data(fetch(url).decode(errors="replace"), how.get("artist")) or {}
+            known = review_data(fetch(url, accept=PAGE_ACCEPT).decode(errors="replace"), how.get("artist")) or {}
             time.sleep(1)
         except Exception as error:
             log(f"  couldn't read {url}: {error}")

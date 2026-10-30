@@ -141,7 +141,7 @@ def alternatives(url, is_feed):
         slug = [p for p in parts.path.split("/") if p][-1:] or [""]
         found.append(f"{site}/wp-json/wp/v2/posts?slug={slug[0]}&_fields=link,title,content")
         found.append(url.rstrip("/") + "/amp/")
-        found.append(f"{site}/wp-json/oembed/1.0/embed?url={urllib.parse.quote(url, safe='')}")
+        found.append("https://archive.org/wayback/available?url=" + urllib.parse.quote(url, safe=""))
     return found
 
 
@@ -168,6 +168,11 @@ def probe(target):
                 save(alt, answer["body"])
     if SAVE_PAGES and not is_feed:
         save(url, better["body"] if better["size"] >= now["size"] else now["body"])
+    if not is_feed and "yearendlists" not in url:
+        # What the list job itself makes of it now, with every way in it knows.
+        import build_lists
+        entries, how = build_lists.read_original(url, None)
+        report["listJob"] = {"entries": len(entries or []), "how": how, "sample": [list(e) for e in (entries or [])[:3]]}
     return report
 
 
@@ -212,7 +217,8 @@ def summary(report):
         a, b = r["asIs"], r["withContact"]
         alts = [f"{x['url'].split('/', 3)[-1][:40]} ({x['status']} {x['kind']}{', ' + str(x['items']) + ' items' if 'items' in x else ''})"
                 for x in r.get("alternatives", []) if x["status"] == 200 and x["kind"] in ("json", "feed", "html")]
-        lines.append(f"| {r['name']} ({'feed' if r['feed'] else 'page'}) | {r['robots']} | {a['status']} {a['kind']} {a['size']} | "
+        job = r.get("listJob")
+        lines.append(f"| {r['name']} ({'feed' if r['feed'] else 'page'}{', job: ' + str(job['entries']) + ' via ' + job['how'] if job else ''}) | {r['robots']} | {a['status']} {a['kind']} {a['size']} | "
                      f"{b['status']} {b['kind']} {b['size']} | {a['firewall'] or b['firewall'] or a['server'] or ''} | {'; '.join(alts)} |")
     return "\n".join(lines)
 
