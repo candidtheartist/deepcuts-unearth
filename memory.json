@@ -106,6 +106,14 @@
   },
   {
    "source": "pitchfork",
+   "artist": "Aphex Twin",
+   "album": "Drukqs (25th Anniversary Edition)",
+   "url": "https://pitchfork.com/reviews/albums/aphex-twin-drukqs-25th-anniversary-edition/",
+   "date": "2026-10-31T04:00:00Z",
+   "image": "https://media.pitchfork.com/photos/6ae377d7efb3062cf478c6cd/master/pass/Aphex%20Twin%20-%20Drukqs%202026.jpg"
+  },
+  {
+   "source": "pitchfork",
    "artist": "Diiv",
    "album": "ZIRP!",
    "url": "https://pitchfork.com/reviews/albums/diiv-zirp/",
@@ -327,14 +335,6 @@
    "url": "https://pitchfork.com/reviews/albums/baba-stiltz-totally/",
    "date": "2026-10-22T04:01:00Z",
    "image": "https://media.pitchfork.com/photos/6ad8e9e813dcf53c610da82c/master/pass/Baba%20Stiltz%20Totally.jpg"
-  },
-  {
-   "source": "pitchfork",
-   "artist": "Dummy",
-   "album": "do you love the color of the sky?",
-   "url": "https://pitchfork.com/reviews/albums/dummy-do-you-love-the-color-of-the-sky/",
-   "date": "2026-10-22T04:00:00Z",
-   "image": "https://media.pitchfork.com/photos/6a7dd69bca14a077a056d363/master/pass/unnamed%20-%202026-08-13T103639.912.jpg"
   },
   {
    "source": "bandcamp-daily",
@@ -1946,6 +1946,14 @@
   },
   {
    "source": "spill",
+   "artist": "Foghat",
+   "album": "Live And Loud Across The U.s.a.",
+   "url": "https://spillmagazine.com/spill-album-review-foghat-live-and-loud-across-the-u-s-a/",
+   "date": "2026-10-30T04:05:47Z",
+   "image": null
+  },
+  {
+   "source": "spill",
    "artist": "Roky Erickson And The Aliens",
    "album": "The Evil One",
    "url": "https://spillmagazine.com/spill-album-review-roky-erickson-and-the-aliens-the-evil-one/",
@@ -2046,14 +2054,6 @@
    "album": "Light And Matter",
    "url": "https://spillmagazine.com/spill-album-review-caroline-marie-brooks-light-and-matter/",
    "date": "2026-10-23T04:01:56Z",
-   "image": null
-  },
-  {
-   "source": "spill",
-   "artist": "Sabaton",
-   "album": "Legends",
-   "url": "https://spillmagazine.com/spill-album-review-sabaton-legends/",
-   "date": "2026-10-17T18:07:29Z",
    "image": null
   },
   {
@@ -4330,9 +4330,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Skee Mask & North Americans",
-   "album": "Final Circle",
-   "url": "https://boomkat.com/artists/skee-mask-north-americans/releases/x71bfvdt/final-circle",
+   "artist": "Headache",
+   "album": "In One Ear & Out The Other",
+   "url": "https://boomkat.com/artists/headache/releases/imwcozxn/in-one-ear-out-the-other",
    "date": "2026-10-30T00:00:00Z",
    "image": null
   },
@@ -4346,9 +4346,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Headache",
-   "album": "In One Ear & Out The Other",
-   "url": "https://boomkat.com/artists/headache/releases/imwcozxn/in-one-ear-out-the-other",
+   "artist": "Skee Mask & North Americans",
+   "album": "Final Circle",
+   "url": "https://boomkat.com/artists/skee-mask-north-americans/releases/x71bfvdt/final-circle",
    "date": "2026-10-30T00:00:00Z",
    "image": null
   },
@@ -4793,6 +4793,38 @@
    "image": null
   },
   {
+   "source": "klof",
+   "artist": "Mali Obomsawin",
+   "album": "Automatic",
+   "url": "https://klofmag.com/2026/10/mali-obomsawin-automatic/",
+   "date": "2026-10-30T12:18:00Z",
+   "image": null
+  },
+  {
+   "source": "klof",
+   "artist": "Jeffrey Silverstein",
+   "album": "Doggone",
+   "url": "https://klofmag.com/2026/10/jeffrey-silverstein-doggone/",
+   "date": "2026-10-29T08:20:56Z",
+   "image": null
+  },
+  {
+   "source": "klof",
+   "artist": "Buck Curran",
+   "album": "Illuminations",
+   "url": "https://klofmag.com/2026/10/buck-curran-illuminations/",
+   "date": "2026-10-28T10:39:58Z",
+   "image": null
+  },
+  {
+   "source": "klof",
+   "artist": "Chuck Roth",
+   "album": "Texture Songs",
+   "url": "https://klofmag.com/2026/10/chuck-roth-texture-songs/",
+   "date": "2026-10-27T11:46:30Z",
+   "image": null
+  },
+  {
    "source": "guardian-folk",
    "artist": "Radie Peat",
    "album": "No Human Tongue Can Tell",
@@ -4814,6 +4846,46 @@
    "album": "Beneath the Spreading Tree",
    "url": "https://www.theguardian.com/music/2026/sep/04/sairie-beneath-the-spreading-tree-review",
    "date": "2026-09-04T08:00:02Z",
+   "image": null
+  },
+  {
+   "source": "saving-country-music",
+   "artist": "Pug Johnson",
+   "album": "From a Beaumont Bar",
+   "url": "https://savingcountrymusic.com/album-review-pug-johnsons-from-a-beaumont-bar/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-pug-johnsons-from-a-beaumont-bar",
+   "date": "2026-10-26T14:56:55Z",
+   "image": null
+  },
+  {
+   "source": "saving-country-music",
+   "artist": "Zach Bryan",
+   "album": "Young Manhood and Other Donatable Organs",
+   "url": "https://savingcountrymusic.com/album-review-zach-bryans-young-manhood-and-other-donatable-organs/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-zach-bryans-young-manhood-and-other-donatable-organs",
+   "date": "2026-10-21T15:24:18Z",
+   "image": null
+  },
+  {
+   "source": "saving-country-music",
+   "artist": "Wyatt McCubbin",
+   "album": "650",
+   "url": "https://savingcountrymusic.com/album-review-wyatt-mccubbins-650/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-wyatt-mccubbins-650",
+   "date": "2026-10-16T14:27:21Z",
+   "image": null
+  },
+  {
+   "source": "saving-country-music",
+   "artist": "Paige Plaisance",
+   "album": "Swampwater",
+   "url": "https://savingcountrymusic.com/album-review-paige-plaisances-swampwater/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-paige-plaisances-swampwater",
+   "date": "2026-10-14T13:51:19Z",
+   "image": null
+  },
+  {
+   "source": "saving-country-music",
+   "artist": "Margo Cilker",
+   "album": "Little White Cross",
+   "url": "https://savingcountrymusic.com/album-review-margo-cilkers-little-white-cross/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-margo-cilkers-little-white-cross",
+   "date": "2026-10-09T14:38:32Z",
    "image": null
   },
   {
@@ -4870,14 +4942,6 @@
    "album": "From a Beaumont Bar",
    "url": "https://americanahighways.org/2026/10/27/review-pug-johnson-from-a-beaumont-bar/",
    "date": "2026-10-27T15:27:50Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Randy Lee Riviere",
-   "album": "New Blue Mexico",
-   "url": "https://americanahighways.org/2026/10/27/review-randy-lee-riviere-new-blue-mexico/",
-   "date": "2026-10-27T15:18:33Z",
    "image": null
   },
   {
@@ -5449,14 +5513,6 @@
    "image": null
   },
   {
-   "source": "shatter-the-standards",
-   "artist": "Khal!l",
-   "album": "Oh, The Doubt Among Us",
-   "url": "https://www.shatterthestandards.com/p/album-review-oh-the-doubt-among-us",
-   "date": "2026-10-27T12:04:10Z",
-   "image": null
-  },
-  {
    "source": "grown-up-rap",
    "artist": "Evidence",
    "album": "Squirrel Tape Instrumentals Vol. 4",
@@ -5478,6 +5534,14 @@
    "album": "Beneath This Sun",
    "url": "https://monkeyboxing.com/the-allergies-beneath-this-sun-lp/",
    "date": "2026-10-17T16:35:59Z",
+   "image": null
+  },
+  {
+   "source": "underground-hip-hop-blog",
+   "artist": "The Inner Realmz",
+   "album": "Beat Maker Ethics",
+   "url": "https://undergroundhiphopblog.com/albums/beat-maker-ethics-finds-the-inner-realmz-expanding-its-team-with-each-member-presenting-their-own-individual-styles-album-review/",
+   "date": "2026-10-31T04:35:57Z",
    "image": null
   },
   {
@@ -5533,14 +5597,6 @@
    "artist": "Hit-Boy",
    "album": "The Chauncey Hollis Project II",
    "url": "https://undergroundhiphopblog.com/albums/the-chauncey-hollis-project-ii-shows-a-more-personal-hit-boy-than-hitstory-2-success-is-a-dirty-word-mixtape-review/",
-   "date": "2026-10-23T07:01:00Z",
-   "image": null
-  },
-  {
-   "source": "underground-hip-hop-blog",
-   "artist": "Che Noir",
-   "album": "It Takes a Village",
-   "url": "https://undergroundhiphopblog.com/albums/it-takes-a-village-is-che-noirs-honest-reflection-of-motherhood-album-review/",
    "date": "2026-10-23T07:01:00Z",
    "image": null
   },
@@ -5602,14 +5658,6 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Daniel Son, Asun Eastwood, Futurewave",
-   "album": "NOM DE GUERRE (Ft. Kardinal, Lord Juco, Wizdome Bunital, 36 Cypher, Lord Fury)",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xhn9ww/fresh_album_daniel_son_asun_eastwood_futurewave/",
-   "date": "2026-10-28T12:54:33Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
    "artist": "Skip Waiters",
    "album": "MR PIKS Ft. SWAVAY",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1xgajsb/fresh_album_skip_waiters_mr_piks_ft_swavay/",
@@ -5618,10 +5666,10 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "V Don",
-   "album": "Lost Gemz 8 [Instrumental]",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xi0f9q/fresh_album_v_don_lost_gemz_8_instrumental/",
-   "date": "2026-10-28T21:00:49Z",
+   "artist": "Daniel Son, Asun Eastwood, Futurewave",
+   "album": "NOM DE GUERRE (Ft. Kardinal, Lord Juco, Wizdome Bunital, 36 Cypher, Lord Fury)",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xhn9ww/fresh_album_daniel_son_asun_eastwood_futurewave/",
+   "date": "2026-10-28T12:54:33Z",
    "image": null
   },
   {
@@ -5634,10 +5682,10 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "GDP",
-   "album": "Cross Off Matthew",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xfkse2/fresh_album_gdp_cross_off_matthew/",
-   "date": "2026-10-26T02:19:33Z",
+   "artist": "V Don",
+   "album": "Lost Gemz 8 [Instrumental]",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xi0f9q/fresh_album_v_don_lost_gemz_8_instrumental/",
+   "date": "2026-10-28T21:00:49Z",
    "image": null
   },
   {
@@ -5650,18 +5698,26 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Daddy Yankee",
-   "album": "LA POSTAL",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xj9t52/fresh_album_daddy_yankee_la_postal/",
-   "date": "2026-10-30T08:30:05Z",
+   "artist": "GDP",
+   "album": "Cross Off Matthew",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xfkse2/fresh_album_gdp_cross_off_matthew/",
+   "date": "2026-10-26T02:19:33Z",
    "image": null
   },
   {
    "source": "r-hiphopheads",
-   "artist": "Doseone and Fatboy Sharif",
-   "album": "Truth Ugly",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjich9/fresh_album_doseone_and_fatboy_sharif_truth_ugly/",
-   "date": "2026-10-30T15:25:07Z",
+   "artist": "Hus Kingpin",
+   "album": "Halloween Hus: Murda Muzik",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjjltu/fresh_album_hus_kingpin_halloween_hus_murda_muzik/",
+   "date": "2026-10-30T16:11:41Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Daddy Yankee",
+   "album": "LA POSTAL",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xj9t52/fresh_album_daddy_yankee_la_postal/",
+   "date": "2026-10-30T08:30:05Z",
    "image": null
   },
   {
@@ -5722,19 +5778,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Editors",
-   "album": "Surface, Echo & Sound",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xj0hm4/fresh_album_editors_surface_echo_sound/",
-   "date": "2026-10-30T00:01:49Z",
-   "image": "https://external-preview.redd.it/N0_VbbcbRAnsKOdyJmgi_PlB0E1u2WEiXLKYRuh9U64.jpeg?width=640&crop=smart&auto=webp&s=28226310429a3eb410c9903c60da19f5c0c4603e"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "THAO",
    "album": "Show Me",
    "url": "https://www.reddit.com/r/indieheads/comments/1xj0f5i/fresh_album_thao_show_me/",
    "date": "2026-10-29T23:59:58Z",
    "image": "https://external-preview.redd.it/uMGa_pvaDnebbVTB2EI6G8IFqF6uSTDQBxwOmQL6l0Y.jpeg?width=640&crop=smart&auto=webp&s=d9f1bdf7593ca6556a4f4723f0b88412ad62003d"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Editors",
+   "album": "Surface, Echo & Sound",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xj0hm4/fresh_album_editors_surface_echo_sound/",
+   "date": "2026-10-30T00:01:49Z",
+   "image": "https://external-preview.redd.it/N0_VbbcbRAnsKOdyJmgi_PlB0E1u2WEiXLKYRuh9U64.jpeg?width=640&crop=smart&auto=webp&s=28226310429a3eb410c9903c60da19f5c0c4603e"
   },
   {
    "source": "r-indieheads",
@@ -6150,118 +6206,6 @@
    "album": "Birth is Upon Me, Death is Upon Me",
    "url": "https://ukjazznews.com/coras-trio-birth-is-upon-me-death-is-upon-me/",
    "date": "2026-10-30T12:00:38Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Loidis",
-   "album": "From the Toolkit of Lovers",
-   "url": "https://firstfloor.substack.com/p/loidis-from-the-toolkit-of-lovers",
-   "date": "2026-10-29T09:21:29Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Gibrana Cervantes",
-   "album": "Verdad y Error",
-   "url": "https://firstfloor.substack.com/p/gibrana-cervantes-verdad-y-error",
-   "date": "2026-10-29T08:43:40Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Poison Zcora",
-   "album": "How It Feels to Be Plundered",
-   "url": "https://firstfloor.substack.com/p/poison-zcora-how-it-feels-to-be-plundered",
-   "date": "2026-10-29T08:11:18Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "veneko",
-   "album": "noor",
-   "url": "https://firstfloor.substack.com/p/veneko-noor",
-   "date": "2026-10-29T00:11:30Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "ex_libris",
-   "album": "004",
-   "url": "https://firstfloor.substack.com/p/ex_libris-004",
-   "date": "2026-10-28T10:19:54Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Farsight",
-   "album": "SITUATIONS 002",
-   "url": "https://firstfloor.substack.com/p/farsight-situations-002",
-   "date": "2026-10-28T09:35:23Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "James Bangura",
-   "album": "The Angst",
-   "url": "https://firstfloor.substack.com/p/james-bangura-the-angst",
-   "date": "2026-10-28T09:02:49Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Civilistjävel!",
-   "album": "Älvgång",
-   "url": "https://firstfloor.substack.com/p/civilistjavel-alvgang",
-   "date": "2026-10-26T06:17:23Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Sunju Hargun",
-   "album": "The Golden Triangle",
-   "url": "https://firstfloor.substack.com/p/sunju-hargun-the-golden-triangle",
-   "date": "2026-10-22T06:21:45Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Shelley Parker",
-   "album": "Screed",
-   "url": "https://firstfloor.substack.com/p/shelley-parker-screed",
-   "date": "2026-10-21T18:28:55Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Charlie May",
-   "album": "Trusted Farms",
-   "url": "https://firstfloor.substack.com/p/charlie-may-trusted-farms",
-   "date": "2026-10-21T17:37:41Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Nectax",
-   "album": "Cash4Gold / Close2Mine",
-   "url": "https://firstfloor.substack.com/p/nectax-cash4gold-close2mine",
-   "date": "2026-10-21T16:24:26Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "nextdimensional",
-   "album": "mind surf / deep space",
-   "url": "https://firstfloor.substack.com/p/nextdimensional-mind-surf-deep-space",
-   "date": "2026-10-21T15:30:20Z",
-   "image": null
-  },
-  {
-   "source": "first-floor",
-   "artist": "Hysterical Love Project",
-   "album": "February’s Album",
-   "url": "https://firstfloor.substack.com/p/hysterical-love-project-februarys",
-   "date": "2026-10-21T06:52:53Z",
    "image": null
   },
   {
@@ -7193,6 +7137,166 @@
    "image": null
   },
   {
+   "source": "pitchfork",
+   "artist": "Dummy",
+   "album": "do you love the color of the sky?",
+   "url": "https://pitchfork.com/reviews/albums/dummy-do-you-love-the-color-of-the-sky/",
+   "date": "2026-10-22T04:00:00Z",
+   "image": "https://media.pitchfork.com/photos/6a7dd69bca14a077a056d363/master/pass/unnamed%20-%202026-08-13T103639.912.jpg"
+  },
+  {
+   "source": "spill",
+   "artist": "Sabaton",
+   "album": "Legends",
+   "url": "https://spillmagazine.com/spill-album-review-sabaton-legends/",
+   "date": "2026-10-17T18:07:29Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Randy Lee Riviere",
+   "album": "New Blue Mexico",
+   "url": "https://americanahighways.org/2026/10/27/review-randy-lee-riviere-new-blue-mexico/",
+   "date": "2026-10-27T15:18:33Z",
+   "image": null
+  },
+  {
+   "source": "shatter-the-standards",
+   "artist": "Khal!l",
+   "album": "Oh, The Doubt Among Us",
+   "url": "https://www.shatterthestandards.com/p/album-review-oh-the-doubt-among-us",
+   "date": "2026-10-27T12:04:10Z",
+   "image": null
+  },
+  {
+   "source": "underground-hip-hop-blog",
+   "artist": "Che Noir",
+   "album": "It Takes a Village",
+   "url": "https://undergroundhiphopblog.com/albums/it-takes-a-village-is-che-noirs-honest-reflection-of-motherhood-album-review/",
+   "date": "2026-10-23T07:01:00Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Doseone and Fatboy Sharif",
+   "album": "Truth Ugly",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjich9/fresh_album_doseone_and_fatboy_sharif_truth_ugly/",
+   "date": "2026-10-30T15:25:07Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Loidis",
+   "album": "From the Toolkit of Lovers",
+   "url": "https://firstfloor.substack.com/p/loidis-from-the-toolkit-of-lovers",
+   "date": "2026-10-29T09:21:29Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Gibrana Cervantes",
+   "album": "Verdad y Error",
+   "url": "https://firstfloor.substack.com/p/gibrana-cervantes-verdad-y-error",
+   "date": "2026-10-29T08:43:40Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Poison Zcora",
+   "album": "How It Feels to Be Plundered",
+   "url": "https://firstfloor.substack.com/p/poison-zcora-how-it-feels-to-be-plundered",
+   "date": "2026-10-29T08:11:18Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "veneko",
+   "album": "noor",
+   "url": "https://firstfloor.substack.com/p/veneko-noor",
+   "date": "2026-10-29T00:11:30Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "ex_libris",
+   "album": "004",
+   "url": "https://firstfloor.substack.com/p/ex_libris-004",
+   "date": "2026-10-28T10:19:54Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Farsight",
+   "album": "SITUATIONS 002",
+   "url": "https://firstfloor.substack.com/p/farsight-situations-002",
+   "date": "2026-10-28T09:35:23Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "James Bangura",
+   "album": "The Angst",
+   "url": "https://firstfloor.substack.com/p/james-bangura-the-angst",
+   "date": "2026-10-28T09:02:49Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Civilistjävel!",
+   "album": "Älvgång",
+   "url": "https://firstfloor.substack.com/p/civilistjavel-alvgang",
+   "date": "2026-10-26T06:17:23Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Sunju Hargun",
+   "album": "The Golden Triangle",
+   "url": "https://firstfloor.substack.com/p/sunju-hargun-the-golden-triangle",
+   "date": "2026-10-22T06:21:45Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Shelley Parker",
+   "album": "Screed",
+   "url": "https://firstfloor.substack.com/p/shelley-parker-screed",
+   "date": "2026-10-21T18:28:55Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Charlie May",
+   "album": "Trusted Farms",
+   "url": "https://firstfloor.substack.com/p/charlie-may-trusted-farms",
+   "date": "2026-10-21T17:37:41Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Nectax",
+   "album": "Cash4Gold / Close2Mine",
+   "url": "https://firstfloor.substack.com/p/nectax-cash4gold-close2mine",
+   "date": "2026-10-21T16:24:26Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "nextdimensional",
+   "album": "mind surf / deep space",
+   "url": "https://firstfloor.substack.com/p/nextdimensional-mind-surf-deep-space",
+   "date": "2026-10-21T15:30:20Z",
+   "image": null
+  },
+  {
+   "source": "first-floor",
+   "artist": "Hysterical Love Project",
+   "album": "February’s Album",
+   "url": "https://firstfloor.substack.com/p/hysterical-love-project-februarys",
+   "date": "2026-10-21T06:52:53Z",
+   "image": null
+  },
+  {
    "source": "needle-drop",
    "artist": "HMLTD",
    "album": "FANGS",
@@ -7246,78 +7350,6 @@
    "album": "Smoking the Bunny",
    "url": "https://varioussmallflames.co.uk/2026/10/08/wilder-maker-smoking-the-bunny/",
    "date": "2026-10-08T18:13:01Z",
-   "image": null
-  },
-  {
-   "source": "klof",
-   "artist": "Mali Obomsawin",
-   "album": "Automatic",
-   "url": "https://klofmag.com/2026/10/mali-obomsawin-automatic/",
-   "date": "2026-10-30T12:18:00Z",
-   "image": null
-  },
-  {
-   "source": "klof",
-   "artist": "Jeffrey Silverstein",
-   "album": "Doggone",
-   "url": "https://klofmag.com/2026/10/jeffrey-silverstein-doggone/",
-   "date": "2026-10-29T08:20:56Z",
-   "image": null
-  },
-  {
-   "source": "klof",
-   "artist": "Buck Curran",
-   "album": "Illuminations",
-   "url": "https://klofmag.com/2026/10/buck-curran-illuminations/",
-   "date": "2026-10-28T10:39:58Z",
-   "image": null
-  },
-  {
-   "source": "klof",
-   "artist": "Chuck Roth",
-   "album": "Texture Songs",
-   "url": "https://klofmag.com/2026/10/chuck-roth-texture-songs/",
-   "date": "2026-10-27T11:46:30Z",
-   "image": null
-  },
-  {
-   "source": "saving-country-music",
-   "artist": "Pug Johnson",
-   "album": "From a Beaumont Bar",
-   "url": "https://savingcountrymusic.com/album-review-pug-johnsons-from-a-beaumont-bar/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-pug-johnsons-from-a-beaumont-bar",
-   "date": "2026-10-26T14:56:55Z",
-   "image": null
-  },
-  {
-   "source": "saving-country-music",
-   "artist": "Zach Bryan",
-   "album": "Young Manhood and Other Donatable Organs",
-   "url": "https://savingcountrymusic.com/album-review-zach-bryans-young-manhood-and-other-donatable-organs/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-zach-bryans-young-manhood-and-other-donatable-organs",
-   "date": "2026-10-21T15:24:18Z",
-   "image": null
-  },
-  {
-   "source": "saving-country-music",
-   "artist": "Wyatt McCubbin",
-   "album": "650",
-   "url": "https://savingcountrymusic.com/album-review-wyatt-mccubbins-650/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-wyatt-mccubbins-650",
-   "date": "2026-10-16T14:27:21Z",
-   "image": null
-  },
-  {
-   "source": "saving-country-music",
-   "artist": "Paige Plaisance",
-   "album": "Swampwater",
-   "url": "https://savingcountrymusic.com/album-review-paige-plaisances-swampwater/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-paige-plaisances-swampwater",
-   "date": "2026-10-14T13:51:19Z",
-   "image": null
-  },
-  {
-   "source": "saving-country-music",
-   "artist": "Margo Cilker",
-   "album": "Little White Cross",
-   "url": "https://savingcountrymusic.com/album-review-margo-cilkers-little-white-cross/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-margo-cilkers-little-white-cross",
-   "date": "2026-10-09T14:38:32Z",
    "image": null
   },
   {
@@ -12551,14 +12583,6 @@
    "url": "https://pitchfork.com/reviews/albums/logic1000-confirmation/",
    "date": "2026-10-14T04:00:00Z",
    "image": "https://media.pitchfork.com/photos/6ace7ef0db59a31ef68a40d5/master/pass/Logic1000%20-%20Confirmation!%20album%20art.jpg"
-  },
-  {
-   "source": "beats-per-minute",
-   "artist": "Brandon Flowers",
-   "album": "THRASHER",
-   "url": "https://beatsperminute.com/album-review-brandon-flowers-thrasher/",
-   "date": "2026-08-31T04:01:53Z",
-   "image": null
   },
   {
    "source": "quietus",
