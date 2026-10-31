@@ -22,8 +22,7 @@ import urllib.parse
 import build_feed
 from build_feed import fetch, log
 
-# MusicBrainz asks for a User-Agent that says who is calling and where to find them.
-build_feed.USER_AGENT = "DeepCutsUnearth/1.0 (+https://github.com/candidtheartist/deepcuts-unearth)"
+# MusicBrainz asks for a User-Agent that says who is calling and where to find them: build_feed's does.
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 LIST = os.path.join(HERE, "labels_list.json")

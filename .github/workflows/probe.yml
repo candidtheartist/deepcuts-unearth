@@ -1,0 +1,35 @@
+name: Probe sources
+
+# Asks every source how it answers from GitHub's runners (the addresses the jobs run from), to see which turn
+# the jobs away and why. Run it by hand from the Actions tab; the report is kept as the run's artifact.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: [probe_sources.py, .github/workflows/probe.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        run: python3 probe_sources.py --save-pages
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe
+          path: probe/
+      - name: Keep the report on the branch
+        if: github.ref != 'refs/heads/main'
+        run: |
+          git config user.name "unearth-bot"
+          git config user.email "unearth-bot@users.noreply.github.com"
+          git add -f probe/report.json probe/report.md
+          git diff --cached --quiet || git commit -m "Probe report"
+          git push
