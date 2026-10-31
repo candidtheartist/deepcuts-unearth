@@ -8,6 +8,7 @@ it tries the job's User-Agent as it is and as it would be with the repository's 
 
     python3 probe_sources.py                 # writes probe/report.json and probe/report.md
     python3 probe_sources.py --save-pages    # also keeps the list pages it read, in probe/pages/
+    python3 probe_sources.py https://…       # only keeps what those addresses answer, in probe/fetched/
 
 Run it from GitHub's runners (.github/workflows/probe.yml): sites treat their addresses differently from a laptop's.
 """
@@ -223,7 +224,22 @@ def summary(report):
     return "\n".join(lines)
 
 
+def fetch_only(urls):
+    """`python3 probe_sources.py https://… https://…`: just keep what each address answers, in probe/fetched/,
+    to look at a source's feed or page from GitHub's servers."""
+    os.makedirs(os.path.join(OUT, "fetched"), exist_ok=True)
+    for url in urls:
+        answer = get(url, NEW_AGENT, FEED_ACCEPT if re.search(r"feed|rss|xml", url) else PAGE_ACCEPT, compressed=True)
+        name = feed.slugify(re.sub(r"^https?://(www\.)?", "", url))[:120]
+        with open(os.path.join(OUT, "fetched", name), "wb") as f:
+            f.write(answer["body"][:3_000_000])
+        print(f"{answer['status']} {answer['kind']} {answer['size']} {answer['firewall'] or ''} {url}")
+
+
 def main():
+    urls = [a for a in sys.argv[1:] if a.startswith("http")]
+    if urls:
+        return fetch_only(urls)
     work = targets()
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         report = list(pool.map(probe, work))
