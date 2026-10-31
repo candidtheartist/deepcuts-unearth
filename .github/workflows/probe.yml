@@ -25,11 +25,11 @@ jobs:
         with:
           name: probe
           path: probe/
-      - name: Keep the report on the branch
-        if: github.ref != 'refs/heads/main'
+      - name: Keep what the listed addresses answered on the branch
+        if: github.ref != 'refs/heads/main' && hashFiles('probe_urls.txt') != ''
         run: |
           git config user.name "unearth-bot"
           git config user.email "unearth-bot@users.noreply.github.com"
-          for f in probe/report.json probe/report.md probe/fetched; do [ -e "$f" ] && git add -f "$f"; done; true
+          for f in probe/fetched; do [ -e "$f" ] && git add -f "$f"; done; true
           git diff --cached --quiet || git commit -m "Probe report"
           git push
