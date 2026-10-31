@@ -240,6 +240,14 @@ def spill(item):
     return (string.capwords(m.group(1)), string.capwords(m.group(2))) if m else None
 
 
+def native_review(item):
+    """The NATIVE's reviews: "Review: ‘Industry Machine’ by ODUMODUBLVCK" or "Review: Davido’s ‘5ive’" (quotes of any kind)."""
+    title = item["title"].strip()
+    m = re.match(r"^Review: [‘'“\"](?P<album>.+?)[’'”\"] by (?P<artist>.+)$", title, re.I) or \
+        re.match(r"^Review: (?P<artist>.+?)[’']s [‘'“\"](?P<album>.+?)[’'”\"](?: (?:EP|LP|album|mixtape))?$", title, re.I)
+    return (m.group("artist").strip(), m.group("album").strip()) if m else None
+
+
 def electronic_sound(item):
     """Reviews, features and columns all read 'Artist ‘Album’' (often about an old record): the link says which is a review."""
     m = re.match(r"^([^‘']+?) [‘'](.+)[’'](?: \([^)]*\))?$", item["title"])
@@ -623,10 +631,6 @@ SOURCES = [
     {"id": "igloo", "name": "Igloo Magazine", "kind": "blog", "weight": 1.5, "genres": ["electronic"],
      "site": "https://igloomag.com",
      "feed": "https://igloomag.com/feed", "parse": titled(r"^(?P<artist>.+?) :: (?P<album>.+)$", skip=r"^V/A|^various")},
-    {"id": "dj-mag", "name": "DJ Mag", "kind": "blog", "weight": 1.5, "genres": ["electronic"],
-     "site": "https://djmag.com/reviews",
-     "feed": "https://djmag.com/rss.xml",
-     "parse": titled(r"^(?P<artist>[^-:]+?) - (?P<album>[^:]+)$", skip=r"^V/A|^various|announce|shares?\b|listen|watch|tour")},
     {"id": "electronic-sound", "name": "Electronic Sound", "kind": "blog", "weight": 1.5, "genres": ["electronic"],
      "site": "https://www.electronicsound.co.uk/reviews/",
      "feed": "https://electronicsound.co.uk/feed/", "parse": electronic_sound},
@@ -687,8 +691,7 @@ SOURCES = [
      "feed": "https://beehy.pe/feed/", "parse": titled(r"^[^:]+: (?P<artist>.+?) – [“\"](?P<album>.+?)[”\"] (?:LP|EP)$")},
     {"id": "the-native", "name": "The NATIVE", "kind": "blog", "weight": 2.0, "genres": ["global"],
      "site": "https://thenativemag.com",
-     "feed": "https://thenativemag.com/feed/",
-     "parse": titled(r"^Review: [‘'](?P<album>.+)[’'] by (?P<artist>.+)$")},
+     "feed": "https://thenativemag.com/category/reviews/feed/", "parse": native_review},  # the main feed rarely has reviews
 ]
 
 SONG_SOURCES = [
