@@ -18,7 +18,7 @@ There are no accounts and no server: GitHub runs the job and hosts the file.
 | Hip-hop | RapReviews, Shatter the Standards, Grown Up Rap, Monkeyboxing, The Word Is Bond, Underground Hip Hop Blog, r/hiphopheads |
 | R&B, soul and funk | Shatter the Standards, Twisted Soul, Monkeyboxing |
 | Jazz | The Guardian Jazz Album of the Month, Jazz Trail, The Free Jazz Collective, UK Vibe (4/5 and up), UK Jazz News |
-| Electronic | First Floor, Igloo Magazine, DJ Mag, Electronic Sound, Inverted Audio (reviews), Hard Wax (the shop's new arrivals: techno, jungle, footwork, dubstep), Ban Ban Ton Ton (Balearic, downtempo), Acid Stag; songs: Inverted Audio, The Ransom Note, Bolting Bits (house), Trommel (minimal), Trance Attack (trance), Stereofox (beats, downtempo) |
+| Electronic | First Floor, Igloo Magazine, Electronic Sound, Inverted Audio (reviews), Hard Wax (the shop's new arrivals: techno, jungle, footwork, dubstep), Ban Ban Ton Ton (Balearic, downtempo), Acid Stag; songs: Inverted Audio, The Ransom Note, Bolting Bits (house), Trommel (minimal), Trance Attack (trance), Stereofox (beats, downtempo) |
 | Ambient & experimental | A Closer Listen, Headphone Commute, Ambientblog |
 | Classical | The Guardian Classical, I Care If You Listen, MusicWeb International, The Classic Review |
 | Global | The NATIVE, beehype, Rhythm Passport (songs), World A Reggae (songs) |
@@ -40,11 +40,16 @@ A post can also list several records, one to a line (NPR's New Music Friday epis
 Blog feeds are RSS, which sites publish for other apps to read. The job says who it is in its User-Agent
 (`DeepCutsUnearth/1.1` with this repository's address), asks for feeds as a feed reader does, waits as long as a
 busy site's `Retry-After` asks, and reads robots.txt as RFC 9309 says (no robots.txt means nothing is off limits;
-one the site won't show means keep out).
+one the site won't show means keep out). ListenBrainz data is open, and the
+stations' playlists come from the JSON their own sites and apps read.
 
 `python3 probe_sources.py` (or the "Probe sources" workflow, which runs it from GitHub's own servers) asks every
-source how it answers: the status, which firewall answered, what robots.txt says, and which official alternatives work. ListenBrainz data is open, and the
-stations' playlists come from the JSON their own sites and apps read.
+source how it answers: the status, which firewall answered, what robots.txt says, and which official alternatives work.
+Given addresses (`python3 probe_sources.py https://…`, or listed in `probe_urls.txt` for the workflow) it only keeps
+what each answers, in `probe/fetched/`, to look at a feed's new format.
+
+Treble, Uncut, The Word Is Bond and First Floor are on the list but answer every request from GitHub's servers with
+a Cloudflare check, so they show as failed in `status` until that changes. DJ Mag was dropped: its feed carries news only.
 
 ## Review pages
 
