@@ -21737,6 +21737,12 @@
    "how": "no list found",
    "at": "2026-10-31T12:18:38Z",
    "version": 3
+  },
+  "https://centerforfiction.org/book-recs/2026-first-novel-prize-shortlist/": {
+   "entries": [],
+   "how": "firewall",
+   "at": "2026-11-01T13:34:25Z",
+   "version": 3
   }
  },
  "index": {
@@ -40057,6 +40063,35 @@
    "skip": true
   },
   "/2025/film-stage-top-50-films-of-2025": {
+   "skip": true
+  },
+  "/2026/the-mercury-prize-2026-award": {
+   "skip": true
+  },
+  "/2026/polaris-music-prize-2026-award": {
+   "skip": true
+  },
+  "/2026/national-book-award-fiction-2026": {
+   "skip": true
+  },
+  "/2026/national-book-award-nonfiction-2026": {
+   "skip": true
+  },
+  "/2026/kirkus-reviews-kirkus-prize-fiction-2026": {
+   "skip": true
+  },
+  "/2026/the-center-for-fiction-2026-first-novel-prize": {
+   "outlet": "The Center for Fiction",
+   "writer": null,
+   "title": "2026 First Novel Prize",
+   "url": "https://centerforfiction.org/book-recs/2026-first-novel-prize-shortlist/",
+   "ranked": false,
+   "entries": []
+  },
+  "/2026/publishers-weekly-10-best-books-of-2026": {
+   "skip": true
+  },
+  "/2026/the-booker-prize-2026-award": {
    "skip": true
   }
  }
