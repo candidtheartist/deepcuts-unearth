@@ -513,14 +513,6 @@
    "image": null
   },
   {
-   "source": "stereogum",
-   "artist": "Lily Seabird",
-   "album": "Lightspheres On Their Way",
-   "url": "https://stereogum.com/2509424/album-of-the-week-lily-seabird-lightspheres-on-their-way/reviews/album-of-the-week/",
-   "date": "2026-09-01T15:42:53Z",
-   "image": null
-  },
-  {
    "source": "aquarium-drunkard",
    "artist": "Jason Dungan & Johan Carøe",
    "album": "Routine",
@@ -2090,6 +2082,14 @@
   },
   {
    "source": "rolling-stone",
+   "artist": "BigXthaPlug",
+   "album": "Better Over Time",
+   "url": "https://www.rollingstone.com/music/music-album-reviews/bigxthaplug-better-over-time-new-album-review-1235649228/",
+   "date": "2026-11-01T16:00:00Z",
+   "image": null
+  },
+  {
+   "source": "rolling-stone",
    "artist": "Queens of the Stone Age",
    "album": "Perfecth",
    "url": "https://www.rollingstone.com/music/music-album-reviews/queens-of-the-stone-age-perfecth-review-1235637835/",
@@ -2158,14 +2158,6 @@
    "album": "Chakzilla",
    "url": "https://www.rollingstone.com/music/music-album-reviews/chaka-khan-chakzilla-album-review-1235630380/",
    "date": "2026-09-23T17:52:40Z",
-   "image": null
-  },
-  {
-   "source": "rolling-stone",
-   "artist": "Miley Cyrus",
-   "album": "Bass Persuades",
-   "url": "https://www.rollingstone.com/music/music-album-reviews/miley-cyrus-bass-persuades-review-1235629586/",
-   "date": "2026-09-21T18:44:47Z",
    "image": null
   },
   {
@@ -4170,9 +4162,49 @@
   },
   {
    "source": "boomkat",
+   "artist": "The Fall",
+   "album": "Post Script",
+   "url": "https://boomkat.com/artists/the-fall/releases/qvlfb77u/post-script",
+   "date": "2026-11-01T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
    "artist": "Actress",
    "album": "Radical Frame",
    "url": "https://boomkat.com/artists/actress/releases/uok6waru/radical-frame",
+   "date": "2026-11-01T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Bot1500",
+   "album": "The Black Sea",
+   "url": "https://boomkat.com/artists/bot1500/releases/rayn9vgl/the-black-sea",
+   "date": "2026-11-01T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Will Long, Dj Sprinkles",
+   "album": "acid trax",
+   "url": "https://boomkat.com/artists/will-long-dj-sprinkles/releases/qodpdjyw/acid-trax",
+   "date": "2026-11-01T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Martyn",
+   "album": "Music for Existing",
+   "url": "https://boomkat.com/artists/martyn/releases/zi9ntkys/music-for-existing",
+   "date": "2026-11-01T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "BFTT",
+   "album": "Loving",
+   "url": "https://boomkat.com/artists/bftt/releases/jedujye5/loving-pullman-close",
    "date": "2026-11-01T00:00:00Z",
    "image": null
   },
@@ -4258,14 +4290,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Will Long, Dj Sprinkles",
-   "album": "acid trax",
-   "url": "https://boomkat.com/artists/will-long-dj-sprinkles/releases/qodpdjyw/acid-trax",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Chuck Roth",
    "album": "Texture Songs",
    "url": "https://boomkat.com/artists/chuck-roth/releases/1e1am1vo/texture-songs",
@@ -4306,14 +4330,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Nathan Melja x Yungwebster",
-   "album": "Unbounded",
-   "url": "https://boomkat.com/artists/nathan-melja-x-yungwebster/releases/t5bsifbb/unbounded",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Niagara",
    "album": "Catedral Gótica",
    "url": "https://boomkat.com/artists/niagara/releases/6547ht6b/catedral-gotica",
@@ -4330,6 +4346,14 @@
   },
   {
    "source": "boomkat",
+   "artist": "Nathan Melja x Yungwebster",
+   "album": "Unbounded",
+   "url": "https://boomkat.com/artists/nathan-melja-x-yungwebster/releases/t5bsifbb/unbounded",
+   "date": "2026-10-30T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
    "artist": "Andy Stott",
    "album": "Late Loop",
    "url": "https://boomkat.com/artists/andy-stott/releases/xdeokjal/late-loop",
@@ -4341,46 +4365,6 @@
    "artist": "Jörg Burger, Stardiver",
    "album": "Stardiving mit Jörg Burger",
    "url": "https://boomkat.com/artists/jorg-burger-stardiver/releases/jkykgpqz/stardiving-mit-jorg-burger",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Eerie Enterprise",
-   "album": "Places Remember Events",
-   "url": "https://boomkat.com/artists/eerie-enterprise/releases/ekvwxswa/places-remember-events",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Nouvelle Vague",
-   "album": "A Date with Depeche Mode",
-   "url": "https://boomkat.com/artists/nouvelle-vague/releases/dzalhkhd/a-date-with-depeche-mode",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Posuposu Otani",
-   "album": "ShuHaRi",
-   "url": "https://boomkat.com/artists/posuposu-otani/releases/gn4eejun/shuhari",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Isik Kural",
-   "album": "Motorcycles and Cherry Wind",
-   "url": "https://boomkat.com/artists/isik-kural/releases/t2lzsfoi/motorcycles-and-cherry-wind",
-   "date": "2026-10-30T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Yr Knives",
-   "album": "Begin Yr Singing",
-   "url": "https://boomkat.com/artists/yr-knives/releases/vmd1vthl/begin-yr-singing",
    "date": "2026-10-30T00:00:00Z",
    "image": null
   },
@@ -4738,6 +4722,14 @@
   },
   {
    "source": "americana-highways",
+   "artist": "Abby Posner",
+   "album": "Rest and Rise",
+   "url": "https://americanahighways.org/2026/11/01/review-abby-posner-rest-and-rise/",
+   "date": "2026-11-01T16:27:13Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
    "artist": "Wasperjaws",
    "album": "In-Law Country",
    "url": "https://americanahighways.org/2026/10/30/review-wasperjaws-in-law-country/",
@@ -4782,14 +4774,6 @@
    "album": "Midnight Mustang",
    "url": "https://americanahighways.org/2026/10/28/review-mary-kaye-holt-midnight-mustang/",
    "date": "2026-10-28T15:00:03Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Pug Johnson",
-   "album": "From a Beaumont Bar",
-   "url": "https://americanahighways.org/2026/10/27/review-pug-johnson-from-a-beaumont-bar/",
-   "date": "2026-10-27T15:27:50Z",
    "image": null
   },
   {
@@ -5634,19 +5618,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "RIP Magic",
-   "album": "1,2,3",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xj6knq/fresh_album_rip_magic_123/",
-   "date": "2026-10-30T05:05:00Z",
-   "image": "https://external-preview.redd.it/XJQvYLjFyByX4cTaZBdjXsVJtp4VpYF5CMhKTwXS3tc.jpeg?width=640&crop=smart&auto=webp&s=728b545d8a60509a7ec1ddac008d0626d8dcdb85"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Genital Shame",
    "album": "Wellness Plan",
    "url": "https://www.reddit.com/r/indieheads/comments/1xj71ta/fresh_album_genital_shame_wellness_plan/",
    "date": "2026-10-30T05:32:46Z",
    "image": "https://external-preview.redd.it/alxnPwvrCizsvBBdCkxK7ARxq3_DnLGKXFTBLdOIXvA.jpeg?width=640&crop=smart&auto=webp&s=4e7e666bdf15a61622452f616c0dfab0fe59e0f5"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "RIP Magic",
+   "album": "1,2,3",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xj6knq/fresh_album_rip_magic_123/",
+   "date": "2026-10-30T05:05:00Z",
+   "image": "https://external-preview.redd.it/XJQvYLjFyByX4cTaZBdjXsVJtp4VpYF5CMhKTwXS3tc.jpeg?width=640&crop=smart&auto=webp&s=728b545d8a60509a7ec1ddac008d0626d8dcdb85"
   },
   {
    "source": "guardian-jazz",
@@ -5946,6 +5930,14 @@
   },
   {
    "source": "uk-vibe",
+   "artist": "Avishai Darash Trio",
+   "album": "Heart Bop",
+   "url": "https://ukvibe.org/album_reviews/avishai-darash-trio/",
+   "date": "2026-11-01T16:05:00Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
    "artist": "Eddie Lebrón",
    "album": "Ghetto Records presents…",
    "url": "https://ukvibe.org/album_reviews/eddie-lebron/",
@@ -6017,19 +6009,19 @@
    "image": null
   },
   {
-   "source": "uk-vibe",
-   "artist": "Ernesto Cervini Quartet",
-   "album": "Water Pistols at Dawn",
-   "url": "https://ukvibe.org/album_reviews/ernesto-cervini-quartet/",
-   "date": "2026-10-27T17:01:56Z",
-   "image": null
-  },
-  {
    "source": "uk-jazz-news",
    "artist": "Córas Trio",
    "album": "Birth is Upon Me, Death is Upon Me",
    "url": "https://ukjazznews.com/coras-trio-birth-is-upon-me-death-is-upon-me/",
    "date": "2026-10-30T12:00:38Z",
+   "image": null
+  },
+  {
+   "source": "igloo",
+   "artist": "Euan Alexander Millar-McMeeken & Henrik Meierkord",
+   "album": "Darkness Is Just Darkness",
+   "url": "https://igloomag.com/reviews/euan-alexander-millar-mcmeeken-henrik-meierkord-darkness-is-just-darkness-audiobulb",
+   "date": "2026-11-01T19:08:07Z",
    "image": null
   },
   {
@@ -6078,14 +6070,6 @@
    "album": "DUB da Beat EP",
    "url": "https://igloomag.com/reviews/the-mellowtrons-dub-da-beat",
    "date": "2026-10-23T22:59:49Z",
-   "image": null
-  },
-  {
-   "source": "igloo",
-   "artist": "Marina Herlop",
-   "album": "Dja Dja",
-   "url": "https://igloomag.com/reviews/marina-herlop-dja-dja",
-   "date": "2026-10-23T21:48:15Z",
    "image": null
   },
   {
@@ -6982,6 +6966,78 @@
    "album": "Synthetic 海岸",
    "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
    "date": "2026-09-09T05:33:19Z",
+   "image": null
+  },
+  {
+   "source": "rolling-stone",
+   "artist": "Miley Cyrus",
+   "album": "Bass Persuades",
+   "url": "https://www.rollingstone.com/music/music-album-reviews/miley-cyrus-bass-persuades-review-1235629586/",
+   "date": "2026-09-21T18:44:47Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Eerie Enterprise",
+   "album": "Places Remember Events",
+   "url": "https://boomkat.com/artists/eerie-enterprise/releases/ekvwxswa/places-remember-events",
+   "date": "2026-10-30T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Nouvelle Vague",
+   "album": "A Date with Depeche Mode",
+   "url": "https://boomkat.com/artists/nouvelle-vague/releases/dzalhkhd/a-date-with-depeche-mode",
+   "date": "2026-10-30T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Posuposu Otani",
+   "album": "ShuHaRi",
+   "url": "https://boomkat.com/artists/posuposu-otani/releases/gn4eejun/shuhari",
+   "date": "2026-10-30T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Isik Kural",
+   "album": "Motorcycles and Cherry Wind",
+   "url": "https://boomkat.com/artists/isik-kural/releases/t2lzsfoi/motorcycles-and-cherry-wind",
+   "date": "2026-10-30T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Yr Knives",
+   "album": "Begin Yr Singing",
+   "url": "https://boomkat.com/artists/yr-knives/releases/vmd1vthl/begin-yr-singing",
+   "date": "2026-10-30T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Pug Johnson",
+   "album": "From a Beaumont Bar",
+   "url": "https://americanahighways.org/2026/10/27/review-pug-johnson-from-a-beaumont-bar/",
+   "date": "2026-10-27T15:27:50Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Ernesto Cervini Quartet",
+   "album": "Water Pistols at Dawn",
+   "url": "https://ukvibe.org/album_reviews/ernesto-cervini-quartet/",
+   "date": "2026-10-27T17:01:56Z",
+   "image": null
+  },
+  {
+   "source": "igloo",
+   "artist": "Marina Herlop",
+   "album": "Dja Dja",
+   "url": "https://igloomag.com/reviews/marina-herlop-dja-dja",
+   "date": "2026-10-23T21:48:15Z",
    "image": null
   },
   {
@@ -8548,14 +8604,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "BFTT",
-   "album": "Loving",
-   "url": "https://boomkat.com/artists/bftt/releases/jedujye5/loving-pullman-close",
-   "date": "2026-10-29T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Joanne Robertson",
    "album": "Wildflower",
    "url": "https://boomkat.com/artists/joanne-robertson/releases/dt2mdems/wildflower-expanded-reissue",
@@ -9279,14 +9327,6 @@
    "artist": "Picture",
    "album": "Uuuuuuuu",
    "url": "https://boomkat.com/artists/picture/releases/rj8mkhsc/uuuuuuuu",
-   "date": "2026-10-28T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Martyn",
-   "album": "Music for Existing",
-   "url": "https://boomkat.com/artists/martyn/releases/zi9ntkys/music-for-existing",
    "date": "2026-10-28T00:00:00Z",
    "image": null
   },
@@ -22670,6 +22710,86 @@
    "image": null
   },
   {
+   "source": "singles-jukebox",
+   "artist": "Miley",
+   "album": "Bass Persuades",
+   "url": "https://thesinglesjukebox.com/miley-bass-persuades/",
+   "date": "2026-10-09T22:11:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Lisa",
+   "album": "Sawadika",
+   "url": "https://thesinglesjukebox.com/lisa-sawadika/",
+   "date": "2026-10-09T21:48:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Fontaines D.C.",
+   "album": "Marianne",
+   "url": "https://thesinglesjukebox.com/fontaines-d-c-marianne/",
+   "date": "2026-10-09T21:24:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Aya Nakamura & La Rvfleuze",
+   "album": "Sexy Nana",
+   "url": "https://thesinglesjukebox.com/aya-nakamura-la-rvfleuze-sexy-nana/",
+   "date": "2026-10-09T06:30:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Jhené Aiko ft. Kendrick Lamar",
+   "album": "So Good",
+   "url": "https://thesinglesjukebox.com/jhene-aiko-ft-kendrick-lamar-so-good/",
+   "date": "2026-10-09T00:30:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Koe Wetzel & Ella Langley",
+   "album": "Jaded",
+   "url": "https://thesinglesjukebox.com/koe-wetzel-ella-langley-jaded/",
+   "date": "2026-10-08T22:30:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Kaien, Sugar & M.Sasuke",
+   "album": "GGEZ",
+   "url": "https://thesinglesjukebox.com/kaien-sugar-m-sasuke-ggez/",
+   "date": "2026-10-08T01:07:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Le Sserafim",
+   "album": "Made My Night",
+   "url": "https://thesinglesjukebox.com/le-sserafim-made-my-night/",
+   "date": "2026-10-08T00:33:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Ca7riel & Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy",
+   "album": "Sexy Magic",
+   "url": "https://thesinglesjukebox.com/ca7riel-paco-amoroso-pinkpantheress-fred-again-etienne-de-crecy-sexy-magic/",
+   "date": "2026-10-08T00:05:00Z",
+   "image": null
+  },
+  {
+   "source": "singles-jukebox",
+   "artist": "Anderson .Paak & Cordae",
+   "album": "A Good Day",
+   "url": "https://thesinglesjukebox.com/anderson-paak-cordae-a-good-day/",
+   "date": "2026-10-06T23:30:00Z",
+   "image": null
+  },
+  {
    "source": "bias-list",
    "artist": "JUSTB",
    "album": "Narrow Gate",
@@ -23364,86 +23484,6 @@
    "url": "https://acidstag.com/2026/10/blu-detiger-makeup/",
    "date": "2026-10-22T20:58:17Z",
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/23075415/Blu-DeTiger-Makeup-acid-stag.jpg?w=150&h=150&crop=1&ssl=1"
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Miley",
-   "album": "Bass Persuades",
-   "url": "https://thesinglesjukebox.com/miley-bass-persuades/",
-   "date": "2026-10-09T22:11:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Lisa",
-   "album": "Sawadika",
-   "url": "https://thesinglesjukebox.com/lisa-sawadika/",
-   "date": "2026-10-09T21:48:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Fontaines D.C.",
-   "album": "Marianne",
-   "url": "https://thesinglesjukebox.com/fontaines-d-c-marianne/",
-   "date": "2026-10-09T21:24:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Aya Nakamura & La Rvfleuze",
-   "album": "Sexy Nana",
-   "url": "https://thesinglesjukebox.com/aya-nakamura-la-rvfleuze-sexy-nana/",
-   "date": "2026-10-09T06:30:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Jhené Aiko ft. Kendrick Lamar",
-   "album": "So Good",
-   "url": "https://thesinglesjukebox.com/jhene-aiko-ft-kendrick-lamar-so-good/",
-   "date": "2026-10-09T00:30:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Koe Wetzel & Ella Langley",
-   "album": "Jaded",
-   "url": "https://thesinglesjukebox.com/koe-wetzel-ella-langley-jaded/",
-   "date": "2026-10-08T22:30:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Kaien, Sugar & M.Sasuke",
-   "album": "GGEZ",
-   "url": "https://thesinglesjukebox.com/kaien-sugar-m-sasuke-ggez/",
-   "date": "2026-10-08T01:07:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Le Sserafim",
-   "album": "Made My Night",
-   "url": "https://thesinglesjukebox.com/le-sserafim-made-my-night/",
-   "date": "2026-10-08T00:33:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Ca7riel & Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy",
-   "album": "Sexy Magic",
-   "url": "https://thesinglesjukebox.com/ca7riel-paco-amoroso-pinkpantheress-fred-again-etienne-de-crecy-sexy-magic/",
-   "date": "2026-10-08T00:05:00Z",
-   "image": null
-  },
-  {
-   "source": "singles-jukebox",
-   "artist": "Anderson .Paak & Cordae",
-   "album": "A Good Day",
-   "url": "https://thesinglesjukebox.com/anderson-paak-cordae-a-good-day/",
-   "date": "2026-10-06T23:30:00Z",
-   "image": null
   },
   {
    "source": "bias-list",
