@@ -417,19 +417,11 @@
    "image": null
   },
   {
-   "source": "bandcamp-daily",
-   "artist": "Various Artists",
-   "album": "Beirut City Pop",
-   "url": "https://daily.bandcamp.com/album-of-the-day/various-artists-beirut-city-pop-review",
-   "date": "2026-10-19T13:13:33Z",
-   "image": null
-  },
-  {
-   "source": "bandcamp-daily",
-   "artist": "Pardoner",
-   "album": "Target Practice",
-   "url": "https://daily.bandcamp.com/album-of-the-day/pardoner-target-practice-review",
-   "date": "2026-10-16T12:58:52Z",
+   "source": "stereogum",
+   "artist": "Willi Carlisle",
+   "album": "The Universal Bubba",
+   "url": "https://stereogum.com/2516368/album-of-the-week-willi-carlisle-the-universal-bubba/reviews/album-of-the-week/",
+   "date": "2026-11-03T17:46:10Z",
    "image": null
   },
   {
@@ -566,14 +558,6 @@
    "album": "Frogs In A Pond",
    "url": "https://aquariumdrunkard.com/2026/10/26/surprise-chef-frogs-in-a-pond/",
    "date": "2026-10-26T13:26:48Z",
-   "image": null
-  },
-  {
-   "source": "aquarium-drunkard",
-   "artist": "Valerie and Her Week of Wonders",
-   "album": "(Original Motion Picture Soundtrack)",
-   "url": "https://aquariumdrunkard.com/2026/10/26/valerie-and-her-week-of-wonders-original-motion-picture-soundtrack/",
-   "date": "2026-10-26T13:00:00Z",
    "image": null
   },
   {
@@ -1170,6 +1154,14 @@
   },
   {
    "source": "dusted",
+   "artist": "Paul Lytton, Eddie Prévost, Nate Wooley, Seymour Wright",
+   "album": "Parallels & Diagonals",
+   "url": "https://dustedmagazine.tumblr.com/post/832277648020537344",
+   "date": "2026-11-03T16:03:36Z",
+   "image": null
+  },
+  {
+   "source": "dusted",
    "artist": "The Klittens",
    "album": "Have a Heart",
    "url": "https://dustedmagazine.tumblr.com/post/831820750770110464",
@@ -1289,14 +1281,6 @@
    "image": null
   },
   {
-   "source": "dusted",
-   "artist": "Morbid Stench",
-   "album": "Doom Metastasis",
-   "url": "https://dustedmagazine.tumblr.com/post/829737131593351169",
-   "date": "2026-10-06T15:03:11Z",
-   "image": null
-  },
-  {
    "source": "sun-13",
    "artist": "Kali Malone",
    "album": "Burning Song",
@@ -1345,123 +1329,11 @@
    "image": null
   },
   {
-   "source": "musicomh",
-   "artist": "La Roux",
-   "album": "Old Flames",
-   "url": "https://www.musicomh.com/reviews/albums/la-roux-old-flames",
-   "date": "2026-11-02T08:31:35Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Yello",
-   "album": "Time Lab",
-   "url": "https://www.musicomh.com/reviews/albums/yello-time-lab",
-   "date": "2026-10-30T08:31:24Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "PISS",
-   "album": "You Made Me/Skin On Linen",
-   "url": "https://www.musicomh.com/reviews/albums/piss-you-made-me-skin-on-linen",
-   "date": "2026-10-30T07:31:20Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Shabazz Palaces",
-   "album": "It’s A Style Sport",
-   "url": "https://www.musicomh.com/reviews/albums/shabazz-palaces-its-a-style-sport",
-   "date": "2026-10-30T07:01:16Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Clinic",
-   "album": "Wild In The Streets",
-   "url": "https://www.musicomh.com/reviews/albums/clinic-wild-in-the-streets",
-   "date": "2026-10-29T13:01:22Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "The Big Moon",
-   "album": "Forever",
-   "url": "https://www.musicomh.com/reviews/albums/the-big-moon-forever",
-   "date": "2026-10-29T08:01:43Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Queens Of The Stone Age",
-   "album": "Perfecth",
-   "url": "https://www.musicomh.com/reviews/albums/queens-of-the-stone-age-perfecth",
-   "date": "2026-10-28T08:31:05Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Disgusting Sisters",
-   "album": "Skin & Blisters",
-   "url": "https://www.musicomh.com/reviews/albums/disgusting-sisters-skin-blisters",
-   "date": "2026-10-28T08:01:39Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Orchestra Baobab",
-   "album": "Made In Senegal",
-   "url": "https://www.musicomh.com/reviews/albums/orchestra-baobab-made-in-senegal",
-   "date": "2026-10-23T11:26:43Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Bernie Taupin",
-   "album": "The Sea Has No Mercy",
-   "url": "https://www.musicomh.com/reviews/albums/bernie-taupin-the-sea-has-no-mercy",
-   "date": "2026-10-23T07:01:41Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Angèle",
-   "album": "Instinct",
-   "url": "https://www.musicomh.com/reviews/albums/angele-instinct",
-   "date": "2026-10-23T06:01:52Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Caroline Rose",
-   "album": "Gentling The Horse At The Walt Whitman Mall",
-   "url": "https://www.musicomh.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall",
-   "date": "2026-10-22T07:01:21Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Darren Hayman",
-   "album": "I’m Your Team",
-   "url": "https://www.musicomh.com/reviews/albums/darren-hayman-im-your-team",
-   "date": "2026-10-21T07:01:17Z",
-   "image": null
-  },
-  {
    "source": "jenesaispop",
    "artist": "Metrika",
    "album": "La Orden",
    "url": "https://jenesaispop.com/2026/11/03/533245/metrika-la-orden-critica/",
    "date": "2026-11-03T12:26:24Z",
-   "image": null
-  },
-  {
-   "source": "jenesaispop",
-   "artist": "Dummy",
-   "album": "do you love the color of the sky?",
-   "url": "https://jenesaispop.com/2026/11/02/533220/dummy-color-sky-critica/",
-   "date": "2026-11-02T15:00:09Z",
    "image": null
   },
   {
@@ -1938,6 +1810,14 @@
   },
   {
    "source": "spill",
+   "artist": "Melø",
+   "album": "Architects Of Revolution",
+   "url": "https://spillmagazine.com/spill-album-review-melo-architects-of-revolution/",
+   "date": "2026-11-03T17:40:57Z",
+   "image": null
+  },
+  {
+   "source": "spill",
    "artist": "Bad Waitress",
    "album": "In The Hollow",
    "url": "https://spillmagazine.com/spill-album-review-bad-waitress-in-the-hollow/",
@@ -2089,14 +1969,6 @@
    "image": null
   },
   {
-   "source": "spill",
-   "artist": "Caroline Marie Brooks",
-   "album": "Light And Matter",
-   "url": "https://spillmagazine.com/spill-album-review-caroline-marie-brooks-light-and-matter/",
-   "date": "2026-10-23T04:01:56Z",
-   "image": null
-  },
-  {
    "source": "mxdwn",
    "artist": "Queens Of The Stone Age",
    "album": "Perfecth",
@@ -2134,6 +2006,14 @@
    "album": "Caspian",
    "url": "https://music.mxdwn.com/2026/10/25/reviews/album-review-caspian-caspian/",
    "date": "2026-10-25T14:23:00Z",
+   "image": null
+  },
+  {
+   "source": "rolling-stone",
+   "artist": "Dominic Fike",
+   "album": "How To Quit Smoking",
+   "url": "https://www.rollingstone.com/music/music-album-reviews/dominic-fike-how-to-quit-smoking-review-1235651962/",
+   "date": "2026-11-03T20:28:14Z",
    "image": null
   },
   {
@@ -2206,14 +2086,6 @@
    "album": "Cocoon",
    "url": "https://www.rollingstone.com/music/music-album-reviews/yeat-cocoon-new-music-drake-feature-1235630031/",
    "date": "2026-09-23T19:39:12Z",
-   "image": null
-  },
-  {
-   "source": "rolling-stone",
-   "artist": "Chaka Khan",
-   "album": "Chakzilla",
-   "url": "https://www.rollingstone.com/music/music-album-reviews/chaka-khan-chakzilla-album-review-1235630380/",
-   "date": "2026-09-23T17:52:40Z",
    "image": null
   },
   {
@@ -4194,14 +4066,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Limpe Fuchs",
-   "album": "Pianostops",
-   "url": "https://boomkat.com/artists/limpe-fuchs/releases/ta6fvjrq/pianostops",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "CZN",
    "album": "Parallel Commutator",
    "url": "https://boomkat.com/artists/czn/releases/hndpvum9/parallel-commutator",
@@ -4218,25 +4082,89 @@
   },
   {
    "source": "boomkat",
-   "artist": "Skee Mask & North Americans",
-   "album": "Final Circle",
-   "url": "https://boomkat.com/artists/skee-mask-north-americans/releases/x71bfvdt/final-circle",
+   "artist": "Limpe Fuchs",
+   "album": "Pianostops",
+   "url": "https://boomkat.com/artists/limpe-fuchs/releases/ta6fvjrq/pianostops",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Rhyw",
-   "album": "Piranha Pop",
-   "url": "https://boomkat.com/artists/rhyw/releases/gbsfudvc/piranha-pop",
+   "artist": "The Bug vs Ghost Dubs",
+   "album": "Implosion",
+   "url": "https://boomkat.com/artists/the-bug-vs-ghost-dubs/releases/gc2mwc5m/implosion",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Picture",
-   "album": "Eeeeeeee",
-   "url": "https://boomkat.com/artists/picture/releases/gkifttco/eeeeeeee",
+   "artist": "Oren Ambarchi",
+   "album": "Cooked",
+   "url": "https://boomkat.com/artists/oren-ambarchi/releases/ahazhs8t/cooked",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Niagara",
+   "album": "Catedral Gótica",
+   "url": "https://boomkat.com/artists/niagara/releases/6547ht6b/catedral-gotica",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "T++",
+   "album": "Wireless",
+   "url": "https://boomkat.com/artists/t-20c3f8/releases/bucrnck4/wireless",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Elori Saxl & Henry Solomon",
+   "album": "Seeing Is Forgetting",
+   "url": "https://boomkat.com/artists/elori-saxl-henry-solomon/releases/ecyjafil/seeing-is-forgetting",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "A Large Sheet of Muscle",
+   "album": "CHINESE BENEFITS",
+   "url": "https://boomkat.com/artists/a-large-sheet-of-muscle/releases/5o5kejus/chinese-benefits",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Miles",
+   "album": "Vault",
+   "url": "https://boomkat.com/artists/miles/releases/kweyz8er/vault",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Old Saw",
+   "album": "The Wringing Cloth",
+   "url": "https://boomkat.com/artists/old-saw/releases/spvt7jtz/the-wringing-cloth",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Horace Andy",
+   "album": "Dance Hall Style",
+   "url": "https://boomkat.com/artists/horace-andy/releases/tsy2lmkf/dance-hall-style",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Cop Tears",
+   "album": "The Rules Of The Game",
+   "url": "https://boomkat.com/artists/cop-tears/releases/2hkmua3d/the-rules-of-the-game",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4250,9 +4178,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "D'Arcangelo",
-   "album": "Eksel",
-   "url": "https://boomkat.com/artists/d-arcangelo/releases/wcfhyowp/eksel-ef5f1a",
+   "artist": "Rhyw",
+   "album": "Piranha Pop",
+   "url": "https://boomkat.com/artists/rhyw/releases/gbsfudvc/piranha-pop",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4274,17 +4202,57 @@
   },
   {
    "source": "boomkat",
-   "artist": "Niagara",
-   "album": "Catedral Gótica",
-   "url": "https://boomkat.com/artists/niagara/releases/6547ht6b/catedral-gotica",
+   "artist": "D'Arcangelo",
+   "album": "Eksel",
+   "url": "https://boomkat.com/artists/d-arcangelo/releases/wcfhyowp/eksel-ef5f1a",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Miles",
-   "album": "Vault",
-   "url": "https://boomkat.com/artists/miles/releases/kweyz8er/vault",
+   "artist": "Skee Mask & North Americans",
+   "album": "Final Circle",
+   "url": "https://boomkat.com/artists/skee-mask-north-americans/releases/x71bfvdt/final-circle",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Privacy Paradise",
+   "album": "Volcano Pirate Island",
+   "url": "https://boomkat.com/artists/privacy-paradise/releases/bn7qcfxh/volcano-pirate-island",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Yaeji",
+   "album": "ddr",
+   "url": "https://boomkat.com/artists/yaeji/releases/tzqgujpk/ddr",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Sam Girling",
+   "album": "Drive By Strokes / Primrose Mountain",
+   "url": "https://boomkat.com/artists/sam-girling/releases/axxp2g7i/drive-by-strokes-primrose-mountain",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Dean Blunt",
+   "album": "Black Metal 2",
+   "url": "https://boomkat.com/artists/dean-blunt/releases/s1stjeij/black-metal-2",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Tara Clerkin Trio",
+   "album": "Somewhere Good",
+   "url": "https://boomkat.com/artists/tara-clerkin-trio/releases/p8leelrd/somewhere-good",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4293,6 +4261,22 @@
    "artist": "Spiral (Tom James Scott & Teresa Winter)",
    "album": "Spiral",
    "url": "https://boomkat.com/artists/spiral-tom-james-scott-teresa-winter/releases/hx8pkq7b/spiral",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Picture",
+   "album": "Eeeeeeee",
+   "url": "https://boomkat.com/artists/picture/releases/gkifttco/eeeeeeee",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Wendy Eisenberg",
+   "album": "Wendy Eisenberg",
+   "url": "https://boomkat.com/artists/wendy-eisenberg/releases/pkbaf4uo/wendy-eisenberg",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4314,6 +4298,14 @@
   },
   {
    "source": "boomkat",
+   "artist": "Tim Reaper",
+   "album": "sfs/in vain",
+   "url": "https://boomkat.com/artists/tim-reaper/releases/wvihzrwm/sfs-in-vain-selected-tracks",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
    "artist": "Raoul Björkenheim & Paal Nilssen-Love",
    "album": "PING",
    "url": "https://boomkat.com/artists/raoul-bjorkenheim-paal-nilssen-love/releases/rwnxjo4t/ping",
@@ -4330,14 +4322,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Loop Diary",
-   "album": "Music from Tokyo / New York",
-   "url": "https://boomkat.com/artists/loop-diary/releases/pkarsmje/music-from-tokyo-new-york",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Vanessa Wagner",
    "album": "Philip Glass: Piano Etudes Versions",
    "url": "https://boomkat.com/artists/vanessa-wagner/releases/fph6vlek/philip-glass-piano-etudes-versions",
@@ -4346,9 +4330,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Tim Reaper",
-   "album": "sfs/in vain",
-   "url": "https://boomkat.com/artists/tim-reaper/releases/wvihzrwm/sfs-in-vain-selected-tracks",
+   "artist": "Linus + Bonnie 'Prince' Billy",
+   "album": "The Outsider - The Music Of Jules de Corte",
+   "url": "https://boomkat.com/artists/linus-bonnie-prince-billy/releases/zkdocsku/the-outsider-the-music-of-jules-de-corte",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4362,9 +4346,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Linus + Bonnie 'Prince' Billy",
-   "album": "The Outsider - The Music Of Jules de Corte",
-   "url": "https://boomkat.com/artists/linus-bonnie-prince-billy/releases/zkdocsku/the-outsider-the-music-of-jules-de-corte",
+   "artist": "Loop Diary",
+   "album": "Music from Tokyo / New York",
+   "url": "https://boomkat.com/artists/loop-diary/releases/pkarsmje/music-from-tokyo-new-york",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4390,118 +4374,6 @@
    "album": "Low Winter Sun",
    "url": "https://boomkat.com/artists/james-howard/releases/quvbahy1/low-winter-sun",
    "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Mario Batkovic",
-   "album": "MUNDUS",
-   "url": "https://boomkat.com/artists/mario-batkovic/releases/y979smrt/mundus",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "WRACK",
-   "album": "Driving Force",
-   "url": "https://boomkat.com/artists/wrack/releases/ztshonn5/driving-force",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Red 40",
-   "album": "Waiting For My Song",
-   "url": "https://boomkat.com/artists/red-40/releases/wkx6zcx2/waiting-for-my-song",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Hudson People",
-   "album": "Hold On",
-   "url": "https://boomkat.com/artists/hudson-people/releases/6yw3s6sv/hold-on-dj-friction-mix",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Sam Girling",
-   "album": "Drive By Strokes / Primrose Mountain",
-   "url": "https://boomkat.com/artists/sam-girling/releases/axxp2g7i/drive-by-strokes-primrose-mountain",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Lord Rhaburn & Lord Rhaburn Combo",
-   "album": "Calypso Is Power",
-   "url": "https://boomkat.com/artists/lord-rhaburn-lord-rhaburn-combo/releases/jycvv4yg/calypso-is-power",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Luci Gang",
-   "album": "HEADLOCK",
-   "url": "https://boomkat.com/artists/luci-gang/releases/madaujwr/headlock-english-extended-version",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Purple Pilgrims",
-   "album": "Look to the Moon",
-   "url": "https://boomkat.com/artists/purple-pilgrims/releases/wzxwcra8/look-to-the-moon",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Milan W.",
-   "album": "Leave Another Day",
-   "url": "https://boomkat.com/artists/milan-w/releases/rr44ywka/leave-another-day",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Markus Guentner",
-   "album": "In Moll",
-   "url": "https://boomkat.com/artists/markus-guentner/releases/npyenkem/in-moll-25th-anniversary-edition",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Snuggle",
-   "album": "Goodbyehouse",
-   "url": "https://boomkat.com/artists/snuggle/releases/yvjzq1bc/goodbyehouse",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "XEXA",
-   "album": "Kissom",
-   "url": "https://boomkat.com/artists/xexa/releases/4sycf9zz/kissom",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "BFTT",
-   "album": "Loving",
-   "url": "https://boomkat.com/artists/bftt/releases/jedujye5/loving-pullman-close",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Sander de Keere",
-   "album": "The Manual Stop",
-   "url": "https://boomkat.com/artists/sander-de-keere/releases/s5zqjnpl/the-manual-stop",
-   "date": "2026-11-02T00:00:00Z",
    "image": null
   },
   {
@@ -4810,6 +4682,14 @@
   },
   {
    "source": "saving-country-music",
+   "artist": "Jesse Daniel",
+   "album": "Looks Like Rain",
+   "url": "https://savingcountrymusic.com/album-review-jesse-daniels-looks-like-rain/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-jesse-daniels-looks-like-rain",
+   "date": "2026-11-03T15:59:06Z",
+   "image": null
+  },
+  {
+   "source": "saving-country-music",
    "artist": "Pug Johnson",
    "album": "From a Beaumont Bar",
    "url": "https://savingcountrymusic.com/album-review-pug-johnsons-from-a-beaumont-bar/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-pug-johnsons-from-a-beaumont-bar",
@@ -4842,6 +4722,46 @@
   },
   {
    "source": "americana-highways",
+   "artist": "Tom Petty and the Heartbreakers",
+   "album": "Origins 1971-1978",
+   "url": "https://americanahighways.org/2026/11/03/review-tom-petty-and-the-heartbreakers-origins-1971-1978/",
+   "date": "2026-11-03T16:45:12Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Neal Casal",
+   "album": "Book of Stories",
+   "url": "https://americanahighways.org/2026/11/03/review-neal-casal-book-of-stories-home-recordings-1998-2003/",
+   "date": "2026-11-03T16:33:00Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Cara Luft",
+   "album": "My Heart Will Always Be",
+   "url": "https://americanahighways.org/2026/11/03/review-cara-luft-my-heart-will-always-be/",
+   "date": "2026-11-03T16:18:07Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Eric Jerardi",
+   "album": "The Game",
+   "url": "https://americanahighways.org/2026/11/03/review-eric-jerardi-the-game/",
+   "date": "2026-11-03T16:11:24Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Beet the System",
+   "album": "Decompositions",
+   "url": "https://americanahighways.org/2026/11/03/review-beet-the-system-decompositions/",
+   "date": "2026-11-03T16:00:15Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
    "artist": "Feral Foster",
    "album": "New World Blues",
    "url": "https://americanahighways.org/2026/11/02/review-feral-foster-new-world-blues/",
@@ -4870,30 +4790,6 @@
    "album": "Tilda",
    "url": "https://americanahighways.org/2026/11/02/review-prinz-grizzley-tilda/",
    "date": "2026-11-02T16:06:00Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Abby Posner",
-   "album": "Rest and Rise",
-   "url": "https://americanahighways.org/2026/11/01/review-abby-posner-rest-and-rise/",
-   "date": "2026-11-01T16:27:13Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Wasperjaws",
-   "album": "In-Law Country",
-   "url": "https://americanahighways.org/2026/10/30/review-wasperjaws-in-law-country/",
-   "date": "2026-10-30T15:15:50Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Lydia Loveless",
-   "album": "Accolades",
-   "url": "https://americanahighways.org/2026/10/28/review-lydia-loveless-accolades/",
-   "date": "2026-10-28T15:27:43Z",
    "image": null
   },
   {
@@ -4977,35 +4873,19 @@
    "image": null
   },
   {
-   "source": "louder-than-war",
-   "artist": "Ugly",
-   "album": "The South Facade",
-   "url": "https://louderthanwar.com/ugly-the-south-facade-album-review/",
-   "date": "2026-11-02T13:20:40Z",
+   "source": "angry-metal-guy",
+   "artist": "Wyrm Chasm",
+   "album": "Wyrm Chasm",
+   "url": "https://www.angrymetalguy.com/wyrm-chasm-wyrm-chasm-review/",
+   "date": "2026-11-03T20:32:28Z",
    "image": null
   },
   {
-   "source": "louder-than-war",
-   "artist": "Various Artists – Cronyvirus Detector",
-   "album": "A Studio 1 in 12 Sampler Vol 1",
-   "url": "https://louderthanwar.com/various-artists-cronyvirus-detector-a-studio-1-in-12-sampler-vol-1-album-review/",
-   "date": "2026-11-02T09:33:11Z",
-   "image": null
-  },
-  {
-   "source": "louder-than-war",
-   "artist": "The Homesick",
-   "album": "What’s Up With All These Shangri-Las",
-   "url": "https://louderthanwar.com/the-homesick-whats-up-with-all-these-shangri-las-album-review/",
-   "date": "2026-11-02T09:21:13Z",
-   "image": null
-  },
-  {
-   "source": "louder-than-war",
-   "artist": "Witness",
-   "album": "Before The Calm",
-   "url": "https://louderthanwar.com/witness-before-the-calm-album-review/",
-   "date": "2026-10-31T16:24:09Z",
+   "source": "angry-metal-guy",
+   "artist": "Rattlesnakes",
+   "album": "Shadows in the Night",
+   "url": "https://www.angrymetalguy.com/rattlesnakes-shadows-in-the-night-review/",
+   "date": "2026-11-03T16:43:47Z",
    "image": null
   },
   {
@@ -5062,22 +4942,6 @@
    "album": "Mið",
    "url": "https://www.angrymetalguy.com/enslaved-mid-review/",
    "date": "2026-10-30T16:05:44Z",
-   "image": null
-  },
-  {
-   "source": "angry-metal-guy",
-   "artist": "Master Boot Record",
-   "album": "Computer Metal",
-   "url": "https://www.angrymetalguy.com/master-boot-record-computer-metal-review/",
-   "date": "2026-10-30T11:54:10Z",
-   "image": null
-  },
-  {
-   "source": "angry-metal-guy",
-   "artist": "Boss Keloid",
-   "album": "Float & Aperture",
-   "url": "https://www.angrymetalguy.com/boss-keloid-float-aperture-review/",
-   "date": "2026-10-29T15:46:01Z",
    "image": null
   },
   {
@@ -5642,6 +5506,14 @@
   },
   {
    "source": "r-hiphopheads",
+   "artist": "The Game",
+   "album": "Unreleased Files",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjapc4/fresh_album_the_game_unreleased_files/",
+   "date": "2026-10-30T09:27:30Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
    "artist": "CRIMEAPPLE",
    "album": "Sweet Dreams 2",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1xje78t/fresh_album_crimeapple_sweet_dreams_2/",
@@ -5654,14 +5526,6 @@
    "album": "NOM DE GUERRE (Ft. Kardinal, Lord Juco, Wizdome Bunital, 36 Cypher, Lord Fury)",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1xhn9ww/fresh_album_daniel_son_asun_eastwood_futurewave/",
    "date": "2026-10-28T12:54:33Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "The Game",
-   "album": "Unreleased Files",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjapc4/fresh_album_the_game_unreleased_files/",
-   "date": "2026-10-30T09:27:30Z",
    "image": null
   },
   {
@@ -5738,19 +5602,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Andy Stott",
-   "album": "Late Loop",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xj0ibe/fresh_album_andy_stott_late_loop/",
-   "date": "2026-10-30T00:02:34Z",
-   "image": "https://external-preview.redd.it/PoDcUG01agIIbb0w9Y-_A-lg2zDPhSskfwKR2mYGKTY.jpeg?width=320&crop=smart&auto=webp&s=f8175619fd955f6cc6f0b5d80e44ca5aa57fdfb7"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Life Without Buildings",
    "album": "XFM Sessions",
    "url": "https://www.reddit.com/r/indieheads/comments/1xjzjlg/fresh_album_life_without_buildings_xfm_sessions/",
    "date": "2026-10-31T03:15:29Z",
    "image": "https://external-preview.redd.it/M7opSQR6vrlJ6zlV3nG11FTlUNlKDF_EQvhux2fuyi0.jpeg?width=640&crop=smart&auto=webp&s=c1b4952169fe7a48c3508b9afd5edc379f340bb4"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Andy Stott",
+   "album": "Late Loop",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xj0ibe/fresh_album_andy_stott_late_loop/",
+   "date": "2026-10-30T00:02:34Z",
+   "image": "https://external-preview.redd.it/PoDcUG01agIIbb0w9Y-_A-lg2zDPhSskfwKR2mYGKTY.jpeg?width=320&crop=smart&auto=webp&s=f8175619fd955f6cc6f0b5d80e44ca5aa57fdfb7"
   },
   {
    "source": "r-indieheads",
@@ -5762,19 +5626,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Editors",
-   "album": "Surface, Echo & Sound",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xj0hm4/fresh_album_editors_surface_echo_sound/",
-   "date": "2026-10-30T00:01:49Z",
-   "image": "https://external-preview.redd.it/N0_VbbcbRAnsKOdyJmgi_PlB0E1u2WEiXLKYRuh9U64.jpeg?width=640&crop=smart&auto=webp&s=28226310429a3eb410c9903c60da19f5c0c4603e"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Radio Free Alice",
    "album": "What's In Between",
    "url": "https://www.reddit.com/r/indieheads/comments/1xj0h59/fresh_album_radio_free_alice_whats_in_between/",
    "date": "2026-10-30T00:01:19Z",
    "image": "https://external-preview.redd.it/0foJ5oRSrnZuawrzItcbgkcvYG4A1sWoRHUhKE84gaE.jpeg?width=320&crop=smart&auto=webp&s=f323231ffb68d96c7368c7c1959e7fcfa22afcd2"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Editors",
+   "album": "Surface, Echo & Sound",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xj0hm4/fresh_album_editors_surface_echo_sound/",
+   "date": "2026-10-30T00:01:49Z",
+   "image": "https://external-preview.redd.it/N0_VbbcbRAnsKOdyJmgi_PlB0E1u2WEiXLKYRuh9U64.jpeg?width=640&crop=smart&auto=webp&s=28226310429a3eb410c9903c60da19f5c0c4603e"
   },
   {
    "source": "r-indieheads",
@@ -6114,6 +5978,14 @@
   },
   {
    "source": "uk-vibe",
+   "artist": "Martti Vesala Soundpost Quintet",
+   "album": "Pendulum",
+   "url": "https://ukvibe.org/album_reviews/martti-vesala-soundpost-quintet/",
+   "date": "2026-11-03T19:39:43Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
    "artist": "Juanga Lakunza Quintet",
    "album": "Vision",
    "url": "https://ukvibe.org/album_reviews/juanga-lakunza-quintet/",
@@ -6158,22 +6030,6 @@
    "album": "Heart Bop",
    "url": "https://ukvibe.org/album_reviews/avishai-darash-trio/",
    "date": "2026-11-01T16:05:00Z",
-   "image": null
-  },
-  {
-   "source": "uk-vibe",
-   "artist": "Eddie Lebrón",
-   "album": "Ghetto Records presents…",
-   "url": "https://ukvibe.org/album_reviews/eddie-lebron/",
-   "date": "2026-11-01T13:51:15Z",
-   "image": null
-  },
-  {
-   "source": "uk-vibe",
-   "artist": "Bobby Watson",
-   "album": "Continuum",
-   "url": "https://ukvibe.org/album_reviews/bobby-watson/",
-   "date": "2026-11-01T10:07:08Z",
    "image": null
   },
   {
@@ -6444,7 +6300,7 @@
    "source": "hard-wax",
    "artist": "Lemon & Mint and Waffles Kru",
    "album": "Myor Massiv 17",
-   "url": "https://hardwax.com/08146/lemon-and-mint-and-waffles-kru/myor-massiv-17/",
+   "url": "https://hardwax.com/08146/lemon-and-mint-and-waffles-kru/myor-massiv-17/?focus=download",
    "date": "2026-10-30T09:00:00Z",
    "image": null
   },
@@ -6469,14 +6325,6 @@
    "artist": "The Experience",
    "album": "Tubes",
    "url": "https://hardwax.com/89532/the-experience/tubes/",
-   "date": "2026-10-29T09:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Ring",
-   "album": "Rin",
-   "url": "https://hardwax.com/89638/ring/rin/",
    "date": "2026-10-29T09:00:00Z",
    "image": null
   },
@@ -6673,38 +6521,6 @@
    "image": null
   },
   {
-   "source": "hard-wax",
-   "artist": "Augustus Pablo",
-   "album": "Vibrate Onn",
-   "url": "https://hardwax.com/89604/augustus-pablo/vibrate-onn/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Alton Ellis",
-   "album": "Showcase",
-   "url": "https://hardwax.com/89615/alton-ellis/showcase/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Musical Youth",
-   "album": "Mash Down Birmingham",
-   "url": "https://hardwax.com/89613/musical-youth/mash-down-birmingham/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Junior Byles",
-   "album": "Long Way",
-   "url": "https://hardwax.com/89606/junior-byles/long-way/",
-   "date": "2026-10-12T08:00:00Z",
-   "image": null
-  },
-  {
    "source": "ban-ban-ton-ton",
    "artist": "Vanity Project",
    "album": "File Management Blues",
@@ -6799,70 +6615,6 @@
    "url": "https://acidstag.com/2026/10/dpat-infinite-youth-lp/",
    "date": "2026-10-25T20:52:07Z",
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/26075019/Dpat-Infinite-Youth-LP-acid-stag.jpeg?w=150&h=150&crop=1&ssl=1"
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Jeff Greinke",
-   "album": "Land Of Ice And Fog",
-   "url": "https://www.ambientblog.net/greinke-landicefog/",
-   "date": "2026-10-28T09:35:00Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "The Larsen Pipes",
-   "album": "The Larsen Pipes 01",
-   "url": "https://www.ambientblog.net/larsenpipes/",
-   "date": "2026-10-24T07:43:42Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Ava Rasti",
-   "album": "No One Knows How Wild The Wind Blows",
-   "url": "https://www.ambientblog.net/avarasti-wind/",
-   "date": "2026-10-19T10:48:12Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Mathias Villard",
-   "album": "Past Radiance",
-   "url": "https://www.ambientblog.net/past-radiance/",
-   "date": "2026-10-14T18:54:41Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Deaf Center",
-   "album": "Trinitatis",
-   "url": "https://www.ambientblog.net/trinitatis/",
-   "date": "2026-10-09T08:32:27Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Adam Wiltzie & Johann Johannsson",
-   "album": "Friendship Survival Guide",
-   "url": "https://www.ambientblog.net/wiltzie-johannsson/",
-   "date": "2026-09-26T07:03:40Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Looper",
-   "album": "Interior-Day",
-   "url": "https://www.ambientblog.net/looper-interiorday/",
-   "date": "2026-09-21T11:55:48Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Halftribe",
-   "album": "Disappear In Silent Ways",
-   "url": "https://www.ambientblog.net/halftribe-disappear/",
-   "date": "2026-09-12T10:06:21Z",
-   "image": null
   },
   {
    "source": "twisted-soul",
@@ -7026,50 +6778,58 @@
   },
   {
    "source": "musicweb",
+   "artist": "SWR Vokalensemble",
+   "album": "Fin de siècle",
+   "url": "https://musicwebinternational.com/2026/11/swr-vokalensemble-fin-de-siecle-swr-music/",
+   "date": "2026-11-03T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Handel",
+   "album": "Giulio Caesar",
+   "url": "https://musicwebinternational.com/2026/11/handel-giulio-caesar-c-major/",
+   "date": "2026-11-03T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Choir of Bath Abbey",
+   "album": "Beyond the Manger",
+   "url": "https://musicwebinternational.com/2026/11/choir-of-bath-abbey-beyond-the-manger-crd/",
+   "date": "2026-11-03T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Vivaldi",
+   "album": "Bassoon Concerti, Vol 4",
+   "url": "https://musicwebinternational.com/2026/11/vivaldi-bassoon-concerti-vol-4-ars-produktion/",
+   "date": "2026-11-03T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Brian",
+   "album": "Symphony No 1 ‘Gothic’",
+   "url": "https://musicwebinternational.com/2026/11/brian-symphony-no-1-gothic-hyperion/",
+   "date": "2026-11-03T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Beethoven",
+   "album": "Piano Sonatas No 30-32",
+   "url": "https://musicwebinternational.com/2026/11/beethoven-piano-sonatas-no-30-32-musica-omnia/",
+   "date": "2026-11-03T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
    "artist": "Tchaikovsky",
    "album": "The Nutcracker ballet",
    "url": "https://musicwebinternational.com/2026/11/tchaikovsky-the-nutcracker-ballet-opus-arte/",
    "date": "2026-11-02T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "John Adams",
-   "album": "Piano, Vocal & Chamber Works",
-   "url": "https://musicwebinternational.com/2026/11/john-adams-piano-vocal-chamber-works-naxos/",
-   "date": "2026-11-02T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Mozart",
-   "album": "Piano Concertos 20 & 22",
-   "url": "https://musicwebinternational.com/2026/11/mozart-piano-concertos-20-22-alpha-classics/",
-   "date": "2026-11-02T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Bruch",
-   "album": "Works for Cello & Orchestra",
-   "url": "https://musicwebinternational.com/2026/11/bruch-works-for-cello-orchestra-ars-produktion/",
-   "date": "2026-11-02T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "JS Bach",
-   "album": "Piano Transcriptions Vol. 10",
-   "url": "https://musicwebinternational.com/2026/11/js-bach-piano-transcriptions-vol-10-hyperion/",
-   "date": "2026-11-02T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Smetana",
-   "album": "Piano Works",
-   "url": "https://musicwebinternational.com/2026/11/smetana-piano-works-naxos/",
-   "date": "2026-11-01T12:00:00Z",
    "image": null
   },
   {
@@ -7126,6 +6886,510 @@
    "album": "Synthetic 海岸",
    "url": "https://beehy.pe/cho-co-pa-co-cho-co-quin-quin-synthetic-japan/",
    "date": "2026-09-09T05:33:19Z",
+   "image": null
+  },
+  {
+   "source": "bandcamp-daily",
+   "artist": "Various Artists",
+   "album": "Beirut City Pop",
+   "url": "https://daily.bandcamp.com/album-of-the-day/various-artists-beirut-city-pop-review",
+   "date": "2026-10-19T13:13:33Z",
+   "image": null
+  },
+  {
+   "source": "bandcamp-daily",
+   "artist": "Pardoner",
+   "album": "Target Practice",
+   "url": "https://daily.bandcamp.com/album-of-the-day/pardoner-target-practice-review",
+   "date": "2026-10-16T12:58:52Z",
+   "image": null
+  },
+  {
+   "source": "aquarium-drunkard",
+   "artist": "Valerie and Her Week of Wonders",
+   "album": "(Original Motion Picture Soundtrack)",
+   "url": "https://aquariumdrunkard.com/2026/10/26/valerie-and-her-week-of-wonders-original-motion-picture-soundtrack/",
+   "date": "2026-10-26T13:00:00Z",
+   "image": null
+  },
+  {
+   "source": "dusted",
+   "artist": "Morbid Stench",
+   "album": "Doom Metastasis",
+   "url": "https://dustedmagazine.tumblr.com/post/829737131593351169",
+   "date": "2026-10-06T15:03:11Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "La Roux",
+   "album": "Old Flames",
+   "url": "https://www.musicomh.com/reviews/albums/la-roux-old-flames",
+   "date": "2026-11-02T08:31:35Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Yello",
+   "album": "Time Lab",
+   "url": "https://www.musicomh.com/reviews/albums/yello-time-lab",
+   "date": "2026-10-30T08:31:24Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "PISS",
+   "album": "You Made Me/Skin On Linen",
+   "url": "https://www.musicomh.com/reviews/albums/piss-you-made-me-skin-on-linen",
+   "date": "2026-10-30T07:31:20Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Shabazz Palaces",
+   "album": "It’s A Style Sport",
+   "url": "https://www.musicomh.com/reviews/albums/shabazz-palaces-its-a-style-sport",
+   "date": "2026-10-30T07:01:16Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Clinic",
+   "album": "Wild In The Streets",
+   "url": "https://www.musicomh.com/reviews/albums/clinic-wild-in-the-streets",
+   "date": "2026-10-29T13:01:22Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "The Big Moon",
+   "album": "Forever",
+   "url": "https://www.musicomh.com/reviews/albums/the-big-moon-forever",
+   "date": "2026-10-29T08:01:43Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Queens Of The Stone Age",
+   "album": "Perfecth",
+   "url": "https://www.musicomh.com/reviews/albums/queens-of-the-stone-age-perfecth",
+   "date": "2026-10-28T08:31:05Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Disgusting Sisters",
+   "album": "Skin & Blisters",
+   "url": "https://www.musicomh.com/reviews/albums/disgusting-sisters-skin-blisters",
+   "date": "2026-10-28T08:01:39Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Orchestra Baobab",
+   "album": "Made In Senegal",
+   "url": "https://www.musicomh.com/reviews/albums/orchestra-baobab-made-in-senegal",
+   "date": "2026-10-23T11:26:43Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Bernie Taupin",
+   "album": "The Sea Has No Mercy",
+   "url": "https://www.musicomh.com/reviews/albums/bernie-taupin-the-sea-has-no-mercy",
+   "date": "2026-10-23T07:01:41Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Angèle",
+   "album": "Instinct",
+   "url": "https://www.musicomh.com/reviews/albums/angele-instinct",
+   "date": "2026-10-23T06:01:52Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Caroline Rose",
+   "album": "Gentling The Horse At The Walt Whitman Mall",
+   "url": "https://www.musicomh.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall",
+   "date": "2026-10-22T07:01:21Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Darren Hayman",
+   "album": "I’m Your Team",
+   "url": "https://www.musicomh.com/reviews/albums/darren-hayman-im-your-team",
+   "date": "2026-10-21T07:01:17Z",
+   "image": null
+  },
+  {
+   "source": "jenesaispop",
+   "artist": "Dummy",
+   "album": "do you love the color of the sky?",
+   "url": "https://jenesaispop.com/2026/11/02/533220/dummy-color-sky-critica/",
+   "date": "2026-11-02T15:00:09Z",
+   "image": null
+  },
+  {
+   "source": "spill",
+   "artist": "Caroline Marie Brooks",
+   "album": "Light And Matter",
+   "url": "https://spillmagazine.com/spill-album-review-caroline-marie-brooks-light-and-matter/",
+   "date": "2026-10-23T04:01:56Z",
+   "image": null
+  },
+  {
+   "source": "rolling-stone",
+   "artist": "Chaka Khan",
+   "album": "Chakzilla",
+   "url": "https://www.rollingstone.com/music/music-album-reviews/chaka-khan-chakzilla-album-review-1235630380/",
+   "date": "2026-09-23T17:52:40Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Mario Batkovic",
+   "album": "MUNDUS",
+   "url": "https://boomkat.com/artists/mario-batkovic/releases/y979smrt/mundus",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "WRACK",
+   "album": "Driving Force",
+   "url": "https://boomkat.com/artists/wrack/releases/ztshonn5/driving-force",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Red 40",
+   "album": "Waiting For My Song",
+   "url": "https://boomkat.com/artists/red-40/releases/wkx6zcx2/waiting-for-my-song",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Hudson People",
+   "album": "Hold On",
+   "url": "https://boomkat.com/artists/hudson-people/releases/6yw3s6sv/hold-on-dj-friction-mix",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Lord Rhaburn & Lord Rhaburn Combo",
+   "album": "Calypso Is Power",
+   "url": "https://boomkat.com/artists/lord-rhaburn-lord-rhaburn-combo/releases/jycvv4yg/calypso-is-power",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Luci Gang",
+   "album": "HEADLOCK",
+   "url": "https://boomkat.com/artists/luci-gang/releases/madaujwr/headlock-english-extended-version",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Purple Pilgrims",
+   "album": "Look to the Moon",
+   "url": "https://boomkat.com/artists/purple-pilgrims/releases/wzxwcra8/look-to-the-moon",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Milan W.",
+   "album": "Leave Another Day",
+   "url": "https://boomkat.com/artists/milan-w/releases/rr44ywka/leave-another-day",
+   "date": "2026-11-02T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Markus Guentner",
+   "album": "In Moll",
+   "url": "https://boomkat.com/artists/markus-guentner/releases/npyenkem/in-moll-25th-anniversary-edition",
+   "date": "2026-11-02T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Snuggle",
+   "album": "Goodbyehouse",
+   "url": "https://boomkat.com/artists/snuggle/releases/yvjzq1bc/goodbyehouse",
+   "date": "2026-11-02T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "XEXA",
+   "album": "Kissom",
+   "url": "https://boomkat.com/artists/xexa/releases/4sycf9zz/kissom",
+   "date": "2026-11-02T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "BFTT",
+   "album": "Loving",
+   "url": "https://boomkat.com/artists/bftt/releases/jedujye5/loving-pullman-close",
+   "date": "2026-11-02T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Sander de Keere",
+   "album": "The Manual Stop",
+   "url": "https://boomkat.com/artists/sander-de-keere/releases/s5zqjnpl/the-manual-stop",
+   "date": "2026-11-02T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Abby Posner",
+   "album": "Rest and Rise",
+   "url": "https://americanahighways.org/2026/11/01/review-abby-posner-rest-and-rise/",
+   "date": "2026-11-01T16:27:13Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Wasperjaws",
+   "album": "In-Law Country",
+   "url": "https://americanahighways.org/2026/10/30/review-wasperjaws-in-law-country/",
+   "date": "2026-10-30T15:15:50Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Lydia Loveless",
+   "album": "Accolades",
+   "url": "https://americanahighways.org/2026/10/28/review-lydia-loveless-accolades/",
+   "date": "2026-10-28T15:27:43Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "Ugly",
+   "album": "The South Facade",
+   "url": "https://louderthanwar.com/ugly-the-south-facade-album-review/",
+   "date": "2026-11-02T13:20:40Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "Various Artists – Cronyvirus Detector",
+   "album": "A Studio 1 in 12 Sampler Vol 1",
+   "url": "https://louderthanwar.com/various-artists-cronyvirus-detector-a-studio-1-in-12-sampler-vol-1-album-review/",
+   "date": "2026-11-02T09:33:11Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "The Homesick",
+   "album": "What’s Up With All These Shangri-Las",
+   "url": "https://louderthanwar.com/the-homesick-whats-up-with-all-these-shangri-las-album-review/",
+   "date": "2026-11-02T09:21:13Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "Witness",
+   "album": "Before The Calm",
+   "url": "https://louderthanwar.com/witness-before-the-calm-album-review/",
+   "date": "2026-10-31T16:24:09Z",
+   "image": null
+  },
+  {
+   "source": "angry-metal-guy",
+   "artist": "Master Boot Record",
+   "album": "Computer Metal",
+   "url": "https://www.angrymetalguy.com/master-boot-record-computer-metal-review/",
+   "date": "2026-10-30T11:54:10Z",
+   "image": null
+  },
+  {
+   "source": "angry-metal-guy",
+   "artist": "Boss Keloid",
+   "album": "Float & Aperture",
+   "url": "https://www.angrymetalguy.com/boss-keloid-float-aperture-review/",
+   "date": "2026-10-29T15:46:01Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Eddie Lebrón",
+   "album": "Ghetto Records presents…",
+   "url": "https://ukvibe.org/album_reviews/eddie-lebron/",
+   "date": "2026-11-01T13:51:15Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Bobby Watson",
+   "album": "Continuum",
+   "url": "https://ukvibe.org/album_reviews/bobby-watson/",
+   "date": "2026-11-01T10:07:08Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Lemon & Mint and Waffles Kru",
+   "album": "Myor Massiv 17",
+   "url": "https://hardwax.com/08146/lemon-and-mint-and-waffles-kru/myor-massiv-17/",
+   "date": "2026-10-30T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Ring",
+   "album": "Rin",
+   "url": "https://hardwax.com/89638/ring/rin/",
+   "date": "2026-10-29T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Augustus Pablo",
+   "album": "Vibrate Onn",
+   "url": "https://hardwax.com/89604/augustus-pablo/vibrate-onn/",
+   "date": "2026-10-12T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Alton Ellis",
+   "album": "Showcase",
+   "url": "https://hardwax.com/89615/alton-ellis/showcase/",
+   "date": "2026-10-12T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Musical Youth",
+   "album": "Mash Down Birmingham",
+   "url": "https://hardwax.com/89613/musical-youth/mash-down-birmingham/",
+   "date": "2026-10-12T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Junior Byles",
+   "album": "Long Way",
+   "url": "https://hardwax.com/89606/junior-byles/long-way/",
+   "date": "2026-10-12T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Jeff Greinke",
+   "album": "Land Of Ice And Fog",
+   "url": "https://www.ambientblog.net/greinke-landicefog/",
+   "date": "2026-10-28T09:35:00Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "The Larsen Pipes",
+   "album": "The Larsen Pipes 01",
+   "url": "https://www.ambientblog.net/larsenpipes/",
+   "date": "2026-10-24T07:43:42Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Ava Rasti",
+   "album": "No One Knows How Wild The Wind Blows",
+   "url": "https://www.ambientblog.net/avarasti-wind/",
+   "date": "2026-10-19T10:48:12Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Mathias Villard",
+   "album": "Past Radiance",
+   "url": "https://www.ambientblog.net/past-radiance/",
+   "date": "2026-10-14T18:54:41Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Deaf Center",
+   "album": "Trinitatis",
+   "url": "https://www.ambientblog.net/trinitatis/",
+   "date": "2026-10-09T08:32:27Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Adam Wiltzie & Johann Johannsson",
+   "album": "Friendship Survival Guide",
+   "url": "https://www.ambientblog.net/wiltzie-johannsson/",
+   "date": "2026-09-26T07:03:40Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Looper",
+   "album": "Interior-Day",
+   "url": "https://www.ambientblog.net/looper-interiorday/",
+   "date": "2026-09-21T11:55:48Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Halftribe",
+   "album": "Disappear In Silent Ways",
+   "url": "https://www.ambientblog.net/halftribe-disappear/",
+   "date": "2026-09-12T10:06:21Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "John Adams",
+   "album": "Piano, Vocal & Chamber Works",
+   "url": "https://musicwebinternational.com/2026/11/john-adams-piano-vocal-chamber-works-naxos/",
+   "date": "2026-11-02T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Mozart",
+   "album": "Piano Concertos 20 & 22",
+   "url": "https://musicwebinternational.com/2026/11/mozart-piano-concertos-20-22-alpha-classics/",
+   "date": "2026-11-02T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Bruch",
+   "album": "Works for Cello & Orchestra",
+   "url": "https://musicwebinternational.com/2026/11/bruch-works-for-cello-orchestra-ars-produktion/",
+   "date": "2026-11-02T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "JS Bach",
+   "album": "Piano Transcriptions Vol. 10",
+   "url": "https://musicwebinternational.com/2026/11/js-bach-piano-transcriptions-vol-10-hyperion/",
+   "date": "2026-11-02T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Smetana",
+   "album": "Piano Works",
+   "url": "https://musicwebinternational.com/2026/11/smetana-piano-works-naxos/",
+   "date": "2026-11-01T12:00:00Z",
    "image": null
   },
   {
@@ -7283,14 +7547,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Privacy Paradise",
-   "album": "Volcano Pirate Island",
-   "url": "https://boomkat.com/artists/privacy-paradise/releases/bn7qcfxh/volcano-pirate-island",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Pixies",
    "album": "Brackish Boy / Punk Loop",
    "url": "https://boomkat.com/artists/pixies/releases/zp4uo9pc/brackish-boy-punk-loop",
@@ -7302,14 +7558,6 @@
    "artist": "Pixies",
    "album": "Go Man Go / Dig for Fire",
    "url": "https://boomkat.com/artists/pixies/releases/em63cpz8/go-man-go-dig-for-fire-albini-version",
-   "date": "2026-11-02T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Yaeji",
-   "album": "ddr",
-   "url": "https://boomkat.com/artists/yaeji/releases/tzqgujpk/ddr",
    "date": "2026-11-02T00:00:00Z",
    "image": null
   },
@@ -11761,14 +12009,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "The Bug vs Ghost Dubs",
-   "album": "Implosion",
-   "url": "https://boomkat.com/artists/the-bug-vs-ghost-dubs/releases/gc2mwc5m/implosion",
-   "date": "2026-10-26T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Resavoir",
    "album": "Above the Clouds",
    "url": "https://boomkat.com/artists/resavoir/releases/zpmt1ghl/above-the-clouds",
@@ -14307,14 +14547,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "T++",
-   "album": "Wireless",
-   "url": "https://boomkat.com/artists/t-20c3f8/releases/bucrnck4/wireless",
-   "date": "2026-10-22T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Efdemin",
    "album": "Mirror Phase EP",
    "url": "https://boomkat.com/artists/efdemin/releases/nvzraqxx/mirror-phase-ep",
@@ -14518,14 +14750,6 @@
    "artist": "Sophia Stel",
    "album": "the greatest album of all time",
    "url": "https://boomkat.com/artists/sophia-stel/releases/dfiq1yyt/the-greatest-album-of-all-time",
-   "date": "2026-10-22T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Horace Andy",
-   "album": "Dance Hall Style",
-   "url": "https://boomkat.com/artists/horace-andy/releases/tsy2lmkf/dance-hall-style",
    "date": "2026-10-22T00:00:00Z",
    "image": null
   },
@@ -15102,14 +15326,6 @@
    "artist": "Kane Parsons, Edo Van Breemen",
    "album": "Backrooms",
    "url": "https://boomkat.com/artists/kane-parsons-edo-van-breemen/releases/l5yzaxsd/backrooms-original-soundtrack",
-   "date": "2026-10-20T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Tara Clerkin Trio",
-   "album": "Somewhere Good",
-   "url": "https://boomkat.com/artists/tara-clerkin-trio/releases/p8leelrd/somewhere-good",
    "date": "2026-10-20T00:00:00Z",
    "image": null
   },
@@ -16383,14 +16599,6 @@
    "artist": "@",
    "album": "Autosmile",
    "url": "https://boomkat.com/artists/496b7571d476/releases/vbim1yx3/autosmile",
-   "date": "2026-10-16T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "A Large Sheet of Muscle",
-   "album": "CHINESE BENEFITS",
-   "url": "https://boomkat.com/artists/a-large-sheet-of-muscle/releases/5o5kejus/chinese-benefits",
    "date": "2026-10-16T00:00:00Z",
    "image": null
   },
@@ -23591,14 +23799,6 @@
    "image": "https://media.pitchfork.com/photos/6aa16dac63d8993481ad8921/master/pass/the%20war%20on%20drugs%20who's%20that.jpg"
   },
   {
-   "source": "pitchfork-bnt",
-   "artist": "Fine",
-   "album": "Everything in the shade",
-   "url": "https://pitchfork.com/reviews/tracks/fine-everything-in-the-shade/",
-   "date": "2026-09-03T18:51:23Z",
-   "image": "https://media.pitchfork.com/photos/6a99b832bb02c23e47bc3ca5/master/pass/Fine%20%E2%80%9CEverything%20in%20the%20shade%E2%80%9D%20single%20art.jpg"
-  },
-  {
    "source": "pitchfork-tracks",
    "artist": "Olivia Rodrigo Chappell Roan",
    "album": "expectations",
@@ -23735,14 +23935,6 @@
    "image": "https://media.pitchfork.com/photos/6aa16dac63d8993481ad8921/master/pass/the%20war%20on%20drugs%20who's%20that.jpg"
   },
   {
-   "source": "pitchfork-tracks",
-   "artist": "Fine",
-   "album": "Everything in the shade",
-   "url": "https://pitchfork.com/reviews/tracks/fine-everything-in-the-shade/",
-   "date": "2026-09-03T18:51:23Z",
-   "image": "https://media.pitchfork.com/photos/6a99b832bb02c23e47bc3ca5/master/pass/Fine%20%E2%80%9CEverything%20in%20the%20shade%E2%80%9D%20single%20art.jpg"
-  },
-  {
    "source": "gorilla-vs-bear",
    "artist": "Helena Deland",
    "album": "Tip of My Tongue",
@@ -23781,6 +23973,30 @@
    "url": "https://www.gorillavsbear.net/sophia-stel-i-do/",
    "date": "2026-09-10T12:08:25Z",
    "image": "https://townsquare.media/site/833/files/2026/09/attachment-sophia-stel-i-do.jpg?format=natural"
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Kora Puckett",
+   "album": "In My Veins",
+   "url": "https://stereogum.com/2516431/kora-puckett-in-my-veins-narrow-head/music/",
+   "date": "2026-11-03T17:36:54Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "1000 Rabbits",
+   "album": "Stupid Boy",
+   "url": "https://stereogum.com/2516428/1000-rabbits-stupid-boy/music/",
+   "date": "2026-11-03T17:02:44Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Purple Pilgrims",
+   "album": "Look To The Moon",
+   "url": "https://stereogum.com/2516338/purple-pilgrims-look-to-the-moon/music/",
+   "date": "2026-11-03T15:50:26Z",
+   "image": null
   },
   {
    "source": "stereogum-songs",
@@ -23924,30 +24140,6 @@
    "album": "Creek",
    "url": "https://stereogum.com/2515986/waterbaby-creek/music/",
    "date": "2026-10-29T17:25:31Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "DIIV",
-   "album": "Dare Me",
-   "url": "https://stereogum.com/2515877/diiv-dare-me-zirp-song/music/",
-   "date": "2026-10-28T21:58:35Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Queens Of The Stone Age",
-   "album": "Run Away From The Mob",
-   "url": "https://stereogum.com/2515884/queens-of-the-stone-age-run-away-from-the-mob-perfecth-song/music/",
-   "date": "2026-10-28T21:56:18Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Barrie",
-   "album": "Gloria",
-   "url": "https://stereogum.com/2515819/barrie-gloria/music/",
-   "date": "2026-10-28T17:27:27Z",
    "image": null
   },
   {
@@ -24112,6 +24304,14 @@
   },
   {
    "source": "chorus-fm",
+   "artist": "Sufjan Stevens",
+   "album": "On This Christmas",
+   "url": "https://chorus.fm/news/sufjan-stevens-on-this-christmas-it-only-gets-better/",
+   "date": "2026-11-03T18:08:06Z",
+   "image": null
+  },
+  {
+   "source": "chorus-fm",
    "artist": "Driveways",
    "album": "Prisoner",
    "url": "https://chorus.fm/news/driveways-prisoner/",
@@ -24140,14 +24340,6 @@
    "album": "Here You Come, There You Go",
    "url": "https://chorus.fm/news/gracie-abrams-here-you-come-there-you-go/",
    "date": "2026-10-30T15:27:59Z",
-   "image": null
-  },
-  {
-   "source": "chorus-fm",
-   "artist": "Gatsbys American Dream",
-   "album": "Everything is Good There",
-   "url": "https://chorus.fm/news/gatsbys-american-dream-everything-is-good-there/",
-   "date": "2026-10-30T14:56:18Z",
    "image": null
   },
   {
@@ -24648,6 +24840,22 @@
   },
   {
    "source": "stereofox",
+   "artist": "RHNO",
+   "album": "Womp Womp",
+   "url": "https://www.stereofox.com/rhno-womp-womp/",
+   "date": "2026-11-03T17:54:05Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "AHNAMUSICA",
+   "album": "River",
+   "url": "https://www.stereofox.com/ahnamusica-river/",
+   "date": "2026-11-03T17:15:01Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
    "artist": "Eric Diamond",
    "album": "Blue Heart",
    "url": "https://www.stereofox.com/eric-diamond-blue-heart-ft-rmb-justize/",
@@ -24711,22 +24919,6 @@
    "image": null
   },
   {
-   "source": "stereofox",
-   "artist": "VIKA",
-   "album": "Deep Down",
-   "url": "https://www.stereofox.com/vika-deep-down/",
-   "date": "2026-11-02T13:14:39Z",
-   "image": null
-  },
-  {
-   "source": "stereofox",
-   "artist": "Dan Gregory, robe",
-   "album": "Shiretoko",
-   "url": "https://www.stereofox.com/dan-gregory-robe-shiretoko/",
-   "date": "2026-11-02T12:02:48Z",
-   "image": null
-  },
-  {
    "source": "acid-stag-songs",
    "artist": "Junior Boys",
    "album": "Underneath the Moon",
@@ -24756,6 +24948,54 @@
    "album": "Segundo Sentido",
    "url": "https://twistedsoulmusic.org/2026/11/02/lourenco-rebetez-segundo-sentido-ts-premiere/",
    "date": "2026-11-02T11:17:56Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "DIIV",
+   "album": "Dare Me",
+   "url": "https://stereogum.com/2515877/diiv-dare-me-zirp-song/music/",
+   "date": "2026-10-28T21:58:35Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Queens Of The Stone Age",
+   "album": "Run Away From The Mob",
+   "url": "https://stereogum.com/2515884/queens-of-the-stone-age-run-away-from-the-mob-perfecth-song/music/",
+   "date": "2026-10-28T21:56:18Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Barrie",
+   "album": "Gloria",
+   "url": "https://stereogum.com/2515819/barrie-gloria/music/",
+   "date": "2026-10-28T17:27:27Z",
+   "image": null
+  },
+  {
+   "source": "chorus-fm",
+   "artist": "Gatsbys American Dream",
+   "album": "Everything is Good There",
+   "url": "https://chorus.fm/news/gatsbys-american-dream-everything-is-good-there/",
+   "date": "2026-10-30T14:56:18Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "VIKA",
+   "album": "Deep Down",
+   "url": "https://www.stereofox.com/vika-deep-down/",
+   "date": "2026-11-02T13:14:39Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "Dan Gregory, robe",
+   "album": "Shiretoko",
+   "url": "https://www.stereofox.com/dan-gregory-robe-shiretoko/",
+   "date": "2026-11-02T12:02:48Z",
    "image": null
   },
   {
