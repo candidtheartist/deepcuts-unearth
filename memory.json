@@ -2,6 +2,14 @@
  "album": [
   {
    "source": "pitchfork-bnm",
+   "artist": "Baby Osamaa",
+   "album": "On Tha Run",
+   "url": "https://pitchfork.com/reviews/albums/baby-osamaa-on-tha-run/",
+   "date": "2026-11-04T05:03:00Z",
+   "image": "https://media.pitchfork.com/photos/6aea06e6b2a4ae06c18ac614/master/pass/Baby%20Osamaa%20-%20On%20Tha%20Run%20album%20art.jpg"
+  },
+  {
+   "source": "pitchfork-bnm",
    "artist": "Heavensouls",
    "album": "cantu of the sower EP",
    "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
@@ -95,6 +103,38 @@
    "url": "https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
    "date": "2026-09-25T04:03:00Z",
    "image": "https://media.pitchfork.com/photos/6ab1778795d5696b67afdb32/master/pass/191402061673.png"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "Baby Osamaa",
+   "album": "On Tha Run",
+   "url": "https://pitchfork.com/reviews/albums/baby-osamaa-on-tha-run/",
+   "date": "2026-11-04T05:03:00Z",
+   "image": "https://media.pitchfork.com/photos/6aea06e6b2a4ae06c18ac614/master/pass/Baby%20Osamaa%20-%20On%20Tha%20Run%20album%20art.jpg"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "Niagara",
+   "album": "Catedral Gótica",
+   "url": "https://pitchfork.com/reviews/albums/niagara-catedral-gotica/",
+   "date": "2026-11-04T05:02:00Z",
+   "image": "https://media.pitchfork.com/photos/6ae9fa49a678072465a4a4ae/master/pass/Niagara%20-%20Catedral%20Go%CC%81tica.jpg"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "June Mcdoom",
+   "album": "Follow the Light",
+   "url": "https://pitchfork.com/reviews/albums/june-mcdoom-follow-the-light/",
+   "date": "2026-11-04T05:01:00Z",
+   "image": "https://media.pitchfork.com/photos/6aea1ce888ed135c4885e5cd/master/pass/June%20McDoom-Follow%20the%20Light.jpg"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "Dis Fig",
+   "album": "What to Make of These Mortal Hands",
+   "url": "https://pitchfork.com/reviews/albums/dis-fig-what-to-make-of-these-mortal-hands/",
+   "date": "2026-11-04T05:00:00Z",
+   "image": "https://media.pitchfork.com/photos/6ae3b8af13936ee9eac88b6a/master/pass/Dis%20Fig%20-%20What%20to%20Make%20of%20These%20Mortal%20Hands.jpg"
   },
   {
    "source": "pitchfork",
@@ -295,38 +335,6 @@
    "url": "https://pitchfork.com/reviews/albums/hysterical-love-project-februarys-album/",
    "date": "2026-10-27T04:01:00Z",
    "image": "https://media.pitchfork.com/photos/6adf629398bbebd5e51cd09c/master/pass/Hysterial%20Love%20Project%20-%20February's%20Album.jpg"
-  },
-  {
-   "source": "pitchfork",
-   "artist": "Heavensouls",
-   "album": "cantu of the sower EP",
-   "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
-   "date": "2026-10-26T04:03:00Z",
-   "image": "https://media.pitchfork.com/photos/6adb85c8eb79c260502e90fb/master/pass/heavensouls%20Cantu%20of%20the%20sower.jpg"
-  },
-  {
-   "source": "pitchfork",
-   "artist": "Caroline Rose",
-   "album": "Gentling the Horse at the Walt Whitman Mall",
-   "url": "https://pitchfork.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall/",
-   "date": "2026-10-26T04:02:00Z",
-   "image": "https://media.pitchfork.com/photos/6ad9138a99efacf8991d37c0/master/pass/3000x3000bb-100%20(1).jpg"
-  },
-  {
-   "source": "pitchfork",
-   "artist": "Holidays In United States",
-   "album": "How to Count to Five",
-   "url": "https://pitchfork.com/reviews/albums/holidays-in-united-states-how-to-count-to-five/",
-   "date": "2026-10-26T04:01:00Z",
-   "image": "https://media.pitchfork.com/photos/6ad910aff6a56a2545c47504/master/pass/Holidays%20in%20United%20States%20-%20How%20to%20Count%20to%20Five%20album%20art.jpg"
-  },
-  {
-   "source": "pitchfork",
-   "artist": "Andy Boay",
-   "album": "Doomed",
-   "url": "https://pitchfork.com/reviews/albums/andy-boay-doomed/",
-   "date": "2026-10-26T04:00:00Z",
-   "image": "https://media.pitchfork.com/photos/6adb8c090ac26c3bad94e14d/master/pass/Andy%20Boay%20Doomed.jpg"
   },
   {
    "source": "bandcamp-daily",
@@ -558,6 +566,86 @@
    "album": "Frogs In A Pond",
    "url": "https://aquariumdrunkard.com/2026/10/26/surprise-chef-frogs-in-a-pond/",
    "date": "2026-10-26T13:26:48Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "PISS",
+   "album": "you made me / skin on linen",
+   "url": "https://www.youtube.com/watch?v=nAxDHd-r3YQ",
+   "date": "2026-11-04T04:01:54Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "Queens of the Stone Age",
+   "album": "Perfecth",
+   "url": "https://www.youtube.com/watch?v=KouRFIOyqws",
+   "date": "2026-11-03T05:25:33Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "Rachel Chinouriri",
+   "album": "I think I spoke too soon",
+   "url": "https://www.youtube.com/watch?v=GNr-xuIL6m8",
+   "date": "2026-11-02T03:43:57Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "The Olivia Tremor Control",
+   "album": "The Same Place",
+   "url": "https://www.youtube.com/watch?v=DnG3IkbkGQ0",
+   "date": "2026-11-01T04:41:41Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "HMLTD",
+   "album": "FANGS",
+   "url": "https://www.youtube.com/watch?v=YGFqOLufncA",
+   "date": "2026-10-29T23:04:17Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "Shabazz Palaces",
+   "album": "It's a Style Sport",
+   "url": "https://www.youtube.com/watch?v=HAyEg997L3Q",
+   "date": "2026-10-28T03:06:27Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "heavensouls",
+   "album": "\"cantu\" of the sower",
+   "url": "https://www.youtube.com/watch?v=Z88G-jkrf78",
+   "date": "2026-10-23T23:22:43Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "The Avalanches",
+   "album": "No Bad Memories",
+   "url": "https://www.youtube.com/watch?v=ZAHEPtclKOg",
+   "date": "2026-10-23T02:46:33Z",
+   "image": null
+  },
+  {
+   "source": "needle-drop",
+   "artist": "Fontaines D.C.",
+   "album": "Dopamine Chamber",
+   "url": "https://www.youtube.com/watch?v=UzvthnAU6nc",
+   "date": "2026-10-21T01:05:11Z",
+   "image": null
+  },
+  {
+   "source": "beats-per-minute",
+   "artist": "DIIV",
+   "album": "ZIRP!",
+   "url": "https://beatsperminute.com/album-review-diiv-zirp/",
+   "date": "2026-11-04T05:01:32Z",
    "image": null
   },
   {
@@ -793,14 +881,6 @@
    "image": null
   },
   {
-   "source": "beats-per-minute",
-   "artist": "Carmen Villain",
-   "album": "Memoria",
-   "url": "https://beatsperminute.com/album-review-carmen-villain-memoria/",
-   "date": "2026-09-10T04:01:09Z",
-   "image": null
-  },
-  {
    "source": "guardian",
    "artist": "Strauss",
    "album": "An Alpine Symphony",
@@ -946,6 +1026,14 @@
   },
   {
    "source": "quietus",
+   "artist": "Andy Ingamells",
+   "album": "Vanity Project",
+   "url": "https://thequietus.com/quietus-reviews/andy-ingamells-vanity-project/",
+   "date": "2026-11-04T09:16:53Z",
+   "image": null
+  },
+  {
+   "source": "quietus",
    "artist": "Marta Salogni & Stefano Pilia",
    "album": "Phren",
    "url": "https://thequietus.com/quietus-reviews/marta-salogni-stefano-pilia-phren-review/",
@@ -1081,14 +1169,6 @@
    "image": null
   },
   {
-   "source": "god-is-in-the-tv",
-   "artist": "Death Of The Story",
-   "album": "Electro Therapy",
-   "url": "https://www.godisinthetvzine.co.uk/2026/11/02/death-of-the-story-electro-therapy-self-released/",
-   "date": "2026-11-02T13:06:08Z",
-   "image": null
-  },
-  {
    "source": "dusted",
    "artist": "Paul Lytton, Eddie Prévost, Nate Wooley, Seymour Wright",
    "album": "Parallels & Diagonals",
@@ -1218,6 +1298,14 @@
   },
   {
    "source": "sun-13",
+   "artist": "Cross to Bear",
+   "album": "In Conversation with American Motors’ Dustin White",
+   "url": "https://sun-13.com/2026/11/04/cross-to-bear-in-conversation-with-american-motors-dustin-white/",
+   "date": "2026-11-04T07:13:00Z",
+   "image": null
+  },
+  {
+   "source": "sun-13",
    "artist": "Kali Malone",
    "album": "Burning Song",
    "url": "https://sun-13.com/2026/10/30/kali-malone-burning-song/",
@@ -1265,107 +1353,19 @@
    "image": null
   },
   {
-   "source": "musicomh",
-   "artist": "La Roux",
-   "album": "Old Flames",
-   "url": "https://www.musicomh.com/reviews/albums/la-roux-old-flames",
-   "date": "2026-11-02T08:31:35Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Yello",
-   "album": "Time Lab",
-   "url": "https://www.musicomh.com/reviews/albums/yello-time-lab",
-   "date": "2026-10-30T08:31:24Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "PISS",
-   "album": "You Made Me/Skin On Linen",
-   "url": "https://www.musicomh.com/reviews/albums/piss-you-made-me-skin-on-linen",
-   "date": "2026-10-30T07:31:20Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Shabazz Palaces",
-   "album": "It’s A Style Sport",
-   "url": "https://www.musicomh.com/reviews/albums/shabazz-palaces-its-a-style-sport",
-   "date": "2026-10-30T07:01:16Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Clinic",
-   "album": "Wild In The Streets",
-   "url": "https://www.musicomh.com/reviews/albums/clinic-wild-in-the-streets",
-   "date": "2026-10-29T13:01:22Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "The Big Moon",
-   "album": "Forever",
-   "url": "https://www.musicomh.com/reviews/albums/the-big-moon-forever",
-   "date": "2026-10-29T08:01:43Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Queens Of The Stone Age",
-   "album": "Perfecth",
-   "url": "https://www.musicomh.com/reviews/albums/queens-of-the-stone-age-perfecth",
-   "date": "2026-10-28T08:31:05Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Disgusting Sisters",
-   "album": "Skin & Blisters",
-   "url": "https://www.musicomh.com/reviews/albums/disgusting-sisters-skin-blisters",
-   "date": "2026-10-28T08:01:39Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Orchestra Baobab",
-   "album": "Made In Senegal",
-   "url": "https://www.musicomh.com/reviews/albums/orchestra-baobab-made-in-senegal",
-   "date": "2026-10-23T11:26:43Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Bernie Taupin",
-   "album": "The Sea Has No Mercy",
-   "url": "https://www.musicomh.com/reviews/albums/bernie-taupin-the-sea-has-no-mercy",
-   "date": "2026-10-23T07:01:41Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Angèle",
-   "album": "Instinct",
-   "url": "https://www.musicomh.com/reviews/albums/angele-instinct",
-   "date": "2026-10-23T06:01:52Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Caroline Rose",
-   "album": "Gentling The Horse At The Walt Whitman Mall",
-   "url": "https://www.musicomh.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall",
-   "date": "2026-10-22T07:01:21Z",
-   "image": null
-  },
-  {
    "source": "jenesaispop",
    "artist": "Metrika",
    "album": "La Orden",
    "url": "https://jenesaispop.com/2026/11/03/533245/metrika-la-orden-critica/",
    "date": "2026-11-03T12:26:24Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Tórtel",
+   "album": "Los Espíritus",
+   "url": "https://muzikalia.com/tortel-los-espiritus-autoeditado/",
+   "date": "2026-11-04T08:40:40Z",
    "image": null
   },
   {
@@ -1406,22 +1406,6 @@
    "album": "Eyes Full",
    "url": "https://muzikalia.com/zoh-amba-eyes-full-matador-popstock/",
    "date": "2026-10-29T06:30:00Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Protomartyr",
-   "album": "Hotel Usona",
-   "url": "https://muzikalia.com/protomartyr-hotel-usona-domino-recording/",
-   "date": "2026-10-28T06:39:46Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Viva Belgrado",
-   "album": "Mientras el Guadalquivir fluye y fluye y fluye",
-   "url": "https://muzikalia.com/viva-belgrado-mientras-el-guadalquivir-fluye-y-fluye-y-fluye-fueled-by-salmorejo/",
-   "date": "2026-10-27T08:05:25Z",
    "image": null
   },
   {
@@ -1745,35 +1729,35 @@
    "image": null
   },
   {
-   "source": "diy",
-   "artist": "Paris Paloma",
-   "album": "The Fatal Flaw",
-   "url": "https://diymag.com/t/2099818",
-   "date": "2026-09-04T07:00:00Z",
-   "image": null
-  },
-  {
-   "source": "diy",
-   "artist": "Matilda Mann",
-   "album": "Kismet",
-   "url": "https://diymag.com/t/2099826",
-   "date": "2026-09-04T06:56:00Z",
-   "image": null
-  },
-  {
-   "source": "diy",
-   "artist": "Kasabian",
-   "album": "Act III",
-   "url": "https://diymag.com/t/2099838",
-   "date": "2026-09-04T06:55:00Z",
-   "image": null
-  },
-  {
    "source": "our-culture",
    "artist": "DIIV",
    "album": "ZIRP!",
    "url": "https://ourculturemag.com/album-review-diiv-zirp/",
    "date": "2026-11-03T11:21:50Z",
+   "image": null
+  },
+  {
+   "source": "spectrum-culture",
+   "artist": "The Who",
+   "album": "The Who by Numbers",
+   "url": "https://spectrumculture.com/2026/11/03/the-who-the-who-by-numbers-super-deluxe-edition/",
+   "date": "2026-11-04T06:03:41Z",
+   "image": null
+  },
+  {
+   "source": "spectrum-culture",
+   "artist": "Troye Sivan",
+   "album": "She’s the Best",
+   "url": "https://spectrumculture.com/2026/11/03/troye-sivan-shes-the-best-review/",
+   "date": "2026-11-04T06:01:36Z",
+   "image": null
+  },
+  {
+   "source": "spectrum-culture",
+   "artist": "Carmen Villain",
+   "album": "Memoria",
+   "url": "https://spectrumculture.com/2026/11/03/carmen-villain-memoria-review/",
+   "date": "2026-11-04T06:00:32Z",
    "image": null
   },
   {
@@ -1814,30 +1798,6 @@
    "album": "Soft Body",
    "url": "https://spectrumculture.com/2026/11/01/hot-freaks-soft-body-review/",
    "date": "2026-11-02T06:03:22Z",
-   "image": null
-  },
-  {
-   "source": "spectrum-culture",
-   "artist": "Riley Max",
-   "album": "What It Takes",
-   "url": "https://spectrumculture.com/2026/11/01/riley-max-what-it-takes-review/",
-   "date": "2026-11-02T06:01:29Z",
-   "image": null
-  },
-  {
-   "source": "spectrum-culture",
-   "artist": "Rise Up! Hamilton",
-   "album": "The Anthology",
-   "url": "https://spectrumculture.com/2026/10/29/rise-up-hamilton-the-anthology-review/",
-   "date": "2026-10-30T05:06:30Z",
-   "image": null
-  },
-  {
-   "source": "spectrum-culture",
-   "artist": "Enslaved",
-   "album": "Mið",
-   "url": "https://spectrumculture.com/2026/10/29/enslaved-mid-review/",
-   "date": "2026-10-30T05:05:26Z",
    "image": null
   },
   {
@@ -3697,46 +3657,6 @@
    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5231x2942+0+252/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe1%2F0c%2F4d5b2f6349358115a3116fde8fb3%2Fthis-is-lorelei-by-gabe-long.jpg"
   },
   {
-   "source": "npr-new-music-friday",
-   "artist": "Rebecca Black",
-   "album": "Age of the Exhibitionist",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-new-music-friday",
-   "artist": "Paris Paloma",
-   "album": "The Fatal Flaw",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-new-music-friday",
-   "artist": "Sharp Pins",
-   "album": "Mod Mayday 23",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-new-music-friday",
-   "artist": "1-800-Mikey",
-   "album": "In Yun",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-new-music-friday",
-   "artist": "Button Masher",
-   "album": "Super Button Masher",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
    "source": "npr-critics-picks",
    "artist": "2nd Grade",
    "album": "Girls and Boys",
@@ -4057,44 +3977,12 @@
    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5231x2942+0+252/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe1%2F0c%2F4d5b2f6349358115a3116fde8fb3%2Fthis-is-lorelei-by-gabe-long.jpg"
   },
   {
-   "source": "npr-critics-picks",
-   "artist": "Senri Oe",
-   "album": "Homework",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-critics-picks",
-   "artist": "Madi Diaz",
-   "album": "Fatal Optimist UN-unplugged",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-critics-picks",
-   "artist": "Medium Build",
-   "album": "King of Having Fun",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-critics-picks",
-   "artist": "Chat Pile",
-   "album": "Who Loves The Sun",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
-  },
-  {
-   "source": "npr-critics-picks",
-   "artist": "Steven R. Smith",
-   "album": "Half Light Unfolding",
-   "url": "https://www.npr.org/2026/09/04/nx-s1-5955477/new-music-friday-the-best-albums-out-sept-4",
-   "date": "2026-09-04T04:01:00Z",
-   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F9e%2F727a0ffe40b2bbdffce5a7238301%2F31fb1ad0-7df8-43dc-818e-b5f049eb297f.jpeg"
+   "source": "boomkat",
+   "artist": "Hysterical Love Project",
+   "album": "February's Album",
+   "url": "https://boomkat.com/artists/hysterical-love-project/releases/uawuuqvt/february-s-album",
+   "date": "2026-11-04T00:00:00Z",
+   "image": null
   },
   {
    "source": "boomkat",
@@ -4266,14 +4154,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Old Saw",
-   "album": "The Wringing Cloth",
-   "url": "https://boomkat.com/artists/old-saw/releases/spvt7jtz/the-wringing-cloth",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Horace Andy",
    "album": "Dance Hall Style",
    "url": "https://boomkat.com/artists/horace-andy/releases/tsy2lmkf/dance-hall-style",
@@ -4322,6 +4202,46 @@
   },
   {
    "source": "boomkat",
+   "artist": "Picture",
+   "album": "Eeeeeeee",
+   "url": "https://boomkat.com/artists/picture/releases/gkifttco/eeeeeeee",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Wendy Eisenberg",
+   "album": "Wendy Eisenberg",
+   "url": "https://boomkat.com/artists/wendy-eisenberg/releases/pkbaf4uo/wendy-eisenberg",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Dean Blunt",
+   "album": "Black Metal 2",
+   "url": "https://boomkat.com/artists/dean-blunt/releases/s1stjeij/black-metal-2",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Jabu",
+   "album": "Severn Flood Plain / Where You Run To",
+   "url": "https://boomkat.com/artists/jabu/releases/4vmj7czj/severn-flood-plain-where-you-run-to",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Roc",
+   "album": "Bengali Mayhem Stereo",
+   "url": "https://boomkat.com/artists/roc/releases/wmonnsfl/bengali-mayhem-stereo",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
    "artist": "Skee Mask & North Americans",
    "album": "Final Circle",
    "url": "https://boomkat.com/artists/skee-mask-north-americans/releases/x71bfvdt/final-circle",
@@ -4354,54 +4274,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Dean Blunt",
-   "album": "Black Metal 2",
-   "url": "https://boomkat.com/artists/dean-blunt/releases/s1stjeij/black-metal-2",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Jabu",
-   "album": "Severn Flood Plain / Where You Run To",
-   "url": "https://boomkat.com/artists/jabu/releases/4vmj7czj/severn-flood-plain-where-you-run-to",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Roc",
-   "album": "Bengali Mayhem Stereo",
-   "url": "https://boomkat.com/artists/roc/releases/wmonnsfl/bengali-mayhem-stereo",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Picture",
-   "album": "Eeeeeeee",
-   "url": "https://boomkat.com/artists/picture/releases/gkifttco/eeeeeeee",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Wendy Eisenberg",
-   "album": "Wendy Eisenberg",
-   "url": "https://boomkat.com/artists/wendy-eisenberg/releases/pkbaf4uo/wendy-eisenberg",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Spiral (Tom James Scott & Teresa Winter)",
-   "album": "Spiral",
-   "url": "https://boomkat.com/artists/spiral-tom-james-scott-teresa-winter/releases/hx8pkq7b/spiral",
-   "date": "2026-11-03T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Tara Clerkin Trio",
    "album": "Somewhere Good",
    "url": "https://boomkat.com/artists/tara-clerkin-trio/releases/p8leelrd/somewhere-good",
@@ -4413,6 +4285,14 @@
    "artist": "DJ Old Rat & Jah Coozi",
    "album": "Death Is Only a Dream",
    "url": "https://boomkat.com/artists/dj-old-rat-jah-coozi/releases/cmzhbzex/death-is-only-a-dream",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Niagara",
+   "album": "Catedral Gótica",
+   "url": "https://boomkat.com/artists/niagara/releases/6547ht6b/catedral-gotica",
    "date": "2026-11-03T00:00:00Z",
    "image": null
   },
@@ -4478,6 +4358,22 @@
    "album": "This Place Of Ours",
    "url": "https://atthebarrier.com/2026/11/02/elephant-sessions-this-place-of-ours-album-review/",
    "date": "2026-11-02T12:53:16Z",
+   "image": null
+  },
+  {
+   "source": "post-trash",
+   "artist": "Starcleaner Reunion",
+   "album": "Umbrella",
+   "url": "http://post-trash.com/news/2026/11/3/starcleaner-reunion-umbrella-album-review",
+   "date": "2026-11-04T05:02:00Z",
+   "image": null
+  },
+  {
+   "source": "post-trash",
+   "artist": "2nd Grade",
+   "album": "Girls and Boys",
+   "url": "http://post-trash.com/news/2026/11/3/2nd-grade-girls-and-boys-album-review",
+   "date": "2026-11-04T05:01:00Z",
    "image": null
   },
   {
@@ -4609,62 +4505,6 @@
    "image": null
   },
   {
-   "source": "post-trash",
-   "artist": "Mother of Graves",
-   "album": "The Light That Keeps Us",
-   "url": "http://post-trash.com/news/2026/10/15/mother-of-graves-the-light-that-keeps-us-album-review",
-   "date": "2026-10-16T04:01:00Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "Little Oso",
-   "album": "Simulation Games",
-   "url": "https://varioussmallflames.co.uk/2026/10/30/little-oso-simulation-games/",
-   "date": "2026-10-30T19:42:47Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "Mia Joy",
-   "album": "Wings of Desire",
-   "url": "https://varioussmallflames.co.uk/2026/10/30/mia-joy-wings-of-desire/",
-   "date": "2026-10-30T09:40:51Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "Dowsers",
-   "album": "Dogwood / Three Forks of Cheat",
-   "url": "https://varioussmallflames.co.uk/2026/10/29/dowsers-dogwood-three-forks-of-cheat/",
-   "date": "2026-10-29T09:32:45Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "claire rousay & zander raymond",
-   "album": "can’t we have both",
-   "url": "https://varioussmallflames.co.uk/2026/10/27/claire-rousay-zander-raymond-cant-we-have-both/",
-   "date": "2026-10-27T09:31:36Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "Lamplight",
-   "album": "Lick the Spoon, Let It Soften",
-   "url": "https://varioussmallflames.co.uk/2026/10/22/lamplight-lick-spoon-let-soften/",
-   "date": "2026-10-22T18:32:33Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "ON AIR LIBRARY",
-   "album": "A Word From Benjamin Spock",
-   "url": "https://varioussmallflames.co.uk/2026/10/19/on-air-library-a-word-from-benjamin-spock/",
-   "date": "2026-10-19T18:44:38Z",
-   "image": null
-  },
-  {
    "source": "klof",
    "artist": "Blair Dunlop",
    "album": "What Still Survives",
@@ -4710,14 +4550,6 @@
    "album": "Cloch’s Claí",
    "url": "https://www.theguardian.com/music/2026/oct/02/tra-phaidin-clochs-clai-review-giddy-galway-gang-burst-the-boundaries-of-folk-music",
    "date": "2026-10-02T08:00:15Z",
-   "image": null
-  },
-  {
-   "source": "guardian-folk",
-   "artist": "Sairie",
-   "album": "Beneath the Spreading Tree",
-   "url": "https://www.theguardian.com/music/2026/sep/04/sairie-beneath-the-spreading-tree-review",
-   "date": "2026-09-04T08:00:02Z",
    "image": null
   },
   {
@@ -4810,6 +4642,14 @@
   },
   {
    "source": "americana-highways",
+   "artist": "Straf Vocal Strings",
+   "album": "Tread Softly",
+   "url": "https://americanahighways.org/2026/11/02/review-straf-vocal-strings-tread-softly/",
+   "date": "2026-11-02T16:15:57Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
    "artist": "Mike Berman",
    "album": "In the Woods",
    "url": "https://americanahighways.org/2026/11/02/review-mike-berman-in-the-woods/",
@@ -4822,14 +4662,6 @@
    "album": "I Wish I Was A Single Girl Again",
    "url": "https://americanahighways.org/2026/11/02/review-dida-pelled-i-wish-i-was-a-single-girl-again/",
    "date": "2026-11-02T16:09:03Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Prinz Grizzley",
-   "album": "Tilda",
-   "url": "https://americanahighways.org/2026/11/02/review-prinz-grizzley-tilda/",
-   "date": "2026-11-02T16:06:00Z",
    "image": null
   },
   {
@@ -4910,38 +4742,6 @@
    "album": "Murphy Horse",
    "url": "https://www.getalternative.com/review-smidley-murphy-horse/",
    "date": "2026-09-24T07:02:18Z",
-   "image": null
-  },
-  {
-   "source": "louder-than-war",
-   "artist": "Ugly",
-   "album": "The South Facade",
-   "url": "https://louderthanwar.com/ugly-the-south-facade-album-review/",
-   "date": "2026-11-02T13:20:40Z",
-   "image": null
-  },
-  {
-   "source": "louder-than-war",
-   "artist": "Various Artists – Cronyvirus Detector",
-   "album": "A Studio 1 in 12 Sampler Vol 1",
-   "url": "https://louderthanwar.com/various-artists-cronyvirus-detector-a-studio-1-in-12-sampler-vol-1-album-review/",
-   "date": "2026-11-02T09:33:11Z",
-   "image": null
-  },
-  {
-   "source": "louder-than-war",
-   "artist": "The Homesick",
-   "album": "What’s Up With All These Shangri-Las",
-   "url": "https://louderthanwar.com/the-homesick-whats-up-with-all-these-shangri-las-album-review/",
-   "date": "2026-11-02T09:21:13Z",
-   "image": null
-  },
-  {
-   "source": "louder-than-war",
-   "artist": "Witness",
-   "album": "Before The Calm",
-   "url": "https://louderthanwar.com/witness-before-the-calm-album-review/",
-   "date": "2026-10-31T16:24:09Z",
    "image": null
   },
   {
@@ -5266,6 +5066,14 @@
   },
   {
    "source": "everything-is-noise",
+   "artist": "FELT",
+   "album": "Soil and Sky",
+   "url": "https://everythingisnoise.net/reviews/felt-soil-and-sky/",
+   "date": "2026-11-04T09:00:27Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
    "artist": "Oso Oso",
    "album": "an exchange of information",
    "url": "https://everythingisnoise.net/reviews/oso-oso-an-exchange-of-information/",
@@ -5302,14 +5110,6 @@
    "album": "Certain Uncertainties",
    "url": "https://everythingisnoise.net/reviews/dream-unending-certain-uncertainties/",
    "date": "2026-10-29T08:15:45Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Ghost Rhythms",
-   "album": "Missing Times",
-   "url": "https://everythingisnoise.net/reviews/ghost-rhythms-missing-times/",
-   "date": "2026-10-28T06:55:51Z",
    "image": null
   },
   {
@@ -5442,6 +5242,14 @@
   },
   {
    "source": "underground-hip-hop-blog",
+   "artist": "Young Chris",
+   "album": "Catch a Vibe",
+   "url": "https://undergroundhiphopblog.com/albums/young-chris-catch-a-vibe-sequel-or-a-bullet-is-a-decent-companion-with-moderate-production-ep-review/",
+   "date": "2026-11-04T08:01:00Z",
+   "image": null
+  },
+  {
+   "source": "underground-hip-hop-blog",
    "artist": "Blaze Ya Dead Homie",
    "album": "Last Rites",
    "url": "https://undergroundhiphopblog.com/albums/blaze-ya-dead-homie-releases-a-new-physical-exclusive-extended-play-last-rites-on-his-recent-tour-ep-review/",
@@ -5501,14 +5309,6 @@
    "artist": "Jon Connor",
    "album": "The Artist Yahn Freeman VI",
    "url": "https://undergroundhiphopblog.com/albums/jon-connor-dedicates-the-artist-yahn-freeman-vi-to-his-late-friend-keva-mixtape-review/",
-   "date": "2026-10-31T07:01:00Z",
-   "image": null
-  },
-  {
-   "source": "underground-hip-hop-blog",
-   "artist": "Alla Xul Elu",
-   "album": "WHellcome Home",
-   "url": "https://undergroundhiphopblog.com/albums/whellcome-home-takes-it-back-to-alla-xul-elus-roots-album-review/",
    "date": "2026-10-31T07:01:00Z",
    "image": null
   },
@@ -5578,18 +5378,18 @@
   },
   {
    "source": "r-hiphopheads",
-   "artist": "The Game",
-   "album": "Unreleased Files",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjapc4/fresh_album_the_game_unreleased_files/",
-   "date": "2026-10-30T09:27:30Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
    "artist": "CRIMEAPPLE",
    "album": "Sweet Dreams 2",
    "url": "https://www.reddit.com/r/hiphopheads/comments/1xje78t/fresh_album_crimeapple_sweet_dreams_2/",
    "date": "2026-10-30T12:36:32Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "The Game",
+   "album": "Unreleased Files",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xjapc4/fresh_album_the_game_unreleased_files/",
+   "date": "2026-10-30T09:27:30Z",
    "image": null
   },
   {
@@ -5698,19 +5498,19 @@
   },
   {
    "source": "r-indieheads",
-   "artist": "Radio Free Alice",
-   "album": "What's In Between",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xj0h59/fresh_album_radio_free_alice_whats_in_between/",
-   "date": "2026-10-30T00:01:19Z",
-   "image": "https://external-preview.redd.it/0foJ5oRSrnZuawrzItcbgkcvYG4A1sWoRHUhKE84gaE.jpeg?width=320&crop=smart&auto=webp&s=f323231ffb68d96c7368c7c1959e7fcfa22afcd2"
-  },
-  {
-   "source": "r-indieheads",
    "artist": "Editors",
    "album": "Surface, Echo & Sound",
    "url": "https://www.reddit.com/r/indieheads/comments/1xj0hm4/fresh_album_editors_surface_echo_sound/",
    "date": "2026-10-30T00:01:49Z",
    "image": "https://external-preview.redd.it/N0_VbbcbRAnsKOdyJmgi_PlB0E1u2WEiXLKYRuh9U64.jpeg?width=640&crop=smart&auto=webp&s=28226310429a3eb410c9903c60da19f5c0c4603e"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Radio Free Alice",
+   "album": "What's In Between",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xj0h59/fresh_album_radio_free_alice_whats_in_between/",
+   "date": "2026-10-30T00:01:19Z",
+   "image": "https://external-preview.redd.it/0foJ5oRSrnZuawrzItcbgkcvYG4A1sWoRHUhKE84gaE.jpeg?width=320&crop=smart&auto=webp&s=f323231ffb68d96c7368c7c1959e7fcfa22afcd2"
   },
   {
    "source": "r-indieheads",
@@ -5927,6 +5727,14 @@
    "url": "https://jazztrail.net/blog/trio-imagination-creative-inspiration-album-review",
    "date": "2026-09-15T04:49:13Z",
    "image": null
+  },
+  {
+   "source": "free-jazz",
+   "artist": "Tania Giannouli & Nik Bärtsch",
+   "album": "Metakosmos",
+   "url": "http://www.freejazzblog.org/2026/11/tania-giannouli-nik-bartsch-metakosmos.html",
+   "date": "2026-11-04T05:00:00Z",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsSL0vvL8JVnOdQbo6CRN_7F_Nt9fGUZj40NSVEgo3axRtw6orGef6CQP9HaS09qkknF0oqsDhjRTuyu81c_yTFXw6jLfLGJThNOtxpG7mwRig4TowFlWJvODUAbQgv1smUxcbb91gAX-4Gf9u3VyL5UzY0PUhlI1Q-CLcSUIVdtLtnNnLzhy5bdSXx0c/s72-c/a3827567355_10.jpg"
   },
   {
    "source": "free-jazz",
@@ -6931,7 +6739,7 @@
   {
    "source": "musicweb",
    "artist": "Handel",
-   "album": "Giulio Caesar",
+   "album": "Giulio Cesare",
    "url": "https://musicwebinternational.com/2026/11/handel-giulio-caesar-c-major/",
    "date": "2026-11-03T21:00:00Z",
    "image": null
@@ -7033,67 +6841,315 @@
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "Queens of the Stone Age",
-   "album": "Perfecth",
-   "url": "https://www.youtube.com/watch?v=KouRFIOyqws",
-   "date": "2026-11-03T05:25:33Z",
+   "source": "pitchfork",
+   "artist": "Heavensouls",
+   "album": "cantu of the sower EP",
+   "url": "https://pitchfork.com/reviews/albums/heavensouls-cantu-of-the-sower-ep/",
+   "date": "2026-10-26T04:03:00Z",
+   "image": "https://media.pitchfork.com/photos/6adb85c8eb79c260502e90fb/master/pass/heavensouls%20Cantu%20of%20the%20sower.jpg"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "Caroline Rose",
+   "album": "Gentling the Horse at the Walt Whitman Mall",
+   "url": "https://pitchfork.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall/",
+   "date": "2026-10-26T04:02:00Z",
+   "image": "https://media.pitchfork.com/photos/6ad9138a99efacf8991d37c0/master/pass/3000x3000bb-100%20(1).jpg"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "Holidays In United States",
+   "album": "How to Count to Five",
+   "url": "https://pitchfork.com/reviews/albums/holidays-in-united-states-how-to-count-to-five/",
+   "date": "2026-10-26T04:01:00Z",
+   "image": "https://media.pitchfork.com/photos/6ad910aff6a56a2545c47504/master/pass/Holidays%20in%20United%20States%20-%20How%20to%20Count%20to%20Five%20album%20art.jpg"
+  },
+  {
+   "source": "pitchfork",
+   "artist": "Andy Boay",
+   "album": "Doomed",
+   "url": "https://pitchfork.com/reviews/albums/andy-boay-doomed/",
+   "date": "2026-10-26T04:00:00Z",
+   "image": "https://media.pitchfork.com/photos/6adb8c090ac26c3bad94e14d/master/pass/Andy%20Boay%20Doomed.jpg"
+  },
+  {
+   "source": "beats-per-minute",
+   "artist": "Carmen Villain",
+   "album": "Memoria",
+   "url": "https://beatsperminute.com/album-review-carmen-villain-memoria/",
+   "date": "2026-09-10T04:01:09Z",
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "Rachel Chinouriri",
-   "album": "I think I spoke too soon",
-   "url": "https://www.youtube.com/watch?v=GNr-xuIL6m8",
-   "date": "2026-11-02T03:43:57Z",
+   "source": "god-is-in-the-tv",
+   "artist": "Death Of The Story",
+   "album": "Electro Therapy",
+   "url": "https://www.godisinthetvzine.co.uk/2026/11/02/death-of-the-story-electro-therapy-self-released/",
+   "date": "2026-11-02T13:06:08Z",
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "The Olivia Tremor Control",
-   "album": "The Same Place",
-   "url": "https://www.youtube.com/watch?v=DnG3IkbkGQ0",
-   "date": "2026-11-01T04:41:41Z",
+   "source": "musicomh",
+   "artist": "La Roux",
+   "album": "Old Flames",
+   "url": "https://www.musicomh.com/reviews/albums/la-roux-old-flames",
+   "date": "2026-11-02T08:31:35Z",
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "HMLTD",
-   "album": "FANGS",
-   "url": "https://www.youtube.com/watch?v=YGFqOLufncA",
-   "date": "2026-10-29T23:04:17Z",
+   "source": "musicomh",
+   "artist": "Yello",
+   "album": "Time Lab",
+   "url": "https://www.musicomh.com/reviews/albums/yello-time-lab",
+   "date": "2026-10-30T08:31:24Z",
    "image": null
   },
   {
-   "source": "needle-drop",
+   "source": "musicomh",
+   "artist": "PISS",
+   "album": "You Made Me/Skin On Linen",
+   "url": "https://www.musicomh.com/reviews/albums/piss-you-made-me-skin-on-linen",
+   "date": "2026-10-30T07:31:20Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
    "artist": "Shabazz Palaces",
-   "album": "It's a Style Sport",
-   "url": "https://www.youtube.com/watch?v=HAyEg997L3Q",
-   "date": "2026-10-28T03:06:27Z",
+   "album": "It’s A Style Sport",
+   "url": "https://www.musicomh.com/reviews/albums/shabazz-palaces-its-a-style-sport",
+   "date": "2026-10-30T07:01:16Z",
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "heavensouls",
-   "album": "\"cantu\" of the sower",
-   "url": "https://www.youtube.com/watch?v=Z88G-jkrf78",
-   "date": "2026-10-23T23:22:43Z",
+   "source": "musicomh",
+   "artist": "Clinic",
+   "album": "Wild In The Streets",
+   "url": "https://www.musicomh.com/reviews/albums/clinic-wild-in-the-streets",
+   "date": "2026-10-29T13:01:22Z",
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "The Avalanches",
-   "album": "No Bad Memories",
-   "url": "https://www.youtube.com/watch?v=ZAHEPtclKOg",
-   "date": "2026-10-23T02:46:33Z",
+   "source": "musicomh",
+   "artist": "The Big Moon",
+   "album": "Forever",
+   "url": "https://www.musicomh.com/reviews/albums/the-big-moon-forever",
+   "date": "2026-10-29T08:01:43Z",
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "Fontaines D.C.",
-   "album": "Dopamine Chamber",
-   "url": "https://www.youtube.com/watch?v=UzvthnAU6nc",
-   "date": "2026-10-21T01:05:11Z",
+   "source": "musicomh",
+   "artist": "Queens Of The Stone Age",
+   "album": "Perfecth",
+   "url": "https://www.musicomh.com/reviews/albums/queens-of-the-stone-age-perfecth",
+   "date": "2026-10-28T08:31:05Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Disgusting Sisters",
+   "album": "Skin & Blisters",
+   "url": "https://www.musicomh.com/reviews/albums/disgusting-sisters-skin-blisters",
+   "date": "2026-10-28T08:01:39Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Orchestra Baobab",
+   "album": "Made In Senegal",
+   "url": "https://www.musicomh.com/reviews/albums/orchestra-baobab-made-in-senegal",
+   "date": "2026-10-23T11:26:43Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Bernie Taupin",
+   "album": "The Sea Has No Mercy",
+   "url": "https://www.musicomh.com/reviews/albums/bernie-taupin-the-sea-has-no-mercy",
+   "date": "2026-10-23T07:01:41Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Angèle",
+   "album": "Instinct",
+   "url": "https://www.musicomh.com/reviews/albums/angele-instinct",
+   "date": "2026-10-23T06:01:52Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Caroline Rose",
+   "album": "Gentling The Horse At The Walt Whitman Mall",
+   "url": "https://www.musicomh.com/reviews/albums/caroline-rose-gentling-the-horse-at-the-walt-whitman-mall",
+   "date": "2026-10-22T07:01:21Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Protomartyr",
+   "album": "Hotel Usona",
+   "url": "https://muzikalia.com/protomartyr-hotel-usona-domino-recording/",
+   "date": "2026-10-28T06:39:46Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Viva Belgrado",
+   "album": "Mientras el Guadalquivir fluye y fluye y fluye",
+   "url": "https://muzikalia.com/viva-belgrado-mientras-el-guadalquivir-fluye-y-fluye-y-fluye-fueled-by-salmorejo/",
+   "date": "2026-10-27T08:05:25Z",
+   "image": null
+  },
+  {
+   "source": "spectrum-culture",
+   "artist": "Riley Max",
+   "album": "What It Takes",
+   "url": "https://spectrumculture.com/2026/11/01/riley-max-what-it-takes-review/",
+   "date": "2026-11-02T06:01:29Z",
+   "image": null
+  },
+  {
+   "source": "spectrum-culture",
+   "artist": "Rise Up! Hamilton",
+   "album": "The Anthology",
+   "url": "https://spectrumculture.com/2026/10/29/rise-up-hamilton-the-anthology-review/",
+   "date": "2026-10-30T05:06:30Z",
+   "image": null
+  },
+  {
+   "source": "spectrum-culture",
+   "artist": "Enslaved",
+   "album": "Mið",
+   "url": "https://spectrumculture.com/2026/10/29/enslaved-mid-review/",
+   "date": "2026-10-30T05:05:26Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Old Saw",
+   "album": "The Wringing Cloth",
+   "url": "https://boomkat.com/artists/old-saw/releases/spvt7jtz/the-wringing-cloth",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Spiral (Tom James Scott & Teresa Winter)",
+   "album": "Spiral",
+   "url": "https://boomkat.com/artists/spiral-tom-james-scott-teresa-winter/releases/hx8pkq7b/spiral",
+   "date": "2026-11-03T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "post-trash",
+   "artist": "Mother of Graves",
+   "album": "The Light That Keeps Us",
+   "url": "http://post-trash.com/news/2026/10/15/mother-of-graves-the-light-that-keeps-us-album-review",
+   "date": "2026-10-16T04:01:00Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "Little Oso",
+   "album": "Simulation Games",
+   "url": "https://varioussmallflames.co.uk/2026/10/30/little-oso-simulation-games/",
+   "date": "2026-10-30T19:42:47Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "Mia Joy",
+   "album": "Wings of Desire",
+   "url": "https://varioussmallflames.co.uk/2026/10/30/mia-joy-wings-of-desire/",
+   "date": "2026-10-30T09:40:51Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "Dowsers",
+   "album": "Dogwood / Three Forks of Cheat",
+   "url": "https://varioussmallflames.co.uk/2026/10/29/dowsers-dogwood-three-forks-of-cheat/",
+   "date": "2026-10-29T09:32:45Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "claire rousay & zander raymond",
+   "album": "can’t we have both",
+   "url": "https://varioussmallflames.co.uk/2026/10/27/claire-rousay-zander-raymond-cant-we-have-both/",
+   "date": "2026-10-27T09:31:36Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "Lamplight",
+   "album": "Lick the Spoon, Let It Soften",
+   "url": "https://varioussmallflames.co.uk/2026/10/22/lamplight-lick-spoon-let-soften/",
+   "date": "2026-10-22T18:32:33Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "ON AIR LIBRARY",
+   "album": "A Word From Benjamin Spock",
+   "url": "https://varioussmallflames.co.uk/2026/10/19/on-air-library-a-word-from-benjamin-spock/",
+   "date": "2026-10-19T18:44:38Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Prinz Grizzley",
+   "album": "Tilda",
+   "url": "https://americanahighways.org/2026/11/02/review-prinz-grizzley-tilda/",
+   "date": "2026-11-02T16:06:00Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "Ugly",
+   "album": "The South Facade",
+   "url": "https://louderthanwar.com/ugly-the-south-facade-album-review/",
+   "date": "2026-11-02T13:20:40Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "Various Artists – Cronyvirus Detector",
+   "album": "A Studio 1 in 12 Sampler Vol 1",
+   "url": "https://louderthanwar.com/various-artists-cronyvirus-detector-a-studio-1-in-12-sampler-vol-1-album-review/",
+   "date": "2026-11-02T09:33:11Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "The Homesick",
+   "album": "What’s Up With All These Shangri-Las",
+   "url": "https://louderthanwar.com/the-homesick-whats-up-with-all-these-shangri-las-album-review/",
+   "date": "2026-11-02T09:21:13Z",
+   "image": null
+  },
+  {
+   "source": "louder-than-war",
+   "artist": "Witness",
+   "album": "Before The Calm",
+   "url": "https://louderthanwar.com/witness-before-the-calm-album-review/",
+   "date": "2026-10-31T16:24:09Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Ghost Rhythms",
+   "album": "Missing Times",
+   "url": "https://everythingisnoise.net/reviews/ghost-rhythms-missing-times/",
+   "date": "2026-10-28T06:55:51Z",
+   "image": null
+  },
+  {
+   "source": "underground-hip-hop-blog",
+   "artist": "Alla Xul Elu",
+   "album": "WHellcome Home",
+   "url": "https://undergroundhiphopblog.com/albums/whellcome-home-takes-it-back-to-alla-xul-elus-roots-album-review/",
+   "date": "2026-10-31T07:01:00Z",
    "image": null
   },
   {
@@ -7102,14 +7158,6 @@
    "album": "Scheele’s Green",
    "url": "https://spillmagazine.com/spill-album-review-art-decco-scheeles-green/",
    "date": "2026-10-23T04:02:24Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Niagara",
-   "album": "Catedral Gótica",
-   "url": "https://boomkat.com/artists/niagara/releases/6547ht6b/catedral-gotica",
-   "date": "2026-11-03T00:00:00Z",
    "image": null
   },
   {
@@ -15459,14 +15507,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Hysterical Love Project",
-   "album": "February's Album",
-   "url": "https://boomkat.com/artists/hysterical-love-project/releases/uawuuqvt/february-s-album",
-   "date": "2026-10-20T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Holy Tongue",
    "album": "Basilikum",
    "url": "https://boomkat.com/artists/holy-tongue/releases/z1mqmyjl/basilikum",
@@ -17154,14 +17194,6 @@
    "album": "Genetic Mutation",
    "url": "https://hardwax.com/89625/patient/genetic-mutation/",
    "date": "2026-10-15T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "hard-wax",
-   "artist": "Squash",
-   "album": "Changes",
-   "url": "https://hardwax.com/07362/squash/changes/?focus=download",
-   "date": "2026-09-04T08:00:00Z",
    "image": null
   },
   {
@@ -24272,6 +24304,14 @@
   },
   {
    "source": "raven-sings-the-blues",
+   "artist": "The Gnomes",
+   "album": "With A Gnomes",
+   "url": "https://ravensingstheblues.com/the-gnomes-with-a-gnomes/",
+   "date": "2026-11-04T04:25:44Z",
+   "image": null
+  },
+  {
+   "source": "raven-sings-the-blues",
    "artist": "The Thorn",
    "album": "Darkest Part of Winter",
    "url": "https://ravensingstheblues.com/the-thorn-darkest-part-of-winter/",
@@ -24300,14 +24340,6 @@
    "album": "Gitano Blouse",
    "url": "https://ravensingstheblues.com/dry-skull-dreams-gitano-blouse/",
    "date": "2026-10-28T02:57:02Z",
-   "image": null
-  },
-  {
-   "source": "raven-sings-the-blues",
-   "artist": "Charles Rumback",
-   "album": "Two Kinds of Camouflage",
-   "url": "https://ravensingstheblues.com/charles-rumback-two-kinds-of-camouflage/",
-   "date": "2026-10-27T02:53:45Z",
    "image": null
   },
   {
@@ -24968,6 +25000,14 @@
   },
   {
    "source": "stereofox",
+   "artist": "think less., Drxnk",
+   "album": "frequently",
+   "url": "https://www.stereofox.com/think-less-drxnk-frequently/",
+   "date": "2026-11-04T09:17:20Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
    "artist": "RHNO",
    "album": "Womp Womp",
    "url": "https://www.stereofox.com/rhno-womp-womp/",
@@ -25039,14 +25079,6 @@
    "image": null
   },
   {
-   "source": "stereofox",
-   "artist": "Bad Snacks",
-   "album": "quiet confidence",
-   "url": "https://www.stereofox.com/bad-snacks-quiet-confidence-ft-uyama-hiroto/",
-   "date": "2026-11-02T13:33:43Z",
-   "image": null
-  },
-  {
    "source": "acid-stag-songs",
    "artist": "Munan",
    "album": "23",
@@ -25084,6 +25116,22 @@
    "album": "Segundo Sentido",
    "url": "https://twistedsoulmusic.org/2026/11/02/lourenco-rebetez-segundo-sentido-ts-premiere/",
    "date": "2026-11-02T11:17:56Z",
+   "image": null
+  },
+  {
+   "source": "raven-sings-the-blues",
+   "artist": "Charles Rumback",
+   "album": "Two Kinds of Camouflage",
+   "url": "https://ravensingstheblues.com/charles-rumback-two-kinds-of-camouflage/",
+   "date": "2026-10-27T02:53:45Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "Bad Snacks",
+   "album": "quiet confidence",
+   "url": "https://www.stereofox.com/bad-snacks-quiet-confidence-ft-uyama-hiroto/",
+   "date": "2026-11-02T13:33:43Z",
    "image": null
   },
   {
@@ -28880,13 +28928,13 @@
   }
  ],
  "radio": {
-  "at": "2026-11-04T01:23:45Z",
+  "at": "2026-11-04T09:14:59Z",
   "rules": 2,
   "status": {
-   "kexp": "1402 found",
-   "kcrw": "3585 found",
+   "kexp": "1404 found",
+   "kcrw": "3267 found",
    "triple-j": "2256 found",
-   "nts": "2482 found"
+   "nts": "2545 found"
   },
   "resolved": {
    "icouldburst|hystericalloveproject": {
@@ -29021,11 +29069,11 @@
     "album": "Sunrise and the Life We Live",
     "year": "2026"
    },
-   "melatoninthunderbird|tinashe": null,
    "goldenyears|davidbowie": {
     "album": "Station to Station (2016 Remaster)",
     "year": "1975"
    },
+   "melatoninthunderbird|tinashe": null,
    "manthedoor|curbsidelambsear": {
     "album": "Put Rings On All My Fingers To Weigh Down My Hands",
     "year": "2026"
@@ -29171,6 +29219,14 @@
     "year": "2023"
    },
    "palemmal|ram": null,
+   "wishiknew|joycewrice": {
+    "album": "MACHIKO",
+    "year": "2026"
+   },
+   "sweettalk|nomi": {
+    "album": "sweet talk",
+    "year": "2026"
+   },
    "alcoholandaderall|marygauthier": null,
    "provefruitful|fohn": {
     "album": "Porcelain",
@@ -29378,6 +29434,11 @@
    },
    "longstandingdream|pabloseye": null,
    "letmebeyourfantasy|haywire": null,
+   "americanteenager|gracieabrams": null,
+   "whatwedoishouse|djscratch": {
+    "album": "The Pivot",
+    "year": "2026"
+   },
    "yousaid|fontainesdc": {
     "album": "A Hero's Death",
     "year": "2020"
@@ -29389,11 +29450,6 @@
    "athome|slowpulp": {
     "album": "",
     "year": "2018"
-   },
-   "americanteenager|gracieabrams": null,
-   "whatwedoishouse|djscratch": {
-    "album": "The Pivot",
-    "year": "2026"
    },
    "skyisfalling|gnomes": {
     "album": "",
@@ -29432,7 +29488,6 @@
     "album": "A Bell Is a Cup Until It Is Struck",
     "year": "1988"
    },
-   "earrings|audreyhobert": null,
    "everydayflip|808prince": null,
    "t2|808prince": {
     "album": "808 Prince",
@@ -29496,13 +29551,14 @@
     "year": "1986"
    },
    "acoupleminutes|kaiit": null,
+   "bitch|thelmaplum": null,
    "4ever|catcalmell": {
     "album": "",
     "year": "2026"
    },
-   "confines|blackpumas": {
-    "album": "Black Pumas",
-    "year": "2019"
+   "makeitwithyou|whispers": {
+    "album": "Open Up Your Love",
+    "year": "1977"
    },
    "garysii|wednesday": {
     "album": "Bleeds",
@@ -29520,6 +29576,10 @@
     "album": "Crescete e moltiplicatevi (Increase And Multiply) (Original Motion Picture Soundtrack)",
     "year": "1973"
    },
+   "uponsoultrain|whispers": {
+    "album": "Imagination",
+    "year": "1981"
+   },
    "noufo|juanatkins": null,
    "thembi|pharoahsanders": {
     "album": "Thembi",
@@ -29536,6 +29596,10 @@
    "greatcurve|talkingheads": {
     "album": "Remain In Light",
     "year": "1980"
+   },
+   "starlightandyou|lonnielistonsmiththecosmicechoes": {
+    "album": "Renaissance",
+    "year": "1976"
    },
    "rectify|moodymann": null,
    "goback2thething|dangelo": null,
@@ -29564,6 +29628,7 @@
     "album": "Young Soul Rebels (Original Soundtrack) [Remastered]",
     "year": "1991"
    },
+   "expansionsparti|lonnielistonsmiththecosmicechoes": null,
    "speedboat|djsuzy": {
     "album": "Kira Krash",
     "year": "2026"
@@ -29592,30 +29657,39 @@
     "album": "Calling Out of Context",
     "year": "2004"
    },
-   "morningdew|beyonce": {
-    "album": "",
-    "year": "2026"
-   },
    "harvesttime|pharoahsanders": {
     "album": "Pharoah",
     "year": "1977"
    },
    "hearmeknockin|rollingstones": null,
+   "morningdew|beyonce": {
+    "album": "",
+    "year": "2026"
+   },
    "letssavetonyorlandoshouse|yolatengo": {
     "album": "And Then Nothing Turned Itself Inside-Out",
     "year": "2000"
    },
    "netenfuispas|katebush": null,
-   "fire|blackpumas": {
-    "album": "Black Pumas",
-    "year": "2019"
+   "jump|bakerboy": null,
+   "motionsickness|phoebebridgers": {
+    "album": "Stranger in the Alps",
+    "year": "2017"
    },
    "bullsonparade|denzelcurry": null,
    "smoko|wetleg": null,
    "sexonfire|folkbitchtrio": null,
+   "confines|blackpumas": {
+    "album": "Black Pumas",
+    "year": "2019"
+   },
    "herecomesyourman|skegss": {
     "album": "",
     "year": "2019"
+   },
+   "lovingyou|donaldbyrd": {
+    "album": "Love Has Come Around - Finest Moments",
+    "year": "1978"
    },
    "autobahn66|primalscream": {
     "album": "Evil Heat (2026 Remaster)",
@@ -29637,16 +29711,11 @@
     "album": "",
     "year": "1968"
    },
-   "gasbrake|liluzivert": {
-    "album": "Maverick “Almost Forever” Ep",
-    "year": "2026"
-   },
    "folded|kehlani": null,
    "next2u|erykahbaduthealchemist": {
     "album": "Before The World Blows",
     "year": "2026"
    },
-   "bitch|thelmaplum": null,
    "babybemine|michaeljackson": null,
    "seventeengoingunder|campcope": {
     "album": "",
@@ -29674,16 +29743,8 @@
     "album": "Body Talk, Pt. 1",
     "year": "2010"
    },
-   "femmefatale|velvetundergroundnico": {
-    "album": "The Velvet Underground & Nico (45th Anniversary Edition)",
-    "year": "1966"
-   },
    "groovin|collage": {
     "album": "Greatest Hits",
-    "year": "1981"
-   },
-   "uponsoultrain|whispers": {
-    "album": "Imagination",
     "year": "1981"
    },
    "timespacetransmat|model500": {
@@ -29719,12 +29780,15 @@
     "album": "Black Sabbath, Vol. 4",
     "year": "1972"
    },
+   "chenrezig|doncherry": {
+    "album": "Don Cherry",
+    "year": "1975"
+   },
    "magnolia|odette": null,
    "murderintheredbarn|tomwaits": {
     "album": "Bone Machine (2023 Remaster)",
     "year": "1992"
    },
-   "nightbellwithlightning|davidlynch": null,
    "pinkroom|angelobadalamenti": {
     "album": "Twin Peaks: Fire Walk With Me (Soundtrack from the Motion Picture)",
     "year": "1992"
@@ -29739,14 +29803,15 @@
    },
    "projectsforarainyday|b": null,
    "toomuchintheskies|annettepeacock": null,
-   "chenrezig|doncherry": {
-    "album": "Don Cherry",
+   "aslıhorasanlıpirimhacıbektas|seldabagcan": {
+    "album": "Dost Merhaba",
+    "year": "1986"
+   },
+   "inceincebirkaryagar|seldabagcan": {
+    "album": "40 Yılın 40 Şarkısı",
     "year": "1975"
    },
-   "lilin|stefanvincent": {
-    "album": "Antron Hill",
-    "year": "2026"
-   },
+   "firstworldproblemznobodycarez|brentfaiyaz": null,
    "formidablecool|wolfalice": {
     "album": "",
     "year": "2018"
@@ -29802,15 +29867,14 @@
     "album": "Make the Road By Walking",
     "year": "2005"
    },
-   "rulerofmyheart|irmathomas": {
-    "album": "Soul Queen of New Orleans",
-    "year": "1960"
-   },
    "chauffeur|womacksisters": {
     "album": "The Womack Sisters",
     "year": "2026"
    },
-   "expansionsparti|lonnielistonsmiththecosmicechoes": null,
+   "rhymeslikedimes|mfdoom": {
+    "album": "Operation: Doomsday (Complete)",
+    "year": "1999"
+   },
    "sparklmami|sparklmami": null,
    "glance|shespellsdoom": {
     "album": "Monstart, Vol. 5",
@@ -29852,13 +29916,13 @@
     "album": "",
     "year": "2026"
    },
+   "blocks|sansae": {
+    "album": "",
+    "year": "2026"
+   },
    "tokyo|wombats": {
     "album": "The Wombats Proudly Present: This Modern Glitch",
     "year": "2010"
-   },
-   "whenyoucomeby|bent": {
-    "album": "Up in the Air",
-    "year": "2020"
    },
    "slowly|nabihahiqbal": {
     "album": "Weighing of the Heart",
@@ -29894,10 +29958,6 @@
     "year": "1989"
    },
    "anxiety|inertia": null,
-   "sparks|royksopp": {
-    "album": "Sparks",
-    "year": "2001"
-   },
    "strangeromance|selve": {
     "album": "Breaking into Heaven",
     "year": "2025"
@@ -29915,6 +29975,10 @@
     "year": "2026"
    },
    "manineed|sombr": null,
+   "sparks|royksopp": {
+    "album": "Sparks",
+    "year": "2001"
+   },
    "curseofthewitches|strawberryalarmclock": {
     "album": "Wake Up...It's Tomorrow",
     "year": "1968"
@@ -29940,10 +30004,6 @@
    "sempreforward|aitch": {
     "album": "Gtep07",
     "year": "2026"
-   },
-   "eyesclosed|melodysechochamber": {
-    "album": "Unclouded",
-    "year": "2025"
    },
    "whenyourearound|waterfromyoureyes": {
     "album": "Structure",
@@ -29977,17 +30037,7 @@
     "album": "",
     "year": "2017"
    },
-   "nextdimensional|kelela": null,
-   "kiss|tyla": null,
-   "body|dontoliver": {
-    "album": "OCTANE",
-    "year": "2026"
-   },
    "nosebleedsection|hilltophoods": null,
-   "yourloveismydrug|blusher": {
-    "album": "",
-    "year": "2026"
-   },
    "bennyandthejets|eltonjohn": null,
    "checktherhime|atribecalledquest": {
     "album": "The Low End Theory",
@@ -30007,6 +30057,12 @@
     "year": "1969"
    },
    "lightning|willow": null,
+   "nextdimensional|kelela": null,
+   "kiss|tyla": null,
+   "body|dontoliver": {
+    "album": "OCTANE",
+    "year": "2026"
+   },
    "stolenmoments|olivernelson": {
     "album": "The Blues And The Abstract Truth",
     "year": "1961"
@@ -30130,6 +30186,14 @@
     "album": "Join the Future: Uk Bleep & Bass 1988-91",
     "year": "1990"
    },
+   "runawaylove|lindaclifford": {
+    "album": "Linda Clifford: Greatest Hits",
+    "year": "1989"
+   },
+   "stonedoutofmymind|chilites": {
+    "album": "Chi-Lites",
+    "year": "1973"
+   },
    "falloff|tonstartssbandht": {
     "album": "Petunia",
     "year": "2021"
@@ -30142,6 +30206,7 @@
     "album": "People Are Strange",
     "year": "1992"
    },
+   "myfirstmistake|chilites": null,
    "sexonthebeach|tino": null,
    "islandofglass|herblur": null,
    "crazydream|jungdj": null,
@@ -30182,6 +30247,10 @@
     "album": "Isolated Systems",
     "year": "2020"
    },
+   "whiplash|boowilliams": {
+    "album": "Whip Lash",
+    "year": "2022"
+   },
    "somethingsideways|lewiboome": null,
    "illgrow|headaches": {
     "album": "We'll Make Our Beds When We Get Home",
@@ -30207,6 +30276,10 @@
     "album": "Red & Green",
     "year": "2004"
    },
+   "nevergonnastop|lindaclifford": {
+    "album": "Here's My Love",
+    "year": "1979"
+   },
    "rhythmtakescontrol|unique3": {
     "album": "Jus' Unique",
     "year": "1990"
@@ -30220,6 +30293,7 @@
     "album": "Sent From My Telephone",
     "year": "2022"
    },
+   "houserunner|boowilliams": null,
    "somethinghecanfeel|arethafranklin": {
     "album": "Sparkle (Music from the Warner Bros. Motion Picture)",
     "year": "1976"
@@ -30268,15 +30342,15 @@
     "album": "Disco Not Disco",
     "year": "2000"
    },
-   "idreamofjeannie|stinanordenstam": {
-    "album": "People Are Strange",
-    "year": "1992"
-   },
    "diablo|malesa": {
     "album": "Sal y Sangre",
     "year": "2024"
    },
    "wasteyourtime|sproduct": null,
+   "idreamofjeannie|stinanordenstam": {
+    "album": "People Are Strange",
+    "year": "1992"
+   },
    "fellandfenn|milesjparalysis": null,
    "stammer|raime": {
     "album": "Tooth",
@@ -30366,6 +30440,7 @@
     "year": "2002"
    },
    "rebelland|prefabsprout": null,
+   "summertimesadness|gigiperez": null,
    "whereistheluv|inkabee": null,
    "hitlerandhell|jmgates": null,
    "howtomakegravy|lucabrasi": {
@@ -30384,6 +30459,36 @@
     "album": "Sonidero Espacial",
     "year": "2022"
    },
+   "ivegotarighttocry|jimmyforrest": {
+    "album": "Out Of The Forrest",
+    "year": "1953"
+   },
+   "cantgetoverlosingyou|donnieelbert": {
+    "album": "",
+    "year": "1970"
+   },
+   "canicallyoubaby|pearls": {
+    "album": "LAMP Records - It Glowed Like the Sun",
+    "year": "2019"
+   },
+   "whenwillmyturncome|vibrations": null,
+   "startthefire|jeancarn": {
+    "album": "When I Find You Love",
+    "year": "1979"
+   },
+   "quietfire|bobbyhutcherson": null,
+   "ifyouknewhimlikeido|barbaramason": {
+    "album": "The True Queen of Soul 1968-1972 (Edited Version)",
+    "year": "2025"
+   },
+   "bluesblues|bluemitchell": null,
+   "africana|propositions": null,
+   "marvinsgroove|bwsouls": null,
+   "ivegottogoonwithoutyou|shirleybrown": {
+    "album": "Woman to Woman (Stax Remasters)",
+    "year": "1974"
+   },
+   "lightmyfire|soulmerchants": null,
    "moshimo|tomokatsurada": {
     "album": "",
     "year": "2024"
@@ -30537,6 +30642,10 @@
    "craigtheproblem|rockitneedspacedistroroe": null,
    "giasweat|zipbby": null,
    "demolitionfreestylept1|guddagudda": null,
+   "gasbrake|liluzivert": {
+    "album": "Maverick “Almost Forever” Ep",
+    "year": "2026"
+   },
    "screwlyg|bluewolf": null,
    "breakingmyheartunreleased|popstarbennytonyshhnow03greedo": null,
    "strikeaposeunreleased|popstarbennyigweaka": null,
@@ -30633,7 +30742,6 @@
    "yourloveisgettingstronger|fourvoices": null,
    "excitementpartii|kennethjordan": null,
    "whatchagonnadoaboutme|lifeforce": null,
-   "myfirstmistake|chilites": null,
    "heartachespain|pages": null,
    "brightlightlady|mikejemison": null,
    "pressurepartii|soundsofblackness": null,
@@ -30982,6 +31090,10 @@
    "attentionplease|mladenfranko": {
     "album": "Amazing Space, Vol. 1 (2020 Remastered Version)",
     "year": "1973"
+   },
+   "femmefatale|velvetundergroundnico": {
+    "album": "The Velvet Underground & Nico (45th Anniversary Edition)",
+    "year": "1966"
    },
    "chronicleofthemurderedhouseparti|larrynozerodennistini": null,
    "secretsfromthesun|johnleewilson": null,
@@ -31382,6 +31494,23 @@
     "album": "",
     "year": "2026"
    },
+   "nonant|nachtplank": {
+    "album": "Lost and Damaged",
+    "year": "2003"
+   },
+   "jubeman|voxpopulifroiddubfrancoismarchestephanebodin": null,
+   "concision|anthonymanninggeiom": null,
+   "wwwafropoporg|uncaddierenversedanslherbe": {
+    "album": "Like a Packed Cupboard But Quite...",
+    "year": "2000"
+   },
+   "classics|markasanxaxelholy": {
+    "album": "Hidden Knowledge",
+    "year": "2024"
+   },
+   "cosmicwarrior|earthquakestudio": null,
+   "unseem|sees": null,
+   "africanamericandisillusionmentwithnortherndemocracycontinuestosmoulderineverynegrowhohassettledupnorthafterknowinglifeinthesouth|speakermusic": null,
    "walkingthroughahousewhereafamilyhaslived|johncarrollkirby": {
     "album": "Conflict",
     "year": "2020"
@@ -31504,6 +31633,7 @@
     "album": "Black Background",
     "year": "2016"
    },
+   "nightbellwithlightning|davidlynch": null,
    "wickedwhitedress|joelfaustoillusionorchestra": {
     "album": "Illusion Orchestra At the Gloomy Club",
     "year": "2013"
@@ -31563,26 +31693,53 @@
     "album": "",
     "year": "2026"
    },
-   "nonant|nachtplank": {
-    "album": "Lost and Damaged",
-    "year": "2003"
+   "wecanworkitout|jumani": null,
+   "mrdj|wish": null,
+   "outofsight|sheaandlefturno": {
+    "album": "Star-Funk, Vol. 16",
+    "year": "1993"
    },
-   "jubeman|voxpopulifroiddubfrancoismarchestephanebodin": null,
-   "concision|anthonymanninggeiom": null,
-   "wwwafropoporg|uncaddierenversedanslherbe": {
-    "album": "Like a Packed Cupboard But Quite...",
+   "whatsinitforme|hotcargo": {
+    "album": "The Love Magician Archives. Boogie & Post Disco. NYC 1980 - 1983. Vol 3",
+    "year": "2025"
+   },
+   "skyyzoo|skyy": null,
+   "lovinyou|statusiv": null,
+   "somethingthatyoudotome|tlife": null,
+   "heretoluvmyself|samii": {
+    "album": "Figuring It Out",
+    "year": "2020"
+   },
+   "korokoro|nosmoke": {
+    "album": "Koro-Koro",
+    "year": "2019"
+   },
+   "herecomethelions|benchristensen": {
+    "album": "Here Come The Lions",
+    "year": "2026"
+   },
+   "cum|coax": null,
+   "alifetocome|mateomatos": {
+    "album": "Essential Elements",
+    "year": "1996"
+   },
+   "whateverturnsyouon|marioreyes": null,
+   "flimflam|yellowsox": {
+    "album": "Yoshitoshi: The Classics Vault I & II",
     "year": "2000"
    },
-   "classics|markasanxaxelholy": {
-    "album": "Hidden Knowledge",
+   "noway|toddterry": {
+    "album": "Retrospective 2",
     "year": "2024"
    },
-   "cosmicwarrior|earthquakestudio": null,
-   "unseem|sees": null,
-   "africanamericandisillusionmentwithnortherndemocracycontinuestosmoulderineverynegrowhohassettledupnorthafterknowinglifeinthesouth|speakermusic": null,
-   "aslıhorasanlıpirimhacıbektas|seldabagcan": {
-    "album": "Dost Merhaba",
-    "year": "1986"
+   "situation|yazoo": null,
+   "beyondtheclouds|quartz": {
+    "album": "Quartz",
+    "year": "1977"
+   },
+   "ourlipsaresealed|funboythreejeremygreen": {
+    "album": "Waiting",
+    "year": "1983"
    },
    "hakbitmezgucbitee|babazula": {
     "album": "XXX",
@@ -31598,10 +31755,6 @@
    },
    "tamircicıragı|cemkaraca": {
     "album": "Ölümsüzler",
-    "year": "1975"
-   },
-   "inceincebirkaryagar|seldabagcan": {
-    "album": "40 Yılın 40 Şarkısı",
     "year": "1975"
    },
    "unutamadıgım|cemkaraca": null,
@@ -31683,6 +31836,81 @@
     "album": "The Final Rip Off",
     "year": "1987"
    },
+   "intimatemoment|caycaleb": null,
+   "callmeifyouneedme|oshungrizzly": {
+    "album": "",
+    "year": "2026"
+   },
+   "groovetheory|amalzenab": null,
+   "cruise|sleazyfbabyfourlimbs": null,
+   "lovefades|childrenofzeus": {
+    "album": "As The World Burns...",
+    "year": "2026"
+   },
+   "yoursmile|cecily": {
+    "album": "",
+    "year": "2026"
+   },
+   "bronson|dogger": null,
+   "letstalkaboutit|gabrieljacoby": {
+    "album": "",
+    "year": "2026"
+   },
+   "time|sebastianmikael": {
+    "album": "I C U U C ME, Pt. II",
+    "year": "2019"
+   },
+   "backtoafrica|aswad": {
+    "album": "Aswad",
+    "year": "1976"
+   },
+   "imlooking|nicolewray": {
+    "album": "Katy's 50th Birthday",
+    "year": "2008"
+   },
+   "whatloversdo|alexisley": {
+    "album": "The Beauty of Everything, Pt. 2",
+    "year": "2019"
+   },
+   "hypnotic|rootsdangelo": {
+    "album": "Home Grown! The Beginner's Guide to Understanding the Roots, Vol. 1",
+    "year": "2005"
+   },
+   "war|sir": {
+    "album": "November",
+    "year": "2018"
+   },
+   "whatiknow|cloemailly": {
+    "album": "",
+    "year": "2026"
+   },
+   "fightingdemons|juicewrld": {
+    "album": "Legends Never Die",
+    "year": "2020"
+   },
+   "letgo|chastityyaahnhunter": {
+    "album": "",
+    "year": "2026"
+   },
+   "mixmasterusa|brainsickenterprise": null,
+   "coolrelax|jonb": {
+    "album": "Cool Relax",
+    "year": "1997"
+   },
+   "heartdontstandachance|andersonpaakthefreenationals": {
+    "album": "Malibu",
+    "year": "2016"
+   },
+   "cantcomplain|prodigyofmobbdeepchinkytwingambino": null,
+   "toodeep|dvsn": {
+    "album": "SEPT 5TH",
+    "year": "2016"
+   },
+   "feelthevibe|looseends": null,
+   "imsohappy|lightoftheworld": {
+    "album": "The Best of the Light of the World",
+    "year": "1992"
+   },
    "iknowhimsowell|paulgnataraj": null,
    "skewed|oliverpalfreyman": {
     "album": "OOO",
@@ -31696,6 +31924,13 @@
    "snoozeoiseauxdelanuitmix|violaklein": null,
    "nowagain|seekersinternational": null,
    "performancerecordedatprismcontemporaryblackburn|paulnataraj": null,
+   "goodhopesolidarityscoreplayedbymichalisinkalavasos|paulnataraj": null,
+   "onesilkthread|paulnataraj": null,
+   "ackst|paulnataraj": null,
+   "wesoundeachotherelements|paulnataraj": null,
+   "gonlunceolsuncolonialsin|paulnataraj": null,
+   "sathepeacockscrysarirecord|paulnataraj": null,
+   "ofcourse|paulnataraj": null,
    "swingin|johnanderson": {
     "album": "Wild and Blue",
     "year": "1982"
@@ -31720,6 +31955,8 @@
     "album": "Horse of a Different Color",
     "year": "2004"
    },
+   "alittlebitofbluegrasstommygoodroad|lorrainejordanandcarolinaroad": null,
+   "thisonesforyou|rachelbrooke": null,
    "thisyoung|lowgap": {
     "album": "Geneva",
     "year": "2026"
@@ -31728,6 +31965,7 @@
     "album": "Land Of The Forgotten",
     "year": "2026"
    },
+   "heavenhelpusall|raycharleswithgladysknight": null,
    "years|johnanderson": {
     "album": "Years",
     "year": "2020"
@@ -31736,10 +31974,17 @@
     "album": "Refrain",
     "year": "2026"
    },
+   "highrise|jackmellin": null,
    "baptismalfont|danielmcauley": {
     "album": "Rooms",
     "year": "2026"
    },
+   "bodyingforth|symbeline": null,
+   "pasaypasara|iisa": null,
+   "hum|partcompany": null,
+   "cassetteloop04|shinegroves": null,
+   "nightingaleshell|settimataca": null,
+   "fractal|brmnuwa": null,
    "themeoftime|rosssimonini": {
     "album": "Themes Vol. 1 & 2",
     "year": "2026"
@@ -31748,10 +31993,12 @@
     "album": "",
     "year": "2024"
    },
+   "nomistake|jimmyleedurden": null,
    "choreographyisthegreatestrevenge|fgs": {
     "album": "",
     "year": "2026"
    },
+   "baretalk|jespfhur": null,
    "bedlam|mettaworldpeace": {
     "album": "The Sun Will Inherit The Earth",
     "year": "2026"
@@ -31768,6 +32015,7 @@
     "album": "",
     "year": "2026"
    },
+   "somewherestill2|victrola": null,
    "welcome|harmoniaeno76": {
     "album": "Tracks and Traces",
     "year": "1997"
@@ -31776,14 +32024,18 @@
     "album": "Khaen Solo vol.4",
     "year": "2026"
    },
+   "johnny|slicker": null,
    "trust|tsvilorainejames": {
     "album": "053",
     "year": "2022"
    },
+   "b|jennybergermyhre": null,
    "halcyonhill|rachelgrimes": {
     "album": "",
     "year": "2010"
    },
+   "scarcliffontherock|kcahill": null,
+   "adogslifept1|tonyschwartz": null,
    "sonnyboyblues|tedlucas": {
     "album": "Ted Lucas",
     "year": "1975"
@@ -31860,30 +32112,69 @@
     "album": "The Lost Villages",
     "year": "2026"
    },
+   "lookingatthesamemoon|brupp": null,
+   "weareacid|posthumanfeatmauricejoshua": null,
    "falleacid|shadowchildfallenioke": {
     "album": "DNA",
     "year": "2026"
    },
+   "spiralnova|djskullakaronmaney": null,
+   "crippside|neillandstrumm": null,
+   "hathat|instanthouse": null,
+   "timecontinuum|idealist": null,
+   "work|twilitetone": null,
    "lovinme|lovefoxy": {
     "album": "",
     "year": "2026"
    },
+   "cancelyourplans|drivetrain": null,
    "durchbruch|djtrike": {
     "album": "Berlin",
     "year": "2026"
    },
+   "hectovibe|djskullakaronmaney": null,
+   "workittothebone|funkicadetsftmikedunnwadeteo": null,
+   "yalode|jusnow": null,
+   "bounce|ryanelliott": null,
+   "pa03|nenad": null,
+   "illusions|santos": null,
+   "dub22|mynd": null,
+   "matrici|singularanomalies": null,
+   "bitethebullet|oliverrosemann": null,
+   "waitaminute|melerolandclark": null,
+   "secularequilibrium|drope": null,
+   "unknownpressure|marceldettmann": null,
+   "melomania|dimiangelis": null,
+   "cosmiccowboy|metaphysicalspace": null,
    "loathing|amorgan": {
     "album": "#100 Part 1 (feat. James Bong, HD Substance, Flug, Dinamite & ben gibson)",
     "year": "2019"
    },
+   "lilin|stefanvincent": {
+    "album": "Antron Hill",
+    "year": "2026"
+   },
+   "lamour|cnvxfloorfillers": null,
+   "undertow|krz": null,
+   "tactic|skudge": null,
    "meatmarket|andreimorant": {
     "album": "Mr. Mischief",
     "year": "2026"
    },
+   "luxortransmissions|djbrucelee": null,
    "liminal|sciahri": {
     "album": "Moonwake",
     "year": "2026"
    },
+   "bigslice|jeffcochran": null,
+   "redux|dimiangelis": null,
+   "guidancemeasures|malhombre": null,
+   "sarrafo|andersbr": null,
+   "activate|slam": null,
+   "tripledragon|operator": null,
+   "lh|markbroomxalexandregomez": null,
+   "oracle|dajusch": null,
+   "housycor|jencruzmarkwilliams": null,
    "harueld|carilekebuschalexanderjohanssonmattiasfridell": {
     "album": "Dunderhonung",
     "year": "2026"
@@ -31912,6 +32203,11 @@
     "album": "Soma 35.3 - Percy X Remixes",
     "year": "2026"
    },
+   "staticviolence|lewisfautzi": null,
+   "memory|elisabeextruncate": null,
+   "lordclouds|hioll": null,
+   "openseason|jeffcochran": null,
+   "conscious|skovbowdenxtruncate": null,
    "highestclaritygrade|temudopierce": {
     "album": "Kysh - 003",
     "year": "2026"
@@ -31920,6 +32216,7 @@
     "album": "",
     "year": "2026"
    },
+   "higeruvnnster|alexanderjohanssonmattiasfridell": null,
    "voiceofthesoul|echion": {
     "album": "Frequency of the Infinite",
     "year": "2026"
@@ -31928,6 +32225,10 @@
     "album": "DBX002",
     "year": "2026"
    },
+   "drumatic|vander": null,
+   "nyx|kerrie": null,
+   "ras|functionxtommyfourseven": null,
+   "susurra|nørbak": null,
    "midnightrogue|leeholman": {
     "album": "Sentinel",
     "year": "2026"
@@ -31936,10 +32237,14 @@
     "album": "Step",
     "year": "2026"
    },
+   "fieldrecordings|mouledalhussein": null,
+   "move|girlsagainstboys": null,
+   "thatnonetcancatch|seahorses": null,
    "deepwater|strawberryswitchblade": {
     "album": "Strawberry Switchblade",
     "year": "1985"
    },
+   "mulholland|starsofthelid": null,
    "cocobolostrip|hansreichel": {
     "album": "Dalbergia retusa",
     "year": "2026"
@@ -31948,10 +32253,16 @@
     "album": "Selected Songs 1997-2003",
     "year": "2023"
    },
+   "lost|sos": null,
+   "sentences|electronicartensemble": null,
+   "lecturepourbandemagnetiqueparti|ahmedessyad": null,
    "enfoncement|pierrehenry": {
     "album": "Labyrinthe !",
     "year": "2003"
    },
+   "immersion|redolfi": null,
+   "d1|laszlohortobagyi": null,
+   "levaluationindividuelledutempsquireste|gillesdeleuze": null,
    "fissures|pierrehenry": {
     "album": "Labyrinthe !",
     "year": "2003"
@@ -31972,6 +32283,7 @@
     "album": "La Debutante",
     "year": "1987"
    },
+   "cheree|inaeternamvale": null,
    "siliconvalley|jyl": {
     "album": "Jyl",
     "year": "1984"
@@ -31996,6 +32308,7 @@
     "album": "Labyrinthe !",
     "year": "2003"
    },
+   "crie|bergsonist": null,
    "fallingup|theoparrishcarlcraig": {
     "album": "Falling Up (Remastered)",
     "year": "2013"
@@ -32004,6 +32317,7 @@
     "album": "The Swing Doctor",
     "year": "1991"
    },
+   "moody|esg": null,
    "brotherman|eddiefowlkes": {
     "album": "Detroit Beatdown, Vol. 1",
     "year": "2002"
@@ -32032,6 +32346,8 @@
     "album": "Monodisco - Tech House Collection, Vol. 3",
     "year": "2013"
    },
+   "bluestick|danghenaciachriscarrier": null,
+   "anitaliangroove|vonaf": null,
    "crazeatmidnight|djspen": {
     "album": "Basement Boys History of House Music, Vol. 2 (Mixed by DJ Spen)",
     "year": "2004"
@@ -32040,6 +32356,7 @@
     "album": "The Best of Inner City (Remixed)",
     "year": "2019"
    },
+   "feelthebreeze|kerrichandler": null,
    "fluffrehab|kerrichandler": {
     "album": "Lost & Found Vol. 2",
     "year": "2023"
@@ -32052,6 +32369,7 @@
     "album": "Café Del Mar - Terrace Mix 6",
     "year": "2016"
    },
+   "energyflash|beltram": null,
    "slaveminded|bjinx": {
     "album": "",
     "year": "2017"
@@ -32064,10 +32382,15 @@
     "album": "Phil Weeks Presents Robsoul 15 Years, Vol. 2 (2005-2009)",
     "year": "2005"
    },
+   "desire|toddsonic33": null,
+   "jinx027|daveduriez": null,
+   "mypeople|dwaynejensen": null,
+   "amillionyearslater|mrtea": null,
    "love|dannyserranosolotamas": {
     "album": "Love Money",
     "year": "2019"
    },
+   "tape|carrynation": null,
    "feelmynrg|ginabreezefeatalissabrianna": {
     "album": "Feel My Nrg EP",
     "year": "2022"
@@ -32084,6 +32407,7 @@
     "album": "Light My Fire: The Very Best of José Feliciano",
     "year": "1968"
    },
+   "dawnofanotherday|brianauger": null,
    "rewindremind|momokogillbenlamargay": {
     "album": "",
     "year": "2026"
@@ -32096,6 +32420,7 @@
     "album": "Long-Suffering",
     "year": "2019"
    },
+   "portaltoanewworldphaseii|jimettarose": null,
    "headedontofreedom|romannorfleetbepresentartgroup": {
     "album": "",
     "year": "2026"
@@ -32112,10 +32437,15 @@
     "album": "Greatest",
     "year": "2005"
    },
+   "deputyoflove|donarmandos2ndavenuerhumbaband": null,
    "blind|herculesandloveaffair": {
     "album": "",
     "year": "2008"
    },
+   "gherkinjerks|alleviatedrecords": null,
+   "midnightthestarsandyou|memoriesfromthehauntedballroom": null,
+   "roadtothewest|yokokano": null,
+   "mandylovetheme|johanjohannsson": null,
    "ambientwonder|michaelsalvatori": {
     "album": "Halo: Combat Evolved (Original Soundtrack)",
     "year": "2002"
@@ -32124,14 +32454,21 @@
     "album": "Silent Hill 2 (Original Soundtrack)",
     "year": "2001"
    },
+   "windsoverneotokyo|geinohyamashirogumi": null,
    "access|kenjikawai": {
     "album": "Ghost in the Shell - Koukaku Kidoutai (Original Soundtrack)",
     "year": "1995"
    },
+   "playingonsaucepans|ericsierra": null,
    "blackfairy|avithortegaakirayamaoka": {
     "album": "Silent Hill (The Headphones 2)",
     "year": "2025"
    },
+   "stepintomygarden|garyschyman": null,
+   "serenity|misaosenbogiandshusakuuchiyama": null,
+   "manariverconstructionsite|garyashiya": null,
+   "deathandexhale|mickgordon": null,
+   "prediction|susumuhirisawa": null,
    "enteringzerog|jasongraves": {
     "album": "Dead Space (Original Soundtrack)",
     "year": "2008"
@@ -32148,30 +32485,55 @@
     "album": "SILENT HILL 2 ORIGINAL SOUNDTRACK -2024-",
     "year": "2024"
    },
+   "new2womanrising|illusionofsafety": null,
+   "succubus|dianatrimble": null,
    "energy2|alternativeenergy": {
     "album": "Energized E.P.",
     "year": "1992"
    },
+   "linda|aktuellrapport": null,
+   "erotmania|katana": null,
    "spiritcatcher|modwheel": {
     "album": "Cherry Moon 35 Years - Chapter 2",
     "year": "2026"
    },
+   "lovelessfuck|hexminora": null,
+   "rhythmsoflove|erotica": null,
    "timelessaltitude|secretcinema": {
     "album": "Timeless Altitude 2011-  EP",
     "year": "2011"
    },
+   "3|aktuellrapport": null,
+   "quantumleap|symphonyofloveii": null,
+   "eroticadreams|djscript": null,
+   "hearmecoming|101jade4u": null,
+   "softsexybreath|prosoundeffectslibrary": null,
+   "fuckme|noisemakersjohnnylexxscesargee": null,
+   "pixiemoan|prosoundeffectslibrary": null,
+   "prisonerofaphrodisiac|makasi": null,
+   "makemedance|nkisi": null,
+   "girlorgasmpornsound18|skinspartyclub": null,
+   "blackboxmoan|iuy": null,
    "darkdesire|pwb": {
     "album": "Dark Desire",
     "year": "1996"
    },
+   "handsfreeorgasmformalefemalebinauralstimulation|binauralbeats": null,
+   "havingsex|criticalmass": null,
+   "xx2|tuuun": null,
+   "fourpintsofguinnessfortonyconrad|simonpomery": null,
    "20242|andystottalisonskidmore": {
     "album": "Late Loop",
     "year": "2026"
    },
+   "protorhythm2|modernanalysis": null,
    "shineyourgraceonme|ratheart": {
     "album": "Dancin' In The Streets",
     "year": "2025"
    },
+   "oystrifeatrichardspaven|pettereldh": null,
+   "pillowtalk2|jordanzawideh": null,
+   "realhardcorepleasurefeatrubyconner|shottatapes": null,
    "cyborgstepper|badawi": {
     "album": "NYC Sound-Clash Culture Vol.1 (Early 90s Pre-Illbient Experimental Dub Breaks)",
     "year": "1995"
@@ -32200,10 +32562,12 @@
     "album": "Borga Revolution! Ghanaian Music in the Digital Age, 1979 - 1988 (Volume 4)",
     "year": "2026"
    },
+   "sanctus|cocuyenchang": null,
    "fullbelly|usofconnaharaway": {
     "album": "stay longer",
     "year": "2025"
    },
+   "papillons|maimedenuc": null,
    "lullaby4nina|durutticolumn": {
     "album": "Tempus Fugit",
     "year": "2004"
@@ -32212,6 +32576,7 @@
     "album": "",
     "year": "2010"
    },
+   "rachelantonia|orsobreblau": null,
    "softpower|ezrafeinberg": {
     "album": "Soft Power",
     "year": "2024"
@@ -32224,6 +32589,7 @@
     "album": "Is Love Knowing",
     "year": "2025"
    },
+   "wannabetied|salonmusic": null,
    "treasure|marylattimore": {
     "album": "Across The Horizon Vol. 2",
     "year": "2026"
@@ -32248,6 +32614,7 @@
     "album": "Across The Horizon Vol. 2",
     "year": "2026"
    },
+   "dewclawpt2|portaliii": null,
    "spidertowns|oldpup": {
     "album": "Spider Towns",
     "year": "2024"
@@ -32276,6 +32643,8 @@
     "album": "Counting Sunsets",
     "year": "2026"
    },
+   "desenganodavista|pedrosantos": null,
+   "xamxam|ifanbondi": null,
    "piersogodzinadontbetraymylove|twinklebrotherstrebunietutki": {
     "album": "Greatest Hits Twinkle Brother's",
     "year": "1992"
@@ -32288,14 +32657,27 @@
     "album": "",
     "year": "2023"
    },
+   "latenightdubplate|agrovators": null,
+   "inthevalleydub|acetone": null,
+   "why|traxin": null,
+   "catchthedance|observerallstars": null,
+   "warnthenation|freddiemcgregor": null,
+   "danceinaparliament|cocatea": null,
+   "stream|illusionsnathanhaines": null,
+   "eldorado|elkinnelson": null,
    "allaboutlife|bryonyjarmanpinto": {
     "album": "Fish Factory Sessions",
     "year": "2002"
    },
+   "mussoloki|bernardntone": null,
+   "youcantsayyouneverknow|twinklebrother": null,
+   "agbojulogun|shinnawilliamshisafricanpercussionists": null,
    "sekelimania|pasteurlappe": {
     "album": "African Funk Experimentals (1979 to 1981)",
     "year": "2016"
    },
+   "kassavvii|kassav": null,
+   "mouodilo|railband": null,
    "africa|clementdjimogne": {
     "album": "Pop Makossa: The Invasive Dance Beat of Cameroon 1976-1984",
     "year": "2017"
@@ -32324,30 +32706,46 @@
     "album": "Blues",
     "year": "1957"
    },
+   "intheghetto|elvis": null,
+   "littlegirlblue|janis": null,
    "simeon5|anderttysma": {
     "album": "Parallels",
     "year": "2026"
    },
-   "nevergonnastop|lindaclifford": {
-    "album": "Here's My Love",
-    "year": "1979"
-   },
+   "fromthealbumsolo|wojtekmazolewskilacanciondelaliberacion": null,
+   "feelit|alexisdavis": null,
+   "comebackstrong|johnedwards": null,
    "tinman|johnedwards": {
     "album": "Careful Man",
     "year": "2011"
    },
+   "wavescliff|watchthechange": null,
+   "semayawi|dexterstoryjiminettarosevoicesofcreation": null,
+   "lostchildren|crookedmanpresentsearthangel": null,
    "inkwenkwezi|simplesymmeteryfeatasandisamulticulti": {
     "album": "Inkwenkwezi",
     "year": "2026"
    },
+   "classicdrum|kayclassic": null,
    "wozamawfuna|djknatormastendelandlord": {
     "album": "USHUKELA (Disc A)",
     "year": "2026"
    },
+   "ngenzenjani|moonchildsanelyargentodust": null,
+   "runningaway|cecilybrandonlane": null,
+   "chicagoslam|kalexishelby": null,
+   "readyforlove|yellowsoxvsbruise": null,
    "gravedigger|bruise": {
     "album": "",
     "year": "2026"
    },
+   "rs|vicklavender": null,
+   "euphoria|musclecars": null,
+   "speak1or2|brokendown": null,
+   "conscious|sebaparadox": null,
+   "life|sebafeatsapele": null,
+   "putthatwomanfirst|jahiem": null,
+   "stonercoldcat|90sinclusive": null,
    "amellowmood|peopleschoice": {
     "album": "We Got the Rhythm",
     "year": "1976"
@@ -32364,6 +32762,7 @@
     "album": "Soul Power, Vol. 3 (Edited Version)",
     "year": "2019"
    },
+   "iseeitcoming|mellowmadnessband": null,
    "didnti|ariadnenewstreetadventure": {
     "album": "",
     "year": "2026"
@@ -32375,6 +32774,10 @@
    "wondering|bettyeverett": {
     "album": "The Fantasy Years (Remastered)",
     "year": "1995"
+   },
+   "rulerofmyheart|irmathomas": {
+    "album": "Soul Queen of New Orleans",
+    "year": "1960"
    },
    "intherain|chosenfew": {
     "album": "",
@@ -32392,6 +32795,7 @@
     "album": "Golden State Soul",
     "year": "2000"
    },
+   "youdiditgood|guest": null,
    "makethemostofit|starfire": {
     "album": "Get Your Point Over!",
     "year": "2021"
@@ -32408,6 +32812,7 @@
     "album": "Vocal Group Classics Volume 2",
     "year": "2007"
    },
+   "digitalreggae|caliban": null,
    "holdmyhand|capricorn": {
     "album": "",
     "year": "2019"
@@ -32420,14 +32825,22 @@
     "album": "It Takes Two (Bonus Track Version)",
     "year": "1985"
    },
-   "rhymeslikedimes|mfdoom": {
-    "album": "Operation: Doomsday (Complete)",
-    "year": "1999"
-   },
+   "relapse|knxwledgetraffic": null,
+   "thankyou|todd": null,
+   "sunlightthroughthetreesa|stevegordondavidgordon": null,
+   "origins|davidgordonstevegordon": null,
+   "windsoftime|davidgordonstevegordon": null,
    "nightflyer|davidstevegordon": {
     "album": "Sound Peace: The 25th Anniversary Collection, Vol. 2",
     "year": "2009"
    },
+   "gentlebreeze|stevegordondavidgordon": null,
+   "perception|davidgordonandstevegordon": null,
+   "windsweptpinesmoonblossom|stevegordondavidgordon": null,
+   "circleoflife|davidgordonandstevegordon": null,
+   "waterlily|stevegordondavidgordon": null,
+   "emeralddeep|stevegordondavidgordon": null,
+   "sunlightthroughthetreesb|stevegordondavidgordon": null,
    "evenglow|davidandstevegordon": {
     "album": "Music & Nature Series: Peaceful Evening",
     "year": "1982"
@@ -32444,22 +32857,39 @@
     "album": "Way over There",
     "year": "2014"
    },
+   "elvisstolemyspacehopper|superbubble": null,
    "behindthemirror|codeindustry": {
     "album": "Structure",
     "year": "1991"
    },
+   "noveltywaves|biosphere": null,
+   "imalive|nad": null,
+   "tracklist|bapari": null,
+   "shine|questonmarq": null,
+   "hyaline|frailti": null,
    "inercia|denguedenguedengue": {
     "album": "Vestigio",
     "year": "2026"
    },
+   "sentiltuono|voronhil": null,
+   "始祖|yamabiko68": null,
    "answers|dharma": {
     "album": "",
     "year": "2026"
    },
+   "denimjeans|saintclair": null,
+   "dying2survive|bloodythinkpad": null,
+   "gallows|lyeform": null,
+   "tracklist|bungalovv": null,
+   "lifewaster|egoseed": null,
    "girlpossessed|gantz": {
     "album": "Adulti",
     "year": "2022"
    },
+   "35439|flesh009": null,
+   "untitled3|santamuerte": null,
+   "normalconversation|talphaapunanu": null,
+   "hithisis|240p": null,
    "7ilween|fatimaalqadiribobosecretlama3an": {
     "album": "3TWI",
     "year": "2026"
@@ -32468,10 +32898,13 @@
     "album": "Marathon",
     "year": "2026"
    },
+   "facetimecraving|lux18": null,
+   "myloveiswhatyoullfind|foreverunited": null,
    "madeitrainlifeshowr|chickenmilkdotcom": {
     "album": "My Angels, My Souvenir",
     "year": "2021"
    },
+   "itriedtoyellyasomethingthruthisfuckingphone|hajj": null,
    "syncup|charlieosborne": {
     "album": "[Finding Melody: Pt. 2]",
     "year": "2024"
@@ -32480,6 +32913,7 @@
     "album": "Satie: Gymnopédies & Gnossiennes",
     "year": "1998"
    },
+   "み空|金延幸子": null,
    "maria|popolvuh": {
     "album": "Hosianna Mantra",
     "year": "1972"
@@ -32488,6 +32922,8 @@
     "album": "Satta Dub",
     "year": "1969"
    },
+   "5preludesno5whirlwind|carlossalzedo": null,
+   "kalimankoudenkou|bulgarianstatetelevisionfemalevocalchoir": null,
    "alwaysonmymind|eekamouse": {
     "album": "Skidip",
     "year": "1982"
@@ -32504,6 +32940,7 @@
     "album": "Duncan Browne's Ninepence Worth of Walking",
     "year": "2006"
    },
+   "songforsunrise|extradition": null,
    "inbetweentheheartaches|dionnewarwick": {
     "album": "Here I Am",
     "year": "1965"
@@ -32512,30 +32949,52 @@
     "album": "The Delta Sweete",
     "year": "1968"
    },
+   "wwurlylittlebspoem|mononeon": null,
    "wherewouldibe|gherbo": {
     "album": "Lil Herb",
     "year": "2025"
    },
+   "ktrap|ktrap": null,
+   "streetzisrawonetakefreestyle|yeng": null,
+   "ceerose|sporty": null,
+   "japanesetalesofthemacabreendingsong|junjiitomaniac": null,
+   "youremotionsfeatkhodiel|djlucky": null,
+   "2damoon|djspinnxmoondoctor": null,
+   "sweetasgold|melg": null,
    "shakeitup|norahsworld": {
     "album": "",
     "year": "2026"
    },
+   "righton|vayda": null,
+   "wvnk|wvnk": null,
    "floridaboy|luhtyler": {
     "album": "Florida Boy",
     "year": "2025"
    },
+   "tfyoulookinat|cancool": null,
+   "cheatcode|frenchmontanamaxb": null,
+   "spinning|bruceeldrin": null,
+   "illburnthiswinter|llyric": null,
    "vex|dxrkknghtindieanthony": {
     "album": "",
     "year": "2023"
    },
+   "shortstory|kear": null,
+   "thirstythursday|hakbaker": null,
    "greatpumpkinwaltz|vinceguaraldi": {
     "album": "It's The Great Pumpkin, Charlie Brown (Original Soundtrack Recording) [Deluxe Edition]",
     "year": "1966"
    },
+   "dontlookback|rtheater": null,
+   "najahsinterlude|aricelnajahblake": null,
+   "twrk|djdolla": null,
+   "likeacat|codename": null,
    "waspinthefig|eartheater": {
     "album": "",
     "year": "2026"
    },
+   "gluttony|boyg1rl": null,
+   "bitchimnasty|riconasty": null,
    "mostofme|safetytranceeartheatersegabodega": {
     "album": "sacrificio",
     "year": "2026"
@@ -32544,6 +33003,18 @@
     "album": "password 2",
     "year": "2026"
    },
+   "hacksaw|trina": null,
+   "lickitdown|denairu": null,
+   "cortisacrump|cortisastar": null,
+   "saythankyou|traceya1devin": null,
+   "bringitback|pookie": null,
+   "wtw|djcreoleprincess": null,
+   "belikeme|mazirati": null,
+   "whenyoutouchme|artisteaconfirmer": null,
+   "loveme|artisteaconfirmer": null,
+   "eft|djiniesta": null,
+   "latsassomdetregnar|clubdesportif": null,
+   "pristinexvi|lovefear": null,
    "hareyrangdiyanwangan|azrajehandjchinopakistaniremix": {
     "album": "Noor Jehan In The Mix 4",
     "year": "2003"
@@ -32560,6 +33031,7 @@
     "album": "Forever Your Girl",
     "year": "1988"
    },
+   "nightsoveregypt|shirleyjonesphilphillothecode": null,
    "loveletter|giggles": {
     "album": "Freestyle's Best Extended Versions, Vol. 1 & 2",
     "year": "1987"
@@ -32584,6 +33056,9 @@
     "album": "",
     "year": "1987"
    },
+   "surealedit|chaiyyachaiyya": null,
+   "diamond|questonmarc": null,
+   "diamondgirl|nicewild": null,
    "ifmadonnacalls|juniorvasquez": {
     "album": "If Madonna Calls",
     "year": "1996"
@@ -32592,6 +33067,7 @@
     "album": "Un-Break My Heart: The Remix Collection",
     "year": "2007"
    },
+   "namastesenorita|undeux": null,
    "lifestory|angiestonebookert": {
     "album": "Black Diamond (Deluxe Edition)",
     "year": "1999"
@@ -32600,6 +33076,7 @@
     "album": "Greatest Hits",
     "year": "1993"
    },
+   "nahinterejehahordisdaxalchemy|laidlawxjaveedbashir": null,
    "forgetmenots|patricerushen": {
     "album": "Straight from the Heart",
     "year": "1982"
@@ -32612,6 +33089,8 @@
     "album": "Spicy",
     "year": "1997"
    },
+   "housepartymix4|shantanwantanichiban": null,
+   "housepartymix3|shantanwantanichiban": null,
    "songofhappiness|cochemea": {
     "album": "All My Relations",
     "year": "2019"
@@ -32632,6 +33111,7 @@
     "album": "Mr Soul of Jamaica",
     "year": "1974"
    },
+   "youbringthesunout|janetkay": null,
    "lalalalala|patchworkinclessonsducosmossparklemami": {
     "album": "More Patchwork",
     "year": "2026"
@@ -32656,10 +33136,13 @@
     "album": "Türküler - Boyabat Pirinci (Remastered)",
     "year": "2008"
    },
+   "desacato|antoniocarlosyjocafimariacreusa": null,
+   "soqueriasaber|bebeto": null,
    "afesta|silviocesar": {
     "album": "Som e Palavras",
     "year": "1977"
    },
+   "ondoandaameuamor|orlandivo": null,
    "lotus72d|zeroberto": {
     "album": "",
     "year": "1973"
@@ -32676,30 +33159,54 @@
     "album": "Minute By Minute (Remastered)",
     "year": "1978"
    },
+   "housepartymix2|shantanwantanichiban": null,
+   "illstillloveyou|reflectionsunlimited": null,
+   "inagadadavida|johnnyfrigosextet": null,
+   "joytotheworld|time": null,
+   "motocrosspartii|logiccircuit": null,
+   "socorro|grupoalcano": null,
    "readmymind|jtdonaldsonfredeverythingfeatmrwhite": {
     "album": "Km5 Ibiza, Vol. 10",
     "year": "2009"
    },
+   "housepartymix1|shantanwantanichiban": null,
+   "crazylovesongs|timeandspace": null,
+   "givemeyourlove|fishburnfrancis": null,
+   "hauntedhouserock|coldrocktdaggyd": null,
+   "ghostbusters|bandasupermacho": null,
    "helpmelord|salivacommandos": {
     "album": "",
     "year": "2026"
    },
-   "blocks|sansae": {
-    "album": "",
-    "year": "2026"
-   },
+   "anewworldcoming|secondcoming": null,
+   "intheyear2525|robertmack": null,
+   "astrologicaltheme|ramsayalternativehighschool": null,
+   "promo40|lifelike": null,
    "gravetown|pastself": {
     "album": "",
     "year": "2026"
    },
+   "sailprayer|skeim": null,
+   "moonriver|nataliapanzer": null,
    "cometowhereigo|dirkleyersfeemagdanz": {
     "album": "Pop Ambient 2006",
     "year": "2005"
    },
+   "allineedtoknow|evie": null,
+   "northfeel|lt": null,
+   "swallowed|naemi": null,
+   "moietmoncoeur|soccercommitee": null,
    "prettiestgirl|swmmngpl": {
     "album": "Love Songs/Like a Child",
     "year": "2026"
    },
+   "clearedit|otherjoe": null,
+   "brockwellfeatgeorgefhollyatkinson|angelito": null,
+   "enekle|kesin": null,
+   "bloodlesscoup|shaneparish": null,
+   "vi|peaceatlast": null,
+   "armenia|einstrzendeneubauten": null,
+   "eyerollfeatelvinbrandhi|zir": null,
    "f11maw|fitnesss": {
     "album": "",
     "year": "2026"
@@ -32716,10 +33223,12 @@
     "album": "Duck Stab",
     "year": "1978"
    },
+   "semtex|bokhateternaltrooffamilyband": null,
    "ritualofprotection|pornosect": {
     "album": "Project 91",
     "year": "2010"
    },
+   "psalm|prisonreligion": null,
    "peaceinpieces|jkflesh": {
     "album": "Nothing Is Free",
     "year": "2015"
@@ -32732,6 +33241,7 @@
     "album": "Grist",
     "year": "2006"
    },
+   "irdescenceburststhrutheseamsvirus|wounder": null,
    "falsememoryofanemo|talpah": {
     "album": "SPIRALE",
     "year": "2026"
@@ -32740,10 +33250,12 @@
     "album": "Dom & Roland Productions: Remix Album",
     "year": "2014"
    },
+   "alice|highrankin": null,
    "corralinn|lanarkartefax": {
     "album": "",
     "year": "2019"
    },
+   "yearofthesnake|instrumentsofdiscipline": null,
    "feign|jarheadfertilizer": {
     "album": "Always Faithful",
     "year": "2014"
@@ -32760,13 +33272,24 @@
     "album": "",
     "year": "2017"
    },
+   "rungbyrung|fromashesrise": null,
    "rainperimeter|discordanceaxis": {
     "album": "Jouhou",
     "year": "2004"
    },
+   "dieyoufuck|brainbombs": null,
+   "goawaydisappear|naturalsnowbuildings": null,
+   "lionswritingthebible|thirdeyefoundation": null,
+   "welltunedpiano|lamonteyoungmarianzazeela": null,
    "cantusinmemoryofbenjaminbritten|arvoparthungarianstateoperaorchestratamasbenedek": {
     "album": "Eternal Pärt",
     "year": "2009"
+   },
+   "crawlawaybrittlebonedrombfixed|wounder": null,
+   "pussygotyahooked|three6mafiaremymartin": null,
+   "whenyoucomeby|bent": {
+    "album": "Up in the Air",
+    "year": "2020"
    },
    "tajtudehajdsejabe|trha": {
     "album": "Endlhëdëhaj Qáshmëna Ëlh Vim Innivte",
@@ -32784,14 +33307,20 @@
     "album": "One Day Off (Original Motion Picture Sound Track)",
     "year": "2023"
    },
+   "망각|mistyblue": null,
+   "icanfeelthewave|franceschang": null,
    "ripples|colaren": {
     "album": "Mekong Ballad",
     "year": "2025"
    },
+   "karekinihana|tujikonoriko": null,
    "nobody|sachismirror": {
     "album": "Talking in a Different Way",
     "year": "2026"
    },
+   "girlwholosttheworld|yullyola": null,
+   "그녀에게toher|3rdlinebutterfly": null,
+   "濫俗的歌|puppiebelly": null,
    "skin|ramyapothuri": {
     "album": "",
     "year": "2025"
@@ -32820,6 +33349,11 @@
     "album": "Inca Ore / Grouper",
     "year": "2008"
    },
+   "devilhadaholdofme|gilllianwelch": null,
+   "nellabirinto|tasaday": null,
+   "piejesu|liliboulanger": null,
+   "stabatmater|krzysztofpenderecki": null,
+   "templeoflament|daniellentz": null,
    "zombiesneverdie|bohrenderclubofgore": {
     "album": "Beileid",
     "year": "2011"
@@ -32848,14 +33382,18 @@
     "album": "Bborn Again",
     "year": "2026"
    },
+   "uhhuh|numberone": null,
    "crawling|maxsinal": {
     "album": "",
     "year": "2023"
    },
+   "breathinside|intr0beatz": null,
+   "reefchoreo|yyard": null,
    "beingwithyou|polytone": {
     "album": "ROADKILL Presents: 003",
     "year": "2021"
    },
+   "singingbowl|omob": null,
    "braindrain|facta": {
     "album": "So Is the Sun",
     "year": "2024"
@@ -32864,6 +33402,7 @@
     "album": "Unwind & Dissolve Gently",
     "year": "2025"
    },
+   "oneshot|tommanzarek": null,
    "cuspofspring|adamfeingold": {
     "album": "Nothing Is a Field",
     "year": "2025"
@@ -32880,6 +33419,7 @@
     "album": "Subside",
     "year": "2026"
    },
+   "youmadechoices|mlf": null,
    "ratethenight|marge": {
     "album": "",
     "year": "2026"
@@ -32888,10 +33428,13 @@
     "album": "We're Good, All Good",
     "year": "2025"
    },
+   "isthismoreprecise|marge": null,
+   "earthling|amaliah": null,
    "bootiesong|emkay": {
     "album": "Now We're Fucking Doing It",
     "year": "2021"
    },
+   "gooddog|palomacolombe": null,
    "wow|girlsdontsync": {
     "album": "",
     "year": "2026"
@@ -32908,6 +33451,8 @@
     "album": "A Celebration Of The Euphoria Of Life",
     "year": "2022"
    },
+   "lariviera|loranova": null,
+   "occaso|matisa": null,
    "whatsgonnabe|mlf": {
     "album": "",
     "year": "2026"
@@ -32920,6 +33465,7 @@
     "album": "A Path of One",
     "year": "2020"
    },
+   "шепочутьcтіни|няньогиhepвтаранnianiogeenervetaranguidoerfen": null,
    "anotherbodyfound|anotherbodyfound": {
     "album": "Scooterboys From The Pool",
     "year": "2025"
@@ -32928,6 +33474,11 @@
     "album": "The Bedroom Tapes: A Compilation Of Minimal Wave From Around The World 1980-1991",
     "year": "2018"
    },
+   "yakutska|clickclick": null,
+   "waitingrom|nasmak": null,
+   "bonustrack|garyallen": null,
+   "youmeeverything|shamen": null,
+   "remotebirthcontrol|doxasinistra": null,
    "gottogetaway|newagesteppers": {
     "album": "Action Battlefield",
     "year": "1981"
@@ -32940,6 +33491,8 @@
     "album": "Aftermath and Transitions (Traces Of The Ukrainian Underground in Cologne (1994-1996))",
     "year": "2026"
    },
+   "systematiceyes|leagueofnations": null,
+   "dancewithoutmusic|pump": null,
    "macabradanza|lasscrime": {
     "album": "Mesmérique",
     "year": "2015"
@@ -32952,6 +33505,7 @@
     "album": "In Light of Recent Events",
     "year": "2026"
    },
+   "afluor|derribosarias": null,
    "hellohello|larsfalk": {
     "album": "Through",
     "year": "1983"
@@ -32964,6 +33518,13 @@
     "album": "Undercurrents",
     "year": "1992"
    },
+   "wnosauce|dvnce": null,
+   "sunkissed|shampoo": null,
+   "helloagain|paradiseofyesterday": null,
+   "passion|psicadence": null,
+   "midnighthour|vanity": null,
+   "deepcontemplation|vanity": null,
+   "wonderful|soarer": null,
    "3dpooldesigner|eyeliner": {
     "album": "Larp of Luxury",
     "year": "2013"
@@ -33304,42 +33865,6 @@
     "album": "FAR-I Ship Dub (feat. Max Romeo)",
     "year": "1992"
    },
-   "sensitive|mrtwinsister": {
-    "album": "Mr Twin Sister",
-    "year": "2014"
-   },
-   "somebody|aso": {
-    "album": "a.s.o.",
-    "year": "2023"
-   },
-   "houseofpancake|swirlies": {
-    "album": "Brokedick Car",
-    "year": "1994"
-   },
-   "bitter|palace": {
-    "album": "So Long Forever",
-    "year": "2016"
-   },
-   "iwouldletyouhurtme|wisteria": {
-    "album": "",
-    "year": "2026"
-   },
-   "illalwaysletyoudown|choirboy": {
-    "album": "",
-    "year": "2026"
-   },
-   "icantreatyoubetter|parttimearielpink": {
-    "album": "Spell #6",
-    "year": "2018"
-   },
-   "luna|wisp": {
-    "album": "Pandora",
-    "year": "2024"
-   },
-   "moondust|yukamizuhara": {
-    "album": "Moon Dust",
-    "year": ""
-   },
    "disarm|civilwars": {
     "album": "The Civil Wars",
     "year": "2013"
@@ -33431,6 +33956,42 @@
    "rebooty|landslidecolonelred": {
     "album": "Re Booty (feat. Colonel Red)",
     "year": "2026"
+   },
+   "sensitive|mrtwinsister": {
+    "album": "Mr Twin Sister",
+    "year": "2014"
+   },
+   "somebody|aso": {
+    "album": "a.s.o.",
+    "year": "2023"
+   },
+   "houseofpancake|swirlies": {
+    "album": "Brokedick Car",
+    "year": "1994"
+   },
+   "bitter|palace": {
+    "album": "So Long Forever",
+    "year": "2016"
+   },
+   "iwouldletyouhurtme|wisteria": {
+    "album": "",
+    "year": "2026"
+   },
+   "illalwaysletyoudown|choirboy": {
+    "album": "",
+    "year": "2026"
+   },
+   "icantreatyoubetter|parttimearielpink": {
+    "album": "Spell #6",
+    "year": "2018"
+   },
+   "luna|wisp": {
+    "album": "Pandora",
+    "year": "2024"
+   },
+   "moondust|yukamizuhara": {
+    "album": "Moon Dust",
+    "year": ""
    },
    "hex|soundoffeeling": {
     "album": "Up Into Silence + 5 bonus tracks - Remastered",
@@ -33800,6 +34361,18 @@
     "album": "Secrets, Signs and Threats",
     "year": "2001"
    },
+   "007andcounting|johnbarry": {
+    "album": "Diamonds Are Forever (Original Motion Picture Soundtrack)",
+    "year": "1971"
+   },
+   "axis|carlosgiffonibenchasny": {
+    "album": "Pendulum",
+    "year": "2026"
+   },
+   "greyscreen|kevindrumm": {
+    "album": "120121",
+    "year": "2022"
+   },
    "walkingintherain|gracejoneschrisblackwell": {
     "album": "20th Century Masters - The Millennium Collection: The Best of Grace Jones",
     "year": "2003"
@@ -33848,18 +34421,6 @@
     "album": "Boys and Girls",
     "year": "1985"
    },
-   "007andcounting|johnbarry": {
-    "album": "Diamonds Are Forever (Original Motion Picture Soundtrack)",
-    "year": "1971"
-   },
-   "axis|carlosgiffonibenchasny": {
-    "album": "Pendulum",
-    "year": "2026"
-   },
-   "greyscreen|kevindrumm": {
-    "album": "120121",
-    "year": "2022"
-   },
    "kyrie|eterna": {
     "album": "Epiphany",
     "year": "2017"
@@ -33875,6 +34436,10 @@
    "vegasnight|rockierode": {
     "album": "Rockie",
     "year": "2026"
+   },
+   "eyesclosed|melodysechochamber": {
+    "album": "Unclouded",
+    "year": "2025"
    },
    "poison|feeblelittlehorse": {
     "album": "bitknot",
@@ -33996,14 +34561,6 @@
     "album": "Steppenwolf",
     "year": "1968"
    },
-   "dropitlikeitshot|snoopdogg": {
-    "album": "R&G (Rhythm & Gangsta) - The Masterpiece",
-    "year": "2004"
-   },
-   "milehighclub|uniiqu3": {
-    "album": "",
-    "year": "2026"
-   },
    "rainbowwarriors|alanbraufman": {
     "album": "Valley of Search",
     "year": "1975"
@@ -34015,22 +34572,6 @@
    "youkalitango|armadillostringquartet": {
     "album": "Lost In the Stars: The Music of Kurt Weill",
     "year": "1985"
-   },
-   "nooseofjahcity|kingkrule": {
-    "album": "King Krule",
-    "year": "2011"
-   },
-   "punkbhajan|sridharthayil": {
-    "album": "Std",
-    "year": "2012"
-   },
-   "maula|sakibtonmoyfeatbhaibhaisoundsystem": {
-    "album": "",
-    "year": "2024"
-   },
-   "partisderien|scredconnexionfabe": {
-    "album": "Scred Selexion 99/2000 (1)",
-    "year": "2000"
    },
    "thoseshoes|eagles": {
     "album": "The Long Run",
@@ -34111,6 +34652,14 @@
    "onlytwo|shereesano": {
     "album": "",
     "year": "2025"
+   },
+   "dropitlikeitshot|snoopdogg": {
+    "album": "R&G (Rhythm & Gangsta) - The Masterpiece",
+    "year": "2004"
+   },
+   "milehighclub|uniiqu3": {
+    "album": "",
+    "year": "2026"
    },
    "tobelonely|countrycomfort": {
     "album": "Seafaring Strangers: Private Yacht",
@@ -34628,11 +35177,11 @@
       "last": "2026-10-29T01:09:37Z"
      },
      "kcrw": {
-      "plays": 31,
-      "last": "2026-11-03T23:41:14Z"
+      "plays": 28,
+      "last": "2026-11-04T04:04:20Z"
      },
      "triple-j": {
-      "plays": 23,
+      "plays": 21,
       "last": "2026-11-03T05:56:19Z"
      }
     }
@@ -34643,16 +35192,16 @@
     "year": "2026",
     "stations": {
      "kexp": {
-      "plays": 8,
+      "plays": 7,
       "last": "2026-11-02T15:17:30Z"
      },
      "kcrw": {
-      "plays": 27,
-      "last": "2026-11-03T17:53:07Z"
+      "plays": 24,
+      "last": "2026-11-04T08:32:58Z"
      },
      "triple-j": {
-      "plays": 17,
-      "last": "2026-11-03T22:02:54Z"
+      "plays": 18,
+      "last": "2026-11-04T04:28:53Z"
      }
     }
    },
@@ -34666,8 +35215,8 @@
       "last": "2026-11-02T01:37:51Z"
      },
      "kcrw": {
-      "plays": 42,
-      "last": "2026-11-03T22:48:19Z"
+      "plays": 40,
+      "last": "2026-11-04T05:07:55Z"
      },
      "nts": {
       "plays": 1,
@@ -34681,23 +35230,12 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 33,
-      "last": "2026-11-03T21:11:34Z"
+      "plays": 31,
+      "last": "2026-11-04T08:50:28Z"
      },
      "triple-j": {
       "plays": 6,
       "last": "2026-11-03T18:08:02Z"
-     }
-    }
-   },
-   {
-    "artist": "Meshell Ndegeocello",
-    "album": "Synonym",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 34,
-      "last": "2026-11-03T22:10:10Z"
      }
     }
    },
@@ -34707,8 +35245,30 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 34,
-      "last": "2026-11-03T20:53:16Z"
+      "plays": 31,
+      "last": "2026-11-04T07:40:02Z"
+     }
+    }
+   },
+   {
+    "artist": "Meshell Ndegeocello",
+    "album": "Synonym",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 30,
+      "last": "2026-11-04T04:01:04Z"
+     }
+    }
+   },
+   {
+    "artist": "Stand Atlantic",
+    "album": "GODBREATH",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 30,
+      "last": "2026-11-04T08:39:17Z"
      }
     }
    },
@@ -34722,8 +35282,8 @@
       "last": "2026-10-29T13:50:13Z"
      },
      "kcrw": {
-      "plays": 31,
-      "last": "2026-11-03T23:03:53Z"
+      "plays": 28,
+      "last": "2026-11-04T06:09:47Z"
      }
     }
    },
@@ -34737,19 +35297,8 @@
       "last": "2026-10-28T21:13:44Z"
      },
      "kcrw": {
-      "plays": 31,
-      "last": "2026-11-04T00:08:25Z"
-     }
-    }
-   },
-   {
-    "artist": "Stand Atlantic",
-    "album": "GODBREATH",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 29,
-      "last": "2026-11-03T22:37:21Z"
+      "plays": 28,
+      "last": "2026-11-04T03:23:35Z"
      }
     }
    },
@@ -34759,8 +35308,8 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 27,
-      "last": "2026-11-04T01:08:11Z"
+      "plays": 25,
+      "last": "2026-11-04T04:11:31Z"
      },
      "nts": {
       "plays": 1,
@@ -34778,8 +35327,8 @@
       "last": "2026-11-03T01:44:51Z"
      },
      "kcrw": {
-      "plays": 24,
-      "last": "2026-11-04T00:28:27Z"
+      "plays": 21,
+      "last": "2026-11-04T09:04:02Z"
      }
     }
    },
@@ -34793,8 +35342,8 @@
       "last": "2026-10-29T06:19:41Z"
      },
      "kcrw": {
-      "plays": 24,
-      "last": "2026-11-03T21:25:39Z"
+      "plays": 21,
+      "last": "2026-11-04T07:51:09Z"
      },
      "nts": {
       "plays": 1,
@@ -34808,8 +35357,8 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 25,
-      "last": "2026-11-03T22:46:22Z"
+      "plays": 23,
+      "last": "2026-11-04T03:30:44Z"
      }
     }
    },
@@ -34819,23 +35368,12 @@
     "year": "2026",
     "stations": {
      "kexp": {
-      "plays": 2,
-      "last": "2026-10-29T00:48:14Z"
+      "plays": 3,
+      "last": "2026-11-04T07:45:20Z"
      },
      "kcrw": {
-      "plays": 18,
-      "last": "2026-11-03T10:04:49Z"
-     }
-    }
-   },
-   {
-    "artist": "Dorian Electra",
-    "album": "Dorian Electra",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 20,
-      "last": "2026-11-03T20:50:21Z"
+      "plays": 17,
+      "last": "2026-11-04T03:27:10Z"
      }
     }
    },
@@ -34853,8 +35391,8 @@
       "last": "2026-11-02T19:45:17Z"
      },
      "triple-j": {
-      "plays": 15,
-      "last": "2026-11-03T22:07:21Z"
+      "plays": 16,
+      "last": "2026-11-04T02:39:50Z"
      },
      "nts": {
       "plays": 1,
@@ -34868,19 +35406,34 @@
     "year": "2026",
     "stations": {
      "triple-j": {
-      "plays": 19,
-      "last": "2026-11-03T19:26:09Z"
+      "plays": 20,
+      "last": "2026-11-04T01:28:15Z"
      }
     }
    },
    {
-    "artist": "Sycco",
-    "album": "Look Up",
+    "artist": "Dorian Electra",
+    "album": "Dorian Electra",
     "year": "2026",
     "stations": {
-     "triple-j": {
+     "kcrw": {
       "plays": 18,
-      "last": "2026-11-03T22:33:36Z"
+      "last": "2026-11-03T20:50:21Z"
+     }
+    }
+   },
+   {
+    "artist": "Sampa the Great",
+    "album": "Nu Zamrock",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-10-28T16:07:51Z"
+     },
+     "triple-j": {
+      "plays": 16,
+      "last": "2026-11-04T04:17:36Z"
      }
     }
    },
@@ -34896,28 +35449,13 @@
     }
    },
    {
-    "artist": "Sampa the Great",
-    "album": "Nu Zamrock",
+    "artist": "Sycco",
+    "album": "Look Up",
     "year": "2026",
     "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-28T16:07:51Z"
-     },
      "triple-j": {
-      "plays": 15,
-      "last": "2026-11-03T18:19:37Z"
-     }
-    }
-   },
-   {
-    "artist": "DMA'S",
-    "album": "Live At The Wireless",
-    "year": "2025",
-    "stations": {
-     "triple-j": {
-      "plays": 15,
-      "last": "2026-11-01T21:48:04Z"
+      "plays": 17,
+      "last": "2026-11-04T02:36:12Z"
      }
     }
    },
@@ -34931,8 +35469,27 @@
       "last": "2026-11-03T20:59:40Z"
      },
      "triple-j": {
-      "plays": 11,
+      "plays": 10,
       "last": "2026-11-03T22:42:17Z"
+     }
+    }
+   },
+   {
+    "artist": "June McDoom",
+    "album": "Follow The Light",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-10-29T06:10:10Z"
+     },
+     "kcrw": {
+      "plays": 10,
+      "last": "2026-11-04T09:11:18Z"
+     },
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-30T18:00:00Z"
      }
     }
    },
@@ -34942,64 +35499,8 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 13,
-      "last": "2026-11-03T10:29:16Z"
-     }
-    }
-   },
-   {
-    "artist": "Baby Rose",
-    "album": "YEARNALISM",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-11-01T22:32:19Z"
-     },
-     "kcrw": {
-      "plays": 11,
-      "last": "2026-11-03T22:29:56Z"
-     }
-    }
-   },
-   {
-    "artist": "Danielle Ponder",
-    "album": "Everything Has Changed",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-29T12:09:01Z"
-     },
-     "kcrw": {
-      "plays": 11,
-      "last": "2026-11-03T14:42:18Z"
-     }
-    }
-   },
-   {
-    "artist": "Haruomi Hosono",
-    "album": "Yours, Sincerely",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 11,
-      "last": "2026-11-03T23:16:03Z"
-     },
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-31T00:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Girl Ultra",
-    "album": "RRRomeo",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
       "plays": 12,
-      "last": "2026-10-31T21:27:00Z"
+      "last": "2026-11-04T01:47:31Z"
      }
     }
    },
@@ -35014,26 +35515,37 @@
      },
      "triple-j": {
       "plays": 8,
-      "last": "2026-11-03T17:02:57Z"
+      "last": "2026-11-04T01:25:04Z"
      }
     }
    },
    {
-    "artist": "June McDoom",
-    "album": "Follow The Light",
+    "artist": "Danielle Ponder",
+    "album": "Everything Has Changed",
     "year": "2026",
     "stations": {
      "kexp": {
       "plays": 1,
-      "last": "2026-10-29T06:10:10Z"
+      "last": "2026-10-29T12:09:01Z"
      },
      "kcrw": {
-      "plays": 9,
-      "last": "2026-11-03T18:24:04Z"
+      "plays": 10,
+      "last": "2026-11-03T14:42:18Z"
+     }
+    }
+   },
+   {
+    "artist": "Haruomi Hosono",
+    "album": "Yours, Sincerely",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 10,
+      "last": "2026-11-04T08:07:49Z"
      },
      "nts": {
       "plays": 1,
-      "last": "2026-10-30T18:00:00Z"
+      "last": "2026-10-31T00:00:00Z"
      }
     }
    },
@@ -35044,11 +35556,33 @@
     "stations": {
      "kcrw": {
       "plays": 10,
-      "last": "2026-11-03T18:05:38Z"
+      "last": "2026-11-04T02:05:07Z"
      },
      "nts": {
       "plays": 1,
       "last": "2026-10-31T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Swapmeet",
+    "album": "Mount Zero",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 11,
+      "last": "2026-11-04T05:47:56Z"
+     }
+    }
+   },
+   {
+    "artist": "Fool Nelson",
+    "album": "Bad Dreams",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 11,
+      "last": "2026-11-04T04:51:19Z"
      }
     }
    },
@@ -35064,58 +35598,17 @@
     }
    },
    {
-    "artist": "Dummy",
-    "album": "do you love the color of the sky?",
+    "artist": "Baby Rose",
+    "album": "YEARNALISM",
     "year": "2026",
     "stations": {
      "kexp": {
-      "plays": 6,
-      "last": "2026-11-03T01:15:35Z"
+      "plays": 1,
+      "last": "2026-11-01T22:32:19Z"
      },
      "kcrw": {
-      "plays": 3,
-      "last": "2026-11-02T19:37:21Z"
-     },
-     "nts": {
-      "plays": 1,
-      "last": "2026-11-01T00:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Gurriers",
-    "album": "Nobody's Coming to Save You",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 2,
-      "last": "2026-10-28T15:20:14Z"
-     },
-     "triple-j": {
-      "plays": 8,
-      "last": "2026-11-01T17:55:46Z"
-     }
-    }
-   },
-   {
-    "artist": "Fool Nelson",
-    "album": "Bad Dreams",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 10,
-      "last": "2026-11-03T16:16:34Z"
-     }
-    }
-   },
-   {
-    "artist": "Swapmeet",
-    "album": "Mount Zero",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 10,
-      "last": "2026-11-03T08:27:29Z"
+      "plays": 9,
+      "last": "2026-11-03T22:29:56Z"
      }
     }
    },
@@ -35131,17 +35624,6 @@
      "kcrw": {
       "plays": 2,
       "last": "2026-11-01T20:37:29Z"
-     }
-    }
-   },
-   {
-    "artist": "Dexter Story",
-    "album": "T'som",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 9,
-      "last": "2026-11-03T11:08:32Z"
      }
     }
    },
@@ -35168,28 +35650,58 @@
     }
    },
    {
-    "artist": "underscores",
-    "album": "U",
+    "artist": "Dummy",
+    "album": "do you love the color of the sky?",
     "year": "2026",
     "stations": {
-     "triple-j": {
-      "plays": 8,
-      "last": "2026-11-02T17:46:23Z"
+     "kexp": {
+      "plays": 5,
+      "last": "2026-11-03T01:15:35Z"
+     },
+     "kcrw": {
+      "plays": 2,
+      "last": "2026-11-02T19:37:21Z"
+     },
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
      }
     }
    },
    {
-    "artist": "A$AP Rocky",
-    "album": "Don’t Be Dumb",
+    "artist": "Gurriers",
+    "album": "Nobody's Coming to Save You",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-10-28T15:20:14Z"
+     },
+     "triple-j": {
+      "plays": 7,
+      "last": "2026-11-01T17:55:46Z"
+     }
+    }
+   },
+   {
+    "artist": "RAYE",
+    "album": "THIS MUSIC MAY CONTAIN HOPE.",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 8,
+      "last": "2026-11-04T03:39:15Z"
+     }
+    }
+   },
+   {
+    "artist": "Dexter Story",
+    "album": "T'som",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 2,
-      "last": "2026-10-31T16:05:37Z"
-     },
-     "triple-j": {
-      "plays": 5,
-      "last": "2026-11-03T01:32:49Z"
+      "plays": 7,
+      "last": "2026-11-03T11:08:32Z"
      }
     }
    },
@@ -35205,13 +35717,13 @@
     }
    },
    {
-    "artist": "RAYE",
-    "album": "THIS MUSIC MAY CONTAIN HOPE.",
+    "artist": "underscores",
+    "album": "U",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 7,
-      "last": "2026-11-03T15:22:23Z"
+      "last": "2026-11-02T17:46:23Z"
      }
     }
    },
@@ -35265,28 +35777,24 @@
     "album": "Getting Killed",
     "year": "2025",
     "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-28T06:25:06Z"
-     },
      "kcrw": {
       "plays": 3,
-      "last": "2026-10-31T23:35:23Z"
+      "last": "2026-11-04T04:16:09Z"
      },
      "triple-j": {
-      "plays": 2,
-      "last": "2026-11-01T16:12:30Z"
+      "plays": 3,
+      "last": "2026-11-04T01:43:45Z"
      }
     }
    },
    {
-    "artist": "Gracie Abrams",
-    "album": "Daughter from Hell",
+    "artist": "Tyla",
+    "album": "A*POP",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 6,
-      "last": "2026-11-03T23:49:10Z"
+      "last": "2026-11-04T01:37:13Z"
      }
     }
    },
@@ -35414,24 +35922,28 @@
     }
    },
    {
-    "artist": "Eels",
-    "album": "COOKIE HAPPENED",
+    "artist": "A$AP Rocky",
+    "album": "Don’t Be Dumb",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 5,
-      "last": "2026-11-01T06:18:58Z"
+      "plays": 1,
+      "last": "2026-10-31T16:05:37Z"
+     },
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-03T01:32:49Z"
      }
     }
    },
    {
-    "artist": "Tyla",
-    "album": "A*POP",
+    "artist": "Gracie Abrams",
+    "album": "Daughter from Hell",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 5,
-      "last": "2026-11-03T18:24:41Z"
+      "last": "2026-11-03T23:49:10Z"
      }
     }
    },
@@ -35454,6 +35966,17 @@
      "nts": {
       "plays": 5,
       "last": "2026-11-02T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Alabama Shakes",
+    "album": "I Must Be Dreaming",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 4,
+      "last": "2026-11-04T02:01:41Z"
      }
     }
    },
@@ -35503,17 +36026,6 @@
     }
    },
    {
-    "artist": "Jazzy",
-    "album": "Peace & Patience",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 4,
-      "last": "2026-11-03T13:32:26Z"
-     }
-    }
-   },
-   {
     "artist": "Erykah Badu & The Alchemist",
     "album": "Before The World Blows",
     "year": "2026",
@@ -35529,21 +36041,6 @@
     }
    },
    {
-    "artist": "Saya Gray",
-    "album": "SAYA",
-    "year": "2025",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-30T04:04:50Z"
-     },
-     "kcrw": {
-      "plays": 3,
-      "last": "2026-10-30T12:13:10Z"
-     }
-    }
-   },
-   {
     "artist": "Jungle",
     "album": "Sunshine",
     "year": "2026",
@@ -35551,6 +36048,17 @@
      "kcrw": {
       "plays": 4,
       "last": "2026-11-03T17:15:32Z"
+     }
+    }
+   },
+   {
+    "artist": "Eels",
+    "album": "COOKIE HAPPENED",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 4,
+      "last": "2026-11-01T06:18:58Z"
      }
     }
    },
@@ -35577,6 +36085,39 @@
     }
    },
    {
+    "artist": "Chastity Belt",
+    "album": "All My Friends",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 3,
+      "last": "2026-11-04T02:51:40Z"
+     }
+    }
+   },
+   {
+    "artist": "다브다",
+    "album": "ON(百)",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 3,
+      "last": "2026-11-04T01:28:21Z"
+     }
+    }
+   },
+   {
+    "artist": "Spanish Horses",
+    "album": "Small Notions",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 3,
+      "last": "2026-11-04T01:25:37Z"
+     }
+    }
+   },
+   {
     "artist": "This Is Lorelei",
     "album": "The Singer in My Band",
     "year": "2026",
@@ -35584,21 +36125,6 @@
      "kexp": {
       "plays": 3,
       "last": "2026-11-03T19:32:09Z"
-     }
-    }
-   },
-   {
-    "artist": "Teilz",
-    "album": "come to mommy",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 2,
-      "last": "2026-11-03T18:40:29Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-28T03:25:53Z"
      }
     }
    },
@@ -35644,13 +36170,13 @@
     }
    },
    {
-    "artist": "Alabama Shakes",
-    "album": "I Must Be Dreaming",
+    "artist": "Jazzy",
+    "album": "Peace & Patience",
     "year": "2026",
     "stations": {
      "kexp": {
       "plays": 3,
-      "last": "2026-11-03T13:24:51Z"
+      "last": "2026-11-03T13:32:26Z"
      }
     }
    },
@@ -35681,21 +36207,6 @@
     }
    },
    {
-    "artist": "Slow Pulp",
-    "album": "Melodie",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 2,
-      "last": "2026-11-02T18:50:24Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-29T17:34:44Z"
-     }
-    }
-   },
-   {
     "artist": "Carissa’s Wierd",
     "album": "Somewhere Further Than Far Away",
     "year": "2027",
@@ -35722,13 +36233,17 @@
     }
    },
    {
-    "artist": "Emma Ruth Rundle",
-    "album": "These Killing Times",
-    "year": "2026",
+    "artist": "Saya Gray",
+    "album": "SAYA",
+    "year": "2025",
     "stations": {
      "kexp": {
-      "plays": 3,
-      "last": "2026-10-29T18:10:12Z"
+      "plays": 1,
+      "last": "2026-10-30T04:04:50Z"
+     },
+     "kcrw": {
+      "plays": 2,
+      "last": "2026-10-30T12:13:10Z"
      }
     }
    },
@@ -35885,6 +36400,17 @@
     }
    },
    {
+    "artist": "Girl Ultra",
+    "album": "RRRomeo",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 3,
+      "last": "2026-10-31T21:27:00Z"
+     }
+    }
+   },
+   {
     "artist": "King Gizzard & the Lizard Wizard",
     "album": "Alien Metal",
     "year": "2026",
@@ -35896,6 +36422,17 @@
      "triple-j": {
       "plays": 2,
       "last": "2026-11-03T18:54:18Z"
+     }
+    }
+   },
+   {
+    "artist": "Kayps",
+    "album": "BUNUBA BABY",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-04T05:57:11Z"
      }
     }
    },
@@ -35937,6 +36474,21 @@
     }
    },
    {
+    "artist": "Slow Pulp",
+    "album": "Melodie",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-11-02T18:50:24Z"
+     },
+     "kcrw": {
+      "plays": 1,
+      "last": "2026-10-29T17:34:44Z"
+     }
+    }
+   },
+   {
     "artist": "Saul Williams",
     "album": "Leap Life",
     "year": "2026",
@@ -35963,21 +36515,6 @@
      "nts": {
       "plays": 1,
       "last": "2026-11-02T00:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Sylvan Esso",
-    "album": "Ow ∞",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-11-01T22:18:58Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-27T16:24:31Z"
      }
     }
    },
@@ -36052,7 +36589,7 @@
      },
      "nts": {
       "plays": 1,
-      "last": "2026-10-28T20:00:00Z"
+      "last": "2026-10-28T00:00:00Z"
      }
     }
    },
@@ -36262,6 +36799,17 @@
      "nts": {
       "plays": 1,
       "last": "2026-11-02T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Joyce Wrice",
+    "album": "MACHIKO",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
      }
     }
    },
@@ -36543,28 +37091,13 @@
   ],
   "song": [
    {
-    "artist": "Way Dynamic",
-    "album": "Officially",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 31,
-      "last": "2026-11-03T23:30:22Z"
-     },
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-02T15:18:26Z"
-     }
-    }
-   },
-   {
     "artist": "Gang of Youths",
     "album": "Things Take Time",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 31,
-      "last": "2026-11-03T21:05:07Z"
+      "plays": 29,
+      "last": "2026-11-04T09:08:11Z"
      },
      "triple-j": {
       "plays": 4,
@@ -36573,65 +37106,17 @@
     }
    },
    {
-    "artist": "Chali2na, Cut Chemist",
-    "album": "The Rock",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 32,
-      "last": "2026-11-04T00:25:30Z"
-     }
-    }
-   },
-   {
-    "artist": "Ryan Beatty",
-    "album": "White Lightning",
+    "artist": "Way Dynamic",
+    "album": "Officially",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 32,
-      "last": "2026-11-03T23:26:03Z"
-     }
-    }
-   },
-   {
-    "artist": "Wishy",
-    "album": "Sensational",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-28T15:42:00Z"
-     },
-     "kcrw": {
-      "plays": 30,
-      "last": "2026-11-04T00:14:35Z"
-     }
-    }
-   },
-   {
-    "artist": "Justice",
-    "album": "Flower In A Hurricane (feat. Tame Impala, SZA, and King Gizzard & The Lizard Wizard) (Radio Edit)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 14,
-      "last": "2026-11-03T23:50:26Z"
+      "plays": 27,
+      "last": "2026-11-04T04:08:09Z"
      },
      "triple-j": {
-      "plays": 17,
-      "last": "2026-11-04T00:38:33Z"
-     }
-    }
-   },
-   {
-    "artist": "Logic1000",
-    "album": "The Only One (feat. Christine and the Queens)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 31,
-      "last": "2026-11-03T23:03:53Z"
+      "plays": 4,
+      "last": "2026-11-02T15:18:26Z"
      }
     }
    },
@@ -36645,19 +37130,45 @@
       "last": "2026-10-28T16:37:15Z"
      },
      "triple-j": {
-      "plays": 30,
-      "last": "2026-11-04T00:02:54Z"
+      "plays": 29,
+      "last": "2026-11-04T06:02:56Z"
      }
     }
    },
    {
-    "artist": "Leon Bridges",
-    "album": "Talk It Over",
+    "artist": "Chali2na, Cut Chemist",
+    "album": "The Rock",
     "year": null,
     "stations": {
      "kcrw": {
-      "plays": 30,
-      "last": "2026-11-03T22:48:19Z"
+      "plays": 29,
+      "last": "2026-11-04T06:32:09Z"
+     }
+    }
+   },
+   {
+    "artist": "Ryan Beatty",
+    "album": "White Lightning",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 29,
+      "last": "2026-11-04T02:47:10Z"
+     }
+    }
+   },
+   {
+    "artist": "Wishy",
+    "album": "Sensational",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-10-28T15:42:00Z"
+     },
+     "kcrw": {
+      "plays": 27,
+      "last": "2026-11-04T07:17:05Z"
      }
     }
    },
@@ -36667,19 +37178,45 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 30,
-      "last": "2026-11-03T20:53:16Z"
+      "plays": 28,
+      "last": "2026-11-04T07:40:02Z"
      }
     }
    },
    {
-    "artist": "Automatic",
-    "album": "Black Box (Nick Zinner Remix)",
+    "artist": "Logic1000",
+    "album": "The Only One (feat. Christine and the Queens)",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 29,
-      "last": "2026-11-04T00:32:36Z"
+      "plays": 28,
+      "last": "2026-11-04T06:09:47Z"
+     }
+    }
+   },
+   {
+    "artist": "Leon Bridges",
+    "album": "Talk It Over",
+    "year": null,
+    "stations": {
+     "kcrw": {
+      "plays": 28,
+      "last": "2026-11-04T05:07:55Z"
+     }
+    }
+   },
+   {
+    "artist": "Justice",
+    "album": "Flower In A Hurricane (feat. Tame Impala, SZA, and King Gizzard & The Lizard Wizard) (Radio Edit)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 12,
+      "last": "2026-11-03T23:50:26Z"
+     },
+     "triple-j": {
+      "plays": 16,
+      "last": "2026-11-04T04:32:04Z"
      }
     }
    },
@@ -36689,52 +37226,8 @@
     "year": null,
     "stations": {
      "kcrw": {
-      "plays": 29,
-      "last": "2026-11-04T00:05:15Z"
-     }
-    }
-   },
-   {
-    "artist": "Phoebe Bridgers",
-    "album": "The Governor’s Waltz",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 28,
-      "last": "2026-11-03T21:11:34Z"
-     }
-    }
-   },
-   {
-    "artist": "Ed O'Brien",
-    "album": "Obrigado (e24 edit)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
       "plays": 27,
-      "last": "2026-11-04T01:08:11Z"
-     }
-    }
-   },
-   {
-    "artist": "Homeboy Sandman",
-    "album": "TWENTYFOURSEVEN (feat. Jack Splash)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 27,
-      "last": "2026-11-03T23:53:21Z"
-     }
-    }
-   },
-   {
-    "artist": "Gus Dapperton",
-    "album": "Take Me Out To The Disco",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 27,
-      "last": "2026-11-03T19:48:02Z"
+      "last": "2026-11-04T04:27:32Z"
      }
     }
    },
@@ -36745,7 +37238,73 @@
     "stations": {
      "triple-j": {
       "plays": 27,
-      "last": "2026-11-03T23:40:13Z"
+      "last": "2026-11-04T08:00:02Z"
+     }
+    }
+   },
+   {
+    "artist": "Phoebe Bridgers",
+    "album": "The Governor’s Waltz",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 26,
+      "last": "2026-11-04T08:50:28Z"
+     }
+    }
+   },
+   {
+    "artist": "Tobiahs & VV-Ace",
+    "album": "Where You Really Come From",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 26,
+      "last": "2026-11-04T07:00:05Z"
+     }
+    }
+   },
+   {
+    "artist": "Gus Dapperton",
+    "album": "Take Me Out To The Disco",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 25,
+      "last": "2026-11-04T06:53:28Z"
+     }
+    }
+   },
+   {
+    "artist": "Ed O'Brien",
+    "album": "Obrigado (e24 edit)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 25,
+      "last": "2026-11-04T04:11:31Z"
+     }
+    }
+   },
+   {
+    "artist": "Automatic",
+    "album": "Black Box (Nick Zinner Remix)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 25,
+      "last": "2026-11-04T00:32:36Z"
+     }
+    }
+   },
+   {
+    "artist": "Cut Chemist",
+    "album": "Simetachin (featuring Derib Zenebe and Dexter Story)",
+    "year": null,
+    "stations": {
+     "kcrw": {
+      "plays": 24,
+      "last": "2026-11-04T08:16:56Z"
      }
     }
    },
@@ -36755,19 +37314,19 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 26,
-      "last": "2026-11-04T01:21:40Z"
+      "plays": 24,
+      "last": "2026-11-04T08:09:49Z"
      }
     }
    },
    {
-    "artist": "Beck",
-    "album": "Run Away",
-    "year": "2026",
+    "artist": "Homeboy Sandman",
+    "album": "TWENTYFOURSEVEN (feat. Jack Splash)",
+    "year": null,
     "stations": {
      "kcrw": {
-      "plays": 26,
-      "last": "2026-11-03T20:05:27Z"
+      "plays": 24,
+      "last": "2026-11-04T05:10:51Z"
      }
     }
    },
@@ -36781,30 +37340,8 @@
       "last": "2026-10-30T04:19:53Z"
      },
      "kcrw": {
-      "plays": 23,
+      "plays": 21,
       "last": "2026-11-04T00:19:12Z"
-     }
-    }
-   },
-   {
-    "artist": "Cut Chemist",
-    "album": "Simetachin (featuring Derib Zenebe and Dexter Story)",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 25,
-      "last": "2026-11-03T22:23:11Z"
-     }
-    }
-   },
-   {
-    "artist": "Tobiahs & VV-Ace",
-    "album": "Where You Really Come From",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 25,
-      "last": "2026-11-03T23:02:55Z"
      }
     }
    },
@@ -36814,8 +37351,19 @@
     "year": null,
     "stations": {
      "kcrw": {
-      "plays": 24,
-      "last": "2026-11-03T22:18:00Z"
+      "plays": 23,
+      "last": "2026-11-04T03:51:51Z"
+     }
+    }
+   },
+   {
+    "artist": "Beck",
+    "album": "Run Away",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 23,
+      "last": "2026-11-04T03:23:35Z"
      }
     }
    },
@@ -36825,45 +37373,12 @@
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 21,
-      "last": "2026-11-03T19:44:11Z"
+      "plays": 20,
+      "last": "2026-11-04T04:04:20Z"
      },
      "triple-j": {
       "plays": 2,
       "last": "2026-10-30T00:27:53Z"
-     }
-    }
-   },
-   {
-    "artist": "Fat Dog",
-    "album": "Snakes",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 22,
-      "last": "2026-11-04T00:28:27Z"
-     }
-    }
-   },
-   {
-    "artist": "Steady Holiday",
-    "album": "Good God",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 22,
-      "last": "2026-11-03T20:28:58Z"
-     }
-    }
-   },
-   {
-    "artist": "Anderson Paak",
-    "album": "A Good Day (Clean)",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 22,
-      "last": "2026-11-03T17:08:13Z"
      }
     }
    },
@@ -36874,7 +37389,18 @@
     "stations": {
      "triple-j": {
       "plays": 22,
-      "last": "2026-11-04T00:45:07Z"
+      "last": "2026-11-04T05:22:27Z"
+     }
+    }
+   },
+   {
+    "artist": "Steady Holiday",
+    "album": "Good God",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 21,
+      "last": "2026-11-04T06:24:16Z"
      }
     }
    },
@@ -36884,8 +37410,60 @@
     "year": "2026",
     "stations": {
      "triple-j": {
-      "plays": 22,
-      "last": "2026-11-03T05:02:54Z"
+      "plays": 21,
+      "last": "2026-11-04T07:24:33Z"
+     }
+    }
+   },
+   {
+    "artist": "Fontaines D.C.",
+    "album": "Japan",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-10-28T21:27:02Z"
+     },
+     "kcrw": {
+      "plays": 1,
+      "last": "2026-11-02T01:26:48Z"
+     },
+     "triple-j": {
+      "plays": 18,
+      "last": "2026-11-04T04:28:53Z"
+     }
+    }
+   },
+   {
+    "artist": "Fat Dog",
+    "album": "Snakes",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 20,
+      "last": "2026-11-04T09:04:02Z"
+     }
+    }
+   },
+   {
+    "artist": "Anderson Paak",
+    "album": "A Good Day (Clean)",
+    "year": null,
+    "stations": {
+     "kcrw": {
+      "plays": 20,
+      "last": "2026-11-04T03:10:45Z"
+     }
+    }
+   },
+   {
+    "artist": "Rachel Chinouriri",
+    "album": "Broken chair",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 20,
+      "last": "2026-11-04T04:03:15Z"
      }
     }
    },
@@ -36899,19 +37477,8 @@
       "last": "2026-11-02T00:34:19Z"
      },
      "kcrw": {
-      "plays": 20,
-      "last": "2026-11-03T17:53:07Z"
-     }
-    }
-   },
-   {
-    "artist": "Meshell Ndegeocello",
-    "album": "Don't You Want Me (with Cat Power)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 21,
-      "last": "2026-11-03T18:01:04Z"
+      "plays": 18,
+      "last": "2026-11-04T08:32:58Z"
      }
     }
    },
@@ -36921,93 +37488,8 @@
     "year": null,
     "stations": {
      "kcrw": {
-      "plays": 21,
-      "last": "2026-11-03T16:03:54Z"
-     }
-    }
-   },
-   {
-    "artist": "Rachel Chinouriri",
-    "album": "Broken chair",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 21,
-      "last": "2026-11-03T21:38:25Z"
-     }
-    }
-   },
-   {
-    "artist": "Fontaines D.C.",
-    "album": "Japan",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 2,
-      "last": "2026-10-28T21:27:02Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-11-02T01:26:48Z"
-     },
-     "triple-j": {
-      "plays": 17,
-      "last": "2026-11-03T22:02:54Z"
-     }
-    }
-   },
-   {
-    "artist": "DJ Dave",
-    "album": "Hard Refresh",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 20,
-      "last": "2026-11-03T22:14:09Z"
-     }
-    }
-   },
-   {
-    "artist": "tickertape",
-    "album": "Crocodile Song",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 20,
-      "last": "2026-11-03T21:50:30Z"
-     }
-    }
-   },
-   {
-    "artist": "RIO KOSTA",
-    "album": "Slowly",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 20,
-      "last": "2026-11-03T21:46:56Z"
-     }
-    }
-   },
-   {
-    "artist": "BODEGA",
-    "album": "Weather Me",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 20,
-      "last": "2026-11-03T08:54:04Z"
-     }
-    }
-   },
-   {
-    "artist": "Florence Road",
-    "album": "Wish Upon You",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 20,
-      "last": "2026-11-03T21:48:51Z"
+      "plays": 19,
+      "last": "2026-11-04T07:09:45Z"
      }
     }
    },
@@ -37017,63 +37499,19 @@
     "year": "2026",
     "stations": {
      "triple-j": {
-      "plays": 20,
-      "last": "2026-11-03T01:06:43Z"
-     }
-    }
-   },
-   {
-    "artist": "The Avalanches",
-    "album": "Far Away (feat. with John Glacier and Khadija Al Hanafi)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
       "plays": 19,
-      "last": "2026-11-03T18:09:31Z"
+      "last": "2026-11-04T06:11:28Z"
      }
     }
    },
    {
-    "artist": "half-alive",
-    "album": "The Wolf",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 19,
-      "last": "2026-11-03T17:14:23Z"
-     }
-    }
-   },
-   {
-    "artist": "Sycco",
-    "album": "I've Loved and I've Lost",
+    "artist": "Florence Road",
+    "album": "Wish Upon You",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 19,
-      "last": "2026-11-03T22:33:36Z"
-     }
-    }
-   },
-   {
-    "artist": "The Avalanches",
-    "album": "The Pavements Light (feat. Haruomi Hosono)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 18,
-      "last": "2026-11-03T22:46:22Z"
-     }
-    }
-   },
-   {
-    "artist": "Boy Harsher",
-    "album": "Pray 4 Me",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 18,
-      "last": "2026-11-03T10:04:49Z"
+      "last": "2026-11-04T02:09:58Z"
      }
     }
    },
@@ -37091,19 +37529,129 @@
       "last": "2026-10-29T04:04:23Z"
      },
      "triple-j": {
-      "plays": 14,
-      "last": "2026-11-03T18:19:37Z"
+      "plays": 15,
+      "last": "2026-11-04T04:17:36Z"
      }
     }
    },
    {
-    "artist": "sparklmami",
-    "album": "grounded",
+    "artist": "tickertape",
+    "album": "Crocodile Song",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 16,
-      "last": "2026-11-03T18:51:33Z"
+      "plays": 18,
+      "last": "2026-11-04T05:42:43Z"
+     }
+    }
+   },
+   {
+    "artist": "RIO KOSTA",
+    "album": "Slowly",
+    "year": null,
+    "stations": {
+     "kcrw": {
+      "plays": 18,
+      "last": "2026-11-04T05:24:27Z"
+     }
+    }
+   },
+   {
+    "artist": "half-alive",
+    "album": "The Wolf",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 18,
+      "last": "2026-11-04T02:32:43Z"
+     }
+    }
+   },
+   {
+    "artist": "DJ Dave",
+    "album": "Hard Refresh",
+    "year": null,
+    "stations": {
+     "kcrw": {
+      "plays": 18,
+      "last": "2026-11-03T22:14:09Z"
+     }
+    }
+   },
+   {
+    "artist": "Meshell Ndegeocello",
+    "album": "Don't You Want Me (with Cat Power)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 18,
+      "last": "2026-11-03T18:01:04Z"
+     }
+    }
+   },
+   {
+    "artist": "Sycco",
+    "album": "I've Loved and I've Lost",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 18,
+      "last": "2026-11-04T02:36:12Z"
+     }
+    }
+   },
+   {
+    "artist": "The Avalanches",
+    "album": "Far Away (feat. with John Glacier and Khadija Al Hanafi)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 17,
+      "last": "2026-11-04T05:31:57Z"
+     }
+    }
+   },
+   {
+    "artist": "Boy Harsher",
+    "album": "Pray 4 Me",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 17,
+      "last": "2026-11-04T03:27:10Z"
+     }
+    }
+   },
+   {
+    "artist": "BODEGA",
+    "album": "Weather Me",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 17,
+      "last": "2026-11-04T03:13:13Z"
+     }
+    }
+   },
+   {
+    "artist": "Miss Kaninna & Kobie Dee",
+    "album": "LOOK AT ME NOW",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 17,
+      "last": "2026-11-04T08:56:37Z"
+     }
+    }
+   },
+   {
+    "artist": "Troye Sivan",
+    "album": "FF",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 17,
+      "last": "2026-11-04T01:28:15Z"
      }
     }
    },
@@ -37119,24 +37667,13 @@
     }
    },
    {
-    "artist": "Miss Kaninna & Kobie Dee",
-    "album": "LOOK AT ME NOW",
+    "artist": "Blusher",
+    "album": "mrs brightside",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 16,
-      "last": "2026-11-03T22:44:51Z"
-     }
-    }
-   },
-   {
-    "artist": "Troye Sivan",
-    "album": "FF",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 16,
-      "last": "2026-11-03T19:26:09Z"
+      "last": "2026-11-04T09:01:35Z"
      }
     }
    },
@@ -37147,18 +37684,18 @@
     "stations": {
      "triple-j": {
       "plays": 16,
-      "last": "2026-11-03T17:32:22Z"
+      "last": "2026-11-04T01:40:31Z"
      }
     }
    },
    {
-    "artist": "Michael Kiwanuka",
-    "album": "Just Another Moment",
+    "artist": "The Avalanches",
+    "album": "The Pavements Light (feat. Haruomi Hosono)",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 15,
-      "last": "2026-11-03T21:25:39Z"
+      "last": "2026-11-03T22:46:22Z"
      }
     }
    },
@@ -37169,29 +37706,18 @@
     "stations": {
      "triple-j": {
       "plays": 15,
-      "last": "2026-11-03T21:17:42Z"
+      "last": "2026-11-04T02:28:49Z"
      }
     }
    },
    {
-    "artist": "Marsh",
-    "album": "One Love (Feat. Lyves)",
+    "artist": "sparklmami",
+    "album": "grounded",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 14,
-      "last": "2026-11-03T23:11:14Z"
-     }
-    }
-   },
-   {
-    "artist": "Girl Ultra",
-    "album": "Denisse",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 14,
-      "last": "2026-11-03T23:08:00Z"
+      "last": "2026-11-04T01:54:55Z"
      }
     }
    },
@@ -37202,18 +37728,7 @@
     "stations": {
      "triple-j": {
       "plays": 14,
-      "last": "2026-11-04T00:28:11Z"
-     }
-    }
-   },
-   {
-    "artist": "Velvet Trip",
-    "album": "Fake Tree",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 14,
-      "last": "2026-11-03T23:51:07Z"
+      "last": "2026-11-04T04:56:00Z"
      }
     }
    },
@@ -37229,68 +37744,35 @@
     }
    },
    {
-    "artist": "Seasick Steve",
-    "album": "The Last Season of America",
-    "year": null,
+    "artist": "Michael Kiwanuka",
+    "album": "Just Another Moment",
+    "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 13,
-      "last": "2026-11-03T20:01:00Z"
+      "last": "2026-11-04T07:51:09Z"
      }
     }
    },
    {
-    "artist": "1LDK",
-    "album": "Spring Dream",
-    "year": "2025",
+    "artist": "Marsh",
+    "album": "One Love (Feat. Lyves)",
+    "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 13,
-      "last": "2026-11-03T17:31:38Z"
+      "last": "2026-11-04T05:50:34Z"
      }
     }
    },
    {
-    "artist": "Yukimi",
-    "album": "Vann du livet (feat Dina Ögon)",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 13,
-      "last": "2026-11-03T15:45:46Z"
-     }
-    }
-   },
-   {
-    "artist": "Blusher",
-    "album": "mrs brightside",
+    "artist": "Velvet Trip",
+    "album": "Fake Tree",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 13,
-      "last": "2026-11-03T21:02:54Z"
-     }
-    }
-   },
-   {
-    "artist": "Fat Dog",
-    "album": "Cancel Me (I’m Tired)",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 13,
-      "last": "2026-11-03T14:19:08Z"
-     }
-    }
-   },
-   {
-    "artist": "Stand Atlantic",
-    "album": "NEXT2U",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 13,
-      "last": "2026-11-01T16:18:44Z"
+      "last": "2026-11-03T23:51:07Z"
      }
     }
    },
@@ -37314,105 +37796,35 @@
     }
    },
    {
-    "artist": "Thomas Dybdahl",
-    "album": "My Soul is On Fire",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 12,
-      "last": "2026-11-04T01:05:05Z"
-     }
-    }
-   },
-   {
-    "artist": "Haruomi Hosono",
-    "album": "M for Mandala",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 11,
-      "last": "2026-11-03T23:16:03Z"
-     },
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-31T00:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Dorian Electra",
-    "album": "The Model",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 12,
-      "last": "2026-11-03T20:50:21Z"
-     }
-    }
-   },
-   {
     "artist": "Bonobo",
     "album": "Always On Your Side (feat. Joy Crookes)",
     "year": null,
     "stations": {
      "kcrw": {
       "plays": 12,
-      "last": "2026-11-03T19:36:36Z"
+      "last": "2026-11-04T07:44:09Z"
      }
     }
    },
    {
-    "artist": "Andy Shauf",
-    "album": "eyes of them all (demo)",
-    "year": "2026",
+    "artist": "1LDK",
+    "album": "Spring Dream",
+    "year": "2025",
     "stations": {
      "kcrw": {
       "plays": 12,
-      "last": "2026-11-03T19:05:24Z"
+      "last": "2026-11-04T04:36:37Z"
      }
     }
    },
    {
-    "artist": "Soda Blonde",
-    "album": "My Violence",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 12,
-      "last": "2026-11-03T16:23:53Z"
-     }
-    }
-   },
-   {
-    "artist": "Harmony Index",
-    "album": "Easy Way Out",
+    "artist": "Seasick Steve",
+    "album": "The Last Season of America",
     "year": null,
     "stations": {
      "kcrw": {
       "plays": 12,
-      "last": "2026-11-03T14:50:22Z"
-     }
-    }
-   },
-   {
-    "artist": "Jim James",
-    "album": "Lost Child",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 12,
-      "last": "2026-11-03T11:22:21Z"
-     }
-    }
-   },
-   {
-    "artist": "Babe Rainbow",
-    "album": "Mangoes",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 12,
-      "last": "2026-11-03T10:29:16Z"
+      "last": "2026-11-03T20:01:00Z"
      }
     }
    },
@@ -37428,6 +37840,50 @@
     }
    },
    {
+    "artist": "Becca Hatch",
+    "album": "Extra Time",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 12,
+      "last": "2026-11-04T08:22:40Z"
+     }
+    }
+   },
+   {
+    "artist": "Clancy",
+    "album": "Oh Why",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 12,
+      "last": "2026-11-04T05:28:50Z"
+     }
+    }
+   },
+   {
+    "artist": "Slayyyter",
+    "album": "I think he's got a girl",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 12,
+      "last": "2026-11-04T03:14:15Z"
+     }
+    }
+   },
+   {
+    "artist": "Stand Atlantic",
+    "album": "NEXT2U",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 12,
+      "last": "2026-11-04T02:24:07Z"
+     }
+    }
+   },
+   {
     "artist": "Dominic Fike",
     "album": "Wallflower",
     "year": "2026",
@@ -37439,13 +37895,13 @@
     }
    },
    {
-    "artist": "Slayyyter",
-    "album": "I think he's got a girl",
+    "artist": "Fat Dog",
+    "album": "Cancel Me (I’m Tired)",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 12,
-      "last": "2026-11-03T20:17:43Z"
+      "last": "2026-11-03T14:19:08Z"
      }
     }
    },
@@ -37465,46 +37921,116 @@
     }
    },
    {
-    "artist": "Baby Rose",
-    "album": "Let Me Go",
+    "artist": "Haruomi Hosono",
+    "album": "M for Mandala",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 11,
-      "last": "2026-11-03T22:29:56Z"
+      "plays": 10,
+      "last": "2026-11-04T08:07:49Z"
+     },
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-31T00:00:00Z"
      }
     }
    },
    {
-    "artist": "Danielle Ponder",
-    "album": "Laurel Canyon",
+    "artist": "Soda Blonde",
+    "album": "My Violence",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 11,
-      "last": "2026-11-03T14:42:18Z"
+      "last": "2026-11-04T06:47:15Z"
      }
     }
    },
    {
-    "artist": "Dana and Alden",
-    "album": "Lee's Greenhouse [feat. Mei Semones]",
-    "year": "2026",
+    "artist": "Yukimi",
+    "album": "Vann du livet (feat Dina Ögon)",
+    "year": null,
     "stations": {
      "kcrw": {
       "plays": 11,
-      "last": "2026-11-03T14:11:28Z"
+      "last": "2026-11-04T05:47:07Z"
      }
     }
    },
    {
-    "artist": "Storefront Church",
-    "album": "Wilhelmina",
+    "artist": "Babe Rainbow",
+    "album": "Mangoes",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 11,
-      "last": "2026-11-03T09:04:50Z"
+      "last": "2026-11-04T01:47:31Z"
+     }
+    }
+   },
+   {
+    "artist": "Jim James",
+    "album": "Lost Child",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 11,
+      "last": "2026-11-04T01:40:19Z"
+     }
+    }
+   },
+   {
+    "artist": "Girl Ultra",
+    "album": "Denisse",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 11,
+      "last": "2026-11-03T23:08:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Dorian Electra",
+    "album": "The Model",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 11,
+      "last": "2026-11-03T20:50:21Z"
+     }
+    }
+   },
+   {
+    "artist": "Memphis LK",
+    "album": "Are you holding on?",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 11,
+      "last": "2026-11-04T07:52:32Z"
+     }
+    }
+   },
+   {
+    "artist": "Cherry Chola & Chico Sonido",
+    "album": "The Pink Room",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 11,
+      "last": "2026-11-04T02:04:06Z"
+     }
+    }
+   },
+   {
+    "artist": "fakemink & Skepta",
+    "album": "Chiltern Firehouse .",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 11,
+      "last": "2026-11-04T01:54:31Z"
      }
     }
    },
@@ -37531,79 +38057,13 @@
     }
    },
    {
-    "artist": "fakemink & Skepta",
-    "album": "Chiltern Firehouse .",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 11,
-      "last": "2026-11-03T16:39:17Z"
-     }
-    }
-   },
-   {
-    "artist": "Clancy",
-    "album": "Oh Why",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 11,
-      "last": "2026-11-03T14:25:47Z"
-     }
-    }
-   },
-   {
-    "artist": "Agnes Obel",
-    "album": "The Meaning of Flowers",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 10,
-      "last": "2026-11-04T00:52:16Z"
-     }
-    }
-   },
-   {
-    "artist": "Sierra Ferrell",
-    "album": "Trying to Love You",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 10,
-      "last": "2026-11-03T22:01:01Z"
-     }
-    }
-   },
-   {
-    "artist": "John Mayer",
-    "album": "Tom and Jerry",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 10,
-      "last": "2026-11-03T20:40:26Z"
-     }
-    }
-   },
-   {
-    "artist": "The Womack Sisters",
-    "album": "If I Let You",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 10,
-      "last": "2026-11-03T18:05:38Z"
-     }
-    }
-   },
-   {
     "artist": "Andrea Bejar",
     "album": "Te Vas a Arrepentir (Don’t Hurt Him)",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 10,
-      "last": "2026-11-03T15:26:34Z"
+      "last": "2026-11-04T08:47:27Z"
      }
     }
    },
@@ -37614,62 +38074,106 @@
     "stations": {
      "kcrw": {
       "plays": 10,
-      "last": "2026-11-03T14:31:24Z"
+      "last": "2026-11-04T08:39:47Z"
      }
     }
    },
    {
-    "artist": "Agnes Obel",
-    "album": "Laymelli",
+    "artist": "Thomas Dybdahl",
+    "album": "My Soul is On Fire",
     "year": null,
     "stations": {
      "kcrw": {
       "plays": 10,
-      "last": "2026-11-03T08:12:05Z"
+      "last": "2026-11-04T08:04:44Z"
      }
     }
    },
    {
-    "artist": "BODEGA",
-    "album": "Literary World",
+    "artist": "The Womack Sisters",
+    "album": "If I Let You",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 10,
-      "last": "2026-11-02T04:34:42Z"
+      "last": "2026-11-04T02:05:07Z"
      }
     }
    },
    {
-    "artist": "The Chats",
-    "album": "Off It",
+    "artist": "Andy Shauf",
+    "album": "eyes of them all (demo)",
     "year": "2026",
     "stations": {
-     "triple-j": {
+     "kcrw": {
       "plays": 10,
-      "last": "2026-11-04T00:16:49Z"
+      "last": "2026-11-03T19:05:24Z"
      }
     }
    },
    {
-    "artist": "Memphis LK",
-    "album": "Are you holding on?",
-    "year": "2026",
+    "artist": "Harmony Index",
+    "album": "Easy Way Out",
+    "year": null,
     "stations": {
-     "triple-j": {
+     "kcrw": {
       "plays": 10,
-      "last": "2026-11-03T23:23:35Z"
+      "last": "2026-11-03T14:50:22Z"
      }
     }
    },
    {
-    "artist": "Becca Hatch",
-    "album": "Extra Time",
+    "artist": "Danielle Ponder",
+    "album": "Laurel Canyon",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 10,
+      "last": "2026-11-03T14:42:18Z"
+     }
+    }
+   },
+   {
+    "artist": "Dana and Alden",
+    "album": "Lee's Greenhouse [feat. Mei Semones]",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 10,
+      "last": "2026-11-03T14:11:28Z"
+     }
+    }
+   },
+   {
+    "artist": "Larissa Lambert",
+    "album": "Yearning",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 10,
-      "last": "2026-11-03T21:42:51Z"
+      "last": "2026-11-04T08:43:30Z"
+     }
+    }
+   },
+   {
+    "artist": "GRUB",
+    "album": "Goal Post",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 10,
+      "last": "2026-11-04T08:04:44Z"
+     }
+    }
+   },
+   {
+    "artist": "Swapmeet",
+    "album": "Halfway",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 10,
+      "last": "2026-11-04T05:47:56Z"
      }
     }
    },
@@ -37696,39 +38200,13 @@
     }
    },
    {
-    "artist": "Cherry Chola & Chico Sonido",
-    "album": "The Pink Room",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 10,
-      "last": "2026-11-03T13:37:54Z"
-     }
-    }
-   },
-   {
-    "artist": "Remi Wolf",
-    "album": "Jamie",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-29T01:09:37Z"
-     },
-     "kcrw": {
-      "plays": 8,
-      "last": "2026-11-03T23:41:14Z"
-     }
-    }
-   },
-   {
-    "artist": "Steady Holiday",
-    "album": "New Generation",
+    "artist": "June McDoom",
+    "album": "Dream Dub",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 9,
-      "last": "2026-11-02T23:10:41Z"
+      "last": "2026-11-04T09:11:18Z"
      }
     }
    },
@@ -37739,29 +38217,95 @@
     "stations": {
      "kcrw": {
       "plays": 9,
-      "last": "2026-11-02T22:13:10Z"
+      "last": "2026-11-04T03:54:06Z"
      }
     }
    },
    {
-    "artist": "Larissa Lambert",
-    "album": "Yearning",
+    "artist": "John Mayer",
+    "album": "Tom and Jerry",
     "year": "2026",
     "stations": {
-     "triple-j": {
+     "kcrw": {
       "plays": 9,
-      "last": "2026-11-04T00:35:45Z"
+      "last": "2026-11-04T02:40:11Z"
      }
     }
    },
    {
-    "artist": "effe",
-    "album": "Tears Always Burn",
+    "artist": "Agnes Obel",
+    "album": "The Meaning of Flowers",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 9,
+      "last": "2026-11-04T00:52:16Z"
+     }
+    }
+   },
+   {
+    "artist": "Baby Rose",
+    "album": "Let Me Go",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 9,
+      "last": "2026-11-03T22:29:56Z"
+     }
+    }
+   },
+   {
+    "artist": "Sierra Ferrell",
+    "album": "Trying to Love You",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 9,
+      "last": "2026-11-03T22:01:01Z"
+     }
+    }
+   },
+   {
+    "artist": "Storefront Church",
+    "album": "Wilhelmina",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 9,
+      "last": "2026-11-03T09:04:50Z"
+     }
+    }
+   },
+   {
+    "artist": "BODEGA",
+    "album": "Literary World",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 9,
+      "last": "2026-11-02T04:34:42Z"
+     }
+    }
+   },
+   {
+    "artist": "The Chats",
+    "album": "Off It",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 9,
-      "last": "2026-11-03T23:10:35Z"
+      "last": "2026-11-04T04:34:58Z"
+     }
+    }
+   },
+   {
+    "artist": "Public Figures",
+    "album": "Push My Buttons",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 9,
+      "last": "2026-11-04T02:47:52Z"
      }
     }
    },
@@ -37788,50 +38332,6 @@
     }
    },
    {
-    "artist": "Swapmeet",
-    "album": "Halfway",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 9,
-      "last": "2026-11-03T08:27:29Z"
-     }
-    }
-   },
-   {
-    "artist": "GRUB",
-    "album": "Goal Post",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 9,
-      "last": "2026-11-03T04:22:18Z"
-     }
-    }
-   },
-   {
-    "artist": "Vv Pete & UTILITY",
-    "album": "Back Into It",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 9,
-      "last": "2026-11-03T02:48:41Z"
-     }
-    }
-   },
-   {
-    "artist": "Lizzy McAlpine",
-    "album": "Ugly things",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 9,
-      "last": "2026-11-02T17:23:24Z"
-     }
-    }
-   },
-   {
     "artist": "STÜM",
     "album": "Way To High",
     "year": "2026",
@@ -37843,46 +38343,13 @@
     }
    },
    {
-    "artist": "June McDoom",
-    "album": "Dream Dub",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 8,
-      "last": "2026-11-03T18:24:04Z"
-     }
-    }
-   },
-   {
     "artist": "Ashe",
     "album": "Sunburn",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 8,
-      "last": "2026-11-03T12:39:21Z"
-     }
-    }
-   },
-   {
-    "artist": "Dorian Electra",
-    "album": "Young Folks",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 8,
-      "last": "2026-11-03T12:22:39Z"
-     }
-    }
-   },
-   {
-    "artist": "Michael Kiwanuka",
-    "album": "Sing",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 8,
-      "last": "2026-11-03T06:07:46Z"
+      "last": "2026-11-04T07:01:00Z"
      }
     }
    },
@@ -37893,18 +38360,95 @@
     "stations": {
      "kcrw": {
       "plays": 8,
-      "last": "2026-11-03T01:12:35Z"
+      "last": "2026-11-04T06:03:27Z"
      }
     }
    },
    {
-    "artist": "Travis Scott",
-    "album": "RHYNO",
+    "artist": "Michael Kiwanuka",
+    "album": "Sing",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 8,
+      "last": "2026-11-04T03:04:38Z"
+     }
+    }
+   },
+   {
+    "artist": "Steady Holiday",
+    "album": "New Generation",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 8,
+      "last": "2026-11-04T02:51:29Z"
+     }
+    }
+   },
+   {
+    "artist": "Agnes Obel",
+    "album": "Laymelli",
+    "year": null,
+    "stations": {
+     "kcrw": {
+      "plays": 8,
+      "last": "2026-11-03T08:12:05Z"
+     }
+    }
+   },
+   {
+    "artist": "Olivia C. Dacal",
+    "album": "Take A Video",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 8,
-      "last": "2026-11-03T23:27:34Z"
+      "last": "2026-11-04T07:37:37Z"
+     }
+    }
+   },
+   {
+    "artist": "Daezy",
+    "album": "I WANT YOU",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 8,
+      "last": "2026-11-04T03:27:19Z"
+     }
+    }
+   },
+   {
+    "artist": "Skin On Skin",
+    "album": "Someone Like You",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 8,
+      "last": "2026-11-04T03:17:40Z"
+     }
+    }
+   },
+   {
+    "artist": "beabadoobee",
+    "album": "Write Me A Letter",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 8,
+      "last": "2026-11-04T01:25:04Z"
+     }
+    }
+   },
+   {
+    "artist": "effe",
+    "album": "Tears Always Burn",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 8,
+      "last": "2026-11-03T23:10:35Z"
      }
     }
    },
@@ -37920,17 +38464,6 @@
     }
    },
    {
-    "artist": "Skin On Skin",
-    "album": "Someone Like You",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 8,
-      "last": "2026-11-03T18:35:24Z"
-     }
-    }
-   },
-   {
     "artist": "Sam Alfred, Luuk Van Dijk & Storm Mollison",
     "album": "Connected By Light",
     "year": "2026",
@@ -37942,28 +38475,6 @@
     }
    },
    {
-    "artist": "beabadoobee",
-    "album": "Write Me A Letter",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 8,
-      "last": "2026-11-03T17:02:57Z"
-     }
-    }
-   },
-   {
-    "artist": "Public Figures",
-    "album": "Push My Buttons",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 8,
-      "last": "2026-11-03T16:36:33Z"
-     }
-    }
-   },
-   {
     "artist": "Rum Jungle",
     "album": "The Elephants Head",
     "year": "2026",
@@ -37971,17 +38482,6 @@
      "triple-j": {
       "plays": 8,
       "last": "2026-11-03T16:10:02Z"
-     }
-    }
-   },
-   {
-    "artist": "Odette",
-    "album": "AAAH!",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 8,
-      "last": "2026-11-03T15:44:59Z"
      }
     }
    },
@@ -38030,50 +38530,65 @@
     }
    },
    {
-    "artist": "Olivia C. Dacal",
-    "album": "Take A Video",
+    "artist": "Vv Pete & UTILITY",
+    "album": "Back Into It",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 8,
-      "last": "2026-11-02T18:53:30Z"
+      "last": "2026-11-03T02:48:41Z"
      }
     }
    },
    {
-    "artist": "Gurriers",
-    "album": "Waiting For Fisher",
+    "artist": "Lizzy McAlpine",
+    "album": "Ugly things",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 8,
-      "last": "2026-11-01T17:55:46Z"
+      "last": "2026-11-02T17:23:24Z"
      }
     }
    },
    {
-    "artist": "Fontaines D.C.",
-    "album": "Mimesis",
+    "artist": "girl in red",
+    "album": "blue",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 2,
+      "last": "2026-11-04T08:18:37Z"
+     },
+     "triple-j": {
+      "plays": 5,
+      "last": "2026-11-03T16:26:02Z"
+     }
+    }
+   },
+   {
+    "artist": "Remi Wolf",
+    "album": "Jamie",
     "year": "2026",
     "stations": {
      "kexp": {
       "plays": 1,
-      "last": "2026-10-28T15:24:09Z"
+      "last": "2026-10-29T01:09:37Z"
      },
      "kcrw": {
       "plays": 6,
-      "last": "2026-11-02T19:25:25Z"
+      "last": "2026-11-03T23:41:14Z"
      }
     }
    },
    {
-    "artist": "Meshell Ndegeocello",
-    "album": "Don't Look Any Further (with Lianne La Havas)",
+    "artist": "Dorian Electra",
+    "album": "Young Folks",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 7,
-      "last": "2026-11-03T22:10:10Z"
+      "last": "2026-11-03T12:22:39Z"
      }
     }
    },
@@ -38100,6 +38615,17 @@
      "kcrw": {
       "plays": 7,
       "last": "2026-11-02T06:31:47Z"
+     }
+    }
+   },
+   {
+    "artist": "Travis Scott",
+    "album": "RHYNO",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 7,
+      "last": "2026-11-03T23:27:34Z"
      }
     }
    },
@@ -38137,46 +38663,13 @@
     }
    },
    {
-    "artist": "iKeda",
-    "album": "Go!",
+    "artist": "Odette",
+    "album": "AAAH!",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 7,
-      "last": "2026-11-03T15:07:10Z"
-     }
-    }
-   },
-   {
-    "artist": "Newport",
-    "album": "Fickle",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 7,
-      "last": "2026-11-03T12:31:58Z"
-     }
-    }
-   },
-   {
-    "artist": "Daezy",
-    "album": "I WANT YOU",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 7,
-      "last": "2026-11-03T00:06:14Z"
-     }
-    }
-   },
-   {
-    "artist": "underscores",
-    "album": "The Peace",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 7,
-      "last": "2026-11-02T17:46:23Z"
+      "last": "2026-11-03T15:44:59Z"
      }
     }
    },
@@ -38214,43 +38707,61 @@
     }
    },
    {
-    "artist": "girl in red",
-    "album": "blue",
+    "artist": "Gurriers",
+    "album": "Waiting For Fisher",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 7,
+      "last": "2026-11-01T17:55:46Z"
+     }
+    }
+   },
+   {
+    "artist": "Fontaines D.C.",
+    "album": "Mimesis",
     "year": "2026",
     "stations": {
      "kexp": {
       "plays": 1,
-      "last": "2026-10-29T12:27:44Z"
-     },
-     "triple-j": {
-      "plays": 5,
-      "last": "2026-11-03T16:26:02Z"
-     }
-    }
-   },
-   {
-    "artist": "Dummy",
-    "album": "Touch the Perfect Speed",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 3,
-      "last": "2026-10-28T15:31:12Z"
+      "last": "2026-10-28T15:24:09Z"
      },
      "kcrw": {
-      "plays": 3,
-      "last": "2026-11-02T19:37:21Z"
+      "plays": 5,
+      "last": "2026-11-02T19:25:25Z"
      }
     }
    },
    {
-    "artist": "Roshâni",
-    "album": "Ángel",
+    "artist": "Meshell Ndegeocello",
+    "album": "I Got You Babe (with ANOHNI)",
     "year": "2026",
     "stations": {
      "kcrw": {
       "plays": 6,
-      "last": "2026-11-04T01:12:49Z"
+      "last": "2026-11-04T04:01:04Z"
+     }
+    }
+   },
+   {
+    "artist": "The Avalanches",
+    "album": "All The Time In The World (feat. Rivers Cuomo, Vegyn & Baby Marlboro)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 6,
+      "last": "2026-11-04T03:30:44Z"
+     }
+    }
+   },
+   {
+    "artist": "Meshell Ndegeocello",
+    "album": "Don't Look Any Further (with Lianne La Havas)",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 6,
+      "last": "2026-11-03T22:10:10Z"
      }
     }
    },
@@ -38266,17 +38777,6 @@
     }
    },
    {
-    "artist": "Meshell Ndegeocello",
-    "album": "I Got You Babe (with ANOHNI)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 6,
-      "last": "2026-11-02T19:11:58Z"
-     }
-    }
-   },
-   {
     "artist": "Remi Wolf",
     "album": "Covered In Mud",
     "year": "2026",
@@ -38288,6 +38788,39 @@
      "triple-j": {
       "plays": 4,
       "last": "2026-11-01T11:26:34Z"
+     }
+    }
+   },
+   {
+    "artist": "Nick Ward",
+    "album": "Jenny",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 6,
+      "last": "2026-11-04T05:39:32Z"
+     }
+    }
+   },
+   {
+    "artist": "RAYE",
+    "album": "The WhatsApp Shakespeare.",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 6,
+      "last": "2026-11-04T03:39:15Z"
+     }
+    }
+   },
+   {
+    "artist": "Tinashe",
+    "album": "Melatonin",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 6,
+      "last": "2026-11-04T02:39:50Z"
      }
     }
    },
@@ -38358,17 +38891,6 @@
     }
    },
    {
-    "artist": "Nick Ward",
-    "album": "Jenny",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 6,
-      "last": "2026-11-03T17:22:25Z"
-     }
-    }
-   },
-   {
     "artist": "Tove Lo",
     "album": "DNH",
     "year": "2026",
@@ -38380,13 +38902,24 @@
     }
    },
    {
-    "artist": "Nia Archives",
-    "album": "Boys In Blue",
+    "artist": "iKeda",
+    "album": "Go!",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 6,
-      "last": "2026-11-03T05:06:55Z"
+      "last": "2026-11-03T15:07:10Z"
+     }
+    }
+   },
+   {
+    "artist": "Newport",
+    "album": "Fickle",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 6,
+      "last": "2026-11-03T12:31:58Z"
      }
     }
    },
@@ -38398,6 +38931,17 @@
      "triple-j": {
       "plays": 6,
       "last": "2026-11-03T02:19:33Z"
+     }
+    }
+   },
+   {
+    "artist": "underscores",
+    "album": "The Peace",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 6,
+      "last": "2026-11-02T17:46:23Z"
      }
     }
    },
@@ -38424,6 +38968,17 @@
     }
    },
    {
+    "artist": "hazy waters",
+    "album": "blue",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 5,
+      "last": "2026-11-04T08:22:43Z"
+     }
+    }
+   },
+   {
     "artist": "Thao",
     "album": "Sick of the Times",
     "year": "2026",
@@ -38435,6 +38990,17 @@
      "kcrw": {
       "plays": 1,
       "last": "2026-11-03T19:17:46Z"
+     }
+    }
+   },
+   {
+    "artist": "Roshâni",
+    "album": "Ángel",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 5,
+      "last": "2026-11-04T01:12:49Z"
      }
     }
    },
@@ -38457,28 +39023,6 @@
      "kcrw": {
       "plays": 5,
       "last": "2026-11-03T18:12:03Z"
-     }
-    }
-   },
-   {
-    "artist": "Doner de la Son",
-    "album": "Cracula",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 5,
-      "last": "2026-11-03T17:10:40Z"
-     }
-    }
-   },
-   {
-    "artist": "The Avalanches",
-    "album": "All The Time In The World (feat. Rivers Cuomo, Vegyn & Baby Marlboro)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 5,
-      "last": "2026-11-03T00:48:46Z"
      }
     }
    },
@@ -38509,6 +39053,61 @@
     }
    },
    {
+    "artist": "Yung Maynie",
+    "album": "Too Late Now",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 5,
+      "last": "2026-11-04T09:14:40Z"
+     }
+    }
+   },
+   {
+    "artist": "Super Tight Hoodie Pull",
+    "album": "MAKE UP YOUR MIND",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 5,
+      "last": "2026-11-04T08:09:41Z"
+     }
+    }
+   },
+   {
+    "artist": "Egoism",
+    "album": "Summer Again, Sung to the End",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 5,
+      "last": "2026-11-04T07:11:58Z"
+     }
+    }
+   },
+   {
+    "artist": "Haute & Freddy",
+    "album": "Touch Touch",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 5,
+      "last": "2026-11-04T06:24:36Z"
+     }
+    }
+   },
+   {
+    "artist": "Stand Atlantic",
+    "album": "SO COOL",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 5,
+      "last": "2026-11-04T05:32:19Z"
+     }
+    }
+   },
+   {
     "artist": "Partiboi69 & KETTAMA",
     "album": "Pumpin",
     "year": "2026",
@@ -38520,17 +39119,6 @@
     }
    },
    {
-    "artist": "Gracie Abrams",
-    "album": "Minibar",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 5,
-      "last": "2026-11-03T23:49:10Z"
-     }
-    }
-   },
-   {
     "artist": "Radio Free Alice",
     "album": "Crying With You",
     "year": "2026",
@@ -38538,17 +39126,6 @@
      "triple-j": {
       "plays": 5,
       "last": "2026-11-03T23:06:55Z"
-     }
-    }
-   },
-   {
-    "artist": "Tinashe",
-    "album": "Melatonin",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 5,
-      "last": "2026-11-03T22:07:21Z"
      }
     }
    },
@@ -38630,24 +39207,13 @@
     }
    },
    {
-    "artist": "Haute & Freddy",
-    "album": "Touch Touch",
+    "artist": "Nia Archives",
+    "album": "Boys In Blue",
     "year": "2026",
     "stations": {
      "triple-j": {
       "plays": 5,
-      "last": "2026-11-03T03:36:02Z"
-     }
-    }
-   },
-   {
-    "artist": "RAYE",
-    "album": "The WhatsApp Shakespeare.",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 5,
-      "last": "2026-11-02T22:34:56Z"
+      "last": "2026-11-03T05:06:55Z"
      }
     }
    },
@@ -38685,6 +39251,25 @@
     }
    },
    {
+    "artist": "Genesis Owusu",
+    "album": "HUMAN AGAIN",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 2,
+      "last": "2026-11-04T09:10:43Z"
+     },
+     "kcrw": {
+      "plays": 1,
+      "last": "2026-10-29T16:41:47Z"
+     },
+     "triple-j": {
+      "plays": 1,
+      "last": "2026-11-03T14:40:28Z"
+     }
+    }
+   },
+   {
     "artist": "Let Your Hair Down",
     "album": "Love in the Time Of",
     "year": "2026",
@@ -38692,54 +39277,6 @@
      "kexp": {
       "plays": 4,
       "last": "2026-11-04T00:50:53Z"
-     }
-    }
-   },
-   {
-    "artist": "Ghost Funk Orchestra",
-    "album": "Leave Me Alone",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 3,
-      "last": "2026-11-04T00:32:59Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-28T03:11:34Z"
-     }
-    }
-   },
-   {
-    "artist": "Being Dead",
-    "album": "Man or Myth",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 4,
-      "last": "2026-11-03T20:42:30Z"
-     }
-    }
-   },
-   {
-    "artist": "hazy waters",
-    "album": "blue",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 4,
-      "last": "2026-11-03T19:09:27Z"
-     }
-    }
-   },
-   {
-    "artist": "Abyssinian Creole",
-    "album": "Kindred",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 4,
-      "last": "2026-11-03T12:42:38Z"
      }
     }
    },
@@ -38759,13 +39296,17 @@
     }
    },
    {
-    "artist": "Joy Oladokun",
-    "album": "The End of the World",
+    "artist": "Dummy",
+    "album": "Touch the Perfect Speed",
     "year": "2026",
     "stations": {
+     "kexp": {
+      "plays": 2,
+      "last": "2026-10-28T15:31:12Z"
+     },
      "kcrw": {
-      "plays": 4,
-      "last": "2026-11-03T19:14:07Z"
+      "plays": 2,
+      "last": "2026-11-02T19:37:21Z"
      }
     }
    },
@@ -38777,17 +39318,6 @@
      "kcrw": {
       "plays": 4,
       "last": "2026-11-02T03:13:03Z"
-     }
-    }
-   },
-   {
-    "artist": "Gabriels",
-    "album": "Break It (Feat. Say She She)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 4,
-      "last": "2026-11-02T01:30:16Z"
      }
     }
    },
@@ -38807,28 +39337,17 @@
     }
    },
    {
-    "artist": "Girl Ultra",
-    "album": "Ironía (Feat. Chromeo)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 4,
-      "last": "2026-10-31T21:27:00Z"
-     }
-    }
-   },
-   {
     "artist": "Westside Cowboy",
     "album": "Dobro",
     "year": "2026",
     "stations": {
      "kcrw": {
-      "plays": 2,
+      "plays": 1,
       "last": "2026-10-31T20:20:00Z"
      },
      "triple-j": {
-      "plays": 2,
-      "last": "2026-10-31T05:48:25Z"
+      "plays": 3,
+      "last": "2026-11-04T05:19:00Z"
      }
     }
    },
@@ -38844,6 +39363,87 @@
      "triple-j": {
       "plays": 3,
       "last": "2026-10-31T15:49:38Z"
+     }
+    }
+   },
+   {
+    "artist": "Dizzy Days",
+    "album": "Over & Over",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-04T08:13:35Z"
+     }
+    }
+   },
+   {
+    "artist": "Charli Lucas",
+    "album": "Sunburn",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-04T05:54:06Z"
+     }
+    }
+   },
+   {
+    "artist": "Zach Stephenson",
+    "album": "In N Out",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-04T04:11:45Z"
+     }
+    }
+   },
+   {
+    "artist": "Charlie Pittman & Paige",
+    "album": "glued",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-04T03:47:57Z"
+     }
+    }
+   },
+   {
+    "artist": "BOY SODA",
+    "album": "Chase Your Tail",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-04T02:20:13Z"
+     }
+    }
+   },
+   {
+    "artist": "Tyla",
+    "album": "KISS",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-04T01:37:13Z"
+     },
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-28T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Gracie Abrams",
+    "album": "Minibar",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 4,
+      "last": "2026-11-03T23:49:10Z"
      }
     }
    },
@@ -38877,17 +39477,6 @@
      "triple-j": {
       "plays": 4,
       "last": "2026-11-03T20:28:24Z"
-     }
-    }
-   },
-   {
-    "artist": "Ra Ra Viper",
-    "album": "Record Baby",
-    "year": "2025",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-03T18:22:09Z"
      }
     }
    },
@@ -38936,28 +39525,6 @@
     }
    },
    {
-    "artist": "Stand Atlantic",
-    "album": "SO COOL",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-03T15:40:30Z"
-     }
-    }
-   },
-   {
-    "artist": "Yung Maynie",
-    "album": "Too Late Now",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-03T12:39:26Z"
-     }
-    }
-   },
-   {
     "artist": "Anna Lunoe & Rush Davis",
     "album": "Bad Impression",
     "year": "2026",
@@ -38976,17 +39543,6 @@
      "triple-j": {
       "plays": 4,
       "last": "2026-11-03T04:55:01Z"
-     }
-    }
-   },
-   {
-    "artist": "A$AP Rocky",
-    "album": "AIR FORCE (BLACK DEMARCO)",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-03T01:32:49Z"
      }
     }
    },
@@ -39024,28 +39580,6 @@
     }
    },
    {
-    "artist": "Super Tight Hoodie Pull",
-    "album": "MAKE UP YOUR MIND",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-02T05:31:14Z"
-     }
-    }
-   },
-   {
-    "artist": "EGOISM",
-    "album": "Summer Again, Sung to the End",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-02T01:24:01Z"
-     }
-    }
-   },
-   {
     "artist": "Robert Baxter",
     "album": "BRB",
     "year": "2026",
@@ -39053,17 +39587,6 @@
      "triple-j": {
       "plays": 4,
       "last": "2026-11-02T00:34:13Z"
-     }
-    }
-   },
-   {
-    "artist": "BOY SODA",
-    "album": "Chase Your Tail",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-01T23:47:27Z"
      }
     }
    },
@@ -39079,17 +39602,6 @@
     }
    },
    {
-    "artist": "Charlie Pittman & Paige",
-    "album": "glued",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 4,
-      "last": "2026-11-01T17:49:55Z"
-     }
-    }
-   },
-   {
     "artist": "Interplanetary Criminal & Silva Bumpa",
     "album": "HOLD DA PHONE",
     "year": "2026",
@@ -39101,17 +39613,35 @@
     }
    },
    {
-    "artist": "Julia Jacklin",
-    "album": "The Hardest Thing",
+    "artist": "Vince Staples",
+    "album": "Tulsa, OK",
     "year": "2026",
     "stations": {
      "kexp": {
-      "plays": 2,
-      "last": "2026-11-03T20:59:40Z"
-     },
-     "triple-j": {
-      "plays": 1,
-      "last": "2026-10-28T08:12:20Z"
+      "plays": 3,
+      "last": "2026-11-04T02:15:08Z"
+     }
+    }
+   },
+   {
+    "artist": "Ghost Funk Orchestra",
+    "album": "Leave Me Alone",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 3,
+      "last": "2026-11-04T00:32:59Z"
+     }
+    }
+   },
+   {
+    "artist": "Being Dead",
+    "album": "Man or Myth",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 3,
+      "last": "2026-11-03T20:42:30Z"
      }
     }
    },
@@ -39138,6 +39668,17 @@
      "kexp": {
       "plays": 3,
       "last": "2026-11-03T19:22:56Z"
+     }
+    }
+   },
+   {
+    "artist": "Abyssinian Creole",
+    "album": "Kindred",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 3,
+      "last": "2026-11-03T12:42:38Z"
      }
     }
    },
@@ -39205,17 +39746,6 @@
     }
    },
    {
-    "artist": "Party Dozen",
-    "album": "Full Powers",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 3,
-      "last": "2026-11-02T20:50:57Z"
-     }
-    }
-   },
-   {
     "artist": "Shabazz Palaces",
     "album": "Tongue in Chic",
     "year": "2026",
@@ -39234,25 +39764,6 @@
      "kexp": {
       "plays": 3,
       "last": "2026-11-02T13:27:47Z"
-     }
-    }
-   },
-   {
-    "artist": "Genesis Owusu",
-    "album": "HUMAN AGAIN",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-11-01T23:17:47Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-29T16:41:47Z"
-     },
-     "triple-j": {
-      "plays": 1,
-      "last": "2026-11-03T14:40:28Z"
      }
     }
    },
@@ -39302,54 +39813,24 @@
     }
    },
    {
-    "artist": "Justice feat. Tame Impala, SZA & King Gizzard & the Lizard Wizard",
-    "album": "Flower in a Hurricane",
-    "year": "2026",
+    "artist": "Geese",
+    "album": "Bow Down",
+    "year": "2025",
     "stations": {
-     "kexp": {
-      "plays": 2,
-      "last": "2026-10-29T01:29:28Z"
-     },
-     "triple-j": {
-      "plays": 1,
-      "last": "2026-10-30T11:36:30Z"
-     }
-    }
-   },
-   {
-    "artist": "HAAi feat. Skybreak & Cantoalegre",
-    "album": "Talking Walls",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-28T11:04:38Z"
-     },
      "kcrw": {
-      "plays": 2,
-      "last": "2026-11-02T18:14:29Z"
+      "plays": 3,
+      "last": "2026-11-04T04:16:09Z"
      }
     }
    },
    {
-    "artist": "MRCY",
-    "album": "Angels",
+    "artist": "Doner de la Son",
+    "album": "Cracula",
     "year": null,
     "stations": {
      "kcrw": {
       "plays": 3,
-      "last": "2026-11-03T22:26:15Z"
-     }
-    }
-   },
-   {
-    "artist": "Dexter Story",
-    "album": "Fiat (Feat. Kibrom Birhane)",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 3,
-      "last": "2026-11-03T11:08:32Z"
+      "last": "2026-11-03T17:10:40Z"
      }
     }
    },
@@ -39365,6 +39846,17 @@
     }
    },
    {
+    "artist": "Joy Oladokun",
+    "album": "The End of the World",
+    "year": "2026",
+    "stations": {
+     "kcrw": {
+      "plays": 3,
+      "last": "2026-11-03T19:14:07Z"
+     }
+    }
+   },
+   {
     "artist": "Jungle",
     "album": "Natural",
     "year": "2026",
@@ -39372,17 +39864,6 @@
      "kcrw": {
       "plays": 3,
       "last": "2026-11-03T17:15:32Z"
-     }
-    }
-   },
-   {
-    "artist": "NoSo",
-    "album": "Sugar (Radio Edit)",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 3,
-      "last": "2026-11-02T21:26:10Z"
      }
     }
    },
@@ -39420,17 +39901,6 @@
     }
    },
    {
-    "artist": "The Flaming Lips",
-    "album": "God Will Control The Werewolves",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 3,
-      "last": "2026-11-02T19:21:40Z"
-     }
-    }
-   },
-   {
     "artist": "RIP Magic",
     "album": "Loverboy",
     "year": null,
@@ -39438,17 +39908,6 @@
      "kcrw": {
       "plays": 3,
       "last": "2026-11-02T18:39:36Z"
-     }
-    }
-   },
-   {
-    "artist": "Natalie Bergman",
-    "album": "White Oak",
-    "year": null,
-    "stations": {
-     "kcrw": {
-      "plays": 3,
-      "last": "2026-11-02T00:56:39Z"
      }
     }
    },
@@ -39471,17 +39930,6 @@
      "kcrw": {
       "plays": 3,
       "last": "2026-11-01T23:21:18Z"
-     }
-    }
-   },
-   {
-    "artist": "Peki Momes",
-    "album": "Ahşap Kutu",
-    "year": "2026",
-    "stations": {
-     "kcrw": {
-      "plays": 3,
-      "last": "2026-11-01T22:24:45Z"
      }
     }
    },
@@ -39534,13 +39982,57 @@
     }
    },
    {
-    "artist": "Ralphie Choo",
-    "album": "Amarillo nena",
+    "artist": "Stand Atlantic",
+    "album": "Favourite Flavour",
     "year": "2026",
     "stations": {
-     "kcrw": {
+     "triple-j": {
       "plays": 3,
-      "last": "2026-10-29T17:40:29Z"
+      "last": "2026-11-04T08:39:17Z"
+     }
+    }
+   },
+   {
+    "artist": "Sycco",
+    "album": "Look Up",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-04T05:07:41Z"
+     }
+    }
+   },
+   {
+    "artist": "Fool Nelson",
+    "album": "Big Shot",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-04T04:51:19Z"
+     }
+    }
+   },
+   {
+    "artist": "daine",
+    "album": "PQC",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-04T04:40:11Z"
+     }
+    }
+   },
+   {
+    "artist": "MADEN LANE",
+    "album": "TELL ME",
+    "year": "2025",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-04T02:43:29Z"
      }
     }
    },
@@ -39600,17 +40092,6 @@
     }
    },
    {
-    "artist": "Zach Stephenson",
-    "album": "In N Out",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-11-03T18:31:31Z"
-     }
-    }
-   },
-   {
     "artist": "Tyla",
     "album": "THAT GIRL",
     "year": "2026",
@@ -39622,13 +40103,13 @@
     }
    },
    {
-    "artist": "Esha Tewari",
-    "album": "Where Our Streets Met",
-    "year": "2026",
+    "artist": "Ra Ra Viper",
+    "album": "Record Baby",
+    "year": "2025",
     "stations": {
      "triple-j": {
       "plays": 3,
-      "last": "2026-11-03T17:51:16Z"
+      "last": "2026-11-03T18:22:09Z"
      }
     }
    },
@@ -39706,6 +40187,17 @@
      "triple-j": {
       "plays": 3,
       "last": "2026-11-03T01:36:27Z"
+     }
+    }
+   },
+   {
+    "artist": "A$AP Rocky",
+    "album": "AIR FORCE (BLACK DEMARCO)",
+    "year": "2026",
+    "stations": {
+     "triple-j": {
+      "plays": 3,
+      "last": "2026-11-03T01:32:49Z"
      }
     }
    },
@@ -39853,17 +40345,6 @@
     }
    },
    {
-    "artist": "Lottie McLeod",
-    "album": "Wednesdays at the Waterloo",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-11-02T08:10:39Z"
-     }
-    }
-   },
-   {
     "artist": "The Jungle Giants",
     "album": "A Moment Like That",
     "year": "2026",
@@ -39908,17 +40389,6 @@
     }
    },
    {
-    "artist": "Dizzy Days",
-    "album": "Over & Over",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-11-02T01:13:24Z"
-     }
-    }
-   },
-   {
     "artist": "Dean Turnley",
     "album": "Actin' Tough",
     "year": "2026",
@@ -39926,32 +40396,6 @@
      "triple-j": {
       "plays": 3,
       "last": "2026-11-02T00:56:53Z"
-     }
-    }
-   },
-   {
-    "artist": "DMA'S",
-    "album": "Heatin Park",
-    "year": "2025",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-11-01T21:48:04Z"
-     }
-    }
-   },
-   {
-    "artist": "Tyla",
-    "album": "KISS",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 2,
-      "last": "2026-11-01T17:36:29Z"
-     },
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-28T20:00:00Z"
      }
     }
    },
@@ -40022,17 +40466,6 @@
     }
    },
    {
-    "artist": "Charli Lucas",
-    "album": "Sunburn",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-10-31T22:23:44Z"
-     }
-    }
-   },
-   {
     "artist": "The Last Dinner Party",
     "album": "Knocking at the Sky",
     "year": "2026",
@@ -40040,28 +40473,6 @@
      "triple-j": {
       "plays": 3,
       "last": "2026-10-31T16:44:07Z"
-     }
-    }
-   },
-   {
-    "artist": "Clancy",
-    "album": "Sunshine, You're The Life of the Party",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-10-31T01:39:59Z"
-     }
-    }
-   },
-   {
-    "artist": "Remi Wolf",
-    "album": "I Won't Cry",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-10-30T17:35:09Z"
      }
     }
    },
@@ -40084,17 +40495,6 @@
      "triple-j": {
       "plays": 3,
       "last": "2026-10-29T20:05:27Z"
-     }
-    }
-   },
-   {
-    "artist": "Remi Wolf",
-    "album": "Wine Drunk",
-    "year": "2026",
-    "stations": {
-     "triple-j": {
-      "plays": 3,
-      "last": "2026-10-29T14:24:05Z"
      }
     }
    },
@@ -40215,21 +40615,6 @@
     }
    },
    {
-    "artist": "Fat Dog",
-    "album": "Heart of Darkness",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-11-03T01:44:51Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-27T16:50:08Z"
-     }
-    }
-   },
-   {
     "artist": "Genesis Owusu",
     "album": "PIRATE RADIO",
     "year": "2025",
@@ -40335,6 +40720,21 @@
     }
    },
    {
+    "artist": "Justice feat. Tame Impala, SZA & King Gizzard & the Lizard Wizard",
+    "album": "Flower in a Hurricane",
+    "year": "2026",
+    "stations": {
+     "kexp": {
+      "plays": 1,
+      "last": "2026-10-29T01:29:28Z"
+     },
+     "triple-j": {
+      "plays": 1,
+      "last": "2026-10-30T11:36:30Z"
+     }
+    }
+   },
+   {
     "artist": "Ora the Molecule",
     "album": "Løveskatt",
     "year": "2025",
@@ -40365,32 +40765,17 @@
     }
    },
    {
-    "artist": "Teilz",
-    "album": "pretty please",
+    "artist": "HAAi feat. Skybreak & Cantoalegre",
+    "album": "Talking Walls",
     "year": "2026",
     "stations": {
      "kexp": {
       "plays": 1,
-      "last": "2026-10-28T16:04:18Z"
+      "last": "2026-10-28T11:04:38Z"
      },
      "kcrw": {
       "plays": 1,
-      "last": "2026-10-28T03:25:53Z"
-     }
-    }
-   },
-   {
-    "artist": "Dead Man's Bones",
-    "album": "Lost in the Night",
-    "year": "2026",
-    "stations": {
-     "kexp": {
-      "plays": 1,
-      "last": "2026-10-28T05:50:59Z"
-     },
-     "kcrw": {
-      "plays": 1,
-      "last": "2026-10-28T18:36:46Z"
+      "last": "2026-11-02T18:14:29Z"
      }
     }
    },
@@ -40855,57 +41240,13 @@
     }
    },
    {
-    "artist": "Wisteria",
-    "album": "I Would Let You Hurt Me",
-    "year": "2026",
+    "artist": "Barbara Mason",
+    "album": "If You Knew Him Like I Do",
+    "year": "2025",
     "stations": {
      "nts": {
       "plays": 1,
-      "last": "2026-10-29T21:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Choir Boy",
-    "album": "I'll Always Let You Down",
-    "year": "2026",
-    "stations": {
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-29T21:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Beyoncé",
-    "album": "Morning Dew (Donk)",
-    "year": "2026",
-    "stations": {
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-28T20:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "Don Toliver",
-    "album": "Body",
-    "year": "2026",
-    "stations": {
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-28T20:00:00Z"
-     }
-    }
-   },
-   {
-    "artist": "UNIIQU3",
-    "album": "Mile High Club",
-    "year": "2026",
-    "stations": {
-     "nts": {
-      "plays": 1,
-      "last": "2026-10-28T20:00:00Z"
+      "last": "2026-11-03T00:00:00Z"
      }
     }
    },
@@ -41691,6 +42032,28 @@
     }
    },
    {
+    "artist": "Hot Cargo",
+    "album": "Whats In It For Me",
+    "year": "2025",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Ben Christensen",
+    "album": "Here Come The Lions",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
     "artist": "Baba Zula",
     "album": "Hak Bitmez Güç Bitee",
     "year": "2026",
@@ -41737,6 +42100,94 @@
    {
     "artist": "Susanne Lewis",
     "album": "Five Shades Of White",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Oshun Grizzly",
+    "album": "Call Me If You Need Me",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Joyce Wrice",
+    "album": "Wish I Knew",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Children Of Zeus",
+    "album": "Love Fades",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Cecily",
+    "album": "Your Smile",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Gabriel Jacoby",
+    "album": "Lets Talk About It",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Nomi",
+    "album": "Sweet Talk",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Cloe Mailly",
+    "album": "What I Know",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-11-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Chastity & Yaahn Hunter",
+    "album": "Let Go",
     "year": "2026",
     "stations": {
      "nts": {
@@ -43495,6 +43946,28 @@
     }
    },
    {
+    "artist": "Wisteria",
+    "album": "I Would Let You Hurt Me",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-29T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Choir Boy",
+    "album": "I'll Always Let You Down",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-29T00:00:00Z"
+     }
+    }
+   },
+   {
     "artist": "Zaf",
     "album": "don't/be/a/weirdo",
     "year": "2026",
@@ -43748,8 +44221,8 @@
     }
    },
    {
-    "artist": "Miles J Paralysis",
-    "album": "Don't Forget The Ritual",
+    "artist": "Carlos Giffoni, Ben Chasny",
+    "album": "Axis",
     "year": "2026",
     "stations": {
      "nts": {
@@ -43759,8 +44232,8 @@
     }
    },
    {
-    "artist": "Carlos Giffoni, Ben Chasny",
-    "album": "Axis",
+    "artist": "Miles J Paralysis",
+    "album": "Don't Forget The Ritual",
     "year": "2026",
     "stations": {
      "nts": {
@@ -43938,6 +44411,39 @@
     "artist": "Sheree Sano",
     "album": "Only Two",
     "year": "2025",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-28T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Beyoncé",
+    "album": "Morning Dew (Donk)",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-28T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "Don Toliver",
+    "album": "Body",
+    "year": "2026",
+    "stations": {
+     "nts": {
+      "plays": 1,
+      "last": "2026-10-28T00:00:00Z"
+     }
+    }
+   },
+   {
+    "artist": "UNIIQU3",
+    "album": "Mile High Club",
+    "year": "2026",
     "stations": {
      "nts": {
       "plays": 1,
