@@ -523,6 +523,61 @@ class RadioTests(unittest.TestCase):
         finally:
             b.fetch, b.time.sleep = real, real_sleep
 
+    def test_the_lead_artist_is_the_name_before_a_backing_band(self):
+        self.assertEqual(b.lead_artist("Johnny Blue Skies & The Dark Clouds"), "Johnny Blue Skies")
+        self.assertEqual(b.lead_artist("Avalon Emerson and the Charm"), "Avalon Emerson")
+        self.assertEqual(b.lead_artist("Duke Ellington with His Orchestra"), "Duke Ellington")
+        self.assertEqual(b.lead_artist("Florence + the Machine"), "Florence")
+        for whole in ["Simon & Garfunkel", "Belle and Sebastian", "Mumford & Sons", "The Band", "Floating Points, Pharoah Sanders", ""]:
+            self.assertEqual(b.lead_artist(whole), whole)
+
+    def test_an_album_credited_to_the_lead_alone_is_found(self):
+        def fetch(url, **_):
+            asked.append(url)
+            if "entity=album" in url:
+                return b.json.dumps({"results": [
+                    {"artistName": "Avalon Emerson", "collectionName": "Written Into Changes", "collectionId": 9,
+                     "releaseDate": "2026-05-01", "primaryGenreName": "Electronic"},
+                    {"artistName": "Avalon Emerson", "collectionName": "Something Else", "collectionId": 8}]})
+            return b.json.dumps({"results": []})
+
+        real, real_sleep, b.fetch, b.time.sleep = b.fetch, b.time.sleep, fetch, lambda _: None
+        try:
+            asked, cache = [], {}
+            hit = b.apple_lookup("Avalon Emerson & The Charm", "Written into Changes", cache)
+            self.assertEqual((hit["id"], hit["artist"]), ("9", "Avalon Emerson"))
+            self.assertEqual(len(asked), 1)     # the first search's answers already had it
+            # The title still has to match: another album by the lead isn't taken.
+            asked = []
+            self.assertIsNone(b.apple_lookup("Avalon Emerson & The Charm", "Not Out Yet", cache))
+            self.assertTrue(cache[b.key("Avalon Emerson & The Charm", "Not Out Yet")]["lead"])
+            # A miss saved before the lead was tried is tried again.
+            asked = []
+            old = {b.key("Avalon Emerson & The Charm", "Written into Changes"): {"missAt": b.dt.datetime.now(b.dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}}
+            self.assertEqual(b.apple_lookup("Avalon Emerson & The Charm", "Written into Changes", old)["id"], "9")
+        finally:
+            b.fetch, b.time.sleep = real, real_sleep
+
+    def test_a_recent_album_is_found_on_the_leads_own_page(self):
+        def fetch(url, **_):
+            asked.append(url)
+            if "entity=musicArtist" in url:
+                return b.json.dumps({"results": [{"artistName": "Johnny Blue Skies", "artistId": 5}]})
+            if "lookup?id=5" in url:
+                return b.json.dumps({"results": [
+                    {"wrapperType": "artist", "artistName": "Johnny Blue Skies"},
+                    {"wrapperType": "collection", "artistName": "Johnny Blue Skies", "collectionId": 7,
+                     "collectionName": "Mutiny After Midnight (OG Sequence)", "releaseDate": "2026-07-04"}]})
+            return b.json.dumps({"results": []})
+
+        real, real_sleep, b.fetch, b.time.sleep = b.fetch, b.time.sleep, fetch, lambda _: None
+        try:
+            asked = []
+            hit = b.apple_lookup("Johnny Blue Skies & The Dark Clouds", "Mutiny After Midnight", {})
+            self.assertEqual((hit["id"], hit["year"]), ("7", "2026"))
+        finally:
+            b.fetch, b.time.sleep = real, real_sleep
+
     def test_nts_only_picks_have_their_own_limit_and_need_a_year(self):
         def entry(source, score, year="2026"):
             return {"score": score, "mentions": [{"source": source, "year": year}]}

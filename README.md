@@ -191,6 +191,11 @@ page, marked `"soFar": true` in `lists.json`. The index doesn't keep mid-year li
 `midyear_lists.json` (outlet and address; add one there), and the feeds add any "so far" posts they carry. Once ten
 of the year's year-end lists can be read, the full year takes the "so far" page's place.
 
+Lists credit a backing band their own way ("Avalon Emerson & The Charm" on one, "Avalon Emerson" on another, and
+often just the lead on Apple Music), so albums are added up by the lead's name (`lead_artist`: only a band starting
+"the", "his", "her" or "their" comes off, so "Simon & Garfunkel" stays whole), and an Apple look-up that misses with
+the full credit tries the lead alone, the title still exact. The same look-up serves the feed.
+
 Last year's lists are kept up to the end of February; this year's are added from November. Pages are read once and
 kept in `lists_memory.json`; a run reads at most 150 new pages and makes 200 new Apple look-ups. `.github/workflows/lists.yml`
 runs it twice a day. Bump `VERSION` when the reading changes, so saved pages are read again.

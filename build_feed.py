@@ -866,6 +866,18 @@ def artist_names(artist):
     return [name.strip() for name in re.split(ARTIST_JOINS, artist, flags=re.I) if key(name, "") != "|"]
 
 
+# " & The Dark Clouds", " and the Charm", " with His Orchestra": a backing band named after the lead.
+BACKING = r"\s+(?:&|\+|\band\b|\bwith\b)\s+(?:the|his|her|their)\s+\S.*$"
+
+
+def lead_artist(artist):
+    """The name before a backing band: "Johnny Blue Skies & The Dark Clouds" is "Johnny Blue Skies", which is how
+    Apple Music often credits the record. Only a band that starts "the", "his", "her" or "their" is taken off, so
+    "Simon & Garfunkel" and "Belle and Sebastian" stay whole; anything else comes back as it was."""
+    lead = re.sub(BACKING, "", artist or "", flags=re.I).strip()
+    return lead if lead and key(lead, "") != "|" else artist
+
+
 # What tracklists put where a name isn't known.
 NOBODY = {"", "unknown", "unknownartist", "various", "variousartists", "id", "tba"}
 
@@ -1475,6 +1487,9 @@ def apple_lookup(artist, title, cache, kind="album", loose=False):
     name of the two): the title still has to match, but one shared artist name is enough, and when the
     full credit finds nothing the first-named artist is tried alone."""
     k = key(artist, title)
+    # "A & The Band" is often just "A" on Apple Music: the lead's name is tried too, with the title still exact.
+    lead = lead_artist(artist)
+    wanted = {k, key(lead, title)}
     cache_key = k if kind == "album" else "song:" + k
     USED_LOOKUPS.add(cache_key)
     if cache_key in cache:
@@ -1483,12 +1498,12 @@ def apple_lookup(artist, title, cache, kind="album", loose=False):
             return hit
         # A miss is trusted for two days, then tried again (new releases show up late).
         # A loose search doesn't trust a miss from a strict one.
-        if ("missAt" in hit and (not loose or hit.get("loose"))
+        if ("missAt" in hit and (not loose or hit.get("loose")) and (lead == artist or hit.get("lead"))
                 and (dt.datetime.now(dt.timezone.utc) - parse_date(hit["missAt"])).days < 2):
             return None
     name_field, id_field = ("collectionName", "collectionId") if kind == "album" else ("trackName", "trackId")
     names = artist_names(artist) if loose else []
-    credits = [artist] + ([names[0]] if len(names) > 1 else [])
+    credits = list(dict.fromkeys([artist] + ([names[0]] if len(names) > 1 else []) + [lead]))
     result = None
     try:
         for credit in credits:
@@ -1500,7 +1515,7 @@ def apple_lookup(artist, title, cache, kind="album", loose=False):
                 if kind == "album" and re.search(r" - Single$", hit[name_field]):
                     continue  # "Eusexua (Anyma Remix) - Single" isn't the album Eusexua
                 if artist:
-                    if key(hit["artistName"], hit[name_field]) == k:
+                    if key(hit["artistName"], hit[name_field]) in wanted:
                         found = hit
                         break
                     shared = {key(n, "") for n in names} & {key(n, "") for n in artist_names(hit["artistName"])}
@@ -1520,12 +1535,15 @@ def apple_lookup(artist, title, cache, kind="album", loose=False):
         if not result and kind == "album" and artist:
             # Apple's search leaves out many recent albums ("Geese Getting Killed" finds nothing), but the artist's
             # own list of albums has them: find the artist, then the album among theirs.
-            result = album_by_artist(artist, title)
+            for credit in dict.fromkeys([artist, lead]):
+                result = album_by_artist(credit, title)
+                if result:
+                    break
     except Exception as error:
         log(f"  apple lookup failed for {artist} / {title}: {error}")
         return None  # don't cache failures
     cache[cache_key] = result or {"missAt": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                                  **({"loose": True} if loose else {})}
+                                  **({"loose": True} if loose else {}), **({"lead": True} if lead != artist else {})}
     return result
 
 
