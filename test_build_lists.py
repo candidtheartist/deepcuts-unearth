@@ -215,6 +215,21 @@ class AggregateTests(unittest.TestCase):
                          [("Geese", 23, 3, 2, 1), ("Rosalía", 18, 2, 2, 1), ("Dijon", 11, 2, 1, 0)])
         self.assertEqual(ranked[0]["placements"], [{"list": "a", "rank": 1}, {"list": "b", "rank": 2}, {"list": "c"}])
 
+    def test_a_backing_band_in_one_credit_is_the_same_album(self):
+        lists = [
+            {"id": "a", "entries": [(7, "Johnny Blue Skies & The Dark Clouds", "Mutiny After Midnight"),
+                                    (24, "Avalon Emerson & The Charm", "Written into Changes")]},
+            {"id": "b", "entries": [(None, "Avalon Emerson and the Charm", "Written Into Changes"),
+                                    (None, "Johnny Blue Skies & The Dark Clouds", "Mutiny After Midnight")]},
+            {"id": "c", "entries": [(20, "Avalon Emerson", "Written into Changes"), (None, "Avalon Emerson", "Something Else")]},
+            {"id": "d", "entries": [(None, "Simon & Garfunkel", "Bookends"), (None, "Simon", "Bookends")]},
+        ]
+        ranked = {(e["artist"], e["title"]): e["lists"] for e in b.aggregate(lists)}
+        self.assertEqual(ranked, {("Johnny Blue Skies & The Dark Clouds", "Mutiny After Midnight"): 2,
+                                  ("Avalon Emerson & The Charm", "Written into Changes"): 3,
+                                  ("Avalon Emerson", "Something Else"): 1,
+                                  ("Simon & Garfunkel", "Bookends"): 1, ("Simon", "Bookends"): 1})
+
 
 if __name__ == "__main__":
     unittest.main()

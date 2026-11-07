@@ -449,13 +449,15 @@ def one_per_outlet(lists):
 
 def aggregate(lists):
     """Albums by points, as Album of the Year's aggregate ranks them: points, then how many lists, then the best place."""
-    albums = {}
+    albums, credits = {}, {}
     for item in lists:
         size = len(item["entries"])
         for rank, artist, album in item["entries"]:
-            k = feed.key(artist, album)
+            # "Avalon Emerson & The Charm" on one list and "Avalon Emerson" on another is one album.
+            k = feed.key(feed.lead_artist(artist), album)
             entry = albums.setdefault(k, {"key": k, "artist": artist, "title": album, "points": 0, "lists": 0,
                                           "top10": 0, "firsts": 0, "placements": []})
+            credits.setdefault(k, []).append(artist)
             if any(p["list"] == item["id"] for p in entry["placements"]):
                 continue
             entry["points"] += points(rank, size)
@@ -463,6 +465,10 @@ def aggregate(lists):
             entry["top10"] += 1 if rank is not None and rank <= 10 else 0
             entry["firsts"] += 1 if rank == 1 else 0
             entry["placements"].append({"list": item["id"], **({"rank": rank} if rank is not None else {})})
+    for k, entry in albums.items():
+        # The credit most lists use (the first of those that tie), so the lookup and the page go by the usual one.
+        named = credits[k]
+        entry["artist"] = max(dict.fromkeys(named), key=named.count)
     def order(e):
         best = min([p["rank"] for p in e["placements"] if "rank" in p] or [999])
         return (-e["points"], -e["lists"], best, e["artist"].lower())
