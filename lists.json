@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-07T13:14:09Z",
+ "generatedAt": "2026-11-07T14:16:22Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -579,6 +579,40 @@
      ]
     },
     {
+     "id": "2026:writtenintochanges|avalonemerson",
+     "title": "Written into Changes",
+     "artist": "Avalon Emerson",
+     "year": "2026",
+     "appleMusicID": "1861954566",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b0/b3/c5b0b32f-2f1f-cedc-083b-b575da0b5650/61112.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 11,
+     "lists": 5,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "gorilla-vs-bear-2026",
+       "rank": 20
+      },
+      {
+       "list": "paste-2026",
+       "rank": 24
+      },
+      {
+       "list": "clash-2026"
+      },
+      {
+       "list": "rolling-stone-2026"
+      },
+      {
+       "list": "time-out-2026"
+      }
+     ]
+    },
+    {
      "id": "2026:iceman|drake",
      "title": "ICEMAN",
      "artist": "Drake",
@@ -953,13 +987,15 @@
      ]
     },
     {
-     "id": "2026:mutinyaftermidnight|johnnyblueskiesthedarkclouds",
-     "title": "Mutiny After Midnight",
-     "artist": "Johnny Blue Skies & The Dark Clouds",
+     "id": "2026:mutinyaftermidnight|johnnyblueskies",
+     "title": "Mutiny After Midnight (OG Sequence)",
+     "artist": "Johnny Blue Skies",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1888640227",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/81/77/c08177b2-b30e-7619-1f30-30c06caa0e9a/075679583062.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 9,
      "lists": 3,
      "top10": 1,
@@ -1560,28 +1596,6 @@
       },
       {
        "list": "slant-2026"
-      }
-     ]
-    },
-    {
-     "id": "2026:writtenintochanges|avalonemersonthecharm",
-     "title": "Written into Changes",
-     "artist": "Avalon Emerson & The Charm",
-     "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
-     "points": 6,
-     "lists": 2,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "paste-2026",
-       "rank": 24
-      },
-      {
-       "list": "time-out-2026"
       }
      ]
     },
@@ -2281,30 +2295,6 @@
       {
        "list": "gorilla-vs-bear-2026",
        "rank": 16
-      },
-      {
-       "list": "clash-2026"
-      }
-     ]
-    },
-    {
-     "id": "2026:writtenintochanges|avalonemerson",
-     "title": "Written into Changes",
-     "artist": "Avalon Emerson",
-     "year": "2026",
-     "appleMusicID": "1861954566",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b0/b3/c5b0b32f-2f1f-cedc-083b-b575da0b5650/61112.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 4,
-     "lists": 2,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "gorilla-vs-bear-2026",
-       "rank": 20
       },
       {
        "list": "clash-2026"
@@ -3715,7 +3705,7 @@
      ]
     },
     {
-     "id": "2026:secondsong|neilyoungthechromehearts",
+     "id": "2026:secondsong|neilyoung",
      "title": "Second Song",
      "artist": "Neil Young & Neil Young & The Chrome Hearts",
      "year": "2026",
@@ -5220,24 +5210,6 @@
      "placements": [
       {
        "list": "metal-hammer-2026"
-      }
-     ]
-    },
-    {
-     "id": "2026:writtenintochanges|avalonemersonandthecharm",
-     "title": "Written Into Changes",
-     "artist": "Avalon Emerson and the Charm",
-     "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
-     "points": 1,
-     "lists": 1,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "rolling-stone-2026"
       }
      ]
     },
@@ -6880,6 +6852,44 @@
      "placements": [
       {
        "list": "rolling-stone-2026"
+      }
+     ]
+    },
+    {
+     "id": "2026:serialromantic|jailenjosey",
+     "title": "Serial Romantic",
+     "artist": "Jai'Len Josey",
+     "year": "2026",
+     "appleMusicID": "1892294339",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/80/54/b98054fb-4b77-6cad-604d-501bd9d3f036/26UMGIM42401.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
+     "points": 1,
+     "lists": 1,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "billboard-2026"
+      }
+     ]
+    },
+    {
+     "id": "2026:doctrineoflovedaptone|jalenngonda",
+     "title": "Doctrine Of Love Daptone",
+     "artist": "Jalen Ngonda",
+     "year": "2026",
+     "appleMusicID": null,
+     "artworkURL": null,
+     "genres": [],
+     "points": 1,
+     "lists": 1,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "euronews-2026"
       }
      ]
     }
@@ -12123,7 +12133,7 @@
      ]
     },
     {
-     "id": "2025:newthreatsfromthesoul|ryandavistheroadhouseband",
+     "id": "2025:newthreatsfromthesoul|ryandavis",
      "title": "New Threats From The Soul",
      "artist": "Ryan Davis & the Roadhouse Band",
      "year": "2025",
@@ -12641,7 +12651,7 @@
      ]
     },
     {
-     "id": "2025:everybodyscream|florenceandthemachine",
+     "id": "2025:everybodyscream|florence",
      "title": "Everybody Scream",
      "artist": "Florence and the Machine",
      "year": "2025",
@@ -14649,13 +14659,15 @@
      ]
     },
     {
-     "id": "2025:sharonvanettentheattachmenttheory|sharonvanettentheattachmenttheory",
-     "title": "Sharon Van Etten & the Attachment Theory",
-     "artist": "Sharon Van Etten & the Attachment Theory",
+     "id": "2025:sharonvanettentheattachmenttheory|sharonvanetten",
+     "title": "Sharon Van Etten & The Attachment Theory",
+     "artist": "Sharon Van Etten",
      "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1770826874",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/45/3a/95453a58-bbb3-31be-c4fa-97e94b0b4d0d/48684.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
      "points": 22,
      "lists": 14,
      "top10": 0,
@@ -14857,7 +14869,7 @@
      ]
     },
     {
-     "id": "2025:cantlosemy|annieandthecaldwells",
+     "id": "2025:cantlosemy|annie",
      "title": "Can't Lose My (Soul)",
      "artist": "Annie and the Caldwells",
      "year": "2025",
@@ -16217,6 +16229,57 @@
      ]
     },
     {
+     "id": "2025:alfredo2|freddiegibbs",
+     "title": "Alfredo 2",
+     "artist": "Freddie Gibbs & The Alchemist",
+     "year": "2025",
+     "appleMusicID": "1824019687",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/4e/b9/c34eb9fb-4752-63af-c789-8fc2e7a37522/198704365317_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
+     "points": 15,
+     "lists": 9,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "still-listening-2025",
+       "rank": 22
+      },
+      {
+       "list": "albumism-2025",
+       "rank": 23
+      },
+      {
+       "list": "obscure-sound-2025",
+       "rank": 25
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 33
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 38
+      },
+      {
+       "list": "complex-2025",
+       "rank": 39
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 93
+      },
+      {
+       "list": "glide-magazine-2025"
+      },
+      {
+       "list": "rough-trade-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:sincerely|kaliuchis",
      "title": "Sincerely,",
      "artist": "Kali Uchis",
@@ -16374,43 +16437,6 @@
       {
        "list": "under-the-radar-2025",
        "rank": 96
-      }
-     ]
-    },
-    {
-     "id": "2025:mercy|armandhammerthealchemist",
-     "title": "Mercy",
-     "artist": "Armand Hammer & The Alchemist",
-     "year": "2025",
-     "appleMusicID": "1832310241",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/06/47/470647e7-15c9-6a74-b61b-7fc6f1f12313/5063778675431_cover.jpg/600x600bb.jpg",
-     "genres": [
-      "hiphop"
-     ],
-     "points": 15,
-     "lists": 5,
-     "top10": 2,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "beats-per-minute-2025",
-       "rank": 8
-      },
-      {
-       "list": "gorilla-vs-bear-2025",
-       "rank": 9
-      },
-      {
-       "list": "treble-2025",
-       "rank": 14
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 26
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 49
       }
      ]
     },
@@ -16894,52 +16920,6 @@
      ]
     },
     {
-     "id": "2025:alfredo2|freddiegibbsthealchemist",
-     "title": "Alfredo 2",
-     "artist": "Freddie Gibbs & The Alchemist",
-     "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
-     "points": 14,
-     "lists": 8,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "still-listening-2025",
-       "rank": 22
-      },
-      {
-       "list": "albumism-2025",
-       "rank": 23
-      },
-      {
-       "list": "obscure-sound-2025",
-       "rank": 25
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 33
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 38
-      },
-      {
-       "list": "complex-2025",
-       "rank": 39
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 93
-      },
-      {
-       "list": "glide-magazine-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:hagen|titanic",
      "title": "HAGEN (feat. I la Católica & Mabe Fratti)",
      "artist": "Titanic",
@@ -17042,6 +17022,39 @@
       {
        "list": "uncut-magazine-2025",
        "rank": 37
+      }
+     ]
+    },
+    {
+     "id": "2025:mercy|armandhammer",
+     "title": "Mercy",
+     "artist": "Armand Hammer & The Alchemist",
+     "year": "2025",
+     "appleMusicID": "1832310241",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/06/47/470647e7-15c9-6a74-b61b-7fc6f1f12313/5063778675431_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
+     "points": 14,
+     "lists": 4,
+     "top10": 2,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 8
+      },
+      {
+       "list": "gorilla-vs-bear-2025",
+       "rank": 9
+      },
+      {
+       "list": "treble-2025",
+       "rank": 14
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 26
       }
      ]
     },
@@ -17888,40 +17901,6 @@
       },
       {
        "list": "the-boston-globe-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:everybodyscream|florencethemachine",
-     "title": "Everybody Scream (Chamber Version)",
-     "artist": "Florence + the Machine",
-     "year": "2025",
-     "appleMusicID": "1849230704",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/03/b0/1103b060-c9c4-8dac-7b0a-02a4cdabf985/25UM1IM72432.rgb.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 11,
-     "lists": 5,
-     "top10": 1,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "louder-than-war-2025",
-       "rank": 4
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 19
-      },
-      {
-       "list": "billboard-2025"
-      },
-      {
-       "list": "consequence-2025"
-      },
-      {
-       "list": "nme-2025"
       }
      ]
     },
@@ -20135,13 +20114,15 @@
      ]
     },
     {
-     "id": "2025:talkintothetrees|neilyoungandthechromehearts",
+     "id": "2025:talkintothetrees|neilyoung",
      "title": "Talkin to the Trees",
-     "artist": "Neil Young and the Chrome Hearts",
+     "artist": "Neil Young & Neil Young & The Chrome Hearts",
      "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "1810366512",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/c9/65/91c96530-ba6e-fc58-193a-5e6b7b9b6789/093624835004.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
      "points": 7,
      "lists": 3,
      "top10": 1,
@@ -20279,7 +20260,7 @@
     {
      "id": "2025:41longfieldstreetlate80s|kieranhebdenwilliamtyler",
      "title": "41 Longfield Street Late 80s",
-     "artist": "Kieran Hebden + William Tyler ~",
+     "artist": "Kieran Hebden + William Tyler",
      "year": "2025",
      "appleMusicID": null,
      "artworkURL": null,
@@ -22233,6 +22214,33 @@
       {
        "list": "rolling-stone-2025",
        "rank": 66
+      }
+     ]
+    },
+    {
+     "id": "2025:universewilltakecareofyou|holdenzimpel",
+     "title": "The Universe Will Take Care of You",
+     "artist": "Holden & Zimpel",
+     "year": "2025",
+     "appleMusicID": null,
+     "artworkURL": null,
+     "genres": [],
+     "points": 5,
+     "lists": 3,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "uncut-magazine-2025",
+       "rank": 23
+      },
+      {
+       "list": "mojo-magazine-2025",
+       "rank": 57
+      },
+      {
+       "list": "the-quietus-2025",
+       "rank": 96
       }
      ]
     }

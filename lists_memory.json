@@ -1431,7 +1431,8 @@
    "missAt": "2026-11-07T13:14:55Z"
   },
   "everybodyscream|florenceandthemachine": {
-   "missAt": "2026-11-07T13:14:48Z"
+   "missAt": "2026-11-07T14:16:59Z",
+   "lead": true
   },
   "blackstar|amaarae": {
    "id": "1821073090",
@@ -1570,7 +1571,12 @@
    "genre": "Alternative"
   },
   "sharonvanettentheattachmenttheory|sharonvanettentheattachmenttheory": {
-   "missAt": "2026-11-07T13:15:02Z"
+   "id": "1770826874",
+   "artist": "Sharon Van Etten",
+   "album": "Sharon Van Etten & The Attachment Theory",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/45/3a/95453a58-bbb3-31be-c4fa-97e94b0b4d0d/48684.jpg/600x600bb.jpg",
+   "year": "2025",
+   "genre": "Alternative"
   },
   "revengeseekerz|janeremover": {
    "id": "1800020675",
@@ -1581,7 +1587,8 @@
    "genre": "Alternative"
   },
   "cantlosemy|annieandthecaldwells": {
-   "missAt": "2026-11-07T13:15:09Z"
+   "missAt": "2026-11-07T14:17:36Z",
+   "lead": true
   },
   "snocaps|snocaps": {
    "id": "1843397459",
@@ -1726,7 +1733,12 @@
    "genre": "Indie Rock"
   },
   "alfredo2|freddiegibbsthealchemist": {
-   "missAt": "2026-11-07T13:15:29Z"
+   "id": "1824019687",
+   "artist": "Freddie Gibbs & The Alchemist",
+   "album": "Alfredo 2",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/4e/b9/c34eb9fb-4752-63af-c789-8fc2e7a37522/198704365317_Cover.jpg/600x600bb.jpg",
+   "year": "2025",
+   "genre": "Hip-Hop"
   },
   "showbiz|mike": {
    "id": "1788674268",
@@ -2072,7 +2084,12 @@
    "genre": "Pop"
   },
   "talkintothetrees|neilyoungandthechromehearts": {
-   "missAt": "2026-11-07T13:16:35Z"
+   "id": "1810366512",
+   "artist": "Neil Young & Neil Young & The Chrome Hearts",
+   "album": "Talkin to the Trees",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/c9/65/91c96530-ba6e-fc58-193a-5e6b7b9b6789/093624835004.jpg/600x600bb.jpg",
+   "year": "2025",
+   "genre": "Rock"
   },
   "metalforth|babymetal": {
    "id": "1807174668",
@@ -2261,7 +2278,7 @@
    "genre": "Hip-Hop/Rap"
   },
   "universewilltakecareofyou|holdenzimpel": {
-   "missAt": "2026-10-28T22:44:07Z"
+   "missAt": "2026-11-07T14:18:16Z"
   },
   "idols|yungblud": {
    "id": "1809000175",
@@ -2430,7 +2447,12 @@
    "genre": "Hip-Hop/Rap"
   },
   "mutinyaftermidnight|johnnyblueskiesthedarkclouds": {
-   "missAt": "2026-11-07T13:17:59Z"
+   "id": "1888640227",
+   "artist": "Johnny Blue Skies",
+   "album": "Mutiny After Midnight (OG Sequence)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/81/77/c08177b2-b30e-7619-1f30-30c06caa0e9a/075679583062.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
   },
   "kehlani|kehlani": {
    "id": "1895059387",
@@ -3553,7 +3575,12 @@
    "genre": "Alternative"
   },
   "writtenintochanges|avalonemersonandthecharm": {
-   "missAt": "2026-11-07T13:22:45Z"
+   "id": "1861954566",
+   "artist": "Avalon Emerson",
+   "album": "Written into Changes",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b0/b3/c5b0b32f-2f1f-cedc-083b-b575da0b5650/61112.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
   },
   "casino|babykeem": {
    "missAt": "2026-11-07T13:22:59Z"
@@ -4920,7 +4947,12 @@
    "genre": "Alternative"
   },
   "secondsong|neilyoungandthechromehearts": {
-   "missAt": "2026-11-06T23:15:45Z"
+   "id": "6795697221",
+   "artist": "Neil Young & Neil Young & The Chrome Hearts",
+   "album": "Second Song",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/42/55/554255fb-ab31-d614-16a3-df9fb2eb3ca1/093624820208.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
   },
   "mutinyaftermidnight|johnnyblueskies": {
    "id": "1888640227",
@@ -5266,6 +5298,9 @@
    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/40/39/c0403919-8990-733a-8f51-c82e13fb0da6/60984.jpg/600x600bb.jpg",
    "year": "2026",
    "genre": "Folk"
+  },
+  "doctrineoflovedaptone|jalenngonda": {
+   "missAt": "2026-11-07T14:19:04Z"
   }
  },
  "pages": {
