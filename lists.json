@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-08T22:14:23Z",
+ "generatedAt": "2026-11-09T16:33:41Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -7363,14 +7363,6 @@
      "size": 25
     },
     {
-     "id": "the-boston-globe-2025",
-     "outlet": "The Boston Globe",
-     "title": "Our 30 Best Albums of 2025",
-     "url": "https://www.bostonglobe.com/2025/12/24/arts/best-albums-of-2025/",
-     "ranked": false,
-     "size": 32
-    },
-    {
      "id": "the-economist-2025",
      "outlet": "The Economist",
      "title": "The Best Albums of 2025",
@@ -7542,8 +7534,8 @@
      "genres": [
       "indie"
      ],
-     "points": 295,
-     "lists": 55,
+     "points": 294,
+     "lists": 54,
      "top10": 38,
      "firsts": 8,
      "placements": [
@@ -7749,9 +7741,6 @@
        "list": "rough-trade-2025"
       },
       {
-       "list": "the-boston-globe-2025"
-      },
-      {
        "list": "tone-glow-2025"
       },
       {
@@ -7769,8 +7758,8 @@
      "genres": [
       "rock"
      ],
-     "points": 277,
-     "lists": 49,
+     "points": 276,
+     "lists": 48,
      "top10": 34,
      "firsts": 9,
      "placements": [
@@ -7957,9 +7946,6 @@
       },
       {
        "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       },
       {
        "list": "vogue-2025"
@@ -8292,8 +8278,8 @@
      "genres": [
       "indie"
      ],
-     "points": 140,
-     "lists": 33,
+     "points": 139,
+     "lists": 32,
      "top10": 15,
      "firsts": 2,
      "placements": [
@@ -8409,9 +8395,6 @@
       },
       {
        "list": "rough-trade-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       },
       {
        "list": "the-economist-2025"
@@ -8615,8 +8598,8 @@
      "genres": [
       "rock"
      ],
-     "points": 133,
-     "lists": 42,
+     "points": 132,
+     "lists": 41,
      "top10": 13,
      "firsts": 1,
      "placements": [
@@ -8773,9 +8756,6 @@
       },
       {
        "list": "rough-trade-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       },
       {
        "list": "vogue-2025"
@@ -9071,8 +9051,8 @@
      "genres": [
       "hiphop"
      ],
-     "points": 125,
-     "lists": 31,
+     "points": 124,
+     "lists": 30,
      "top10": 15,
      "firsts": 0,
      "placements": [
@@ -9189,9 +9169,6 @@
       },
       {
        "list": "rough-trade-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       }
      ]
     },
@@ -9627,146 +9604,6 @@
      ]
     },
     {
-     "id": "2025:moisturizer|wetleg",
-     "title": "moisturizer",
-     "artist": "Wet Leg",
-     "year": "2025",
-     "appleMusicID": "1802918329",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/de/57/62de5769-2422-4cfe-69d3-3cec4cb94d14/887828053063.png/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 101,
-     "lists": 32,
-     "top10": 11,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "the-bitter-southerner-2025",
-       "rank": 2
-      },
-      {
-       "list": "les-inrockuptibles-2025",
-       "rank": 5
-      },
-      {
-       "list": "kcrw-2025",
-       "rank": 6
-      },
-      {
-       "list": "npr-2025",
-       "rank": 6
-      },
-      {
-       "list": "the-skinny-2025",
-       "rank": 6
-      },
-      {
-       "list": "far-out-magazine-2025",
-       "rank": 8
-      },
-      {
-       "list": "dork-2025",
-       "rank": 9
-      },
-      {
-       "list": "mxdwn-2025",
-       "rank": 9
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 9
-      },
-      {
-       "list": "mojo-magazine-2025",
-       "rank": 10
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 10
-      },
-      {
-       "list": "albumism-2025",
-       "rank": 12
-      },
-      {
-       "list": "diy-magazine-2025",
-       "rank": 13
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 14
-      },
-      {
-       "list": "the-sunday-times-2025",
-       "rank": 15
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 16
-      },
-      {
-       "list": "louder-than-war-2025",
-       "rank": 18
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 18
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 20
-      },
-      {
-       "list": "nme-2025",
-       "rank": 22
-      },
-      {
-       "list": "the-fire-note-2025",
-       "rank": 25
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 27
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 33
-      },
-      {
-       "list": "pitchfork-2025",
-       "rank": 36
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 44
-      },
-      {
-       "list": "uncut-magazine-2025",
-       "rank": 50
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 63
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "rough-trade-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      },
-      {
-       "list": "vogue-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:addison|addisonrae",
      "title": "Addison",
      "artist": "Addison Rae",
@@ -9888,6 +9725,143 @@
       },
       {
        "list": "the-economist-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:moisturizer|wetleg",
+     "title": "moisturizer",
+     "artist": "Wet Leg",
+     "year": "2025",
+     "appleMusicID": "1802918329",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/de/57/62de5769-2422-4cfe-69d3-3cec4cb94d14/887828053063.png/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 100,
+     "lists": 31,
+     "top10": 11,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "the-bitter-southerner-2025",
+       "rank": 2
+      },
+      {
+       "list": "les-inrockuptibles-2025",
+       "rank": 5
+      },
+      {
+       "list": "kcrw-2025",
+       "rank": 6
+      },
+      {
+       "list": "npr-2025",
+       "rank": 6
+      },
+      {
+       "list": "the-skinny-2025",
+       "rank": 6
+      },
+      {
+       "list": "far-out-magazine-2025",
+       "rank": 8
+      },
+      {
+       "list": "dork-2025",
+       "rank": 9
+      },
+      {
+       "list": "mxdwn-2025",
+       "rank": 9
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 9
+      },
+      {
+       "list": "mojo-magazine-2025",
+       "rank": 10
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 10
+      },
+      {
+       "list": "albumism-2025",
+       "rank": 12
+      },
+      {
+       "list": "diy-magazine-2025",
+       "rank": 13
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 14
+      },
+      {
+       "list": "the-sunday-times-2025",
+       "rank": 15
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 16
+      },
+      {
+       "list": "louder-than-war-2025",
+       "rank": 18
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 18
+      },
+      {
+       "list": "the-forty-five-2025",
+       "rank": 20
+      },
+      {
+       "list": "nme-2025",
+       "rank": 22
+      },
+      {
+       "list": "the-fire-note-2025",
+       "rank": 25
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 27
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 33
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 36
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 44
+      },
+      {
+       "list": "uncut-magazine-2025",
+       "rank": 50
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 63
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
+      },
+      {
+       "list": "rough-trade-2025"
       },
       {
        "list": "vogue-2025"
@@ -10419,103 +10393,6 @@
      ]
     },
     {
-     "id": "2025:lonelypeoplewithpower|deafheaven",
-     "title": "Lonely People With Power",
-     "artist": "Deafheaven",
-     "year": "2025",
-     "appleMusicID": "1792077173",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/82/6a/fc826a19-49f2-025e-ba21-43789ec44a8b/075679623966.jpg/600x600bb.jpg",
-     "genres": [
-      "metal"
-     ],
-     "points": 69,
-     "lists": 21,
-     "top10": 9,
-     "firsts": 1,
-     "placements": [
-      {
-       "list": "brooklyn-vegan-2025",
-       "rank": 1
-      },
-      {
-       "list": "treble-2025",
-       "rank": 2
-      },
-      {
-       "list": "flood-magazine-2025",
-       "rank": 4
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 5
-      },
-      {
-       "list": "mxdwn-2025",
-       "rank": 7
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 8
-      },
-      {
-       "list": "decibel-magazine-2025",
-       "rank": 9
-      },
-      {
-       "list": "the-ringer-2025",
-       "rank": 9
-      },
-      {
-       "list": "kerrang-2025",
-       "rank": 10
-      },
-      {
-       "list": "drowned-in-sound-2025",
-       "rank": 17
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 18
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 26
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 44
-      },
-      {
-       "list": "beats-per-minute-2025",
-       "rank": 47
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 49
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 54
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 75
-      },
-      {
-       "list": "alternative-press-magazine-2025"
-      },
-      {
-       "list": "glide-magazine-2025"
-      },
-      {
-       "list": "loudwire-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:doubleinfinity|bigthief",
      "title": "Double Infinity",
      "artist": "Big Thief",
@@ -10621,6 +10498,100 @@
       },
       {
        "list": "vinyl-factory-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:lonelypeoplewithpower|deafheaven",
+     "title": "Lonely People With Power",
+     "artist": "Deafheaven",
+     "year": "2025",
+     "appleMusicID": "1792077173",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/82/6a/fc826a19-49f2-025e-ba21-43789ec44a8b/075679623966.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
+     "points": 68,
+     "lists": 20,
+     "top10": 9,
+     "firsts": 1,
+     "placements": [
+      {
+       "list": "brooklyn-vegan-2025",
+       "rank": 1
+      },
+      {
+       "list": "treble-2025",
+       "rank": 2
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 4
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 5
+      },
+      {
+       "list": "mxdwn-2025",
+       "rank": 7
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 8
+      },
+      {
+       "list": "decibel-magazine-2025",
+       "rank": 9
+      },
+      {
+       "list": "the-ringer-2025",
+       "rank": 9
+      },
+      {
+       "list": "kerrang-2025",
+       "rank": 10
+      },
+      {
+       "list": "drowned-in-sound-2025",
+       "rank": 17
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 18
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 26
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 44
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 47
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 49
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 54
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 75
+      },
+      {
+       "list": "alternative-press-magazine-2025"
+      },
+      {
+       "list": "glide-magazine-2025"
+      },
+      {
+       "list": "loudwire-2025"
       }
      ]
     },
@@ -11046,102 +11017,6 @@
      ]
     },
     {
-     "id": "2025:mayhem|ladygaga",
-     "title": "MAYHEM",
-     "artist": "Lady Gaga",
-     "year": "2025",
-     "appleMusicID": "1792666546",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/11/d1/be11d187-1aeb-99f3-01c5-597ed65cdb6a/25UMGIM07433.rgb.jpg/600x600bb.jpg",
-     "genres": [
-      "pop"
-     ],
-     "points": 57,
-     "lists": 21,
-     "top10": 5,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "rolling-stone-2025",
-       "rank": 2
-      },
-      {
-       "list": "billboard-2025",
-       "rank": 3
-      },
-      {
-       "list": "npr-2025",
-       "rank": 4
-      },
-      {
-       "list": "entertainment-weekly-2025",
-       "rank": 5
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 5
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 16
-      },
-      {
-       "list": "nme-2025",
-       "rank": 19
-      },
-      {
-       "list": "albumism-2025",
-       "rank": 20
-      },
-      {
-       "list": "the-sunday-times-2025",
-       "rank": 20
-      },
-      {
-       "list": "time-out-2025",
-       "rank": 22
-      },
-      {
-       "list": "brooklyn-vegan-2025",
-       "rank": 27
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 28
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 31
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 32
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 33
-      },
-      {
-       "list": "dork-2025",
-       "rank": 66
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      },
-      {
-       "list": "vogue-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:virgin|lorde",
      "title": "Virgin",
      "artist": "Lorde",
@@ -11236,6 +11111,99 @@
       },
       {
        "list": "new-statesman-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:mayhem|ladygaga",
+     "title": "MAYHEM",
+     "artist": "Lady Gaga",
+     "year": "2025",
+     "appleMusicID": "1792666546",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/11/d1/be11d187-1aeb-99f3-01c5-597ed65cdb6a/25UMGIM07433.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
+     "points": 56,
+     "lists": 20,
+     "top10": 5,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "rolling-stone-2025",
+       "rank": 2
+      },
+      {
+       "list": "billboard-2025",
+       "rank": 3
+      },
+      {
+       "list": "npr-2025",
+       "rank": 4
+      },
+      {
+       "list": "entertainment-weekly-2025",
+       "rank": 5
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 5
+      },
+      {
+       "list": "the-forty-five-2025",
+       "rank": 16
+      },
+      {
+       "list": "nme-2025",
+       "rank": 19
+      },
+      {
+       "list": "albumism-2025",
+       "rank": 20
+      },
+      {
+       "list": "the-sunday-times-2025",
+       "rank": 20
+      },
+      {
+       "list": "time-out-2025",
+       "rank": 22
+      },
+      {
+       "list": "brooklyn-vegan-2025",
+       "rank": 27
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 28
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 31
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 32
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 33
+      },
+      {
+       "list": "dork-2025",
+       "rank": 66
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
       },
       {
        "list": "vogue-2025"
@@ -12315,8 +12283,8 @@
      "genres": [
       "pop"
      ],
-     "points": 46,
-     "lists": 17,
+     "points": 45,
+     "lists": 16,
      "top10": 2,
      "firsts": 0,
      "placements": [
@@ -12381,9 +12349,6 @@
       },
       {
        "list": "huffpost-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       }
      ]
     },
@@ -12858,77 +12823,6 @@
      ]
     },
     {
-     "id": "2025:blackstar|amaarae",
-     "title": "BLACK STAR",
-     "artist": "Amaarae",
-     "year": "2025",
-     "appleMusicID": "1821073090",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/b1/11/48b111cd-7e1b-e4b6-dc52-ed2bebbc2c82/25UMGIM83925.rgb.jpg/600x600bb.jpg",
-     "genres": [
-      "pop"
-     ],
-     "points": 40,
-     "lists": 14,
-     "top10": 3,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "dazed-2025",
-       "rank": 8
-      },
-      {
-       "list": "the-fader-2025",
-       "rank": 9
-      },
-      {
-       "list": "pitchfork-2025",
-       "rank": 10
-      },
-      {
-       "list": "the-bitter-southerner-2025",
-       "rank": 11
-      },
-      {
-       "list": "nme-2025",
-       "rank": 12
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 17
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 21
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 22
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 33
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 37
-      },
-      {
-       "list": "complex-2025",
-       "rank": 47
-      },
-      {
-       "list": "billboard-2025",
-       "rank": 48
-      },
-      {
-       "list": "essence-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:wholetthedogsout|lambrinigirls",
      "title": "Who Let The Dogs Out",
      "artist": "Lambrini Girls",
@@ -13014,6 +12908,74 @@
       },
       {
        "list": "rough-trade-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:blackstar|amaarae",
+     "title": "BLACK STAR",
+     "artist": "Amaarae",
+     "year": "2025",
+     "appleMusicID": "1821073090",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/b1/11/48b111cd-7e1b-e4b6-dc52-ed2bebbc2c82/25UMGIM83925.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
+     "points": 39,
+     "lists": 13,
+     "top10": 3,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "dazed-2025",
+       "rank": 8
+      },
+      {
+       "list": "the-fader-2025",
+       "rank": 9
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 10
+      },
+      {
+       "list": "the-bitter-southerner-2025",
+       "rank": 11
+      },
+      {
+       "list": "nme-2025",
+       "rank": 12
+      },
+      {
+       "list": "the-forty-five-2025",
+       "rank": 17
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 21
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 22
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 33
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 37
+      },
+      {
+       "list": "complex-2025",
+       "rank": 47
+      },
+      {
+       "list": "billboard-2025",
+       "rank": 48
+      },
+      {
+       "list": "essence-2025"
       }
      ]
     },
@@ -13605,81 +13567,6 @@
      ]
     },
     {
-     "id": "2025:donttaptheglass|tylerthecreator",
-     "title": "DON'T TAP THE GLASS",
-     "artist": "Tyler, The Creator",
-     "year": "2025",
-     "appleMusicID": "1828766736",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/2b/93/9e2b93b7-43a9-e814-e0ae-c55a1b7e17d6/196873463513.jpg/600x600bb.jpg",
-     "genres": [
-      "hiphop"
-     ],
-     "points": 31,
-     "lists": 15,
-     "top10": 1,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "billboard-2025",
-       "rank": 8
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 13
-      },
-      {
-       "list": "mxdwn-2025",
-       "rank": 13
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 15
-      },
-      {
-       "list": "complex-2025",
-       "rank": 17
-      },
-      {
-       "list": "crack-magazine-2025",
-       "rank": 23
-      },
-      {
-       "list": "brooklyn-vegan-2025",
-       "rank": 28
-      },
-      {
-       "list": "flood-magazine-2025",
-       "rank": 32
-      },
-      {
-       "list": "nme-2025",
-       "rank": 38
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 39
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 44
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 47
-      },
-      {
-       "list": "the-fader-2025",
-       "rank": 50
-      },
-      {
-       "list": "huffpost-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:45pounds|yhwhnailgun",
      "title": "45 Pounds",
      "artist": "YHWH Nailgun",
@@ -13818,6 +13705,78 @@
       },
       {
        "list": "vogue-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:donttaptheglass|tylerthecreator",
+     "title": "DON'T TAP THE GLASS",
+     "artist": "Tyler, The Creator",
+     "year": "2025",
+     "appleMusicID": "1828766736",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/2b/93/9e2b93b7-43a9-e814-e0ae-c55a1b7e17d6/196873463513.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
+     "points": 30,
+     "lists": 14,
+     "top10": 1,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "billboard-2025",
+       "rank": 8
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 13
+      },
+      {
+       "list": "mxdwn-2025",
+       "rank": 13
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 15
+      },
+      {
+       "list": "complex-2025",
+       "rank": 17
+      },
+      {
+       "list": "crack-magazine-2025",
+       "rank": 23
+      },
+      {
+       "list": "brooklyn-vegan-2025",
+       "rank": 28
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 32
+      },
+      {
+       "list": "nme-2025",
+       "rank": 38
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 39
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 44
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 47
+      },
+      {
+       "list": "the-fader-2025",
+       "rank": 50
+      },
+      {
+       "list": "huffpost-2025"
       }
      ]
     },
@@ -15165,39 +15124,6 @@
      ]
     },
     {
-     "id": "2025:savinggrace|robertplantwithsuzidian",
-     "title": "Saving Grace",
-     "artist": "Robert Plant with Suzi Dian",
-     "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
-     "points": 20,
-     "lists": 5,
-     "top10": 2,
-     "firsts": 1,
-     "placements": [
-      {
-       "list": "ultimate-classic-rock-2025",
-       "rank": 1
-      },
-      {
-       "list": "uncut-magazine-2025",
-       "rank": 10
-      },
-      {
-       "list": "mojo-magazine-2025",
-       "rank": 16
-      },
-      {
-       "list": "glide-magazine-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:plantingbythesigns|sggoodman",
      "title": "Planting by the Signs",
      "artist": "S.G. Goodman",
@@ -15418,6 +15344,36 @@
       },
       {
        "list": "rough-trade-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:savinggrace|robertplantwithsuzidian",
+     "title": "Saving Grace",
+     "artist": "Robert Plant with Suzi Dian",
+     "year": "2025",
+     "appleMusicID": null,
+     "artworkURL": null,
+     "genres": [],
+     "points": 19,
+     "lists": 4,
+     "top10": 2,
+     "firsts": 1,
+     "placements": [
+      {
+       "list": "ultimate-classic-rock-2025",
+       "rank": 1
+      },
+      {
+       "list": "uncut-magazine-2025",
+       "rank": 10
+      },
+      {
+       "list": "mojo-magazine-2025",
+       "rank": 16
+      },
+      {
+       "list": "glide-magazine-2025"
       }
      ]
     },
@@ -15690,57 +15646,6 @@
       },
       {
        "list": "rough-trade-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:twilightoverride|jefftweedy",
-     "title": "Twilight Override",
-     "artist": "Jeff Tweedy",
-     "year": "2025",
-     "appleMusicID": "1825239073",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/e8/d3/8be8d3b7-dc66-fc68-04c6-cf9516adf586/196873337760.jpg/600x600bb.jpg",
-     "genres": [
-      "rock"
-     ],
-     "points": 17,
-     "lists": 9,
-     "top10": 1,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "uncut-magazine-2025",
-       "rank": 8
-      },
-      {
-       "list": "mojo-magazine-2025",
-       "rank": 17
-      },
-      {
-       "list": "magnet-magazine-2025",
-       "rank": 21
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 28
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 35
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 38
-      },
-      {
-       "list": "npr-2025",
-       "rank": 40
-      },
-      {
-       "list": "glide-magazine-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       }
      ]
     },
@@ -16086,6 +15991,54 @@
       },
       {
        "list": "rough-trade-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:twilightoverride|jefftweedy",
+     "title": "Twilight Override",
+     "artist": "Jeff Tweedy",
+     "year": "2025",
+     "appleMusicID": "1825239073",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/e8/d3/8be8d3b7-dc66-fc68-04c6-cf9516adf586/196873337760.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
+     "points": 16,
+     "lists": 8,
+     "top10": 1,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "uncut-magazine-2025",
+       "rank": 8
+      },
+      {
+       "list": "mojo-magazine-2025",
+       "rank": 17
+      },
+      {
+       "list": "magnet-magazine-2025",
+       "rank": 21
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 28
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 35
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 38
+      },
+      {
+       "list": "npr-2025",
+       "rank": 40
+      },
+      {
+       "list": "glide-magazine-2025"
       }
      ]
     },
@@ -17512,49 +17465,6 @@
      ]
     },
     {
-     "id": "2025:creatordonttaptheglass|tyler",
-     "title": "The Creator – Don’t Tap The Glass",
-     "artist": "Tyler",
-     "year": "2025",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
-     "points": 12,
-     "lists": 8,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "complex-2025",
-       "rank": 17
-      },
-      {
-       "list": "npr-2025",
-       "rank": 20
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 44
-      },
-      {
-       "list": "the-fader-2025",
-       "rank": 50
-      },
-      {
-       "list": "billboard-2025"
-      },
-      {
-       "list": "nme-2025"
-      },
-      {
-       "list": "our-culture-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:noonewasdrivingthecar|ladispute",
      "title": "No One Was Driving the Car",
      "artist": "La Dispute",
@@ -17861,46 +17771,42 @@
      ]
     },
     {
-     "id": "2025:paintopower|maruja",
-     "title": "Pain to Power",
-     "artist": "Maruja",
+     "id": "2025:creatordonttaptheglass|tyler",
+     "title": "The Creator – Don’t Tap The Glass",
+     "artist": "Tyler",
      "year": "2025",
-     "appleMusicID": "1811588644",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/7f/dc/5c7fdc93-2d8a-f43d-1fcb-5fb5ac7af479/196873074993.jpg/600x600bb.jpg",
-     "genres": [
-      "rock"
-     ],
+     "appleMusicID": null,
+     "artworkURL": null,
+     "genres": [],
      "points": 11,
      "lists": 7,
      "top10": 0,
      "firsts": 0,
      "placements": [
       {
-       "list": "the-line-of-best-fit-2025",
-       "rank": 19
+       "list": "complex-2025",
+       "rank": 17
       },
       {
-       "list": "northern-transmissions-2025",
-       "rank": 21
+       "list": "npr-2025",
+       "rank": 20
       },
       {
-       "list": "god-is-in-the-tv-2025",
-       "rank": 30
+       "list": "clash-magazine-2025",
+       "rank": 44
       },
       {
-       "list": "kerrang-2025",
-       "rank": 30
+       "list": "the-fader-2025",
+       "rank": 50
       },
       {
-       "list": "beats-per-minute-2025",
-       "rank": 32
+       "list": "billboard-2025"
       },
       {
-       "list": "nme-2025",
-       "rank": 39
+       "list": "nme-2025"
       },
       {
-       "list": "the-boston-globe-2025"
+       "list": "our-culture-2025"
       }
      ]
     },
@@ -18376,14 +18282,14 @@
      ]
     },
     {
-     "id": "2025:foreverisafeeling|lucydacus",
-     "title": "Forever Is A Feeling",
-     "artist": "Lucy Dacus",
+     "id": "2025:paintopower|maruja",
+     "title": "Pain to Power",
+     "artist": "Maruja",
      "year": "2025",
-     "appleMusicID": "1787193107",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/ef/ef/efefefdc-5593-ff27-f364-6ec7ec73b1ca/24UM1IM40022.rgb.jpg/600x600bb.jpg",
+     "appleMusicID": "1811588644",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/7f/dc/5c7fdc93-2d8a-f43d-1fcb-5fb5ac7af479/196873074993.jpg/600x600bb.jpg",
      "genres": [
-      "indie"
+      "rock"
      ],
      "points": 10,
      "lists": 6,
@@ -18391,26 +18297,28 @@
      "firsts": 0,
      "placements": [
       {
-       "list": "npr-2025",
-       "rank": 15
+       "list": "the-line-of-best-fit-2025",
+       "rank": 19
       },
       {
-       "list": "flood-magazine-2025",
-       "rank": 25
+       "list": "northern-transmissions-2025",
+       "rank": 21
       },
       {
-       "list": "the-forty-five-2025",
-       "rank": 26
+       "list": "god-is-in-the-tv-2025",
+       "rank": 30
       },
       {
-       "list": "rolling-stone-2025",
-       "rank": 95
+       "list": "kerrang-2025",
+       "rank": 30
       },
       {
-       "list": "alternative-press-magazine-2025"
+       "list": "beats-per-minute-2025",
+       "rank": 32
       },
       {
-       "list": "the-boston-globe-2025"
+       "list": "nme-2025",
+       "rank": 39
       }
      ]
     },
@@ -18795,6 +18703,42 @@
       {
        "list": "under-the-radar-2025",
        "rank": 100
+      }
+     ]
+    },
+    {
+     "id": "2025:foreverisafeeling|lucydacus",
+     "title": "Forever Is A Feeling",
+     "artist": "Lucy Dacus",
+     "year": "2025",
+     "appleMusicID": "1787193107",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/ef/ef/efefefdc-5593-ff27-f364-6ec7ec73b1ca/24UM1IM40022.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 9,
+     "lists": 5,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "npr-2025",
+       "rank": 15
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 25
+      },
+      {
+       "list": "the-forty-five-2025",
+       "rank": 26
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 95
+      },
+      {
+       "list": "alternative-press-magazine-2025"
       }
      ]
     },
@@ -19456,37 +19400,6 @@
       {
        "list": "uncut-magazine-2025",
        "rank": 67
-      }
-     ]
-    },
-    {
-     "id": "2025:starline|chancetherapper",
-     "title": "STAR LINE",
-     "artist": "Chance the Rapper",
-     "year": "2025",
-     "appleMusicID": "1832806449",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/8f/4d/7d8f4d8b-3c4a-3d2c-b996-fe7ea470e0b0/5063778735241_cover.jpg/600x600bb.jpg",
-     "genres": [
-      "hiphop"
-     ],
-     "points": 8,
-     "lists": 4,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "complex-2025",
-       "rank": 22
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 96
-      },
-      {
-       "list": "huffpost-2025"
-      },
-      {
-       "list": "the-boston-globe-2025"
       }
      ]
     },
@@ -20366,6 +20279,34 @@
       {
        "list": "stereogum-2025",
        "rank": 43
+      }
+     ]
+    },
+    {
+     "id": "2025:starline|chancetherapper",
+     "title": "STAR LINE",
+     "artist": "Chance the Rapper",
+     "year": "2025",
+     "appleMusicID": "1832806449",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/8f/4d/7d8f4d8b-3c4a-3d2c-b996-fe7ea470e0b0/5063778735241_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
+     "points": 7,
+     "lists": 3,
+     "top10": 0,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "complex-2025",
+       "rank": 22
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 96
+      },
+      {
+       "list": "huffpost-2025"
       }
      ]
     },
