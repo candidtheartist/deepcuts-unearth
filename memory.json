@@ -418,6 +418,14 @@
   },
   {
    "source": "stereogum",
+   "artist": "Krill",
+   "album": "Secret Language",
+   "url": "https://stereogum.com/2517187/album-of-the-week-krill-secret-language/reviews/album-of-the-week/",
+   "date": "2026-11-10T21:01:17Z",
+   "image": null
+  },
+  {
+   "source": "stereogum",
    "artist": "Willi Carlisle",
    "album": "The Universal Bubba",
    "url": "https://stereogum.com/2516368/album-of-the-week-willi-carlisle-the-universal-bubba/reviews/album-of-the-week/",
@@ -1170,6 +1178,22 @@
   },
   {
    "source": "dusted",
+   "artist": "Gift Horse",
+   "album": "A Career in Architecture",
+   "url": "https://dustedmagazine.tumblr.com/post/832923133081190400",
+   "date": "2026-11-10T19:03:19Z",
+   "image": null
+  },
+  {
+   "source": "dusted",
+   "artist": "Sarah Davachi",
+   "album": "The Will of Tongues",
+   "url": "https://dustedmagazine.tumblr.com/post/832911713138507776",
+   "date": "2026-11-10T16:01:48Z",
+   "image": null
+  },
+  {
+   "source": "dusted",
    "artist": "Manja Ristić & Bruno Duplant",
    "album": "Veil Of Discontinuity",
    "url": "https://dustedmagazine.tumblr.com/post/832832483833872384",
@@ -1273,11 +1297,51 @@
    "image": null
   },
   {
-   "source": "dusted",
-   "artist": "Windy & Carl with Optigan Conservatory",
-   "album": "Windy & Carl Meet Optigan Conservatory",
-   "url": "https://dustedmagazine.tumblr.com/post/830643056948723712",
-   "date": "2026-10-16T15:02:29Z",
+   "source": "sun-13",
+   "artist": "Giacomo Zanus",
+   "album": "Wandering Away is Safer Than Getting Lost on Your Own",
+   "url": "https://sun-13.com/2026/11/06/giacomo-zanus-wandering-away-is-safer-than-getting-lost-on-your-own/",
+   "date": "2026-11-06T07:47:00Z",
+   "image": null
+  },
+  {
+   "source": "sun-13",
+   "artist": "Cross to Bear",
+   "album": "In Conversation with American Motors’ Dustin White",
+   "url": "https://sun-13.com/2026/11/04/cross-to-bear-in-conversation-with-american-motors-dustin-white/",
+   "date": "2026-11-04T07:13:00Z",
+   "image": null
+  },
+  {
+   "source": "sun-13",
+   "artist": "Kali Malone",
+   "album": "Burning Song",
+   "url": "https://sun-13.com/2026/10/30/kali-malone-burning-song/",
+   "date": "2026-10-30T07:47:00Z",
+   "image": null
+  },
+  {
+   "source": "sun-13",
+   "artist": "Water Damage",
+   "album": "Repair",
+   "url": "https://sun-13.com/2026/10/28/water-damage-repair/",
+   "date": "2026-10-28T07:13:00Z",
+   "image": null
+  },
+  {
+   "source": "sun-13",
+   "artist": "Great Falls",
+   "album": "The Bite That Grows Up",
+   "url": "https://sun-13.com/2026/10/21/great-falls-the-bite-that-grows-up/",
+   "date": "2026-10-21T06:13:00Z",
+   "image": null
+  },
+  {
+   "source": "sun-13",
+   "artist": "The Perennial Sound",
+   "album": "The Shape of Punk Now!",
+   "url": "https://sun-13.com/2026/10/19/the-perennial-sound-the-shape-of-punk-now/",
+   "date": "2026-10-19T17:47:00Z",
    "image": null
   },
   {
@@ -1370,10 +1434,10 @@
   },
   {
    "source": "jenesaispop",
-   "artist": "Shygirl",
-   "album": "SWALLOW!",
-   "url": "https://jenesaispop.com/2026/11/09/533673/shygirl-swallow-critica/",
-   "date": "2026-11-09T16:00:52Z",
+   "artist": "Twisted Teens",
+   "album": "The Holy Cross Tigers",
+   "url": "https://jenesaispop.com/2026/11/10/533759/twisted-teens-the-holy-cross-tigers/",
+   "date": "2026-11-10T20:42:29Z",
    "image": null
   },
   {
@@ -4105,18 +4169,27 @@
    "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5231x2942+0+252/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe1%2F0c%2F4d5b2f6349358115a3116fde8fb3%2Fthis-is-lorelei-by-gabe-long.jpg"
   },
   {
-   "source": "boomkat",
-   "artist": "mu tate",
-   "album": "they're with you always",
-   "url": "https://boomkat.com/artists/mu-tate/releases/wmktwhb1/they-re-with-you-always",
-   "date": "2026-11-10T00:00:00Z",
+   "source": "line-of-best-fit",
+   "artist": "Tove Styrke",
+   "album": "I thought this story wasn't about me",
+   "url": "https://www.thelineofbestfit.com/albums/tove-styrke-finds-new-directions-on-i-thought-this-story-wasnt-about-me",
+   "date": "2026-11-10T19:00:00Z",
+   "image": null,
+   "factor": 1.5
+  },
+  {
+   "source": "line-of-best-fit",
+   "artist": "Ane Brun",
+   "album": "I Thought We Were the Same",
+   "url": "https://www.thelineofbestfit.com/albums/ane-brun-intrigues-with-some-caveats-on-i-thought-we-were-the-same",
+   "date": "2026-11-10T18:00:00Z",
    "image": null
   },
   {
    "source": "boomkat",
-   "artist": "Nurse With Wound/Scanner",
-   "album": "Contrary Motion",
-   "url": "https://boomkat.com/artists/nurse-with-wound-scanner/releases/abs3n9xh/contrary-motion",
+   "artist": "mu tate",
+   "album": "they're with you always",
+   "url": "https://boomkat.com/artists/mu-tate/releases/wmktwhb1/they-re-with-you-always",
    "date": "2026-11-10T00:00:00Z",
    "image": null
   },
@@ -4138,17 +4211,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "Ivo Malec",
-   "album": "Luminétudes",
-   "url": "https://boomkat.com/artists/ivo-malec/releases/8u2optpo/luminetudes",
-   "date": "2026-11-10T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Kali Malone",
-   "album": "Burning Song",
-   "url": "https://boomkat.com/artists/kali-malone/releases/rsuftdrg/burning-song",
+   "artist": "Chip E",
+   "album": "The Architect Of House - Chicago 1984-88. Volume 2: Unreleased Jack",
+   "url": "https://boomkat.com/artists/chip-e-a6ea9f/releases/a7tkcwpk/the-architect-of-house-chicago-1984-88-volume-2-unreleased-jack",
    "date": "2026-11-10T00:00:00Z",
    "image": null
   },
@@ -4178,6 +4243,14 @@
   },
   {
    "source": "boomkat",
+   "artist": "Nurse With Wound/Scanner",
+   "album": "Contrary Motion",
+   "url": "https://boomkat.com/artists/nurse-with-wound-scanner/releases/abs3n9xh/contrary-motion",
+   "date": "2026-11-10T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
    "artist": "Magdalena's Apathy",
    "album": "Soul Tax",
    "url": "https://boomkat.com/artists/magdalena-s-apathy/releases/lqta4plk/soul-tax",
@@ -4186,9 +4259,9 @@
   },
   {
    "source": "boomkat",
-   "artist": "The Wire",
-   "album": "Issue 514: December 2026",
-   "url": "https://boomkat.com/artists/the-wire/releases/xldhvykf/issue-514-december-2026",
+   "artist": "Kali Malone",
+   "album": "Burning Song",
+   "url": "https://boomkat.com/artists/kali-malone/releases/rsuftdrg/burning-song",
    "date": "2026-11-10T00:00:00Z",
    "image": null
   },
@@ -4205,6 +4278,14 @@
    "artist": "Anthony Child",
    "album": "Beginning of the Shadow",
    "url": "https://boomkat.com/artists/anthony-child/releases/7xvsrtfz/beginning-of-the-shadow",
+   "date": "2026-11-10T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "The Wire",
+   "album": "Issue 514: December 2026",
+   "url": "https://boomkat.com/artists/the-wire/releases/xldhvykf/issue-514-december-2026",
    "date": "2026-11-10T00:00:00Z",
    "image": null
   },
@@ -4282,14 +4363,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Barker",
-   "album": "Utility",
-   "url": "https://boomkat.com/artists/barker/releases/3hvv5w1j/utility",
-   "date": "2026-11-09T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Shygirl",
    "album": "SWALLOW!",
    "url": "https://boomkat.com/artists/shygirl/releases/9aen54g3/swallow",
@@ -4317,6 +4390,14 @@
    "artist": "Constant Sorrow",
    "album": "Ex Libris - Killing John Norris",
    "url": "https://boomkat.com/artists/constant-sorrow/releases/mpzbbxaq/ex-libris-killing-john-norris",
+   "date": "2026-11-09T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Barker",
+   "album": "Utility",
+   "url": "https://boomkat.com/artists/barker/releases/3hvv5w1j/utility",
    "date": "2026-11-09T00:00:00Z",
    "image": null
   },
@@ -4354,14 +4435,6 @@
   },
   {
    "source": "boomkat",
-   "artist": "Chip E",
-   "album": "The Architect Of House - Chicago 1984-88. Volume 2: Unreleased Jack",
-   "url": "https://boomkat.com/artists/chip-e-a6ea9f/releases/a7tkcwpk/the-architect-of-house-chicago-1984-88-volume-2-unreleased-jack",
-   "date": "2026-11-09T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
    "artist": "Ricardo Lewis & Rhythm",
    "album": "Cha-Cha Bop b/w Cha-Cha Baby",
    "url": "https://boomkat.com/artists/ricardo-lewis-rhythm/releases/6vvon8dm/cha-cha-bop-b-w-cha-cha-baby",
@@ -4382,14 +4455,6 @@
    "album": "CROWDS",
    "url": "https://boomkat.com/artists/squid/releases/izt4wp6n/crowds",
    "date": "2026-11-09T00:00:00Z",
-   "image": null
-  },
-  {
-   "source": "boomkat",
-   "artist": "Sees (Michael J. Blood)",
-   "album": "Ampersand Curve",
-   "url": "https://boomkat.com/artists/sees-michael-j-blood/releases/bf6q3jro/ampersand-curve",
-   "date": "2026-11-08T00:00:00Z",
    "image": null
   },
   {
@@ -4486,14 +4551,6 @@
    "album": "Macaw",
    "url": "https://atthebarrier.com/2026/11/08/dean-macaw-macaw-ep-review/",
    "date": "2026-11-08T09:45:38Z",
-   "image": null
-  },
-  {
-   "source": "at-the-barrier",
-   "artist": "Mental Cruelty",
-   "album": "Echoes Of A Forlorn Land",
-   "url": "https://atthebarrier.com/2026/11/06/mental-cruelty-echoes-of-a-forlorn-land-album-review/",
-   "date": "2026-11-06T07:54:53Z",
    "image": null
   },
   {
@@ -4634,6 +4691,14 @@
   },
   {
    "source": "various-small-flames",
+   "artist": "Guidon Bear",
+   "album": "Home Sick",
+   "url": "https://varioussmallflames.co.uk/2026/11/10/guidon-bear-home-sick/",
+   "date": "2026-11-10T20:38:49Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
    "artist": "Robbie Bennett",
    "album": "Footprints in the Ash / Vermiculite",
    "url": "https://varioussmallflames.co.uk/2026/11/09/robbie-bennett-footprints-in-the-ash-vermiculite/",
@@ -4678,14 +4743,6 @@
    "album": "Dogwood / Three Forks of Cheat",
    "url": "https://varioussmallflames.co.uk/2026/10/29/dowsers-dogwood-three-forks-of-cheat/",
    "date": "2026-10-29T09:32:45Z",
-   "image": null
-  },
-  {
-   "source": "various-small-flames",
-   "artist": "claire rousay & zander raymond",
-   "album": "can’t we have both",
-   "url": "https://varioussmallflames.co.uk/2026/10/27/claire-rousay-zander-raymond-cant-we-have-both/",
-   "date": "2026-10-27T09:31:36Z",
    "image": null
   },
   {
@@ -4778,10 +4835,34 @@
   },
   {
    "source": "americana-highways",
+   "artist": "Brian Lisik",
+   "album": "– …Presents The Slovak Club",
+   "url": "https://americanahighways.org/2026/11/10/review-brian-lisik-presents-the-slovak-club/",
+   "date": "2026-11-10T16:15:04Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Jamie Kindleyside",
+   "album": "Would You Live With Me On Mars?",
+   "url": "https://americanahighways.org/2026/11/10/review-jamie-kindleyside-would-you-live-with-me-on-mars/",
+   "date": "2026-11-10T16:11:59Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Eddie 9V",
+   "album": "Down Here",
+   "url": "https://americanahighways.org/2026/11/10/review-eddie-9v-down-here/",
+   "date": "2026-11-10T16:09:22Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
    "artist": "Dudley Taft",
    "album": "Fire Horse",
-   "url": "https://americanahighways.org/2026/11/10/review-dudley-taft-fire-horse/",
-   "date": "2026-11-10T16:00:11Z",
+   "url": "https://americanahighways.org/2026/11/09/review-dudley-taft-fire-horse/",
+   "date": "2026-11-09T16:00:11Z",
    "image": null
   },
   {
@@ -4806,22 +4887,6 @@
    "album": "Flowers of Perennial Dissent",
    "url": "https://americanahighways.org/2026/11/06/review-noah-c-lekas-flowers-of-perennial-dissent/",
    "date": "2026-11-06T16:11:36Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Kimon Kirk",
-   "album": "Bikini Jardine",
-   "url": "https://americanahighways.org/2026/11/06/review-kimon-kirk-bikini-jardine/",
-   "date": "2026-11-06T16:06:45Z",
-   "image": null
-  },
-  {
-   "source": "americana-highways",
-   "artist": "Brothers Osborne",
-   "album": "Watertown",
-   "url": "https://americanahighways.org/2026/11/04/review-brothers-osborne-watertown/",
-   "date": "2026-11-04T16:11:13Z",
    "image": null
   },
   {
@@ -4922,6 +4987,14 @@
   },
   {
    "source": "angry-metal-guy",
+   "artist": "Dream Unending",
+   "album": "Certain Uncertainties",
+   "url": "https://www.angrymetalguy.com/dream-unending-certain-uncertainties-review/",
+   "date": "2026-11-10T20:26:36Z",
+   "image": null
+  },
+  {
+   "source": "angry-metal-guy",
    "artist": "Iron Savior",
    "album": "Deathbringer",
    "url": "https://www.angrymetalguy.com/iron-savior-deathbringer-review/",
@@ -4974,14 +5047,6 @@
    "album": "Disciples of Void & Fire",
    "url": "https://www.angrymetalguy.com/sentries-disciples-of-void-fire-review/",
    "date": "2026-11-06T12:10:09Z",
-   "image": null
-  },
-  {
-   "source": "angry-metal-guy",
-   "artist": "After Infinity",
-   "album": "Beyond Eternity",
-   "url": "https://www.angrymetalguy.com/after-infintity-beyond-eternity-review/",
-   "date": "2026-11-05T21:08:00Z",
    "image": null
   },
   {
@@ -5521,246 +5586,6 @@
    "image": null
   },
   {
-   "source": "r-hiphopheads",
-   "artist": "Ciarán",
-   "album": "Róisín",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4er0/fresh_album_ciarán_fka_bearface_of_brockhampton/",
-   "date": "2026-11-06T05:03:44Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Skepta",
-   "album": "The Fork and Knife",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xoye38/fresh_album_skepta_the_fork_and_knife/",
-   "date": "2026-11-06T00:01:00Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Lil Baby",
-   "album": "FRESH",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4buy/fresh_album_lil_baby_fresh/",
-   "date": "2026-11-06T04:59:55Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Curren$y & Harry Fraud",
-   "album": "Off To The Races",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4c5r/fresh_album_curreny_harry_fraud_off_to_the_races/",
-   "date": "2026-11-06T05:00:18Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Statik Selektah",
-   "album": "Expensive Taste",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4bv1/fresh_album_statik_selektah_expensive_taste/",
-   "date": "2026-11-06T04:59:55Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Kenny Mason",
-   "album": "BULLDAWG: GRAVEYARD SHIFT",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4jd9/fresh_album_kenny_mason_bulldawg_graveyard_shift/",
-   "date": "2026-11-06T05:10:45Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Charles Hamilton",
-   "album": "T.H.E. (The Hamilton Experience)",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xqa98y/fresh_album_charles_hamilton_the_the_hamilton/",
-   "date": "2026-11-07T16:21:17Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "SOB X RBE",
-   "album": "From The Land",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp51vc/fresh_album_sob_x_rbe_from_the_land/",
-   "date": "2026-11-06T05:39:49Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Real Bad Man",
-   "album": "On High Alert Vol 5",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp5vbt/fresh_album_real_bad_man_on_high_alert_vol_5/",
-   "date": "2026-11-06T06:28:38Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "MC Eiht",
-   "album": "The Story of My Life (The Full Story)",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xov9kj/fresh_album_mc_eiht_the_story_of_my_life_the_full/",
-   "date": "2026-11-05T21:44:55Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Remy Banks",
-   "album": "sole nore. (featuring Bruiser Wolf, Domo Genesis, DRAM & GVAAN)",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xqaiju/fresh_album_remy_banks_sole_nore_featuring/",
-   "date": "2026-11-07T16:32:06Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Ramirez & Soulzay",
-   "album": "VELVET PLAYA$",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xpqqwr/fresh_album_ramirez_soulzay_velvet_playa/",
-   "date": "2026-11-06T22:55:42Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Camden Malik",
-   "album": "40 Acres (featuring Niontay, Leardo Khalil, Cletus Strap & Rockitneedspace) [released via MIKE's 10k Global label]",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xr1kp2/fresh_album_camden_malik_40_acres_featuring/",
-   "date": "2026-11-08T15:54:01Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Mike Ladd",
-   "album": "Nonechosen",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xq82jm/fresh_album_mike_ladd_nonechosen/",
-   "date": "2026-11-07T14:47:20Z",
-   "image": null
-  },
-  {
-   "source": "r-hiphopheads",
-   "artist": "Cruel Santino",
-   "album": "K.O.T.B - The Bomberman Chronicles",
-   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp5i5o/fresh_album_cruel_santino_kotb_the_bomberman/",
-   "date": "2026-11-06T06:06:27Z",
-   "image": null
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Twisted Teens",
-   "album": "The Holy Cross Tigers",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoycf8/fresh_album_twisted_teens_the_holy_cross_tigers/",
-   "date": "2026-11-05T23:59:58Z",
-   "image": "https://external-preview.redd.it/FCxGEhw6gjHOTBePRiTbq2qEZUB9rEllk4hSGrvfjF4.jpeg?width=640&crop=smart&auto=webp&s=4dd6a99cfa7868350e89d562f3614c8ae4d60797"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Sufjan Stevens",
-   "album": "Worst Christmas Ever!",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoycna/fresh_album_sufjan_stevens_worst_christmas_ever/",
-   "date": "2026-11-06T00:00:06Z",
-   "image": "https://external-preview.redd.it/TO4wr7GDZk7IoD8Nsqm9SztjsLWzYQmOcwiIKbk8cXU.jpeg?width=640&crop=smart&auto=webp&s=454ddd8d62dde4d2c9ed5d6b2800841728dfbfaf"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "oso oso",
-   "album": "an exchange of information",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoybvc/fresh_album_oso_oso_an_exchange_of_information/",
-   "date": "2026-11-05T23:59:13Z",
-   "image": "https://external-preview.redd.it/To3ct7bKNjMyEDQ1aqzOZZ1ydo9dLBQIDOr_TMST83o.jpeg?width=640&crop=smart&auto=webp&s=2b9e7bf5e432c1aa990649560943ae2726498e59"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Squid",
-   "album": "CROWDS",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xrnlgv/fresh_album_squid_crowds/",
-   "date": "2026-11-09T09:47:18Z",
-   "image": "https://external-preview.redd.it/oV_hu7IlJdroiihf2iF2ODAwWgNNTHt9TrqiLmXNxRc.jpeg?width=640&crop=smart&auto=webp&s=003394f5e219c9c4c30bc848fdd260dc38491dcb"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Do Nothing",
-   "album": "Friend World",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoycpt/fresh_album_do_nothing_friend_world/",
-   "date": "2026-11-06T00:00:08Z",
-   "image": "https://external-preview.redd.it/3r6vBLsX-6Y049gLGWfk78n0TvdXjOfIaiX3utaCuj8.jpeg?width=640&crop=smart&auto=webp&s=046a31f39c35a8e428ac21da3f8d5a456dff4a35"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Shygirl",
-   "album": "SWALLOW!",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xozngy/fresh_album_shygirl_swallow/",
-   "date": "2026-11-06T00:59:52Z",
-   "image": "https://external-preview.redd.it/kCDLtgfglWvx7VER5WMOVEooyeA1q7cetmLqcrsHpQk.jpeg?width=640&crop=smart&auto=webp&s=49809bcca67f4dc8860c3a04a6e2434ed60c14d1"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Kings of Leon",
-   "album": "O My Beloved",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoznds/fresh_album_kings_of_leon_o_my_beloved/",
-   "date": "2026-11-06T00:59:44Z",
-   "image": "https://external-preview.redd.it/Bno78616nu5ZixX0X9cfoljL8hIo9-zEDuvu02_C5yQ.jpeg?width=640&crop=smart&auto=webp&s=17397506c75237c1f7f76cc2feedc1efc58c4400"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Ciarán",
-   "album": "Róisín",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoz7dt/fresh_album_ciarán_róisín/",
-   "date": "2026-11-06T00:38:08Z",
-   "image": "https://external-preview.redd.it/Is7w-yxWQcofMYMqoc3zzejNRZIuzoqC5O8II87zbUM.jpeg?width=640&crop=smart&auto=webp&s=721c2d92eb806f5302b65e5e42cb7d92f6176c63"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Fucked Up",
-   "album": "Québec City",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xpce49/fresh_album_fucked_up_québec_city/",
-   "date": "2026-11-06T13:09:11Z",
-   "image": "https://external-preview.redd.it/iVf1BoMBK9Wm7DoG4cz9BnpqtxARri2P6YUZIuh9bQs.jpeg?width=640&crop=smart&auto=webp&s=6e1a92a96920784fbd40710ab06660fdbfd31be5"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Chastity Belt",
-   "album": "All My Friends",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoycfj/fresh_album_chastity_belt_all_my_friends/",
-   "date": "2026-11-05T23:59:59Z",
-   "image": "https://external-preview.redd.it/QQfhCty1_e-N5oW_qQBGmitri8ggI69booxfXTZ4KhU.jpeg?width=640&crop=smart&auto=webp&s=01a3447d0a237328d413af287d98d2216ed7b37b"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Royal Blood",
-   "album": "Dead Company",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xp6amq/fresh_album_royal_blood_dead_company/",
-   "date": "2026-11-06T06:55:31Z",
-   "image": "https://external-preview.redd.it/56YtCLZPS3DlQCamJQhWG9FQhTSuWiP9dAh2uLfDo0E.jpeg?width=640&crop=smart&auto=webp&s=2f1b66613d9f1127165003be109f784871aaf1bf"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Spanish Love Songs",
-   "album": "Future Nausea",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoybw6/fresh_album_spanish_love_songs_future_nausea/",
-   "date": "2026-11-05T23:59:16Z",
-   "image": "https://external-preview.redd.it/wZYN9XSmgMbXjvnBXUOCkAOF_W8vq10AuZomYdN_10E.jpeg?width=640&crop=smart&auto=webp&s=010b82be2003754bca0f1c2bc24254c271598250"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Steven Wilson",
-   "album": "Requiem for a Village",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xp1pa8/fresh_album_steven_wilson_requiem_for_a_village/",
-   "date": "2026-11-06T02:40:38Z",
-   "image": "https://external-preview.redd.it/hGLG7n-7H8uUsesbNXnrKLf-M6prfaR042TiN7LqTSY.jpeg?width=640&crop=smart&auto=webp&s=680bbf00dd2ec61752406de8060d397ba64735d5"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "untitled",
-   "album": "untitled (halo)",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoyl01/fresh_album_untitled_halo_untitled_halo/",
-   "date": "2026-11-06T00:09:27Z",
-   "image": "https://external-preview.redd.it/a_g0eBzyZkpkHcR8dfo7qK8wtb2iZ7HyhFfGSYNM4O8.jpeg?width=640&crop=smart&auto=webp&s=4effe4b7ed61967428c3ba695584a2c2c5a711eb"
-  },
-  {
-   "source": "r-indieheads",
-   "artist": "Django Django",
-   "album": "Doveland",
-   "url": "https://www.reddit.com/r/indieheads/comments/1xoydgj/fresh_album_django_django_doveland/",
-   "date": "2026-11-06T00:00:36Z",
-   "image": "https://external-preview.redd.it/KNqgObrLA8Cf5YhOcaoLN3b2_6ogDjbJ-a5fs-kC3WY.jpeg?width=640&crop=smart&auto=webp&s=3d1f7fc4f5a25b2e0e35e9cc2b88a42c8c112652"
-  },
-  {
    "source": "guardian-jazz",
    "artist": "Enrico Rava Fearless Five with Joe Lovano",
    "album": "Corners",
@@ -6066,6 +5891,14 @@
   },
   {
    "source": "uk-vibe",
+   "artist": "JD Allen",
+   "album": "SÖWT",
+   "url": "https://ukvibe.org/album_reviews/jd-allen-3/",
+   "date": "2026-11-10T18:31:33Z",
+   "image": null
+  },
+  {
+   "source": "uk-vibe",
    "artist": "Armel Dupas Trio",
    "album": "Nocturnes",
    "url": "https://ukvibe.org/album_reviews/armel-dupas-trio-2/",
@@ -6110,14 +5943,6 @@
    "album": "The Sound in San Francisco: Live at Keystone Korner",
    "url": "https://ukvibe.org/album_reviews/stan-getz-4/",
    "date": "2026-11-07T09:10:22Z",
-   "image": null
-  },
-  {
-   "source": "uk-vibe",
-   "artist": "Bobby Womack",
-   "album": "The Preacher in Paris: Live at the L’Élysée Montmartre",
-   "url": "https://ukvibe.org/album_reviews/bobby-womack/",
-   "date": "2026-11-07T08:32:12Z",
    "image": null
   },
   {
@@ -6270,6 +6095,110 @@
    "album": "The Sky Was Out of Tune",
    "url": "https://acloserlisten.com/2026/11/04/anushka-chkheidze-robert-lippok-the-sky-was-out-of-tune-2/",
    "date": "2026-11-04T00:01:47Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Turner Club",
+   "album": "All For Free",
+   "url": "https://hardwax.com/89775/turner-club/all-for-free/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Fold",
+   "album": "Lotion EP",
+   "url": "https://hardwax.com/89788/fold/lotion-ep/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Housey Doingz",
+   "album": "Baby Dunit",
+   "url": "https://hardwax.com/89782/housey-doingz/baby-dunit/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Monsieur Van Pratt",
+   "album": "Illegal Disco 011",
+   "url": "https://hardwax.com/89786/monsieur-van-pratt/illegal-disco-011/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Luke Hess & Brian Kage",
+   "album": "Northward EP",
+   "url": "https://hardwax.com/89789/luke-hess-and-brian-kage/northward-ep/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Marc Cotterell",
+   "album": "Gadget Tracks",
+   "url": "https://hardwax.com/89784/marc-cotterell/gadget-tracks/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Glenn Davis",
+   "album": "The Journey EP",
+   "url": "https://hardwax.com/89777/glenn-davis/the-journey-ep/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Ali Black & Sean Roman",
+   "album": "Shelter Me",
+   "url": "https://hardwax.com/89781/ali-black-and-sean-roman/shelter-me/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "DJ Aakmael",
+   "album": "Stopmotion EP",
+   "url": "https://hardwax.com/89776/dj-aakmael/stopmotion-ep/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Guillaume & The Coutu Dumonts",
+   "album": "Juane Moutarde EP",
+   "url": "https://hardwax.com/89778/guillaume-and-the-coutu-dumonts/juane-moutarde-ep/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Damon Wild",
+   "album": "Hyperconnected",
+   "url": "https://hardwax.com/89779/damon-wild/hyperconnected/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Nathalie Capello & Rose Lonergan",
+   "album": "Come Into My Life Remix Vol. 2",
+   "url": "https://hardwax.com/89791/nathalie-capello-and-rose-lonergan/come-into-my-life-remix-vol-2/",
+   "date": "2026-11-07T09:00:00Z",
+   "image": null
+  },
+  {
+   "source": "hard-wax",
+   "artist": "Nathalie Capello & Rose Lonergan",
+   "album": "Come Into My Life Remix Vol. 3",
+   "url": "https://hardwax.com/89790/nathalie-capello-and-rose-lonergan/come-into-my-life-remix-vol-3/",
+   "date": "2026-11-07T09:00:00Z",
    "image": null
   },
   {
@@ -6569,14 +6498,6 @@
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/30085408/Just-A-Gent-Roots-In-The-Sky-EP.jpg?w=150&h=150&crop=1&ssl=1"
   },
   {
-   "source": "acid-stag",
-   "artist": "Gus Dapperton",
-   "album": "4 Dear Life",
-   "url": "https://acidstag.com/2026/10/gus-dapperton-4-dear-life-lp/",
-   "date": "2026-10-28T21:59:19Z",
-   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/29085704/Gus-Dapperton-4-Dear-Life-LP-acid-stag.jpeg?w=150&h=150&crop=1&ssl=1"
-  },
-  {
    "source": "ambientblog",
    "artist": "Haarvöl",
    "album": "Overflowed Shelters",
@@ -6826,42 +6747,66 @@
   },
   {
    "source": "musicweb",
+   "artist": "Janáček & Kaprálová",
+   "album": "String Quartets",
+   "url": "https://musicwebinternational.com/2026/11/janacek-kapralova-string-quartets-pentatone/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Mozart",
+   "album": "Made in Manchester – Symphonies and Arias, Vol 1",
+   "url": "https://musicwebinternational.com/2026/11/mozart-made-in-manchester-symphonies-and-arias-vol-1-chandos/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Beth Taylor (mezzo-soprano)",
+   "album": "The Deeps Have Music",
+   "url": "https://musicwebinternational.com/2026/11/beth-taylor-mezzo-soprano-the-deeps-have-music-linn/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Scriabin",
+   "album": "Piano Music, Vol 2",
+   "url": "https://musicwebinternational.com/2026/11/scriabin-piano-music-vol-2-danacord/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Pärt, Pelēcis & Žlabys",
+   "album": "Pages of a Biography",
+   "url": "https://musicwebinternational.com/2026/11/part-pelecis-zlabys-pages-of-a-biography-ecm/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Liszt",
+   "album": "Venezia e Napoli, Années de Pèlerinage III",
+   "url": "https://musicwebinternational.com/2026/11/liszt-venezia-e-napoli-annees-de-pelerinage-iii-cpo/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Janáček, Martinű & Haas",
+   "album": "Czech Music for Strings",
+   "url": "https://musicwebinternational.com/2026/11/janacek-martinu-haas-czech-music-for-strings-chandos/",
+   "date": "2026-11-10T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
    "artist": "JS Bach",
    "album": "Mass in B minor",
    "url": "https://musicwebinternational.com/2026/11/bach-mass-in-b-minor-avie/",
    "date": "2026-11-09T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Álamo",
-   "album": "Piano Concerto",
-   "url": "https://musicwebinternational.com/2026/11/alamo-piano-concerto/",
-   "date": "2026-11-09T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Finzi",
-   "album": "The Dance Continued",
-   "url": "https://musicwebinternational.com/2026/11/finzi-the-dance-continued-signum-classics-2/",
-   "date": "2026-11-09T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Dvořák",
-   "album": "Symphony 9 Enescu: Rhapsodies",
-   "url": "https://musicwebinternational.com/2026/11/dvorak-symphony-9-enescu-rhapsodies-forgotten-records/",
-   "date": "2026-11-09T21:00:00Z",
-   "image": null
-  },
-  {
-   "source": "musicweb",
-   "artist": "Verdi",
-   "album": "La forza del destino",
-   "url": "https://musicwebinternational.com/2026/11/verdi-la-forza-del-destino-c-major/",
-   "date": "2026-11-08T12:00:00Z",
    "image": null
   },
   {
@@ -6937,6 +6882,374 @@
    "image": null
   },
   {
+   "source": "dusted",
+   "artist": "Windy & Carl with Optigan Conservatory",
+   "album": "Windy & Carl Meet Optigan Conservatory",
+   "url": "https://dustedmagazine.tumblr.com/post/830643056948723712",
+   "date": "2026-10-16T15:02:29Z",
+   "image": null
+  },
+  {
+   "source": "jenesaispop",
+   "artist": "Shygirl",
+   "album": "SWALLOW!",
+   "url": "https://jenesaispop.com/2026/11/09/533673/shygirl-swallow-critica/",
+   "date": "2026-11-09T16:00:52Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Ivo Malec",
+   "album": "Luminétudes",
+   "url": "https://boomkat.com/artists/ivo-malec/releases/8u2optpo/luminetudes",
+   "date": "2026-11-10T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "boomkat",
+   "artist": "Sees (Michael J. Blood)",
+   "album": "Ampersand Curve",
+   "url": "https://boomkat.com/artists/sees-michael-j-blood/releases/bf6q3jro/ampersand-curve",
+   "date": "2026-11-08T00:00:00Z",
+   "image": null
+  },
+  {
+   "source": "at-the-barrier",
+   "artist": "Mental Cruelty",
+   "album": "Echoes Of A Forlorn Land",
+   "url": "https://atthebarrier.com/2026/11/06/mental-cruelty-echoes-of-a-forlorn-land-album-review/",
+   "date": "2026-11-06T07:54:53Z",
+   "image": null
+  },
+  {
+   "source": "various-small-flames",
+   "artist": "claire rousay & zander raymond",
+   "album": "can’t we have both",
+   "url": "https://varioussmallflames.co.uk/2026/10/27/claire-rousay-zander-raymond-cant-we-have-both/",
+   "date": "2026-10-27T09:31:36Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Dudley Taft",
+   "album": "Fire Horse",
+   "url": "https://americanahighways.org/2026/11/10/review-dudley-taft-fire-horse/",
+   "date": "2026-11-10T16:00:11Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Kimon Kirk",
+   "album": "Bikini Jardine",
+   "url": "https://americanahighways.org/2026/11/06/review-kimon-kirk-bikini-jardine/",
+   "date": "2026-11-06T16:06:45Z",
+   "image": null
+  },
+  {
+   "source": "americana-highways",
+   "artist": "Brothers Osborne",
+   "album": "Watertown",
+   "url": "https://americanahighways.org/2026/11/04/review-brothers-osborne-watertown/",
+   "date": "2026-11-04T16:11:13Z",
+   "image": null
+  },
+  {
+   "source": "angry-metal-guy",
+   "artist": "After Infinity",
+   "album": "Beyond Eternity",
+   "url": "https://www.angrymetalguy.com/after-infintity-beyond-eternity-review/",
+   "date": "2026-11-05T21:08:00Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Ciarán",
+   "album": "Róisín",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4er0/fresh_album_ciarán_fka_bearface_of_brockhampton/",
+   "date": "2026-11-06T05:03:44Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Skepta",
+   "album": "The Fork and Knife",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xoye38/fresh_album_skepta_the_fork_and_knife/",
+   "date": "2026-11-06T00:01:00Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Lil Baby",
+   "album": "FRESH",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4buy/fresh_album_lil_baby_fresh/",
+   "date": "2026-11-06T04:59:55Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Curren$y & Harry Fraud",
+   "album": "Off To The Races",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4c5r/fresh_album_curreny_harry_fraud_off_to_the_races/",
+   "date": "2026-11-06T05:00:18Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Statik Selektah",
+   "album": "Expensive Taste",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4bv1/fresh_album_statik_selektah_expensive_taste/",
+   "date": "2026-11-06T04:59:55Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Kenny Mason",
+   "album": "BULLDAWG: GRAVEYARD SHIFT",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp4jd9/fresh_album_kenny_mason_bulldawg_graveyard_shift/",
+   "date": "2026-11-06T05:10:45Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Charles Hamilton",
+   "album": "T.H.E. (The Hamilton Experience)",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xqa98y/fresh_album_charles_hamilton_the_the_hamilton/",
+   "date": "2026-11-07T16:21:17Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "SOB X RBE",
+   "album": "From The Land",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp51vc/fresh_album_sob_x_rbe_from_the_land/",
+   "date": "2026-11-06T05:39:49Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Real Bad Man",
+   "album": "On High Alert Vol 5",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp5vbt/fresh_album_real_bad_man_on_high_alert_vol_5/",
+   "date": "2026-11-06T06:28:38Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "MC Eiht",
+   "album": "The Story of My Life (The Full Story)",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xov9kj/fresh_album_mc_eiht_the_story_of_my_life_the_full/",
+   "date": "2026-11-05T21:44:55Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Remy Banks",
+   "album": "sole nore. (featuring Bruiser Wolf, Domo Genesis, DRAM & GVAAN)",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xqaiju/fresh_album_remy_banks_sole_nore_featuring/",
+   "date": "2026-11-07T16:32:06Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Ramirez & Soulzay",
+   "album": "VELVET PLAYA$",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xpqqwr/fresh_album_ramirez_soulzay_velvet_playa/",
+   "date": "2026-11-06T22:55:42Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Camden Malik",
+   "album": "40 Acres (featuring Niontay, Leardo Khalil, Cletus Strap & Rockitneedspace) [released via MIKE's 10k Global label]",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xr1kp2/fresh_album_camden_malik_40_acres_featuring/",
+   "date": "2026-11-08T15:54:01Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Mike Ladd",
+   "album": "Nonechosen",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xq82jm/fresh_album_mike_ladd_nonechosen/",
+   "date": "2026-11-07T14:47:20Z",
+   "image": null
+  },
+  {
+   "source": "r-hiphopheads",
+   "artist": "Cruel Santino",
+   "album": "K.O.T.B - The Bomberman Chronicles",
+   "url": "https://www.reddit.com/r/hiphopheads/comments/1xp5i5o/fresh_album_cruel_santino_kotb_the_bomberman/",
+   "date": "2026-11-06T06:06:27Z",
+   "image": null
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Twisted Teens",
+   "album": "The Holy Cross Tigers",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoycf8/fresh_album_twisted_teens_the_holy_cross_tigers/",
+   "date": "2026-11-05T23:59:58Z",
+   "image": "https://external-preview.redd.it/FCxGEhw6gjHOTBePRiTbq2qEZUB9rEllk4hSGrvfjF4.jpeg?width=640&crop=smart&auto=webp&s=4dd6a99cfa7868350e89d562f3614c8ae4d60797"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Sufjan Stevens",
+   "album": "Worst Christmas Ever!",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoycna/fresh_album_sufjan_stevens_worst_christmas_ever/",
+   "date": "2026-11-06T00:00:06Z",
+   "image": "https://external-preview.redd.it/TO4wr7GDZk7IoD8Nsqm9SztjsLWzYQmOcwiIKbk8cXU.jpeg?width=640&crop=smart&auto=webp&s=454ddd8d62dde4d2c9ed5d6b2800841728dfbfaf"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "oso oso",
+   "album": "an exchange of information",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoybvc/fresh_album_oso_oso_an_exchange_of_information/",
+   "date": "2026-11-05T23:59:13Z",
+   "image": "https://external-preview.redd.it/To3ct7bKNjMyEDQ1aqzOZZ1ydo9dLBQIDOr_TMST83o.jpeg?width=640&crop=smart&auto=webp&s=2b9e7bf5e432c1aa990649560943ae2726498e59"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Squid",
+   "album": "CROWDS",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xrnlgv/fresh_album_squid_crowds/",
+   "date": "2026-11-09T09:47:18Z",
+   "image": "https://external-preview.redd.it/oV_hu7IlJdroiihf2iF2ODAwWgNNTHt9TrqiLmXNxRc.jpeg?width=640&crop=smart&auto=webp&s=003394f5e219c9c4c30bc848fdd260dc38491dcb"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Do Nothing",
+   "album": "Friend World",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoycpt/fresh_album_do_nothing_friend_world/",
+   "date": "2026-11-06T00:00:08Z",
+   "image": "https://external-preview.redd.it/3r6vBLsX-6Y049gLGWfk78n0TvdXjOfIaiX3utaCuj8.jpeg?width=640&crop=smart&auto=webp&s=046a31f39c35a8e428ac21da3f8d5a456dff4a35"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Shygirl",
+   "album": "SWALLOW!",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xozngy/fresh_album_shygirl_swallow/",
+   "date": "2026-11-06T00:59:52Z",
+   "image": "https://external-preview.redd.it/kCDLtgfglWvx7VER5WMOVEooyeA1q7cetmLqcrsHpQk.jpeg?width=640&crop=smart&auto=webp&s=49809bcca67f4dc8860c3a04a6e2434ed60c14d1"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Kings of Leon",
+   "album": "O My Beloved",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoznds/fresh_album_kings_of_leon_o_my_beloved/",
+   "date": "2026-11-06T00:59:44Z",
+   "image": "https://external-preview.redd.it/Bno78616nu5ZixX0X9cfoljL8hIo9-zEDuvu02_C5yQ.jpeg?width=640&crop=smart&auto=webp&s=17397506c75237c1f7f76cc2feedc1efc58c4400"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Ciarán",
+   "album": "Róisín",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoz7dt/fresh_album_ciarán_róisín/",
+   "date": "2026-11-06T00:38:08Z",
+   "image": "https://external-preview.redd.it/Is7w-yxWQcofMYMqoc3zzejNRZIuzoqC5O8II87zbUM.jpeg?width=640&crop=smart&auto=webp&s=721c2d92eb806f5302b65e5e42cb7d92f6176c63"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Fucked Up",
+   "album": "Québec City",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xpce49/fresh_album_fucked_up_québec_city/",
+   "date": "2026-11-06T13:09:11Z",
+   "image": "https://external-preview.redd.it/iVf1BoMBK9Wm7DoG4cz9BnpqtxARri2P6YUZIuh9bQs.jpeg?width=640&crop=smart&auto=webp&s=6e1a92a96920784fbd40710ab06660fdbfd31be5"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Chastity Belt",
+   "album": "All My Friends",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoycfj/fresh_album_chastity_belt_all_my_friends/",
+   "date": "2026-11-05T23:59:59Z",
+   "image": "https://external-preview.redd.it/QQfhCty1_e-N5oW_qQBGmitri8ggI69booxfXTZ4KhU.jpeg?width=640&crop=smart&auto=webp&s=01a3447d0a237328d413af287d98d2216ed7b37b"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Royal Blood",
+   "album": "Dead Company",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xp6amq/fresh_album_royal_blood_dead_company/",
+   "date": "2026-11-06T06:55:31Z",
+   "image": "https://external-preview.redd.it/56YtCLZPS3DlQCamJQhWG9FQhTSuWiP9dAh2uLfDo0E.jpeg?width=640&crop=smart&auto=webp&s=2f1b66613d9f1127165003be109f784871aaf1bf"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Spanish Love Songs",
+   "album": "Future Nausea",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoybw6/fresh_album_spanish_love_songs_future_nausea/",
+   "date": "2026-11-05T23:59:16Z",
+   "image": "https://external-preview.redd.it/wZYN9XSmgMbXjvnBXUOCkAOF_W8vq10AuZomYdN_10E.jpeg?width=640&crop=smart&auto=webp&s=010b82be2003754bca0f1c2bc24254c271598250"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Steven Wilson",
+   "album": "Requiem for a Village",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xp1pa8/fresh_album_steven_wilson_requiem_for_a_village/",
+   "date": "2026-11-06T02:40:38Z",
+   "image": "https://external-preview.redd.it/hGLG7n-7H8uUsesbNXnrKLf-M6prfaR042TiN7LqTSY.jpeg?width=640&crop=smart&auto=webp&s=680bbf00dd2ec61752406de8060d397ba64735d5"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "untitled",
+   "album": "untitled (halo)",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoyl01/fresh_album_untitled_halo_untitled_halo/",
+   "date": "2026-11-06T00:09:27Z",
+   "image": "https://external-preview.redd.it/a_g0eBzyZkpkHcR8dfo7qK8wtb2iZ7HyhFfGSYNM4O8.jpeg?width=640&crop=smart&auto=webp&s=4effe4b7ed61967428c3ba695584a2c2c5a711eb"
+  },
+  {
+   "source": "r-indieheads",
+   "artist": "Django Django",
+   "album": "Doveland",
+   "url": "https://www.reddit.com/r/indieheads/comments/1xoydgj/fresh_album_django_django_doveland/",
+   "date": "2026-11-06T00:00:36Z",
+   "image": "https://external-preview.redd.it/KNqgObrLA8Cf5YhOcaoLN3b2_6ogDjbJ-a5fs-kC3WY.jpeg?width=640&crop=smart&auto=webp&s=3d1f7fc4f5a25b2e0e35e9cc2b88a42c8c112652"
+  },
+  {
+   "source": "uk-vibe",
+   "artist": "Bobby Womack",
+   "album": "The Preacher in Paris: Live at the L’Élysée Montmartre",
+   "url": "https://ukvibe.org/album_reviews/bobby-womack/",
+   "date": "2026-11-07T08:32:12Z",
+   "image": null
+  },
+  {
+   "source": "acid-stag",
+   "artist": "Gus Dapperton",
+   "album": "4 Dear Life",
+   "url": "https://acidstag.com/2026/10/gus-dapperton-4-dear-life-lp/",
+   "date": "2026-10-28T21:59:19Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/10/29085704/Gus-Dapperton-4-Dear-Life-LP-acid-stag.jpeg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "musicweb",
+   "artist": "Álamo",
+   "album": "Piano Concerto",
+   "url": "https://musicwebinternational.com/2026/11/alamo-piano-concerto/",
+   "date": "2026-11-09T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Finzi",
+   "album": "The Dance Continued",
+   "url": "https://musicwebinternational.com/2026/11/finzi-the-dance-continued-signum-classics-2/",
+   "date": "2026-11-09T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Dvořák",
+   "album": "Symphony 9 Enescu: Rhapsodies",
+   "url": "https://musicwebinternational.com/2026/11/dvorak-symphony-9-enescu-rhapsodies-forgotten-records/",
+   "date": "2026-11-09T21:00:00Z",
+   "image": null
+  },
+  {
+   "source": "musicweb",
+   "artist": "Verdi",
+   "album": "La forza del destino",
+   "url": "https://musicwebinternational.com/2026/11/verdi-la-forza-del-destino-c-major/",
+   "date": "2026-11-08T12:00:00Z",
+   "image": null
+  },
+  {
    "source": "bandcamp-daily",
    "artist": "Orchestra Baobab",
    "album": "Made In Senegal",
@@ -6958,54 +7271,6 @@
    "album": "Take the Case of a Rose",
    "url": "https://www.godisinthetvzine.co.uk/2026/11/09/shaina-hayes-take-the-case-of-a-rose-bonsound/",
    "date": "2026-11-09T15:44:46Z",
-   "image": null
-  },
-  {
-   "source": "sun-13",
-   "artist": "Giacomo Zanus",
-   "album": "Wandering Away is Safer Than Getting Lost on Your Own",
-   "url": "https://sun-13.com/2026/11/06/giacomo-zanus-wandering-away-is-safer-than-getting-lost-on-your-own/",
-   "date": "2026-11-06T07:47:00Z",
-   "image": null
-  },
-  {
-   "source": "sun-13",
-   "artist": "Cross to Bear",
-   "album": "In Conversation with American Motors’ Dustin White",
-   "url": "https://sun-13.com/2026/11/04/cross-to-bear-in-conversation-with-american-motors-dustin-white/",
-   "date": "2026-11-04T07:13:00Z",
-   "image": null
-  },
-  {
-   "source": "sun-13",
-   "artist": "Kali Malone",
-   "album": "Burning Song",
-   "url": "https://sun-13.com/2026/10/30/kali-malone-burning-song/",
-   "date": "2026-10-30T07:47:00Z",
-   "image": null
-  },
-  {
-   "source": "sun-13",
-   "artist": "Water Damage",
-   "album": "Repair",
-   "url": "https://sun-13.com/2026/10/28/water-damage-repair/",
-   "date": "2026-10-28T07:13:00Z",
-   "image": null
-  },
-  {
-   "source": "sun-13",
-   "artist": "Great Falls",
-   "album": "The Bite That Grows Up",
-   "url": "https://sun-13.com/2026/10/21/great-falls-the-bite-that-grows-up/",
-   "date": "2026-10-21T06:13:00Z",
-   "image": null
-  },
-  {
-   "source": "sun-13",
-   "artist": "The Perennial Sound",
-   "album": "The Shape of Punk Now!",
-   "url": "https://sun-13.com/2026/10/19/the-perennial-sound-the-shape-of-punk-now/",
-   "date": "2026-10-19T17:47:00Z",
    "image": null
   },
   {
@@ -28185,14 +28450,6 @@
    "image": "https://media.pitchfork.com/photos/6aa42da6b2fc3a5873c487ba/master/pass/kllhhr:%20%E2%80%9Cskin%E2%80%9D.png"
   },
   {
-   "source": "pitchfork-tracks",
-   "artist": "Mhaol",
-   "album": "Scam Manifesto",
-   "url": "https://pitchfork.com/reviews/tracks/mhaol-scam-manifesto/",
-   "date": "2026-09-10T19:25:25Z",
-   "image": "https://media.pitchfork.com/photos/6aa30205764ded8b306dfb16/master/pass/M(h)aol%20-%20%E2%80%9CScam%20Manifesto%E2%80%9D%20single%20art.jpg"
-  },
-  {
    "source": "gorilla-vs-bear",
    "artist": "Helena Deland",
    "album": "Tip of My Tongue",
@@ -28223,6 +28480,62 @@
    "url": "https://www.gorillavsbear.net/helena-deland-how-do-you-like-me-now/",
    "date": "2026-09-15T11:07:35Z",
    "image": "https://townsquare.media/site/833/files/2026/09/attachment-hd.jpg?format=natural"
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Mildred",
+   "album": "Fluorescence",
+   "url": "https://stereogum.com/2517316/mildred-fluorescence/music/",
+   "date": "2026-11-10T22:03:16Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Shane Butler",
+   "album": "Devotee",
+   "url": "https://stereogum.com/2517257/shane-butler-devotee/music/",
+   "date": "2026-11-10T21:49:47Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Sorry",
+   "album": "Winner",
+   "url": "https://stereogum.com/2517535/sorry-winner/music/",
+   "date": "2026-11-10T21:31:07Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Deloyd Elze",
+   "album": "Yamaha 250",
+   "url": "https://stereogum.com/2517258/deloyd-elze-yamaha-250-song/music/",
+   "date": "2026-11-10T21:08:49Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Radie Peat",
+   "album": "Willow Garden",
+   "url": "https://stereogum.com/2517311/radie-peat-willow-garden/music/",
+   "date": "2026-11-10T20:53:41Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "GracieHorse",
+   "album": "Roadside Assistance",
+   "url": "https://stereogum.com/2517259/graciehorse-roadside-assistance-breaking-and-entering/music/",
+   "date": "2026-11-10T20:30:53Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "ira glass",
+   "album": "mister magnanimous",
+   "url": "https://stereogum.com/2517260/ira-glass-mister-magnanimous/music/",
+   "date": "2026-11-10T18:44:45Z",
+   "image": null
   },
   {
    "source": "stereogum-songs",
@@ -28302,54 +28615,6 @@
    "album": "Way Back To You",
    "url": "https://stereogum.com/2516783/becky-and-the-birds-way-back-to-you/music/",
    "date": "2026-11-06T18:48:14Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Lindstrøm",
-   "album": "Not The End Of It All",
-   "url": "https://stereogum.com/2516781/lindstrom-not-the-end-of-it-all/music/",
-   "date": "2026-11-06T16:56:19Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Slayyyter",
-   "album": "hey boyyy",
-   "url": "https://stereogum.com/2516763/slayyyter-hey-boyyy/music/",
-   "date": "2026-11-06T15:22:52Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Olivia Rodrigo",
-   "album": "take me home (4 christmas)",
-   "url": "https://stereogum.com/2516456/olivia-rodrigo-take-me-home-4-christmas/music/",
-   "date": "2026-11-06T01:04:10Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Soup Activists",
-   "album": "The Castle",
-   "url": "https://stereogum.com/2516634/soup-activists-the-castle/music/",
-   "date": "2026-11-05T20:50:05Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Zelooperz",
-   "album": "Masons Dispatch",
-   "url": "https://stereogum.com/2516633/zelooperz-black-noise-masons-dispatch-pin-breakers/music/",
-   "date": "2026-11-05T20:27:05Z",
-   "image": null
-  },
-  {
-   "source": "stereogum-songs",
-   "artist": "Eev Frances",
-   "album": "Shake",
-   "url": "https://stereogum.com/2516631/eev-frances-shake/music/",
-   "date": "2026-11-05T19:37:35Z",
    "image": null
   },
   {
@@ -28762,6 +29027,14 @@
   },
   {
    "source": "rhythm-passport",
+   "artist": "Seffarine",
+   "album": "Ah Ya Liyyam",
+   "url": "https://rhythmpassport.com/daily-discovery-seffarine-ah-ya-liyyam/",
+   "date": "2026-11-09T12:00:23Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
    "artist": "Santi & Tuğçe",
    "album": "En El Silencio – Live Concert | Organic House",
    "url": "https://rhythmpassport.com/daily-discovery-santi-tugce-en-el-silencio-live-concert-organic-house/",
@@ -28970,6 +29243,14 @@
   },
   {
    "source": "trance-attack",
+   "artist": "Rex Mundi vs. Ronski Speed & Sir Adrian",
+   "album": "The Perspective Space",
+   "url": "https://tranceattack.net/the-perspective-space-markus-schulz-in-search-of-sunrise-remix/",
+   "date": "2026-11-10T20:25:19Z",
+   "image": null
+  },
+  {
+   "source": "trance-attack",
    "artist": "Modeā",
    "album": "I Need Your Lovin",
    "url": "https://tranceattack.net/modea-i-need-your-lovin/",
@@ -29006,14 +29287,6 @@
    "album": "Stay With Me",
    "url": "https://tranceattack.net/grum-stay-with-me/",
    "date": "2026-11-03T11:00:00Z",
-   "image": null
-  },
-  {
-   "source": "trance-attack",
-   "artist": "David Gravell",
-   "album": "Revision",
-   "url": "https://tranceattack.net/david-gravell-revision/",
-   "date": "2026-11-02T11:00:00Z",
    "image": null
   },
   {
@@ -29058,14 +29331,6 @@
   },
   {
    "source": "stereofox",
-   "artist": "David Cutter Music",
-   "album": "Be OK",
-   "url": "https://www.stereofox.com/david-cutter-music-be-ok/",
-   "date": "2026-11-10T12:20:11Z",
-   "image": null
-  },
-  {
-   "source": "stereofox",
    "artist": "Toro Y Moi",
    "album": "Motive",
    "url": "https://www.stereofox.com/toro-y-moi-motive/",
@@ -29094,6 +29359,14 @@
    "album": "Show Me Sumthin",
    "url": "https://www.stereofox.com/flwr-chyld-show-me-sumthin/",
    "date": "2026-11-09T16:45:14Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "Moyses Dos Santos",
+   "album": "Brazilian Spirit",
+   "url": "https://www.stereofox.com/moyses-dos-santos-brazilian-spirit-ft-theo-croker/",
+   "date": "2026-11-09T12:05:55Z",
    "image": null
   },
   {
@@ -29142,6 +29415,70 @@
    "album": "PhenomenAlice ft. Alice Park",
    "url": "https://twistedsoulmusic.org/2026/11/09/drocan-phenomenalice-ft-alice-park-ts-premiere/",
    "date": "2026-11-09T13:21:48Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Lindstrøm",
+   "album": "Not The End Of It All",
+   "url": "https://stereogum.com/2516781/lindstrom-not-the-end-of-it-all/music/",
+   "date": "2026-11-06T16:56:19Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Slayyyter",
+   "album": "hey boyyy",
+   "url": "https://stereogum.com/2516763/slayyyter-hey-boyyy/music/",
+   "date": "2026-11-06T15:22:52Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Olivia Rodrigo",
+   "album": "take me home (4 christmas)",
+   "url": "https://stereogum.com/2516456/olivia-rodrigo-take-me-home-4-christmas/music/",
+   "date": "2026-11-06T01:04:10Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Soup Activists",
+   "album": "The Castle",
+   "url": "https://stereogum.com/2516634/soup-activists-the-castle/music/",
+   "date": "2026-11-05T20:50:05Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Zelooperz",
+   "album": "Masons Dispatch",
+   "url": "https://stereogum.com/2516633/zelooperz-black-noise-masons-dispatch-pin-breakers/music/",
+   "date": "2026-11-05T20:27:05Z",
+   "image": null
+  },
+  {
+   "source": "stereogum-songs",
+   "artist": "Eev Frances",
+   "album": "Shake",
+   "url": "https://stereogum.com/2516631/eev-frances-shake/music/",
+   "date": "2026-11-05T19:37:35Z",
+   "image": null
+  },
+  {
+   "source": "trance-attack",
+   "artist": "David Gravell",
+   "album": "Revision",
+   "url": "https://tranceattack.net/david-gravell-revision/",
+   "date": "2026-11-02T11:00:00Z",
+   "image": null
+  },
+  {
+   "source": "stereofox",
+   "artist": "David Cutter Music",
+   "album": "Be OK",
+   "url": "https://www.stereofox.com/david-cutter-music-be-ok/",
+   "date": "2026-11-10T12:20:11Z",
    "image": null
   },
   {
@@ -29230,14 +29567,6 @@
    "album": "Void Caller (Blu:sh Remix)",
    "url": "https://boltingbits.com/kvrk-void-caller-blush-remix-distant-gaze/?utm_source=rss&utm_medium=rss&utm_campaign=kvrk-void-caller-blush-remix-distant-gaze",
    "date": "2026-10-09T13:48:04Z",
-   "image": null
-  },
-  {
-   "source": "stereofox",
-   "artist": "Moyses Dos Santos",
-   "album": "Brazilian Spirit",
-   "url": "https://www.stereofox.com/moyses-dos-santos-brazilian-spirit-ft-theo-croker/",
-   "date": "2026-11-09T12:05:55Z",
    "image": null
   },
   {
@@ -53325,6 +53654,18 @@
    "artist": "untitled (halo)",
    "score": 0.5,
    "at": "2026-11-06T10:55:04Z"
+  },
+  "https://www.thelineofbestfit.com/albums/tove-styrke-finds-new-directions-on-i-thought-this-story-wasnt-about-me": {
+   "album": "I thought this story wasn't about me",
+   "artist": "Tove Styrke",
+   "score": 0.8,
+   "at": "2026-11-10T23:24:37Z"
+  },
+  "https://www.thelineofbestfit.com/albums/ane-brun-intrigues-with-some-caveats-on-i-thought-we-were-the-same": {
+   "album": "I Thought We Were the Same",
+   "artist": "Ane Brun",
+   "score": 0.7,
+   "at": "2026-11-10T23:24:37Z"
   }
  }
 }
