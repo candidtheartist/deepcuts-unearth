@@ -85,6 +85,21 @@ class FindingListsTests(unittest.TestCase):
         self.assertGreaterEqual(len(lists), b.SO_FAR_FROM)
         self.assertTrue(all(l["outlet"] and l["url"].startswith("https://") for l in lists))
         self.assertEqual(b.midyear_lists(1999), [])
+        for l in lists:
+            for e in l.get("entries", []):
+                self.assertEqual(len(e), 3, e)
+                self.assertTrue(e[1] and e[2], e)
+
+    def test_albums_copied_into_the_file_are_used_without_reading_the_page(self):
+        entries = [[None, f"Artist {n}", f"Album {n}"] for n in range(6)]
+        real_lists, real_read = b.midyear_lists, b.read_original
+        b.midyear_lists = lambda year: [{"outlet": "SPIN", "url": "https://spin.example/so-far", "entries": entries}]
+        b.read_original = lambda url, now: self.fail("the page was read")
+        try:
+            got = b.gather(2026, b.dt.datetime(2026, 11, 10, tzinfo=b.dt.timezone.utc), {}, [10], [], so_far=True)
+        finally:
+            b.midyear_lists, b.read_original = real_lists, real_read
+        self.assertEqual([(g["outlet"], len(g["entries"]), g["from"]) for g in got], [("SPIN", 6, "file")])
 
     def test_a_feed_source_is_named_by_its_publication(self):
         self.assertEqual([b.publication(n) for n in ("NPR New Music Friday (critics’ picks)", "The Guardian Jazz Album of the Month",
@@ -101,7 +116,7 @@ class FindingListsTests(unittest.TestCase):
                          [("NPR Music", None, 50), ("The Guardian", None, 50), ("Uproxx", "Steven Hyden", 40)])
 
     def test_the_index_list_page(self):
-        page = """<h2>Ann Powers: NPR: Top 10 Albums of 2025</h2>
+        page = """<a href="/category/2025-albums">2025 Albums</a><h2>Ann Powers: NPR: Top 10 Albums of 2025</h2>
             <p><a href="/list_publishers/npr-1"><em>NPR</em></a>: <a href="https://www.npr.org/best" class="post_title">Top 10 Albums of 2025</a></p>
             <ol><li value="1"><div class="album-artist"><a href="/artists/geese">Geese</a></div><div class="album-title"><a href="/albums/x">Getting Killed</a></div></li>
             <li value="2"><div class="album-artist"><a>Rosalía</a></div><div class="album-title"><a>Lux</a></div></li></ol>"""
@@ -113,6 +128,43 @@ class FindingListsTests(unittest.TestCase):
             feed.fetch, b.time.sleep = real
         self.assertEqual(got, {"outlet": "NPR", "writer": "Ann Powers", "title": "Top 10 Albums of 2025", "url": "https://www.npr.org/best",
                                "ranked": True, "entries": [(1, "Geese", "Getting Killed"), (2, "Rosalía", "Lux")]})
+
+    def read(self, path, page):
+        real = feed.fetch, b.time.sleep
+        feed.fetch, b.time.sleep = (lambda url, timeout=30, accept=None: page.encode()), (lambda s: None)
+        try:
+            return b.read_index_list(path)
+        finally:
+            feed.fetch, b.time.sleep = real
+
+    ENTRIES = """<ol><li value="1"><div class="album-artist">Geese</div><div class="album-title">Getting Killed</div></li></ol>"""
+
+    def test_a_writers_list_as_published_by_a_publication(self):
+        page = """<a href="/category/2025-albums">2025 Albums</a><h2>Rob Sheffield: Rolling Stone: Top 20 Albums of 2025</h2>
+            <p><a href="/list_authors/rob-sheffield-1">Rob Sheffield</a>: <a href="https://www.rollingstone.com/rob" class="post_title">Top 20 Albums of 2025</a>, as published by <a href="/list_publishers/rolling-stone-3"><em>Rolling Stone</em></a></p>""" + self.ENTRIES
+        got = self.read("/2025/rob-sheffield-top-20-albums-of-2025", page)
+        self.assertEqual((got["outlet"], got["writer"], got["title"], got["url"]),
+                         ("Rolling Stone", "Rob Sheffield", "Top 20 Albums of 2025", "https://www.rollingstone.com/rob"))
+
+    def test_a_writers_list_on_their_own_show(self):
+        page = """<a href="/category/2025-albums">x</a><h2>Anthony Fantano: The Needle Drop: Top 50 Albums of 2025</h2>
+            <p><a href="/list_authors/anthony-fantano-5">Anthony Fantano</a>: <a href="https://www.youtube.com/watch?v=x" class="post_title">Top 50 Albums of 2025</a>, as posted on his YouTube channel, <a href="/list_programs/the-needle-drop-e"><em>The Needle Drop</em></a></p>""" + self.ENTRIES
+        got = self.read("/2025/anthony-fantano-top-50-albums-of-2025", page)
+        self.assertEqual((got["outlet"], got["writer"]), ("The Needle Drop", "Anthony Fantano"))
+
+    def test_a_critic_of_no_publication(self):
+        page = """<a href="/category/2025-albums">x</a><h2>Robert Christgau: Dean&#39;s List 2025</h2>
+            <p><a href="/list_authors/robert-christgau-a">Robert Christgau</a>: <a href="https://robertchristgau.substack.com/p/deans-list-2025" class="post_title">Dean&#39;s List 2025</a></p>""" + self.ENTRIES
+        got = self.read("/2025/robert-christgau-dean-s-list-2025", page)
+        self.assertEqual((got["outlet"], got["writer"], got["title"]), ("Robert Christgau", None, "Dean's List 2025"))
+
+    def test_books_and_prizes_are_not_album_lists(self):
+        books = """<a href="/category/2025-books">2025 Books</a><a href="/category/2025-albums.rss">rss</a><h2>The Center for Fiction: 2025 First Novel Prize</h2>
+            <p><a href="/list_publishers/the-center-for-fiction-b"><em>The Center for Fiction</em></a>: <a href="https://centerforfiction.org/x" class="post_title">2025 First Novel Prize</a></p>""" + self.ENTRIES
+        self.assertIsNone(self.read("/2025/the-center-for-fiction-2025-first-novel-prize", books))
+        prize = """<a href="/category/2025-albums">x</a><h2>The Mercury Prize: 2025 Award</h2>
+            <p><a href="/list_programs/the-mercury-prize-0"><em>The Mercury Prize</em></a>: <a href="https://www.mercuryprize.com/" class="post_title">2025 Award</a></p>""" + self.ENTRIES
+        self.assertIsNone(self.read("/2025/the-mercury-prize-2025-award", prize))
 
 
 class LayoutTests(unittest.TestCase):
