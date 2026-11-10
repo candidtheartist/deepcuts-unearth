@@ -50,6 +50,7 @@ MAX_LOOKUPS = 200          # new Apple look-ups one run may make (about 20 a min
 RETRY_DAYS = 3             # a page that couldn't be read is tried again after this long
 AGREEMENT = 0.6            # a publication's page has to find this share of the index's albums to be believed
 VERSION = 3                # bump when reading changes, so saved pages are read again
+INDEX_VERSION = 2          # bump when reading the index's own list pages changes, so they're read again
 YEAR_END_FROM = 10         # this year's year-end lists replace its mid-year ones once there are this many
 SO_FAR_FROM = 3            # fewer mid-year lists than this isn't worth a page
 
@@ -319,20 +320,49 @@ def index_years_lists(year):
     return list(found.values())
 
 
+LIST_BY = re.compile(r'<a href="/list_(publishers|authors|programs)/[^"]*"[^>]*>(.*?)</a>', re.S)
+TITLE = re.compile(r'<a href="([^"]+)"[^>]*class="post_title"[^>]*>(.*?)</a>', re.S)
+
+
 def read_index_list(path):
     """One list as the index has it: {outlet, writer, title, url, ranked, entries}."""
     page = feed.fetch(INDEX + path).decode(errors="replace")
     time.sleep(1)
-    publisher = re.search(r'<a href="/list_publishers/[^"]+">(.*?)</a>\s*:\s*<a href="([^"]+)"[^>]*class="post_title"[^>]*>(.*?)</a>', page, re.S)
-    heading = re.search(r"<h2>(.*?)</h2>", page, re.S)
-    if not publisher:
+    year = path.strip("/").split("/")[0]
+    if f'href="/category/{year}-albums"' not in page:
+        return None  # a book or film list the index's music pages pointed to
+    title_link = TITLE.search(page)
+    if not title_link:
         return None
-    name, url, title = text_of(publisher.group(1)), html.unescape(publisher.group(2)), text_of(publisher.group(3))
-    if re.search(r"(?i)\b(?:books?|films?|movies?|tv|television|podcasts?|poems?|poetry|songs?|tracks?|singles?|shows?)\b", title):
-        return None  # the index's music section has the odd list of something else
-    # The heading says "Writer: Publication: Title" for a writer's own list, "Publication: Title" for the staff's.
-    parts = [p.strip() for p in text_of(heading.group(1)).split(":")] if heading else []
-    writer = parts[0] if len(parts) >= 3 else None
+    # The line above the list names who made it, in one of these shapes:
+    #   <publication>: <title>                                   (the staff's list)
+    #   <writer>: <title>, as published by <publication>         (a writer's list)
+    #   <writer>: <title>, as posted on his YouTube channel, <program>
+    #   <writer>: <title>                                        (a critic of no publication, like Christgau)
+    line_start = page.rfind("<p>", 0, title_link.start())
+    line_end = page.find("</p>", title_link.end())
+    before = LIST_BY.findall(page[line_start:title_link.start()])
+    after = LIST_BY.findall(page[title_link.end():line_end if line_end >= 0 else None])
+    if not before:
+        return None
+    kind, name = before[-1][0], text_of(before[-1][1])
+    url, title = html.unescape(title_link.group(1)), text_of(title_link.group(2))
+    writer = None
+    if kind == "authors":
+        writer = name
+        if after:
+            name = text_of(after[0][1])
+        else:
+            writer = None  # their own list, under their own name
+    else:
+        # Older pages put a writer's list under the publication and gave the writer only in the heading:
+        # "Writer: Publication: Title".
+        heading = re.search(r"<h2>(.*?)</h2>", page, re.S)
+        parts = [p.strip() for p in text_of(heading.group(1)).split(":")] if heading else []
+        writer = parts[0] if len(parts) >= 3 else None
+    if re.search(r"(?i)\b(?:books?|films?|movies?|tv|television|podcasts?|poems?|poetry|songs?|tracks?|singles?|shows?|"
+                 r"awards?|prizes?|shortlist|longlist)\b", title):
+        return None  # the index's music section has the odd list of something else, and prizes aren't year-end lists
     ranked = bool(re.search(r"<ol\b", page))
     entries = []
     for li in re.findall(r"<li\b([^>]*)>(.*?)</li>", page, re.S):
@@ -484,7 +514,7 @@ def aggregate(lists):
 
 
 def midyear_lists(year):
-    """The mid-year lists kept by hand in midyear_lists.json for one year: [{outlet, url}]."""
+    """The mid-year lists kept by hand in midyear_lists.json for one year: [{outlet, url, entries?}]."""
     try:
         return json.load(open(MIDYEAR)).get(str(year), [])
     except (OSError, ValueError):
@@ -506,9 +536,10 @@ def gather(year, now, memory, budget, discovered, so_far=False):
     lists = []
     for found in ([] if so_far else index_years_lists(year)):
         path = found["index"]
-        if path not in index and can_read():
+        held = index.get(path)
+        if (held is None or held.get("version") != INDEX_VERSION) and can_read():
             try:
-                index[path] = read_index_list(path) or {"skip": True}
+                index[path] = {**(read_index_list(path) or {"skip": True}), "version": INDEX_VERSION}
             except Exception as error:
                 log(f"  couldn't read {path}: {error}")
                 continue
@@ -517,14 +548,25 @@ def gather(year, now, memory, budget, discovered, so_far=False):
             continue
         lists.append({**item, "index": path})
     if so_far:
+        # A list whose page the readers get wrong can carry its albums in the file ("entries"), copied from the
+        # page by hand. Those are used as they are, and the page isn't read.
         lists += [{"outlet": m["outlet"], "title": m.get("title", f"Best albums of {year} so far"), "url": m["url"],
-                   "ranked": None, "entries": [], "writer": None} for m in midyear_lists(year)]
+                   "ranked": None, "entries": [tuple(e) for e in m.get("entries", [])], "writer": None,
+                   "byHand": bool(m.get("entries"))}
+                  for m in midyear_lists(year)]
     known = {l["url"] for l in lists}
     lists += [{"outlet": d["outlet"], "title": d["title"], "url": d["url"], "ranked": None, "entries": [], "writer": None}
               for d in discovered if d["year"] == year and d.get("soFar", False) == so_far and d["url"] not in known]
 
     result = []
     for item in lists:
+        if item.get("byHand"):
+            entries = [tuple(e) for e in item["entries"]]
+            result.append({"id": feed.slugify(f"{item['outlet']} {year}"), "outlet": item["outlet"], "writer": None,
+                           "title": item["title"], "url": item["url"], "ranked": any(r is not None for r, _, _ in entries),
+                           "entries": entries, "from": "file"})
+            log(f"  {year} {item['outlet']}: {len(entries)} albums from midyear_lists.json")
+            continue
         saved = pages.get(item["url"])
         tried = feed.parse_date(saved.get("at")) if saved else None
         if (saved is None or saved.get("version") != VERSION

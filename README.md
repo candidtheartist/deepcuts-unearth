@@ -178,6 +178,10 @@ Where the lists come from:
   a site that turns the job away, or a layout it can't make out).
 - The feeds the Unearth job reads are searched for "best albums of the year" posts, so a list counts the day it's
   published, before the index has it.
+- The index lists a writer's own list ("Rob Sheffield: Top 20 Albums of 2025, as published by Rolling Stone") as
+  well as staff lists, and critics of no publication (Robert Christgau) under their own name. Book, film and prize
+  pages (Mercury, Polaris) that its music pages point to are left out. Pages read before a change to this are read
+  again once (`INDEX_VERSION`).
 - One list per publication: its staff list, or when it has none the longest one of its writers made.
 - Many publications sit behind Cloudflare, which shows GitHub's servers a "checking your browser" page instead
   of the list. Where that happens the job asks the site's WordPress API for the same post (an official, public
@@ -188,7 +192,9 @@ Where the lists come from:
 
 Until this year's year-end lists are out, its mid-year lists ("The 50 Best Albums of 2026 So Far") make a "so far"
 page, marked `"soFar": true` in `lists.json`. The index doesn't keep mid-year lists, so they're listed by hand in
-`midyear_lists.json` (outlet and address; add one there), and the feeds add any "so far" posts they carry. Once ten
+`midyear_lists.json` (outlet and address; add one there). Where the readers get a page wrong (SPIN puts the album
+before the artist, Rough Trade's headings are its staff's names), the albums can be copied into the file as
+`"entries": [[place or null, artist, album], …]`, and the page isn't read. The feeds add any "so far" posts they carry. Once ten
 of the year's year-end lists can be read, the full year takes the "so far" page's place.
 
 Lists credit a backing band their own way ("Avalon Emerson & The Charm" on one, "Avalon Emerson" on another, and
