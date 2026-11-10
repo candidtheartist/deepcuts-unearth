@@ -6269,7 +6269,7 @@
   "https://passerbymagazine.com/recommendations/the-best-of-2025": {
    "entries": [],
    "how": "http 404",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://www.thevinylfactory.com/features/albums-of-2025": {
@@ -9535,8 +9535,8 @@
   },
   "https://www.thetimes.com/culture/music/article/the-25-best-albums-of-2025-fcgmn9ckc": {
    "entries": [],
-   "how": "no list found",
-   "at": "2026-11-06T23:14:48Z",
+   "how": "robots.txt",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://www.essence.com/gallery/best-albums-of-2025/": {
@@ -10701,7 +10701,7 @@
   "https://www.economist.com/culture/2025/12/11/the-best-albums-of-2025": {
    "entries": [],
    "how": "firewall",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://www.noripcord.com/the-best-albums-of-2025/": {
@@ -12490,7 +12490,7 @@
   "https://www.allmusic.com/year-in-review/2025": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://albumism.com/lists/best-albums-of-2025-index": {
@@ -12508,13 +12508,13 @@
   "https://ew.com/the-best-albums-of-2025-11770287": {
    "entries": [],
    "how": "firewall",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://www.kcrw.com/stories/kcrw-music-best-of-2025": {
    "entries": [],
    "how": "firewall",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://www.nme.com/lists/end-of-year/best-albums-2025-3915561": {
@@ -18177,7 +18177,7 @@
   "https://www.uncut.co.uk/features/introducing-the-new-uncut-and-our-review-of-2025-152073/": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   },
   "https://www.npr.org/2025/12/19/nx-s1-5648329/listener-poll-your-favorite-albums-of-2025": {
@@ -22154,7 +22154,124 @@
   "https://www.uncut.co.uk": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-06T23:14:48Z",
+   "at": "2026-11-10T02:02:04Z",
+   "version": 3
+  },
+  "https://centerforfiction.org/book-recs/2025-first-novel-prize/": {
+   "entries": [
+    [
+     null,
+     "University Of Iowa Press",
+     "Published"
+    ],
+    [
+     null,
+     "Macmillan / Henry Holt and Co.",
+     "Published"
+    ],
+    [
+     null,
+     "Abrams / The Overlook Press",
+     "Published"
+    ],
+    [
+     null,
+     "Simon & Schuster",
+     "Published"
+    ],
+    [
+     null,
+     "Hachette Book Group / Algonquin Books",
+     "Published"
+    ],
+    [
+     null,
+     "Graywolf Press",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Hogarth",
+     "Published"
+    ],
+    [
+     null,
+     "Grove Atlantic / Grove Press",
+     "Published"
+    ],
+    [
+     null,
+     "Macmillan / Farrar, Straus and Giroux",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Penguin Press",
+     "Published"
+    ],
+    [
+     null,
+     "Catapult",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Crown",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Viking",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Random House",
+     "Published"
+    ],
+    [
+     null,
+     "Both subversive and unexpectedly heartwarming",
+     "Sky Daddy hijacks the classic love story, exploring desire, fate, and the longing to be accepted for who we truly are"
+    ],
+    [
+     null,
+     "Simon & Schuster / Summit Books",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Riverhead Books",
+     "Published"
+    ],
+    [
+     null,
+     "Penguin Random House / Pantheon Books",
+     "Published"
+    ],
+    [
+     null,
+     "Blair",
+     "Published"
+    ],
+    [
+     null,
+     "Simon & Schuster / Gallery Books",
+     "Published"
+    ],
+    [
+     null,
+     "Deep Vellum / A Strange Object",
+     "Published"
+    ],
+    [
+     null,
+     "Zando / Crooked Media Reads",
+     "Published"
+    ]
+   ],
+   "how": "archive",
+   "at": "2026-11-10T02:02:04Z",
    "version": 3
   }
  },
@@ -40954,6 +41071,14 @@
   },
   "/2025/tynan-delong-top-25-albums-of-2025": {
    "skip": true
+  },
+  "/2025/the-center-for-fiction-2025-first-novel-prize": {
+   "outlet": "The Center for Fiction",
+   "writer": null,
+   "title": "2025 First Novel Prize",
+   "url": "https://centerforfiction.org/book-recs/2025-first-novel-prize/",
+   "ranked": false,
+   "entries": []
   }
  }
 }
