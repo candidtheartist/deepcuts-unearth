@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T14:41:28Z",
+ "generatedAt": "2026-11-13T23:39:10Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -7501,6 +7501,14 @@
      "size": 100
     },
     {
+     "id": "kasey-gelsomino-2025",
+     "outlet": "Kasey Gelsomino",
+     "title": "Top 10 Albums of 2025",
+     "url": "https://www.tiktok.com/@kaseys.playlist/video/7580081573802921271",
+     "ranked": true,
+     "size": 16
+    },
+    {
      "id": "kcrw-2025",
      "outlet": "KCRW",
      "title": "Best Albums of 2025",
@@ -8140,10 +8148,10 @@
      "genres": [
       "indie"
      ],
-     "points": 417,
-     "lists": 75,
-     "top10": 52,
-     "firsts": 15,
+     "points": 427,
+     "lists": 76,
+     "top10": 53,
+     "firsts": 16,
      "placements": [
       {
        "list": "beats-per-minute-2025",
@@ -8167,6 +8175,10 @@
       },
       {
        "list": "jordan-cronk-2025",
+       "rank": 1
+      },
+      {
+       "list": "kasey-gelsomino-2025",
        "rank": 1
       },
       {
@@ -8736,9 +8748,9 @@
      "genres": [
       "indie"
      ],
-     "points": 235,
-     "lists": 60,
-     "top10": 27,
+     "points": 240,
+     "lists": 61,
+     "top10": 28,
      "firsts": 2,
      "placements": [
       {
@@ -8771,6 +8783,10 @@
       },
       {
        "list": "brooklyn-vegan-2025",
+       "rank": 4
+      },
+      {
+       "list": "kasey-gelsomino-2025",
        "rank": 4
       },
       {
@@ -8972,6 +8988,208 @@
      ]
     },
     {
+     "id": "2025:baby|dijon",
+     "title": "Baby",
+     "artist": "Dijon",
+     "year": "2025",
+     "appleMusicID": "1832337743",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/0b/d3/b00bd346-7b14-da61-28b0-94d2ea03f58e/093624826873.jpg/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
+     "points": 180,
+     "lists": 49,
+     "top10": 19,
+     "firsts": 1,
+     "placements": [
+      {
+       "list": "new-york-magazine-craig-jenkins-2025",
+       "rank": 1
+      },
+      {
+       "list": "coup-de-main-magazine-2025",
+       "rank": 2
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 2
+      },
+      {
+       "list": "the-new-yorker-amanda-petrusich-2025",
+       "rank": 3
+      },
+      {
+       "list": "variety-jem-aswad-2025",
+       "rank": 3
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 4
+      },
+      {
+       "list": "the-bitter-southerner-2025",
+       "rank": 4
+      },
+      {
+       "list": "business-insider-callie-ahlgrim-2025",
+       "rank": 5
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 5
+      },
+      {
+       "list": "paste-magazine-2025",
+       "rank": 5
+      },
+      {
+       "list": "the-atlantic-spencer-kornhaber-2025",
+       "rank": 5
+      },
+      {
+       "list": "the-los-angeles-times-mikael-wood-2025",
+       "rank": 5
+      },
+      {
+       "list": "dazed-2025",
+       "rank": 6
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 6
+      },
+      {
+       "list": "the-philadelphia-inquirer-dan-deluca-2025",
+       "rank": 6
+      },
+      {
+       "list": "the-ringer-2025",
+       "rank": 6
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 8
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 9
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 9
+      },
+      {
+       "list": "hanif-abdurraqib-2025",
+       "rank": 11
+      },
+      {
+       "list": "yardbarker-evan-sawdey-2025",
+       "rank": 11
+      },
+      {
+       "list": "crack-magazine-2025",
+       "rank": 12
+      },
+      {
+       "list": "the-skinny-2025",
+       "rank": 12
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 13
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 13
+      },
+      {
+       "list": "the-fader-2025",
+       "rank": 13
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 14
+      },
+      {
+       "list": "billboard-2025",
+       "rank": 17
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 20
+      },
+      {
+       "list": "obscure-sound-2025",
+       "rank": 20
+      },
+      {
+       "list": "zara-wiley-2025",
+       "rank": 21
+      },
+      {
+       "list": "dork-2025",
+       "rank": 26
+      },
+      {
+       "list": "complex-2025",
+       "rank": 27
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 27
+      },
+      {
+       "list": "gorilla-vs-bear-2025",
+       "rank": 30
+      },
+      {
+       "list": "npr-2025",
+       "rank": 30
+      },
+      {
+       "list": "nme-2025",
+       "rank": 33
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 36
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "associated-press-2025"
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "essence-2025"
+      },
+      {
+       "list": "hazel-cills-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
+      },
+      {
+       "list": "slate-carl-wilson-2025"
+      },
+      {
+       "list": "the-wall-street-journal-mark-richardson-2025"
+      },
+      {
+       "list": "tone-glow-2025"
+      },
+      {
+       "list": "vogue-2025"
+      },
+      {
+       "list": "wilco-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:egodeathatabacheloretteparty|hayleywilliams",
      "title": "Ego Death At A Bachelorette Party",
      "artist": "Hayley Williams",
@@ -9144,204 +9362,6 @@
       },
       {
        "list": "tim-riley-2025"
-      },
-      {
-       "list": "vogue-2025"
-      },
-      {
-       "list": "wilco-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:baby|dijon",
-     "title": "Baby",
-     "artist": "Dijon",
-     "year": "2025",
-     "appleMusicID": "1832337743",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/0b/d3/b00bd346-7b14-da61-28b0-94d2ea03f58e/093624826873.jpg/600x600bb.jpg",
-     "genres": [
-      "rnb"
-     ],
-     "points": 175,
-     "lists": 48,
-     "top10": 18,
-     "firsts": 1,
-     "placements": [
-      {
-       "list": "new-york-magazine-craig-jenkins-2025",
-       "rank": 1
-      },
-      {
-       "list": "coup-de-main-magazine-2025",
-       "rank": 2
-      },
-      {
-       "list": "pitchfork-2025",
-       "rank": 2
-      },
-      {
-       "list": "the-new-yorker-amanda-petrusich-2025",
-       "rank": 3
-      },
-      {
-       "list": "variety-jem-aswad-2025",
-       "rank": 3
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 4
-      },
-      {
-       "list": "the-bitter-southerner-2025",
-       "rank": 4
-      },
-      {
-       "list": "business-insider-callie-ahlgrim-2025",
-       "rank": 5
-      },
-      {
-       "list": "flood-magazine-2025",
-       "rank": 5
-      },
-      {
-       "list": "paste-magazine-2025",
-       "rank": 5
-      },
-      {
-       "list": "the-atlantic-spencer-kornhaber-2025",
-       "rank": 5
-      },
-      {
-       "list": "the-los-angeles-times-mikael-wood-2025",
-       "rank": 5
-      },
-      {
-       "list": "dazed-2025",
-       "rank": 6
-      },
-      {
-       "list": "the-philadelphia-inquirer-dan-deluca-2025",
-       "rank": 6
-      },
-      {
-       "list": "the-ringer-2025",
-       "rank": 6
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 8
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 9
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 9
-      },
-      {
-       "list": "hanif-abdurraqib-2025",
-       "rank": 11
-      },
-      {
-       "list": "yardbarker-evan-sawdey-2025",
-       "rank": 11
-      },
-      {
-       "list": "crack-magazine-2025",
-       "rank": 12
-      },
-      {
-       "list": "the-skinny-2025",
-       "rank": 12
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 13
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 13
-      },
-      {
-       "list": "the-fader-2025",
-       "rank": 13
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 14
-      },
-      {
-       "list": "billboard-2025",
-       "rank": 17
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 20
-      },
-      {
-       "list": "obscure-sound-2025",
-       "rank": 20
-      },
-      {
-       "list": "zara-wiley-2025",
-       "rank": 21
-      },
-      {
-       "list": "dork-2025",
-       "rank": 26
-      },
-      {
-       "list": "complex-2025",
-       "rank": 27
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 27
-      },
-      {
-       "list": "gorilla-vs-bear-2025",
-       "rank": 30
-      },
-      {
-       "list": "npr-2025",
-       "rank": 30
-      },
-      {
-       "list": "nme-2025",
-       "rank": 33
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 36
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "associated-press-2025"
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "essence-2025"
-      },
-      {
-       "list": "hazel-cills-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "slate-carl-wilson-2025"
-      },
-      {
-       "list": "the-wall-street-journal-mark-richardson-2025"
-      },
-      {
-       "list": "tone-glow-2025"
       },
       {
        "list": "vogue-2025"
@@ -10623,6 +10643,169 @@
      ]
     },
     {
+     "id": "2025:addison|addisonrae",
+     "title": "Addison",
+     "artist": "Addison Rae",
+     "year": "2025",
+     "appleMusicID": "1809015416",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/4a/e3/cf4ae3c9-3420-6021-f059-cc6c87cf11b2/196872958249.jpg/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
+     "points": 142,
+     "lists": 38,
+     "top10": 13,
+     "firsts": 2,
+     "placements": [
+      {
+       "list": "the-fader-2025",
+       "rank": 1
+      },
+      {
+       "list": "the-washington-post-chris-richards-2025",
+       "rank": 1
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 2
+      },
+      {
+       "list": "nme-2025",
+       "rank": 2
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 4
+      },
+      {
+       "list": "passerby-2025",
+       "rank": 5
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 5
+      },
+      {
+       "list": "dork-2025",
+       "rank": 6
+      },
+      {
+       "list": "the-independent-2025",
+       "rank": 6
+      },
+      {
+       "list": "time-out-2025",
+       "rank": 6
+      },
+      {
+       "list": "business-insider-callie-ahlgrim-2025",
+       "rank": 7
+      },
+      {
+       "list": "the-new-york-times-jon-caramanica-2025",
+       "rank": 7
+      },
+      {
+       "list": "the-forty-five-2025",
+       "rank": 9
+      },
+      {
+       "list": "billboard-2025",
+       "rank": 11
+      },
+      {
+       "list": "dazed-2025",
+       "rank": 11
+      },
+      {
+       "list": "grace-robins-somerville-2025",
+       "rank": 12
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 12
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 12
+      },
+      {
+       "list": "the-new-yorker-amanda-petrusich-2025",
+       "rank": 14
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 17
+      },
+      {
+       "list": "zara-wiley-2025",
+       "rank": 17
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 18
+      },
+      {
+       "list": "jordan-cronk-2025",
+       "rank": 19
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 21
+      },
+      {
+       "list": "drowned-in-sound-2025",
+       "rank": 23
+      },
+      {
+       "list": "loud-and-quiet-2025",
+       "rank": 25
+      },
+      {
+       "list": "npr-2025",
+       "rank": 34
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 40
+      },
+      {
+       "list": "paste-magazine-2025",
+       "rank": 45
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 50
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 50
+      },
+      {
+       "list": "the-line-of-best-fit-2025",
+       "rank": 50
+      },
+      {
+       "list": "associated-press-2025"
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
+      },
+      {
+       "list": "the-economist-2025"
+      },
+      {
+       "list": "variety-jem-aswad-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:neverenough|turnstile",
      "title": "NEVER ENOUGH",
      "artist": "Turnstile",
@@ -10969,165 +11152,6 @@
      ]
     },
     {
-     "id": "2025:addison|addisonrae",
-     "title": "Addison",
-     "artist": "Addison Rae",
-     "year": "2025",
-     "appleMusicID": "1809015416",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/4a/e3/cf4ae3c9-3420-6021-f059-cc6c87cf11b2/196872958249.jpg/600x600bb.jpg",
-     "genres": [
-      "pop"
-     ],
-     "points": 134,
-     "lists": 37,
-     "top10": 12,
-     "firsts": 2,
-     "placements": [
-      {
-       "list": "the-fader-2025",
-       "rank": 1
-      },
-      {
-       "list": "the-washington-post-chris-richards-2025",
-       "rank": 1
-      },
-      {
-       "list": "nme-2025",
-       "rank": 2
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 4
-      },
-      {
-       "list": "passerby-2025",
-       "rank": 5
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 5
-      },
-      {
-       "list": "dork-2025",
-       "rank": 6
-      },
-      {
-       "list": "the-independent-2025",
-       "rank": 6
-      },
-      {
-       "list": "time-out-2025",
-       "rank": 6
-      },
-      {
-       "list": "business-insider-callie-ahlgrim-2025",
-       "rank": 7
-      },
-      {
-       "list": "the-new-york-times-jon-caramanica-2025",
-       "rank": 7
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 9
-      },
-      {
-       "list": "billboard-2025",
-       "rank": 11
-      },
-      {
-       "list": "dazed-2025",
-       "rank": 11
-      },
-      {
-       "list": "grace-robins-somerville-2025",
-       "rank": 12
-      },
-      {
-       "list": "pitchfork-2025",
-       "rank": 12
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 12
-      },
-      {
-       "list": "the-new-yorker-amanda-petrusich-2025",
-       "rank": 14
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 17
-      },
-      {
-       "list": "zara-wiley-2025",
-       "rank": 17
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 18
-      },
-      {
-       "list": "jordan-cronk-2025",
-       "rank": 19
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 21
-      },
-      {
-       "list": "drowned-in-sound-2025",
-       "rank": 23
-      },
-      {
-       "list": "loud-and-quiet-2025",
-       "rank": 25
-      },
-      {
-       "list": "npr-2025",
-       "rank": 34
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 40
-      },
-      {
-       "list": "paste-magazine-2025",
-       "rank": 45
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 50
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 50
-      },
-      {
-       "list": "the-line-of-best-fit-2025",
-       "rank": 50
-      },
-      {
-       "list": "associated-press-2025"
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "the-economist-2025"
-      },
-      {
-       "list": "variety-jem-aswad-2025"
-      },
-      {
-       "list": "vogue-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:essexhoney|bloodorange",
      "title": "Essex Honey",
      "artist": "Blood Orange",
@@ -11463,6 +11487,161 @@
      ]
     },
     {
+     "id": "2025:passionateones|nourishedbytime",
+     "title": "The Passionate Ones",
+     "artist": "Nourished by Time",
+     "year": "2025",
+     "appleMusicID": "1807286924",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/27/54/3b2754c7-1b32-2fde-d7e3-cf34a4932259/191404155172.png/600x600bb.jpg",
+     "genres": [
+      "rnb"
+     ],
+     "points": 110,
+     "lists": 36,
+     "top10": 10,
+     "firsts": 1,
+     "placements": [
+      {
+       "list": "paste-magazine-2025",
+       "rank": 1
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 2
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 2
+      },
+      {
+       "list": "gorilla-vs-bear-2025",
+       "rank": 3
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 6
+      },
+      {
+       "list": "the-washington-post-chris-richards-2025",
+       "rank": 6
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 9
+      },
+      {
+       "list": "dazed-2025",
+       "rank": 9
+      },
+      {
+       "list": "obscure-sound-2025",
+       "rank": 9
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 9
+      },
+      {
+       "list": "new-bands-for-old-heads-gabbie-2025",
+       "rank": 11
+      },
+      {
+       "list": "grace-robins-somerville-2025",
+       "rank": 14
+      },
+      {
+       "list": "the-line-of-best-fit-2025",
+       "rank": 14
+      },
+      {
+       "list": "the-ringer-2025",
+       "rank": 17
+      },
+      {
+       "list": "the-quietus-2025",
+       "rank": 18
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 22
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 25
+      },
+      {
+       "list": "uproxx-steven-hyden-2025",
+       "rank": 25
+      },
+      {
+       "list": "treble-2025",
+       "rank": 26
+      },
+      {
+       "list": "nme-2025",
+       "rank": 28
+      },
+      {
+       "list": "still-listening-2025",
+       "rank": 28
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 28
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 31
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 32
+      },
+      {
+       "list": "no-ripcord-2025",
+       "rank": 33
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 34
+      },
+      {
+       "list": "brooklyn-vegan-2025",
+       "rank": 36
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 42
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 50
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 93
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "alternative-press-magazine-2025"
+      },
+      {
+       "list": "hazel-cills-2025"
+      },
+      {
+       "list": "steve-erickson-2025"
+      },
+      {
+       "list": "the-yellow-button-kelsie-herzog-2025"
+      },
+      {
+       "list": "vinyl-factory-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:more|pulp",
      "title": "More",
      "artist": "Pulp",
@@ -11609,157 +11788,6 @@
       },
       {
        "list": "vogue-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:passionateones|nourishedbytime",
-     "title": "The Passionate Ones",
-     "artist": "Nourished by Time",
-     "year": "2025",
-     "appleMusicID": "1807286924",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/27/54/3b2754c7-1b32-2fde-d7e3-cf34a4932259/191404155172.png/600x600bb.jpg",
-     "genres": [
-      "rnb"
-     ],
-     "points": 105,
-     "lists": 35,
-     "top10": 9,
-     "firsts": 1,
-     "placements": [
-      {
-       "list": "paste-magazine-2025",
-       "rank": 1
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 2
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 2
-      },
-      {
-       "list": "gorilla-vs-bear-2025",
-       "rank": 3
-      },
-      {
-       "list": "the-washington-post-chris-richards-2025",
-       "rank": 6
-      },
-      {
-       "list": "beats-per-minute-2025",
-       "rank": 9
-      },
-      {
-       "list": "dazed-2025",
-       "rank": 9
-      },
-      {
-       "list": "obscure-sound-2025",
-       "rank": 9
-      },
-      {
-       "list": "pitchfork-2025",
-       "rank": 9
-      },
-      {
-       "list": "new-bands-for-old-heads-gabbie-2025",
-       "rank": 11
-      },
-      {
-       "list": "grace-robins-somerville-2025",
-       "rank": 14
-      },
-      {
-       "list": "the-line-of-best-fit-2025",
-       "rank": 14
-      },
-      {
-       "list": "the-ringer-2025",
-       "rank": 17
-      },
-      {
-       "list": "the-quietus-2025",
-       "rank": 18
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 22
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 25
-      },
-      {
-       "list": "uproxx-steven-hyden-2025",
-       "rank": 25
-      },
-      {
-       "list": "treble-2025",
-       "rank": 26
-      },
-      {
-       "list": "nme-2025",
-       "rank": 28
-      },
-      {
-       "list": "still-listening-2025",
-       "rank": 28
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 28
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 31
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 32
-      },
-      {
-       "list": "no-ripcord-2025",
-       "rank": 33
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 34
-      },
-      {
-       "list": "brooklyn-vegan-2025",
-       "rank": 36
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 42
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 50
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 93
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "alternative-press-magazine-2025"
-      },
-      {
-       "list": "hazel-cills-2025"
-      },
-      {
-       "list": "steve-erickson-2025"
-      },
-      {
-       "list": "the-yellow-button-kelsie-herzog-2025"
-      },
-      {
-       "list": "vinyl-factory-2025"
       }
      ]
     },
@@ -11914,6 +11942,125 @@
       },
       {
        "list": "tim-riley-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:sablefable|boniver",
+     "title": "SABLE, fABLE",
+     "artist": "Bon Iver",
+     "year": "2025",
+     "appleMusicID": "1791161215",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/95/21/449521a9-3e07-9a15-02be-d1412884e240/51719.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 87,
+     "lists": 27,
+     "top10": 9,
+     "firsts": 2,
+     "placements": [
+      {
+       "list": "entertainment-weekly-2025",
+       "rank": 1
+      },
+      {
+       "list": "the-bitter-southerner-2025",
+       "rank": 1
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 3
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 3
+      },
+      {
+       "list": "zara-wiley-2025",
+       "rank": 5
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 6
+      },
+      {
+       "list": "the-new-york-times-jon-caramanica-2025",
+       "rank": 6
+      },
+      {
+       "list": "uncut-magazine-2025",
+       "rank": 9
+      },
+      {
+       "list": "npr-2025",
+       "rank": 10
+      },
+      {
+       "list": "the-new-yorker-amanda-petrusich-2025",
+       "rank": 13
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 14
+      },
+      {
+       "list": "the-los-angeles-times-mikael-wood-2025",
+       "rank": 15
+      },
+      {
+       "list": "spectrum-culture-2025",
+       "rank": 16
+      },
+      {
+       "list": "dork-2025",
+       "rank": 22
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 29
+      },
+      {
+       "list": "mojo-magazine-2025",
+       "rank": 34
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 35
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 37
+      },
+      {
+       "list": "nialler9-niall-byrne-2025",
+       "rank": 39
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 48
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 59
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "glide-magazine-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
+      },
+      {
+       "list": "rough-trade-2025"
+      },
+      {
+       "list": "uproxx-steven-hyden-2025"
+      },
+      {
+       "list": "vogue-2025"
       }
      ]
     },
@@ -12135,6 +12282,128 @@
      ]
     },
     {
+     "id": "2025:virgin|lorde",
+     "title": "Virgin",
+     "artist": "Lorde",
+     "year": "2025",
+     "appleMusicID": "1810905299",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/3c/07/723c07a7-4ff6-b052-927d-6997fff13676/25UMGIM60545.rgb.jpg/600x600bb.jpg",
+     "genres": [
+      "pop"
+     ],
+     "points": 82,
+     "lists": 28,
+     "top10": 4,
+     "firsts": 2,
+     "placements": [
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 1
+      },
+      {
+       "list": "zara-wiley-2025",
+       "rank": 1
+      },
+      {
+       "list": "the-skinny-2025",
+       "rank": 9
+      },
+      {
+       "list": "dazed-2025",
+       "rank": 10
+      },
+      {
+       "list": "the-sunday-times-2025",
+       "rank": 12
+      },
+      {
+       "list": "grace-robins-somerville-2025",
+       "rank": 13
+      },
+      {
+       "list": "billboard-2025",
+       "rank": 14
+      },
+      {
+       "list": "npr-2025",
+       "rank": 14
+      },
+      {
+       "list": "time-out-2025",
+       "rank": 18
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 22
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 23
+      },
+      {
+       "list": "the-forty-five-2025",
+       "rank": 23
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 24
+      },
+      {
+       "list": "nme-2025",
+       "rank": 24
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 25
+      },
+      {
+       "list": "rolling-stone-2025",
+       "rank": 30
+      },
+      {
+       "list": "mxdwn-2025",
+       "rank": 38
+      },
+      {
+       "list": "albumism-2025",
+       "rank": 39
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 41
+      },
+      {
+       "list": "far-out-magazine-2025",
+       "rank": 43
+      },
+      {
+       "list": "dork-2025",
+       "rank": 54
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
+      },
+      {
+       "list": "new-statesman-2025"
+      },
+      {
+       "list": "slate-carl-wilson-2025"
+      },
+      {
+       "list": "steve-erickson-2025"
+      },
+      {
+       "list": "uproxx-steven-hyden-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:mayhem|ladygaga",
      "title": "MAYHEM",
      "artist": "Lady Gaga",
@@ -12247,121 +12516,6 @@
       },
       {
        "list": "variety-jem-aswad-2025"
-      },
-      {
-       "list": "vogue-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:sablefable|boniver",
-     "title": "SABLE, fABLE",
-     "artist": "Bon Iver",
-     "year": "2025",
-     "appleMusicID": "1791161215",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/95/21/449521a9-3e07-9a15-02be-d1412884e240/51719.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 81,
-     "lists": 26,
-     "top10": 8,
-     "firsts": 2,
-     "placements": [
-      {
-       "list": "entertainment-weekly-2025",
-       "rank": 1
-      },
-      {
-       "list": "the-bitter-southerner-2025",
-       "rank": 1
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 3
-      },
-      {
-       "list": "zara-wiley-2025",
-       "rank": 5
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 6
-      },
-      {
-       "list": "the-new-york-times-jon-caramanica-2025",
-       "rank": 6
-      },
-      {
-       "list": "uncut-magazine-2025",
-       "rank": 9
-      },
-      {
-       "list": "npr-2025",
-       "rank": 10
-      },
-      {
-       "list": "the-new-yorker-amanda-petrusich-2025",
-       "rank": 13
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 14
-      },
-      {
-       "list": "the-los-angeles-times-mikael-wood-2025",
-       "rank": 15
-      },
-      {
-       "list": "spectrum-culture-2025",
-       "rank": 16
-      },
-      {
-       "list": "dork-2025",
-       "rank": 22
-      },
-      {
-       "list": "beats-per-minute-2025",
-       "rank": 29
-      },
-      {
-       "list": "mojo-magazine-2025",
-       "rank": 34
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 35
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 37
-      },
-      {
-       "list": "nialler9-niall-byrne-2025",
-       "rank": 39
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 48
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 59
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "glide-magazine-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "rough-trade-2025"
-      },
-      {
-       "list": "uproxx-steven-hyden-2025"
       },
       {
        "list": "vogue-2025"
@@ -13194,124 +13348,6 @@
      ]
     },
     {
-     "id": "2025:virgin|lorde",
-     "title": "Virgin",
-     "artist": "Lorde",
-     "year": "2025",
-     "appleMusicID": "1810905299",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/3c/07/723c07a7-4ff6-b052-927d-6997fff13676/25UMGIM60545.rgb.jpg/600x600bb.jpg",
-     "genres": [
-      "pop"
-     ],
-     "points": 72,
-     "lists": 27,
-     "top10": 3,
-     "firsts": 1,
-     "placements": [
-      {
-       "list": "zara-wiley-2025",
-       "rank": 1
-      },
-      {
-       "list": "the-skinny-2025",
-       "rank": 9
-      },
-      {
-       "list": "dazed-2025",
-       "rank": 10
-      },
-      {
-       "list": "the-sunday-times-2025",
-       "rank": 12
-      },
-      {
-       "list": "grace-robins-somerville-2025",
-       "rank": 13
-      },
-      {
-       "list": "billboard-2025",
-       "rank": 14
-      },
-      {
-       "list": "npr-2025",
-       "rank": 14
-      },
-      {
-       "list": "time-out-2025",
-       "rank": 18
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 22
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 23
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 23
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 24
-      },
-      {
-       "list": "nme-2025",
-       "rank": 24
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 25
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 30
-      },
-      {
-       "list": "mxdwn-2025",
-       "rank": 38
-      },
-      {
-       "list": "albumism-2025",
-       "rank": 39
-      },
-      {
-       "list": "the-alternative-2025",
-       "rank": 41
-      },
-      {
-       "list": "far-out-magazine-2025",
-       "rank": 43
-      },
-      {
-       "list": "dork-2025",
-       "rank": 54
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "new-statesman-2025"
-      },
-      {
-       "list": "slate-carl-wilson-2025"
-      },
-      {
-       "list": "steve-erickson-2025"
-      },
-      {
-       "list": "uproxx-steven-hyden-2025"
-      },
-      {
-       "list": "vogue-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:instanthologramsonmetalfilm|stereolab",
      "title": "Instant Holograms On Metal Film",
      "artist": "Stereolab",
@@ -13663,6 +13699,121 @@
      ]
     },
     {
+     "id": "2025:caroline2|caroline",
+     "title": "caroline 2 (deluxe)",
+     "artist": "caroline",
+     "year": "2025",
+     "appleMusicID": "1849974472",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/00/86/6d008699-873d-5c48-c7ef-e3651e988001/191402059274.png/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 66,
+     "lists": 26,
+     "top10": 4,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "jordan-cronk-2025",
+       "rank": 3
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 3
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 5
+      },
+      {
+       "list": "loud-and-quiet-2025",
+       "rank": 5
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 11
+      },
+      {
+       "list": "the-wire-2025",
+       "rank": 11
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 12
+      },
+      {
+       "list": "the-quietus-2025",
+       "rank": 12
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 13
+      },
+      {
+       "list": "uncut-magazine-2025",
+       "rank": 14
+      },
+      {
+       "list": "the-fire-note-2025",
+       "rank": 15
+      },
+      {
+       "list": "the-line-of-best-fit-2025",
+       "rank": 16
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 18
+      },
+      {
+       "list": "the-ringer-2025",
+       "rank": 18
+      },
+      {
+       "list": "crack-magazine-2025",
+       "rank": 27
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 28
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 31
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 35
+      },
+      {
+       "list": "far-out-magazine-2025",
+       "rank": 41
+      },
+      {
+       "list": "still-listening-2025",
+       "rank": 49
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "brooklyn-vegan-2025"
+      },
+      {
+       "list": "rough-trade-2025"
+      },
+      {
+       "list": "tone-glow-2025"
+      },
+      {
+       "list": "vinyl-factory-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:headlights|alexg",
      "title": "Headlights",
      "artist": "Alex G",
@@ -13763,110 +13914,97 @@
      ]
     },
     {
-     "id": "2025:caroline2|caroline",
-     "title": "caroline 2 (deluxe)",
-     "artist": "caroline",
+     "id": "2025:artofloving|oliviadean",
+     "title": "The Art of Loving",
+     "artist": "Olivia Dean",
      "year": "2025",
-     "appleMusicID": "1849974472",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/00/86/6d008699-873d-5c48-c7ef-e3651e988001/191402059274.png/600x600bb.jpg",
+     "appleMusicID": "1817609404",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
      "genres": [
-      "indie"
+      "pop"
      ],
-     "points": 61,
-     "lists": 25,
-     "top10": 3,
+     "points": 63,
+     "lists": 22,
+     "top10": 4,
      "firsts": 0,
      "placements": [
       {
-       "list": "jordan-cronk-2025",
-       "rank": 3
+       "list": "kasey-gelsomino-2025",
+       "rank": 2
       },
       {
-       "list": "our-culture-2025",
-       "rank": 3
-      },
-      {
-       "list": "loud-and-quiet-2025",
+       "list": "billboard-2025",
        "rank": 5
       },
       {
-       "list": "slant-magazine-2025",
+       "list": "entertainment-weekly-2025",
+       "rank": 8
+      },
+      {
+       "list": "zara-wiley-2025",
+       "rank": 9
+      },
+      {
+       "list": "diy-magazine-2025",
        "rank": 11
       },
       {
-       "list": "the-wire-2025",
-       "rank": 11
-      },
-      {
-       "list": "beats-per-minute-2025",
+       "list": "exclaim-2025",
        "rank": 12
       },
       {
-       "list": "the-quietus-2025",
-       "rank": 12
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 13
-      },
-      {
-       "list": "uncut-magazine-2025",
-       "rank": 14
-      },
-      {
-       "list": "the-fire-note-2025",
+       "list": "dork-2025",
        "rank": 15
       },
       {
-       "list": "the-line-of-best-fit-2025",
-       "rank": 16
-      },
-      {
-       "list": "clash-magazine-2025",
+       "list": "nme-2025",
        "rank": 18
       },
       {
-       "list": "the-ringer-2025",
-       "rank": 18
+       "list": "rolling-stone-2025",
+       "rank": 19
       },
       {
-       "list": "crack-magazine-2025",
-       "rank": 27
+       "list": "the-forty-five-2025",
+       "rank": 21
       },
       {
-       "list": "pitchfork-2025",
+       "list": "the-sunday-times-2025",
+       "rank": 25
+      },
+      {
+       "list": "complex-2025",
        "rank": 28
       },
       {
-       "list": "northern-transmissions-2025",
-       "rank": 31
+       "list": "the-guardian-2025",
+       "rank": 37
       },
       {
-       "list": "under-the-radar-2025",
-       "rank": 35
+       "list": "clash-magazine-2025",
+       "rank": 47
       },
       {
-       "list": "far-out-magazine-2025",
-       "rank": 41
-      },
-      {
-       "list": "still-listening-2025",
-       "rank": 49
+       "list": "the-fader-2025",
+       "rank": 47
       },
       {
        "list": "allmusic-2025"
       },
       {
-       "list": "brooklyn-vegan-2025"
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "essence-2025"
+      },
+      {
+       "list": "huffpost-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
       },
       {
        "list": "rough-trade-2025"
-      },
-      {
-       "list": "tone-glow-2025"
-      },
-      {
-       "list": "vinyl-factory-2025"
       },
       {
        "list": "vogue-2025"
@@ -14493,100 +14631,6 @@
       },
       {
        "list": "huffpost-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:artofloving|oliviadean",
-     "title": "The Art of Loving",
-     "artist": "Olivia Dean",
-     "year": "2025",
-     "appleMusicID": "1817609404",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/600x600bb.jpg",
-     "genres": [
-      "pop"
-     ],
-     "points": 55,
-     "lists": 21,
-     "top10": 3,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "billboard-2025",
-       "rank": 5
-      },
-      {
-       "list": "entertainment-weekly-2025",
-       "rank": 8
-      },
-      {
-       "list": "zara-wiley-2025",
-       "rank": 9
-      },
-      {
-       "list": "diy-magazine-2025",
-       "rank": 11
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 12
-      },
-      {
-       "list": "dork-2025",
-       "rank": 15
-      },
-      {
-       "list": "nme-2025",
-       "rank": 18
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 19
-      },
-      {
-       "list": "the-forty-five-2025",
-       "rank": 21
-      },
-      {
-       "list": "the-sunday-times-2025",
-       "rank": 25
-      },
-      {
-       "list": "complex-2025",
-       "rank": 28
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 37
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 47
-      },
-      {
-       "list": "the-fader-2025",
-       "rank": 47
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "essence-2025"
-      },
-      {
-       "list": "huffpost-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "rough-trade-2025"
-      },
-      {
-       "list": "vogue-2025"
       }
      ]
     },
@@ -15608,6 +15652,88 @@
      ]
     },
     {
+     "id": "2025:pirouette|modelactriz",
+     "title": "Pirouette",
+     "artist": "Model/Actriz",
+     "year": "2025",
+     "appleMusicID": "1793651389",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/a0/39/82a039aa-b68b-3fb3-035f-69e81493e830/198704334160_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 45,
+     "lists": 17,
+     "top10": 4,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 4
+      },
+      {
+       "list": "drowned-in-sound-2025",
+       "rank": 6
+      },
+      {
+       "list": "les-inrockuptibles-2025",
+       "rank": 8
+      },
+      {
+       "list": "the-atlantic-spencer-kornhaber-2025",
+       "rank": 10
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 11
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 12
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 12
+      },
+      {
+       "list": "treble-2025",
+       "rank": 15
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 19
+      },
+      {
+       "list": "paste-magazine-2025",
+       "rank": 22
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 31
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 40
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 46
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 90
+      },
+      {
+       "list": "alternative-press-magazine-2025"
+      },
+      {
+       "list": "the-yellow-button-kelsie-herzog-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:lotto|theyareguttingabodyofwater",
      "title": "LOTTO",
      "artist": "They Are Gutting a Body of Water",
@@ -15672,6 +15798,72 @@
       },
       {
        "list": "glide-magazine-2025"
+      },
+      {
+       "list": "rough-trade-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:saya|sayagray",
+     "title": "SAYA",
+     "artist": "Saya Gray",
+     "year": "2025",
+     "appleMusicID": "1755473266",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/90/a8/3690a841-a9ae-a0ec-0d85-b9259e5ad538/198704051883_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 44,
+     "lists": 13,
+     "top10": 5,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "emilie-hanskamp-2025",
+       "rank": 2
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 5
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 9
+      },
+      {
+       "list": "kcrw-2025",
+       "rank": 10
+      },
+      {
+       "list": "new-bands-for-old-heads-gabbie-2025",
+       "rank": 10
+      },
+      {
+       "list": "crack-magazine-2025",
+       "rank": 13
+      },
+      {
+       "list": "business-insider-callie-ahlgrim-2025",
+       "rank": 14
+      },
+      {
+       "list": "zara-wiley-2025",
+       "rank": 19
+      },
+      {
+       "list": "paste-magazine-2025",
+       "rank": 24
+      },
+      {
+       "list": "the-line-of-best-fit-2025",
+       "rank": 26
+      },
+      {
+       "list": "alternative-press-magazine-2025"
+      },
+      {
+       "list": "josh-terry-2025"
       },
       {
        "list": "rough-trade-2025"
@@ -15767,77 +15959,149 @@
      ]
     },
     {
-     "id": "2025:pirouette|modelactriz",
-     "title": "Pirouette",
-     "artist": "Model/Actriz",
+     "id": "2025:peoplewatching|samfender",
+     "title": "People Watching (Deluxe Edition)",
+     "artist": "Sam Fender",
      "year": "2025",
-     "appleMusicID": "1793651389",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/a0/39/82a039aa-b68b-3fb3-035f-69e81493e830/198704334160_Cover.jpg/600x600bb.jpg",
+     "appleMusicID": "1846589790",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/ac/aa/3cacaa12-a598-83d6-ce13-8d6fc07085fc/25UM1IM60982.rgb.jpg/600x600bb.jpg",
      "genres": [
       "indie"
      ],
      "points": 40,
-     "lists": 16,
+     "lists": 12,
      "top10": 3,
      "firsts": 0,
      "placements": [
       {
-       "list": "drowned-in-sound-2025",
-       "rank": 6
+       "list": "the-sunday-times-2025",
+       "rank": 4
       },
       {
-       "list": "les-inrockuptibles-2025",
-       "rank": 8
+       "list": "kasey-gelsomino-2025",
+       "rank": 5
       },
       {
-       "list": "the-atlantic-spencer-kornhaber-2025",
-       "rank": 10
+       "list": "diy-magazine-2025",
+       "rank": 7
       },
       {
-       "list": "beats-per-minute-2025",
-       "rank": 11
+       "list": "the-los-angeles-times-mikael-wood-2025",
+       "rank": 13
       },
       {
-       "list": "northern-transmissions-2025",
-       "rank": 12
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 12
-      },
-      {
-       "list": "treble-2025",
-       "rank": 15
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 19
-      },
-      {
-       "list": "paste-magazine-2025",
-       "rank": 22
-      },
-      {
-       "list": "flood-magazine-2025",
-       "rank": 31
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 40
+       "list": "the-skinny-2025",
+       "rank": 14
       },
       {
        "list": "clash-magazine-2025",
+       "rank": 19
+      },
+      {
+       "list": "nme-2025",
+       "rank": 20
+      },
+      {
+       "list": "dork-2025",
+       "rank": 21
+      },
+      {
+       "list": "billboard-2025",
+       "rank": 28
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "melodic-magazine-2025"
+      },
+      {
+       "list": "new-statesman-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:lifetime|erikadecasier",
+     "title": "Lifetime",
+     "artist": "Erika de Casier",
+     "year": "2025",
+     "appleMusicID": "1810025525",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/42/69/2a4269c9-0473-2ef8-984a-45dcea7671d3/199350446337.jpg/600x600bb.jpg",
+     "genres": [
+      "electronic"
+     ],
+     "points": 39,
+     "lists": 19,
+     "top10": 4,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "gorilla-vs-bear-2025",
+       "rank": 6
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 7
+      },
+      {
+       "list": "the-fader-2025",
+       "rank": 7
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 8
+      },
+      {
+       "list": "tynan-delong-2025",
+       "rank": 19
+      },
+      {
+       "list": "nialler9-niall-byrne-2025",
+       "rank": 26
+      },
+      {
+       "list": "pitchfork-2025",
+       "rank": 26
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 27
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 28
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 41
+      },
+      {
+       "list": "the-guardian-2025",
+       "rank": 42
+      },
+      {
+       "list": "nme-2025",
+       "rank": 43
+      },
+      {
+       "list": "hanif-abdurraqib-2025",
        "rank": 46
       },
       {
-       "list": "under-the-radar-2025",
-       "rank": 90
+       "list": "dork-2025",
+       "rank": 96
       },
       {
-       "list": "alternative-press-magazine-2025"
+       "list": "clemence-poles-farhang-2025"
       },
       {
        "list": "the-yellow-button-kelsie-herzog-2025"
+      },
+      {
+       "list": "tone-glow-2025"
+      },
+      {
+       "list": "vinyl-factory-2025"
       },
       {
        "list": "vogue-2025"
@@ -15930,68 +16194,6 @@
       },
       {
        "list": "the-yellow-button-kelsie-herzog-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:saya|sayagray",
-     "title": "SAYA",
-     "artist": "Saya Gray",
-     "year": "2025",
-     "appleMusicID": "1755473266",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/90/a8/3690a841-a9ae-a0ec-0d85-b9259e5ad538/198704051883_Cover.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 39,
-     "lists": 12,
-     "top10": 4,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "emilie-hanskamp-2025",
-       "rank": 2
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 5
-      },
-      {
-       "list": "kcrw-2025",
-       "rank": 10
-      },
-      {
-       "list": "new-bands-for-old-heads-gabbie-2025",
-       "rank": 10
-      },
-      {
-       "list": "crack-magazine-2025",
-       "rank": 13
-      },
-      {
-       "list": "business-insider-callie-ahlgrim-2025",
-       "rank": 14
-      },
-      {
-       "list": "zara-wiley-2025",
-       "rank": 19
-      },
-      {
-       "list": "paste-magazine-2025",
-       "rank": 24
-      },
-      {
-       "list": "the-line-of-best-fit-2025",
-       "rank": 26
-      },
-      {
-       "list": "alternative-press-magazine-2025"
-      },
-      {
-       "list": "josh-terry-2025"
-      },
-      {
-       "list": "rough-trade-2025"
       }
      ]
     },
@@ -16195,148 +16397,6 @@
       },
       {
        "list": "wilco-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:peoplewatching|samfender",
-     "title": "People Watching (Deluxe Edition)",
-     "artist": "Sam Fender",
-     "year": "2025",
-     "appleMusicID": "1846589790",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/ac/aa/3cacaa12-a598-83d6-ce13-8d6fc07085fc/25UM1IM60982.rgb.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 35,
-     "lists": 11,
-     "top10": 2,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "the-sunday-times-2025",
-       "rank": 4
-      },
-      {
-       "list": "diy-magazine-2025",
-       "rank": 7
-      },
-      {
-       "list": "the-los-angeles-times-mikael-wood-2025",
-       "rank": 13
-      },
-      {
-       "list": "the-skinny-2025",
-       "rank": 14
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 19
-      },
-      {
-       "list": "nme-2025",
-       "rank": 20
-      },
-      {
-       "list": "dork-2025",
-       "rank": 21
-      },
-      {
-       "list": "billboard-2025",
-       "rank": 28
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "melodic-magazine-2025"
-      },
-      {
-       "list": "new-statesman-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:lifetime|erikadecasier",
-     "title": "Lifetime",
-     "artist": "Erika de Casier",
-     "year": "2025",
-     "appleMusicID": "1810025525",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/42/69/2a4269c9-0473-2ef8-984a-45dcea7671d3/199350446337.jpg/600x600bb.jpg",
-     "genres": [
-      "electronic"
-     ],
-     "points": 34,
-     "lists": 18,
-     "top10": 3,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "gorilla-vs-bear-2025",
-       "rank": 6
-      },
-      {
-       "list": "the-fader-2025",
-       "rank": 7
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 8
-      },
-      {
-       "list": "tynan-delong-2025",
-       "rank": 19
-      },
-      {
-       "list": "nialler9-niall-byrne-2025",
-       "rank": 26
-      },
-      {
-       "list": "pitchfork-2025",
-       "rank": 26
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 27
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 28
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 41
-      },
-      {
-       "list": "the-guardian-2025",
-       "rank": 42
-      },
-      {
-       "list": "nme-2025",
-       "rank": 43
-      },
-      {
-       "list": "hanif-abdurraqib-2025",
-       "rank": 46
-      },
-      {
-       "list": "dork-2025",
-       "rank": 96
-      },
-      {
-       "list": "clemence-poles-farhang-2025"
-      },
-      {
-       "list": "the-yellow-button-kelsie-herzog-2025"
-      },
-      {
-       "list": "tone-glow-2025"
-      },
-      {
-       "list": "vinyl-factory-2025"
-      },
-      {
-       "list": "vogue-2025"
       }
      ]
     },
@@ -21772,6 +21832,41 @@
      ]
     },
     {
+     "id": "2025:dogeared|billiemarten",
+     "title": "Dog Eared",
+     "artist": "Billie Marten",
+     "year": "2025",
+     "appleMusicID": "1796240052",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/2d/3b/8d2d3b35-5aee-1248-c189-1b441b113ee6/198704365010_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "folk"
+     ],
+     "points": 13,
+     "lists": 5,
+     "top10": 1,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 10
+      },
+      {
+       "list": "business-insider-callie-ahlgrim-2025",
+       "rank": 18
+      },
+      {
+       "list": "the-independent-2025",
+       "rank": 19
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "josh-terry-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:louderplease|rosegray",
      "title": "Louder, Please",
      "artist": "Rose Gray",
@@ -24808,37 +24903,6 @@
      ]
     },
     {
-     "id": "2025:dogeared|billiemarten",
-     "title": "Dog Eared",
-     "artist": "Billie Marten",
-     "year": "2025",
-     "appleMusicID": "1796240052",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/2d/3b/8d2d3b35-5aee-1248-c189-1b441b113ee6/198704365010_Cover.jpg/600x600bb.jpg",
-     "genres": [
-      "folk"
-     ],
-     "points": 8,
-     "lists": 4,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "business-insider-callie-ahlgrim-2025",
-       "rank": 18
-      },
-      {
-       "list": "the-independent-2025",
-       "rank": 19
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "josh-terry-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:talltales|markpritchardandthomyorke",
      "title": "Tall Tales",
      "artist": "Mark Pritchard and Thom Yorke",
@@ -24962,6 +25026,34 @@
       },
       {
        "list": "vinyl-factory-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:oblivion|alicephoebelou",
+     "title": "Oblivion",
+     "artist": "Alice Phoebe Lou",
+     "year": "2025",
+     "appleMusicID": "1827128064",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/b1/0b/beb10b79-e34d-9b14-ffa6-ce673a9c8c21/067003180757.png/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 8,
+     "lists": 3,
+     "top10": 1,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 3
+      },
+      {
+       "list": "still-listening-2025",
+       "rank": 29
+      },
+      {
+       "list": "rough-trade-2025"
       }
      ]
     },
@@ -25501,40 +25593,6 @@
       },
       {
        "list": "vogue-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:godsgonnagiveyouamilliondollars|shallowater",
-     "title": "God's Gonna Give You a Million Dollars",
-     "artist": "Shallowater",
-     "year": "2025",
-     "appleMusicID": "6828593681",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/85/a4/f0/85a4f050-2e02-e28b-5863-d7298ea83264/859715515268.png/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 7,
-     "lists": 5,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "consequence-2025",
-       "rank": 17
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 50
-      },
-      {
-       "list": "josh-terry-2025"
-      },
-      {
-       "list": "the-yellow-button-kelsie-herzog-2025"
-      },
-      {
-       "list": "uproxx-steven-hyden-2025"
       }
      ]
     }

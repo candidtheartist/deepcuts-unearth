@@ -5989,6 +5989,638 @@
    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7a/1a/02/7a1a024a-7d58-b191-0590-bc34197b4918/820200156174.jpg/600x600bb.jpg",
    "year": "2026",
    "genre": "Singer/Songwriter"
+  },
+  "oblivion|alicephoebelou": {
+   "id": "1827128064",
+   "artist": "Alice Phoebe Lou",
+   "album": "Oblivion",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/b1/0b/beb10b79-e34d-9b14-ffa6-ce673a9c8c21/067003180757.png/600x600bb.jpg",
+   "year": "2025",
+   "genre": "Alternative"
+  },
+  "lastnail|disfear": {
+   "id": "6791700794",
+   "artist": "Disfear",
+   "album": "The Last Nail",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/49/f9/8949f977-4d36-69eb-6fb3-a75a1d2712d8/781676533411.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "wholovesthesun|chatpile": {
+   "id": "6769103496",
+   "artist": "Chat Pile",
+   "album": "Who Loves The Sun",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/c1/3b/abc13b6a-c178-5652-b755-da7115b1b4ea/769152437705.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "elsewherealways|overpass": {
+   "id": "1855496566",
+   "artist": "overpass",
+   "album": "Elsewhere, Always",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/18/e1/4518e120-dcad-e4e7-8812-6019a60784ff/199538859300.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "cancelme|fatdog": {
+   "id": "6774692705",
+   "artist": "Fat Dog",
+   "album": "Cancel Me (I'm Tired)",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/85/b0/1685b0c1-616c-8246-a249-45eee3fb2082/887828056866.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "devotion|keening": {
+   "id": "6786409344",
+   "artist": "The Keening",
+   "album": "Devotion",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/e3/8c/35e38cb5-4679-e4f8-1c1d-157c6512c292/781676552214.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "lightthatkeepsus|motherofgraves": {
+   "id": "6792859104",
+   "artist": "Mother of Graves",
+   "album": "The Light That Keeps Us",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/3f/fc/623ffc8e-7dcc-51ef-5ed7-fd61cdc14ef9/840526515288.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "archives|vanishingtwin": {
+   "id": "6774158732",
+   "artist": "Vanishing Twin",
+   "album": "Archives",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/30/8a/ae308ac7-2399-08e0-3e6a-094547a40e1c/809236006127_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "shapesofmidnight|uncleacidthedeadbeats": {
+   "id": "6788473124",
+   "artist": "Uncle Acid & The Deadbeats",
+   "album": "Shapes Of Midnight",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/c7/10/4cc710b5-3e88-df5b-3d8b-9dbab5235a9c/128587.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Hard Rock"
+  },
+  "thismirrorweighsaton|interpol": {
+   "id": "6768694728",
+   "artist": "Interpol",
+   "album": "This Mirror Weighs a Ton",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/d4/e0/55d4e024-14d5-48d3-cd2b-2f4d8ca3a1d8/0720841306801_Cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "dethjemsøktehjertet|panopticon": {
+   "id": "1879842657",
+   "artist": "Panopticon",
+   "album": "Det hjemsøkte hjertet",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/9c/01/0e9c0127-6ac2-c487-ea61-351f05a53e3e/7350142984199.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "coronach|hellripper": {
+   "id": "1862521937",
+   "artist": "Hellripper",
+   "album": "Coronach",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1a/57/a5/1a57a522-08c7-83d1-0249-45318abe4ab1/196873559971.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "outtanational|pigeon": {
+   "id": "1861617468",
+   "artist": "Pigeon",
+   "album": "OUTTANATIONAL",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/1c/f7/641cf7a2-6296-1eaa-94a3-92ec82510043/121398.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "decay|godflesh": {
+   "id": "6779721992",
+   "artist": "Godflesh",
+   "album": "Decay",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/0d/b0/fd0db0b3-a47d-b9a6-7049-b3f9a26131e1/781676565214.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "warsofspiritwardsoflight|dreadnought": {
+   "id": "6784840480",
+   "artist": "Dreadnought",
+   "album": "Wars of Spirit // Wards of Light",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/85/16/738516c5-9fc9-da61-468e-c25630b087c6/Dreadnought_-_Wars_of_Spirit_-_Wards_of_Light.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "ritualsofshame|warning": {
+   "id": "1884088755",
+   "artist": "Warning",
+   "album": "Rituals of Shame",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/d8/b4/cbd8b4f0-e800-23bb-a596-399501e24a2c/781676556717.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "volumev|down": {
+   "id": "6796236881",
+   "artist": "DOWN",
+   "album": "Volume V",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/2d/3a/ee2d3af2-4bcb-5190-7892-9bc76a2cbb8a/cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Hard Rock"
+  },
+  "sugaronblackstone|kristinhersh": {
+   "id": "1886486340",
+   "artist": "Kristin Hersh",
+   "album": "Sugar on Blackstone",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/8a/68/918a6897-faae-a3af-5df3-f4689d1f9897/809236005755_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Indie Rock"
+  },
+  "wastedonyouth|molotovs": {
+   "id": "1877893500",
+   "artist": "The Molotovs",
+   "album": "Wasted On Youth",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/75/75/6f757575-ac91-9560-fac7-d8c0e80c997a/8721215562078.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "lookingglasshymnalblue|silver": {
+   "id": "1870953721",
+   "artist": "The Silver",
+   "album": "Looking Glass Hymnal Blue",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/7a/00/4f7a00e0-cfef-aa34-af17-70f1190d9d60/123642.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Hard Rock"
+  },
+  "infiniteillumination|spiritadrift": {
+   "id": "1889210277",
+   "artist": "Spirit Adrift",
+   "album": "Infinite Illumination",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/d3/fb/add3fb17-4829-bc12-9fdc-70a28e396994/810079502356.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "bloodydreams|devilmaster": {
+   "id": "6781302078",
+   "artist": "Devil Master",
+   "album": "Bloody Dreams",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/d1/18/2ed118da-be09-040e-cfb8-c7eba6919d6a/781676575411.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "cannonball|manwomanchainsaw": {
+   "id": "1891859089",
+   "artist": "Man/Woman/Chainsaw",
+   "album": "Cannonball",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/29/e3/1629e320-5887-acc8-9dc2-67910d05db3a/823375106265_Cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "projections|godthrymm": {
+   "id": "1881722408",
+   "artist": "Godthrymm",
+   "album": "Projections",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/41/12/3641123e-418f-b7b5-d5c4-c2e6d1e096e9/840526507016.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "verdwazingderdwazen|bachtndevullemoane": {
+   "id": "6813971738",
+   "artist": "Bacht'n de Vulle Moane",
+   "album": "Verdwazing Der Dwazen",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/e4/63/67e463ac-3d14-5499-70d6-81fd9d89113e/artwork.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "cursumperficio|anthrax": {
+   "id": "1867327673",
+   "artist": "Anthrax",
+   "album": "Cursum Perficio",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/80/f9/8b80f9fa-84b5-d50b-56c8-38c626d23c6c/199806771266.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "swallow|shygirl": {
+   "id": "6795185326",
+   "artist": "Shygirl",
+   "album": "SWALLOW!",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a7/54/77/a75477a8-1f9f-ffd6-37c5-774c1ceb6cfb/5056556184614_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "goodgodbaadman|corrosionofconformity": {
+   "id": "1869085524",
+   "artist": "Corrosion of Conformity",
+   "album": "Good God / Baad Man",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/33/36/6433366e-a87c-1e1c-75e6-f54f09004a61/cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "decrepitizingdinofthecerebralpsyopticon|fakedust": {
+   "missAt": "2026-11-13T23:42:55Z"
+  },
+  "worstgirlinamerica|slayyyter": {
+   "missAt": "2026-11-13T23:43:05Z"
+  },
+  "sealedintonone|exxul": {
+   "id": "1866843376",
+   "artist": "Exxûl",
+   "album": "Sealed Into None",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/61/13/fe6113d4-96d0-b4ea-b223-9a8a4db85d80/artwork.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "ridersofthesettingsun|wayfarer": {
+   "id": "6808278617",
+   "artist": "Wayfarer",
+   "album": "Riders of the Setting Sun",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/1d/1f/151d1f46-5108-d0dc-a16a-d0216de9e1fb/Wayfarer_-_Riders_of_the_Setting_Sun.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "gohka|sigh": {
+   "id": "6786781347",
+   "artist": "Sigh",
+   "album": "Goh-Ka",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/b3/e5/bfb3e5db-95b0-1fdc-99ef-2156d8dc8730/801056441560.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Death Metal/Black Metal"
+  },
+  "wanderingstar|hayliedavis": {
+   "id": "1861805093",
+   "artist": "Haylie Davis",
+   "album": "Wandering Star",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/12/ba/ff12bae5-ab9b-1d93-6d03-145f0d1fac3d/809236004420_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Contemporary Singer/Songwriter"
+  },
+  "existenceiscorruption|streettombs": {
+   "id": "6803252602",
+   "artist": "Street Tombs",
+   "album": "Existence Is Corruption",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/94/62/479462dc-eff2-fd80-646a-336656d9709b/885000337697.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "enchantingwindsofthedreamweavingmasquerade|nightofthevampire": {
+   "id": "1854160096",
+   "artist": "Night Of The Vampire",
+   "album": "The Enchanting Winds of the Dreamweaving Masquerade",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/82/ec/8482ecca-8905-ece5-4455-e0828dddac3b/840526500819.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "vbazinachvedomi|snet": {
+   "id": "6810259020",
+   "artist": "Sněť",
+   "album": "V bažinách vědomí",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/a1/1c/06a11cb0-6ca3-2a2b-9c13-1e3d71d2e0b5/769152440354.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Death Metal/Black Metal"
+  },
+  "marrowdeep|mastodon": {
+   "id": "6781040477",
+   "artist": "Mastodon",
+   "album": "Marrow Deep",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/e0/a8/3be0a8ac-ca6a-ce85-2db3-a663d287165d/26CRGIM53906.rgb.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "toofasttodie|archspire": {
+   "id": "1855056093",
+   "artist": "Archspire",
+   "album": "Too Fast to Die",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/d4/0a/43d40a70-b902-b6a9-917c-18effcf4d605/859723624105_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "iknowyourehurtingeveryoneishurtingeveryoneistryingyouhavegottotry|joshuaidehen": {
+   "id": "1839481236",
+   "artist": "Joshua Idehen",
+   "album": "I know you're hurting, everyone is hurting, everyone is trying, you have got to try",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/a2/41/66a24109-eaaf-f029-da9f-9430a1e41680/5400863195861_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Dance"
+  },
+  "oneswefollow|sarcator": {
+   "id": "6780537035",
+   "artist": "Sarcator",
+   "album": "The Ones We Follow",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/ed/e0/8dede00a-0754-db61-353d-cd1d2a0f90f0/4251981718378.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Metal"
+  },
+  "memoriesoffire|firemagic": {
+   "id": "1873238755",
+   "artist": "Fire Magic",
+   "album": "Memories of Fire",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/e9/e5/23e9e5d2-3142-f9be-eade-12d909e3485e/8721465654615.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "violins|blondshell": {
+   "id": "6775592761",
+   "artist": "Blondshell",
+   "album": "Violins",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/68/f5/cb68f55a-cafb-0ba4-b9c4-e230638179e4/0720841307006_Cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "nobadmemories|avalanches": {
+   "id": "6794202148",
+   "artist": "The Avalanches",
+   "album": "No Bad Memories",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/f2/3c/baf23ce1-3ebc-f950-024e-52d9b38e62e1/26UMGIM98135.rgb.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Electronic"
+  },
+  "nolubesorude|peaches": {
+   "id": "1856064995",
+   "artist": "Peaches",
+   "album": "No Lube So Rude",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/48/6f/3d486f86-997b-90e2-1f3f-c29b62c76bef/121177.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Electronic"
+  },
+  "mule|orvillepeck": {
+   "id": "6786933555",
+   "artist": "Orville Peck",
+   "album": "Mule",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/d3/8a/9cd38a73-e35a-def5-5e6d-1bb2ee402b18/093624821175.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Country"
+  },
+  "puredevotion|overmono": {
+   "id": "1894298100",
+   "artist": "Overmono",
+   "album": "Pure Devotion",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/cd/25/6acd2504-b1ef-8988-8fe0-240a5a25e0bc/191404166871.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Electronic"
+  },
+  "sunshine|jungle": {
+   "id": "1886730527",
+   "artist": "Jungle",
+   "album": "Sunshine",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/8e/bb/9a8ebb8b-2363-4e2a-b52e-9786decb80a1/820200658401.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Pop"
+  },
+  "thankyou|miked": {
+   "id": "6801308856",
+   "artist": "Mike D",
+   "album": "Thank You",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/e9/b9/bfe9b977-8259-a02c-ddee-5e9a045ebe35/26UMGIM70751.rgb.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "birding|deary": {
+   "id": "1859619407",
+   "artist": "deary",
+   "album": "Birding",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/35/83/2f35830b-35f0-b161-0957-2bf2866d206a/cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "tellmeyourdream|ceremony": {
+   "id": "6768712658",
+   "artist": "Ceremony",
+   "album": "Tell Me Your Dream",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/ca/98/4fca9892-bb61-5f26-7e66-5f645b010434/781676555116.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "zirp|diiv": {
+   "id": "6790597250",
+   "artist": "DIIV",
+   "album": "ZIRP!",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/31/87/54318724-e4d1-7254-a7d4-d2e671dff8ea/26CRGIM55137.rgb.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "dancingonthewall|muna": {
+   "id": "1870702692",
+   "artist": "MUNA",
+   "album": "Dancing On The Wall",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/24/4a/27244aaf-dd91-be23-a13a-b092c1f56010/61705.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "decaydecaydecay|joyeria": {
+   "missAt": "2026-11-13T23:45:37Z"
+  },
+  "optimism|digitalism": {
+   "id": "1886101739",
+   "artist": "Digitalism",
+   "album": "Optimism",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/58/99/1258998c-df86-525a-add9-31f290264b6f/4066004950259_3000.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Dance"
+  },
+  "whilethefloodrages|maxrichter": {
+   "id": "6812430659",
+   "artist": "Max Richter",
+   "album": "While The Flood Rages",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/9a/da/a79adad8-5a6f-d0e4-9a5f-cb9743c8f548/26UMGIM25785.rgb.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Classical Crossover"
+  },
+  "pylon|beabadoobee": {
+   "id": "6812904778",
+   "artist": "beabadoobee",
+   "album": "Pylon",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/08/a5/a108a5b7-7753-69eb-e140-a785a0e185a8/198704876622_Cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "horrorfulheights|bevisfrond": {
+   "id": "1853967177",
+   "artist": "The Bevis Frond",
+   "album": "Horrorful Heights",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/8d/3e/5d8d3eed-2f8f-2fef-eb2e-30ad606a554b/809236004758_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "precariat|tommylefroy": {
+   "id": "6788513987",
+   "artist": "Tommy Lefroy",
+   "album": "The Precariat",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/7d/84/db7d84e1-ede4-414e-e050-2383962d6966/820233900607.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "sellingavibe|cribs": {
+   "id": "1829512908",
+   "artist": "The Cribs",
+   "album": "Selling A Vibe",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/7e/5c/8c7e5c5d-3aed-6599-69ef-61bd77f72bd6/5400863196042_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "setup|delines": {
+   "id": "1855733566",
+   "artist": "The Delines",
+   "album": "The Set Up",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/c8/d8/35c8d853-d81b-c39b-f41a-c35fb03cb4ba/121204.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Country"
+  },
+  "irreversible|brigittecallsmebaby": {
+   "id": "1857886952",
+   "artist": "Brigitte Calls Me Baby",
+   "album": "Irreversible",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/bc/d4/b1bcd439-9412-d801-5ff9-463562bbf196/00880882682255_Cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "nomorelikethis|pva": {
+   "id": "1833021093",
+   "artist": "PVA",
+   "album": "No More Like This",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/33/c7/d433c7fb-f9fe-bd7f-34ee-ee1790433408/57947.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Electronic"
+  },
+  "sunnyiwaswrong|joepernice": {
+   "id": "1858717504",
+   "artist": "Joe Pernice & Pernice Brothers",
+   "album": "Sunny, I Was Wrong",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/49/e7/8b49e733-5540-961a-7d12-b207f57e6650/3381.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "itsthehopethatkillsyou|itch": {
+   "id": "1858127627",
+   "artist": "The Itch",
+   "album": "It's The Hope That Kills You",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/79/5f/62795f16-4865-93a3-ebdc-72da1c22f7f1/198704824999_Cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "acknowledgekindness|redspinkspurples": {
+   "missAt": "2026-11-13T23:46:42Z"
+  },
+  "newself|bobbylees": {
+   "id": "1860695018",
+   "artist": "THE BOBBY LEES",
+   "album": "New Self",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/eb/ce/92ebceee-671c-b2d4-5284-d391bb84bc91/0045778815760.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "johnnysdreamworld|modernwoman": {
+   "id": "1861495408",
+   "artist": "Modern Woman",
+   "album": "Johnny’s Dreamworld",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/0f/35/5d0f35bb-1353-adfe-8ca9-d59d3e2746fb/5016958109080.png/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Rock"
+  },
+  "joy|mtjones": {
+   "id": "1844588394",
+   "artist": "MT Jones",
+   "album": "Joy",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/80/b8/a380b8c9-dd33-1b86-78f6-73e6f0a037fc/199806011317.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "R&B/Soul"
+  },
+  "modernmoonlight|earlyyears": {
+   "id": "1876536175",
+   "artist": "The Early Years",
+   "album": "Modern Moonlight",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/66/b9/9466b955-4fbc-ae05-aafa-bb30aa2a32ea/16141.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Alternative"
+  },
+  "roughtrade|albumsoftheyear2026": {
+   "missAt": "2026-11-13T23:47:09Z"
+  },
+  "roughtradeliverpool|alice": {
+   "missAt": "2026-11-13T23:47:23Z"
+  },
+  "roughtradeeast|bruce": {
+   "missAt": "2026-11-13T23:47:36Z"
+  },
+  "roughtradebristol|connor": {
+   "missAt": "2026-11-13T23:47:50Z"
+  },
+  "roughtradeberlin|curt": {
+   "missAt": "2026-11-13T23:48:03Z"
+  },
+  "roughtradeoffice|elisa": {
+   "missAt": "2026-11-13T23:48:17Z"
+  },
+  "roughtradebristol|ella": {
+   "missAt": "2026-11-13T23:48:27Z"
+  },
+  "roughtradeoffice|emily": {
+   "missAt": "2026-11-13T23:48:41Z"
+  },
+  "roughtradeoffice|georgia": {
+   "missAt": "2026-11-13T23:48:54Z"
+  },
+  "roughtradewarehouse|huw": {
+   "missAt": "2026-11-13T23:49:05Z"
+  },
+  "forloveofgraceandthehereafter|iceage": {
+   "missAt": "2026-11-13T23:49:18Z"
+  },
+  "roughtradeeast|jacob": {
+   "missAt": "2026-11-13T23:49:32Z"
+  },
+  "roughtradeofficenyc|jess": {
+   "missAt": "2026-11-13T23:49:45Z"
+  },
+  "roughtradeeast|joe": {
+   "missAt": "2026-11-13T23:49:58Z"
+  },
+  "roughtradenottingham|jono": {
+   "missAt": "2026-11-13T23:50:12Z"
+  },
+  "roughtradewarehouse|jordanpotter": {
+   "missAt": "2026-11-13T23:50:22Z"
+  },
+  "roughtradebristol|julia": {
+   "missAt": "2026-11-13T23:50:35Z"
+  },
+  "roughtradeeast|kerenza": {
+   "missAt": "2026-11-13T23:50:48Z"
+  },
+  "roughtradeeast|laurie": {
+   "missAt": "2026-11-13T23:51:02Z"
+  },
+  "roughtradebristol|liv": {
+   "missAt": "2026-11-13T23:51:15Z"
+  },
+  "roughtradeoffice|lizzie": {
+   "missAt": "2026-11-13T23:51:29Z"
+  },
+  "roughtradeeast|matt": {
+   "missAt": "2026-11-13T23:51:36Z"
+  },
+  "roughtradeeast|mattleppier": {
+   "missAt": "2026-11-13T23:51:43Z"
+  },
+  "roughtradebristol|matthew": {
+   "missAt": "2026-11-13T23:51:57Z"
+  },
+  "roughtradeberlinoffice|nina": {
+   "missAt": "2026-11-13T23:52:10Z"
+  },
+  "roughtradeoffice|paddy": {
+   "missAt": "2026-11-13T23:52:23Z"
+  },
+  "roughtradewest|rachel": {
+   "missAt": "2026-11-13T23:52:37Z"
+  },
+  "roughtradeeast|sammccann": {
+   "missAt": "2026-11-13T23:52:47Z"
+  },
+  "acknowledgekindness|redspinksandpurples": {
+   "id": "1858232085",
+   "artist": "The Reds, Pinks and Purples",
+   "album": "Acknowledge Kindness",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/4e/de/894ede06-dcf7-6990-48fb-883435f37208/809236004581_cover.jpg/600x600bb.jpg",
+   "year": "2026",
+   "genre": "Indie Pop"
   }
  },
  "pages": {
@@ -24723,13 +25355,13 @@
   "https://www.youtube.com/watch?v=gFwdyAkueB4": {
    "entries": [],
    "how": "no list found",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://www.instagram.com/reels/DSiqkYnkjZl/": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://www.businessinsider.com/best-albums-2025": {
@@ -25723,7 +26355,7 @@
   "https://www.theatlantic.com/culture/2025/12/best-albums-2025/685008/": {
    "entries": [],
    "how": "firewall",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://www.npr.org/2025/12/11/g-s1-99986/best-albums-of-2025-sheldon-pearce": {
@@ -26629,7 +27261,7 @@
   "https://www.washingtonpost.com/entertainment/music/2025/12/08/best-pop-albums-2025/": {
    "entries": [],
    "how": "http error",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://www.soundopinions.org/show/1045": {
@@ -27009,19 +27641,45 @@
   "https://www.instagram.com/p/DR4nNN2kVq1/": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://www.nytimes.com/2025/12/05/arts/music/best-albums-2025.html": {
-   "entries": [],
-   "how": "firewall",
-   "at": "2026-11-10T14:59:36Z",
+   "entries": [
+    [
+     null,
+     "Music",
+     "Best Albums of 2025"
+    ],
+    [
+     1,
+     "Effie",
+     "Pullup to Busan 4 More Hyper Summer It’s Gonna Be a Fuckin Movie"
+    ],
+    [
+     2,
+     "Jim Legxacy",
+     "Black British Music (2025)"
+    ],
+    [
+     3,
+     "Justin Bieber",
+     "Swag"
+    ],
+    [
+     4,
+     "Rosalía",
+     "Lux"
+    ]
+   ],
+   "how": "page",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://sterlewine.substack.com/p/stes-best-albums-of-2025": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://time.com/7333797/best-albums-2025/": {
@@ -27775,7 +28433,7 @@
   "https://www.wsj.com/arts-culture/music/the-best-music-of-2025-human-creativity-in-an-ai-world-b040c3e7": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-10T14:59:36Z",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   },
   "https://www.mojo4music.com/magazine/latest-issues/mojo-398-january-2027-peter-gabriel/": {
@@ -27788,6 +28446,872 @@
    ],
    "how": "no list found",
    "at": "2026-11-12T15:23:39Z",
+   "version": 3
+  },
+  "https://www.tiktok.com/@kaseys.playlist/video/7580081573802921271": {
+   "entries": [
+    [
+     null,
+     "TikTok",
+     "Make Your Day"
+    ]
+   ],
+   "how": "no list found",
+   "at": "2026-11-13T23:39:10Z",
+   "version": 3
+  },
+  "https://www.decibelmagazine.com/2026/11/12/spoiler-here-are-decibels-top-40-albums-of-2026/": {
+   "entries": [
+    [
+     40,
+     "Fire Magic",
+     "Memories of Fire , Stygian Black Hand"
+    ],
+    [
+     39,
+     "Sarcator",
+     "The Ones We Follow , Reigning Phoenix"
+    ],
+    [
+     38,
+     "Archspire",
+     "Too Fast to Die , Self-release"
+    ],
+    [
+     37,
+     "Worm",
+     "Necropalace , Century Media"
+    ],
+    [
+     36,
+     "Mastodon",
+     "Marrow Deep , Loma Vista"
+    ],
+    [
+     35,
+     "Sněť",
+     "V bažinách vědomí , Dark Descent/Me Saco un Ojo"
+    ],
+    [
+     34,
+     "Night of the Vampire",
+     "The Enchanting Winds of the Dreamweaving Masquerade , Profound Lore"
+    ],
+    [
+     33,
+     "Street Tombs",
+     "Existence Is Corruption , Carbonized"
+    ],
+    [
+     32,
+     "Sigh",
+     "Goh-Ka , Peaceville"
+    ],
+    [
+     31,
+     "Wayfarer",
+     "Riders of the Setting Sun , Vesperian"
+    ],
+    [
+     30,
+     "Exxûl",
+     "Sealed into None , Productions TSO/Nameless Grave"
+    ],
+    [
+     29,
+     "Fake Dust",
+     "Decrepitizing Din of the Cerebral Psyopticon , Iron Lung"
+    ],
+    [
+     28,
+     "Corrosion of Conformity",
+     "Good God / Baad Man , Nuclear Blast"
+    ],
+    [
+     27,
+     "Hällas",
+     "Panorama , Äventyr"
+    ],
+    [
+     26,
+     "Anthrax",
+     "Cursum Perficio , Megaforce"
+    ],
+    [
+     25,
+     "Bacht’n de Vulle Moane",
+     "Verdwazing der Dwazen , Into Endless Chaos"
+    ],
+    [
+     24,
+     "Godthrymm",
+     "Projections , Profound Lore"
+    ],
+    [
+     23,
+     "Cryptic Shift",
+     "Overspace & Supertime , Metal Blade"
+    ],
+    [
+     22,
+     "Devil Master",
+     "Bloody Dreams , Relapse"
+    ],
+    [
+     21,
+     "Spirit Adrift",
+     "Infinite Illumination , 20 Buck Spin"
+    ],
+    [
+     20,
+     "The Silver",
+     "Looking Glass Hymnal Blue , Gilead Media"
+    ],
+    [
+     19,
+     "Down",
+     "Volume V , Nuclear Blast"
+    ],
+    [
+     18,
+     "Warning",
+     "Rituals of Shame , Relapse"
+    ],
+    [
+     17,
+     "Dreadnought",
+     "Wars of Spirit // Wards of Light , Vesperian"
+    ],
+    [
+     16,
+     "Godflesh",
+     "Decay , Relapse"
+    ],
+    [
+     15,
+     "Khemmis",
+     "Khemmis , Nuclear Blast"
+    ],
+    [
+     14,
+     "Hellripper",
+     "Coronach , Century Media"
+    ],
+    [
+     13,
+     "Immolation",
+     "Descent , Nuclear Blast"
+    ],
+    [
+     12,
+     "Panopticon",
+     "Det Hjemsøkte Hjertet , Bindrune"
+    ],
+    [
+     11,
+     "Uncle Acid and the Deadbeats",
+     "Shapes of Midnight , Killer Candy"
+    ],
+    [
+     10,
+     "Funebrarum",
+     "Beckoning the Void of Eternal Silence , Pulverised"
+    ],
+    [
+     9,
+     "Mother of Graves",
+     "The Light That Keeps Us , Profound Lore"
+    ],
+    [
+     8,
+     "The Keening",
+     "Devotion , Relapse"
+    ],
+    [
+     7,
+     "Converge",
+     "Love Is Not Enough , Epitaph"
+    ],
+    [
+     6,
+     "At the Gates",
+     "The Ghost of a Future Dead , Century Media"
+    ],
+    [
+     5,
+     "Poison Ruïn",
+     "Hymns from the Hills , Relapse"
+    ],
+    [
+     4,
+     "Chat Pile",
+     "Who Loves the Sun , The Flenser"
+    ],
+    [
+     3,
+     "Hulder",
+     "Verbolgen , 20 Buck Spin"
+    ],
+    [
+     2,
+     "Disfear",
+     "The Last Nail , Relapse"
+    ],
+    [
+     1,
+     "Neurosis",
+     "An Undying Love for a Burning World , Neurot"
+    ],
+    [
+     null,
+     "Decibel Magazine",
+     "Tweets"
+    ]
+   ],
+   "how": "page",
+   "at": "2026-11-13T23:39:10Z",
+   "version": 3
+  },
+  "https://blog.roughtrade.com/albums-of-the-year-2026/": {
+   "entries": [
+    [
+     null,
+     "Albums of the Year 2026",
+     "Rough Trade"
+    ],
+    [
+     null,
+     "Phoebe Bridgers",
+     "Lost Weekend"
+    ],
+    [
+     null,
+     "KNEECAP",
+     "FENIAN"
+    ],
+    [
+     null,
+     "Fcukers",
+     "Ö"
+    ],
+    [
+     null,
+     "Kerenza",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "overpass",
+     "Elsewhere, Always"
+    ],
+    [
+     null,
+     "Ella",
+     "Rough Trade Bristol"
+    ],
+    [
+     null,
+     "Gorillaz",
+     "The Mountain"
+    ],
+    [
+     null,
+     "Jacob",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "mary in the junkyard",
+     "Role Model Hermit"
+    ],
+    [
+     null,
+     "Lizzie",
+     "Rough Trade Office"
+    ],
+    [
+     null,
+     "Jalen Ngonda",
+     "Doctrine Of Love"
+    ],
+    [
+     null,
+     "Bruce",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "Fat Dog",
+     "Cancel Me"
+    ],
+    [
+     null,
+     "Elisa",
+     "Rough Trade Office"
+    ],
+    [
+     null,
+     "Mandy, Indiana",
+     "URGH"
+    ],
+    [
+     null,
+     "Curt",
+     "Rough Trade Berlin"
+    ],
+    [
+     null,
+     "Vanishing Twin",
+     "Archives"
+    ],
+    [
+     null,
+     "Georgia",
+     "Rough Trade Office"
+    ],
+    [
+     null,
+     "Westside Cowboy",
+     "It Goes On"
+    ],
+    [
+     null,
+     "Jordan Potter",
+     "Rough Trade Warehouse"
+    ],
+    [
+     null,
+     "Interpol",
+     "This Mirror Weighs a Ton"
+    ],
+    [
+     null,
+     "Nina",
+     "Rough Trade Berlin Office"
+    ],
+    [
+     null,
+     "My New Band Believe",
+     "My New Band Believe"
+    ],
+    [
+     null,
+     "Jess",
+     "Rough Trade Office NYC"
+    ],
+    [
+     null,
+     "PIGEON",
+     "OUTTANATIONAL"
+    ],
+    [
+     null,
+     "Vince Staples",
+     "Cry Baby"
+    ],
+    [
+     null,
+     "Laurie",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "Jack White",
+     "Frozen Charlotte"
+    ],
+    [
+     null,
+     "Emily",
+     "Rough Trade Office"
+    ],
+    [
+     null,
+     "Tyler Ballgame",
+     "For The First Time, Again"
+    ],
+    [
+     null,
+     "Paddy",
+     "Rough Trade Office"
+    ],
+    [
+     null,
+     "The Durutti Column",
+     "Renascent"
+    ],
+    [
+     null,
+     "Liv",
+     "Rough Trade Bristol"
+    ],
+    [
+     null,
+     "Kristin Hersh",
+     "Sugar on Blackstone"
+    ],
+    [
+     null,
+     "Jono",
+     "Rough Trade Nottingham"
+    ],
+    [
+     null,
+     "The Molotovs",
+     "Wasted on Youth"
+    ],
+    [
+     null,
+     "Huw",
+     "Rough Trade Warehouse"
+    ],
+    [
+     null,
+     "Ratboys",
+     "Singin' to an Empty Chair"
+    ],
+    [
+     null,
+     "Connor",
+     "Rough Trade Bristol"
+    ],
+    [
+     null,
+     "Man/Woman/Chainsaw",
+     "Cannonball"
+    ],
+    [
+     null,
+     "Matthew",
+     "Rough Trade Bristol"
+    ],
+    [
+     null,
+     "Getdown Services",
+     "Massive Champion"
+    ],
+    [
+     null,
+     "Matt",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "Friko",
+     "Something Worth Waiting For"
+    ],
+    [
+     null,
+     "Rachel",
+     "Rough Trade West"
+    ],
+    [
+     null,
+     "This Is Lorelei",
+     "The Singer In My Band"
+    ],
+    [
+     null,
+     "Sam McCann",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "Shygirl",
+     "SWALLOW!"
+    ],
+    [
+     null,
+     "Matt Leppier",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "Boards of Canada",
+     "Inferno"
+    ],
+    [
+     null,
+     "Basement",
+     "WIRED"
+    ],
+    [
+     null,
+     "Joe",
+     "Rough Trade East"
+    ],
+    [
+     null,
+     "Slayyyter",
+     "WOR$T GIRL IN AMERICA"
+    ],
+    [
+     null,
+     "Julia",
+     "Rough Trade Bristol"
+    ],
+    [
+     null,
+     "MEMORIALS",
+     "All Clouds Bring Not Rain"
+    ],
+    [
+     null,
+     "Alice",
+     "Rough Trade Liverpool"
+    ],
+    [
+     null,
+     "James Blake",
+     "Trying Times"
+    ],
+    [
+     null,
+     "Ezra Collective",
+     "Here Because Of Hope"
+    ],
+    [
+     null,
+     "Haylie Davis",
+     "Wandering Star"
+    ],
+    [
+     null,
+     "Twisted Teens",
+     "The Holy Cross Tigers"
+    ],
+    [
+     null,
+     "Aldous Harding",
+     "Train On The Island"
+    ],
+    [
+     null,
+     "Angine De Poitrine",
+     "Vol. II"
+    ],
+    [
+     null,
+     "Broken Social Scene",
+     "Remember The Humans"
+    ],
+    [
+     null,
+     "Joshua Idehen",
+     "I Know You’re Hurting, Everyone is Hurting, Everyone is Trying, You Have Got to Try"
+    ],
+    [
+     null,
+     "ear",
+     "Rumspringa"
+    ],
+    [
+     null,
+     "Snocaps",
+     "Snocaps"
+    ],
+    [
+     null,
+     "Blondshell",
+     "Violins"
+    ],
+    [
+     null,
+     "The Avalanches",
+     "No Bad Memories"
+    ],
+    [
+     null,
+     "Fontaines D.C.",
+     "Dopamine Chamber"
+    ],
+    [
+     null,
+     "Underscores",
+     "U"
+    ],
+    [
+     null,
+     "Lily Allen",
+     "West End Girl"
+    ],
+    [
+     null,
+     "Julia Jacklin",
+     "The Gem"
+    ],
+    [
+     null,
+     "Charli XCX",
+     "Music, Fashion, Film"
+    ],
+    [
+     null,
+     "Peaches",
+     "No Lube So Rude"
+    ],
+    [
+     null,
+     "Orville Peck",
+     "Mule"
+    ],
+    [
+     null,
+     "A$AP Rocky",
+     "Don't Be Dumb"
+    ],
+    [
+     null,
+     "Lambchop",
+     "Punching The Clown"
+    ],
+    [
+     null,
+     "Sleaford Mods",
+     "The Demise Of Planet X"
+    ],
+    [
+     null,
+     "Overmono",
+     "Pure Devotion"
+    ],
+    [
+     null,
+     "Jungle",
+     "Sunshine"
+    ],
+    [
+     null,
+     "Queens Of The Stone Age",
+     "Perfecth"
+    ],
+    [
+     null,
+     "Mike D",
+     "Thank You"
+    ],
+    [
+     null,
+     "Mitski",
+     "Nothing's About To Happen To Me"
+    ],
+    [
+     null,
+     "Deary",
+     "Birding"
+    ],
+    [
+     null,
+     "Ceremony",
+     "Tell Me Your Dream"
+    ],
+    [
+     null,
+     "DIIV",
+     "ZIRP!"
+    ],
+    [
+     null,
+     "Greg Mendez",
+     "Beauty Land"
+    ],
+    [
+     null,
+     "Radie Peat",
+     "No Human Tongue Can Tell"
+    ],
+    [
+     null,
+     "MUNA",
+     "Dancing On The Wall"
+    ],
+    [
+     null,
+     "Beck",
+     "Ride Lonesome"
+    ],
+    [
+     null,
+     "Joyeria",
+     "Decay Decay Decay"
+    ],
+    [
+     null,
+     "Digitalism",
+     "Optimism"
+    ],
+    [
+     null,
+     "Max Richter",
+     "While The Flood Rages"
+    ],
+    [
+     null,
+     "Beabadoobee",
+     "Pylon"
+    ],
+    [
+     null,
+     "Lime Garden",
+     "Maybe Not Tonight"
+    ],
+    [
+     null,
+     "Cameron Winter",
+     "Live At Carnegie Hall"
+    ],
+    [
+     null,
+     "The Bevis Frond",
+     "Horrorful Heights"
+    ],
+    [
+     null,
+     "Tommy Lefroy",
+     "The Precariat"
+    ],
+    [
+     null,
+     "Angel Du$t",
+     "Cold 2 The Touch"
+    ],
+    [
+     null,
+     "The Cribs",
+     "Selling A Vibe"
+    ],
+    [
+     null,
+     "Iceage",
+     "For Love Of Grace and the Hereafter"
+    ],
+    [
+     null,
+     "De La Soul",
+     "Cabin In The Sky"
+    ],
+    [
+     null,
+     "Cardinals",
+     "Masquerade"
+    ],
+    [
+     null,
+     "The Delines",
+     "The Set Up"
+    ],
+    [
+     null,
+     "Raye",
+     "THIS MUSIC MAY CONTAIN HOPE"
+    ],
+    [
+     null,
+     "hemlocke springs",
+     "the apple tree under the sea"
+    ],
+    [
+     null,
+     "Brigitte Calls Me Baby",
+     "Irreversible"
+    ],
+    [
+     null,
+     "PVA",
+     "No More Like This"
+    ],
+    [
+     null,
+     "Courtney Barnett",
+     "Creature Of Habit"
+    ],
+    [
+     null,
+     "Dry Cleaning",
+     "Secret Love"
+    ],
+    [
+     null,
+     "Joe Pernice",
+     "Sunny, I Was Wrong"
+    ],
+    [
+     null,
+     "Dagmar Zuniga",
+     "in filth your mystery is kingdom / far smile peasant in yellow music"
+    ],
+    [
+     null,
+     "The Itch",
+     "It's The Hope That Kills You"
+    ],
+    [
+     null,
+     "The Reds, Pinks and Purples",
+     "Acknowledge Kindness"
+    ],
+    [
+     null,
+     "Victoryland",
+     "My Heart Is A Room With No Cameras In It"
+    ],
+    [
+     null,
+     "Robyn",
+     "Sexistential"
+    ],
+    [
+     null,
+     "Arlo Parks",
+     "Ambiguous Desire"
+    ],
+    [
+     null,
+     "Alela Diane",
+     "Who's Keeping Time"
+    ],
+    [
+     null,
+     "Dove Ellis",
+     "Blizzard"
+    ],
+    [
+     null,
+     "The Bobby Lees",
+     "New Self"
+    ],
+    [
+     null,
+     "Modern Woman",
+     "Johnny's Dreamworld"
+    ],
+    [
+     null,
+     "Feeble Little Horse",
+     "Bitknot"
+    ],
+    [
+     null,
+     "MT Jones",
+     "Joy"
+    ],
+    [
+     null,
+     "Julianna Barwick and Mary Lattimore",
+     "Tragic Magic"
+    ],
+    [
+     null,
+     "Dexys Midnight Runners",
+     "LOVE"
+    ],
+    [
+     null,
+     "The Early Years",
+     "Modern Moonlight"
+    ]
+   ],
+   "how": "page",
+   "at": "2026-11-13T23:39:10Z",
    "version": 3
   }
  },
@@ -54872,6 +56396,816 @@
      75,
      "Alela Diane",
      "Who's Keeping Time?"
+    ]
+   ],
+   "version": 2
+  },
+  "/2025/kasey-gelsomino-top-10-albums-of-2025": {
+   "outlet": "Kasey Gelsomino",
+   "writer": null,
+   "title": "Top 10 Albums of 2025",
+   "url": "https://www.tiktok.com/@kaseys.playlist/video/7580081573802921271",
+   "ranked": true,
+   "entries": [
+    [
+     1,
+     "Geese",
+     "Getting Killed"
+    ],
+    [
+     2,
+     "Olivia Dean",
+     "The Art of Loving"
+    ],
+    [
+     3,
+     "Bon Iver",
+     "Sable, Fable"
+    ],
+    [
+     4,
+     "Wednesday",
+     "Bleeds"
+    ],
+    [
+     5,
+     "Sam Fender",
+     "People Watching"
+    ],
+    [
+     6,
+     "Dijon",
+     "Baby"
+    ],
+    [
+     7,
+     "Erika de Casier",
+     "Lifetime"
+    ],
+    [
+     8,
+     "Racing Mount Pleasant",
+     "Racing Mount Pleasant"
+    ],
+    [
+     9,
+     "Saya Gray",
+     "Saya"
+    ],
+    [
+     10,
+     "Billie Marten",
+     "Dog Eared"
+    ],
+    [
+     1,
+     "Lorde",
+     "Virgin"
+    ],
+    [
+     2,
+     "Addison Rae",
+     "Addison"
+    ],
+    [
+     3,
+     "Alice Phoebe Lou",
+     "Oblivion"
+    ],
+    [
+     4,
+     "Model/Actriz",
+     "Pirouette"
+    ],
+    [
+     5,
+     "caroline",
+     "Caroline 2"
+    ],
+    [
+     6,
+     "Nourished by Time",
+     "The Passionate Ones"
+    ]
+   ],
+   "version": 2
+  },
+  "/2026/decibel-top-40-albums-of-2026": {
+   "outlet": "Decibel Magazine",
+   "writer": null,
+   "title": "Top 40 Albums of 2026",
+   "url": "https://www.decibelmagazine.com/2026/11/12/spoiler-here-are-decibels-top-40-albums-of-2026/",
+   "ranked": true,
+   "entries": [
+    [
+     1,
+     "Neurosis",
+     "An Undying Love for a Burning World"
+    ],
+    [
+     2,
+     "Disfear",
+     "The Last Nail"
+    ],
+    [
+     3,
+     "Hulder",
+     "Verbolgen"
+    ],
+    [
+     4,
+     "Chat Pile",
+     "Who Loves the Sun"
+    ],
+    [
+     5,
+     "Poison Ruïn",
+     "Hymns from the Hills"
+    ],
+    [
+     6,
+     "At the Gates",
+     "The Ghost of a Future Dead"
+    ],
+    [
+     7,
+     "Converge",
+     "Love Is Not Enough"
+    ],
+    [
+     8,
+     "The Keening",
+     "Devotion"
+    ],
+    [
+     9,
+     "Mother of Graves",
+     "The Light That Keeps Us"
+    ],
+    [
+     10,
+     "Funebrarum",
+     "Beckoning the Void of Eternal Silence"
+    ],
+    [
+     11,
+     "Uncle Acid & The Deadbeats",
+     "Shapes of Midnight"
+    ],
+    [
+     12,
+     "Panopticon",
+     "Det hjemsøkte hjertet"
+    ],
+    [
+     13,
+     "Immolation",
+     "Descent"
+    ],
+    [
+     14,
+     "Hellripper",
+     "Coronach"
+    ],
+    [
+     15,
+     "Khemmis",
+     "Khemmis"
+    ],
+    [
+     16,
+     "Godflesh",
+     "Decay"
+    ],
+    [
+     17,
+     "Dreadnought",
+     "Wars of Spirit // Wards of Light"
+    ],
+    [
+     18,
+     "Warning",
+     "Rituals of Shame"
+    ],
+    [
+     19,
+     "Down",
+     "Volume V"
+    ],
+    [
+     20,
+     "The Silver",
+     "Looking Glass Hymnal Blue"
+    ],
+    [
+     21,
+     "Spirit Adrift",
+     "Infinite Illumination"
+    ],
+    [
+     22,
+     "Devil Master",
+     "Bloody Dreams"
+    ],
+    [
+     23,
+     "Cryptic Shift",
+     "Overspace & Supertime"
+    ],
+    [
+     24,
+     "Godthrymm",
+     "Projections"
+    ],
+    [
+     25,
+     "Bacht’n de Vulle Moane",
+     "Verdwazing Der Dwazen"
+    ],
+    [
+     26,
+     "Anthrax",
+     "Cursum Perficio"
+    ],
+    [
+     27,
+     "Hällas",
+     "Panorama"
+    ],
+    [
+     28,
+     "Corrosion of Conformity",
+     "Good God / Baad Man"
+    ],
+    [
+     29,
+     "Fake Dust",
+     "Decrepitizing Din of the Cerebral Psyopticon"
+    ],
+    [
+     30,
+     "Exxûl",
+     "Sealed into None"
+    ],
+    [
+     31,
+     "Wayfarer",
+     "Riders of the Setting Sun"
+    ],
+    [
+     32,
+     "Sigh",
+     "Goh-Ka"
+    ],
+    [
+     33,
+     "Street Tombs",
+     "Existence Is Corruption"
+    ],
+    [
+     34,
+     "Night of the Vampire",
+     "The Enchanting Winds of the Dreamweaving Masquerade"
+    ],
+    [
+     35,
+     "Sněť",
+     "V bažinách vědomí"
+    ],
+    [
+     36,
+     "Mastodon",
+     "Marrow Deep"
+    ],
+    [
+     37,
+     "Worm",
+     "Necropalace"
+    ],
+    [
+     38,
+     "Archspire",
+     "Too Fast to Die"
+    ],
+    [
+     39,
+     "Sarcator",
+     "The Ones We Follow"
+    ],
+    [
+     40,
+     "Fire Magic",
+     "Memories of Fire"
+    ]
+   ],
+   "version": 2
+  },
+  "/2026/rough-trade-albums-of-the-year-2026": {
+   "outlet": "Rough Trade",
+   "writer": null,
+   "title": "Albums of the Year 2026",
+   "url": "https://blog.roughtrade.com/albums-of-the-year-2026/",
+   "ranked": true,
+   "entries": [
+    [
+     1,
+     "Phoebe Bridgers",
+     "Lost Weekend"
+    ],
+    [
+     2,
+     "Kneecap",
+     "Fenian"
+    ],
+    [
+     3,
+     "Fcukers",
+     "Ö"
+    ],
+    [
+     4,
+     "Overpass",
+     "Elsewhere, Always"
+    ],
+    [
+     5,
+     "Gorillaz",
+     "The Mountain"
+    ],
+    [
+     6,
+     "Mary in the Junkyard",
+     "Role Model Hermit"
+    ],
+    [
+     7,
+     "Jalen Ngonda",
+     "Doctrine of Love"
+    ],
+    [
+     8,
+     "Fat Dog",
+     "Cancel Me (I'm Tired)"
+    ],
+    [
+     9,
+     "Mandy, Indiana",
+     "Urgh"
+    ],
+    [
+     10,
+     "Vanishing Twin",
+     "Archives"
+    ],
+    [
+     11,
+     "Westside Cowboy",
+     "It Goes On"
+    ],
+    [
+     12,
+     "Interpol",
+     "This Mirror Weighs a Ton"
+    ],
+    [
+     13,
+     "My New Band Believe",
+     "My New Band Believe"
+    ],
+    [
+     14,
+     "Pigeon",
+     "Outtanational"
+    ],
+    [
+     15,
+     "Vince Staples",
+     "Cry Baby"
+    ],
+    [
+     16,
+     "Jack White",
+     "Frozen Charlotte"
+    ],
+    [
+     17,
+     "Tyler Ballgame",
+     "For the First Time, Again"
+    ],
+    [
+     18,
+     "The Durutti Column",
+     "Renascent"
+    ],
+    [
+     19,
+     "Kristin Hersh",
+     "Sugar on Blackstone"
+    ],
+    [
+     20,
+     "The Molotovs",
+     "Wasted on Youth"
+    ],
+    [
+     21,
+     "Ratboys",
+     "Singin' to an Empty Chair"
+    ],
+    [
+     22,
+     "Man/Woman/Chainsaw",
+     "Cannonball"
+    ],
+    [
+     23,
+     "Getdown Services",
+     "Massive Champion"
+    ],
+    [
+     24,
+     "Friko",
+     "Something Worth Waiting For"
+    ],
+    [
+     25,
+     "This Is Lorelei",
+     "The Singer in My Band"
+    ],
+    [
+     26,
+     "Shygirl",
+     "Swallow!"
+    ],
+    [
+     27,
+     "Boards of Canada",
+     "Inferno"
+    ],
+    [
+     28,
+     "Basement",
+     "Wired"
+    ],
+    [
+     29,
+     "Slayyyter",
+     "Worst Girl in America"
+    ],
+    [
+     30,
+     "Memorials",
+     "All Clouds Bring Not Rain"
+    ],
+    [
+     31,
+     "James Blake",
+     "Trying Times"
+    ],
+    [
+     32,
+     "Ezra Collective",
+     "Here Because of Hope"
+    ],
+    [
+     33,
+     "Haylie Davis",
+     "Wandering Star"
+    ],
+    [
+     34,
+     "Twisted Teens",
+     "The Holy Cross Tigers"
+    ],
+    [
+     35,
+     "Aldous Harding",
+     "Train on the Island"
+    ],
+    [
+     36,
+     "Angine de Poitrine",
+     "Vol. II"
+    ],
+    [
+     37,
+     "Broken Social Scene",
+     "Remember the Humans"
+    ],
+    [
+     38,
+     "Joshua Idehen",
+     "I Know You're Hurting, Everyone Is Hurting, Everyone Is Trying, You Have Got to Try"
+    ],
+    [
+     39,
+     "Ear",
+     "Rumspringa"
+    ],
+    [
+     40,
+     "Snocaps",
+     "Snocaps"
+    ],
+    [
+     41,
+     "Blondshell",
+     "Violins"
+    ],
+    [
+     42,
+     "The Avalanches",
+     "No Bad Memories"
+    ],
+    [
+     43,
+     "Fontaines D.C.",
+     "Dopamine Chamber"
+    ],
+    [
+     44,
+     "underscores",
+     "U"
+    ],
+    [
+     45,
+     "Lily Allen",
+     "West End Girl"
+    ],
+    [
+     46,
+     "Julia Jacklin",
+     "The Gem"
+    ],
+    [
+     47,
+     "Charli XCX",
+     "Music, Fashion, Film"
+    ],
+    [
+     48,
+     "Peaches",
+     "No Lube So Rude"
+    ],
+    [
+     49,
+     "Orville Peck",
+     "Mule"
+    ],
+    [
+     50,
+     "A$AP Rocky",
+     "Don't Be Dumb"
+    ],
+    [
+     51,
+     "Lambchop",
+     "Punching the Clown"
+    ],
+    [
+     52,
+     "Sleaford Mods",
+     "The Demise of Planet X"
+    ],
+    [
+     53,
+     "Overmono",
+     "Pure Devotion"
+    ],
+    [
+     54,
+     "Jungle",
+     "Sunshine"
+    ],
+    [
+     55,
+     "Queens of the Stone Age",
+     "Perfecth"
+    ],
+    [
+     56,
+     "Mike D",
+     "Thank You"
+    ],
+    [
+     57,
+     "Mitski",
+     "Nothing's About to Happen to Me"
+    ],
+    [
+     58,
+     "Deary",
+     "Birding"
+    ],
+    [
+     59,
+     "Ceremony",
+     "Tell Me Your Dream"
+    ],
+    [
+     60,
+     "DIIV",
+     "Zirp!"
+    ],
+    [
+     61,
+     "Greg Mendez",
+     "Beauty Land"
+    ],
+    [
+     62,
+     "Radie Peat",
+     "No Human Tongue Can Tell"
+    ],
+    [
+     63,
+     "Muna",
+     "Dancing on the Wall"
+    ],
+    [
+     64,
+     "Beck",
+     "Ride Lonesome"
+    ],
+    [
+     65,
+     "Joyeria",
+     "Decay Decay Decay"
+    ],
+    [
+     66,
+     "Digitalism",
+     "Optimism"
+    ],
+    [
+     67,
+     "Max Richter",
+     "While the Flood Rages"
+    ],
+    [
+     68,
+     "Beabadoobee",
+     "Pylon"
+    ],
+    [
+     69,
+     "Lime Garden",
+     "Maybe Not Tonight"
+    ],
+    [
+     70,
+     "Cameron Winter",
+     "Live at Carnegie Hall"
+    ],
+    [
+     71,
+     "The Bevis Frond",
+     "Horrorful Heights"
+    ],
+    [
+     72,
+     "Tommy Lefroy",
+     "The Precariat"
+    ],
+    [
+     73,
+     "Angel Du$t",
+     "Cold 2 the Touch"
+    ],
+    [
+     74,
+     "The Cribs",
+     "Selling a Vibe"
+    ],
+    [
+     75,
+     "Iceage",
+     "For Love of Grace & the Hereafter"
+    ],
+    [
+     76,
+     "De La Soul",
+     "Cabin in the Sky"
+    ],
+    [
+     77,
+     "Cardinals",
+     "Masquerade"
+    ],
+    [
+     78,
+     "The Delines",
+     "The Set Up"
+    ],
+    [
+     79,
+     "Raye",
+     "This Music May Contain Hope"
+    ],
+    [
+     80,
+     "Hemlocke Springs",
+     "The Apple Tree Under the Sea"
+    ],
+    [
+     81,
+     "Brigitte Calls Me Baby",
+     "Irreversible"
+    ],
+    [
+     82,
+     "PVA",
+     "No More Like This"
+    ],
+    [
+     83,
+     "Courtney Barnett",
+     "Creature of Habit"
+    ],
+    [
+     84,
+     "Dry Cleaning",
+     "Secret Love"
+    ],
+    [
+     85,
+     "Joe Pernice",
+     "Sunny, I Was Wrong"
+    ],
+    [
+     86,
+     "Dagmar Zuniga",
+     "in filth your mystery is kingdom / far smile peasant in yellow music"
+    ],
+    [
+     87,
+     "The Itch",
+     "It's the Hope That Kills You"
+    ],
+    [
+     88,
+     "The Reds, Pinks & Purples",
+     "Acknowledge Kindness"
+    ],
+    [
+     89,
+     "Victoryland",
+     "My Heart Is a Room With No Cameras in It"
+    ],
+    [
+     90,
+     "Robyn",
+     "Sexistential"
+    ],
+    [
+     91,
+     "Arlo Parks",
+     "Ambiguous Desire"
+    ],
+    [
+     92,
+     "Alela Diane",
+     "Who's Keeping Time?"
+    ],
+    [
+     93,
+     "Dove Ellis",
+     "Blizzard"
+    ],
+    [
+     94,
+     "The Bobby Lees",
+     "New Self"
+    ],
+    [
+     95,
+     "Modern Woman",
+     "Johnny's Dreamworld"
+    ],
+    [
+     96,
+     "Feeble Little Horse",
+     "Bitknot"
+    ],
+    [
+     97,
+     "MT Jones",
+     "Joy"
+    ],
+    [
+     98,
+     "Julianna Barwick and Mary Lattimore",
+     "Tragic Magic"
+    ],
+    [
+     99,
+     "Dexys Midnight Runners",
+     "Love"
+    ],
+    [
+     100,
+     "The Early Years",
+     "Modern Moonlight"
     ]
    ],
    "version": 2
