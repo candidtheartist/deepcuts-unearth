@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T13:38:22Z",
+ "generatedAt": "2026-11-14T22:31:36Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -8120,6 +8120,14 @@
      "size": 93
     },
     {
+     "id": "will-koart-2025",
+     "outlet": "Will Koart",
+     "title": "Top 10 Best Albums of 2025",
+     "url": "https://www.tiktok.com/@willtalksmusic/video/7586818954061040926",
+     "ranked": true,
+     "size": 10
+    },
+    {
      "id": "yardbarker-evan-sawdey-2025",
      "outlet": "Yardbarker",
      "writer": "Evan Sawdey",
@@ -8455,10 +8463,10 @@
      "genres": [
       "rock"
      ],
-     "points": 392,
-     "lists": 72,
-     "top10": 49,
-     "firsts": 12,
+     "points": 402,
+     "lists": 73,
+     "top10": 50,
+     "firsts": 13,
      "placements": [
       {
        "list": "business-insider-callie-ahlgrim-2025",
@@ -8502,6 +8510,10 @@
       },
       {
        "list": "the-independent-2025",
+       "rank": 1
+      },
+      {
+       "list": "will-koart-2025",
        "rank": 1
       },
       {
@@ -8997,9 +9009,9 @@
      "genres": [
       "rnb"
      ],
-     "points": 180,
-     "lists": 49,
-     "top10": 19,
+     "points": 185,
+     "lists": 50,
+     "top10": 20,
      "firsts": 1,
      "placements": [
       {
@@ -9064,6 +9076,10 @@
       },
       {
        "list": "the-ringer-2025",
+       "rank": 6
+      },
+      {
+       "list": "will-koart-2025",
        "rank": 6
       },
       {
@@ -9381,9 +9397,9 @@
      "genres": [
       "electronic"
      ],
-     "points": 172,
-     "lists": 54,
-     "top10": 17,
+     "points": 177,
+     "lists": 55,
+     "top10": 18,
      "firsts": 1,
      "placements": [
       {
@@ -9428,6 +9444,10 @@
       },
       {
        "list": "time-out-2025",
+       "rank": 4
+      },
+      {
+       "list": "will-koart-2025",
        "rank": 4
       },
       {
@@ -9606,9 +9626,9 @@
      "genres": [
       "hiphop"
      ],
-     "points": 167,
-     "lists": 40,
-     "top10": 20,
+     "points": 172,
+     "lists": 41,
+     "top10": 21,
      "firsts": 1,
      "placements": [
       {
@@ -9681,6 +9701,10 @@
       },
       {
        "list": "the-atlantic-spencer-kornhaber-2025",
+       "rank": 9
+      },
+      {
+       "list": "will-koart-2025",
        "rank": 9
       },
       {
@@ -9775,9 +9799,9 @@
      "genres": [
       "latin"
      ],
-     "points": 166,
-     "lists": 40,
-     "top10": 21,
+     "points": 171,
+     "lists": 41,
+     "top10": 22,
      "firsts": 3,
      "placements": [
       {
@@ -9847,6 +9871,10 @@
       {
        "list": "the-los-angeles-times-mikael-wood-2025",
        "rank": 6
+      },
+      {
+       "list": "will-koart-2025",
+       "rank": 7
       },
       {
        "list": "our-culture-2025",
@@ -11946,6 +11974,124 @@
      ]
     },
     {
+     "id": "2025:lonelypeoplewithpower|deafheaven",
+     "title": "Lonely People With Power",
+     "artist": "Deafheaven",
+     "year": "2025",
+     "appleMusicID": "1792077173",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/82/6a/fc826a19-49f2-025e-ba21-43789ec44a8b/075679623966.jpg/600x600bb.jpg",
+     "genres": [
+      "metal"
+     ],
+     "points": 88,
+     "lists": 26,
+     "top10": 11,
+     "firsts": 1,
+     "placements": [
+      {
+       "list": "brooklyn-vegan-2025",
+       "rank": 1
+      },
+      {
+       "list": "treble-2025",
+       "rank": 2
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 4
+      },
+      {
+       "list": "a-a-dowd-2025",
+       "rank": 5
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 5
+      },
+      {
+       "list": "will-koart-2025",
+       "rank": 5
+      },
+      {
+       "list": "mxdwn-2025",
+       "rank": 7
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 8
+      },
+      {
+       "list": "decibel-magazine-2025",
+       "rank": 9
+      },
+      {
+       "list": "the-ringer-2025",
+       "rank": 9
+      },
+      {
+       "list": "kerrang-2025",
+       "rank": 10
+      },
+      {
+       "list": "yardbarker-evan-sawdey-2025",
+       "rank": 14
+      },
+      {
+       "list": "drowned-in-sound-2025",
+       "rank": 17
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 18
+      },
+      {
+       "list": "jordan-cronk-2025",
+       "rank": 21
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 25
+      },
+      {
+       "list": "stereogum-2025",
+       "rank": 26
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 44
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 47
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 49
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 54
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 75
+      },
+      {
+       "list": "hanif-abdurraqib-2025",
+       "rank": 112
+      },
+      {
+       "list": "alternative-press-magazine-2025"
+      },
+      {
+       "list": "glide-magazine-2025"
+      },
+      {
+       "list": "loudwire-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:sablefable|boniver",
      "title": "SABLE, fABLE",
      "artist": "Bon Iver",
@@ -12164,120 +12310,6 @@
       },
       {
        "list": "the-economist-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:lonelypeoplewithpower|deafheaven",
-     "title": "Lonely People With Power",
-     "artist": "Deafheaven",
-     "year": "2025",
-     "appleMusicID": "1792077173",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/82/6a/fc826a19-49f2-025e-ba21-43789ec44a8b/075679623966.jpg/600x600bb.jpg",
-     "genres": [
-      "metal"
-     ],
-     "points": 83,
-     "lists": 25,
-     "top10": 10,
-     "firsts": 1,
-     "placements": [
-      {
-       "list": "brooklyn-vegan-2025",
-       "rank": 1
-      },
-      {
-       "list": "treble-2025",
-       "rank": 2
-      },
-      {
-       "list": "flood-magazine-2025",
-       "rank": 4
-      },
-      {
-       "list": "a-a-dowd-2025",
-       "rank": 5
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 5
-      },
-      {
-       "list": "mxdwn-2025",
-       "rank": 7
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 8
-      },
-      {
-       "list": "decibel-magazine-2025",
-       "rank": 9
-      },
-      {
-       "list": "the-ringer-2025",
-       "rank": 9
-      },
-      {
-       "list": "kerrang-2025",
-       "rank": 10
-      },
-      {
-       "list": "yardbarker-evan-sawdey-2025",
-       "rank": 14
-      },
-      {
-       "list": "drowned-in-sound-2025",
-       "rank": 17
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 18
-      },
-      {
-       "list": "jordan-cronk-2025",
-       "rank": 21
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 25
-      },
-      {
-       "list": "stereogum-2025",
-       "rank": 26
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 44
-      },
-      {
-       "list": "beats-per-minute-2025",
-       "rank": 47
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 49
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 54
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 75
-      },
-      {
-       "list": "hanif-abdurraqib-2025",
-       "rank": 112
-      },
-      {
-       "list": "alternative-press-magazine-2025"
-      },
-      {
-       "list": "glide-magazine-2025"
-      },
-      {
-       "list": "loudwire-2025"
       }
      ]
     },
@@ -14880,6 +14912,92 @@
      ]
     },
     {
+     "id": "2025:pirouette|modelactriz",
+     "title": "Pirouette",
+     "artist": "Model/Actriz",
+     "year": "2025",
+     "appleMusicID": "1793651389",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/a0/39/82a039aa-b68b-3fb3-035f-69e81493e830/198704334160_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 53,
+     "lists": 18,
+     "top10": 5,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "will-koart-2025",
+       "rank": 2
+      },
+      {
+       "list": "kasey-gelsomino-2025",
+       "rank": 4
+      },
+      {
+       "list": "drowned-in-sound-2025",
+       "rank": 6
+      },
+      {
+       "list": "les-inrockuptibles-2025",
+       "rank": 8
+      },
+      {
+       "list": "the-atlantic-spencer-kornhaber-2025",
+       "rank": 10
+      },
+      {
+       "list": "beats-per-minute-2025",
+       "rank": 11
+      },
+      {
+       "list": "northern-transmissions-2025",
+       "rank": 12
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 12
+      },
+      {
+       "list": "treble-2025",
+       "rank": 15
+      },
+      {
+       "list": "slant-magazine-2025",
+       "rank": 19
+      },
+      {
+       "list": "paste-magazine-2025",
+       "rank": 22
+      },
+      {
+       "list": "flood-magazine-2025",
+       "rank": 31
+      },
+      {
+       "list": "exclaim-2025",
+       "rank": 40
+      },
+      {
+       "list": "clash-magazine-2025",
+       "rank": 46
+      },
+      {
+       "list": "under-the-radar-2025",
+       "rank": 90
+      },
+      {
+       "list": "alternative-press-magazine-2025"
+      },
+      {
+       "list": "the-yellow-button-kelsie-herzog-2025"
+      },
+      {
+       "list": "vogue-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:spiritualsound|agriculture",
      "title": "The Spiritual Sound",
      "artist": "Agriculture",
@@ -14959,6 +15077,83 @@
       },
       {
        "list": "loudwire-2025"
+      }
+     ]
+    },
+    {
+     "id": "2025:magicalive|mckinleydixon",
+     "title": "Magic, Alive!",
+     "artist": "McKinley Dixon",
+     "year": "2025",
+     "appleMusicID": "1788296577",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/3b/d0/fc3bd0c3-19a1-d0e7-0ea9-ec0fb7ca105f/4250506851316_cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
+     "points": 53,
+     "lists": 16,
+     "top10": 6,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "the-independent-2025",
+       "rank": 2
+      },
+      {
+       "list": "new-bands-for-old-heads-gabbie-2025",
+       "rank": 3
+      },
+      {
+       "list": "will-koart-2025",
+       "rank": 3
+      },
+      {
+       "list": "still-listening-2025",
+       "rank": 9
+      },
+      {
+       "list": "the-needle-drop-anthony-fantano-2025",
+       "rank": 9
+      },
+      {
+       "list": "paste-magazine-2025",
+       "rank": 10
+      },
+      {
+       "list": "hanif-abdurraqib-2025",
+       "rank": 17
+      },
+      {
+       "list": "obscure-sound-2025",
+       "rank": 18
+      },
+      {
+       "list": "grace-robins-somerville-2025",
+       "rank": 19
+      },
+      {
+       "list": "consequence-2025",
+       "rank": 24
+      },
+      {
+       "list": "god-is-in-the-tv-2025",
+       "rank": 47
+      },
+      {
+       "list": "popmatters-2025",
+       "rank": 74
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "glide-magazine-2025"
+      },
+      {
+       "list": "josh-terry-2025"
+      },
+      {
+       "list": "steve-erickson-2025"
       }
      ]
     },
@@ -15420,79 +15615,6 @@
      ]
     },
     {
-     "id": "2025:magicalive|mckinleydixon",
-     "title": "Magic, Alive!",
-     "artist": "McKinley Dixon",
-     "year": "2025",
-     "appleMusicID": "1788296577",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/3b/d0/fc3bd0c3-19a1-d0e7-0ea9-ec0fb7ca105f/4250506851316_cover.jpg/600x600bb.jpg",
-     "genres": [
-      "hiphop"
-     ],
-     "points": 47,
-     "lists": 15,
-     "top10": 5,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "the-independent-2025",
-       "rank": 2
-      },
-      {
-       "list": "new-bands-for-old-heads-gabbie-2025",
-       "rank": 3
-      },
-      {
-       "list": "still-listening-2025",
-       "rank": 9
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 9
-      },
-      {
-       "list": "paste-magazine-2025",
-       "rank": 10
-      },
-      {
-       "list": "hanif-abdurraqib-2025",
-       "rank": 17
-      },
-      {
-       "list": "obscure-sound-2025",
-       "rank": 18
-      },
-      {
-       "list": "grace-robins-somerville-2025",
-       "rank": 19
-      },
-      {
-       "list": "consequence-2025",
-       "rank": 24
-      },
-      {
-       "list": "god-is-in-the-tv-2025",
-       "rank": 47
-      },
-      {
-       "list": "popmatters-2025",
-       "rank": 74
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "glide-magazine-2025"
-      },
-      {
-       "list": "josh-terry-2025"
-      },
-      {
-       "list": "steve-erickson-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:donttaptheglass|tylerthecreator",
      "title": "DON'T TAP THE GLASS",
      "artist": "Tyler, The Creator",
@@ -15648,88 +15770,6 @@
       },
       {
        "list": "josh-terry-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:pirouette|modelactriz",
-     "title": "Pirouette",
-     "artist": "Model/Actriz",
-     "year": "2025",
-     "appleMusicID": "1793651389",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/a0/39/82a039aa-b68b-3fb3-035f-69e81493e830/198704334160_Cover.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 45,
-     "lists": 17,
-     "top10": 4,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "kasey-gelsomino-2025",
-       "rank": 4
-      },
-      {
-       "list": "drowned-in-sound-2025",
-       "rank": 6
-      },
-      {
-       "list": "les-inrockuptibles-2025",
-       "rank": 8
-      },
-      {
-       "list": "the-atlantic-spencer-kornhaber-2025",
-       "rank": 10
-      },
-      {
-       "list": "beats-per-minute-2025",
-       "rank": 11
-      },
-      {
-       "list": "northern-transmissions-2025",
-       "rank": 12
-      },
-      {
-       "list": "the-needle-drop-anthony-fantano-2025",
-       "rank": 12
-      },
-      {
-       "list": "treble-2025",
-       "rank": 15
-      },
-      {
-       "list": "slant-magazine-2025",
-       "rank": 19
-      },
-      {
-       "list": "paste-magazine-2025",
-       "rank": 22
-      },
-      {
-       "list": "flood-magazine-2025",
-       "rank": 31
-      },
-      {
-       "list": "exclaim-2025",
-       "rank": 40
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 46
-      },
-      {
-       "list": "under-the-radar-2025",
-       "rank": 90
-      },
-      {
-       "list": "alternative-press-magazine-2025"
-      },
-      {
-       "list": "the-yellow-button-kelsie-herzog-2025"
-      },
-      {
-       "list": "vogue-2025"
       }
      ]
     },
@@ -22130,6 +22170,51 @@
      ]
     },
     {
+     "id": "2025:animaru|meisemones",
+     "title": "Animaru",
+     "artist": "Mei Semones",
+     "year": "2025",
+     "appleMusicID": "1788997905",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/32/b5/7632b5ce-7e83-f84a-c8f1-781bf02e8bec/51459.jpg/600x600bb.jpg",
+     "genres": [
+      "indie"
+     ],
+     "points": 12,
+     "lists": 8,
+     "top10": 1,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "will-koart-2025",
+       "rank": 10
+      },
+      {
+       "list": "the-alternative-2025",
+       "rank": 38
+      },
+      {
+       "list": "the-quietus-2025",
+       "rank": 79
+      },
+      {
+       "list": "our-culture-2025",
+       "rank": 99
+      },
+      {
+       "list": "allmusic-2025"
+      },
+      {
+       "list": "atwood-magazine-2025"
+      },
+      {
+       "list": "josh-terry-2025"
+      },
+      {
+       "list": "the-yellow-button-kelsie-herzog-2025"
+      }
+     ]
+    },
+    {
      "id": "2025:intheearthagain|chatpilehaydenpedigo",
      "title": "In The Earth Again",
      "artist": "Chat Pile & Hayden Pedigo",
@@ -23608,6 +23693,31 @@
       {
        "list": "paste-magazine-2025",
        "rank": 35
+      }
+     ]
+    },
+    {
+     "id": "2025:deseocarneyvoluntad|candelabro",
+     "title": "Deseo, Carne y Voluntad",
+     "artist": "Candelabro",
+     "year": "2025",
+     "appleMusicID": "1842902072",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/85/2c/7c852c54-3300-4ec2-79e6-bcfe8dd6b813/199538942446.jpg/600x600bb.jpg",
+     "genres": [
+      "rock"
+     ],
+     "points": 10,
+     "lists": 2,
+     "top10": 2,
+     "firsts": 0,
+     "placements": [
+      {
+       "list": "obscure-sound-2025",
+       "rank": 8
+      },
+      {
+       "list": "will-koart-2025",
+       "rank": 8
       }
      ]
     },
@@ -25484,47 +25594,6 @@
      ]
     },
     {
-     "id": "2025:animaru|meisemones",
-     "title": "Animaru",
-     "artist": "Mei Semones",
-     "year": "2025",
-     "appleMusicID": "1788997905",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/32/b5/7632b5ce-7e83-f84a-c8f1-781bf02e8bec/51459.jpg/600x600bb.jpg",
-     "genres": [
-      "indie"
-     ],
-     "points": 7,
-     "lists": 7,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "the-alternative-2025",
-       "rank": 38
-      },
-      {
-       "list": "the-quietus-2025",
-       "rank": 79
-      },
-      {
-       "list": "our-culture-2025",
-       "rank": 99
-      },
-      {
-       "list": "allmusic-2025"
-      },
-      {
-       "list": "atwood-magazine-2025"
-      },
-      {
-       "list": "josh-terry-2025"
-      },
-      {
-       "list": "the-yellow-button-kelsie-herzog-2025"
-      }
-     ]
-    },
-    {
      "id": "2025:evangelinevsthemachine|ericchurch",
      "title": "Evangeline vs. The Machine",
      "artist": "Eric Church",
@@ -25557,42 +25626,6 @@
       },
       {
        "list": "allmusic-2025"
-      }
-     ]
-    },
-    {
-     "id": "2025:ruby|jennie",
-     "title": "Ruby",
-     "artist": "JENNIE",
-     "year": "2025",
-     "appleMusicID": "1800280826",
-     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/4d/0e/974d0ed9-0c7b-59da-da0f-7a22ebfc1479/196872953367.jpg/600x600bb.jpg",
-     "genres": [
-      "pop"
-     ],
-     "points": 7,
-     "lists": 5,
-     "top10": 0,
-     "firsts": 0,
-     "placements": [
-      {
-       "list": "business-insider-callie-ahlgrim-2025",
-       "rank": 15
-      },
-      {
-       "list": "rolling-stone-2025",
-       "rank": 29
-      },
-      {
-       "list": "clash-magazine-2025",
-       "rank": 56
-      },
-      {
-       "list": "dork-2025",
-       "rank": 93
-      },
-      {
-       "list": "vogue-2025"
       }
      ]
     }

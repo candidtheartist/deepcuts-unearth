@@ -4384,7 +4384,7 @@
    "genre": "Electronic"
   },
   "nineinchnoize|nineinchnailsboysnoize": {
-   "missAt": "2026-11-12T15:27:40Z"
+   "missAt": "2026-11-14T22:33:09Z"
   },
   "nineinchnoize|nineinchnailsboyznoize": {
    "missAt": "2026-10-28T22:50:27Z"
@@ -5404,7 +5404,7 @@
    "genre": "Indie Rock"
   },
   "whatofournature|haleyheynderickxmaxgarciaconover": {
-   "missAt": "2026-11-12T15:24:37Z"
+   "missAt": "2026-11-14T22:32:02Z"
   },
   "musicalchairs|artificialgo": {
    "id": "6797090288",
@@ -5415,7 +5415,7 @@
    "genre": "Punk"
   },
   "buyabuyacomeback|mahotellaqueens": {
-   "missAt": "2026-11-12T15:24:47Z"
+   "missAt": "2026-11-14T22:32:12Z"
   },
   "likecartoonvampires|convenience": {
    "id": "1781753921",
@@ -5477,7 +5477,7 @@
    "genre": "Punk"
   },
   "pulluptobusan4morehypersummeritsgonnabeafuckinmovie|effie": {
-   "missAt": "2026-11-12T15:25:01Z"
+   "missAt": "2026-11-14T22:32:31Z"
   },
   "goldenheartprotector|margaretglaspy": {
    "id": "1827216007",
@@ -5504,7 +5504,7 @@
    "genre": "Alternative"
   },
   "acitydrownedingodsblacktears|infinityknivesbrianennals": {
-   "missAt": "2026-11-12T15:25:08Z"
+   "missAt": "2026-11-14T22:32:38Z"
   },
   "resonance|billfox": {
    "id": "1805061940",
@@ -5659,7 +5659,7 @@
    "genre": "Punk"
   },
   "egotrip|johnmichelanthonyjames": {
-   "missAt": "2026-11-12T15:25:15Z"
+   "missAt": "2026-11-14T22:32:44Z"
   },
   "ruby|jennie": {
    "id": "1800280826",
@@ -5726,7 +5726,7 @@
    "genre": "Rock"
   },
   "youlookprettysadforagirlsoinlove|oliviarodrigo": {
-   "missAt": "2026-11-12T15:27:33Z"
+   "missAt": "2026-11-14T22:33:03Z"
   },
   "memorybeablade|waterbaby": {
    "id": "1860950338",
@@ -5761,7 +5761,7 @@
    "genre": "Classical"
   },
   "schubertpianosonatano17indmajorschumannkinderszenen|arcadivolodos": {
-   "missAt": "2026-11-12T15:27:51Z"
+   "missAt": "2026-11-14T22:33:19Z"
   },
   "musicincontinuousmotion|billorcutt": {
    "id": "1867572561",
@@ -5924,7 +5924,7 @@
    "genre": "Alternative"
   },
   "thankyou|miked5d": {
-   "missAt": "2026-11-12T15:26:20Z"
+   "missAt": "2026-11-14T22:32:52Z"
   },
   "paddywhackery|marywallopers": {
    "id": "6795603104",
@@ -6621,6 +6621,14 @@
    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/4e/de/894ede06-dcf7-6990-48fb-883435f37208/809236004581_cover.jpg/600x600bb.jpg",
    "year": "2026",
    "genre": "Indie Pop"
+  },
+  "deseocarneyvoluntad|candelabro": {
+   "id": "1842902072",
+   "artist": "Candelabro",
+   "album": "Deseo, Carne y Voluntad",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/85/2c/7c852c54-3300-4ec2-79e6-bcfe8dd6b813/199538942446.jpg/600x600bb.jpg",
+   "year": "2025",
+   "genre": "Prog-Rock/Art Rock"
   }
  },
  "pages": {
@@ -29312,6 +29320,18 @@
    ],
    "how": "page",
    "at": "2026-11-13T23:39:10Z",
+   "version": 3
+  },
+  "https://www.tiktok.com/@willtalksmusic/video/7586818954061040926": {
+   "entries": [
+    [
+     null,
+     "TikTok",
+     "Make Your Day"
+    ]
+   ],
+   "how": "no list found",
+   "at": "2026-11-14T22:31:36Z",
    "version": 3
   }
  },
@@ -57212,6 +57232,66 @@
   },
   "/2026/the-baillie-gifford-prize-for-non-fiction-2026-award": {
    "skip": true,
+   "version": 2
+  },
+  "/2025/will-koart-top-10-best-albums-of-2025": {
+   "outlet": "Will Koart",
+   "writer": null,
+   "title": "Top 10 Best Albums of 2025",
+   "url": "https://www.tiktok.com/@willtalksmusic/video/7586818954061040926",
+   "ranked": true,
+   "entries": [
+    [
+     1,
+     "Rosalía",
+     "Lux"
+    ],
+    [
+     2,
+     "Model/Actriz",
+     "Pirouette"
+    ],
+    [
+     3,
+     "McKinley Dixon",
+     "Magic, Alive!"
+    ],
+    [
+     4,
+     "FKA twigs",
+     "Eusexua"
+    ],
+    [
+     5,
+     "Deafheaven",
+     "Lonely People with Power"
+    ],
+    [
+     6,
+     "Dijon",
+     "Baby"
+    ],
+    [
+     7,
+     "Bad Bunny",
+     "Debí Tirar Más Fotos"
+    ],
+    [
+     8,
+     "Candelabro",
+     "Deseo, Carne y Voluntad"
+    ],
+    [
+     9,
+     "Clipse",
+     "Let God Sort Em Out"
+    ],
+    [
+     10,
+     "Mei Semones",
+     "Animaru"
+    ]
+   ],
    "version": 2
   }
  }
