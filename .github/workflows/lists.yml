@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - build_lists.py
+      - midyear_lists.json
       - .github/workflows/lists.yml
 
 permissions:
