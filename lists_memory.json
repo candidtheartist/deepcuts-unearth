@@ -4384,7 +4384,7 @@
    "genre": "Electronic"
   },
   "nineinchnoize|nineinchnailsboysnoize": {
-   "missAt": "2026-11-14T22:33:09Z"
+   "missAt": "2026-11-17T01:55:05Z"
   },
   "nineinchnoize|nineinchnailsboyznoize": {
    "missAt": "2026-10-28T22:50:27Z"
@@ -5404,7 +5404,7 @@
    "genre": "Indie Rock"
   },
   "whatofournature|haleyheynderickxmaxgarciaconover": {
-   "missAt": "2026-11-14T22:32:02Z"
+   "missAt": "2026-11-17T01:54:10Z"
   },
   "musicalchairs|artificialgo": {
    "id": "6797090288",
@@ -5415,7 +5415,7 @@
    "genre": "Punk"
   },
   "buyabuyacomeback|mahotellaqueens": {
-   "missAt": "2026-11-14T22:32:12Z"
+   "missAt": "2026-11-17T01:54:21Z"
   },
   "likecartoonvampires|convenience": {
    "id": "1781753921",
@@ -5477,7 +5477,7 @@
    "genre": "Punk"
   },
   "pulluptobusan4morehypersummeritsgonnabeafuckinmovie|effie": {
-   "missAt": "2026-11-14T22:32:31Z"
+   "missAt": "2026-11-17T01:54:35Z"
   },
   "goldenheartprotector|margaretglaspy": {
    "id": "1827216007",
@@ -5504,7 +5504,7 @@
    "genre": "Alternative"
   },
   "acitydrownedingodsblacktears|infinityknivesbrianennals": {
-   "missAt": "2026-11-14T22:32:38Z"
+   "missAt": "2026-11-17T01:54:42Z"
   },
   "resonance|billfox": {
    "id": "1805061940",
@@ -5659,7 +5659,7 @@
    "genre": "Punk"
   },
   "egotrip|johnmichelanthonyjames": {
-   "missAt": "2026-11-14T22:32:44Z"
+   "missAt": "2026-11-17T01:54:49Z"
   },
   "ruby|jennie": {
    "id": "1800280826",
@@ -5726,7 +5726,7 @@
    "genre": "Rock"
   },
   "youlookprettysadforagirlsoinlove|oliviarodrigo": {
-   "missAt": "2026-11-14T22:33:03Z"
+   "missAt": "2026-11-17T01:55:16Z"
   },
   "memorybeablade|waterbaby": {
    "id": "1860950338",
@@ -5924,7 +5924,7 @@
    "genre": "Alternative"
   },
   "thankyou|miked5d": {
-   "missAt": "2026-11-14T22:32:52Z"
+   "missAt": "2026-11-17T01:54:58Z"
   },
   "paddywhackery|marywallopers": {
    "id": "6795603104",
@@ -25820,13 +25820,13 @@
   "https://www.youtube.com/watch?v=gFwdyAkueB4": {
    "entries": [],
    "how": "no list found",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://www.instagram.com/reels/DSiqkYnkjZl/": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://www.businessinsider.com/best-albums-2025": {
@@ -26820,7 +26820,7 @@
   "https://www.theatlantic.com/culture/2025/12/best-albums-2025/685008/": {
    "entries": [],
    "how": "firewall",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://www.npr.org/2025/12/11/g-s1-99986/best-albums-of-2025-sheldon-pearce": {
@@ -27726,7 +27726,7 @@
   "https://www.washingtonpost.com/entertainment/music/2025/12/08/best-pop-albums-2025/": {
    "entries": [],
    "how": "http error",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://www.soundopinions.org/show/1045": {
@@ -28106,7 +28106,7 @@
   "https://www.instagram.com/p/DR4nNN2kVq1/": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://www.nytimes.com/2025/12/05/arts/music/best-albums-2025.html": {
@@ -28144,7 +28144,7 @@
   "https://sterlewine.substack.com/p/stes-best-albums-of-2025": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://time.com/7333797/best-albums-2025/": {
@@ -28898,7 +28898,7 @@
   "https://www.wsj.com/arts-culture/music/the-best-music-of-2025-human-creativity-in-an-ai-world-b040c3e7": {
    "entries": [],
    "how": "robots.txt",
-   "at": "2026-11-13T23:39:10Z",
+   "at": "2026-11-17T01:53:40Z",
    "version": 3
   },
   "https://www.mojo4music.com/magazine/latest-issues/mojo-398-january-2027-peter-gabriel/": {
@@ -57750,6 +57750,10 @@
      "Animaru"
     ]
    ],
+   "version": 2
+  },
+  "/2026/chicago-public-library-top-10-favorite-books-of-2026": {
+   "skip": true,
    "version": 2
   }
  }
