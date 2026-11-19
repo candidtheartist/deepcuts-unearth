@@ -633,14 +633,6 @@
    "image": null
   },
   {
-   "source": "needle-drop",
-   "artist": "Queens of the Stone Age",
-   "album": "Perfecth",
-   "url": "https://www.youtube.com/watch?v=KouRFIOyqws",
-   "date": "2026-11-03T05:25:33Z",
-   "image": null
-  },
-  {
    "source": "beats-per-minute",
    "artist": "HUG",
    "album": "HUG",
@@ -1337,11 +1329,163 @@
    "image": null
   },
   {
+   "source": "musicomh",
+   "artist": "Desperate Journalist",
+   "album": "Gilding The Lily",
+   "url": "https://www.musicomh.com/reviews/albums/desperate-journalist-gilding-the-lily",
+   "date": "2026-11-18T10:16:59Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Sheherazaad",
+   "album": "Khudgarzi",
+   "url": "https://www.musicomh.com/reviews/albums/sheherazaad-khudgarzi",
+   "date": "2026-11-18T08:01:06Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Anna Lapwood",
+   "album": "Not All Those Who Wander Are Lost",
+   "url": "https://www.musicomh.com/classical/anna-lapwood-not-all-those-who-wander-are-lost",
+   "date": "2026-11-13T17:01:05Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Los Bitchos",
+   "album": "Los Bitchos & Friends Vol 1",
+   "url": "https://www.musicomh.com/reviews/albums/los-bitchos-los-bitchos-friends-vol-1",
+   "date": "2026-11-13T16:31:34Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Trentemøller",
+   "album": "Trentemøller",
+   "url": "https://www.musicomh.com/reviews/albums/trentemoller-trentemoller",
+   "date": "2026-11-13T12:36:08Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "U2",
+   "album": "Carnaval De Luz",
+   "url": "https://www.musicomh.com/reviews/albums/u2-carnaval-de-luz",
+   "date": "2026-11-13T08:01:04Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Blackhaine",
+   "album": "Saints In The Wethouse",
+   "url": "https://www.musicomh.com/reviews/albums/blackhaine-saints-in-the-wethouse",
+   "date": "2026-11-13T07:31:46Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Radie Peat",
+   "album": "No Human Tongue Can Tell",
+   "url": "https://www.musicomh.com/reviews/albums/radie-peat-no-human-tongue-can-tell",
+   "date": "2026-11-13T07:01:43Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Steven Wilson",
+   "album": "Requiem For A Village",
+   "url": "https://www.musicomh.com/reviews/albums/steven-wilson-requiem-for-a-village",
+   "date": "2026-11-06T17:31:15Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Django Django",
+   "album": "Doveland",
+   "url": "https://www.musicomh.com/reviews/albums/django-django-doveland",
+   "date": "2026-11-06T08:01:42Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Ane Brun",
+   "album": "I Thought We Were The Same",
+   "url": "https://www.musicomh.com/reviews/albums/ane-brun-i-thought-we-were-the-same",
+   "date": "2026-11-06T07:31:47Z",
+   "image": null
+  },
+  {
+   "source": "musicomh",
+   "artist": "Do Nothing",
+   "album": "Friend World",
+   "url": "https://www.musicomh.com/reviews/albums/do-nothing-friend-world",
+   "date": "2026-11-04T13:31:39Z",
+   "image": null
+  },
+  {
    "source": "jenesaispop",
    "artist": "Guillem Gisbert",
    "album": "El detector de mentides",
    "url": "https://jenesaispop.com/2026/11/18/534136/guillem-gisbert-detector-mentides-critica/",
    "date": "2026-11-18T11:32:33Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Hidrogenesse",
+   "album": "Variaciones Pombo",
+   "url": "https://muzikalia.com/hidrogenesse-variaciones-pombo-austrohungaro/",
+   "date": "2026-11-18T08:56:08Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Hostia Pedagógica",
+   "album": "Homo Lamentabilis",
+   "url": "https://muzikalia.com/hostia-pedagogica-homo-lamentabilis-limbo-starr/",
+   "date": "2026-11-18T08:00:00Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Trentemøller",
+   "album": "Trentemøller",
+   "url": "https://muzikalia.com/trentemoller-trentemoller-in-my-room/",
+   "date": "2026-11-17T07:00:00Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Ramper",
+   "album": "Dos criaturas",
+   "url": "https://muzikalia.com/ramper-dos-criaturas-humo-internacional/",
+   "date": "2026-11-17T06:30:00Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "The Haunted Youth",
+   "album": "Boys Cry Too (Anti Pop / [PIAS])",
+   "url": "https://muzikalia.com/the-haunted-youth-boys-cry-too-anti-pop-pias/",
+   "date": "2026-11-16T06:42:00Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "U2",
+   "album": "Carnaval de Luz",
+   "url": "https://muzikalia.com/u2-carnaval-de-luz-island-universal/",
+   "date": "2026-11-13T06:26:00Z",
+   "image": null
+  },
+  {
+   "source": "muzikalia",
+   "artist": "Kiko Veneno",
+   "album": "Precisamente",
+   "url": "https://muzikalia.com/kiko-veneno-precisamente-subterfuge/",
+   "date": "2026-11-13T06:21:09Z",
    "image": null
   },
   {
@@ -1762,6 +1906,14 @@
   },
   {
    "source": "spill",
+   "artist": "John Sykes",
+   "album": "One Way",
+   "url": "https://spillmagazine.com/spill-album-review-john-sykes-one-way/",
+   "date": "2026-11-07T02:18:09Z",
+   "image": null
+  },
+  {
+   "source": "spill",
    "artist": "Carmen Quill",
    "album": "Harmless",
    "url": "https://spillmagazine.com/spill-album-review-carmen-quill-harmless/",
@@ -1801,11 +1953,11 @@
    "image": null
   },
   {
-   "source": "spill",
-   "artist": "Wilder Maker",
-   "album": "Smoking The Bunny",
-   "url": "https://spillmagazine.com/spill-album-review-wilder-maker-smoking-the-bunny/",
-   "date": "2026-11-06T05:09:45Z",
+   "source": "mxdwn",
+   "artist": "Trentemoller",
+   "album": "Trentemoller",
+   "url": "https://music.mxdwn.com/2026/11/18/reviews/album-review-trentemoller-trentemoller/",
+   "date": "2026-11-18T23:54:44Z",
    "image": null
   },
   {
@@ -1830,14 +1982,6 @@
    "album": "O My Beloved",
    "url": "https://music.mxdwn.com/2026/11/15/reviews/album-review-kings-of-leon-o-my-beloved/",
    "date": "2026-11-16T03:37:34Z",
-   "image": null
-  },
-  {
-   "source": "mxdwn",
-   "artist": "Deux Visages",
-   "album": "Call It Goodbye",
-   "url": "https://music.mxdwn.com/2026/11/11/reviews/album-review-deux-visages-call-it-goodbye/",
-   "date": "2026-11-11T22:01:11Z",
    "image": null
   },
   {
@@ -4417,6 +4561,14 @@
    "image": null
   },
   {
+   "source": "louder-than-war",
+   "artist": "T.R. Burge & The Temple",
+   "album": "Godache",
+   "url": "https://louderthanwar.com/t-r-burge-the-temple-godache-album-review/",
+   "date": "2026-11-18T10:01:17Z",
+   "image": null
+  },
+  {
    "source": "angry-metal-guy",
    "artist": "Grymheart",
    "album": "Wake Not the Beast",
@@ -4718,6 +4870,54 @@
    "album": "Thriving",
    "url": "https://echoesanddust.com/2026/11/love-sex-machine-thriving/",
    "date": "2026-11-13T12:50:19Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Replicant/Elitist",
+   "album": "Indomitable Hostility",
+   "url": "https://everythingisnoise.net/reviews/replicant-elitist-indomitable-hostility/",
+   "date": "2026-11-18T06:50:23Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Bonjour Tristesse",
+   "album": "Disaster Triumphant",
+   "url": "https://everythingisnoise.net/reviews/bonjour-tristesse-disaster-triumphant/",
+   "date": "2026-11-17T18:54:46Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Saving Face",
+   "album": "Love Above All Else",
+   "url": "https://everythingisnoise.net/reviews/saving-face-love-above-all-else/",
+   "date": "2026-11-16T06:41:57Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Troye Sivan",
+   "album": "She’s the Best",
+   "url": "https://everythingisnoise.net/reviews/troye-sivan-shes-the-best/",
+   "date": "2026-11-13T09:38:40Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Dissimulator",
+   "album": "Artifice Dissolves",
+   "url": "https://everythingisnoise.net/reviews/dissimulator-artifice-dissolves/",
+   "date": "2026-11-12T08:21:38Z",
+   "image": null
+  },
+  {
+   "source": "everything-is-noise",
+   "artist": "Hippotraktor",
+   "album": "Annihilist",
+   "url": "https://everythingisnoise.net/reviews/hippotraktor-annihilist/",
+   "date": "2026-11-11T11:07:42Z",
    "image": null
   },
   {
@@ -5418,6 +5618,14 @@
   },
   {
    "source": "a-closer-listen",
+   "artist": "Lorenzo Senni",
+   "album": "All Ages",
+   "url": "https://acloserlisten.com/2026/11/19/lorenzo-senni-all-ages/",
+   "date": "2026-11-19T00:01:55Z",
+   "image": null
+  },
+  {
+   "source": "a-closer-listen",
    "artist": "Erland Cooper",
    "album": "Dawn Chorus",
    "url": "https://acloserlisten.com/2026/11/18/erland-cooper-dawn-chorus/",
@@ -5462,14 +5670,6 @@
    "album": "Brief Encounters / Familiar Grounds",
    "url": "https://acloserlisten.com/2026/11/12/ralph-chbeir-brief-encounters/",
    "date": "2026-11-12T00:01:03Z",
-   "image": null
-  },
-  {
-   "source": "a-closer-listen",
-   "artist": "Gibrana Cervantes",
-   "album": "Verdad y Error",
-   "url": "https://acloserlisten.com/2026/11/11/gibrana-cervantes-verdad-y-error/",
-   "date": "2026-11-11T00:01:13Z",
    "image": null
   },
   {
@@ -5858,6 +6058,14 @@
   },
   {
    "source": "ban-ban-ton-ton",
+   "artist": "22gsn",
+   "album": "Blinker",
+   "url": "https://banbantonton.com/2026/11/19/22gsn-blinker-mood-hut/",
+   "date": "2026-11-19T00:01:00Z",
+   "image": "https://banbantonton.com/wp-content/uploads/2026/11/22gsn-blinker-mood-hut.jpg"
+  },
+  {
+   "source": "ban-ban-ton-ton",
    "artist": "Yuka Mizuhara",
    "album": "Moon Dust",
    "url": "https://banbantonton.com/2026/11/16/yuka-mizuhara-moon-dust-rush-hour/",
@@ -5890,6 +6098,14 @@
   },
   {
    "source": "acid-stag",
+   "artist": "Caleb Kunle",
+   "album": "ADSM",
+   "url": "https://acidstag.com/2026/11/caleb-kunle-adsm-ep/",
+   "date": "2026-11-18T21:07:42Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/19080103/Caleb-Kunle-ADSM-EP.jpg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "acid-stag",
    "artist": "DJ HEARTSTRING",
    "album": "Sentimental Ultra",
    "url": "https://acidstag.com/2026/11/dj-heartstring-sentimental-ultra-lp/",
@@ -5905,20 +6121,76 @@
    "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/16085258/Porcelain-Boy-you-cant-see-my-mirrors-I-cant-see-you-ep.png?w=150&h=150&crop=1&ssl=1"
   },
   {
-   "source": "acid-stag",
-   "artist": "shitzulover07",
-   "album": "PARTY MONSTER",
-   "url": "https://acidstag.com/2026/11/shitzulover07-party-monster-ep/",
-   "date": "2026-11-08T22:53:04Z",
-   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/09095025/shitzulover07-PARTY-MONSTER-EP-scaled.jpeg?w=150&h=150&crop=1&ssl=1"
+   "source": "ambientblog",
+   "artist": "Pietro Zollo",
+   "album": "Surface Tension",
+   "url": "https://www.ambientblog.net/surfacetension/",
+   "date": "2026-11-14T08:37:05Z",
+   "image": null
   },
   {
-   "source": "acid-stag",
-   "artist": "Boys Noize",
-   "album": "7LLVSION",
-   "url": "https://acidstag.com/2026/11/boys-noize-7llvsion-lp/",
-   "date": "2026-11-05T23:07:31Z",
-   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/06100438/Boys-Noize-7LLVSION-LP.jpg?w=150&h=150&crop=1&ssl=1"
+   "source": "ambientblog",
+   "artist": "Haarvöl",
+   "album": "Overflowed Shelters",
+   "url": "https://www.ambientblog.net/overflowedshelters/",
+   "date": "2026-11-09T08:33:37Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Jeff Greinke",
+   "album": "Land Of Ice And Fog",
+   "url": "https://www.ambientblog.net/greinke-landicefog/",
+   "date": "2026-10-28T09:35:00Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "The Larsen Pipes",
+   "album": "The Larsen Pipes 01",
+   "url": "https://www.ambientblog.net/larsenpipes/",
+   "date": "2026-10-24T07:43:42Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Ava Rasti",
+   "album": "No One Knows How Wild The Wind Blows",
+   "url": "https://www.ambientblog.net/avarasti-wind/",
+   "date": "2026-10-19T10:48:12Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Mathias Villard",
+   "album": "Past Radiance",
+   "url": "https://www.ambientblog.net/past-radiance/",
+   "date": "2026-10-14T18:54:41Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Deaf Center",
+   "album": "Trinitatis",
+   "url": "https://www.ambientblog.net/trinitatis/",
+   "date": "2026-10-09T08:32:27Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Adam Wiltzie & Johann Johannsson",
+   "album": "Friendship Survival Guide",
+   "url": "https://www.ambientblog.net/wiltzie-johannsson/",
+   "date": "2026-09-26T07:03:40Z",
+   "image": null
+  },
+  {
+   "source": "ambientblog",
+   "artist": "Looper",
+   "album": "Interior-Day",
+   "url": "https://www.ambientblog.net/looper-interiorday/",
+   "date": "2026-09-21T11:55:48Z",
+   "image": null
   },
   {
    "source": "guardian-classical",
@@ -6233,6 +6505,54 @@
    "image": null
   },
   {
+   "source": "needle-drop",
+   "artist": "Queens of the Stone Age",
+   "album": "Perfecth",
+   "url": "https://www.youtube.com/watch?v=KouRFIOyqws",
+   "date": "2026-11-03T05:25:33Z",
+   "image": null
+  },
+  {
+   "source": "spill",
+   "artist": "Wilder Maker",
+   "album": "Smoking The Bunny",
+   "url": "https://spillmagazine.com/spill-album-review-wilder-maker-smoking-the-bunny/",
+   "date": "2026-11-06T05:09:45Z",
+   "image": null
+  },
+  {
+   "source": "mxdwn",
+   "artist": "Deux Visages",
+   "album": "Call It Goodbye",
+   "url": "https://music.mxdwn.com/2026/11/11/reviews/album-review-deux-visages-call-it-goodbye/",
+   "date": "2026-11-11T22:01:11Z",
+   "image": null
+  },
+  {
+   "source": "a-closer-listen",
+   "artist": "Gibrana Cervantes",
+   "album": "Verdad y Error",
+   "url": "https://acloserlisten.com/2026/11/11/gibrana-cervantes-verdad-y-error/",
+   "date": "2026-11-11T00:01:13Z",
+   "image": null
+  },
+  {
+   "source": "acid-stag",
+   "artist": "shitzulover07",
+   "album": "PARTY MONSTER",
+   "url": "https://acidstag.com/2026/11/shitzulover07-party-monster-ep/",
+   "date": "2026-11-08T22:53:04Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/09095025/shitzulover07-PARTY-MONSTER-EP-scaled.jpeg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "acid-stag",
+   "artist": "Boys Noize",
+   "album": "7LLVSION",
+   "url": "https://acidstag.com/2026/11/boys-noize-7llvsion-lp/",
+   "date": "2026-11-05T23:07:31Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/06100438/Boys-Noize-7LLVSION-LP.jpg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
    "source": "bandcamp-daily",
    "artist": "Various Artists",
    "album": "A La Altura: Visionary Mexican Music 1977–1999, Volume 1",
@@ -6262,158 +6582,6 @@
    "album": "Parallels & Diagonals",
    "url": "https://dustedmagazine.tumblr.com/post/832277648020537344",
    "date": "2026-11-03T16:03:36Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Desperate Journalist",
-   "album": "Gilding The Lily",
-   "url": "https://www.musicomh.com/reviews/albums/desperate-journalist-gilding-the-lily",
-   "date": "2026-11-18T10:16:59Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Sheherazaad",
-   "album": "Khudgarzi",
-   "url": "https://www.musicomh.com/reviews/albums/sheherazaad-khudgarzi",
-   "date": "2026-11-18T08:01:06Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Anna Lapwood",
-   "album": "Not All Those Who Wander Are Lost",
-   "url": "https://www.musicomh.com/classical/anna-lapwood-not-all-those-who-wander-are-lost",
-   "date": "2026-11-13T17:01:05Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Los Bitchos",
-   "album": "Los Bitchos & Friends Vol 1",
-   "url": "https://www.musicomh.com/reviews/albums/los-bitchos-los-bitchos-friends-vol-1",
-   "date": "2026-11-13T16:31:34Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Trentemøller",
-   "album": "Trentemøller",
-   "url": "https://www.musicomh.com/reviews/albums/trentemoller-trentemoller",
-   "date": "2026-11-13T12:36:08Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "U2",
-   "album": "Carnaval De Luz",
-   "url": "https://www.musicomh.com/reviews/albums/u2-carnaval-de-luz",
-   "date": "2026-11-13T08:01:04Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Blackhaine",
-   "album": "Saints In The Wethouse",
-   "url": "https://www.musicomh.com/reviews/albums/blackhaine-saints-in-the-wethouse",
-   "date": "2026-11-13T07:31:46Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Radie Peat",
-   "album": "No Human Tongue Can Tell",
-   "url": "https://www.musicomh.com/reviews/albums/radie-peat-no-human-tongue-can-tell",
-   "date": "2026-11-13T07:01:43Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Steven Wilson",
-   "album": "Requiem For A Village",
-   "url": "https://www.musicomh.com/reviews/albums/steven-wilson-requiem-for-a-village",
-   "date": "2026-11-06T17:31:15Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Django Django",
-   "album": "Doveland",
-   "url": "https://www.musicomh.com/reviews/albums/django-django-doveland",
-   "date": "2026-11-06T08:01:42Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Ane Brun",
-   "album": "I Thought We Were The Same",
-   "url": "https://www.musicomh.com/reviews/albums/ane-brun-i-thought-we-were-the-same",
-   "date": "2026-11-06T07:31:47Z",
-   "image": null
-  },
-  {
-   "source": "musicomh",
-   "artist": "Do Nothing",
-   "album": "Friend World",
-   "url": "https://www.musicomh.com/reviews/albums/do-nothing-friend-world",
-   "date": "2026-11-04T13:31:39Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Hidrogenesse",
-   "album": "Variaciones Pombo",
-   "url": "https://muzikalia.com/hidrogenesse-variaciones-pombo-austrohungaro/",
-   "date": "2026-11-18T08:56:08Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Hostia Pedagógica",
-   "album": "Homo Lamentabilis",
-   "url": "https://muzikalia.com/hostia-pedagogica-homo-lamentabilis-limbo-starr/",
-   "date": "2026-11-18T08:00:00Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Trentemøller",
-   "album": "Trentemøller",
-   "url": "https://muzikalia.com/trentemoller-trentemoller-in-my-room/",
-   "date": "2026-11-17T07:00:00Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Ramper",
-   "album": "Dos criaturas",
-   "url": "https://muzikalia.com/ramper-dos-criaturas-humo-internacional/",
-   "date": "2026-11-17T06:30:00Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "The Haunted Youth",
-   "album": "Boys Cry Too (Anti Pop / [PIAS])",
-   "url": "https://muzikalia.com/the-haunted-youth-boys-cry-too-anti-pop-pias/",
-   "date": "2026-11-16T06:42:00Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "U2",
-   "album": "Carnaval de Luz",
-   "url": "https://muzikalia.com/u2-carnaval-de-luz-island-universal/",
-   "date": "2026-11-13T06:26:00Z",
-   "image": null
-  },
-  {
-   "source": "muzikalia",
-   "artist": "Kiko Veneno",
-   "album": "Precisamente",
-   "url": "https://muzikalia.com/kiko-veneno-precisamente-subterfuge/",
-   "date": "2026-11-13T06:21:09Z",
    "image": null
   },
   {
@@ -6449,14 +6617,6 @@
    "image": null
   },
   {
-   "source": "louder-than-war",
-   "artist": "T.R. Burge & The Temple",
-   "album": "Godache",
-   "url": "https://louderthanwar.com/t-r-burge-the-temple-godache-album-review/",
-   "date": "2026-11-18T10:01:17Z",
-   "image": null
-  },
-  {
    "source": "angry-metal-guy",
    "artist": "Waylander",
    "album": "Mac Tíre – Son of the Land",
@@ -6478,126 +6638,6 @@
    "album": "Ultraviolet Parasite",
    "url": "https://www.heavyblogisheavy.com/2026/10/23/frontierer-ultraviolet-parasite/",
    "date": "2026-10-23T13:00:00Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Replicant/Elitist",
-   "album": "Indomitable Hostility",
-   "url": "https://everythingisnoise.net/reviews/replicant-elitist-indomitable-hostility/",
-   "date": "2026-11-18T06:50:23Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Bonjour Tristesse",
-   "album": "Disaster Triumphant",
-   "url": "https://everythingisnoise.net/reviews/bonjour-tristesse-disaster-triumphant/",
-   "date": "2026-11-17T18:54:46Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Saving Face",
-   "album": "Love Above All Else",
-   "url": "https://everythingisnoise.net/reviews/saving-face-love-above-all-else/",
-   "date": "2026-11-16T06:41:57Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Troye Sivan",
-   "album": "She’s the Best",
-   "url": "https://everythingisnoise.net/reviews/troye-sivan-shes-the-best/",
-   "date": "2026-11-13T09:38:40Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Dissimulator",
-   "album": "Artifice Dissolves",
-   "url": "https://everythingisnoise.net/reviews/dissimulator-artifice-dissolves/",
-   "date": "2026-11-12T08:21:38Z",
-   "image": null
-  },
-  {
-   "source": "everything-is-noise",
-   "artist": "Hippotraktor",
-   "album": "Annihilist",
-   "url": "https://everythingisnoise.net/reviews/hippotraktor-annihilist/",
-   "date": "2026-11-11T11:07:42Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Pietro Zollo",
-   "album": "Surface Tension",
-   "url": "https://www.ambientblog.net/surfacetension/",
-   "date": "2026-11-14T08:37:05Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Haarvöl",
-   "album": "Overflowed Shelters",
-   "url": "https://www.ambientblog.net/overflowedshelters/",
-   "date": "2026-11-09T08:33:37Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Jeff Greinke",
-   "album": "Land Of Ice And Fog",
-   "url": "https://www.ambientblog.net/greinke-landicefog/",
-   "date": "2026-10-28T09:35:00Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "The Larsen Pipes",
-   "album": "The Larsen Pipes 01",
-   "url": "https://www.ambientblog.net/larsenpipes/",
-   "date": "2026-10-24T07:43:42Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Ava Rasti",
-   "album": "No One Knows How Wild The Wind Blows",
-   "url": "https://www.ambientblog.net/avarasti-wind/",
-   "date": "2026-10-19T10:48:12Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Mathias Villard",
-   "album": "Past Radiance",
-   "url": "https://www.ambientblog.net/past-radiance/",
-   "date": "2026-10-14T18:54:41Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Deaf Center",
-   "album": "Trinitatis",
-   "url": "https://www.ambientblog.net/trinitatis/",
-   "date": "2026-10-09T08:32:27Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Adam Wiltzie & Johann Johannsson",
-   "album": "Friendship Survival Guide",
-   "url": "https://www.ambientblog.net/wiltzie-johannsson/",
-   "date": "2026-09-26T07:03:40Z",
-   "image": null
-  },
-  {
-   "source": "ambientblog",
-   "artist": "Looper",
-   "album": "Interior-Day",
-   "url": "https://www.ambientblog.net/looper-interiorday/",
-   "date": "2026-09-21T11:55:48Z",
    "image": null
   },
   {
@@ -33164,6 +33204,62 @@
    "image": null
   },
   {
+   "source": "rhythm-passport",
+   "artist": "A Filetta  x Constantinople x Kiya Tabassian",
+   "album": "L’ABBRIU",
+   "url": "https://rhythmpassport.com/daily-discovery-a-filetta-x-constantinople-x-kiya-tabassian-labbriu/",
+   "date": "2026-11-18T12:00:14Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Michael Oloyede",
+   "album": "Maa Jo",
+   "url": "https://rhythmpassport.com/daily-discovery-michael-oloyede-maa-jo/",
+   "date": "2026-11-17T12:00:10Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Wariwillka",
+   "album": "YARQA",
+   "url": "https://rhythmpassport.com/daily-discovery-wariwillka-yarqa/",
+   "date": "2026-11-16T12:00:12Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Çudamani",
+   "album": "Rerejangan",
+   "url": "https://rhythmpassport.com/daily-discovery-cudamani-rerejangan/",
+   "date": "2026-11-15T12:00:10Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Seun Kuti",
+   "album": "Adara",
+   "url": "https://rhythmpassport.com/daily-discovery-seun-kuti-adara-radio-edit/",
+   "date": "2026-11-14T12:00:17Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Nazarena Cáceres",
+   "album": "Plutón",
+   "url": "https://rhythmpassport.com/daily-discovery-nazarena-caceres-pluton/",
+   "date": "2026-11-13T12:00:18Z",
+   "image": null
+  },
+  {
+   "source": "rhythm-passport",
+   "artist": "Tonga Boys",
+   "album": "MOTO",
+   "url": "https://rhythmpassport.com/daily-discovery-tonga-boys-moto-fire/",
+   "date": "2026-11-12T12:00:52Z",
+   "image": null
+  },
+  {
    "source": "world-a-reggae",
    "artist": "Jalifa",
    "album": "Psalm 35",
@@ -33477,6 +33573,14 @@
   },
   {
    "source": "acid-stag-songs",
+   "artist": "Pale Jay",
+   "album": "Rodeo",
+   "url": "https://acidstag.com/2026/11/pale-jay-rodeo/",
+   "date": "2026-11-18T21:28:55Z",
+   "image": "https://i0.wp.com/assets.acidstag.com/wp-content/uploads/2026/11/19082357/Pale-Jay-Rodeo-scaled.jpg?w=150&h=150&crop=1&ssl=1"
+  },
+  {
+   "source": "acid-stag-songs",
    "artist": "Monsieur Mellow & Drea",
    "album": "Get Up & Dance",
    "url": "https://acidstag.com/2026/11/monsieur-mellow-drea-get-up-dance/",
@@ -33577,62 +33681,6 @@
    "album": "Sing Into Your Heart",
    "url": "https://chorus.fm/features/andy-koh-sing-into-your-heart-video-premiere/",
    "date": "2026-11-16T17:19:04Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "A Filetta  x Constantinople x Kiya Tabassian",
-   "album": "L’ABBRIU",
-   "url": "https://rhythmpassport.com/daily-discovery-a-filetta-x-constantinople-x-kiya-tabassian-labbriu/",
-   "date": "2026-11-18T12:00:14Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "Michael Oloyede",
-   "album": "Maa Jo",
-   "url": "https://rhythmpassport.com/daily-discovery-michael-oloyede-maa-jo/",
-   "date": "2026-11-17T12:00:10Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "Wariwillka",
-   "album": "YARQA",
-   "url": "https://rhythmpassport.com/daily-discovery-wariwillka-yarqa/",
-   "date": "2026-11-16T12:00:12Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "Çudamani",
-   "album": "Rerejangan",
-   "url": "https://rhythmpassport.com/daily-discovery-cudamani-rerejangan/",
-   "date": "2026-11-15T12:00:10Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "Seun Kuti",
-   "album": "Adara",
-   "url": "https://rhythmpassport.com/daily-discovery-seun-kuti-adara-radio-edit/",
-   "date": "2026-11-14T12:00:17Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "Nazarena Cáceres",
-   "album": "Plutón",
-   "url": "https://rhythmpassport.com/daily-discovery-nazarena-caceres-pluton/",
-   "date": "2026-11-13T12:00:18Z",
-   "image": null
-  },
-  {
-   "source": "rhythm-passport",
-   "artist": "Tonga Boys",
-   "album": "MOTO",
-   "url": "https://rhythmpassport.com/daily-discovery-tonga-boys-moto-fire/",
-   "date": "2026-11-12T12:00:52Z",
    "image": null
   },
   {
