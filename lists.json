@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-20T15:34:26Z",
+ "generatedAt": "2026-11-21T00:01:39Z",
  "points": {
   "ranked": {
    "1": 10,
@@ -7044,9 +7044,11 @@
      "title": "LTD Vol. 1: North Face Nace",
      "artist": "Starker",
      "year": "2026",
-     "appleMusicID": null,
-     "artworkURL": null,
-     "genres": [],
+     "appleMusicID": "6836720640",
+     "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/65/8a/ee658a73-73e4-1f98-b6a5-b94e3282f8c9/825406669558_Cover.jpg/600x600bb.jpg",
+     "genres": [
+      "hiphop"
+     ],
      "points": 1,
      "lists": 1,
      "top10": 0,
