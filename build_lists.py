@@ -651,22 +651,29 @@ def main():
             "albums": albums,
         }
 
-    built = {y["year"]: y for y in previous.get("years", [])}
+    # Year-end and mid-year lists are kept side by side, so the app can look back at either: keyed by year and kind.
+    built = {(y["year"], bool(y.get("soFar"))): y for y in previous.get("years", [])}
     for year in years:
         made = build(year, so_far=False)
         if year < now.year or len(made["lists"]) >= YEAR_END_FROM:
-            built[year] = made
-    if now.year not in built or built[now.year].get("soFar"):
-        made = build(now.year, so_far=True)
+            built[(year, False)] = made
+    for year in sorted(set(years) | {now.year}):
+        # A year's mid-year lists are read until its year-end lists take over the page, then kept as they were.
+        # A past year's are read once, when they were never built.
+        if (year, False) in built and (year, True) in built:
+            continue
+        if year < now.year and (year, True) in built:
+            continue
+        made = build(year, so_far=True)
         if len(made["lists"]) >= SO_FAR_FROM:
-            built[now.year] = made
+            built[(year, True)] = made
 
     out = {
         "version": 1,
         "generatedAt": stamp(now),
         "points": {"ranked": {"1": 10, "2": 8, "3": 6, "top10": 5, "top25": 3, "other": 1},
                    "unranked": {"upTo10": 5, "upTo25": 3, "longer": 1}},
-        "years": [built[y] for y in sorted(built, reverse=True)],
+        "years": [built[k] for k in sorted(built, key=lambda k: (k[0], not k[1]), reverse=True)],
     }
     with open(OUTPUT, "w") as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
