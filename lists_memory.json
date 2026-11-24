@@ -4384,7 +4384,7 @@
    "genre": "Electronic"
   },
   "nineinchnoize|nineinchnailsboysnoize": {
-   "missAt": "2026-11-21T23:27:22Z"
+   "missAt": "2026-11-24T17:57:26Z"
   },
   "nineinchnoize|nineinchnailsboyznoize": {
    "missAt": "2026-10-28T22:50:27Z"
@@ -5404,7 +5404,7 @@
    "genre": "Indie Rock"
   },
   "whatofournature|haleyheynderickxmaxgarciaconover": {
-   "missAt": "2026-11-21T23:26:30Z"
+   "missAt": "2026-11-24T17:56:32Z"
   },
   "musicalchairs|artificialgo": {
    "id": "6797090288",
@@ -5415,7 +5415,7 @@
    "genre": "Punk"
   },
   "buyabuyacomeback|mahotellaqueens": {
-   "missAt": "2026-11-21T23:26:40Z"
+   "missAt": "2026-11-24T17:56:42Z"
   },
   "likecartoonvampires|convenience": {
    "id": "1781753921",
@@ -5477,7 +5477,7 @@
    "genre": "Punk"
   },
   "pulluptobusan4morehypersummeritsgonnabeafuckinmovie|effie": {
-   "missAt": "2026-11-21T23:26:53Z"
+   "missAt": "2026-11-24T17:56:56Z"
   },
   "goldenheartprotector|margaretglaspy": {
    "id": "1827216007",
@@ -5504,7 +5504,7 @@
    "genre": "Alternative"
   },
   "acitydrownedingodsblacktears|infinityknivesbrianennals": {
-   "missAt": "2026-11-21T23:27:00Z"
+   "missAt": "2026-11-24T17:57:03Z"
   },
   "resonance|billfox": {
    "id": "1805061940",
@@ -5659,7 +5659,7 @@
    "genre": "Punk"
   },
   "egotrip|johnmichelanthonyjames": {
-   "missAt": "2026-11-21T23:27:07Z"
+   "missAt": "2026-11-24T17:57:10Z"
   },
   "ruby|jennie": {
    "id": "1800280826",
@@ -5726,7 +5726,7 @@
    "genre": "Rock"
   },
   "youlookprettysadforagirlsoinlove|oliviarodrigo": {
-   "missAt": "2026-11-21T23:27:32Z"
+   "missAt": "2026-11-24T17:57:36Z"
   },
   "memorybeablade|waterbaby": {
    "id": "1860950338",
@@ -5924,7 +5924,7 @@
    "genre": "Alternative"
   },
   "thankyou|miked5d": {
-   "missAt": "2026-11-21T23:27:15Z"
+   "missAt": "2026-11-24T17:57:19Z"
   },
   "paddywhackery|marywallopers": {
    "id": "6795603104",
@@ -58380,6 +58380,10 @@
    "version": 2
   },
   "/2026/electric-lit-top-10-nonfiction-books-of-2026": {
+   "skip": true,
+   "version": 2
+  },
+  "/2026/tv-guide-the-10-best-tv-shows-of-2026": {
    "skip": true,
    "version": 2
   }
