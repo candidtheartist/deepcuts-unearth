@@ -7189,7 +7189,7 @@
    "genre": "Metal"
   },
   "eight|shinedown": {
-   "missAt": "2026-11-22T23:39:37Z"
+   "missAt": "2026-11-25T02:34:35Z"
   },
   "stillsuffer|terror": {
    "id": "1872200024",
@@ -58384,6 +58384,14 @@
    "version": 2
   },
   "/2026/tv-guide-the-10-best-tv-shows-of-2026": {
+   "skip": true,
+   "version": 2
+  },
+  "/2026/christopher-borrelli-10-best-books-of-2026": {
+   "skip": true,
+   "version": 2
+  },
+  "/2026/electric-lit-top-10-novels-of-2026": {
    "skip": true,
    "version": 2
   }
