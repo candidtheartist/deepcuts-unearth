@@ -7455,7 +7455,7 @@
    "genre": "R&B/Soul"
   },
   "awavethatwillneverbreak|wulyf": {
-   "missAt": "2026-11-25T17:23:48Z"
+   "missAt": "2026-11-28T01:29:53Z"
   },
   "floridawaterblues|twistedteens": {
    "id": "6784204497",
@@ -7558,6 +7558,14 @@
   },
   "dazedaileftarrowiaƒasteriskastaroptionslidersaœimailexit20xaviersobasedxavier|20bestalbumsof2026ranked": {
    "missAt": "2026-11-27T16:48:43Z"
+  },
+  "tropicoqueta|karolg": {
+   "id": "1819544141",
+   "artist": "KAROL G",
+   "album": "Tropicoqueta",
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/600x600bb.jpg",
+   "year": "2025",
+   "genre": "Latin"
   }
  },
  "pages": {
@@ -35784,7 +35792,8 @@
      "Jake Worthington",
      "When I Write the Song"
     ]
-   ]
+   ],
+   "version": 2
   },
   "/2025/sight-sound-poll-the-50-best-films-of-2025": {
    "skip": true
@@ -59281,6 +59290,10 @@
    "version": 2
   },
   "/2026/cahiers-du-cinema-top-10-films-of-2026": {
+   "skip": true,
+   "version": 2
+  },
+  "/2026/oprah-daily-the-best-books-of-2026": {
    "skip": true,
    "version": 2
   }
